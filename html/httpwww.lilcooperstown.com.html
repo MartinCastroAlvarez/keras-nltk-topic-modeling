@@ -1,0 +1,360 @@
+<!doctype html>  
+
+<!--[if IEMobile 7 ]> <html lang="en-US"class="no-js iem7"> <![endif]-->
+<!--[if lt IE 7 ]> <html lang="en-US" class="no-js ie6 oldie"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en-US" class="no-js ie7 oldie"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-US" class="no-js ie8 oldie"> <![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html lang="en-US" class="no-js"><!--<![endif]-->
+	
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		
+		<title>Lil&#039; Cooperstown Bar &amp; Grill</title>
+		
+		<meta name="description" content="">
+		<meta name="author" content="">
+		
+		<!-- icons & favicons (for more: http://themble.com/support/adding-icons-favicons/) -->
+		<link rel="shortcut icon" href="http://www.lilcooperstown.com/wp-content/themes/coops/library/images/favicon.png">
+
+		<!-- default stylesheet -->
+		<link rel="stylesheet" href="http://www.lilcooperstown.com/wp-content/themes/coops/library/css/normalize.css">		
+		
+		<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		
+		<script>window.jQuery || document.write(unescape('%3Cscript src="http://www.lilcooperstown.com/wp-content/themes/coops/library/js/libs/jquery-1.6.2.min.js"%3E%3C/script%3E'))</script>
+		
+		<script src="http://www.lilcooperstown.com/wp-content/themes/coops/library/js/libs/jquery.form.js"></script>
+		<script src="http://www.lilcooperstown.com/wp-content/themes/coops/library/js/libs/jquery.mask.js"></script>
+		
+		
+		<script>
+			$(document).ready(function(){
+			
+			
+			
+				$(".box .thumb").each(function(){
+					$(this).delay("200").animate({
+						top : 0
+					}, 200);
+				});
+				
+				
+				$("#roster").ajaxForm({
+				
+					target : "#output",
+					success : doit
+				
+				});
+				
+				
+				$("#birthday, #anniversary").mask("99/99");
+				
+				
+			});
+			
+			
+			function doit(responseText){
+				if(responseText == "OK") {
+					$("#output").remove();
+					$("#roster").replaceWith("<p>Thank you for signing up!</p>");
+				
+				} else {
+					var outputTop = $("#output").offset().top;
+					$("body,html").animate({ scrollTop : outputTop-40 }, 300);
+					$("#output").fadeIn();
+				}
+			}
+			
+			
+			
+		</script>
+		
+		<!-- drop Google Analytics Here -->
+		<!-- end analytics -->
+		
+		<!-- modernizr -->
+		
+  		<link rel="pingback" href="http://www.lilcooperstown.com/xmlrpc.php">
+		
+		<!-- wordpress head functions -->
+		<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Lil&#039; Cooperstown Bar &amp; Grill &raquo; Home Page Comments Feed" href="http://www.lilcooperstown.com/home-page/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.lilcooperstown.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=03be292975f0f905e8ff68c50d7e718e"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='https://api.w.org/' href='http://www.lilcooperstown.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.lilcooperstown.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.lilcooperstown.com/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="http://www.lilcooperstown.com/" />
+<link rel='shortlink' href='http://www.lilcooperstown.com/' />
+<link rel="alternate" type="application/json+oembed" href="http://www.lilcooperstown.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.lilcooperstown.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.lilcooperstown.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.lilcooperstown.com%2F&#038;format=xml" />
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		if (window.wfLogHumanRan) { return; }
+		window.wfLogHumanRan = true;
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//www.lilcooperstown.com/?wordfence_lh=1&hid=4A2880063FBEB4FA3DA3984C2ABAC320');
+</script>		<!-- end of wordpress head -->
+		
+		<link rel="stylesheet" href="http://www.lilcooperstown.com/wp-content/themes/coops/library/css/screen.css">
+		
+	</head>
+	
+	<body class="home page-template-default page page-id-17" id='home'>
+	
+		<div id="header">
+		  <div id="logo">
+		  	<a href="http://www.lilcooperstown.com">
+		  	<img src="http://www.lilcooperstown.com/wp-content/themes/coops/library/images/logo_home.png" alt="Lil' Cooperstown Logo" width="224" height="137" id="logo-image"/>
+		  	</a>
+		  </div>
+		  
+		  <ul id="nav" class="menu"><li id="menu-item-14" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-14"><a href="/">Home</a></li>
+<li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13"><a href="http://www.lilcooperstown.com/our-story/">Our Story</a></li>
+<li id="menu-item-789" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-789"><a href="http://www.lilcooperstown.com/menu/">Menu</a></li>
+<li id="menu-item-790" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-790"><a href="http://www.lilcooperstown.com/locations.html">Locations</a></li>
+<li id="menu-item-371" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-371"><a href="http://www.lilcooperstown.com/contact-us/">Contact Us</a></li>
+</ul>		  
+					
+	  
+		</div>
+		<!--/Header--> 
+<script src="http://www.lilcooperstown.com/wp-content/themes/coops/library/js/libs/jquery.cycle.js"></script>
+<script src="http://www.lilcooperstown.com/wp-content/themes/coops/library/js/libs/jquery.tiles.js"></script>
+<script>
+	$(document).ready(function(){
+
+	$('#slider')
+		.cycle(
+			{
+				fx: 'fade',
+				next: '#next',
+				prev: '#prev',
+				timeout: 6000
+			}
+		);
+		
+	});
+</script>
+
+<a href="#"><img id="prev" alt="Previous" src="http://www.lilcooperstown.com/wp-content/themes/coops/library/images/prev.png" /></a> <a href="#"><img id="next" alt="Next" src="http://www.lilcooperstown.com/wp-content/themes/coops/library/images/next.png" /></a>
+<div id="slide-wrapper">
+<ul id="slider">
+
+	
+  <li class="slide"><img src="http://www.lilcooperstown.com/wp-content/uploads/2012/04/home_banner_5.jpg" alt="Image" />
+    <div class="tagline">
+      <h2>We’ll fill you up — heart, friendship, memory.</h2>
+      <h2>Oh, and food too.</h2>
+    </div>
+  </li>
+    
+  
+  <li class="slide"><img src="http://www.lilcooperstown.com/wp-content/uploads/2012/04/banner_home_6.jpg" alt="Image" />
+    <div class="tagline">
+      <h2>The only place better —</h2>
+      <h2>than your home plate.</h2>
+    </div>
+  </li>
+    
+  
+  <li class="slide"><img src="http://www.lilcooperstown.com/wp-content/uploads/2012/04/home_banner_4.jpg" alt="Image" />
+    <div class="tagline">
+      <h2>Dip into an appetizer —</h2>
+      <h2>a mouth-watering start to your meal.</h2>
+    </div>
+  </li>
+    
+  
+  <li class="slide"><img src="http://www.lilcooperstown.com/wp-content/uploads/2012/04/banner_home_5.jpg" alt="Image" />
+    <div class="tagline">
+      <h2>Come watch a game or two with us —</h2>
+      <h2>you won’t forget it.</h2>
+    </div>
+  </li>
+    
+  
+  <li class="slide"><img src="http://www.lilcooperstown.com/wp-content/uploads/2012/04/home_banner_2.jpg" alt="Image" />
+    <div class="tagline">
+      <h2>Fresh and local —</h2>
+      <h2>it’s just what we do.</h2>
+    </div>
+  </li>
+    
+  
+  <li class="slide"><img src="http://www.lilcooperstown.com/wp-content/uploads/2012/04/banner_home_7.jpg" alt="Image" />
+    <div class="tagline">
+      <h2>Tasty treats —</h2>
+      <h2>to satisfy your sweet tooth.</h2>
+    </div>
+  </li>
+    
+    
+</ul>
+<!--/Banner-->
+</div><!-- #slide-wrapper -->
+
+<div id="wrapper">
+  <div id="content">
+  	
+    
+    <div id="output">
+        <div id="register">
+    </div>
+    
+    
+      
+      <table width="280" border="0" cellspacing="0" cellpadding="0">
+      
+        <tr>
+         
+        </tr>
+        
+        <tr>
+         
+        </tr>
+		
+        <tr>
+       
+        </tr>
+        
+		<tr>
+         
+        </tr>
+        
+      </table>
+      
+     
+      
+    </div>
+    <div id="intro">
+    				<h3>The neighborly thing to do.</h3>
+<p style="text-align: left;"><strong>Greet your friends. Eat great food. Catch the game.</strong> There’s a cozy, comfortable and extraordinarily cool hangout right in your neighborhood. People here do more than just gather. They celebrate. Family and friends. Hard work and success. Rooting for their favorite team. They wine and dine as a couple. Or they bring kids for an extra special meal. And for a few relaxing hours, they call this place their own. We’re Lil’ Cooperstown. The neighborly thing to do.</p>
+<p style="text-align: left;"><a href="https://www.facebook.com/Lil-Cooperstown-Bar-Grill-West-Linn-115496371806635/" target="_blank"><img class="alignnone wp-image-346 size-full" title="Lil'Cooperstown Facebook Page" src="http://www.lilcooperstown.com/wp-content/uploads/2012/04/1348524879_facebook1.png" alt="Lil'Cooperstown Facebook Page" width="200" height="40" /></a><img class="alignnone size-full wp-image-387" title="spacer" src="http://www.lilcooperstown.com/wp-content/uploads/2012/04/spacer.png" alt="" width="151" height="40" srcset="http://www.lilcooperstown.com/wp-content/uploads/2012/04/spacer.png 151w, http://www.lilcooperstown.com/wp-content/uploads/2012/04/spacer-150x40.png 150w" sizes="(max-width: 151px) 100vw, 151px" /></p>
+		    </div>
+    <div class="clr"></div>
+  </div>
+  <!--/Content--> 
+</div>
+<!--/Wrapper-->
+
+
+
+<div id="footer">
+		  <div id="locations">
+
+			
+		    <div class="box first">
+		      
+			      <h2>Hillsboro</h2>
+			      <p>2947 SE 73rd Ave <br />
+			        Hillsboro, OR 97123</p>
+			      <h3>503-718-7513 </h3>
+			      <img class="thumb" src="http://www.lilcooperstown.com/wp-content/uploads/2012/09/hillsboro_th.png"  alt="Hillsboro" /> 
+			      
+		      </div>
+		      
+		     
+		    <div class="box ">
+		      
+			      <h2>Newberg</h2>
+			      <p>705 N Springbrook Rd<br />
+			        Newberg, OR 97132</p>
+			      <h3>503-538-9405 </h3>
+			      <img class="thumb" src="http://www.lilcooperstown.com/wp-content/uploads/2012/09/newberg_th.png"  alt="Newberg" /> 
+			      
+		      </div>
+		      
+		     
+		    <div class="box ">
+		      
+			      <h2>Oregon City</h2>
+			      <p>19352 Molalla Ave <br />
+			        Oregon City, OR 97045</p>
+			      <h3>503-305-6954 </h3>
+			      <img class="thumb" src="http://www.lilcooperstown.com/wp-content/uploads/2012/09/oregon_city_th.png"  alt="Oregon City" /> 
+			      
+		      </div>
+		      
+		     
+		    <div class="box ">
+		      
+			      <h2>West Linn</h2>
+			      <p>1817 Willamette Falls Dr <br />
+			        West Linn, OR 97068</p>
+			      <h3>503-655-1995 </h3>
+			      <img class="thumb" src="http://www.lilcooperstown.com/wp-content/uploads/2012/09/west_linn_th.png"  alt="West Linn" /> 
+			      
+		      </div>
+		      
+		     		    <div class="clrSolo"></div>
+		  </div>
+		  <div id="footer-nav">
+		  	
+		  	<a href='/'> Home</a><a href='http://www.lilcooperstown.com/our-story/'> Our Story</a><a href='http://www.lilcooperstown.com/menu/'> Menu</a><a href='http://www.lilcooperstown.com/locations.html'> Locations</a><a href='http://www.lilcooperstown.com/contact-us/'> Contact Us</a>		  	
+		  </div>
+		  	
+		  <div id="copyright">&copy;2019 Lil' Cooperstown Bar &amp; Grill.  <!--&nbsp;~&nbsp; <a href="http://www.gravitatedesign.com/" target="_blank" class="seo">Portland web design</a> by <a href="http://www.gravitatedesign.com/" target="_blank">Gravitate</a></div>-->
+		  <div class="clrSolo"></div>
+		</div>
+		<!--/Footer-->
+		
+		
+		<!--[if lt IE 7 ]>
+  			<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+  			<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+		<![endif]-->
+		
+		<script type='text/javascript' src='http://www.lilcooperstown.com/wp-includes/js/wp-embed.min.js?ver=03be292975f0f905e8ff68c50d7e718e'></script>
+
+	</body>
+
+</html>

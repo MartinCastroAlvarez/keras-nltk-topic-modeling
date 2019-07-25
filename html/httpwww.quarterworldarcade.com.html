@@ -1,0 +1,1229 @@
+<!doctype html>
+<html id="pc"><head><meta name="file-name" content="home"><meta name="page-type" content="PageCloud"><meta content="IE=edge" http-equiv="X-UA-Compatible"><meta content="text/html; charset=utf-8" http-equiv="content-type"><meta name="site-name" content="quarterworld"><meta name="site-type" content="1"><style id="pagecloud-reset" class="pagecloud design-safe">
+	/* NOTE: You shouldn't change this style block.	*/
+	/* If you need to override styles, you should	*/
+	/* Add your own style block after this one.		*/
+
+	/* CSS Reset */
+	html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+	pre, abbr, address, cite, code, del, dfn, em, img, ins,
+	kbd, q, samp, small, strong, sub, sup, var, b, i,
+	dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption,
+	tbody, tfoot, thead, tr, th, td, article, aside, canvas, details,
+	figcaption, figure, footer, header, hgroup, menu, nav, section, summary,
+	time, mark, audio, video
+	{margin: 0px; padding: 0px; border: none; outline: none; font-size: 100%; vertical-align: baseline; background: transparent}
+	body {line-height: normal;}
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+	nav ul {list-style: none;}
+	blockquote, q {quotes: none;}
+	blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
+	a {margin: 0px; padding: 0px; font-size: 100%; vertical-align: baseline; background: transparent;}
+	ins {text-decoration: none;}
+	mark {font-style: normal; font-weight: normal;}
+	del {text-decoration: none;}
+	abbr[title], dfn[title] {border-bottom: 1px dotted; cursor: help;}
+	table {border-collapse: collapse; border-spacing: 0;}
+	hr {display: block; height: 1px; border: none; border-top: 1px solid black; margin: 1em 0px; padding: 0px;}
+	input, select {vertical-align: middle;}
+	ul, ol {list-style-image: none; list-style-position: inherit; list-style-type: none;}
+	code, samp, mark {font-family: inherit;}
+	p {font-style: inherit;}
+
+	table {empty-cells: show;}
+
+	/* Convert to inline */
+	address, dl, dt, dd, caption, legend, abbr, address, cite, code,
+	del, ins, mark, strike, sub, sup, label, time  {display: inline;}
+
+	/* Fix Safari 7 text rendering (spidery) */
+	body, body *	{-webkit-font-smoothing: subpixel-antialiased;}
+
+	/* Remove format from semantic tags */
+	cite	{font-style: normal;}
+</style><style id="pagecloud-common" class="pagecloud design-safe" pagecloud-version="1.1.10">
+	/* NOTE: You shouldn't change this style block.	*/
+	/* If you need to override styles, you should	*/
+	/* Add your own style block after this one.		*/
+
+	body							{color: rgb(0, 0, 0); font-family: helvetica; line-height: 1.2 /* = normal */; font-weight: 400; font-size: 15px;}
+
+	/* Prevent mobile safari from zooming certain fonts */
+	body							{-webkit-text-size-adjust: 100%;}
+	h1, h2, h3, h4, h5, h6			{font-weight: inherit;}
+
+	/* Common run-time object styles */
+	.object									{display: block;}
+	.object.hidden:not(.animated), .object[data-hidden='true']:not(.animated)			{display: none !important;}
+	body.editing .object.hidden, 	body.editing .object[data-hidden='true'] {display: block !important;}
+	.Firefox .object.attachment table		{position: relative; top: 2px;}
+	.object.attachment td.content			{word-wrap: break-word; text-align: left; vertical-align: top;}
+	.object.attachment a:hover				{opacity: 0.6 !important;}
+	.object.text td.content					{word-wrap: break-word; text-align: left; vertical-align: top;}
+	.object.text a							{cursor: pointer;}
+	.object.text a:hover					{opacity: 0.6 !important;}
+	a.object:hover							{opacity: 0.8;}
+	a										{text-decoration: inherit; color: inherit;}
+
+	/* Text object reset */
+	.object.text:not([class^='pc-']){color: rgb(0, 0, 0); font-family: helvetica; line-height: 1.2 /* = normal */; font-weight: 400; font-size: 15px;}
+
+	/* Form elements */
+	input[type="text"]				{border-radius: 2px; background-color: white;}
+
+	/* Focus glow */
+	a:focus, input:focus			{box-shadow: 0px 0px 4px rgba(26, 100, 165, 1.0), 0px 0px 4px rgba(26, 100, 165, 1.0) inset !important; outline: none; outline-offset: 0px;}
+	input::-moz-focus-inner:		{padding: 0px; border: none;}
+	input[type="text"]				{-webkit-appearance: none; -moz-appearance: none; border: solid 1px rgb(230,230,230);}
+	input[type="text"]:focus		{border-color: rgba(26, 100, 165, 0.5);}
+
+	/* Font corrections for .object.text td */
+	.IE			.IE-nudge-up-1px		{position: relative; top: -1px;}
+	.Firefox	.Firefox-nudge-up-1px	{position: relative; top: -1px;}
+	.Webkit		.Webkit-nudge-up-1px	{position: relative; top: -1px;}
+	.Safari		.Safari-nudge-up-1px	{position: relative; top: -1px;}
+	.Chrome		.Chrome-nudge-up-1px	{position: relative; top: -1px;}
+	.Windows	.Windows-nudge-up-1px	{position: relative; top: -1px;}
+	.Mac		.Mac-nudge-up-1px		{position: relative; top: -1px;}
+
+	.IE			.IE-nudge-down-1px		{position: relative; top: 1px;}
+	.Firefox	.Firefox-nudge-down-1px	{position: relative; top: 1px;}
+	.Webkit		.Webkit-nudge-down-1px	{position: relative; top: 1px;}
+	.Safari		.Safari-nudge-down-1px	{position: relative; top: 1px;}
+	.Chrome		.Chrome-nudge-down-1px	{position: relative; top: 1px;}
+	.Windows	.Windows-nudge-down-1px	{position: relative; top: 1px;}
+	.Mac		.Mac-nudge-down-1px		{position: relative; top: 1px;}
+
+	.IE			.IE-nudge-up-2px		{position: relative; top: -2px;}
+	.Firefox	.Firefox-nudge-up-2px	{position: relative; top: -2px;}
+	.Webkit		.Webkit-nudge-up-2px	{position: relative; top: -2px;}
+	.Safari		.Safari-nudge-up-2px	{position: relative; top: -2px;}
+	.Chrome		.Chrome-nudge-up-2px	{position: relative; top: -2px;}
+	.Windows	.Windows-nudge-up-2px	{position: relative; top: -2px;}
+	.Mac		.Mac-nudge-up-2px		{position: relative; top: -2px;}
+
+	.IE			.IE-nudge-down-2px		{position: relative; top: 2px;}
+	.Firefox	.Firefox-nudge-down-2px	{position: relative; top: 2px;}
+	.Webkit		.Webkit-nudge-down-2px	{position: relative; top: 2px;}
+	.Safari		.Safari-nudge-down-2px	{position: relative; top: 2px;}
+	.Chrome		.Chrome-nudge-down-2px	{position: relative; top: 2px;}
+	.Windows	.Windows-nudge-down-2px	{position: relative; top: 2px;}
+	.Mac		.Mac-nudge-down-2px		{position: relative; top: 2px;}
+
+	.fullbleed {
+		min-width: 100% !important;
+		width: 100vw !important;
+		left:calc(-50vw + 50%) !important;
+		box-sizing: border-box;
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		     -o-transform: none !important;
+		        transform: none !important;
+	}
+
+ [pagecloud-section][data-hidden="true"] {display:none;}</style><script src="https://assets.pagecloud.com/javascripts/vendor/srcdoc-polyfill.50aaf56fd9a3.js" type="application/javascript" class="pagecloud design-safe" charset="utf-8"></script><script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript" class="" data-class="pagecloud"></script><script src="https://app-assets.pagecloud.com/javascripts/libraries/useragent.js" type="text/javascript" class="pagecloud-runtime" charset="utf-8" data-class="pagecloud"></script><script src="https://app-assets.pagecloud.com/javascripts/libraries/animo.js" type="text/javascript" class="pagecloud-runtime" charset="utf-8" data-class="pagecloud"></script><script id="runtime-js" src="https://app-assets.pagecloud.com/javascripts/libraries/runtime.js" type="text/javascript" data-class="pagecloud" data-static-path="//assets.pagecloud.com/"></script><meta name="pagecloud-mobile-mode" content="true"><meta content="2019-03-12@19:26:35 UTC" http-equiv="last-modified"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,100italic,200italic,300italic,400italic,500italic,600italic,700italic" type="text/css" class="pagecloud design-safe"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,100italic,200italic,300italic,400italic,500italic,600italic,700italic" type="text/css" class="pagecloud design-safe"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:100,200,300,400,500,600,700,100italic,200italic,300italic,400italic,500italic,600italic,700italic" type="text/css" class="pagecloud design-safe"><link href="https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700,100italic,200italic,300italic,400italic,500italic,600italic,700italic" rel="stylesheet" type="text/css" class="pagecloud design-safe"><meta name="keywords" content='Fix it Felix Jr, coin op, coin-op, vending, SE bars portland, Best arcades, best arcade, bar arcade, barcade, arcade bar, beercade beer arcade, arcade portland, arcade, video arcade, pinball arcade, pinball, portland pinball, pinball portland, portland arcade, arcade rental, arcade sales, arcade auction, arcade repair, air conditioned bar, bars with AC, movie theater, tesla coil, best pizza, pizza delivery, steampunk, tavern, skee ball, akee-ball, ski ball, things to do in portland, oregon zoo, OMSI, video games, amusement devices, amusement arcade games, date night, cheap date night, date night ideas, Portland, Games, Beer, Food, Cocktails, Pinball, Pool, "video games", bar, arcade, East Burnside, coldest beer, coin op games, tap tv portland, retro game, classic arcade, soapbox derby,bars with games portland, Arcades with bar, Arcade with bar, Space rentals, Company parties, Event space, Venue Rental, Birthday venue, Something to do, things to to in portland, Coldest beer in portland, Photobooth for my event, Local fun, Portland classics, Local spots, Most popular in portland, Family friendly, Tourist attraction, Best of portland, Top 10 arcades, Best arcade games, Games for my bar, arcade games for sale, home arcade, mancave, amusement, amusement park, coldest beer in portland, cold beer, cold beer portland, arcade machines, new pinball, new arcades, new arcade games, old school arcade, portland arcades, portland arcade, arcade in portland, best arcade in portland'><meta name="description" content="Pinball &amp; Classic Arcade - 2 Cocktail bars, restaurant, Musical tesla coil, 90+ Games. All ages until 8pm. 4811 SE Hawthorne Blvd, Portland Or 97215"><title>Portland Pinball &amp; Classic Arcade | Games, Pizza and Full Bar</title><meta name="p:domain_verify" content="8e50daa8b2364acc47376bb530d3d46a"><meta name="msvalidate.01" content="21941360D3C4C04318F1C4F417C4BEE5"><style type="text/css" class="design-safe"></style><meta property="og:image" content="https://img.pagecloud.com/zvqbjVRzaR0lrs79vgBWDsSisFw=/1300x0/filters:no_upscale()/quarterworld/d3612b12-95ee-4834-c10c-d22df22974cd.png"><link rel="icon" href="https://img.pagecloud.com/2_jqlvhGzyDZJrIsqaNklkbT3e0=/250x250/filters:no_upscale()/pagecloud-sites/quarterworld/images/favicon-75dbbb96-e116-4186-97e1-a5e710d984fa.png" class="primary" pagecloud-id="802e3f48-6d4f-4ca9-b822-e8559e9afc0d" pagecloud-unique="true" pagecloud-universal="head" pagecloud-unique-selector="link[rel=icon]" pagecloud-guid="57c092a5-8518-46fd-b39f-82983ff2b98f"><link id="pagecloud-form-style" rel="stylesheet" href="https://app-assets.pagecloud.com/css/libraries/pagecloud.form.css" class="pagecloud design-safe primary" pagecloud-id="de1e7ce0-e396-437b-95d3-ccdc71d95b11" pagecloud-guid="e5270940-e98e-4260-daf7-c8b4acd0bab8" pagecloud-unique="" pagecloud-version="1.1.10" pagecloud-universal="head &gt; *:last-child::after" pagecloud-primary-type="form-type" pagecloud-unique-selector="#pagecloud-form-style"><style id="pagecloud-fullbleed" type="text/css" class="pagecloud">
+                        .fullbleed:not([data-full-video]) {
+                            width: var(--client-width) !important;
+                            margin-left: calc(-50vw + 50% + ((100vw - 1296px)/2)) !important;
+                            left: auto !important;
+                            transform: none !important;
+                        }
+                        .fullbleed.pagecloud-widget--slide {
+                            left: 0 !important;
+                        }
+                        @media only screen and (max-width: 930px)  {
+                            .fullbleed,
+                            .fixed-fullbleed,
+                            .pagecloud-widget--fixed-header-fullbleed {
+                                width: 930px !important;
+                                min-width: 930px !important;
+                                margin-left:0 !important;
+                                left:0!important;
+                                right:0!important;
+                            }
+                        }
+                        </style></head><body class="background runtime breakpoint-mode mobile-enabled" pagecloud-guid="61a17667-dab6-404c-85e0-4ca688d42ab6" pagecloud-version="2.0.0" data-breakpoints="468,468"><style class="pagecloud-global-style pagecloud design-safe" data-for="61a17667-dab6-404c-85e0-4ca688d42ab6">#pc#pc#pc [pagecloud-guid="61a17667-dab6-404c-85e0-4ca688d42ab6"] { width: 100%; height: 100%; margin: 0px; padding: 0px; overflow: visible; cursor: auto; background-color: rgba(0, 0, 0, 0); background-image: url("//siteassets.pagecloud.com/quarterworld/images/Qw_background-ID-eb630fee-0f50-46b8-8dae-8c18633c6b5f.jpg"); background-position: center top; background-size: cover; background-attachment: fixed; min-width: 930px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode)[pagecloud-guid="61a17667-dab6-404c-85e0-4ca688d42ab6"] { width: 100%; height: 100%; margin: 0px; padding: 0px; overflow: visible; cursor: auto; background-color: rgba(0, 0, 0, 0); background-image: url("https://siteassets.pagecloud.com/quarterworld/images/image-33923787-3b9b-483d-c849-a1596f60f667.jpg"); background-position: top; background-size: cover; background-attachment: fixed; min-width: 468px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode[pagecloud-guid="61a17667-dab6-404c-85e0-4ca688d42ab6"] { width: 100%; height: 100%; margin: 0px; padding: 0px; overflow: visible; cursor: auto; background-color: rgba(0, 0, 0, 0); background-image: url("https://siteassets.pagecloud.com/quarterworld/images/image-33923787-3b9b-483d-c849-a1596f60f667.jpg"); background-position: top; background-size: cover; background-attachment: fixed; min-width: 468px;  } }</style>
+
+
+
+
+
+
+
+
+
+    
+            <div class="top-gutter" style="height: 0px;"><!-- Space required to give the page some gutter --></div>
+
+            
+                
+            
+                <section id="page" class="mobile-top" pagecloud-guid="44fe5fc8-3f7e-4c72-eca9-7f9080cef6e6" pagecloud-section="abs" pagecloud-version="1.1.12"><style class="pagecloud-global-style pagecloud design-safe" data-for="44fe5fc8-3f7e-4c72-eca9-7f9080cef6e6">#pc#pc#pc [pagecloud-guid="44fe5fc8-3f7e-4c72-eca9-7f9080cef6e6"] { position: relative; min-height: 3845px; height: 3845px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="44fe5fc8-3f7e-4c72-eca9-7f9080cef6e6"] { position: relative; min-height: 3850px; height: 3850px; margin-left: auto; margin-right: auto; width: auto; overflow: visible; display: block; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="44fe5fc8-3f7e-4c72-eca9-7f9080cef6e6"] { position: relative; min-height: 3850px; height: 3850px; margin-left: auto; margin-right: auto; width: auto; overflow: visible; display: block;  } }</style>
+<div class="container" pagecloud-guid="571acd45-5414-4539-f9ec-07934f0ca42b"><style class="pagecloud-global-style pagecloud design-safe" data-for="571acd45-5414-4539-f9ec-07934f0ca42b">#pc#pc#pc [pagecloud-guid="571acd45-5414-4539-f9ec-07934f0ca42b"] { width: 930px; margin: auto; position: relative; height: 100%; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="571acd45-5414-4539-f9ec-07934f0ca42b"] { width: 468px; margin: auto; position: relative; height: 100%; margin-left: auto; margin-right: auto; overflow: hidden; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="571acd45-5414-4539-f9ec-07934f0ca42b"] { width: 468px; margin: auto; position: relative; height: 100%; margin-left: auto; margin-right: auto; overflow: hidden; overflow: hidden; } }</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="object image proportionate" pagecloud-guid="5d5175ee-aff2-43a4-c5ef-860fe90b7a48" data-aspect-ratio="946x605" pagecloud-version="1.0.2" data-original-ratio="946x605.44" data-alt-aspect-ratio="946x605"><style class="pagecloud-global-style pagecloud design-safe" data-for="5d5175ee-aff2-43a4-c5ef-860fe90b7a48">#pc#pc#pc [pagecloud-guid="5d5175ee-aff2-43a4-c5ef-860fe90b7a48"] { position: absolute; left: 230px; top: 192px; width: 496px; height: 317px; border-style: none; border-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="5d5175ee-aff2-43a4-c5ef-860fe90b7a48"] { position: absolute; left: 170px; top: 392px; width: 144px; height: 92px; border-style: none; border-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="5d5175ee-aff2-43a4-c5ef-860fe90b7a48"] { position: absolute; left: 170px; top: 392px; width: 144px; height: 92px; border-style: none; border-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0);  } }</style>
+
+
+
+
+
+
+
+
+<img alt="" src="//siteassets.pagecloud.com/quarterworld/images/qw_logo-ID-4a224621-e08a-4125-a520-5c66a98553a1.png" style="width: 100%; height: 100%; border-radius: inherit;" pagecloud-version="1.1.10">
+</div>
+<div class="object fullbleed" pagecloud-guid="fa81b711-0e93-47bb-9925-89776becb6ec" pagecloud-version="1.0.2"><style class="pagecloud-global-style pagecloud design-safe" data-for="fa81b711-0e93-47bb-9925-89776becb6ec">#pc#pc#pc [pagecloud-guid="fa81b711-0e93-47bb-9925-89776becb6ec"] { opacity: 1; width: 100%; height: 73px; position: absolute; left: 0px; top: 770px; border: 3px solid rgb(255, 255, 255); background-color: rgb(0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="fa81b711-0e93-47bb-9925-89776becb6ec"] { opacity: 1; width: 100%; height: 73px; position: absolute; left: 0px; top: 13px; border: 3px solid rgb(255, 255, 255); background-color: rgb(0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="fa81b711-0e93-47bb-9925-89776becb6ec"] { opacity: 1; width: 100%; height: 73px; position: absolute; left: 0px; top: 13px; border: 3px solid rgb(255, 255, 255); background-color: rgb(0, 0, 0);  } }</style></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a id="7cbc0950-794e-4fb2-f86f-bd6cc3d46956" href="http://pinballmap.com/portland#" class="object image proportionate" target="_blank" pagecloud-guid="0a7214f5-69e5-4725-e5c7-8636e110ea4a" data-aspect-ratio="510x54" pagecloud-version="1.1.14" data-original-ratio="510x54" data-alt-aspect-ratio="510x54"><style class="pagecloud-global-style pagecloud design-safe" data-for="0a7214f5-69e5-4725-e5c7-8636e110ea4a">#pc#pc#pc [pagecloud-guid="0a7214f5-69e5-4725-e5c7-8636e110ea4a"] { width: 368.06px; height: 39px; position: absolute; left: 542px; top: 3720px; border-style: none; border-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0.298) 5px 5px 12px; background-color: rgba(0, 0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="0a7214f5-69e5-4725-e5c7-8636e110ea4a"] { width: 283px; height: 30px; position: absolute; left: 93px; top: 3752px; border-style: none; border-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0.298) 5px 5px 12px; background-color: rgba(0, 0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="0a7214f5-69e5-4725-e5c7-8636e110ea4a"] { width: 283px; height: 30px; position: absolute; left: 93px; top: 3752px; border-style: none; border-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0.298) 5px 5px 12px; background-color: rgba(0, 0, 0, 0);  } }</style>
+<img alt="" src="http://pinballmap.com/assets/pinballmapcom-9b8ee1454524e0b350d9fc2e84587441.jpg" style="width: 100%; height: 100%; border-radius: inherit;" pagecloud-version="1.1.10"></a><a href="/qwvending" class="object image proportionate" target="_blank" pagecloud-guid="2fd78175-3668-44b5-da47-d7392b588603" data-aspect-ratio="640x160" pagecloud-version="1.1.14" data-original-image="//siteassets.pagecloud.com/quarterworld/images/qworld_banner-ID-68ffacb9-d503-4d22-dd6a-d11b73718de0.jpg" data-original-ratio="640x160" data-alt-aspect-ratio="640x160"><style class="pagecloud-global-style pagecloud design-safe" data-for="2fd78175-3668-44b5-da47-d7392b588603">#pc#pc#pc [pagecloud-guid="2fd78175-3668-44b5-da47-d7392b588603"] { position: absolute; left: 31px; top: 3713px; width: 411px; height: 102.75px; border: 2px solid rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.298) 3px 3px 8px; background-color: rgba(0, 0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="2fd78175-3668-44b5-da47-d7392b588603"] { position: absolute; left: 68px; top: 3661px; width: 325px; height: 81px; border: 2px solid rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.298) 3px 3px 8px; background-color: rgba(0, 0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="2fd78175-3668-44b5-da47-d7392b588603"] { position: absolute; left: 68px; top: 3661px; width: 325px; height: 81px; border: 2px solid rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.298) 3px 3px 8px; background-color: rgba(0, 0, 0, 0);  } }</style>
+<img alt="" src="//img.pagecloud.com/S5qlB25CFr-Osa8Ko4nlszUwkN0=/411x0/filters:no_upscale()/quarterworld/images/qworld_banner-ID-68ffacb9-d503-4d22-dd6a-d11b73718de0.jpg" style="width: 100%; height: 100%; border-radius: inherit;" srcset="//img.pagecloud.com/S5qlB25CFr-Osa8Ko4nlszUwkN0=/411x0/filters:no_upscale()/quarterworld/images/qworld_banner-ID-68ffacb9-d503-4d22-dd6a-d11b73718de0.jpg 1x, //img.pagecloud.com/8NyogIeV3pPtC8bJ_1hyZkPQVlU=/822x0/filters:no_upscale()/quarterworld/images/qworld_banner-ID-68ffacb9-d503-4d22-dd6a-d11b73718de0.jpg 2x" pagecloud-version="1.1.10"></a><div id="qwabout" class="object image proportionate" pagecloud-guid="59e79068-4d53-4b03-fee3-2896f6c0337a" data-aspect-ratio="946x605" pagecloud-version="1.0.2" data-original-ratio="946x60544" data-alt-aspect-ratio="946x605"><style class="pagecloud-global-style pagecloud design-safe" data-for="59e79068-4d53-4b03-fee3-2896f6c0337a">#pc#pc#pc [pagecloud-guid="59e79068-4d53-4b03-fee3-2896f6c0337a"] { position: absolute; left: 458px; top: 826px; width: 50px; height: 32px; opacity: 0.14; background-color: rgba(0, 0, 0, 0); border-style: none; border-color: rgba(0, 0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="59e79068-4d53-4b03-fee3-2896f6c0337a"] { position: absolute; left: 458px; top: 583px; width: 50px; height: 32px; opacity: 0.14; background-color: rgba(0, 0, 0, 0); border-style: none; border-color: rgba(0, 0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="59e79068-4d53-4b03-fee3-2896f6c0337a"] { position: absolute; left: 458px; top: 583px; width: 50px; height: 32px; opacity: 0.14; background-color: rgba(0, 0, 0, 0); border-style: none; border-color: rgba(0, 0, 0, 0);  } }</style>
+
+
+
+
+
+
+
+
+<img alt="" src="//siteassets.pagecloud.com/quarterworld/images/qw_logo-ID-4a224621-e08a-4125-a520-5c66a98553a1.png" style="width: 100%; height: 100%; border-radius: inherit;" pagecloud-version="1.1.10">
+</div>
+
+
+
+
+
+<a href="http://www.partridgegetslucky.com" class="object proportionate" target="_blank" pagecloud-guid="23f2fc64-1fb4-42e5-ba62-b0a373ef6edd" data-aspect-ratio="100x100" pagecloud-version="1.1.14" data-alt-aspect-ratio="100x100"><style class="pagecloud-global-style pagecloud design-safe" data-for="23f2fc64-1fb4-42e5-ba62-b0a373ef6edd">#pc#pc#pc [pagecloud-guid="23f2fc64-1fb4-42e5-ba62-b0a373ef6edd"] { opacity: 0; width: 50px; height: 50px; position: absolute; left: -267px; top: 360px; border-radius: 50%; border-style: none; border-color: rgba(0, 0, 0, 0); background-color: rgb(204, 204, 204); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="23f2fc64-1fb4-42e5-ba62-b0a373ef6edd"] { opacity: 0; width: 50px; height: 50px; position: absolute; left: -267px; top: 676px; border-radius: 50%; border-style: none; border-color: rgba(0, 0, 0, 0); background-color: rgb(204, 204, 204); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="23f2fc64-1fb4-42e5-ba62-b0a373ef6edd"] { opacity: 0; width: 50px; height: 50px; position: absolute; left: -267px; top: 676px; border-radius: 50%; border-style: none; border-color: rgba(0, 0, 0, 0); background-color: rgb(204, 204, 204);  } }</style></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="object fullbleed" pagecloud-guid="8a3d40e0-8b76-4a88-be67-1a2dc0398121" pagecloud-version="1.0.2"><style class="pagecloud-global-style pagecloud design-safe" data-for="8a3d40e0-8b76-4a88-be67-1a2dc0398121">#pc#pc#pc [pagecloud-guid="8a3d40e0-8b76-4a88-be67-1a2dc0398121"] { opacity: 1; width: 100%; height: 68px; position: absolute; left: 0px; top: 1943px; border: 3px solid rgb(255, 255, 255); background-color: rgb(0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="8a3d40e0-8b76-4a88-be67-1a2dc0398121"] { opacity: 1; width: 100%; height: 1183px; position: absolute; left: 5px; top: 571px; border: 3px solid rgb(255, 255, 255); background-color: rgb(0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="8a3d40e0-8b76-4a88-be67-1a2dc0398121"] { opacity: 1; width: 100%; height: 1183px; position: absolute; left: 5px; top: 571px; border: 3px solid rgb(255, 255, 255); background-color: rgb(0, 0, 0);  } }</style></div><div class="object" pagecloud-guid="fee5402f-8104-4d57-93c3-b3d517173e03" pagecloud-version="1.0.2"><style class="pagecloud-global-style pagecloud design-safe" data-for="fee5402f-8104-4d57-93c3-b3d517173e03">#pc#pc#pc [pagecloud-guid="fee5402f-8104-4d57-93c3-b3d517173e03"] { background-color: rgba(0, 0, 0, 0.498); opacity: 1; width: 879px; height: 1694px; position: absolute; left: 31px; top: 2020px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="fee5402f-8104-4d57-93c3-b3d517173e03"] { background-color: rgba(0, 0, 0, 0.498); opacity: 1; width: 467px; height: 1796px; position: absolute; left: 0px; top: 1854px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="fee5402f-8104-4d57-93c3-b3d517173e03"] { background-color: rgba(0, 0, 0, 0.498); opacity: 1; width: 467px; height: 1796px; position: absolute; left: 0px; top: 1854px;  } }</style></div><div class="object text" spellcheck="false" pagecloud-guid="13f4dacd-15da-49b5-c58e-75ce5ea46047" pagecloud-version="1.1.6"><style class="pagecloud-global-style pagecloud design-safe" data-for="13f4dacd-15da-49b5-c58e-75ce5ea46047">#pc#pc#pc [pagecloud-guid="13f4dacd-15da-49b5-c58e-75ce5ea46047"] { width: 268px; height: 128px; position: absolute; left: 111px; top: 3432px; display: block; background-color: rgba(0, 0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="13f4dacd-15da-49b5-c58e-75ce5ea46047"] { width: 276px; height: 128px; position: absolute; left: 95px; top: 3310px; display: block; background-color: rgba(0, 0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="13f4dacd-15da-49b5-c58e-75ce5ea46047"] { width: 276px; height: 128px; position: absolute; left: 95px; top: 3310px; display: block; background-color: rgba(0, 0, 0, 0);  } }</style>
+
+
+
+
+
+
+
+
+<div class="content" pagecloud-guid="e0db196e-07ec-4a00-80a3-0fc12efb9f29"><style class="pagecloud-global-style pagecloud design-safe" data-for="e0db196e-07ec-4a00-80a3-0fc12efb9f29"></style>
+
+
+
+
+
+
+
+
+<h1 pagecloud-guid="2c94969e-0421-46d8-e83a-d5ce29b54f1c" data-margin-bottom="22px"><style class="pagecloud-global-style pagecloud design-safe" data-for="2c94969e-0421-46d8-e83a-d5ce29b54f1c">#pc#pc#pc [pagecloud-guid="2c94969e-0421-46d8-e83a-d5ce29b54f1c"] { padding-left: 5px; padding-top: 35px; text-align: center; text-shadow: rgba(255, 255, 255, 0.498) 1px 0px 1px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="2c94969e-0421-46d8-e83a-d5ce29b54f1c"] { padding-left: 5px; padding-top: 35px; text-align: center; text-shadow: rgba(255, 255, 255, 0.498039) 1px 0px 1px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="2c94969e-0421-46d8-e83a-d5ce29b54f1c"] { padding-left: 5px; padding-top: 35px; text-align: center; text-shadow: rgba(255, 255, 255, 0.498039) 1px 0px 1px;  } }</style>
+
+
+
+
+
+
+
+
+<span data-block="true" pagecloud-guid="72098d70-1430-4419-e49d-75de1350fec4"><style class="pagecloud-global-style pagecloud design-safe" data-for="72098d70-1430-4419-e49d-75de1350fec4">#pc#pc#pc [pagecloud-guid="72098d70-1430-4419-e49d-75de1350fec4"] { font-family: sans-serif; font-size: 20px; font-style: normal; line-height: 1em; text-decoration: none; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="72098d70-1430-4419-e49d-75de1350fec4"] { font-family: 'helvetica'; font-size: 20px; font-style: normal; line-height: 1em; text-decoration: none; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="72098d70-1430-4419-e49d-75de1350fec4"] { font-family: 'helvetica'; font-size: 20px; font-style: normal; line-height: 1em; text-decoration: none;  } }</style>
+<span pagecloud-guid="d5079fda-7217-4510-a297-2392bb53af4b"><style class="pagecloud-global-style pagecloud design-safe" data-for="d5079fda-7217-4510-a297-2392bb53af4b"></style>
+<span pagecloud-guid="e7a0b955-58b6-4b1a-f9db-c8517f554850"><style class="pagecloud-global-style pagecloud design-safe" data-for="e7a0b955-58b6-4b1a-f9db-c8517f554850">#pc#pc#pc [pagecloud-guid="e7a0b955-58b6-4b1a-f9db-c8517f554850"] { line-height: 1.2em; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="e7a0b955-58b6-4b1a-f9db-c8517f554850"] { line-height: 1.2em; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="e7a0b955-58b6-4b1a-f9db-c8517f554850"] { line-height: 1.2em;  } }</style>
+<a href="http://www.oregonlive.com/entertainment/index.ssf/2016/04/sneak_peek_the_5_rarest_games.html" pagecloud-guid="9893fc8b-29df-4154-8777-ca5c1bad4ca1" pagecloud-version="1.1.14"><style class="pagecloud-global-style pagecloud design-safe" data-for="9893fc8b-29df-4154-8777-ca5c1bad4ca1">#pc#pc#pc [pagecloud-guid="9893fc8b-29df-4154-8777-ca5c1bad4ca1"] { color: rgb(255, 255, 255); font-weight: 700; text-decoration: none; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="9893fc8b-29df-4154-8777-ca5c1bad4ca1"] { color: rgb(255, 255, 255); font-weight: 700; text-decoration: none; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="9893fc8b-29df-4154-8777-ca5c1bad4ca1"] { color: rgb(255, 255, 255); font-weight: 700; text-decoration: none;  } }</style>
+<span pagecloud-guid="72497617-1885-463a-a8ac-0488a777764a"><style class="pagecloud-global-style pagecloud design-safe" data-for="72497617-1885-463a-a8ac-0488a777764a"></style>Sneak peek: The 5 rarest games at Portland's new QuarterWorld arcade</span></a></span><span pagecloud-guid="a95eebf2-06f1-4b06-dffd-446cdabf57ef"><style class="pagecloud-global-style pagecloud design-safe" data-for="a95eebf2-06f1-4b06-dffd-446cdabf57ef">#pc#pc#pc [pagecloud-guid="a95eebf2-06f1-4b06-dffd-446cdabf57ef"] { color: rgb(255, 255, 255); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="a95eebf2-06f1-4b06-dffd-446cdabf57ef"] { color: rgb(240, 135, 52); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="a95eebf2-06f1-4b06-dffd-446cdabf57ef"] { color: rgb(240, 135, 52);  } }</style>
+<span pagecloud-guid="3321076b-04db-4937-efd2-b3bf0ae81fcd"><style class="pagecloud-global-style pagecloud design-safe" data-for="3321076b-04db-4937-efd2-b3bf0ae81fcd"></style> – The Oregonian</span></span></span></span>
+</h1>
+</div>
+</div><div class="object text" spellcheck="false" pagecloud-guid="6d1e5d0c-224c-4be2-fbd8-589a7604256e" pagecloud-version="1.1.6"><style class="pagecloud-global-style pagecloud design-safe" data-for="6d1e5d0c-224c-4be2-fbd8-589a7604256e">#pc#pc#pc [pagecloud-guid="6d1e5d0c-224c-4be2-fbd8-589a7604256e"] { width: 268px; height: 63px; position: absolute; left: 110px; top: 3587px; display: block; background-color: rgba(0, 0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="6d1e5d0c-224c-4be2-fbd8-589a7604256e"] { width: 276px; height: 60px; position: absolute; left: 95px; top: 3568px; display: block; background-color: rgba(0, 0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="6d1e5d0c-224c-4be2-fbd8-589a7604256e"] { width: 276px; height: 60px; position: absolute; left: 95px; top: 3568px; display: block; background-color: rgba(0, 0, 0, 0);  } }</style>
+
+
+
+
+
+
+
+
+<div class="content" pagecloud-guid="5705003d-a020-4736-cb03-1fbfdcc96968"><style class="pagecloud-global-style pagecloud design-safe" data-for="5705003d-a020-4736-cb03-1fbfdcc96968"></style>
+
+
+
+
+
+
+
+
+<h1 pagecloud-guid="1dd94797-c0bf-44f1-a357-d6240a24a3f3" data-margin-bottom="0.7em"><style class="pagecloud-global-style pagecloud design-safe" data-for="1dd94797-c0bf-44f1-a357-d6240a24a3f3">#pc#pc#pc [pagecloud-guid="1dd94797-c0bf-44f1-a357-d6240a24a3f3"] { text-align: center; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="1dd94797-c0bf-44f1-a357-d6240a24a3f3"] { text-align: center; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="1dd94797-c0bf-44f1-a357-d6240a24a3f3"] { text-align: center;  } }</style>
+
+
+
+
+
+
+
+
+<span data-block="true" pagecloud-guid="f5f445a5-8c41-4454-eda6-798fd0539796"><style class="pagecloud-global-style pagecloud design-safe" data-for="f5f445a5-8c41-4454-eda6-798fd0539796">#pc#pc#pc [pagecloud-guid="f5f445a5-8c41-4454-eda6-798fd0539796"] { color: rgb(245, 245, 245); font-family: helvetica; font-size: 20px; font-style: normal; font-weight: bold; line-height: 1em; text-decoration: none; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="f5f445a5-8c41-4454-eda6-798fd0539796"] { color: rgb(231, 239, 91); font-family: 'helvetica'; font-size: 20px; font-style: normal; font-weight: bold; line-height: 1em; text-decoration: none; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="f5f445a5-8c41-4454-eda6-798fd0539796"] { color: rgb(231, 239, 91); font-family: 'helvetica'; font-size: 20px; font-style: normal; font-weight: bold; line-height: 1em; text-decoration: none;  } }</style>
+<a href="http://www.portlandmercury.com/blogtown/2016/04/08/17842087/quarterworld-portlands-got-a-new-arcade" pagecloud-guid="30e4694a-4491-4843-c8a3-b237233d8ea6" pagecloud-version="1.1.14"><style class="pagecloud-global-style pagecloud design-safe" data-for="30e4694a-4491-4843-c8a3-b237233d8ea6">#pc#pc#pc [pagecloud-guid="30e4694a-4491-4843-c8a3-b237233d8ea6"] { font-weight: 400; text-decoration: none; color: inherit; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="30e4694a-4491-4843-c8a3-b237233d8ea6"] { font-weight: 400; text-decoration: none; color: inherit; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="30e4694a-4491-4843-c8a3-b237233d8ea6"] { font-weight: 400; text-decoration: none; color: inherit;  } }</style>
+<span pagecloud-guid="2a8a053b-54d8-4625-e600-96f7c8f93c22"><style class="pagecloud-global-style pagecloud design-safe" data-for="2a8a053b-54d8-4625-e600-96f7c8f93c22"></style>QuarterWorld: Portland's Got a New Arcade!</span></a><span pagecloud-guid="09819511-278f-42ab-9d39-bb94958b77fd"><style class="pagecloud-global-style pagecloud design-safe" data-for="09819511-278f-42ab-9d39-bb94958b77fd"></style> – Portland Mercury</span></span>
+</h1>
+</div>
+</div><div class="object text" spellcheck="false" pagecloud-guid="6b531bd7-f069-4310-98bd-847fcaf13674" pagecloud-version="1.1.6"><style class="pagecloud-global-style pagecloud design-safe" data-for="6b531bd7-f069-4310-98bd-847fcaf13674">#pc#pc#pc [pagecloud-guid="6b531bd7-f069-4310-98bd-847fcaf13674"] { width: 268px; height: 120px; position: absolute; left: 124px; top: 3351px; display: block; background-color: rgba(0, 0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="6b531bd7-f069-4310-98bd-847fcaf13674"] { width: 268px; height: 120px; position: absolute; left: 103px; top: 3212px; display: block; background-color: rgba(0, 0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="6b531bd7-f069-4310-98bd-847fcaf13674"] { width: 268px; height: 120px; position: absolute; left: 103px; top: 3212px; display: block; background-color: rgba(0, 0, 0, 0);  } }</style>
+
+
+
+
+
+
+
+
+<div class="content" pagecloud-guid="d2c68247-a16d-4472-d5e7-8327e0214cc9"><style class="pagecloud-global-style pagecloud design-safe" data-for="d2c68247-a16d-4472-d5e7-8327e0214cc9"></style>
+
+
+
+
+
+
+
+
+<h1 pagecloud-guid="c7aa58c3-1ee5-4a21-ea79-81bce436417e" data-margin-bottom="20px"><style class="pagecloud-global-style pagecloud design-safe" data-for="c7aa58c3-1ee5-4a21-ea79-81bce436417e">#pc#pc#pc [pagecloud-guid="c7aa58c3-1ee5-4a21-ea79-81bce436417e"] { line-height: 1.5; text-align: center; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="c7aa58c3-1ee5-4a21-ea79-81bce436417e"] { line-height: 1.5; text-align: center; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="c7aa58c3-1ee5-4a21-ea79-81bce436417e"] { line-height: 1.5; text-align: center;  } }</style>
+
+
+
+
+
+
+
+
+<span data-block="true" pagecloud-guid="5c080192-6e45-4396-cbb6-29ea8fd6e54e"><style class="pagecloud-global-style pagecloud design-safe" data-for="5c080192-6e45-4396-cbb6-29ea8fd6e54e">#pc#pc#pc [pagecloud-guid="5c080192-6e45-4396-cbb6-29ea8fd6e54e"] { font-family: helvetica; font-size: 20px; font-style: normal; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="5c080192-6e45-4396-cbb6-29ea8fd6e54e"] { font-family: helvetica; font-size: 20px; font-style: normal; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="5c080192-6e45-4396-cbb6-29ea8fd6e54e"] { font-family: helvetica; font-size: 20px; font-style: normal;  } }</style>
+<a href="http://www.wweek.com/2016/04/04/massive-vintage-pinball-and-video-game-arcade-is-opening-this-week/" pagecloud-guid="9d0f4c3b-d03e-43d3-e8bd-1183a3fbaeaf" pagecloud-version="1.1.14"><style class="pagecloud-global-style pagecloud design-safe" data-for="9d0f4c3b-d03e-43d3-e8bd-1183a3fbaeaf">#pc#pc#pc [pagecloud-guid="9d0f4c3b-d03e-43d3-e8bd-1183a3fbaeaf"] { color: rgb(255, 255, 255); font-weight: bold; text-decoration: none; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="9d0f4c3b-d03e-43d3-e8bd-1183a3fbaeaf"] { color: rgb(255, 255, 255); font-weight: bold; text-decoration: none; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="9d0f4c3b-d03e-43d3-e8bd-1183a3fbaeaf"] { color: rgb(255, 255, 255); font-weight: bold; text-decoration: none;  } }</style>
+<span pagecloud-guid="7929a85f-b39d-477a-ed2b-f75b18ba1355"><style class="pagecloud-global-style pagecloud design-safe" data-for="7929a85f-b39d-477a-ed2b-f75b18ba1355"></style>Massive Vintage Pinball and Video Game Arcade is Opening This Week – Willamette Week</span></a></span>
+</h1>
+</div>
+</div><div class="object text" spellcheck="false" pagecloud-guid="f27d7dbb-ff9e-4bce-e288-2c245561bee7" pagecloud-version="1.1.6"><style class="pagecloud-global-style pagecloud design-safe" data-for="f27d7dbb-ff9e-4bce-e288-2c245561bee7">#pc#pc#pc [pagecloud-guid="f27d7dbb-ff9e-4bce-e288-2c245561bee7"] { width: 268px; height: 90px; position: absolute; left: 125px; top: 3245px; display: block; background-color: rgba(0, 0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="f27d7dbb-ff9e-4bce-e288-2c245561bee7"] { width: 268px; height: 90px; position: absolute; left: 103px; top: 3450px; display: block; background-color: rgba(0, 0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="f27d7dbb-ff9e-4bce-e288-2c245561bee7"] { width: 268px; height: 90px; position: absolute; left: 103px; top: 3450px; display: block; background-color: rgba(0, 0, 0, 0);  } }</style>
+
+
+
+
+
+
+
+
+<div class="content" pagecloud-guid="082260a1-2663-4748-f021-73ff6db9b9a8"><style class="pagecloud-global-style pagecloud design-safe" data-for="082260a1-2663-4748-f021-73ff6db9b9a8"></style>
+
+
+
+
+
+
+
+
+<p pagecloud-guid="272b1051-31a1-4345-bc53-7984b3641dc2" data-margin-bottom="0.7em"><style class="pagecloud-global-style pagecloud design-safe" data-for="272b1051-31a1-4345-bc53-7984b3641dc2">#pc#pc#pc [pagecloud-guid="272b1051-31a1-4345-bc53-7984b3641dc2"] { line-height: 1.5; text-align: center; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="272b1051-31a1-4345-bc53-7984b3641dc2"] { line-height: 1.5; text-align: center; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="272b1051-31a1-4345-bc53-7984b3641dc2"] { line-height: 1.5; text-align: center;  } }</style><span data-block="true" pagecloud-guid="9f70340c-8746-49ee-b714-21301807c467"><style class="pagecloud-global-style pagecloud design-safe" data-for="9f70340c-8746-49ee-b714-21301807c467">#pc#pc#pc [pagecloud-guid="9f70340c-8746-49ee-b714-21301807c467"] { font-family: helvetica; font-size: 20px; font-style: normal; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="9f70340c-8746-49ee-b714-21301807c467"] { font-family: helvetica; font-size: 20px; font-style: normal; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="9f70340c-8746-49ee-b714-21301807c467"] { font-family: helvetica; font-size: 20px; font-style: normal;  } }</style>
+<a href="http://www.kptv.com/story/31678401/more-takes-a-look-at-quarter-world-in-ne-portland" pagecloud-guid="a1de2d77-5d97-4022-838c-caeb6552bc13" pagecloud-version="1.1.14"><style class="pagecloud-global-style pagecloud design-safe" data-for="a1de2d77-5d97-4022-838c-caeb6552bc13">#pc#pc#pc [pagecloud-guid="a1de2d77-5d97-4022-838c-caeb6552bc13"] { color: rgb(255, 255, 255); font-weight: bold; text-decoration: none; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="a1de2d77-5d97-4022-838c-caeb6552bc13"] { color: rgb(255, 255, 255); font-weight: bold; text-decoration: none; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="a1de2d77-5d97-4022-838c-caeb6552bc13"] { color: rgb(255, 255, 255); font-weight: bold; text-decoration: none;  } }</style>
+<span pagecloud-guid="88168c30-40b5-4c2a-ec5f-bdb581b525e1"><style class="pagecloud-global-style pagecloud design-safe" data-for="88168c30-40b5-4c2a-ec5f-bdb581b525e1"></style>MORE takes a look at QuarterWorld in NE Portland – Fox News 12</span></a></span></p>
+</div>
+</div><div class="object image proportionate" pagecloud-guid="b57c5bd7-8179-465b-f051-4875854fcad6" data-aspect-ratio="946x125" pagecloud-version="1.0.2" data-original-ratio="946x124.68200836820084" data-alt-aspect-ratio="946x125"><style class="pagecloud-global-style pagecloud design-safe" data-for="b57c5bd7-8179-465b-f051-4875854fcad6">#pc#pc#pc [pagecloud-guid="b57c5bd7-8179-465b-f051-4875854fcad6"] { position: absolute; left: 5px; top: 638px; width: 937px; height: 124px; border-style: none; border-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="b57c5bd7-8179-465b-f051-4875854fcad6"] { position: absolute; left: 45px; top: 24px; width: 380px; height: 50px; border-style: none; border-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="b57c5bd7-8179-465b-f051-4875854fcad6"] { position: absolute; left: 45px; top: 24px; width: 380px; height: 50px; border-style: none; border-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0);  } }</style>
+
+
+
+
+
+
+
+
+<img alt="" src="//siteassets.pagecloud.com/quarterworld/images/qworld_title-ID-1a0743e3-6425-4bd5-c212-6940ee58468e.png" style="width: 100%; height: 100%; border-radius: inherit;" pagecloud-version="1.1.10">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="602aa826-05dc-40a1-cd3f-1041c428f8a9" class="object fullbleed" pagecloud-guid="c76b4e99-64fb-4d5e-a4b6-cd58fa4c50b3" pagecloud-version="1.0.2" data-hidden="true"><style class="pagecloud-global-style pagecloud design-safe" data-for="c76b4e99-64fb-4d5e-a4b6-cd58fa4c50b3">#pc#pc#pc [pagecloud-guid="c76b4e99-64fb-4d5e-a4b6-cd58fa4c50b3"] { opacity: 1; width: 100%; height: 73px; position: absolute; left: 10px; top: 769px; border: 3px solid rgb(255, 255, 255); background-color: rgb(0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="c76b4e99-64fb-4d5e-a4b6-cd58fa4c50b3"] { opacity: 1; width: 100%; height: 73px; position: absolute; left: 0px; top: 489px; border: 3px solid rgb(255, 255, 255); background-color: rgb(0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="c76b4e99-64fb-4d5e-a4b6-cd58fa4c50b3"] { opacity: 1; width: 100%; height: 73px; position: absolute; left: 0px; top: 489px; border: 3px solid rgb(255, 255, 255); background-color: rgb(0, 0, 0);  } }@media (max-width: 468px) {
+                        .mobile-enabled.breakpoint-mode [data-alt-hidden="true"][pagecloud-guid="c76b4e99-64fb-4d5e-a4b6-cd58fa4c50b3"] { display: none !important; }
+                        .mobile-enabled.breakpoint-mode :not([data-alt-hidden="true"])[pagecloud-guid="c76b4e99-64fb-4d5e-a4b6-cd58fa4c50b3"] { display: block !important; }
+                    }</style></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="object iframe proportionate" pagecloud-guid="5046c46a-22a8-4895-931e-35dadd8b8636" data-widget-type="pagecloud-youtube-video" data-aspect-ratio="853x480" data-widget-title="Youtube Video" pagecloud-version="1.1.10" data-alt-aspect-ratio="853x480"><style class="pagecloud-global-style pagecloud design-safe" data-for="5046c46a-22a8-4895-931e-35dadd8b8636">#pc#pc#pc [pagecloud-guid="5046c46a-22a8-4895-931e-35dadd8b8636"] { width: 381px; height: 214px; position: absolute; left: 536px; top: 3475px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="5046c46a-22a8-4895-931e-35dadd8b8636"] { width: 457px; height: 257px; position: absolute; left: 5px; top: 2943px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="5046c46a-22a8-4895-931e-35dadd8b8636"] { width: 457px; height: 257px; position: absolute; left: 5px; top: 2943px;  } }</style>
+
+
+
+
+
+
+
+
+<iframe src="https://www.youtube.com/embed/jg7dhG2NmPI?controls=0&amp;modestbranding=1&amp;rel=0&amp;showinfo=0&amp;enablejsapi=1&amp;wmode=transparent" class="iframe" style="height: 100%; width: 100%;" title="YouTube video player" data-muted="false" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen="true" data-widget-type="pagecloud-youtube-video" pagecloud-version="1.1.10"></iframe>
+</div><div class="object image proportionate" pagecloud-guid="94de2520-8990-4d80-c104-d8bf47263414" data-aspect-ratio="946x88" pagecloud-version="1.0.2" data-original-ratio="946x88.29333333333334" data-alt-aspect-ratio="946x88"><style class="pagecloud-global-style pagecloud design-safe" data-for="94de2520-8990-4d80-c104-d8bf47263414">#pc#pc#pc [pagecloud-guid="94de2520-8990-4d80-c104-d8bf47263414"] { position: absolute; left: 190px; top: 1953px; width: 570px; height: 53px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="94de2520-8990-4d80-c104-d8bf47263414"] { position: absolute; left: -60px; top: 1780px; width: 591px; height: 55px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="94de2520-8990-4d80-c104-d8bf47263414"] { position: absolute; left: -60px; top: 1780px; width: 591px; height: 55px;  } }</style>
+
+
+
+
+
+
+
+
+<img alt="" src="//siteassets.pagecloud.com/quarterworld/images/NEWS-ID-555c4449-2aa7-48f7-d32c-cf09495b7eb0.png" style="width: 100%; height: 100%; border-radius: inherit;" pagecloud-version="1.1.10">
+</div><div class="object image proportionate" pagecloud-guid="6b40eaf8-7955-4380-e620-c686f662dac6" data-aspect-ratio="482x140" pagecloud-version="1.0.2" data-original-ratio="482x140" data-alt-aspect-ratio="482x140"><style class="pagecloud-global-style pagecloud design-safe" data-for="6b40eaf8-7955-4380-e620-c686f662dac6">#pc#pc#pc [pagecloud-guid="6b40eaf8-7955-4380-e620-c686f662dac6"] { width: 182px; height: 53px; position: absolute; left: 382px; top: 780px; border-style: none; border-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="6b40eaf8-7955-4380-e620-c686f662dac6"] { width: 172px; height: 50px; position: absolute; left: 143px; top: 500px; border-style: none; border-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="6b40eaf8-7955-4380-e620-c686f662dac6"] { width: 172px; height: 50px; position: absolute; left: 143px; top: 500px; border-style: none; border-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0);  } }</style>
+
+
+
+
+
+
+
+
+<img alt="" src="http://siteassets.pagecloud.com/eastburn/images/ABOUT-ID-3bc9aebe-86ed-4f33-a4fa-8c2275079347.png" style="width: 100%; height: 100%; border-radius: inherit;" pagecloud-version="1.1.10">
+</div>
+
+
+<a class="object image proportionate" pagecloud-guid="73b5acf8-c299-43a8-c4dd-55ed8bf6f4fc" data-aspect-ratio="127x139" pagecloud-version="1.1.14" data-original-ratio="127x139" data-alt-aspect-ratio="127x139" href="https://www.payrange.com/"><style class="pagecloud-global-style pagecloud design-safe" data-for="73b5acf8-c299-43a8-c4dd-55ed8bf6f4fc">#pc#pc#pc [pagecloud-guid="73b5acf8-c299-43a8-c4dd-55ed8bf6f4fc"] { position: absolute; left: 708px; top: 448px; width: 128px; height: 140px; background-color: rgba(0, 0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="73b5acf8-c299-43a8-c4dd-55ed8bf6f4fc"] { position: absolute; left: 11px; top: 90px; width: 123px; height: 135px; background-color: rgba(0, 0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="73b5acf8-c299-43a8-c4dd-55ed8bf6f4fc"] { position: absolute; left: 11px; top: 90px; width: 123px; height: 135px; background-color: rgba(0, 0, 0, 0);  } }</style>
+
+
+<img alt="" src="//siteassets.pagecloud.com/quarterworld/images/PAYRANGE-ID-5bf033ca-7bf7-4692-a278-ec373d747650.png" style="width: 100%; height: 100%; border-radius: inherit;" pagecloud-version="1.1.10">
+</a><a class="object image proportionate" pagecloud-guid="0e242035-da14-485e-a394-d25d72a039f6" data-aspect-ratio="128x140" pagecloud-version="1.1.14" data-original-ratio="128x140" data-alt-aspect-ratio="123x135" href="/games"><style class="pagecloud-global-style pagecloud design-safe" data-for="0e242035-da14-485e-a394-d25d72a039f6">#pc#pc#pc [pagecloud-guid="0e242035-da14-485e-a394-d25d72a039f6"] { position: absolute; left: 708px; top: 163px; width: 128px; height: 140px; background-color: rgba(0, 0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="0e242035-da14-485e-a394-d25d72a039f6"] { position: absolute; left: 329px; top: 90px; width: 123px; height: 135px; background-color: rgba(0, 0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="0e242035-da14-485e-a394-d25d72a039f6"] { position: absolute; left: 329px; top: 90px; width: 123px; height: 135px; background-color: rgba(0, 0, 0, 0);  } }</style>
+
+
+<img alt="" src="//siteassets.pagecloud.com/quarterworld/images/GAMES-ID-ad88bd4c-7137-44f3-ae16-6670e756d017.png" style="width: 100%; height: 100%; border-radius: inherit;" pagecloud-version="1.1.10">
+</a><a class="object image proportionate" pagecloud-guid="3e5eed5e-3fb4-4ce7-fbed-876b1da5c6a3" data-aspect-ratio="128x140" pagecloud-version="1.1.14" data-original-image="//siteassets.pagecloud.com/quarterworld/images/image-ID-4e093df4-1bb2-4fcb-fe8a-fbe7652eec20.png" data-original-ratio="128x140" data-alt-aspect-ratio="123x134" href="/tessi"><style class="pagecloud-global-style pagecloud design-safe" data-for="3e5eed5e-3fb4-4ce7-fbed-876b1da5c6a3">#pc#pc#pc [pagecloud-guid="3e5eed5e-3fb4-4ce7-fbed-876b1da5c6a3"] { position: absolute; left: 84px; top: 163px; width: 128px; height: 140px; background-color: rgba(0, 0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="3e5eed5e-3fb4-4ce7-fbed-876b1da5c6a3"] { position: absolute; left: 329px; top: 266px; width: 123px; height: 134px; background-color: rgba(0, 0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="3e5eed5e-3fb4-4ce7-fbed-876b1da5c6a3"] { position: absolute; left: 329px; top: 266px; width: 123px; height: 134px; background-color: rgba(0, 0, 0, 0);  } }</style>
+
+
+<img alt="" src="//img.pagecloud.com/Zz1G0EmH-lFeI81J3qn8nBnV0P0=/128x0/filters:no_upscale()/quarterworld/images/image-ID-4e093df4-1bb2-4fcb-fe8a-fbe7652eec20.png" style="width: 100%; height: 100%; border-radius: inherit;" srcset="//img.pagecloud.com/Zz1G0EmH-lFeI81J3qn8nBnV0P0=/128x0/filters:no_upscale()/quarterworld/images/image-ID-4e093df4-1bb2-4fcb-fe8a-fbe7652eec20.png 1x, //img.pagecloud.com/UL8-bUneqVPC-X1ksZT6bDp-9U0=/256x0/filters:no_upscale()/quarterworld/images/image-ID-4e093df4-1bb2-4fcb-fe8a-fbe7652eec20.png 2x" pagecloud-version="1.1.10">
+</a><a class="object image proportionate" pagecloud-guid="47fdc8e7-27a7-4822-a699-f45d5182848f" data-aspect-ratio="127x139" pagecloud-version="1.1.14" data-original-ratio="127x139" data-alt-aspect-ratio="123x135" href="https://www.facebook.com/pg/quarterworld.portland/events/?ref=page_internal"><style class="pagecloud-global-style pagecloud design-safe" data-for="47fdc8e7-27a7-4822-a699-f45d5182848f">#pc#pc#pc [pagecloud-guid="47fdc8e7-27a7-4822-a699-f45d5182848f"] { position: absolute; left: 21px; top: 310px; width: 128px; height: 140px; background-color: rgba(0, 0, 0, 0); background-size: 100% 100%; background-position: 50% 50%; background-repeat: no-repeat; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="47fdc8e7-27a7-4822-a699-f45d5182848f"] { position: absolute; left: 170px; top: 90px; width: 123px; height: 135px; background-color: rgba(0, 0, 0, 0); background-size: 100%; background-position: center; background-repeat: no-repeat; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="47fdc8e7-27a7-4822-a699-f45d5182848f"] { position: absolute; left: 170px; top: 90px; width: 123px; height: 135px; background-color: rgba(0, 0, 0, 0); background-size: 100%; background-position: center; background-repeat: no-repeat;  } }</style>
+
+
+<img src="//siteassets.pagecloud.com/quarterworld/images/BLANK_ORB-ID-d76924d4-e075-43b3-903d-084cb81252ce.png" style="width: 100%; height: 100%; border-radius: inherit;" pagecloud-version="1.1.10">
+</a><a class="object image proportionate" pagecloud-guid="88f9c8fe-ead9-48bd-d98e-a69afc8a7549" data-aspect-ratio="658x720" pagecloud-version="1.1.14" data-original-ratio="658x720" data-alt-aspect-ratio="658x720" href="https://form.jotform.com/62917346891164"><style class="pagecloud-global-style pagecloud design-safe" data-for="88f9c8fe-ead9-48bd-d98e-a69afc8a7549">#pc#pc#pc [pagecloud-guid="88f9c8fe-ead9-48bd-d98e-a69afc8a7549"] { position: absolute; left: 756px; top: 310px; width: 128px; height: 140px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="88f9c8fe-ead9-48bd-d98e-a69afc8a7549"] { position: absolute; left: 170px; top: 266px; width: 123px; height: 135px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="88f9c8fe-ead9-48bd-d98e-a69afc8a7549"] { position: absolute; left: 170px; top: 266px; width: 123px; height: 135px;  } }</style>
+
+
+<img alt="" src="//siteassets.pagecloud.com/quarterworld/images/party-ID-152616f4-ef39-4065-b5c8-a7e3cfb4a906.png" style="width: 100%; height: 100%; border-radius: inherit;" pagecloud-version="1.1.10">
+</a><div class="object image proportionate" pagecloud-guid="798c5d66-c43f-47c7-8e22-dc0b8cdfbbf5" pagecloud-version="1.1.10" data-aspect-ratio="200x200" data-alt-aspect-ratio="200x200"><style class="pagecloud-global-style pagecloud design-safe" data-for="798c5d66-c43f-47c7-8e22-dc0b8cdfbbf5">#pc#pc#pc [pagecloud-guid="798c5d66-c43f-47c7-8e22-dc0b8cdfbbf5"] { opacity: 0; width: 200px; height: 200px; position: absolute; left: -1000px; top: -1000px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="798c5d66-c43f-47c7-8e22-dc0b8cdfbbf5"] { opacity: 0; width: 200px; height: 200px; position: absolute; left: -1000px; top: -1000px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="798c5d66-c43f-47c7-8e22-dc0b8cdfbbf5"] { opacity: 0; width: 200px; height: 200px; position: absolute; left: -1000px; top: -1000px;  } }</style>
+
+
+
+
+
+
+
+
+<img alt="" src="//siteassets.pagecloud.com/quarterworld/images/gw_background-ID-0c526ed0-9607-4d57-9a16-ea3cf4b2617a.jpg" style="width: 100%; height: 100%; border-radius: inherit;" pagecloud-version="1.1.10">
+</div>
+<div class="object image proportionate" pagecloud-guid="6234a328-e967-4f04-aba3-201ad9035389" pagecloud-version="1.1.10" data-aspect-ratio="200x200" data-alt-aspect-ratio="200x200"><style class="pagecloud-global-style pagecloud design-safe" data-for="6234a328-e967-4f04-aba3-201ad9035389">#pc#pc#pc [pagecloud-guid="6234a328-e967-4f04-aba3-201ad9035389"] { opacity: 0; width: 200px; height: 200px; position: absolute; left: -1000px; top: -1000px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="6234a328-e967-4f04-aba3-201ad9035389"] { opacity: 0; width: 200px; height: 200px; position: absolute; left: -1000px; top: -1000px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="6234a328-e967-4f04-aba3-201ad9035389"] { opacity: 0; width: 200px; height: 200px; position: absolute; left: -1000px; top: -1000px;  } }</style>
+
+
+
+
+
+
+
+
+<img alt="" src="//siteassets.pagecloud.com/quarterworld/images/gw_background-ID-2cdce447-b9f3-4551-9585-0c3ab0155a13.jpg" style="width: 100%; height: 100%; border-radius: inherit;" pagecloud-version="1.1.10">
+</div>
+<div class="object image proportionate" pagecloud-guid="4cb323e3-32f4-4400-9776-f08d55a1040f" pagecloud-version="1.1.10" data-aspect-ratio="200x200" data-alt-aspect-ratio="200x200"><style class="pagecloud-global-style pagecloud design-safe" data-for="4cb323e3-32f4-4400-9776-f08d55a1040f">#pc#pc#pc [pagecloud-guid="4cb323e3-32f4-4400-9776-f08d55a1040f"] { opacity: 0; width: 200px; height: 200px; position: absolute; left: -1000px; top: -1000px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="4cb323e3-32f4-4400-9776-f08d55a1040f"] { opacity: 0; width: 200px; height: 200px; position: absolute; left: -1000px; top: -1000px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="4cb323e3-32f4-4400-9776-f08d55a1040f"] { opacity: 0; width: 200px; height: 200px; position: absolute; left: -1000px; top: -1000px;  } }</style>
+
+
+
+
+
+
+
+
+<img alt="" src="//siteassets.pagecloud.com/quarterworld/images/gw_background-ID-f41bdd86-d737-4317-ee31-2f9e6e30214b.jpg" style="width: 100%; height: 100%; border-radius: inherit;" pagecloud-version="1.1.10">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="object iframe proportionate" pagecloud-guid="42439010-edee-4f23-f5ec-4be66de4898b" data-widget-type="pagecloud-youtube-video" data-aspect-ratio="853x480" data-widget-title="Youtube Video" pagecloud-version="1.1.10" data-alt-aspect-ratio="853x480"><style class="pagecloud-global-style pagecloud design-safe" data-for="42439010-edee-4f23-f5ec-4be66de4898b">#pc#pc#pc [pagecloud-guid="42439010-edee-4f23-f5ec-4be66de4898b"] { width: 380px; height: 214px; position: absolute; left: 537px; top: 3245px; overflow: hidden; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="42439010-edee-4f23-f5ec-4be66de4898b"] { width: 457px; height: 257px; position: absolute; left: 5px; top: 2679px; overflow: hidden; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="42439010-edee-4f23-f5ec-4be66de4898b"] { width: 457px; height: 257px; position: absolute; left: 5px; top: 2679px; overflow: hidden;  } }</style>
+
+
+
+
+
+
+
+
+<iframe src="https://www.youtube.com/embed/S5mY92-QTHo?controls=0&amp;modestbranding=1&amp;rel=0&amp;showinfo=0&amp;enablejsapi=1&amp;wmode=transparent" class="iframe" style="height: 100%; width: 100%;" title="YouTube video player" data-muted="false" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen="true" data-widget-type="pagecloud-youtube-video" pagecloud-version="1.1.10"></iframe>
+</div><div class="object video proportionate" pagecloud-guid="30006192-bb41-45bd-ee11-b3a9493874ed" data-aspect-ratio="500x281" pagecloud-version="1.0.2" data-alt-aspect-ratio="500x281"><style class="pagecloud-global-style pagecloud design-safe" data-for="30006192-bb41-45bd-ee11-b3a9493874ed">#pc#pc#pc [pagecloud-guid="30006192-bb41-45bd-ee11-b3a9493874ed"] { background: transparent; position: absolute; left: 128px; top: 2431px; width: 688px; height: 387px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="30006192-bb41-45bd-ee11-b3a9493874ed"] { background: transparent; position: absolute; left: 5px; top: 1872px; width: 457px; height: 257px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="30006192-bb41-45bd-ee11-b3a9493874ed"] { background: transparent; position: absolute; left: 5px; top: 1872px; width: 457px; height: 257px;  } }</style>
+
+
+
+
+
+
+
+
+<video src="//siteassets.pagecloud.com/quarterworld/videos/CH28809B_REV_Change_Quarterworld_Mar17-ID-93b369c4-2b4a-4fcd-8ae6-c462f4c065b1.mp4?&amp;controls=1" type="video/mp4" muted="true" style="width: 100%; height: 100%;" controls="controls" data-src="CH28809B_REV_Change_Quarterworld_Mar17.mp4" data-muted="true"></video>
+</div><div class="object video proportionate" pagecloud-guid="50bd8f21-7970-4a9b-958a-f7c5d41e1926" data-aspect-ratio="500x281" pagecloud-version="1.0.2" data-alt-aspect-ratio="500x281"><style class="pagecloud-global-style pagecloud design-safe" data-for="50bd8f21-7970-4a9b-958a-f7c5d41e1926">#pc#pc#pc [pagecloud-guid="50bd8f21-7970-4a9b-958a-f7c5d41e1926"] { background: transparent; position: absolute; left: 127px; top: 2030px; width: 689px; height: 387px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="50bd8f21-7970-4a9b-958a-f7c5d41e1926"] { background: transparent; position: absolute; left: 5px; top: 2141px; width: 457px; height: 257px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="50bd8f21-7970-4a9b-958a-f7c5d41e1926"] { background: transparent; position: absolute; left: 5px; top: 2141px; width: 457px; height: 257px;  } }</style>
+
+
+
+
+
+
+
+
+<video src="//siteassets.pagecloud.com/quarterworld/videos/CH28809A_REV_Tesla_Quarterworld_Mar17_v3-ID-166422c9-c8a5-4773-df1d-610b9ac24305.mp4?&amp;controls=1" type="video/mp4" muted="true" style="width: 100%; height: 100%;" controls="controls" data-src="CH28809A_REV_Tesla_Quarterworld_Mar17_v3.mp4" data-muted="true"></video>
+</div><div class="object video proportionate" pagecloud-guid="3c41f067-d3bd-4f58-b05f-4a7007e894a9" data-aspect-ratio="500x281" pagecloud-version="1.0.2" data-alt-aspect-ratio="500x281"><style class="pagecloud-global-style pagecloud design-safe" data-for="3c41f067-d3bd-4f58-b05f-4a7007e894a9">#pc#pc#pc [pagecloud-guid="3c41f067-d3bd-4f58-b05f-4a7007e894a9"] { background: transparent; position: absolute; left: 127px; top: 2827px; width: 689px; height: 387px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="3c41f067-d3bd-4f58-b05f-4a7007e894a9"] { background: transparent; position: absolute; left: 5px; top: 2410px; width: 457px; height: 257px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="3c41f067-d3bd-4f58-b05f-4a7007e894a9"] { background: transparent; position: absolute; left: 5px; top: 2410px; width: 457px; height: 257px;  } }</style>
+
+
+
+
+
+
+
+
+<video src="//siteassets.pagecloud.com/quarterworld/videos/CH28809C_REV_Girl_Quarterworld_Mar17-ID-294a1d38-954d-481f-e945-a4abbb8acbf5.mp4?&amp;controls=1" type="video/mp4" style="width: 100%; height: 100%;" controls="" data-src="CH28809C_REV_Girl_Quarterworld_Mar17.mp4" data-muted="false"></video>
+</div><div class="object image proportionate" pagecloud-guid="33e79c0b-3999-4b30-bea3-334752648af6" data-aspect-ratio="946x125" pagecloud-version="1.0.2" data-original-ratio="946x124.68200836820084" data-alt-aspect-ratio="946x125" data-alt-hidden="true"><style class="pagecloud-global-style pagecloud design-safe" data-for="33e79c0b-3999-4b30-bea3-334752648af6">#pc#pc#pc [pagecloud-guid="33e79c0b-3999-4b30-bea3-334752648af6"] { position: absolute; left: 191px; top: 33px; width: 560px; height: 74px; border-style: none; border-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="33e79c0b-3999-4b30-bea3-334752648af6"] { position: absolute; left: -325px; top: 2069px; width: 235px; height: 31px; border-style: none; border-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="33e79c0b-3999-4b30-bea3-334752648af6"] { position: absolute; left: -325px; top: 2069px; width: 235px; height: 31px; border-style: none; border-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0);  } }@media (max-width: 468px) {
+                        .mobile-enabled.breakpoint-mode [data-alt-hidden="true"][pagecloud-guid="33e79c0b-3999-4b30-bea3-334752648af6"] { display: none !important; }
+                        .mobile-enabled.breakpoint-mode :not([data-alt-hidden="true"])[pagecloud-guid="33e79c0b-3999-4b30-bea3-334752648af6"] { display: block !important; }
+                    }</style>
+
+
+
+
+
+
+
+
+<img alt="" src="//siteassets.pagecloud.com/quarterworld/images/qworld_title-ID-1a0743e3-6425-4bd5-c212-6940ee58468e.png" style="width: 100%; height: 100%; border-radius: inherit;" pagecloud-version="1.1.10">
+</div><div class="object image proportionate" pagecloud-guid="10d57a6a-6d2a-4fe6-d8d4-71ff42ffaa41" data-aspect-ratio="946x605" pagecloud-version="1.0.2" data-original-image="//siteassets.pagecloud.com/quarterworld/images/qw_logo-ID-4a224621-e08a-4125-a520-5c66a98553a1.png" data-original-ratio="946x605.44" data-alt-aspect-ratio="946x605" data-alt-hidden="true"><style class="pagecloud-global-style pagecloud design-safe" data-for="10d57a6a-6d2a-4fe6-d8d4-71ff42ffaa41">#pc#pc#pc [pagecloud-guid="10d57a6a-6d2a-4fe6-d8d4-71ff42ffaa41"] { position: absolute; left: 31px; top: 33px; width: 148px; height: 94.47px; border-style: none; border-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="10d57a6a-6d2a-4fe6-d8d4-71ff42ffaa41"] { position: absolute; left: -325px; top: 1868px; width: 63px; height: 40px; border-style: none; border-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="10d57a6a-6d2a-4fe6-d8d4-71ff42ffaa41"] { position: absolute; left: -325px; top: 1868px; width: 63px; height: 40px; border-style: none; border-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0);  } }@media (max-width: 468px) {
+                        .mobile-enabled.breakpoint-mode [data-alt-hidden="true"][pagecloud-guid="10d57a6a-6d2a-4fe6-d8d4-71ff42ffaa41"] { display: none !important; }
+                        .mobile-enabled.breakpoint-mode :not([data-alt-hidden="true"])[pagecloud-guid="10d57a6a-6d2a-4fe6-d8d4-71ff42ffaa41"] { display: block !important; }
+                    }</style>
+
+
+
+
+
+
+
+
+<img alt="" src="//img.pagecloud.com/rO6dURjss3ZFs5M5OHBhHF293uI=/148x0/filters:no_upscale()/quarterworld/images/qw_logo-ID-4a224621-e08a-4125-a520-5c66a98553a1.png" style="width: 100%; height: 100%; border-radius: inherit;" srcset="//img.pagecloud.com/rO6dURjss3ZFs5M5OHBhHF293uI=/148x0/filters:no_upscale()/quarterworld/images/qw_logo-ID-4a224621-e08a-4125-a520-5c66a98553a1.png 1x, //img.pagecloud.com/wGf3Ys1rHAbLK6kVEt8L8rj-bic=/296x0/filters:no_upscale()/quarterworld/images/qw_logo-ID-4a224621-e08a-4125-a520-5c66a98553a1.png 2x" pagecloud-version="1.1.10">
+</div><div class="object image proportionate" pagecloud-guid="2c6aa7c5-cc27-4235-b1be-d79eb751a68f" data-aspect-ratio="500x500" pagecloud-version="1.0.2" data-original-ratio="500x500" data-alt-aspect-ratio="500x500"><style class="pagecloud-global-style pagecloud design-safe" data-for="2c6aa7c5-cc27-4235-b1be-d79eb751a68f">#pc#pc#pc [pagecloud-guid="2c6aa7c5-cc27-4235-b1be-d79eb751a68f"] { position: absolute; left: 792px; top: 48px; width: 41px; height: 41px; border-style: none; border-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="2c6aa7c5-cc27-4235-b1be-d79eb751a68f"] { position: absolute; left: -255px; top: 1927px; width: 22px; height: 22px; border-style: none; border-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="2c6aa7c5-cc27-4235-b1be-d79eb751a68f"] { position: absolute; left: -255px; top: 1927px; width: 22px; height: 22px; border-style: none; border-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0);  } }</style>
+
+
+
+
+
+
+
+
+<img alt="" src="//siteassets.pagecloud.com/quarterworld/images/twitter-circle-logo-ID-5a13ae40-7a62-4e8e-f4c9-6d3afb39047a.png" style="width: 100%; height: 100%; border-radius: inherit;" pagecloud-version="1.1.10">
+</div><div class="object image proportionate" pagecloud-guid="c2d3e0bc-16d6-4fa8-bccd-dbb8223c9791" data-aspect-ratio="256x256" pagecloud-version="1.0.2" data-original-ratio="256x256" data-alt-aspect-ratio="256x256"><style class="pagecloud-global-style pagecloud design-safe" data-for="c2d3e0bc-16d6-4fa8-bccd-dbb8223c9791">#pc#pc#pc [pagecloud-guid="c2d3e0bc-16d6-4fa8-bccd-dbb8223c9791"] { position: absolute; left: 833px; top: 48px; width: 41px; height: 41px; border-style: none; border-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="c2d3e0bc-16d6-4fa8-bccd-dbb8223c9791"] { position: absolute; left: -233px; top: 1927px; width: 22px; height: 22px; border-style: none; border-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="c2d3e0bc-16d6-4fa8-bccd-dbb8223c9791"] { position: absolute; left: -233px; top: 1927px; width: 22px; height: 22px; border-style: none; border-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0);  } }</style>
+
+
+
+
+
+
+
+
+<img alt="" src="//siteassets.pagecloud.com/quarterworld/images/yelp-icon-ID-5c8c77f4-9b6b-4914-8fae-43960f1c3494.png" style="width: 100%; height: 100%; border-radius: inherit;" pagecloud-version="1.1.10">
+</div><div class="object image proportionate" pagecloud-guid="75049880-b6bf-4619-f52b-7c0f1fe50c74" data-aspect-ratio="800x800" pagecloud-version="1.0.2" data-original-ratio="800x800" data-alt-aspect-ratio="800x800"><style class="pagecloud-global-style pagecloud design-safe" data-for="75049880-b6bf-4619-f52b-7c0f1fe50c74">#pc#pc#pc [pagecloud-guid="75049880-b6bf-4619-f52b-7c0f1fe50c74"] { position: absolute; left: 751px; top: 48px; width: 41px; height: 41px; border-style: none; border-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="75049880-b6bf-4619-f52b-7c0f1fe50c74"] { position: absolute; left: -277px; top: 1927px; width: 22px; height: 22px; border-style: none; border-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="75049880-b6bf-4619-f52b-7c0f1fe50c74"] { position: absolute; left: -277px; top: 1927px; width: 22px; height: 22px; border-style: none; border-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0);  } }</style>
+
+
+
+
+
+
+
+
+<img alt="" src="//siteassets.pagecloud.com/quarterworld/images/instagram-icon-circle-vector-logo-ID-6081cc08-8e9e-4f1e-aeec-8146c93739e9.png" style="width: 100%; height: 100%; border-radius: inherit;" pagecloud-version="1.1.10">
+</div><div class="object image proportionate" pagecloud-guid="6f1f6c2d-c4d9-4265-c1a8-dfebf78e4e88" data-aspect-ratio="946x946" pagecloud-version="1.0.2" data-original-ratio="946x946" data-alt-aspect-ratio="946x946"><style class="pagecloud-global-style pagecloud design-safe" data-for="6f1f6c2d-c4d9-4265-c1a8-dfebf78e4e88">#pc#pc#pc [pagecloud-guid="6f1f6c2d-c4d9-4265-c1a8-dfebf78e4e88"] { position: absolute; left: 874px; top: 48px; width: 41px; height: 41px; border-style: none; border-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="6f1f6c2d-c4d9-4265-c1a8-dfebf78e4e88"] { position: absolute; left: -212px; top: 1927px; width: 22px; height: 22px; border-style: none; border-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="6f1f6c2d-c4d9-4265-c1a8-dfebf78e4e88"] { position: absolute; left: -212px; top: 1927px; width: 22px; height: 22px; border-style: none; border-color: rgba(0, 0, 0, 0); background-color: rgba(0, 0, 0, 0);  } }</style>
+
+
+
+
+
+
+
+
+<img alt="" src="//siteassets.pagecloud.com/quarterworld/images/facebook-icon-ID-f952cd84-6aaf-4cf2-fd89-674acbbcfe15.png" style="width: 100%; height: 100%; border-radius: inherit;" pagecloud-version="1.1.10">
+</div><div class="object" data-widget-type="pagecloud-native-widget" data-widget-title="PageCloud Object" data-pagecloud-element-metadata="{}" pagecloud-guid="5675b0df-54c7-4a3d-e7be-c3d8f6714ea5" data-alt-hidden="true"><style class="pagecloud-global-style pagecloud design-safe" data-for="5675b0df-54c7-4a3d-e7be-c3d8f6714ea5">#pc#pc#pc [pagecloud-guid="5675b0df-54c7-4a3d-e7be-c3d8f6714ea5"] { background-color: rgb(0, 0, 0); opacity: 1; width: 785px; height: 1051px; position: absolute; border-color: rgb(230, 230, 230); border-width: 5px; border-style: solid; color: rgb(0, 0, 0); transform-origin: 78.283% 52.809% 0px; left: 74px; top: 857px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="5675b0df-54c7-4a3d-e7be-c3d8f6714ea5"] { background-color: rgb(0, 0, 0); opacity: 1; width: 785px; height: 1051px; position: absolute; border-color: rgb(230, 230, 230); border-width: 5px; border-style: solid; color: rgb(0, 0, 0); transform-origin: 78.283% 52.809% 0px; left: 74px; top: 857px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="5675b0df-54c7-4a3d-e7be-c3d8f6714ea5"] { background-color: rgb(0, 0, 0); opacity: 1; width: 785px; height: 1051px; position: absolute; border-color: rgb(230, 230, 230); border-width: 5px; border-style: solid; color: rgb(0, 0, 0); transform-origin: 78.283% 52.809% 0px; left: 74px; top: 857px;  } }@media (max-width: 468px) {
+                        .mobile-enabled.breakpoint-mode [data-alt-hidden="true"][pagecloud-guid="5675b0df-54c7-4a3d-e7be-c3d8f6714ea5"] { display: none !important; }
+                        .mobile-enabled.breakpoint-mode :not([data-alt-hidden="true"])[pagecloud-guid="5675b0df-54c7-4a3d-e7be-c3d8f6714ea5"] { display: block !important; }
+                    }</style></div><div class="object text" spellcheck="false" pagecloud-guid="f4ff36aa-c603-4a81-be3f-6eda12990946" pagecloud-version="1.1.6" data-alt-hidden="true"><style class="pagecloud-global-style pagecloud design-safe" data-for="f4ff36aa-c603-4a81-be3f-6eda12990946">#pc#pc#pc [pagecloud-guid="f4ff36aa-c603-4a81-be3f-6eda12990946"] { width: 771px; height: 24px; position: absolute; left: 113px; top: 104px; border-style: none; border-color: rgba(0, 0, 0, 0); display: block; background-color: rgba(0, 0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="f4ff36aa-c603-4a81-be3f-6eda12990946"] { width: 241px; height: 12px; position: absolute; left: -331px; top: 1793px; border-style: none; border-color: rgba(0, 0, 0, 0); display: table; background-color: rgba(0, 0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="f4ff36aa-c603-4a81-be3f-6eda12990946"] { width: 241px; height: 12px; position: absolute; left: -331px; top: 1793px; border-style: none; border-color: rgba(0, 0, 0, 0); display: table; background-color: rgba(0, 0, 0, 0);  } }@media (max-width: 468px) {
+                        .mobile-enabled.breakpoint-mode [data-alt-hidden="true"][pagecloud-guid="f4ff36aa-c603-4a81-be3f-6eda12990946"] { display: none !important; }
+                        .mobile-enabled.breakpoint-mode :not([data-alt-hidden="true"])[pagecloud-guid="f4ff36aa-c603-4a81-be3f-6eda12990946"] { display: block !important; }
+                    }</style>
+
+
+
+
+<div class="content" pagecloud-guid="140d785f-e69e-475b-ddc0-a5fe2414e29f"><style class="pagecloud-global-style pagecloud design-safe" data-for="140d785f-e69e-475b-ddc0-a5fe2414e29f"></style>
+
+
+
+
+<p pagecloud-guid="c056ffb8-5940-4e78-82c8-fdaf19135fb0" data-margin-bottom="0.7em"><style class="pagecloud-global-style pagecloud design-safe" data-for="c056ffb8-5940-4e78-82c8-fdaf19135fb0">#pc#pc#pc [pagecloud-guid="c056ffb8-5940-4e78-82c8-fdaf19135fb0"] { line-height: 1.5; text-align: left; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="c056ffb8-5940-4e78-82c8-fdaf19135fb0"] { line-height: 1.5; text-align: left; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="c056ffb8-5940-4e78-82c8-fdaf19135fb0"] { line-height: 1.5; text-align: left;  } }</style><span data-block="true" pagecloud-guid="944274ff-7574-48f6-a571-8300452dde7d"><style class="pagecloud-global-style pagecloud design-safe" data-for="944274ff-7574-48f6-a571-8300452dde7d">#pc#pc#pc [pagecloud-guid="944274ff-7574-48f6-a571-8300452dde7d"] { font-family: 'helvetica'; font-size: 15px; font-style: normal; font-weight: bold; text-decoration: none solid rgb(0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="944274ff-7574-48f6-a571-8300452dde7d"] { font-family: 'helvetica'; font-size: 9px; font-style: normal; font-weight: bold; text-decoration: none; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="944274ff-7574-48f6-a571-8300452dde7d"] { font-family: 'helvetica'; font-size: 9px; font-style: normal; font-weight: bold; text-decoration: none;  } }</style>
+<span pagecloud-guid="cfb9150f-82be-4afe-88fb-4b07cb97c35f"><style class="pagecloud-global-style pagecloud design-safe" data-for="cfb9150f-82be-4afe-88fb-4b07cb97c35f"></style>
+<span pagecloud-guid="6de90ecf-b692-4d8d-8d7f-1625de8a6b02"><style class="pagecloud-global-style pagecloud design-safe" data-for="6de90ecf-b692-4d8d-8d7f-1625de8a6b02"></style>
+<span pagecloud-guid="71f0915d-dd6e-4eea-8dbf-7fb845fdb889"><style class="pagecloud-global-style pagecloud design-safe" data-for="71f0915d-dd6e-4eea-8dbf-7fb845fdb889">#pc#pc#pc [pagecloud-guid="71f0915d-dd6e-4eea-8dbf-7fb845fdb889"] { color: rgb(33, 101, 146); text-decoration: inherit; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="71f0915d-dd6e-4eea-8dbf-7fb845fdb889"] { color: rgb(33, 101, 146); text-decoration: inherit; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="71f0915d-dd6e-4eea-8dbf-7fb845fdb889"] { color: rgb(33, 101, 146); text-decoration: inherit;  } }</style>LVL1. </span><span pagecloud-guid="0297e03d-a4c7-426a-85b6-5525b9050eb7"><style class="pagecloud-global-style pagecloud design-safe" data-for="0297e03d-a4c7-426a-85b6-5525b9050eb7">#pc#pc#pc [pagecloud-guid="0297e03d-a4c7-426a-85b6-5525b9050eb7"] { color: rgb(255, 255, 255); font-size: 16px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="0297e03d-a4c7-426a-85b6-5525b9050eb7"] { color: rgb(255, 255, 255); font-size: 16px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="0297e03d-a4c7-426a-85b6-5525b9050eb7"] { color: rgb(255, 255, 255); font-size: 16px;  } }</style> <span pagecloud-guid="f0e8147e-4dd5-4cf4-fb29-6f7d6fbdf8e3"><style class="pagecloud-global-style pagecloud design-safe" data-for="f0e8147e-4dd5-4cf4-fb29-6f7d6fbdf8e3">#pc#pc#pc [pagecloud-guid="f0e8147e-4dd5-4cf4-fb29-6f7d6fbdf8e3"] { text-decoration: inherit; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="f0e8147e-4dd5-4cf4-fb29-6f7d6fbdf8e3"] { text-decoration: inherit; color: rgb(255, 255, 255); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="f0e8147e-4dd5-4cf4-fb29-6f7d6fbdf8e3"] { text-decoration: inherit; color: rgb(255, 255, 255);  } }</style>ABOUT</span>  </span><span pagecloud-guid="d0e1bf88-de26-46df-90fb-53cbc7f026e9"><style class="pagecloud-global-style pagecloud design-safe" data-for="d0e1bf88-de26-46df-90fb-53cbc7f026e9">#pc#pc#pc [pagecloud-guid="d0e1bf88-de26-46df-90fb-53cbc7f026e9"] { color: rgb(0, 0, 0); font-size: 16px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="d0e1bf88-de26-46df-90fb-53cbc7f026e9"] { color: rgb(0, 0, 0); font-size: 16px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="d0e1bf88-de26-46df-90fb-53cbc7f026e9"] { color: rgb(0, 0, 0); font-size: 16px;  } }</style>I </span><a pagecloud-guid="0e008e9e-e634-405e-a72a-626d08c76262" href="/qwmenus" pagecloud-version="1.1.14"><style class="pagecloud-global-style pagecloud design-safe" data-for="0e008e9e-e634-405e-a72a-626d08c76262">#pc#pc#pc [pagecloud-guid="0e008e9e-e634-405e-a72a-626d08c76262"] { text-decoration: inherit; color: inherit; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="0e008e9e-e634-405e-a72a-626d08c76262"] { text-decoration: inherit; color: inherit; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="0e008e9e-e634-405e-a72a-626d08c76262"] { text-decoration: inherit; color: inherit;  } }</style> <span pagecloud-guid="64700316-bf93-4235-e849-ec200a37897c"><style class="pagecloud-global-style pagecloud design-safe" data-for="64700316-bf93-4235-e849-ec200a37897c">#pc#pc#pc [pagecloud-guid="64700316-bf93-4235-e849-ec200a37897c"] { color: rgb(33, 101, 146); text-decoration: inherit; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="64700316-bf93-4235-e849-ec200a37897c"] { color: rgb(33, 101, 146); text-decoration: inherit; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="64700316-bf93-4235-e849-ec200a37897c"] { color: rgb(33, 101, 146); text-decoration: inherit;  } }</style>LVL2. </span><span pagecloud-guid="ebcb1590-1c0c-4dbd-aea2-b105d6b9ded5"><style class="pagecloud-global-style pagecloud design-safe" data-for="ebcb1590-1c0c-4dbd-aea2-b105d6b9ded5">#pc#pc#pc [pagecloud-guid="ebcb1590-1c0c-4dbd-aea2-b105d6b9ded5"] { color: rgb(255, 255, 255); font-size: 16px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="ebcb1590-1c0c-4dbd-aea2-b105d6b9ded5"] { color: rgb(255, 255, 255); font-size: 16px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="ebcb1590-1c0c-4dbd-aea2-b105d6b9ded5"] { color: rgb(255, 255, 255); font-size: 16px;  } }</style> <span pagecloud-guid="8fc47ef9-43de-44d7-d9bb-c3c2de0d8274"><style class="pagecloud-global-style pagecloud design-safe" data-for="8fc47ef9-43de-44d7-d9bb-c3c2de0d8274">#pc#pc#pc [pagecloud-guid="8fc47ef9-43de-44d7-d9bb-c3c2de0d8274"] { text-decoration: inherit; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="8fc47ef9-43de-44d7-d9bb-c3c2de0d8274"] { text-decoration: inherit; color: rgb(255, 255, 255); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="8fc47ef9-43de-44d7-d9bb-c3c2de0d8274"] { text-decoration: inherit; color: rgb(255, 255, 255);  } }</style>MENUS</span> </span></a><span pagecloud-guid="643bc2dd-f25c-483a-b2bf-6d6a7b60147a"><style class="pagecloud-global-style pagecloud design-safe" data-for="643bc2dd-f25c-483a-b2bf-6d6a7b60147a">#pc#pc#pc [pagecloud-guid="643bc2dd-f25c-483a-b2bf-6d6a7b60147a"] { color: rgb(0, 0, 0); font-size: 16px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="643bc2dd-f25c-483a-b2bf-6d6a7b60147a"] { color: rgb(0, 0, 0); font-size: 16px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="643bc2dd-f25c-483a-b2bf-6d6a7b60147a"] { color: rgb(0, 0, 0); font-size: 16px;  } }</style> I  </span><a pagecloud-guid="46e3b096-0044-4f3b-d6ca-a9fd430cc3c9" href="/qwevents" pagecloud-version="1.1.14"><style class="pagecloud-global-style pagecloud design-safe" data-for="46e3b096-0044-4f3b-d6ca-a9fd430cc3c9">#pc#pc#pc [pagecloud-guid="46e3b096-0044-4f3b-d6ca-a9fd430cc3c9"] { text-decoration: inherit; color: inherit; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="46e3b096-0044-4f3b-d6ca-a9fd430cc3c9"] { text-decoration: inherit; color: inherit; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="46e3b096-0044-4f3b-d6ca-a9fd430cc3c9"] { text-decoration: inherit; color: inherit;  } }</style> </a><a pagecloud-guid="9668a247-7992-4a09-feca-05b362a430cc" href="/qwevents" pagecloud-version="1.1.14"><style class="pagecloud-global-style pagecloud design-safe" data-for="9668a247-7992-4a09-feca-05b362a430cc">#pc#pc#pc [pagecloud-guid="9668a247-7992-4a09-feca-05b362a430cc"] { text-decoration: inherit; color: inherit; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="9668a247-7992-4a09-feca-05b362a430cc"] { text-decoration: inherit; color: inherit; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="9668a247-7992-4a09-feca-05b362a430cc"] { text-decoration: inherit; color: inherit;  } }</style>
+<span pagecloud-guid="8f65c213-6d59-428b-8f76-79f39a0fa787"><style class="pagecloud-global-style pagecloud design-safe" data-for="8f65c213-6d59-428b-8f76-79f39a0fa787">#pc#pc#pc [pagecloud-guid="8f65c213-6d59-428b-8f76-79f39a0fa787"] { color: #216592; text-decoration: inherit; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="8f65c213-6d59-428b-8f76-79f39a0fa787"] { color: rgb(33, 101, 146); text-decoration: inherit; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="8f65c213-6d59-428b-8f76-79f39a0fa787"] { color: rgb(33, 101, 146); text-decoration: inherit;  } }</style>LVL3.</span><span pagecloud-guid="e36b64a5-65bf-40ee-9b5b-a5b553c57c5f"><style class="pagecloud-global-style pagecloud design-safe" data-for="e36b64a5-65bf-40ee-9b5b-a5b553c57c5f">#pc#pc#pc [pagecloud-guid="e36b64a5-65bf-40ee-9b5b-a5b553c57c5f"] { color: #216592; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="e36b64a5-65bf-40ee-9b5b-a5b553c57c5f"] { color: #216592; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="e36b64a5-65bf-40ee-9b5b-a5b553c57c5f"] { color: #216592;  } }</style> </span><span pagecloud-guid="92a3d093-e1ef-47bc-d89d-20ed5ea6e252"><style class="pagecloud-global-style pagecloud design-safe" data-for="92a3d093-e1ef-47bc-d89d-20ed5ea6e252">#pc#pc#pc [pagecloud-guid="92a3d093-e1ef-47bc-d89d-20ed5ea6e252"] { font-size: 16px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="92a3d093-e1ef-47bc-d89d-20ed5ea6e252"] { font-size: 16px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="92a3d093-e1ef-47bc-d89d-20ed5ea6e252"] { font-size: 16px;  } }</style> <span pagecloud-guid="40bd27dd-d6d8-4b9c-b2fd-4a3638fba126"><style class="pagecloud-global-style pagecloud design-safe" data-for="40bd27dd-d6d8-4b9c-b2fd-4a3638fba126"></style> <span pagecloud-guid="ed1cb909-a86d-4ac9-e7af-3abbc3544847"><style class="pagecloud-global-style pagecloud design-safe" data-for="ed1cb909-a86d-4ac9-e7af-3abbc3544847">#pc#pc#pc [pagecloud-guid="ed1cb909-a86d-4ac9-e7af-3abbc3544847"] { color: #F5F5F5; text-decoration: inherit; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="ed1cb909-a86d-4ac9-e7af-3abbc3544847"] { color: rgb(255, 255, 255); text-decoration: inherit; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="ed1cb909-a86d-4ac9-e7af-3abbc3544847"] { color: rgb(255, 255, 255); text-decoration: inherit;  } }</style>EVENTS</span></span></span></a><a pagecloud-guid="f5b25527-3326-4a3a-fe58-9ad9ea16cf89" href="/qwevents" pagecloud-version="1.1.14"><style class="pagecloud-global-style pagecloud design-safe" data-for="f5b25527-3326-4a3a-fe58-9ad9ea16cf89">#pc#pc#pc [pagecloud-guid="f5b25527-3326-4a3a-fe58-9ad9ea16cf89"] { text-decoration: inherit; color: inherit; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="f5b25527-3326-4a3a-fe58-9ad9ea16cf89"] { text-decoration: inherit; color: inherit; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="f5b25527-3326-4a3a-fe58-9ad9ea16cf89"] { text-decoration: inherit; color: inherit;  } }</style>
+<span pagecloud-guid="8a784eed-8512-4d02-959e-b10d15618bc0"><style class="pagecloud-global-style pagecloud design-safe" data-for="8a784eed-8512-4d02-959e-b10d15618bc0">#pc#pc#pc [pagecloud-guid="8a784eed-8512-4d02-959e-b10d15618bc0"] { color: #F5F5F5; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="8a784eed-8512-4d02-959e-b10d15618bc0"] { color: #F5F5F5; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="8a784eed-8512-4d02-959e-b10d15618bc0"] { color: #F5F5F5;  } }</style> </span><span pagecloud-guid="85c1ad3f-b891-471a-ccc9-5656a0735b2e"><style class="pagecloud-global-style pagecloud design-safe" data-for="85c1ad3f-b891-471a-ccc9-5656a0735b2e">#pc#pc#pc [pagecloud-guid="85c1ad3f-b891-471a-ccc9-5656a0735b2e"] { color: #F5F5F5; font-size: 16px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="85c1ad3f-b891-471a-ccc9-5656a0735b2e"] { color: #F5F5F5; font-size: 16px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="85c1ad3f-b891-471a-ccc9-5656a0735b2e"] { color: #F5F5F5; font-size: 16px;  } }</style> </span></a><span pagecloud-guid="7fd2b947-0b67-4d68-bf52-08cf98009f2e"><style class="pagecloud-global-style pagecloud design-safe" data-for="7fd2b947-0b67-4d68-bf52-08cf98009f2e">#pc#pc#pc [pagecloud-guid="7fd2b947-0b67-4d68-bf52-08cf98009f2e"] { color: rgb(0, 0, 0); font-size: 16px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="7fd2b947-0b67-4d68-bf52-08cf98009f2e"] { color: rgb(0, 0, 0); font-size: 16px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="7fd2b947-0b67-4d68-bf52-08cf98009f2e"] { color: rgb(0, 0, 0); font-size: 16px;  } }</style> <a pagecloud-guid="f2e8e672-a46f-4895-85cc-ce48ae7296a4" href="/qwevents" pagecloud-version="1.1.14"><style class="pagecloud-global-style pagecloud design-safe" data-for="f2e8e672-a46f-4895-85cc-ce48ae7296a4">#pc#pc#pc [pagecloud-guid="f2e8e672-a46f-4895-85cc-ce48ae7296a4"] { text-decoration: inherit; color: inherit; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="f2e8e672-a46f-4895-85cc-ce48ae7296a4"] { text-decoration: inherit; color: inherit; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="f2e8e672-a46f-4895-85cc-ce48ae7296a4"] { text-decoration: inherit; color: inherit;  } }</style> <span pagecloud-guid="b0b039ea-e3ad-4f0a-cfcb-4740a4c5f006"><style class="pagecloud-global-style pagecloud design-safe" data-for="b0b039ea-e3ad-4f0a-cfcb-4740a4c5f006">#pc#pc#pc [pagecloud-guid="b0b039ea-e3ad-4f0a-cfcb-4740a4c5f006"] { color: #F5F5F5; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="b0b039ea-e3ad-4f0a-cfcb-4740a4c5f006"] { color: #F5F5F5; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="b0b039ea-e3ad-4f0a-cfcb-4740a4c5f006"] { color: #F5F5F5;  } }</style> I</span> </a> </span><span pagecloud-guid="23574a50-d4e9-4d4f-da1a-b1d9e24747db"><style class="pagecloud-global-style pagecloud design-safe" data-for="23574a50-d4e9-4d4f-da1a-b1d9e24747db">#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="23574a50-d4e9-4d4f-da1a-b1d9e24747db"] { color: rgb(33, 101, 146); text-decoration: inherit; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="23574a50-d4e9-4d4f-da1a-b1d9e24747db"] { color: rgb(33, 101, 146); text-decoration: inherit;  } }</style> <a pagecloud-guid="ef04a128-cc1c-4fa3-93de-8f292c82b393" href="/qwretail" pagecloud-version="1.1.14"><style class="pagecloud-global-style pagecloud design-safe" data-for="ef04a128-cc1c-4fa3-93de-8f292c82b393">#pc#pc#pc [pagecloud-guid="ef04a128-cc1c-4fa3-93de-8f292c82b393"] { text-decoration: inherit; color: inherit; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="ef04a128-cc1c-4fa3-93de-8f292c82b393"] { text-decoration: inherit; color: inherit; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="ef04a128-cc1c-4fa3-93de-8f292c82b393"] { text-decoration: inherit; color: inherit;  } }</style> <span pagecloud-guid="c968edac-654f-44f6-fb6c-a7419b5194bb"><style class="pagecloud-global-style pagecloud design-safe" data-for="c968edac-654f-44f6-fb6c-a7419b5194bb"></style> <span pagecloud-guid="04895c35-09c2-4713-d321-e4b72cc8d530"><style class="pagecloud-global-style pagecloud design-safe" data-for="04895c35-09c2-4713-d321-e4b72cc8d530">#pc#pc#pc [pagecloud-guid="04895c35-09c2-4713-d321-e4b72cc8d530"] { color: #216592; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="04895c35-09c2-4713-d321-e4b72cc8d530"] { color: #216592; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="04895c35-09c2-4713-d321-e4b72cc8d530"] { color: #216592;  } }</style>LVL4. </span> </span></a></span><a pagecloud-guid="99ae63c9-79c7-4b66-978c-59d5335220a6" href="/qwretail" pagecloud-version="1.1.14"><style class="pagecloud-global-style pagecloud design-safe" data-for="99ae63c9-79c7-4b66-978c-59d5335220a6">#pc#pc#pc [pagecloud-guid="99ae63c9-79c7-4b66-978c-59d5335220a6"] { text-decoration: inherit; color: inherit; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="99ae63c9-79c7-4b66-978c-59d5335220a6"] { text-decoration: inherit; color: inherit; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="99ae63c9-79c7-4b66-978c-59d5335220a6"] { text-decoration: inherit; color: inherit;  } }</style> <span pagecloud-guid="dcb769cf-a09a-4799-a058-c9f6ae9bd1e2"><style class="pagecloud-global-style pagecloud design-safe" data-for="dcb769cf-a09a-4799-a058-c9f6ae9bd1e2"></style> <span pagecloud-guid="8e8b67e9-5905-4db0-dc86-68a268fc4753"><style class="pagecloud-global-style pagecloud design-safe" data-for="8e8b67e9-5905-4db0-dc86-68a268fc4753">#pc#pc#pc [pagecloud-guid="8e8b67e9-5905-4db0-dc86-68a268fc4753"] { color: #F5F5F5; text-decoration: inherit; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="8e8b67e9-5905-4db0-dc86-68a268fc4753"] { color: rgb(255, 255, 255); text-decoration: inherit; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="8e8b67e9-5905-4db0-dc86-68a268fc4753"] { color: rgb(255, 255, 255); text-decoration: inherit;  } }</style>RETAIL</span><span pagecloud-guid="0d0cef86-1690-42d1-e158-ce8b7e198e12"><style class="pagecloud-global-style pagecloud design-safe" data-for="0d0cef86-1690-42d1-e158-ce8b7e198e12">#pc#pc#pc [pagecloud-guid="0d0cef86-1690-42d1-e158-ce8b7e198e12"] { color: #F5F5F5; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="0d0cef86-1690-42d1-e158-ce8b7e198e12"] { color: #F5F5F5; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="0d0cef86-1690-42d1-e158-ce8b7e198e12"] { color: #F5F5F5;  } }</style> </span></span></a><span pagecloud-guid="3612184a-a645-4d07-ba04-20468c7d1bff"><style class="pagecloud-global-style pagecloud design-safe" data-for="3612184a-a645-4d07-ba04-20468c7d1bff">#pc#pc#pc [pagecloud-guid="3612184a-a645-4d07-ba04-20468c7d1bff"] { color: rgb(0, 0, 0); font-size: 16px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="3612184a-a645-4d07-ba04-20468c7d1bff"] { color: rgb(0, 0, 0); font-size: 16px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="3612184a-a645-4d07-ba04-20468c7d1bff"] { color: rgb(0, 0, 0); font-size: 16px;  } }</style> <span pagecloud-guid="0085f593-a4c6-404b-ef7f-d5f4ef576519"><style class="pagecloud-global-style pagecloud design-safe" data-for="0085f593-a4c6-404b-ef7f-d5f4ef576519">#pc#pc#pc [pagecloud-guid="0085f593-a4c6-404b-ef7f-d5f4ef576519"] { color: #F5F5F5; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="0085f593-a4c6-404b-ef7f-d5f4ef576519"] { color: #F5F5F5; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="0085f593-a4c6-404b-ef7f-d5f4ef576519"] { color: #F5F5F5;  } }</style> <a pagecloud-guid="c2fd6ef6-8304-44c5-abc4-24e752eef276" href="/qwretail" pagecloud-version="1.1.14"><style class="pagecloud-global-style pagecloud design-safe" data-for="c2fd6ef6-8304-44c5-abc4-24e752eef276">#pc#pc#pc [pagecloud-guid="c2fd6ef6-8304-44c5-abc4-24e752eef276"] { text-decoration: inherit; color: inherit; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="c2fd6ef6-8304-44c5-abc4-24e752eef276"] { text-decoration: inherit; color: inherit; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="c2fd6ef6-8304-44c5-abc4-24e752eef276"] { text-decoration: inherit; color: inherit;  } }</style> I</a></span><span pagecloud-guid="eb130877-30bc-4bbd-9f61-760fce10bd3e"><style class="pagecloud-global-style pagecloud design-safe" data-for="eb130877-30bc-4bbd-9f61-760fce10bd3e">#pc#pc#pc [pagecloud-guid="eb130877-30bc-4bbd-9f61-760fce10bd3e"] { color: #F5F5F5; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="eb130877-30bc-4bbd-9f61-760fce10bd3e"] { color: #F5F5F5; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="eb130877-30bc-4bbd-9f61-760fce10bd3e"] { color: #F5F5F5;  } }</style> </span>  </span><a pagecloud-guid="379733b6-62fb-4090-b700-11347805aee1" href="/qwmembers" pagecloud-version="1.1.14"><style class="pagecloud-global-style pagecloud design-safe" data-for="379733b6-62fb-4090-b700-11347805aee1">#pc#pc#pc [pagecloud-guid="379733b6-62fb-4090-b700-11347805aee1"] { text-decoration: inherit; color: inherit; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="379733b6-62fb-4090-b700-11347805aee1"] { text-decoration: inherit; color: inherit; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="379733b6-62fb-4090-b700-11347805aee1"] { text-decoration: inherit; color: inherit;  } }</style> <span pagecloud-guid="2a125cc6-088d-43e7-f148-fa7ffcc0d8fd"><style class="pagecloud-global-style pagecloud design-safe" data-for="2a125cc6-088d-43e7-f148-fa7ffcc0d8fd">#pc#pc#pc [pagecloud-guid="2a125cc6-088d-43e7-f148-fa7ffcc0d8fd"] { color: rgb(33, 101, 146); text-decoration: inherit; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="2a125cc6-088d-43e7-f148-fa7ffcc0d8fd"] { color: rgb(33, 101, 146); text-decoration: inherit; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="2a125cc6-088d-43e7-f148-fa7ffcc0d8fd"] { color: rgb(33, 101, 146); text-decoration: inherit;  } }</style>LVL5. </span><span pagecloud-guid="72f17353-606e-429a-f1ba-e094e723c46c"><style class="pagecloud-global-style pagecloud design-safe" data-for="72f17353-606e-429a-f1ba-e094e723c46c">#pc#pc#pc [pagecloud-guid="72f17353-606e-429a-f1ba-e094e723c46c"] { color: rgb(255, 255, 255); font-size: 16px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="72f17353-606e-429a-f1ba-e094e723c46c"] { color: rgb(255, 255, 255); font-size: 16px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="72f17353-606e-429a-f1ba-e094e723c46c"] { color: rgb(255, 255, 255); font-size: 16px;  } }</style> <span pagecloud-guid="bc7ba146-17be-41cf-a9cb-cc5a69de682c"><style class="pagecloud-global-style pagecloud design-safe" data-for="bc7ba146-17be-41cf-a9cb-cc5a69de682c">#pc#pc#pc [pagecloud-guid="bc7ba146-17be-41cf-a9cb-cc5a69de682c"] { text-decoration: inherit; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="bc7ba146-17be-41cf-a9cb-cc5a69de682c"] { text-decoration: inherit; color: rgb(255, 255, 255); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="bc7ba146-17be-41cf-a9cb-cc5a69de682c"] { text-decoration: inherit; color: rgb(255, 255, 255);  } }</style>MEMBERS</span> </span></a><span pagecloud-guid="4a28c178-93d3-4e7c-ff1b-fb13efbafebb"><style class="pagecloud-global-style pagecloud design-safe" data-for="4a28c178-93d3-4e7c-ff1b-fb13efbafebb">#pc#pc#pc [pagecloud-guid="4a28c178-93d3-4e7c-ff1b-fb13efbafebb"] { color: rgb(0, 0, 0); font-size: 16px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="4a28c178-93d3-4e7c-ff1b-fb13efbafebb"] { color: rgb(0, 0, 0); font-size: 16px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="4a28c178-93d3-4e7c-ff1b-fb13efbafebb"] { color: rgb(0, 0, 0); font-size: 16px;  } }</style>I   </span> <span pagecloud-guid="c47d082b-2607-4df1-e08c-52cfb18b2c1d"><style class="pagecloud-global-style pagecloud design-safe" data-for="c47d082b-2607-4df1-e08c-52cfb18b2c1d">#pc#pc#pc [pagecloud-guid="c47d082b-2607-4df1-e08c-52cfb18b2c1d"] { color: inherit; text-decoration: inherit; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="c47d082b-2607-4df1-e08c-52cfb18b2c1d"] { color: inherit; text-decoration: inherit; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="c47d082b-2607-4df1-e08c-52cfb18b2c1d"] { color: inherit; text-decoration: inherit;  } }</style> <a pagecloud-guid="7c7ab3be-49b6-47bd-c799-c163cf7b38ce" href="/qwvending" pagecloud-version="1.1.14"><style class="pagecloud-global-style pagecloud design-safe" data-for="7c7ab3be-49b6-47bd-c799-c163cf7b38ce">#pc#pc#pc [pagecloud-guid="7c7ab3be-49b6-47bd-c799-c163cf7b38ce"] { text-decoration: inherit; color: inherit; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="7c7ab3be-49b6-47bd-c799-c163cf7b38ce"] { text-decoration: inherit; color: inherit; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="7c7ab3be-49b6-47bd-c799-c163cf7b38ce"] { text-decoration: inherit; color: inherit;  } }</style> <span pagecloud-guid="15cd4212-4d86-43cb-8619-63df5e7f9620"><style class="pagecloud-global-style pagecloud design-safe" data-for="15cd4212-4d86-43cb-8619-63df5e7f9620">#pc#pc#pc [pagecloud-guid="15cd4212-4d86-43cb-8619-63df5e7f9620"] { color: rgb(33, 101, 146); font-size: 12px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="15cd4212-4d86-43cb-8619-63df5e7f9620"] { color: rgb(33, 101, 146); font-size: 12px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="15cd4212-4d86-43cb-8619-63df5e7f9620"] { color: rgb(33, 101, 146); font-size: 12px;  } }</style>LVL6. </span><span pagecloud-guid="b4d8ec03-7f3a-4db7-efbf-4c81cf518bd9"><style class="pagecloud-global-style pagecloud design-safe" data-for="b4d8ec03-7f3a-4db7-efbf-4c81cf518bd9">#pc#pc#pc [pagecloud-guid="b4d8ec03-7f3a-4db7-efbf-4c81cf518bd9"] { color: rgb(255, 255, 255); font-size: 16px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="b4d8ec03-7f3a-4db7-efbf-4c81cf518bd9"] { color: rgb(255, 255, 255); font-size: 16px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="b4d8ec03-7f3a-4db7-efbf-4c81cf518bd9"] { color: rgb(255, 255, 255); font-size: 16px;  } }</style>VENDING</span></a>  </span></span></span></span></p>
+</div>
+
+
+
+
+
+
+
+</div><form id="pagecloud-5e328fc3-c05f-40b0-a862-b738d6e5556b" class="widget pagecloud-widget group object" action="https://app.pagecloud.com/userforms/x4kAAN9SpddJPfh1Z9SNyVmcHNC232QViNY9EA/submit" method="post" data-slug="x4kAAN9SpddJPfh1Z9SNyVmcHNC232QViNY9EA" pagecloud-guid="96c89943-45e0-4122-986c-c2b705478854" data-widget-type="pagecloud-form" data-widget-title="PageCloud Object" pagecloud-element="form" data-pagecloud-element-metadata="{}" pagecloud-version="1.0.0"><style class="pagecloud-global-style pagecloud design-safe" data-for="96c89943-45e0-4122-986c-c2b705478854">#pc#pc#pc [pagecloud-guid="96c89943-45e0-4122-986c-c2b705478854"] { height: 191px; width: 612px; position: absolute; color: rgb(0, 0, 0); transform-origin: 39.6732% 10.929% 0px; left: 148px; top: 1676px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="96c89943-45e0-4122-986c-c2b705478854"] { height: 181px; width: 465px; position: absolute; color: rgb(0, 0, 0); transform-origin: 39.6732% 10.929% 0px; left: 4px; top: 1534px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="96c89943-45e0-4122-986c-c2b705478854"] { height: 181px; width: 465px; position: absolute; color: rgb(0, 0, 0); transform-origin: 39.6732% 10.929% 0px; left: 4px; top: 1534px;  } }</style>
+
+
+
+
+
+
+
+
+<div class="object text grouped" spellcheck="false" pagecloud-guid="dc5b05aa-86b2-4019-80b8-9eb1bfcf27eb" data-top-percent="0" data-left-percent="0.013071895424836602" data-width-percent="0.9869281045751634" data-height-percent="0.2198952879581152" data-alt-top-percent="0" data-alt-left-percent="0" data-alt-width-percent="1" data-alt-height-percent="0.23204419889502761" pagecloud-version="1.1.6"><style class="pagecloud-global-style pagecloud design-safe" data-for="dc5b05aa-86b2-4019-80b8-9eb1bfcf27eb">#pc#pc#pc [pagecloud-guid="dc5b05aa-86b2-4019-80b8-9eb1bfcf27eb"] { background-color: transparent; opacity: 1; width: 604px; height: 42px; position: absolute; left: 8px; top: 0px; display: block; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="dc5b05aa-86b2-4019-80b8-9eb1bfcf27eb"] { background-color: transparent; opacity: 1; width: 465px; height: 42px; position: absolute; left: 0px; top: 0px; display: block; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="dc5b05aa-86b2-4019-80b8-9eb1bfcf27eb"] { background-color: transparent; opacity: 1; width: 465px; height: 42px; position: absolute; left: 0px; top: 0px; display: block;  } }</style>
+
+
+
+
+
+
+
+
+<div class="content" pagecloud-guid="d83f9272-af95-45b3-f4fa-085aa4910023"><style class="pagecloud-global-style pagecloud design-safe" data-for="d83f9272-af95-45b3-f4fa-085aa4910023"></style>
+
+
+
+
+
+
+
+
+<p pagecloud-guid="22a22e6a-f7ca-4f3a-83b7-357d55aa46a7" data-margin-bottom="0.7em"><style class="pagecloud-global-style pagecloud design-safe" data-for="22a22e6a-f7ca-4f3a-83b7-357d55aa46a7">#pc#pc#pc [pagecloud-guid="22a22e6a-f7ca-4f3a-83b7-357d55aa46a7"] { line-height: 1.5; text-align: center; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="22a22e6a-f7ca-4f3a-83b7-357d55aa46a7"] { line-height: 1.5; text-align: center; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="22a22e6a-f7ca-4f3a-83b7-357d55aa46a7"] { line-height: 1.5; text-align: center;  } }</style><span data-original-font-size="28" data-block="true" pagecloud-guid="45d3f703-6afc-41c5-a334-e793cee486f7"><style class="pagecloud-global-style pagecloud design-safe" data-for="45d3f703-6afc-41c5-a334-e793cee486f7">#pc#pc#pc [pagecloud-guid="45d3f703-6afc-41c5-a334-e793cee486f7"] { font-family: helvetica; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="45d3f703-6afc-41c5-a334-e793cee486f7"] { font-family: 'merriweather'; color: rgb(255, 255, 255); font-size: 28.4828px; font-style: normal; text-decoration: none solid rgb(59, 59, 59); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="45d3f703-6afc-41c5-a334-e793cee486f7"] { font-family: 'merriweather'; color: rgb(255, 255, 255); font-size: 28.4828px; font-style: normal; text-decoration: none solid rgb(59, 59, 59);  } }</style>
+<span pagecloud-guid="bd1b51fe-c607-4ab2-9111-ebcab7fce0ab"><style class="pagecloud-global-style pagecloud design-safe" data-for="bd1b51fe-c607-4ab2-9111-ebcab7fce0ab">#pc#pc#pc [pagecloud-guid="bd1b51fe-c607-4ab2-9111-ebcab7fce0ab"] { color: rgb(0, 204, 255); font-family: raleway; font-size: 28px; font-style: normal; text-decoration: none solid rgb(59, 59, 59); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="bd1b51fe-c607-4ab2-9111-ebcab7fce0ab"] { color: rgb(0, 204, 255); font-family: raleway; font-size: 28px; font-style: normal; text-decoration: none solid rgb(59, 59, 59); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="bd1b51fe-c607-4ab2-9111-ebcab7fce0ab"] { color: rgb(0, 204, 255); font-family: raleway; font-size: 28px; font-style: normal; text-decoration: none solid rgb(59, 59, 59);  } }</style>
+<span pagecloud-guid="880ccb8a-405f-4be0-98d0-f3ff3c22462b"><style class="pagecloud-global-style pagecloud design-safe" data-for="880ccb8a-405f-4be0-98d0-f3ff3c22462b"></style>Newsletter Sign-up</span></span></span></p>
+</div>
+</div>
+
+<label class="object form label text no-duplicate no-delete grouped" spellcheck="false" pagecloud-guid="3ddfe7eb-1bac-48b3-f3ff-9c256abc1356" data-top-percent="0.23036649214659685" data-left-percent="0" data-width-percent="0.9836601307189542" data-height-percent="0.11518324607329843" data-alt-top-percent="0.2154696132596685" data-alt-left-percent="0.15053763440860216" data-alt-width-percent="0.7053763440860215" data-alt-height-percent="0.12154696132596685" pagecloud-version="1.1.6" for="pagecloud-64ad113b-c20c-4a15-fa7e-da7f4a7e6670"><style class="pagecloud-global-style pagecloud design-safe" data-for="3ddfe7eb-1bac-48b3-f3ff-9c256abc1356">#pc#pc#pc [pagecloud-guid="3ddfe7eb-1bac-48b3-f3ff-9c256abc1356"] { background-color: transparent; width: 602px; height: 22px; position: absolute; left: 0px; top: 44px; display: block; opacity: 1; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="3ddfe7eb-1bac-48b3-f3ff-9c256abc1356"] { background-color: transparent; width: 328px; height: 22px; position: absolute; left: 70px; top: 39px; display: block; opacity: 0.7; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="3ddfe7eb-1bac-48b3-f3ff-9c256abc1356"] { background-color: transparent; width: 328px; height: 22px; position: absolute; left: 70px; top: 39px; display: block; opacity: 0.7;  } }</style>
+<div class="content" pagecloud-guid="eaa906ec-828b-4fd9-f746-5e978e65f55d"><style class="pagecloud-global-style pagecloud design-safe" data-for="eaa906ec-828b-4fd9-f746-5e978e65f55d"></style>
+
+
+
+
+
+
+
+
+<p pagecloud-guid="4f8121df-2e2b-4831-d059-d991c325ef1a" data-margin-bottom="0.7em"><style class="pagecloud-global-style pagecloud design-safe" data-for="4f8121df-2e2b-4831-d059-d991c325ef1a">#pc#pc#pc [pagecloud-guid="4f8121df-2e2b-4831-d059-d991c325ef1a"] { line-height: 1.5; text-align: center; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="4f8121df-2e2b-4831-d059-d991c325ef1a"] { line-height: 1.5; text-align: center; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="4f8121df-2e2b-4831-d059-d991c325ef1a"] { line-height: 1.5; text-align: center;  } }</style><span data-original-font-size="14" data-block="true" pagecloud-guid="038d95c7-ee21-459f-dd92-704fed2fda93"><style class="pagecloud-global-style pagecloud design-safe" data-for="038d95c7-ee21-459f-dd92-704fed2fda93">#pc#pc#pc [pagecloud-guid="038d95c7-ee21-459f-dd92-704fed2fda93"] { font-family: helvetica; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="038d95c7-ee21-459f-dd92-704fed2fda93"] { font-family: 'open sans'; color: rgb(255, 255, 255); font-size: 14px; font-style: italic; font-weight: 400; text-decoration: none solid rgb(59, 59, 59); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="038d95c7-ee21-459f-dd92-704fed2fda93"] { font-family: 'open sans'; color: rgb(255, 255, 255); font-size: 14px; font-style: italic; font-weight: 400; text-decoration: none solid rgb(59, 59, 59);  } }</style>
+<span pagecloud-guid="d1819e05-1745-4191-9179-7116e3abb13b"><style class="pagecloud-global-style pagecloud design-safe" data-for="d1819e05-1745-4191-9179-7116e3abb13b">#pc#pc#pc [pagecloud-guid="d1819e05-1745-4191-9179-7116e3abb13b"] { color: rgb(255, 255, 255); font-family: 'open sans'; font-size: 14px; font-style: italic; text-decoration: none solid rgb(59, 59, 59); font-weight: 400; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="d1819e05-1745-4191-9179-7116e3abb13b"] { color: rgb(255, 255, 255); font-family: 'open sans'; font-size: 14px; font-style: italic; text-decoration: none solid rgb(59, 59, 59); font-weight: 400; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="d1819e05-1745-4191-9179-7116e3abb13b"] { color: rgb(255, 255, 255); font-family: 'open sans'; font-size: 14px; font-style: italic; text-decoration: none solid rgb(59, 59, 59); font-weight: 400;  } }</style>Enter your email address.</span></span></p>
+</div></label><div class="object form input no-duplicate no-delete grouped" pagecloud-guid="35ff9cf0-93cc-492d-aa0a-f13e4af72774" data-top-percent="0.4083769633507853" data-left-percent="0.013071895424836602" data-width-percent="0.9869281045751634" data-height-percent="0.24607329842931938" data-alt-top-percent="0.36464088397790057" data-alt-left-percent="0.11397849462365592" data-alt-width-percent="0.7634408602150538" data-alt-height-percent="0.2596685082872928" pagecloud-version="1.0.0"><style class="pagecloud-global-style pagecloud design-safe" data-for="35ff9cf0-93cc-492d-aa0a-f13e4af72774">#pc#pc#pc [pagecloud-guid="35ff9cf0-93cc-492d-aa0a-f13e4af72774"] { background-color: rgba(250, 250, 250, 0.65); opacity: 1; width: 602px; height: 45px; position: absolute; left: 8px; top: 78px; box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px 0px inset; border-style: solid; border-width: 1px; border-color: rgba(0, 0, 0, 0.1); border-radius: 5px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="35ff9cf0-93cc-492d-aa0a-f13e4af72774"] { background-color: rgba(250, 250, 250, 0.65); opacity: 1; width: 353px; height: 45px; position: absolute; left: 53px; top: 66px; box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px 0px inset; border-style: solid; border-width: 1px; border-color: rgba(0, 0, 0, 0.1); border-radius: 5px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="35ff9cf0-93cc-492d-aa0a-f13e4af72774"] { background-color: rgba(250, 250, 250, 0.65); opacity: 1; width: 353px; height: 45px; position: absolute; left: 53px; top: 66px; box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px 0px inset; border-style: solid; border-width: 1px; border-color: rgba(0, 0, 0, 0.1); border-radius: 5px;  } }</style>
+
+
+
+
+
+
+
+
+<input id="pagecloud-64ad113b-c20c-4a15-fa7e-da7f4a7e6670" name="---------------enter-your-email----address.---" type="text" required="">
+</div>
+<button type="submit" class="form submit no-delete no-duplicate group object grouped" pagecloud-guid="84a13a62-5246-4e91-e480-3c9552233c6f" data-top-percent="0.7068062827225131" data-left-percent="0.23202614379084968" data-width-percent="0.545751633986928" data-height-percent="0.2931937172774869" data-alt-top-percent="0.6906077348066298" data-alt-left-percent="0.11612903225806452" data-alt-width-percent="0.7612903225806451" data-alt-height-percent="0.30939226519337015" pagecloud-version="1.0.0"><style class="pagecloud-global-style pagecloud design-safe" data-for="84a13a62-5246-4e91-e480-3c9552233c6f">#pc#pc#pc [pagecloud-guid="84a13a62-5246-4e91-e480-3c9552233c6f"] { top: 135px; left: 142px; height: 56px; width: 334px; position: absolute; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="84a13a62-5246-4e91-e480-3c9552233c6f"] { top: 125px; left: 54px; height: 56px; width: 354px; position: absolute; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="84a13a62-5246-4e91-e480-3c9552233c6f"] { top: 125px; left: 54px; height: 56px; width: 354px; position: absolute;  } }</style>
+<div class="no-duplicate no-delete object grouped" pagecloud-guid="a8eb3a38-e212-4711-ee6a-0bff73672dd5" data-top-percent="0" data-left-percent="0" data-width-percent="1" data-height-percent="1" data-alt-top-percent="0" data-alt-left-percent="0" data-alt-width-percent="1" data-alt-height-percent="1" pagecloud-version="1.0.0"><style class="pagecloud-global-style pagecloud design-safe" data-for="a8eb3a38-e212-4711-ee6a-0bff73672dd5">#pc#pc#pc [pagecloud-guid="a8eb3a38-e212-4711-ee6a-0bff73672dd5"] { background-color: rgb(0, 204, 255); opacity: 1; width: 334px; height: 56px; position: absolute; left: 0px; top: 0px; box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 5px 0px; border-radius: 5px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="a8eb3a38-e212-4711-ee6a-0bff73672dd5"] { background-color: rgb(0, 204, 255); opacity: 1; width: 354px; height: 56px; position: absolute; left: 0px; top: 0px; box-shadow: rgb(0, 204, 255) 0px 2px 5px 0px; border-radius: 5px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="a8eb3a38-e212-4711-ee6a-0bff73672dd5"] { background-color: rgb(0, 204, 255); opacity: 1; width: 354px; height: 56px; position: absolute; left: 0px; top: 0px; box-shadow: rgb(0, 204, 255) 0px 2px 5px 0px; border-radius: 5px;  } }</style></div>
+<div class="no-duplicate no-delete object text grouped" spellcheck="false" pagecloud-guid="f6cb03c6-917f-4f34-d3fe-c6ca5b6d699d" data-top-percent="0.32142857142857145" data-left-percent="0.008982035928143712" data-width-percent="0.9790419161676647" data-height-percent="0.39285714285714285" data-alt-top-percent="0.3392857142857143" data-alt-left-percent="0.2740112994350282" data-alt-width-percent="0.4293785310734463" data-alt-height-percent="0.39285714285714285" pagecloud-version="1.1.6"><style class="pagecloud-global-style pagecloud design-safe" data-for="f6cb03c6-917f-4f34-d3fe-c6ca5b6d699d">#pc#pc#pc [pagecloud-guid="f6cb03c6-917f-4f34-d3fe-c6ca5b6d699d"] { background-color: transparent; opacity: 1; width: 327px; height: 22px; position: absolute; left: 3px; top: 18px; display: block; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="f6cb03c6-917f-4f34-d3fe-c6ca5b6d699d"] { background-color: transparent; opacity: 1; width: 152px; height: 22px; position: absolute; left: 97px; top: 19px; display: block; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="f6cb03c6-917f-4f34-d3fe-c6ca5b6d699d"] { background-color: transparent; opacity: 1; width: 152px; height: 22px; position: absolute; left: 97px; top: 19px; display: block;  } }</style>
+
+
+
+
+
+
+
+
+<div class="content" pagecloud-guid="f223f49a-8f5a-40ea-dbee-748eb006b32a"><style class="pagecloud-global-style pagecloud design-safe" data-for="f223f49a-8f5a-40ea-dbee-748eb006b32a"></style>
+
+
+
+
+
+
+
+
+<p pagecloud-guid="c462e206-3865-42aa-e914-a034a58180fe" data-margin-bottom="0.7em"><style class="pagecloud-global-style pagecloud design-safe" data-for="c462e206-3865-42aa-e914-a034a58180fe">#pc#pc#pc [pagecloud-guid="c462e206-3865-42aa-e914-a034a58180fe"] { line-height: 1.5; text-align: center; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="c462e206-3865-42aa-e914-a034a58180fe"] { line-height: 1.5; text-align: center; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="c462e206-3865-42aa-e914-a034a58180fe"] { line-height: 1.5; text-align: center;  } }</style><span data-original-font-size="14" data-block="true" pagecloud-guid="159708d1-dd60-4a9b-97b2-2519d6c12604"><style class="pagecloud-global-style pagecloud design-safe" data-for="159708d1-dd60-4a9b-97b2-2519d6c12604">#pc#pc#pc [pagecloud-guid="159708d1-dd60-4a9b-97b2-2519d6c12604"] { color: rgb(0, 0, 0); font-family: 'open sans'; font-size: 14px; font-style: normal; text-decoration: none solid rgb(255, 255, 255); font-weight: 600; letter-spacing: 2px; text-transform: uppercase; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="159708d1-dd60-4a9b-97b2-2519d6c12604"] { color: rgb(0, 0, 0); font-family: 'open sans'; font-size: 14px; font-style: normal; text-decoration: none solid rgb(255, 255, 255); font-weight: 600; letter-spacing: 2px; text-transform: uppercase; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="159708d1-dd60-4a9b-97b2-2519d6c12604"] { color: rgb(0, 0, 0); font-family: 'open sans'; font-size: 14px; font-style: normal; text-decoration: none solid rgb(255, 255, 255); font-weight: 600; letter-spacing: 2px; text-transform: uppercase;  } }</style>
+<span data-original-font-size="14" pagecloud-guid="736a37f4-7da6-40f1-f639-e6e71c44b002"><style class="pagecloud-global-style pagecloud design-safe" data-for="736a37f4-7da6-40f1-f639-e6e71c44b002">#pc#pc#pc [pagecloud-guid="736a37f4-7da6-40f1-f639-e6e71c44b002"] { font-family: "open sans"; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="736a37f4-7da6-40f1-f639-e6e71c44b002"] { font-family: 'open sans'; color: rgb(255, 255, 255); font-size: 14px; font-style: normal; font-weight: 600; text-transform: uppercase; text-decoration: none solid rgb(255, 255, 255); letter-spacing: 2px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="736a37f4-7da6-40f1-f639-e6e71c44b002"] { font-family: 'open sans'; color: rgb(255, 255, 255); font-size: 14px; font-style: normal; font-weight: 600; text-transform: uppercase; text-decoration: none solid rgb(255, 255, 255); letter-spacing: 2px;  } }</style>Sign-up</span></span></p>
+</div>
+</div></button>
+</form><div class="object text" spellcheck="false" pagecloud-guid="6cea4910-567c-4110-ec17-2a44d44d666c" pagecloud-version="1.1.6"><style class="pagecloud-global-style pagecloud design-safe" data-for="6cea4910-567c-4110-ec17-2a44d44d666c">#pc#pc#pc [pagecloud-guid="6cea4910-567c-4110-ec17-2a44d44d666c"] { width: 760px; height: 335.5px; position: absolute; left: 91px; top: 866px; border-style: none; border-color: rgba(0, 0, 0, 0); display: block; background-color: rgba(0, 0, 0, 0); opacity: 1; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="6cea4910-567c-4110-ec17-2a44d44d666c"] { width: 452px; height: 537.5px; position: absolute; left: 10px; top: 584px; border-style: none; border-color: rgba(0, 0, 0, 0); display: block; background-color: rgba(0, 0, 0, 0); opacity: 0.89; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="6cea4910-567c-4110-ec17-2a44d44d666c"] { width: 452px; height: 537.5px; position: absolute; left: 10px; top: 584px; border-style: none; border-color: rgba(0, 0, 0, 0); display: block; background-color: rgba(0, 0, 0, 0); opacity: 0.89;  } }</style>
+
+
+
+
+
+
+
+<div class="content" pagecloud-guid="4c003f10-e5bf-440d-af9f-baae8cfa3204"><style class="pagecloud-global-style pagecloud design-safe" data-for="4c003f10-e5bf-440d-af9f-baae8cfa3204"></style>
+
+
+
+
+
+
+
+<p pagecloud-guid="ead25394-3148-4d75-b745-7b9ef87940b4"><style class="pagecloud-global-style pagecloud design-safe" data-for="ead25394-3148-4d75-b745-7b9ef87940b4">#pc#pc#pc [pagecloud-guid="ead25394-3148-4d75-b745-7b9ef87940b4"] { line-height: 1.5; margin-bottom: 0.7em; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="ead25394-3148-4d75-b745-7b9ef87940b4"] { line-height: 1.5; margin-bottom: 0.7em; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="ead25394-3148-4d75-b745-7b9ef87940b4"] { line-height: 1.5; margin-bottom: 0.7em;  } }</style><span data-block="true" pagecloud-guid="8d380882-d43d-4653-a000-c65fa869293f"><style class="pagecloud-global-style pagecloud design-safe" data-for="8d380882-d43d-4653-a000-c65fa869293f">#pc#pc#pc [pagecloud-guid="8d380882-d43d-4653-a000-c65fa869293f"] { color: rgb(245, 245, 245); font-family: 'helvetica'; font-size: 17px; font-style: normal; text-decoration: none solid rgb(245, 245, 245); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="8d380882-d43d-4653-a000-c65fa869293f"] { color: rgb(245, 245, 245); font-family: helvetica; font-size: 17px; font-style: normal; text-decoration: none solid rgb(245, 245, 245); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="8d380882-d43d-4653-a000-c65fa869293f"] { color: rgb(245, 245, 245); font-family: helvetica; font-size: 17px; font-style: normal; text-decoration: none solid rgb(245, 245, 245);  } }</style>
+<span pagecloud-guid="9b798041-496c-4e2a-8c41-003e24903dc3"><style class="pagecloud-global-style pagecloud design-safe" data-for="9b798041-496c-4e2a-8c41-003e24903dc3"></style>
+<span pagecloud-guid="85bed495-1154-40ab-8de0-dcc8a5827e89"><style class="pagecloud-global-style pagecloud design-safe" data-for="85bed495-1154-40ab-8de0-dcc8a5827e89">#pc#pc#pc [pagecloud-guid="85bed495-1154-40ab-8de0-dcc8a5827e89"] { font-family: 'helvetica'; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="85bed495-1154-40ab-8de0-dcc8a5827e89"] { font-family: 'helvetica'; color: rgb(255, 255, 255); font-size: 15px; font-style: normal; font-weight: bold; text-decoration: none; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="85bed495-1154-40ab-8de0-dcc8a5827e89"] { font-family: 'helvetica'; color: rgb(255, 255, 255); font-size: 15px; font-style: normal; font-weight: bold; text-decoration: none;  } }</style>QuarterWorld is a retro arcade museum, pinball arcade, and bar serving pizza and carnival inspired delights. With over 34 different pinball games and 63 classic and new arcade games there is something for everyone! Split up into 2 sides, Q Lab and Q Lounge, you can bring the whole family to have fun. We have a full bar and allow minors and adults in the same area. The establishment is clean and comfortable with nice lighting. There is Tap Tv Trivia on multiple screens to entertain the brain that can be played from any smartphone. Games take actual quarters, dollar bills and credit cards using our Pay-range app. We have a photo booth, new games and restored old school games. We also have a musical Tesla Coil that plays songs using lightning bolts as musical notes. Tesla Coil shows are on Sunday and Tuesday at 4pm and 9pm.</span></span></span></p>
+<p pagecloud-guid="27d509a5-c995-4486-bd6a-aaa69b45c205" data-margin-bottom="0.7em"><style class="pagecloud-global-style pagecloud design-safe" data-for="27d509a5-c995-4486-bd6a-aaa69b45c205">#pc#pc#pc [pagecloud-guid="27d509a5-c995-4486-bd6a-aaa69b45c205"] { line-height: 1.5; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="27d509a5-c995-4486-bd6a-aaa69b45c205"] { line-height: 1.5; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="27d509a5-c995-4486-bd6a-aaa69b45c205"] { line-height: 1.5;  } }</style><span data-block="true" pagecloud-guid="6341bb2a-108b-4df1-967d-4c210228735f"><style class="pagecloud-global-style pagecloud design-safe" data-for="6341bb2a-108b-4df1-967d-4c210228735f">#pc#pc#pc [pagecloud-guid="6341bb2a-108b-4df1-967d-4c210228735f"] { color: rgb(245, 245, 245); font-family: 'helvetica'; font-size: 17px; font-style: normal; text-decoration: none solid rgb(245, 245, 245); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="6341bb2a-108b-4df1-967d-4c210228735f"] { color: rgb(245, 245, 245); font-family: helvetica; font-size: 17px; font-style: normal; text-decoration: none solid rgb(245, 245, 245); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="6341bb2a-108b-4df1-967d-4c210228735f"] { color: rgb(245, 245, 245); font-family: helvetica; font-size: 17px; font-style: normal; text-decoration: none solid rgb(245, 245, 245);  } }</style>
+<span pagecloud-guid="e91ec1f6-2179-49a3-a5ce-3cadb1dae6e0"><style class="pagecloud-global-style pagecloud design-safe" data-for="e91ec1f6-2179-49a3-a5ce-3cadb1dae6e0"></style>
+<span pagecloud-guid="807d8a18-eb40-4a99-e0bd-e2a8f9588776"><style class="pagecloud-global-style pagecloud design-safe" data-for="807d8a18-eb40-4a99-e0bd-e2a8f9588776">#pc#pc#pc [pagecloud-guid="807d8a18-eb40-4a99-e0bd-e2a8f9588776"] { font-family: 'helvetica'; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="807d8a18-eb40-4a99-e0bd-e2a8f9588776"] { font-family: 'helvetica'; color: rgb(255, 255, 255); font-size: 15px; font-style: normal; font-weight: bold; text-decoration: none; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="807d8a18-eb40-4a99-e0bd-e2a8f9588776"] { font-family: 'helvetica'; color: rgb(255, 255, 255); font-size: 15px; font-style: normal; font-weight: bold; text-decoration: none;  } }</style>We are a great host venue for both rainy days and hot summer days. Our climate control systems provide air conditioning in the summer and warm cozy heat in the winter. We also host birthday parties, graduation parties, employee appreciation parties, movie wrap parties, team building parties, bachelorette parties and holiday parties for all groups, small and large.</span></span></span></p>
+</div>
+
+
+</div><div class="object" pagecloud-guid="5db6f534-71cb-42b8-9783-6721fc5106f8" data-widget-type="pagecloud-native-widget" data-widget-title="PageCloud Object" data-pagecloud-element-metadata="{}" pagecloud-version="1.0.0"><style class="pagecloud-global-style pagecloud design-safe" data-for="5db6f534-71cb-42b8-9783-6721fc5106f8">#pc#pc#pc [pagecloud-guid="5db6f534-71cb-42b8-9783-6721fc5106f8"] { background-color: rgb(0, 0, 0); opacity: 1; height: 4px; position: absolute; left: 486px; top: 1356px; width: 42px; color: rgb(0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="5db6f534-71cb-42b8-9783-6721fc5106f8"] { background-color: rgb(0, 0, 0); opacity: 1; height: 4px; position: absolute; left: 227px; top: 1172px; width: 23px; color: rgb(0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="5db6f534-71cb-42b8-9783-6721fc5106f8"] { background-color: rgb(0, 0, 0); opacity: 1; height: 4px; position: absolute; left: 227px; top: 1172px; width: 23px; color: rgb(0, 0, 0);  } }</style></div><div class="object text" spellcheck="false" pagecloud-guid="de2694c4-6f3c-4b6d-b968-b0f2cf03af9b" data-widget-type="pagecloud-native-widget" data-widget-title="PageCloud Object" data-pagecloud-element-metadata="{}" pagecloud-version="1.1.6"><style class="pagecloud-global-style pagecloud design-safe" data-for="de2694c4-6f3c-4b6d-b968-b0f2cf03af9b">#pc#pc#pc [pagecloud-guid="de2694c4-6f3c-4b6d-b968-b0f2cf03af9b"] { background-color: transparent; width: 679px; height: 49px; position: absolute; display: block; left: 119px; top: 1235px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="de2694c4-6f3c-4b6d-b968-b0f2cf03af9b"] { background-color: transparent; width: 430px; height: 40px; position: absolute; display: block; left: 19px; top: 1129px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="de2694c4-6f3c-4b6d-b968-b0f2cf03af9b"] { background-color: transparent; width: 430px; height: 40px; position: absolute; display: block; left: 19px; top: 1129px;  } }</style>
+
+
+
+
+
+
+
+
+<div class="content" data-widget-type="pagecloud-native-widget" pagecloud-guid="340e3c12-e1a9-4e24-8ddf-f9905d563640"><style class="pagecloud-global-style pagecloud design-safe" data-for="340e3c12-e1a9-4e24-8ddf-f9905d563640"></style>
+
+
+
+
+
+
+
+
+<h6 pagecloud-guid="0b7d194d-22cc-42de-b965-98483859d8ac" data-margin-bottom="0.7em"><style class="pagecloud-global-style pagecloud design-safe" data-for="0b7d194d-22cc-42de-b965-98483859d8ac">#pc#pc#pc [pagecloud-guid="0b7d194d-22cc-42de-b965-98483859d8ac"] { line-height: 1.5; text-align: center; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="0b7d194d-22cc-42de-b965-98483859d8ac"] { line-height: 1.5; text-align: center; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="0b7d194d-22cc-42de-b965-98483859d8ac"] { line-height: 1.5; text-align: center;  } }</style>
+
+
+
+
+
+
+
+
+<span data-block="true" pagecloud-guid="c234883d-8be0-4650-c92e-300ee09f792d"><style class="pagecloud-global-style pagecloud design-safe" data-for="c234883d-8be0-4650-c92e-300ee09f792d">#pc#pc#pc [pagecloud-guid="c234883d-8be0-4650-c92e-300ee09f792d"] { font-family: helvetica; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="c234883d-8be0-4650-c92e-300ee09f792d"] { font-family: 'merriweather'; color: rgb(0, 204, 255); font-size: 27.1848px; font-style: normal; font-weight: 400; text-decoration: none solid rgb(0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="c234883d-8be0-4650-c92e-300ee09f792d"] { font-family: 'merriweather'; color: rgb(0, 204, 255); font-size: 27.1848px; font-style: normal; font-weight: 400; text-decoration: none solid rgb(0, 0, 0);  } }</style>
+<span pagecloud-guid="3c381eeb-41ae-4d2b-ec52-3900624b5992"><style class="pagecloud-global-style pagecloud design-safe" data-for="3c381eeb-41ae-4d2b-ec52-3900624b5992"></style>
+<span pagecloud-guid="7865f387-e859-49b2-f011-44e46a49b73f"><style class="pagecloud-global-style pagecloud design-safe" data-for="7865f387-e859-49b2-f011-44e46a49b73f">#pc#pc#pc [pagecloud-guid="7865f387-e859-49b2-f011-44e46a49b73f"] { color: rgb(0, 204, 255); font-family: raleway; font-size: 33.0923px; font-style: normal; text-decoration: none solid rgb(0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="7865f387-e859-49b2-f011-44e46a49b73f"] { color: rgb(0, 204, 255); font-family: raleway; font-size: 33.0923px; font-style: normal; text-decoration: none solid rgb(0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="7865f387-e859-49b2-f011-44e46a49b73f"] { color: rgb(0, 204, 255); font-family: raleway; font-size: 33.0923px; font-style: normal; text-decoration: none solid rgb(0, 0, 0);  } }</style>Come get your game on!</span></span></span>
+</h6>
+</div>
+</div><div class="object text" spellcheck="false" pagecloud-guid="7a122e92-6299-4f87-faad-6d26a9c93deb" data-widget-type="pagecloud-native-widget" data-widget-title="PageCloud Object" data-pagecloud-element-metadata="{}" pagecloud-version="1.1.6"><style class="pagecloud-global-style pagecloud design-safe" data-for="7a122e92-6299-4f87-faad-6d26a9c93deb">#pc#pc#pc [pagecloud-guid="7a122e92-6299-4f87-faad-6d26a9c93deb"] { background-color: transparent; height: 316.5px; position: absolute; display: block; left: 119px; top: 1303px; width: 263px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="7a122e92-6299-4f87-faad-6d26a9c93deb"] { background-color: transparent; height: 227.5px; position: absolute; display: block; left: 0px; top: 1191px; width: 163px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="7a122e92-6299-4f87-faad-6d26a9c93deb"] { background-color: transparent; height: 227.5px; position: absolute; display: block; left: 0px; top: 1191px; width: 163px;  } }</style><div class="content" data-widget-type="pagecloud-native-widget" pagecloud-guid="93bc9948-355a-4224-b61d-1d4ea5f6d427"><style class="pagecloud-global-style pagecloud design-safe" data-for="93bc9948-355a-4224-b61d-1d4ea5f6d427"></style><p pagecloud-guid="ca47d790-3bea-4793-f6b5-12b292cb704a"><style class="pagecloud-global-style pagecloud design-safe" data-for="ca47d790-3bea-4793-f6b5-12b292cb704a">#pc#pc#pc [pagecloud-guid="ca47d790-3bea-4793-f6b5-12b292cb704a"] { line-height: 1.5; margin-bottom: 0.7em; text-align: center; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="ca47d790-3bea-4793-f6b5-12b292cb704a"] { line-height: 1.5; margin-bottom: 0.7em; text-align: center; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="ca47d790-3bea-4793-f6b5-12b292cb704a"] { line-height: 1.5; margin-bottom: 0.7em; text-align: center;  } }</style><span data-block="true" pagecloud-guid="4e307fb1-9614-42e3-ed01-0a80b5376768"><style class="pagecloud-global-style pagecloud design-safe" data-for="4e307fb1-9614-42e3-ed01-0a80b5376768">#pc#pc#pc [pagecloud-guid="4e307fb1-9614-42e3-ed01-0a80b5376768"] { font-family: 'lato'; font-weight: 400; line-height: 0.5; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="4e307fb1-9614-42e3-ed01-0a80b5376768"] { font-family: 'helvetica'; font-weight: 400; line-height: 0.5; color: rgb(255, 255, 255); font-size: 16.8063px; font-style: normal; text-decoration: none solid rgb(255, 255, 255); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="4e307fb1-9614-42e3-ed01-0a80b5376768"] { font-family: 'helvetica'; font-weight: 400; line-height: 0.5; color: rgb(255, 255, 255); font-size: 16.8063px; font-style: normal; text-decoration: none solid rgb(255, 255, 255);  } }</style><span pagecloud-guid="e37c580a-5d12-4dd7-83d7-87cd41bc35c8"><style class="pagecloud-global-style pagecloud design-safe" data-for="e37c580a-5d12-4dd7-83d7-87cd41bc35c8">#pc#pc#pc [pagecloud-guid="e37c580a-5d12-4dd7-83d7-87cd41bc35c8"] { color: #ffffff; font-size: 18px; font-style: normal; line-height: 1em; text-decoration: none solid #000000; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="e37c580a-5d12-4dd7-83d7-87cd41bc35c8"] { color: #ffffff; font-size: 18px; font-style: normal; line-height: 1em; text-decoration: none solid #000000; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="e37c580a-5d12-4dd7-83d7-87cd41bc35c8"] { color: #ffffff; font-size: 18px; font-style: normal; line-height: 1em; text-decoration: none solid #000000;  } }</style>Tuesday-Friday </span></span></p><p pagecloud-guid="8ba4fccf-bc86-4325-e707-0cf26f168488"><style class="pagecloud-global-style pagecloud design-safe" data-for="8ba4fccf-bc86-4325-e707-0cf26f168488">#pc#pc#pc [pagecloud-guid="8ba4fccf-bc86-4325-e707-0cf26f168488"] { line-height: 1.5; margin-bottom: 0.7em; text-align: center; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="8ba4fccf-bc86-4325-e707-0cf26f168488"] { line-height: 1.5; margin-bottom: 0.7em; text-align: center; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="8ba4fccf-bc86-4325-e707-0cf26f168488"] { line-height: 1.5; margin-bottom: 0.7em; text-align: center;  } }</style><span data-block="true" pagecloud-guid="12be280e-bcff-478b-8241-e710d20a0fa4"><style class="pagecloud-global-style pagecloud design-safe" data-for="12be280e-bcff-478b-8241-e710d20a0fa4">#pc#pc#pc [pagecloud-guid="12be280e-bcff-478b-8241-e710d20a0fa4"] { font-family: 'lato'; font-size: 18px; font-weight: 400; line-height: 0.5; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="12be280e-bcff-478b-8241-e710d20a0fa4"] { font-family: 'helvetica'; font-size: 16.8063px; font-weight: 400; line-height: 0.5; color: rgb(255, 255, 255); font-style: normal; text-decoration: none solid rgb(255, 255, 255); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="12be280e-bcff-478b-8241-e710d20a0fa4"] { font-family: 'helvetica'; font-size: 16.8063px; font-weight: 400; line-height: 0.5; color: rgb(255, 255, 255); font-style: normal; text-decoration: none solid rgb(255, 255, 255);  } }</style><span pagecloud-guid="455df910-4e7c-44fd-9ed2-919d15f732e9"><style class="pagecloud-global-style pagecloud design-safe" data-for="455df910-4e7c-44fd-9ed2-919d15f732e9">#pc#pc#pc [pagecloud-guid="455df910-4e7c-44fd-9ed2-919d15f732e9"] { color: rgb(255, 255, 255); font-style: normal; line-height: 1em; text-decoration: none solid rgb(0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="455df910-4e7c-44fd-9ed2-919d15f732e9"] { color: rgb(255, 255, 255); font-style: normal; line-height: 1em; text-decoration: none solid rgb(0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="455df910-4e7c-44fd-9ed2-919d15f732e9"] { color: rgb(255, 255, 255); font-style: normal; line-height: 1em; text-decoration: none solid rgb(0, 0, 0);  } }</style>3:00PM-1:00AM</span></span></p><p pagecloud-guid="4287d869-da12-4afd-aa4e-b2ac56f6d88a"><style class="pagecloud-global-style pagecloud design-safe" data-for="4287d869-da12-4afd-aa4e-b2ac56f6d88a">#pc#pc#pc [pagecloud-guid="4287d869-da12-4afd-aa4e-b2ac56f6d88a"] { line-height: 1.5; margin-bottom: 0.7em; text-align: center; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="4287d869-da12-4afd-aa4e-b2ac56f6d88a"] { line-height: 1.5; margin-bottom: 0.7em; text-align: center; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="4287d869-da12-4afd-aa4e-b2ac56f6d88a"] { line-height: 1.5; margin-bottom: 0.7em; text-align: center;  } }</style><span data-block="true" pagecloud-guid="60487230-9755-46b4-afb8-51feae87b24e"><style class="pagecloud-global-style pagecloud design-safe" data-for="60487230-9755-46b4-afb8-51feae87b24e">#pc#pc#pc [pagecloud-guid="60487230-9755-46b4-afb8-51feae87b24e"] { font-family: 'lato'; font-size: 18px; font-weight: 400; line-height: 0.5; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="60487230-9755-46b4-afb8-51feae87b24e"] { font-family: 'helvetica'; font-size: 16.8063px; font-weight: 400; line-height: 0.5; color: rgb(255, 255, 255); font-style: normal; text-decoration: none solid rgb(255, 255, 255); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="60487230-9755-46b4-afb8-51feae87b24e"] { font-family: 'helvetica'; font-size: 16.8063px; font-weight: 400; line-height: 0.5; color: rgb(255, 255, 255); font-style: normal; text-decoration: none solid rgb(255, 255, 255);  } }</style><span pagecloud-guid="6a8c1101-22f4-4730-b2fe-1d4facc3e013"><style class="pagecloud-global-style pagecloud design-safe" data-for="6a8c1101-22f4-4730-b2fe-1d4facc3e013">#pc#pc#pc [pagecloud-guid="6a8c1101-22f4-4730-b2fe-1d4facc3e013"] { color: rgb(255, 255, 255); font-style: normal; line-height: 1em; text-decoration: none solid rgb(0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="6a8c1101-22f4-4730-b2fe-1d4facc3e013"] { color: rgb(255, 255, 255); font-style: normal; line-height: 1em; text-decoration: none solid rgb(0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="6a8c1101-22f4-4730-b2fe-1d4facc3e013"] { color: rgb(255, 255, 255); font-style: normal; line-height: 1em; text-decoration: none solid rgb(0, 0, 0);  } }</style>Saturday-Sunday</span></span></p><p pagecloud-guid="ef61bde0-2eea-46a3-ed66-eeffb15af532"><style class="pagecloud-global-style pagecloud design-safe" data-for="ef61bde0-2eea-46a3-ed66-eeffb15af532">#pc#pc#pc [pagecloud-guid="ef61bde0-2eea-46a3-ed66-eeffb15af532"] { line-height: 1.5; margin-bottom: 0.7em; text-align: center; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="ef61bde0-2eea-46a3-ed66-eeffb15af532"] { line-height: 1.5; margin-bottom: 0.7em; text-align: center; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="ef61bde0-2eea-46a3-ed66-eeffb15af532"] { line-height: 1.5; margin-bottom: 0.7em; text-align: center;  } }</style><span data-block="true" pagecloud-guid="244da519-b4e4-489d-bebe-c078443e120e"><style class="pagecloud-global-style pagecloud design-safe" data-for="244da519-b4e4-489d-bebe-c078443e120e">#pc#pc#pc [pagecloud-guid="244da519-b4e4-489d-bebe-c078443e120e"] { font-family: 'lato'; font-size: 18px; font-weight: 400; line-height: 0.5; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="244da519-b4e4-489d-bebe-c078443e120e"] { font-family: 'helvetica'; font-size: 16.8063px; font-weight: 400; line-height: 0.5; color: rgb(255, 255, 255); font-style: normal; text-decoration: none solid rgb(255, 255, 255); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="244da519-b4e4-489d-bebe-c078443e120e"] { font-family: 'helvetica'; font-size: 16.8063px; font-weight: 400; line-height: 0.5; color: rgb(255, 255, 255); font-style: normal; text-decoration: none solid rgb(255, 255, 255);  } }</style><span pagecloud-guid="f6d98331-4178-4c8d-abfe-11e5b742dddf"><style class="pagecloud-global-style pagecloud design-safe" data-for="f6d98331-4178-4c8d-abfe-11e5b742dddf">#pc#pc#pc [pagecloud-guid="f6d98331-4178-4c8d-abfe-11e5b742dddf"] { color: rgb(255, 255, 255); font-style: normal; line-height: 1em; text-decoration: none solid rgb(0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="f6d98331-4178-4c8d-abfe-11e5b742dddf"] { color: rgb(255, 255, 255); font-style: normal; line-height: 1em; text-decoration: none solid rgb(0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="f6d98331-4178-4c8d-abfe-11e5b742dddf"] { color: rgb(255, 255, 255); font-style: normal; line-height: 1em; text-decoration: none solid rgb(0, 0, 0);  } }</style>12:00PM-1:00AM</span></span></p><p pagecloud-guid="4d107a9d-7552-4422-e70d-fc017fe8ef27"><style class="pagecloud-global-style pagecloud design-safe" data-for="4d107a9d-7552-4422-e70d-fc017fe8ef27">#pc#pc#pc [pagecloud-guid="4d107a9d-7552-4422-e70d-fc017fe8ef27"] { line-height: 1.5; margin-bottom: 0.7em; text-align: center; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="4d107a9d-7552-4422-e70d-fc017fe8ef27"] { line-height: 1.5; margin-bottom: 0.7em; text-align: center; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="4d107a9d-7552-4422-e70d-fc017fe8ef27"] { line-height: 1.5; margin-bottom: 0.7em; text-align: center;  } }</style><span data-block="true" pagecloud-guid="327a4e4b-1349-4bc1-cef6-c7080dbe40e3"><style class="pagecloud-global-style pagecloud design-safe" data-for="327a4e4b-1349-4bc1-cef6-c7080dbe40e3">#pc#pc#pc [pagecloud-guid="327a4e4b-1349-4bc1-cef6-c7080dbe40e3"] { font-family: 'lato'; font-size: 18px; font-weight: 400; line-height: 0.5; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="327a4e4b-1349-4bc1-cef6-c7080dbe40e3"] { font-family: 'helvetica'; font-size: 16.8063px; font-weight: 400; line-height: 0.5; color: rgb(255, 255, 255); font-style: normal; text-decoration: none solid rgb(255, 255, 255); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="327a4e4b-1349-4bc1-cef6-c7080dbe40e3"] { font-family: 'helvetica'; font-size: 16.8063px; font-weight: 400; line-height: 0.5; color: rgb(255, 255, 255); font-style: normal; text-decoration: none solid rgb(255, 255, 255);  } }</style><span pagecloud-guid="9350e2c0-e2f4-4278-fc6b-cd45d52a4d40"><style class="pagecloud-global-style pagecloud design-safe" data-for="9350e2c0-e2f4-4278-fc6b-cd45d52a4d40">#pc#pc#pc [pagecloud-guid="9350e2c0-e2f4-4278-fc6b-cd45d52a4d40"] { color: rgb(255, 255, 255); font-style: normal; line-height: 1em; text-decoration: none solid rgb(0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="9350e2c0-e2f4-4278-fc6b-cd45d52a4d40"] { color: rgb(255, 255, 255); font-style: normal; line-height: 1em; text-decoration: none solid rgb(0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="9350e2c0-e2f4-4278-fc6b-cd45d52a4d40"] { color: rgb(255, 255, 255); font-style: normal; line-height: 1em; text-decoration: none solid rgb(0, 0, 0);  } }</style>ALL AGES until 8:00PM </span></span></p><p pagecloud-guid="0dceb50c-64e4-4efa-ae0b-fcd217410d94"><style class="pagecloud-global-style pagecloud design-safe" data-for="0dceb50c-64e4-4efa-ae0b-fcd217410d94">#pc#pc#pc [pagecloud-guid="0dceb50c-64e4-4efa-ae0b-fcd217410d94"] { line-height: 1.5; margin-bottom: 0.7em; text-align: center; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="0dceb50c-64e4-4efa-ae0b-fcd217410d94"] { line-height: 1.5; margin-bottom: 0.7em; text-align: center; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="0dceb50c-64e4-4efa-ae0b-fcd217410d94"] { line-height: 1.5; margin-bottom: 0.7em; text-align: center;  } }</style><span pagecloud-guid="233e81dd-ae0e-4818-ae90-b1c7f7da6d2b"><style class="pagecloud-global-style pagecloud design-safe" data-for="233e81dd-ae0e-4818-ae90-b1c7f7da6d2b">#pc#pc#pc [pagecloud-guid="233e81dd-ae0e-4818-ae90-b1c7f7da6d2b"] { color: #00ccff; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="233e81dd-ae0e-4818-ae90-b1c7f7da6d2b"] { color: #00ccff; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="233e81dd-ae0e-4818-ae90-b1c7f7da6d2b"] { color: #00ccff;  } }</style><span data-block="true" pagecloud-guid="61b53e19-2284-4b67-936e-27b47dc587d3"><style class="pagecloud-global-style pagecloud design-safe" data-for="61b53e19-2284-4b67-936e-27b47dc587d3">#pc#pc#pc [pagecloud-guid="61b53e19-2284-4b67-936e-27b47dc587d3"] { font-family: 'lato'; font-size: 18px; font-weight: 400; line-height: 0.5; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="61b53e19-2284-4b67-936e-27b47dc587d3"] { font-family: 'helvetica'; font-size: 16.8063px; font-weight: 400; line-height: 0.5; color: rgb(255, 255, 255); font-style: normal; text-decoration: none solid rgb(255, 255, 255); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="61b53e19-2284-4b67-936e-27b47dc587d3"] { font-family: 'helvetica'; font-size: 16.8063px; font-weight: 400; line-height: 0.5; color: rgb(255, 255, 255); font-style: normal; text-decoration: none solid rgb(255, 255, 255);  } }</style><span pagecloud-guid="65eb43b3-22dc-40fd-e0c9-e652a60c63b3"><style class="pagecloud-global-style pagecloud design-safe" data-for="65eb43b3-22dc-40fd-e0c9-e652a60c63b3">#pc#pc#pc [pagecloud-guid="65eb43b3-22dc-40fd-e0c9-e652a60c63b3"] { font-style: normal; font-weight: bold; line-height: 1em; text-decoration: none solid rgb(0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="65eb43b3-22dc-40fd-e0c9-e652a60c63b3"] { font-style: normal; font-weight: bold; line-height: 1em; text-decoration: none solid rgb(0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="65eb43b3-22dc-40fd-e0c9-e652a60c63b3"] { font-style: normal; font-weight: bold; line-height: 1em; text-decoration: none solid rgb(0, 0, 0);  } }</style>Daily Admission:</span></span></span></p><p pagecloud-guid="09c73701-80be-4b12-a381-769eba84b5e4"><style class="pagecloud-global-style pagecloud design-safe" data-for="09c73701-80be-4b12-a381-769eba84b5e4">#pc#pc#pc [pagecloud-guid="09c73701-80be-4b12-a381-769eba84b5e4"] { line-height: 1.5; margin-bottom: 0.7em; text-align: center; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="09c73701-80be-4b12-a381-769eba84b5e4"] { line-height: 1.5; margin-bottom: 0.7em; text-align: center; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="09c73701-80be-4b12-a381-769eba84b5e4"] { line-height: 1.5; margin-bottom: 0.7em; text-align: center;  } }</style><span pagecloud-guid="8be0084c-4196-45d3-b2e3-310e1e68dded"><style class="pagecloud-global-style pagecloud design-safe" data-for="8be0084c-4196-45d3-b2e3-310e1e68dded">#pc#pc#pc [pagecloud-guid="8be0084c-4196-45d3-b2e3-310e1e68dded"] { color: #00ccff; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="8be0084c-4196-45d3-b2e3-310e1e68dded"] { color: #00ccff; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="8be0084c-4196-45d3-b2e3-310e1e68dded"] { color: #00ccff;  } }</style><span data-block="true" pagecloud-guid="0ce81e50-556d-4df1-d2a7-1925cdb67fb1"><style class="pagecloud-global-style pagecloud design-safe" data-for="0ce81e50-556d-4df1-d2a7-1925cdb67fb1">#pc#pc#pc [pagecloud-guid="0ce81e50-556d-4df1-d2a7-1925cdb67fb1"] { font-family: 'lato'; font-size: 18px; font-weight: bold; line-height: 0.5; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="0ce81e50-556d-4df1-d2a7-1925cdb67fb1"] { font-family: 'helvetica'; font-size: 16.8063px; font-weight: bold; line-height: 0.5; color: rgb(255, 255, 255); font-style: normal; text-decoration: none solid rgb(255, 255, 255); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="0ce81e50-556d-4df1-d2a7-1925cdb67fb1"] { font-family: 'helvetica'; font-size: 16.8063px; font-weight: bold; line-height: 0.5; color: rgb(255, 255, 255); font-style: normal; text-decoration: none solid rgb(255, 255, 255);  } }</style><span pagecloud-guid="3fdf7db2-ff21-45b6-a6d4-6bf081bf4246"><style class="pagecloud-global-style pagecloud design-safe" data-for="3fdf7db2-ff21-45b6-a6d4-6bf081bf4246">#pc#pc#pc [pagecloud-guid="3fdf7db2-ff21-45b6-a6d4-6bf081bf4246"] { font-style: normal; line-height: 1em; text-decoration: none solid rgb(0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="3fdf7db2-ff21-45b6-a6d4-6bf081bf4246"] { font-style: normal; line-height: 1em; text-decoration: none solid rgb(0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="3fdf7db2-ff21-45b6-a6d4-6bf081bf4246"] { font-style: normal; line-height: 1em; text-decoration: none solid rgb(0, 0, 0);  } }</style>$3 per Person</span></span></span></p><p pagecloud-guid="31f9b497-962e-4079-990d-aa146625f664"><style class="pagecloud-global-style pagecloud design-safe" data-for="31f9b497-962e-4079-990d-aa146625f664">#pc#pc#pc [pagecloud-guid="31f9b497-962e-4079-990d-aa146625f664"] { line-height: 1.5; margin-bottom: 0.7em; text-align: center; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="31f9b497-962e-4079-990d-aa146625f664"] { line-height: 1.5; margin-bottom: 0.7em; text-align: center; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="31f9b497-962e-4079-990d-aa146625f664"] { line-height: 1.5; margin-bottom: 0.7em; text-align: center;  } }</style><span pagecloud-guid="61ec8e54-d354-4106-b9f5-6a4747ef14d4"><style class="pagecloud-global-style pagecloud design-safe" data-for="61ec8e54-d354-4106-b9f5-6a4747ef14d4">#pc#pc#pc [pagecloud-guid="61ec8e54-d354-4106-b9f5-6a4747ef14d4"] { color: #00ccff; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="61ec8e54-d354-4106-b9f5-6a4747ef14d4"] { color: #00ccff; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="61ec8e54-d354-4106-b9f5-6a4747ef14d4"] { color: #00ccff;  } }</style><span data-block="true" pagecloud-guid="4c7182ad-eb56-4a1e-8187-787765582c5c"><style class="pagecloud-global-style pagecloud design-safe" data-for="4c7182ad-eb56-4a1e-8187-787765582c5c">#pc#pc#pc [pagecloud-guid="4c7182ad-eb56-4a1e-8187-787765582c5c"] { font-family: 'helvetica'; font-size: 18px; font-weight: bold; line-height: 0.5; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="4c7182ad-eb56-4a1e-8187-787765582c5c"] { font-family: 'helvetica'; font-size: 16.8063px; font-weight: bold; line-height: 0.5; color: rgb(255, 255, 255); font-style: normal; text-decoration: none solid rgb(255, 255, 255); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="4c7182ad-eb56-4a1e-8187-787765582c5c"] { font-family: 'helvetica'; font-size: 16.8063px; font-weight: bold; line-height: 0.5; color: rgb(255, 255, 255); font-style: normal; text-decoration: none solid rgb(255, 255, 255);  } }</style><span pagecloud-guid="b22843e5-1349-43dc-b810-3a668b18c632"><style class="pagecloud-global-style pagecloud design-safe" data-for="b22843e5-1349-43dc-b810-3a668b18c632">#pc#pc#pc [pagecloud-guid="b22843e5-1349-43dc-b810-3a668b18c632"] { font-family: 'lato'; font-style: normal; line-height: 1em; text-decoration: none solid rgb(0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="b22843e5-1349-43dc-b810-3a668b18c632"] { font-family: 'lato'; font-style: normal; line-height: 1em; text-decoration: none solid rgb(0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="b22843e5-1349-43dc-b810-3a668b18c632"] { font-family: 'lato'; font-style: normal; line-height: 1em; text-decoration: none solid rgb(0, 0, 0);  } }</style>Daily Happy Hour:‍‍‍ </span></span></span></p><p pagecloud-guid="25b7b27a-6654-4242-b7f4-8c1700c701d4"><style class="pagecloud-global-style pagecloud design-safe" data-for="25b7b27a-6654-4242-b7f4-8c1700c701d4">#pc#pc#pc [pagecloud-guid="25b7b27a-6654-4242-b7f4-8c1700c701d4"] { line-height: 1.5; margin-bottom: 0.7em; text-align: center; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="25b7b27a-6654-4242-b7f4-8c1700c701d4"] { line-height: 1.5; margin-bottom: 0.7em; text-align: center; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="25b7b27a-6654-4242-b7f4-8c1700c701d4"] { line-height: 1.5; margin-bottom: 0.7em; text-align: center;  } }</style><span pagecloud-guid="077124e8-93b8-40c0-c5f4-b44b19d23b97"><style class="pagecloud-global-style pagecloud design-safe" data-for="077124e8-93b8-40c0-c5f4-b44b19d23b97">#pc#pc#pc [pagecloud-guid="077124e8-93b8-40c0-c5f4-b44b19d23b97"] { color: #00ccff; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="077124e8-93b8-40c0-c5f4-b44b19d23b97"] { color: #00ccff; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="077124e8-93b8-40c0-c5f4-b44b19d23b97"] { color: #00ccff;  } }</style><span data-block="true" pagecloud-guid="64f8663d-2fc7-43b6-c850-1c64eb4bc992"><style class="pagecloud-global-style pagecloud design-safe" data-for="64f8663d-2fc7-43b6-c850-1c64eb4bc992">#pc#pc#pc [pagecloud-guid="64f8663d-2fc7-43b6-c850-1c64eb4bc992"] { font-family: 'helvetica'; font-size: 18px; font-weight: bold; line-height: 0.5; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="64f8663d-2fc7-43b6-c850-1c64eb4bc992"] { font-family: 'helvetica'; font-size: 16.8063px; font-weight: bold; line-height: 0.5; color: rgb(255, 255, 255); font-style: normal; text-decoration: none solid rgb(255, 255, 255); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="64f8663d-2fc7-43b6-c850-1c64eb4bc992"] { font-family: 'helvetica'; font-size: 16.8063px; font-weight: bold; line-height: 0.5; color: rgb(255, 255, 255); font-style: normal; text-decoration: none solid rgb(255, 255, 255);  } }</style><span pagecloud-guid="6804f557-0ddf-45d5-d337-aa7ff8c02d16"><style class="pagecloud-global-style pagecloud design-safe" data-for="6804f557-0ddf-45d5-d337-aa7ff8c02d16">#pc#pc#pc [pagecloud-guid="6804f557-0ddf-45d5-d337-aa7ff8c02d16"] { font-family: 'lato'; font-style: normal; line-height: 1em; text-decoration: none solid rgb(0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="6804f557-0ddf-45d5-d337-aa7ff8c02d16"] { font-family: 'lato'; font-style: normal; line-height: 1em; text-decoration: none solid rgb(0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="6804f557-0ddf-45d5-d337-aa7ff8c02d16"] { font-family: 'lato'; font-style: normal; line-height: 1em; text-decoration: none solid rgb(0, 0, 0);  } }</style>Open-6:00PM</span></span></span></p><p data-margin-bottom="0.7em" pagecloud-guid="8c32cd08-d1a9-4cb9-c3c3-441cbb28ec00"><style class="pagecloud-global-style pagecloud design-safe" data-for="8c32cd08-d1a9-4cb9-c3c3-441cbb28ec00">#pc#pc#pc [pagecloud-guid="8c32cd08-d1a9-4cb9-c3c3-441cbb28ec00"] { line-height: 1.5; text-align: center; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="8c32cd08-d1a9-4cb9-c3c3-441cbb28ec00"] { line-height: 1.5; text-align: center; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="8c32cd08-d1a9-4cb9-c3c3-441cbb28ec00"] { line-height: 1.5; text-align: center;  } }</style><span pagecloud-guid="6309c4de-8f43-4318-a888-e5580cd2864a"><style class="pagecloud-global-style pagecloud design-safe" data-for="6309c4de-8f43-4318-a888-e5580cd2864a">#pc#pc#pc [pagecloud-guid="6309c4de-8f43-4318-a888-e5580cd2864a"] { color: #00ccff; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="6309c4de-8f43-4318-a888-e5580cd2864a"] { color: #00ccff; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="6309c4de-8f43-4318-a888-e5580cd2864a"] { color: #00ccff;  } }</style><span data-block="true" pagecloud-guid="8191e6bb-e1cd-468c-a819-1d850af5dfc1"><style class="pagecloud-global-style pagecloud design-safe" data-for="8191e6bb-e1cd-468c-a819-1d850af5dfc1">#pc#pc#pc [pagecloud-guid="8191e6bb-e1cd-468c-a819-1d850af5dfc1"] { font-family: 'helvetica'; line-height: 0.5; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="8191e6bb-e1cd-468c-a819-1d850af5dfc1"] { font-family: 'helvetica'; line-height: 0.5; color: rgb(255, 255, 255); font-size: 16.8063px; font-style: normal; text-decoration: none solid rgb(255, 255, 255); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="8191e6bb-e1cd-468c-a819-1d850af5dfc1"] { font-family: 'helvetica'; line-height: 0.5; color: rgb(255, 255, 255); font-size: 16.8063px; font-style: normal; text-decoration: none solid rgb(255, 255, 255);  } }</style><span pagecloud-guid="fa285a21-f56d-4b15-ccdf-b2693b34e847"><style class="pagecloud-global-style pagecloud design-safe" data-for="fa285a21-f56d-4b15-ccdf-b2693b34e847">#pc#pc#pc [pagecloud-guid="fa285a21-f56d-4b15-ccdf-b2693b34e847"] { font-family: 'lato'; font-size: 13.7885px; font-style: normal; font-weight: 400; line-height: 1em; text-decoration: none solid rgb(0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="fa285a21-f56d-4b15-ccdf-b2693b34e847"] { font-family: 'lato'; font-size: 13.7885px; font-style: normal; font-weight: 400; line-height: 1em; text-decoration: none solid rgb(0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="fa285a21-f56d-4b15-ccdf-b2693b34e847"] { font-family: 'lato'; font-size: 13.7885px; font-style: normal; font-weight: 400; line-height: 1em; text-decoration: none solid rgb(0, 0, 0);  } }</style><span pagecloud-guid="3f19b37c-cffb-480c-d9d3-8e0b2cbfc2aa"><style class="pagecloud-global-style pagecloud design-safe" data-for="3f19b37c-cffb-480c-d9d3-8e0b2cbfc2aa">#pc#pc#pc [pagecloud-guid="3f19b37c-cffb-480c-d9d3-8e0b2cbfc2aa"] { font-size: 18px; font-weight: bold; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="3f19b37c-cffb-480c-d9d3-8e0b2cbfc2aa"] { font-size: 18px; font-weight: bold; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="3f19b37c-cffb-480c-d9d3-8e0b2cbfc2aa"] { font-size: 18px; font-weight: bold;  } }</style>$1 per Person</span> </span></span></span></p></div>
+
+
+
+
+
+
+
+
+
+</div><div class="object iframe" pagecloud-guid="a24f2e55-d089-4187-eb54-f2cc136c735a" data-widget-type="google-map" pagecloud-version="1.1.10"><style class="pagecloud-global-style pagecloud design-safe" data-for="a24f2e55-d089-4187-eb54-f2cc136c735a">#pc#pc#pc [pagecloud-guid="a24f2e55-d089-4187-eb54-f2cc136c735a"] { width: 462.23px; height: 315px; position: absolute; left: 393px; top: 1301px; border: 3px solid rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.298) 3px 3px 8px; background-color: rgba(0, 0, 0, 0); }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="a24f2e55-d089-4187-eb54-f2cc136c735a"] { width: 279px; height: 224px; position: absolute; left: 164px; top: 1191px; border: 3px solid rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.298) 3px 3px 8px; background-color: rgba(0, 0, 0, 0); }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="a24f2e55-d089-4187-eb54-f2cc136c735a"] { width: 279px; height: 224px; position: absolute; left: 164px; top: 1191px; border: 3px solid rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.298) 3px 3px 8px; background-color: rgba(0, 0, 0, 0);  } }</style>
+
+
+
+
+
+
+
+
+<iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDqBCbLj58Ndb56itDdKzbKCWg8z48NSFk&amp;q=4811+SE+Hawthorne+Blvd,+Portland,+OR+97215" style="width: 100%; height: 100%;" scrolling="no" data-muted="false" frameborder="0" marginwidth="0" marginheight="0"></iframe>
+</div><div class="object text" spellcheck="false" pagecloud-guid="6b009a76-b0dd-41f1-ce59-dc507d497f55" pagecloud-version="1.1.6" data-fit-width-after-edit="true"><style class="pagecloud-global-style pagecloud design-safe" data-for="6b009a76-b0dd-41f1-ce59-dc507d497f55">#pc#pc#pc [pagecloud-guid="6b009a76-b0dd-41f1-ce59-dc507d497f55"] { width: 123px; height: 18px; background-color: transparent; position: absolute; opacity: 1; left: 332px; top: 1438px; display: block; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="6b009a76-b0dd-41f1-ce59-dc507d497f55"] { width: 123px; height: 18px; background-color: transparent; position: absolute; opacity: 1; left: 332px; top: 1676px; display: block; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="6b009a76-b0dd-41f1-ce59-dc507d497f55"] { width: 123px; height: 18px; background-color: transparent; position: absolute; opacity: 1; left: 332px; top: 1676px; display: block;  } }</style>
+
+
+
+
+
+
+
+
+<div class="content" pagecloud-guid="3147188d-9589-49d6-81c4-7afe1fc002ae"><style class="pagecloud-global-style pagecloud design-safe" data-for="3147188d-9589-49d6-81c4-7afe1fc002ae"></style>
+
+
+
+
+
+
+
+
+<p pagecloud-guid="a62e8d0c-ac59-446b-9861-cc5a12505213" data-margin-bottom="0.7em"><style class="pagecloud-global-style pagecloud design-safe" data-for="a62e8d0c-ac59-446b-9861-cc5a12505213"></style><span data-block="true" pagecloud-guid="01644a43-de0e-4697-f4c3-7db6929d09e8"><style class="pagecloud-global-style pagecloud design-safe" data-for="01644a43-de0e-4697-f4c3-7db6929d09e8">#pc#pc#pc [pagecloud-guid="01644a43-de0e-4697-f4c3-7db6929d09e8"] { font-size: 16px; line-height: 1.5; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="01644a43-de0e-4697-f4c3-7db6929d09e8"] { font-size: 16px; line-height: 1.5; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="01644a43-de0e-4697-f4c3-7db6929d09e8"] { font-size: 16px; line-height: 1.5;  } }</style>
+<br></span></p>
+</div>
+</div><a class="object image proportionate" pagecloud-version="1.1.14" data-aspect-ratio="658x720" data-widget-type="image-file-handler" data-widget-title="Image" pagecloud-guid="77f0186a-956d-434c-ff17-a811e02c1d99" data-original-ratio="658x720" data-original-image="//siteassets.pagecloud.com/quarterworld/images/image-ID-3644d844-6c29-428a-eb6c-25ee10ea199b.png" href="https://form.jotform.com/90697560837168" target="" data-alt-aspect-ratio="658x720"><style class="pagecloud-global-style pagecloud design-safe" data-for="77f0186a-956d-434c-ff17-a811e02c1d99">#pc#pc#pc [pagecloud-guid="77f0186a-956d-434c-ff17-a811e02c1d99"] { width: 131.53px; height: 145px; position: absolute; opacity: 1; left: 99px; top: 448px; }#pc#pc#pc .mobile-mode:not(.breakpoint-mode) [pagecloud-guid="77f0186a-956d-434c-ff17-a811e02c1d99"] { width: 123.77px; height: 137px; position: absolute; opacity: 1; left: 16px; top: 266px; }@media (max-width: 468px) { #pc#pc#pc .mobile-enabled.breakpoint-mode [pagecloud-guid="77f0186a-956d-434c-ff17-a811e02c1d99"] { width: 123.77px; height: 137px; position: absolute; opacity: 1; left: 16px; top: 266px;  } }</style>
+<img alt="" src="https://img.pagecloud.com/Fbk03il8yHIbybjf4LHy5_39a54=/124x0/filters:no_upscale()/quarterworld/images/image-ID-3644d844-6c29-428a-eb6c-25ee10ea199b.png" style="width: 100%; height: 100%; border-radius: inherit;" srcset="https://img.pagecloud.com/Fbk03il8yHIbybjf4LHy5_39a54=/124x0/filters:no_upscale()/quarterworld/images/image-ID-3644d844-6c29-428a-eb6c-25ee10ea199b.png 1x, https://img.pagecloud.com/47YpXnyF23i-FZCa9LGCLmS8SMw=/248x0/filters:no_upscale()/quarterworld/images/image-ID-3644d844-6c29-428a-eb6c-25ee10ea199b.png 2x" pagecloud-version="1.1.5"></a>
+</div></section>
+            <div class="bottom-gutter" style="height: 0px;"><!-- Space required to give the page some gutter --></div>
+            
+            
+            
+    
+    
+
+    
+
+
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+<p></p>
+
+<div style="position: absolute; left: -9999px; top: -9999px;"></div>
+
+<p></p>
+
+<p></p>
+
+<div style="position: absolute; left: -9999px; top: -9999px;"></div>
+
+<script id="googleanalytics" type="text/javascript" class="ui-draggable" data-optimize="true" data-widget-type="pagecloud-google-analytics" data-widget-title="Google Analytics" data-pagecloud-original-type="text/javascript"><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-5169382-5', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+<img src="//siteassets.pagecloud.com/quarterworld/images/gw_background-ID-0c526ed0-9607-4d57-9a16-ea3cf4b2617a.jpg?nocache" style="position: absolute; top: -50000px; left: -50000px;"><img src="//siteassets.pagecloud.com/quarterworld/images/gw_background-ID-2cdce447-b9f3-4551-9585-0c3ab0155a13.jpg?nocache" style="position: absolute; top: -50000px; left: -50000px;"><img src="//siteassets.pagecloud.com/quarterworld/images/gw_background-ID-f41bdd86-d737-4317-ee31-2f9e6e30214b.jpg?nocache" style="position: absolute; top: -50000px; left: -50000px;">
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+<script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/\>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script>
+
+
+
+    
+<script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/\>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script>
+
+
+<script src="//assets.pinterest.com/js/pinit.js" type="text/javascript" async="" class="design-safe pagecloud-sandbox" defer data-widget-type="pagecloud-pinterest-board" data-pagecloud-widget-unique="true"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+<script src="https://app-assets.pagecloud.com/javascripts/libraries/display.js" type="text/javascript" id="display-js" data-class="pagecloud" class="pagecloud-runtime" pagecloud-version="1.0.0"></script>
+
+
+
+<script id="pagecloud-form-script" src="https://app-assets.pagecloud.com/javascripts/libraries/pagecloud.form.js" type="text/javascript" class="pagecloud pagecloud-runtime primary" pagecloud-id="5a1ecc61-c2a2-459a-d29c-daf2903dae68" pagecloud-guid="76ad1d83-1608-4806-f104-73e19706fe18" pagecloud-unique="" pagecloud-version="1.1.10" pagecloud-universal="body &gt; *:last-child::after" pagecloud-primary-type="form-script" pagecloud-unique-selector="#pagecloud-form-script"></script><script id="pagecloud-navigation-script" src="https://app-assets.pagecloud.com/javascripts/libraries/pagecloud.navigation.js" type="text/javascript" class="pagecloud-runtime primary" pagecloud-id="29ec7abd-687e-44fb-e17f-e73d7d1a667e" pagecloud-guid="fba76bf8-2a69-4c13-96fe-74a581f9ad6f" pagecloud-unique="" pagecloud-version="1.1.2" pagecloud-universal="body &gt; *:last-child::after" pagecloud-primary-type="navigation-script" pagecloud-unique-selector="#pagecloud-navigation-script"></script></body></html>

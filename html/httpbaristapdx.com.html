@@ -1,0 +1,607 @@
+
+
+
+<!doctype html>
+<!--[if lte IE 9 ]><html class="ie" lang="en"  class="slide" ><![endif]-->
+<!--[if gt IE 9 ]><html lang="en"  class="slide" ><![endif]-->
+<!--[if !IE ]> --><html lang="en"  class="slide" ><![endif]-->
+  <head>
+    <title>Home / Barista</title>
+    
+    <meta charset="UTF-8">
+    <!--[if IE ]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="Barista">
+    <meta name="description" content="Welcome to Barista">
+    <meta name="keywords" content="CDs, Hats, Posters, Tees, Mug, Drinkware, Tickets">
+    
+    
+	
+    
+    <link rel="stylesheet" href="https://storage.googleapis.com/barista-2017.appspot.com/theme.css">
+    <link rel="shortcut icon" href="https://storage.googleapis.com/barista-2017.appspot.com/images/favicon.ico">
+    
+   
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+<!------ Include the above in your HEAD tag ---------->
+
+<!--
+Referances 
+jQuery Cookie : https://github.com/carhartl/jquery-cookie
+Modal : http://getbootstrap.com/javascript/#modals
+-->
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+<script src="https://storage.googleapis.com/barista-2017.appspot.com/js/modal_cookie.js"></script>
+
+    
+    <!-- Served from Big Cartel MySQL Storefront -->
+<!-- Big Cartel generated meta tags -->
+<meta name="generator" content="Big Cartel" />
+<meta name="author" content="Barista" />
+<meta name="referrer" content="origin" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Barista" />
+<meta property="og:title" content="Home" />
+<meta property="og:url" content="http://www.baristapdx.com/" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Barista" />
+<!-- end of generated meta tags -->
+
+<!-- Big Cartel generated link tags -->
+<link rel="canonical" href="http://www.baristapdx.com/" />
+<link rel="alternate" href="http://www.baristapdx.com/products.xml" type="application/rss+xml" title="Product Feed" />
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Varela+Round" type="text/css" title="Google Fonts" />
+<!-- end of generated link tags -->
+
+        <script type="text/javascript">
+          var _bcaq = _bcaq || [];
+          _bcaq.push(['_setUrl','stats1.bigcartel.com']);_bcaq.push(['_trackVisit','466561']);
+          (function() {
+            var bca = document.createElement('script'); bca.type = 'text/javascript'; bca.async = true;
+            bca.src = '/stats.min.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(bca, s);
+          })();
+        </script>
+        <script src="https://js.stripe.com/v3/" async></script>
+
+    
+    <!-- Big Cartel generated meta tags -->
+	<meta name="generator" content="Big Cartel" />
+	<meta name="author" content="Barista" />
+	<meta name="referrer" content="origin" />
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="Barista" />
+	<meta property="og:title" content="Home" />
+	<meta property="og:url" content="http://baristapdx.com/" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Barista" />
+	<!-- end of generated meta tags -->
+
+	<!-- Big Cartel generated link tags -->
+
+	<link href="http://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" title="Google Fonts" type="text/css" />
+	<!-- end of generated link tags -->
+
+
+    
+
+    <script src="https://storage.googleapis.com/barista-2017.appspot.com/js/theme.js" type="text/javascript"></script>
+    <script src="https://storage.googleapis.com/barista-2017.appspot.com/js/barista.js" type="text/javascript"></script>
+
+
+
+    
+    
+    <!-- IJW Typekit Fonts -->
+ <script src="https://use.typekit.net/qek7olm.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script> 
+    
+    <script type="text/javascript" charset="utf-8">
+      $(function() {
+        Store.init('home', {
+          shippingEnabled: false,
+          discountEnabled: false,
+          showSearch: false
+        });
+      });
+    </script>
+    
+    <script>
+
+      
+      $(document).ready(function(){
+      
+
+    if (sessionStorage.getItem('bannerClosed') !== 'true') {  
+      $('#shop-banner').fadeIn(900);
+      }
+      
+      $('#shop-banner .box3').click(function(){
+      sessionStorage.setItem('bannerClosed','true'); 
+      $('#shop-banner').fadeOut(450);
+      });
+      
+      
+      //sessionStorage.clear();
+      
+
+      
+      
+      });
+
+      
+    </script>
+    
+    <style type="text/css">
+      
+      #shop-banner{
+      position: absolute;
+      z-index: 15000;
+      top: 0;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 26px;
+      color: #FFF;
+      line-height: 2.4;
+        width: 100%;
+      background-color: #6fc9c4;
+      font-family: league-gothic, serif;
+      letter-spacing: 2.4px;
+      display: none;
+
+      }
+      
+      #shop-banner a{
+        color: #FFF;
+      text-decoration: none;
+      border: none;
+
+      }
+      
+      #shop-banner a:hover{
+      color: #000;
+      }
+      
+ .box {
+  margin: 16px 20px;
+  background: transparent;
+  float: right;
+
+}
+
+
+.box1 { width: 200px; }
+.box2 { width: 100px; }
+.box3 { width: 28px; position: absolute; right: 20px; }
+      
+      .box3:hover{
+      cursor: pointer;
+      }
+
+svg {
+
+  display: block;
+}
+
+.close-x {
+  stroke: white;
+  fill: transparent;
+  stroke-linecap: round;
+  stroke-width: 4;
+}
+
+
+button {
+  width: 100px;
+  height: 100px;
+  padding: 0;
+}
+      
+      .modal-header button{
+      width: auto;
+      height: auto;
+      }
+      
+   .fp-tableCell{
+      display: block;
+      }
+      
+      
+  @media screen and (max-width: 640px){
+      
+      #data-home h1{
+         margin: 20% auto 6%;
+      }
+      
+      #shop-banner{
+         font-size: 16px;
+      letter-spacing: 1.7px;
+            }
+      
+      .box{
+         margin: 11px 0px;
+      }
+      
+      
+      .box3{
+         width: 16px;
+         right: 5px;
+      }
+      
+      
+      
+      
+      }
+    
+      
+         #data-locations #locationlist .col2 span.shop {
+      height: 100%;
+      }
+      
+    .shop.mobile{
+  height: 100%;
+}
+
+
+@media only screen and (max-width: 736px){
+   #data-locations #locationlist ul li {
+    width: 50%;
+    height: 70%
+  }
+      
+      #data-locations #locationlist .col1 span.pearl{
+          height: 60%!important;
+      }
+      
+      #data-locations #locationlist .col1 span.alberta{
+          height: 40%;
+      }
+  
+      #data-locations #locationlist .col3 span.downtown{
+         height: 60%!important;
+      }
+      
+      #data-locations #locationlist .col3 span.nobhill{
+         height: 40%;
+      }
+}
+     
+      
+
+   #optimus-prime{
+      margin-bottom: 0;
+      }
+      
+  #optimus-prime ul li.bhome{
+      
+      padding: 10px 0;
+      
+      }
+ 
+  .modal-content{
+  border-radius: 0!important;
+  }
+  
+  .mc-modal{
+  top: 44%;
+  }
+  
+  .field-wrapper{
+  width: 75%;
+  }
+  
+  .modal-body{
+  padding: 0 40px;
+  }
+  
+  .modal-header, .modal-footer{
+  border: none;
+  }
+  
+  .modal-footer{
+  height: 0;
+  padding: 5px 0;
+  }
+  
+  #mc_embed_signup_scroll label{
+  float: none;
+  text-align: center;
+  width: 100%;
+  font-family: league-gothic, serif;
+  font-size: 2em!important;
+  font-weight: normal;
+  letter-spacing: 0.08em;
+  }
+  
+  #mc_embed_signup .button{
+  height: auto!important;
+  font-family: league-gothic, serif; 
+  max-width: 175px;
+  font-size: 1.5em!important;
+  }
+  
+  #mc_embed_signup input.email{
+  height: auto!important;
+   font-size: 1.5em!important; 
+  font-family: Times, serif!important;
+  padding-left: 1.5em;
+  }
+  
+  #mc_embed_signup input.email:placeholder{
+  color: #AAA;
+  }
+  
+  .close{
+  opacity: 1;
+  }
+  
+  .modal-dialog{
+  margin: 20% auto 0;
+  }
+  
+  @media only screen and (max-width: 767px){
+   #mc_embed_signup input.email{
+  margin-bottom: 0!important;
+  }
+  }
+  
+  
+@media only screen and (max-width: 600px){
+  .modal{
+  overflow: hidden!important;
+  overflow-y: hidden;
+  }
+  
+  
+  .modal-dialog {
+    width: 90%;
+  margin-top: 24%;
+  margin-left: auto;
+  margin-right: auto;
+   }
+  
+    #mc_embed_signup_scroll label{
+    font-size: 1em!important;
+  }
+  
+    #mc_embed_signup .button{
+  width: 30%!important;
+  line-height: 15px!important;
+  font-size: 1.25em!important;
+  }
+  
+  #mc_embed_signup input.email{
+  width: 70%!important;
+  margin-bottom: 0!important;
+  appearance: none;
+  font-size: 1.25em!important;  
+  }
+ 
+  }     
+      
+ 
+      
+      
+    </style>
+    
+    <!--[if lt IE 9]>
+    <script type="text/javascript">window.location = '/ie';</script>
+    <![endif]-->
+  </head>
+  
+  <body id="home_page" class="theme no_transition home">
+
+    <div id="shop-banner">
+
+      <div class="box box3">
+<svg viewbox="0 0 40 40">
+    <path class="close-x" d="M 10,10 L 30,30 M 30,10 L 10,30" />
+   </svg>
+</div>
+      
+      <a href="http://baristapdx.bigcartel.com">shop our freshly roasted coffeeS ONLINE NOW!</a>
+    </div>
+    
+    
+    <div id="optimus-prime" class="panel" role="navigation">
+      <a class="menu-link icon-hamburger-icon">&#9776;</a>
+      <ul>
+        
+          <li class="thin bhome">
+            <a class="home-link active" href="#">Home</a>
+          </li>
+
+          <li class="thin">
+            <a class="pearl-link" href="pearl/">Pearl</a>
+          </li>
+          
+          
+         
+
+          <li  class="wide">
+            <a class="nobhill-link" href="nobhill/">Nob Hill</a>
+          </li>      
+
+          <li  class="wide">
+            <a class="downtown-link" href="downtown/">Downtown</a>
+          </li>
+
+          
+          <li class="wide">
+            <a class="alberta-link" href="alberta/">Alberta</a>
+          </li> 
+          
+        <li class="shop">
+          
+          <a class="shop-link" href="http://baristapdx.bigcartel.com">Shop</a>
+          
+        </li>
+      </ul>
+    </div>
+    
+    
+    
+<!-- Begin Fullpage Slider -->    
+    <div id="fullpage">
+      <div class="section" id="data-home">
+        <div class="bricks"></div>
+        <h1>Barista</h1>
+        <p>Serving exceptional coffees from the world's finest roasters, prepared by the most skilled baristas in Portland, Oregon.</p>
+        <span class="seemore"><a href="#locations/0">Locations</a></span>
+      </div>
+      <div class="section" id="data-locations">
+        <div class="slide" id="locationlist">
+          <ul id="locationbuttons">
+            
+            <li class="col1">
+            	<span class="pearl">
+              		<a href="pearl/">Pearl</a>
+              	</span>
+
+				<span class="alberta">
+				    <a href="alberta/">Alberta</a>
+				</span>
+
+			
+
+
+            </li>
+            
+            <li class="alberta col2 drop">
+           
+                <span class="shop drop">
+			<a href="http://baristapdx.bigcartel.com">Shop</a>
+		</span>
+     		         
+           
+            </li>
+            
+            <li class="downtown col3">
+            
+
+                <span class="nobhill">
+              		<a href="nobhill/">Nob Hill</a>
+              	</span>              
+              
+              	<span class="downtown">
+              		<a href="downtown/">Downtown</a>
+              	</span>
+		
+
+            </li>
+            
+            <li style="width: 100%; height: 30%;">
+                <span class="shop mobile hidden">
+		    <a href="http://baristapdx.bigcartel.com">Shop</a>
+		</span>   
+              
+            </li>
+
+
+          </ul>
+        </div>
+        
+ 		<div class="slide" id="pearl">
+        </div>
+        <div class="slide" id="alberta">
+        </div>
+        <div class="slide" id="downtown">
+        </div>
+        <div class="slide" id="nobhill">
+        </div>
+        <div class="slide" id="brassbar">
+        </div>		
+      </div>
+      
+      
+      
+      
+    </div>
+    
+    <div class="zpacer"></div>
+    
+    
+    
+    
+    
+    
+    
+
+<div class="container">
+  
+  <div class="row">
+
+        <div class='modal fade' id='myModal'>
+            <div class='modal-dialog'>
+                <div class='modal-content'>
+                    <div class='modal-header'>
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><svg fill="#6FC9C4" width="32px" height="32px" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+ <path d="m73.652 29.883l-3.5352-3.5352-20.117 20.117-20.117-20.117-3.5352 3.5352 20.117 20.117-20.117 20.117 3.5352 3.5352 20.117-20.117 20.117 20.117 3.5352-3.5352-20.117-20.117z"/>
+</svg></button></div>
+                    <!-- / modal-header -->
+                    <div class='modal-body'>
+
+                      
+<!-- Begin Mailchimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="https://baristapdx.us17.list-manage.com/subscribe/post?u=350914c542cf33df3c4858f59&amp;id=861a20f2a3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<label for="mce-EMAIL">GET THE LATEST FROM US</label>
+	
+    <div style="display: flex; width: 100%;">  
+      <input style="flex: 1; box-shadow: none; border: 1px solid #CCC; border-right: none; border-radius: 0;" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email Address" required>
+       <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="background-color: #6fc9c4; color: #FFF; box-shadow: none; border-radius: 0; padding: 1em; border: 1px solid #6fc9c4;">
+      </div>
+      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;"><input type="text" name="b_350914c542cf33df3c4858f59_861a20f2a3" tabindex="-1" value=""></div>
+
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->                      
+                      
+                    </div>
+                    <!-- / modal-body -->
+                   <div class='modal-footer'>
+                       <div class="checkbox pull-right" style="display: none;">
+                            <label>
+                              <input class='modal-check' name='modal-check' type="checkbox"> Don't Show
+                            </label>
+                        </div>
+                        <!--/ checkbox -->
+                  </div>
+                  <!--/ modal-footer -->
+                </div>
+                <!-- / modal-content -->
+          </div>
+          <!--/ modal-dialog -->
+        </div>
+        <!-- / modal -->
+	
+    
+    	</div>
+    <!-- / row -->
+</div>
+<!-- / container -->
+    
+    
+    
+    
+    
+  </body>
+</html>
+

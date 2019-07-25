@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html lang="en-US" xmlns:fb="https://www.facebook.com/2008/fbml" xmlns:og="https://opengraphprotocol.org/schema/">
+<head>
+
+
+    <meta charset="UTF-8"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"Vw8AUlNACwIBVVNWAQY="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(18),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(19),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var x=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof x&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof x&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(21)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(21)(r);n.exports=r;var i=window.history&&window.history.constructor&&window.history.constructor.prototype,a=window.history;i&&i.pushState&&i.replaceState&&(a=i),o.inPlace(a,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(21)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(21)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(b?b.then(a):w?w(a):(E=-E,R.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(21)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var x=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,x),x.prototype=p.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!w&&!m){var E=1,R=document.createTextNode(E);new h(a).observe(R,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(){var t=window.NREUM,n=t.info.accountID||null,e=t.info.agentID||null,r=t.info.trustKey||null,i="btoa"in window&&"function"==typeof window.btoa;if(!n||!e||!i)return null;var a={v:[0,1],d:{ty:"Browser",ac:n,ap:e,id:o.generateCatId(),tr:o.generateCatId(),ti:Date.now()}};return r&&n!==r&&(a.d.tk=r),btoa(JSON.stringify(a))}var o=t(16);n.exports={generateTraceHeader:r}},{}],11:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<p;r++)t.removeEventListener(l[r],this.listener,!1);n.aborted||(e.duration=s.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==n.status&&(n.status=0):a(this,t),e.cbTime=this.cbTime,d.emit("xhr-done",[t],t),c("xhr",[n,e,this.startTime]))}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return w(r)}function i(t,n){var e=f(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}function a(t,n){t.params.status=n.status;var e=o(n,t.lastSize);if(e&&(t.metrics.rxSize=e),t.sameOrigin){var r=n.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var s=t("loader");if(s.xhrWrappable){var c=t("handle"),f=t(12),u=t(10).generateTraceHeader,d=t("ee"),l=["load","error","abort","timeout"],p=l.length,h=t("id"),m=t(15),w=t(14),v=window.XMLHttpRequest;s.features.xhr=!0,t(9),d.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,n.loadCaptureCalled=!1,t.addEventListener("load",function(e){a(n,t)},!1),m&&(m>34||m<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),d.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),d.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var e=!1;if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(e=!!NREUM.init.distributed_tracing.enabled),e&&this.sameOrigin){var r=u();r&&n.setRequestHeader("newrelic",r)}}),d.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=w(r);i&&(e.txSize=i)}this.startTime=s.now(),this.listener=function(t){try{"abort"!==t.type||o.loadCaptureCalled||(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{d.emit("internal-error",[e])}catch(r){}}};for(var a=0;a<p;a++)n.addEventListener(l[a],this.listener,!1)}),d.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),d.on("xhr-load-added",function(t,n){var e=""+h(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),d.on("xhr-load-removed",function(t,n){var e=""+h(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),d.on("addEventListener-end",function(t,n){n instanceof v&&"load"===t[0]&&d.emit("xhr-load-added",[t[1],t[2]],n)}),d.on("removeEventListener-end",function(t,n){n instanceof v&&"load"===t[0]&&d.emit("xhr-load-removed",[t[1],t[2]],n)}),d.on("fn-start",function(t,n,e){n instanceof v&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=s.now()))}),d.on("fn-end",function(t,n){this.xhrCbStart&&d.emit("xhr-cb-time",[s.now()-this.xhrCbStart,this.onload,n],n)})}},{}],12:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],13:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(18),s=t(19),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t,n){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now(),!1,n])}},{}],14:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],15:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],16:[function(t,n,e){function r(){function t(){return n?15&n[e++]:16*Math.random()|0}var n=null,e=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(n=r.getRandomValues(new Uint8Array(31)));for(var o,i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<i.length;s++)o=i[s],"x"===o?a+=t().toString(16):"y"===o?(o=3&t()|8,a+=o.toString(16)):a+=o;return a}function o(){function t(){return n?15&n[e++]:16*Math.random()|0}var n=null,e=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&Uint8Array&&(n=r.getRandomValues(new Uint8Array(31)));for(var o=[],i=0;i<16;i++)o.push(t().toString(16));return o.join("")}n.exports={generateUuid:r,generateCatId:o}},{}],17:[function(t,n,e){function r(t,n){if(!o)return!1;if(t!==o)return!1;if(!n)return!0;if(!i)return!1;for(var e=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==e[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}n.exports={agent:o,version:i,match:r}},{}],18:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],19:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],20:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],21:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(19),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=m(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[g[e]];return d&&d.push([x,e,r,a]),a}}function p(t,n){y[t]=m(t).concat(n)}function h(t,n){var e=y[t];if(e)for(var r=0;r<e.length;r++)e[r]===n&&e.splice(r,1)}function m(t){return y[t]||[]}function w(t){return d[t]=d[t]||o(e)}function v(t,n){f(t,function(t,e){n=n||"feature",g[e]=n,n in u||(u[n]=[])})}var y={},g={},x={on:p,addEventListener:p,removeEventListener:h,emit:e,get:w,listeners:m,context:n,buffer:v,abort:a,aborted:!1};return x}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(18),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!E++){var t=b.info=NREUM.info,n=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(g,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=p.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===p.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return R.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(18),u=t("ee"),d=t(17),l=window,p=l.document,h="addEventListener",m="attachEvent",w=l.XMLHttpRequest,v=w&&w.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:w,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var y=""+location,g={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1130.min.js"},x=w&&v&&v[h]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:y,features:{},xhrWrappable:x,userAgent:d};t(13),p[h]?(p[h]("DOMContentLoaded",i,!1),l[h]("load",r,!1)):(p[m]("onreadystatechange",o),l[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,R=t(20)},{}]},{},["loader",2,11,4,3]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gasa Gasa | An intimate venue upholding the musical roots and eclectic nature of the city.</title>
+    <meta name="description" content="An intimate venue upholding the musical roots and eclectic nature of the city." />
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Create a 300px wide og-logo.png and upload it to http://realfavicongenerator.net/ in order to generate a family of touch icons corresponding to the links below -->
+    <!-- A 144x144px customIcon.png will need to be created separately -->
+    <!-- All touch icons should be added to the child theme folder -->
+    <link rel="apple-touch-icon" sizes="180x180"
+          href="https://cdn.ticketfly.com/wp-content/themes/gasagasa-v2/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32"
+          href="https://cdn.ticketfly.com/wp-content/themes/gasagasa-v2/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16"
+          href="https://cdn.ticketfly.com/wp-content/themes/gasagasa-v2/favicon-16x16.png">
+    <link rel="manifest" href="https://www.gasagasa.com/wp-content/themes/gasagasa-v2/manifest.json">
+    <link rel="mask-icon" href="https://www.gasagasa.com/wp-content/themes/gasagasa-v2/safari-pinned-tab.svg"
+          color="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta property="og:image" content="https://cdn.ticketfly.com/wp-content/themes/gasagasa-v2/og-logo.png"/>
+    <meta property="og:description" content="An intimate venue upholding the musical roots and eclectic nature of the city."/>
+
+<!-- That code you see on line 9 is pulling in all of the stuff you usually see in the header, like meta info, touch icons, and a link to the latest version of FontAwesome. No need to add that in here.  -->
+<link href='//fonts.googleapis.com/css?family=Roboto:400,700,300|Archivo+Narrow:400,700' rel='stylesheet' type='text/css'>
+      
+<script>
+dataLayer = [
+	{
+		"tfgaid": "UA-73337812-40"
+	}
+]
+</script>
+<title>Gasa Gasa &#8211; An intimate venue upholding the musical roots and eclectic nature of the city.</title>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TWWLNB');</script>
+<!-- End Google Tag Manager -->
+<link rel='dns-prefetch' href='//s.w.org' />
+
+	<script type="text/javascript">//<![CDATA[
+	// Google Analytics - Ticketfly v1
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount','UA-73337812-40']);
+	_gaq.push(['_trackPageview']);
+	_gaq.push(['ec._setAccount', 'UA-6580485-30'],['ec._setDomainName', 'none'],['ec._setAllowLinker', true],['ec._setAllowHash', false],['ec._trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	// End of Google Analytics - Ticketfly
+	//]]></script>
+<link rel="alternate" type="application/rss+xml" href="https://www.ticketfly.com/api/events/upcoming.rss?venueId=9759" title="Upcoming Shows RSS feed" />
+<link rel="alternate" type="application/rss+xml" href="https://www.ticketfly.com/api/events/justAnnounced.rss?venueId=9759" title="Just Announced Shows RSS feed" />
+<link rel="profile" href="http://microformats.org/profile/hcalendar" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.gasagasa.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.12"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="sitemap" type="application/xml" title="Sitemap" href="https://www.gasagasa.com/sitemap.xml" />
+<link rel='stylesheet' id='fbComments_hideWpComments-css'  href='//www.gasagasa.com/wp-content/plugins/ticketfly-facebook/css/facebook-comments-hidewpcomments.css?ver=3.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='fbComments_displayRsvpCss-css'  href='//www.gasagasa.com/wp-content/plugins/ticketfly-facebook/css/facebook-rsvp.css?ver=3.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='fbc_rc_widgets-style-css'  href='//www.gasagasa.com/wp-content/plugins/ticketfly-facebook/css/facebook-comments-widgets.css?ver=4.7.12' type='text/css' media='all' />
+<link rel='stylesheet' id='auth0-widget-css'  href='https://cdn.ticketfly.com/wp-content/plugins/auth0/assets/css/main.css?ver=4.7.12' type='text/css' media='all' />
+<link rel='stylesheet' id='parent-style-css'  href='https://cdn.ticketfly.com/wp-content/themes/gold-parent_s/style.css?ver=4.7.12' type='text/css' media='all' />
+<link rel='stylesheet' id='gold-site-child-style-css'  href='https://cdn.ticketfly.com/wp-content/themes/gasagasa-v2/style.css?ver=4.7.12' type='text/css' media='all' />
+<link rel='stylesheet' id='instag-slider-css'  href='https://cdn.ticketfly.com/wp-content/plugins/instagram-slider-widget/assets/css/instag-slider.css?ver=1.4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='tflyStyleSheets-css'  href='https://cdn.ticketfly.com/wp-content/plugins/ticketfly-cms/style.css?ver=1.08.0' type='text/css' media='all' />
+<link rel='stylesheet' id='tflyHideStyleSheets-css'  href='https://cdn.ticketfly.com/wp-content/plugins/ticketfly-cms/css/tfly-hide.css?ver=1.00' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery.lightbox.min.css-css'  href='https://cdn.ticketfly.com/wp-content/plugins/wp-jquery-lightbox/styles/lightbox.min.css?ver=1.4.6' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var TflyFBAjax = {"ajaxurl":"\/\/www.gasagasa.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://cdn.ticketfly.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://cdn.ticketfly.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://cdn.ticketfly.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://cdn.ticketfly.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://cdn.ticketfly.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://cdn.ticketfly.com/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://cdn.ticketfly.com/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://cdn.ticketfly.com/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://cdn.ticketfly.com/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://cdn.ticketfly.com/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://cdn.ticketfly.com/wp-content/plugins/ticketfly-cms/js/tfly.js?ver=1.5.3'></script>
+<script type='text/javascript' src='https://cdn.ticketfly.com/wp-content/plugins/instagram-slider-widget/assets/js/jquery.flexslider-min.js?ver=2.2'></script>
+<link rel='https://api.w.org/' href='https://www.gasagasa.com/wp-json/' />
+<link rel="canonical" href="https://www.gasagasa.com/" />
+<link rel="alternate" type="application/json+oembed" href="https://www.gasagasa.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.gasagasa.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.gasagasa.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.gasagasa.com%2F&#038;format=xml" />
+<meta property='og:title' content='Gasa Gasa' />
+<meta property='og:site_name' content='Gasa Gasa' />
+<meta property='og:url' content='https://www.gasagasa.com/' />
+<meta property='og:type' content='website' />
+<meta property='fb:app_id' content='143383105698310' />
+</head>
+
+<body class="home page-template page-template-templates page-template-page-home page-template-templatespage-home-php page page-id-8 group-blog site-id-1889">
+
+<header id="masthead" class="site-header large" role="banner">
+	
+	<div class="wrapper">
+		
+		<div class="site-branding">
+			<h1 class="site-title">
+	      <a class="visuallyhidden" href="https://www.gasagasa.com/" rel="home">
+	        Gasa Gasa	      </a>
+	    </h1>
+		</div>
+	  
+	  	
+		<nav id="topnav" class="main-navigation" role="navigation">
+			<h1 class="menu-toggle">Menu</h1>
+			<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+			
+			<a href="/"><img src="https://cdn.ticketfly.com/wp-content/themes/gasagasa-v2/images/gasa-gasa-logo-white.png" alt="Gasa Gasa"/></a>
+			<span><a href="https://www.google.com/maps/place/4920+Freret+St,+New+Orleans,+LA+70115/@29.9348049,-90.1101222,17z/data=!3m1!4b1!4m5!3m4!1s0x8620a5a94862f2e3:0x30d72f3de066464e!8m2!3d29.9348049!4d-90.1079335" target="_blank"><i class="fa fa-map-o" aria-hidden="true"></i> 4920 Freret St, New Orleans, LA</a></span>
+	
+			<div class="menu-primary-nav-container"><ul id="menu-primary-nav" class="menu"><li id="menu-item-51" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-8 current_page_item menu-item-51"><a href="https://www.gasagasa.com/">Events</a></li>
+<li id="menu-item-151" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-151"><a href="https://www.gasagasa.com/calendar/">Calendar</a></li>
+<li id="menu-item-49" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49"><a href="https://www.gasagasa.com/about/">About</a></li>
+<li id="menu-item-79" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79"><a href="https://www.gasagasa.com/faq/">FAQ</a></li>
+<li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="https://www.gasagasa.com/contact/">Contact</a></li>
+</ul></div>		</nav><!-- #topnav -->
+		
+		<ul class="social">
+			<li><a href="https://www.facebook.com/gasagasaonfreret" target="_blank"><i class="fa fa-facebook-official"></i><span class="visuallyhidden">Facebook</span></a></li>
+			<li><a href="http://twitter.com/gasagasanola" target="_blank"><i class="fa fa-twitter-square"></i><span class="visuallyhidden">Twitter</span></a></li>
+			<li><a href="http://instagram.com/gasa_gasa" target="_blank"><i class="fa fa-instagram"></i><span class="visuallyhidden">Instagram</span></a></li>
+		</ul>
+		
+	</div>
+
+</header><!-- #masthead -->
+
+<div id="wrapper" class="hfeed site">
+
+	<div id="content" class="site-content">
+	<div class="featured-wrapper container">
+		
+		<h1 class="module-title">FEATURED EVENTS</h1>
+		
+
+		<script type="text/javascript">
+			tflyMaxCarousel = 4;
+		</script>
+
+		<div id="tfly-featured-events">
+			<ul class="images">
+						
+      		<li class="tfly-event-id-1878847 tfly-org-id-6263 tfly-venue-id-9759"><a href="/event/1878847-murdertits-marge-gools-new-orleans/">
+
+                                    <img src="https://image-ticketfly.imgix.net/00/03/23/56/98-og.png?w=960&h=633" title="Murdertits Marge + Gools + Meat Knuckle" alt="Murdertits Marge + Gools + Meat Knuckle" />
+                                </a></li>
+
+							
+      		<li class="tfly-event-id-1878845 tfly-org-id-6263 tfly-venue-id-9759"><a href="/event/1878845-80s-knight-dummy-dumpster-new-orleans/">
+
+                                    <img src="https://image-ticketfly.imgix.net/00/03/23/56/94-og.jpg?w=960&h=1242" title="80's Knight + Dummy Dumpster + Bug Lord" alt="80's Knight + Dummy Dumpster + Bug Lord" />
+                                </a></li>
+
+							
+      		<li class="tfly-event-id-1847967 tfly-org-id-6263 tfly-venue-id-9759"><a href="/event/1847967-mangata-mystical-hot-new-orleans/">
+
+                                    <img src="https://image-ticketfly.imgix.net/00/03/17/75/48-og.png?w=960&h=1241" title="Mangata + The Mystical Hot Chocolate Endeavors + Vetus Morbus" alt="Mangata + The Mystical Hot Chocolate Endeavors + Vetus Morbus" />
+                                </a></li>
+
+							
+      		<li class="tfly-event-id-1871518 tfly-org-id-6263 tfly-venue-id-9759"><a href="/event/1871518-girls-night-out-show-new-orleans/">
+
+                                    <img src="https://image-ticketfly.imgix.net/00/03/22/11/93-og.png?w=960&h=621" title="Girls Night Out: The Show" alt="Girls Night Out: The Show" />
+                                </a></li>
+
+				
+			</ul>
+
+			<ul id="overlay-content">
+							<li id="overlay-0" class="tfly-event-id-1878847 tfly-org-id-6263 tfly-venue-id-9759">
+					<h1 class="headliners"><a href="/event/1878847-murdertits-marge-gools-new-orleans/">Murdertits Marge + Gools + Meat Knuckle</a></h1>
+					<h2 class="date-venue">Thu 7/25					<abbr class="location" style="display:none;">Gasa Gasa</abbr></h2>
+                 					<h3 class="ticket-link"><a href="https://www.ticketfly.com/purchase/event/1878847" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+                    				</li>
+											<li id="overlay-1" class="tfly-event-id-1878845 tfly-org-id-6263 tfly-venue-id-9759">
+					<h1 class="headliners"><a href="/event/1878845-80s-knight-dummy-dumpster-new-orleans/">80's Knight + Dummy Dumpster + Bug Lord</a></h1>
+					<h2 class="date-venue">Fri 7/26					<abbr class="location" style="display:none;">Gasa Gasa</abbr></h2>
+                 					<h3 class="ticket-link"><a href="https://www.ticketfly.com/purchase/event/1878845" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+                    				</li>
+											<li id="overlay-2" class="tfly-event-id-1847967 tfly-org-id-6263 tfly-venue-id-9759">
+					<h1 class="headliners"><a href="/event/1847967-mangata-mystical-hot-new-orleans/">Mangata + The Mystical Hot Chocolate End...</a></h1>
+					<h2 class="date-venue">Sat 7/27					<abbr class="location" style="display:none;">Gasa Gasa</abbr></h2>
+                 					<h3 class="ticket-link"><a href="https://www.ticketfly.com/purchase/event/1847967" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+                    				</li>
+											<li id="overlay-3" class="tfly-event-id-1871518 tfly-org-id-6263 tfly-venue-id-9759">
+					<h1 class="headliners"><a href="/event/1871518-girls-night-out-show-new-orleans/">Girls Night Out: The Show</a></h1>
+					<h2 class="date-venue">Sun 7/28					<abbr class="location" style="display:none;">Gasa Gasa</abbr></h2>
+                 					<h3 class="ticket-link"><a href="https://tickets.girlsnightouttheshow.com/findticket?EventId=159872" target="_blank">Tickets</a></h3>
+                    				</li>
+										</ul>
+
+			<div id="grey-back"></div>
+			<div id="overlay">
+				<div class="change">
+					<h1 class="headliners"><a href="/event/1878847-murdertits-marge-gools-new-orleans/">Murdertits Marge + Gools + Meat Knuckle</a></h1>
+					<h2 class="date-venue">Thu 7/25					<abbr class="location" style="display:none;">Gasa Gasa</abbr></h2>
+                 					<h3 class="ticket-link"><a href="https://www.ticketfly.com/purchase/event/1878847" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+                    				</div>
+								<ul class="nav">
+				</ul>
+							</div>
+		</div>
+<script type="text/javascript">
+    var carousel;
+    jQuery( document ).ready( function() { carousel = new tfly.carousel(); } );
+</script>
+	</div>
+	
+	<div class="background-fill gray">
+			
+		<div class="wrapper">	
+			
+			
+<div id="secondary" class="widget-area" role="complementary">
+	<aside id="text-20" class="widget widget_text"><h2 class="widget-title">Sign up for our newsletter:</h2>			<div class="textwidget">       <div class="tfly-email-subscribe">
+           <form method="get" class="signup-form" action="https://www.ticketfly.com/account/emailSignup">
+               <input type="hidden" name="orgId" value="6263"><input type="hidden" name="formType" value="long">
+               <input type="text" onfocus="if(this.value==this.defaultValue){this.value='';}"
+                      onblur="if(this.value==''){this.value=this.defaultValue;}" value="Sign up for our email list"
+                      name="email" class="tfly-email-subscribe-text" aria-label="Email Address"/>
+               <input type="submit" name="mysubmit" value="Submit" class="tfly-email-subscribe-submit"/>
+           </form>
+       </div>
+	</div>
+		</aside><aside id="text-7" class="widget widget_text">			<div class="textwidget"><div class="tfly-search ticketfly">
+<form method="get" id="searchform" action="/search/">
+	<div>
+    	<input type="text" value="Enter an Artist or Event" onblur="if(this.value==''){this.value=this.defaultValue;}" onfocus="if(this.value==this.defaultValue){this.value='';}" class="textform" id="q" name="q" aria-label="Search" />
+		<input type="submit" id="searchsubmit" value="Search" />
+	</div>
+</form>
+</div></div>
+		</aside><aside id="text-19" class="widget widget_text"><h2 class="widget-title">Bar Hours</h2>			<div class="textwidget">MON-THURS: 3 PM - TIL,
+FRI-SUN: 12 PM - TIL </div>
+		</aside><aside id="text-9" class="widget widget_text"><h2 class="widget-title">Just Announced</h2>			<div class="textwidget">
+		<div class="sidebar-list just-announced">
+							<ul>
+								<li class="tfly-event-id-1879757 tfly-org-id-6263 tfly-venue-id-9759"><a href="/event/1879757-champagne-girl-static-masks-new-orleans/">Champagne Girl + Static Masks + Kitty Pool - Fri 8.16																                </a></li>
+								<li class="tfly-event-id-1879403 tfly-org-id-6263 tfly-venue-id-9759"><a href="/event/1879403-super-doppler-juno-dunes-duz-new-orleans/">Super Doppler, Juno Dunes, Duz Mancini & The Wasted Shades - Thu 9.26																                </a></li>
+								<li class="tfly-event-id-1879339 tfly-org-id-6263 tfly-venue-id-9759"><a href="/event/1879339-essentials-new-orleans/">The Essentials - Sat 8.24																                </a></li>
+								<li class="tfly-event-id-1879327 tfly-org-id-6263 tfly-venue-id-9759"><a href="/event/1879327-goblin-gigan-new-orleans/">Goblin + GIGAN - Wed 11.20																                </a></li>
+								<li class="tfly-event-id-1879302 tfly-org-id-6263 tfly-venue-id-9759"><a href="/event/1879302-music-for-mental-health-ft-new-orleans/">Music for Mental Health ft. Kristin Diable, Spirit McIntyre, Dominic Minix, Assata Renay + more - Fri 9.20																                </a></li>
+								<li class="tfly-event-id-1879236 tfly-org-id-6493 tfly-venue-id-9759"><a href="/event/1879236-pile-new-orleans/">Pile - Fri 12.20					                </a></li>
+								<li class="tfly-event-id-1878847 tfly-org-id-6263 tfly-venue-id-9759"><a href="/event/1878847-murdertits-marge-gools-new-orleans/">Murdertits Marge + Gools + Meat Knuckle - Thu 7.25																                </a></li>
+								<li class="tfly-event-id-1878845 tfly-org-id-6263 tfly-venue-id-9759"><a href="/event/1878845-80s-knight-dummy-dumpster-new-orleans/">80's Knight + Dummy Dumpster + Bug Lord - Fri 7.26																                </a></li>
+								<li class="tfly-event-id-1878639 tfly-org-id-6263 tfly-venue-id-9759"><a href="/event/1878639-static-masks-permanent-new-orleans/">Static Masks: "Permanent Vacation" Album Release - Fri 8.2																                </a></li>
+								<li class="tfly-event-id-1877195 tfly-org-id-6493 tfly-venue-id-9759"><a href="/event/1877195-this-will-destroy-you-early-new-orleans/">This Will Destroy You -- EARLY SHOW - Fri 11.8																                </a></li>
+							</ul>
+            		</div>
+</div>
+		</aside>
+<div id='fb-root'></div>
+<script src='//connect.facebook.net/en_US/all.js#appId=143383105698310&amp;xfbml=1' type='text/javascript'></script>
+<aside id="text-15" class="widget widget_text"><h2 class="widget-title">Facebook</h2>			<div class="textwidget">
+				<div id="fb-root"></div>
+				<script>(function(d, s, id) {
+				  var js, fjs = d.getElementsByTagName(s)[0];
+				  if (d.getElementById(id)) return;
+				  js = d.createElement(s); js.id = id;
+				  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=121590497858530";
+				  fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));</script>
+				<div class="fb-like-box" data-href="http://www.facebook.com/gasagasaonfreret" data-width="314" data-show-faces="true" data-stream="false" data-header="false"></div></div>
+		</aside><aside id="text-12" class="widget widget_text"><h2 class="widget-title">Twitter</h2>			<div class="textwidget"><a class="twitter-timeline" href="https://twitter.com/GasaGasaNOLA" data-widget-id="726176983944581121">Tweets by @GasaGasaNOLA</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+		</aside><aside id="text-18" class="widget widget_text"><h2 class="widget-title">Instagram</h2>			<div class="textwidget"><script type='text/javascript'>
+	jQuery(document).ready(function($) {
+		$('.instaslider-nr-2').pllexislider({
+			animation: 'slide',
+			slideshowSpeed: 7000,
+			directionNav: false,
+			controlNav: true,
+			prevText: '',
+			nextText: '',
+		});
+	});
+</script>
+<div class='pllexislider pllexislider-normal instaslider-nr-2'>
+<ul class='no-bullet slides'>
+<li><a href="https://scontent-sea1-1.cdninstagram.com/vp/4e6ef423bd5955573e78eed7b57a3699/5DD10480/t51.2885-15/e35/67361637_130697404841194_574395598926554536_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com" target="_blank" title="Hailing from Brooklyn NY bonehartflannigan is known for his heartfelt"><img src="https://scontent-sea1-1.cdninstagram.com/vp/f123f10aef3afc74359138d58397f638/5DCC1AF3/t51.2885-15/sh0.08/e35/s640x640/67361637_130697404841194_574395598926554536_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com" alt="Hailing from Brooklyn NY bonehartflannigan is known for his heartfelt" title="Hailing from Brooklyn NY bonehartflannigan is known for his heartfelt" /></a><div class='jr-insta-datacontainer'>
+<span class='jr-insta-time'>1 week ago</span>
+<span class='jr-insta-username'>by <a rel='nofollow' href='https://www.instagram.com/gasa_gasa/' target='_blank'>gasa_gasa</a></span>
+<span class='jr-insta-caption'>Hailing from Brooklyn NY, &nbsp;<a href="https://www.instagram.com/bonehartflannigan/" rel="nofollow" target="_blank">@bonehartflannigan</a>&nbsp; is known for his heartfelt Americana/Roots tunes that tread the line between pain and blissful jubilance. Come see him live at Gasa Gasa on 7/23 w/ support from &nbsp;<a href="https://www.instagram.com/galholiday/" rel="nofollow" target="_blank">@galholiday</a>&nbsp; & &nbsp;<a href="https://www.instagram.com/littledeathsounds/" rel="nofollow" target="_blank">@littledeathsounds</a>&nbsp; Tickets available @ gasagasa.com</span>
+</div>
+</li><li><a href="https://scontent-sea1-1.cdninstagram.com/vp/e71ced126fb948f8a83168c3da3ede2b/5DE07A5D/t51.2885-15/e35/s1080x1080/66288649_422862054986824_8945017741567307932_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com" target="_blank" title="FRIDAY the Detroit indie rockers second album fluctuates between altRock"><img src="https://scontent-sea1-1.cdninstagram.com/vp/3c2b7e95d59700a44656adef5003de6e/5DED8E13/t51.2885-15/sh0.08/e35/c222.0.996.996a/s640x640/66288649_422862054986824_8945017741567307932_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com" alt="FRIDAY the Detroit indie rockers second album fluctuates between altRock" title="FRIDAY the Detroit indie rockers second album fluctuates between altRock" /></a><div class='jr-insta-datacontainer'>
+<span class='jr-insta-time'>1 week ago</span>
+<span class='jr-insta-username'>by <a rel='nofollow' href='https://www.instagram.com/gasa_gasa/' target='_blank'>gasa_gasa</a></span>
+<span class='jr-insta-caption'>FRIDAY: “the Detroit indie rocker’s second album fluctuates between alt-Rock and garage pop, turning up her amp and doubling down on her uncompromising style” —&nbsp;<a href="https://www.instagram.com/pitchfork/" rel="nofollow" target="_blank">@pitchfork</a>&nbsp; ✂️ catch Stef Chura with support from LA post-punks French Vanilla and locals New Holland. tickets still available at gasagasa.com and we can’t wait to party on Friday w/ y’all</span>
+</div>
+</li><li><a href="https://scontent-sea1-1.cdninstagram.com/vp/ab4c9bb7607c30619b6906fb3930bccc/5DD18246/t51.2885-15/e35/65651241_2768396329856035_3122137747810592912_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com" target="_blank" title="Girls Night Out The Show is a nationally recognized top"><img src="https://scontent-sea1-1.cdninstagram.com/vp/bce64ad2e7b4118dbf9d4fb71fe9167b/5DD269FC/t51.2885-15/sh0.08/e35/s640x640/65651241_2768396329856035_3122137747810592912_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com" alt="Girls Night Out The Show is a nationally recognized top" title="Girls Night Out The Show is a nationally recognized top" /></a><div class='jr-insta-datacontainer'>
+<span class='jr-insta-time'>1 day ago</span>
+<span class='jr-insta-username'>by <a rel='nofollow' href='https://www.instagram.com/gasa_gasa/' target='_blank'>gasa_gasa</a></span>
+<span class='jr-insta-caption'>“Girls Night Out: The Show” is a nationally recognized top Ladies Night Event. They will be making their New Orleans appearance on Sunday, 7/28 at Gasa Gasa. Tickets & more info @ gasagasa.com</span>
+</div>
+</li><li><a href="https://scontent-sea1-1.cdninstagram.com/vp/1cfb3d7b202321f59fe84dcaf13d3da4/5DCEE2DE/t51.2885-15/e35/66652153_2090161137952005_3776984557454868950_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com" target="_blank" title="This Saturdays show 727 features sevenspiresband  Known for their"><img src="https://scontent-sea1-1.cdninstagram.com/vp/092ef3774a2d1641ffd23b55684e9949/5DD519F1/t51.2885-15/e35/c126.0.498.498a/66652153_2090161137952005_3776984557454868950_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com" alt="This Saturdays show 727 features sevenspiresband  Known for their" title="This Saturdays show 727 features sevenspiresband  Known for their" /></a><div class='jr-insta-datacontainer'>
+<span class='jr-insta-time'>3 days ago</span>
+<span class='jr-insta-username'>by <a rel='nofollow' href='https://www.instagram.com/gasa_gasa/' target='_blank'>gasa_gasa</a></span>
+<span class='jr-insta-caption'>This Saturday’s show (7/27) features &nbsp;<a href="https://www.instagram.com/sevenspiresband/" rel="nofollow" target="_blank">@sevenspiresband</a>&nbsp; — Known for their enticing live performances, the Boston based theatrical metalheads will be making their LA debut with support from &nbsp;<a href="https://www.instagram.com/mysticalhotchocolateendeavors/" rel="nofollow" target="_blank">@mysticalhotchocolateendeavors</a>&nbsp; + &nbsp;<a href="https://www.instagram.com/mangataband/" rel="nofollow" target="_blank">@mangataband</a>&nbsp; + &nbsp;<a href="https://www.instagram.com/vetusmorbus/" rel="nofollow" target="_blank">@vetusmorbus</a>&nbsp; Tickets available @ gasagasa.com</span>
+</div>
+</li><li><a href="https://scontent-sea1-1.cdninstagram.com/vp/8e14689bd058f130285c343e550cd390/5DEBDB23/t51.2885-15/e35/65896668_625152201313290_8069933550625918113_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com" target="_blank" title="BUG LORD  greengasolineband have been added as additional support"><img src="https://scontent-sea1-1.cdninstagram.com/vp/8c2b0fdbba032c95ef54e5fe328c57c8/5DEDD8E6/t51.2885-15/sh0.08/e35/c0.90.725.725a/s640x640/65896668_625152201313290_8069933550625918113_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com" alt="BUG LORD  greengasolineband have been added as additional support" title="BUG LORD  greengasolineband have been added as additional support" /></a><div class='jr-insta-datacontainer'>
+<span class='jr-insta-time'>1 day ago</span>
+<span class='jr-insta-username'>by <a rel='nofollow' href='https://www.instagram.com/gasa_gasa/' target='_blank'>gasa_gasa</a></span>
+<span class='jr-insta-caption'>BUG LORD & &nbsp;<a href="https://www.instagram.com/greengasolineband/" rel="nofollow" target="_blank">@greengasolineband</a>&nbsp; have been added as additional support for this Friday’s punk banger. Grab ur ticket @ gasagasa.com today!</span>
+</div>
+</li><li><a href="https://scontent-sea1-1.cdninstagram.com/vp/a58a81bd6fffc925af361681bba4026c/5DCBA988/t51.2885-15/e35/67271486_352619305405116_8504305647493073970_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com" target="_blank" title="Drunk Trivia before the babyfuzzzz junodunes studentdriver666 gig tonight kicks"><img src="https://scontent-sea1-1.cdninstagram.com/vp/2fd285a8db340a0355b48a2641affe51/5DC7A96D/t51.2885-15/sh0.08/e35/s640x640/67271486_352619305405116_8504305647493073970_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com" alt="Drunk Trivia before the babyfuzzzz junodunes studentdriver666 gig tonight kicks" title="Drunk Trivia before the babyfuzzzz junodunes studentdriver666 gig tonight kicks" /></a><div class='jr-insta-datacontainer'>
+<span class='jr-insta-time'>3 days ago</span>
+<span class='jr-insta-username'>by <a rel='nofollow' href='https://www.instagram.com/gasa_gasa/' target='_blank'>gasa_gasa</a></span>
+<span class='jr-insta-caption'>Drunk Trivia before the &nbsp;<a href="https://www.instagram.com/babyfuzzzz/" rel="nofollow" target="_blank">@babyfuzzzz</a>&nbsp; &nbsp;<a href="https://www.instagram.com/junodunes/" rel="nofollow" target="_blank">@junodunes</a>&nbsp; &nbsp;<a href="https://www.instagram.com/studentdriver666/" rel="nofollow" target="_blank">@studentdriver666</a>&nbsp; gig tonight kicks off at 7pm</span>
+</div>
+</li><li><a href="https://scontent-sea1-1.cdninstagram.com/vp/bf2aed6c2c54da76b6706b9d7f1150a0/5DE6223F/t51.2885-15/e35/66445655_1426640180807441_6858277869051135326_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com" target="_blank" title="Dont miss briannamusco on Monday 729! The NJ based singersongwriters"><img src="https://scontent-sea1-1.cdninstagram.com/vp/7d633db7a80bbc25e87475a31e44da5b/5DEBC041/t51.2885-15/sh0.08/e35/c0.116.936.936a/s640x640/66445655_1426640180807441_6858277869051135326_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com" alt="Dont miss briannamusco on Monday 729! The NJ based singersongwriters" title="Dont miss briannamusco on Monday 729! The NJ based singersongwriters" /></a><div class='jr-insta-datacontainer'>
+<span class='jr-insta-time'>23 hours ago</span>
+<span class='jr-insta-username'>by <a rel='nofollow' href='https://www.instagram.com/gasa_gasa/' target='_blank'>gasa_gasa</a></span>
+<span class='jr-insta-caption'>Don’t miss &nbsp;<a href="https://www.instagram.com/briannamusco/" rel="nofollow" target="_blank">@briannamusco</a>&nbsp; on Monday (7/29)! The NJ based singer-songwriter’s pop-rock jams are reminiscent of Fleetwood Mac, and 90s alternative power-voices such as Alanis Morrissette & Natalie Merchant. — Support from &nbsp;<a href="https://www.instagram.com/kuwaisiana/" rel="nofollow" target="_blank">@kuwaisiana</a>&nbsp; & &nbsp;<a href="https://www.instagram.com/thebummersband/" rel="nofollow" target="_blank">@thebummersband</a>&nbsp; Tickets available @ gasagasa.com</span>
+</div>
+</li><li><a href="https://scontent-sea1-1.cdninstagram.com/vp/24a4481d8b63eaa47010a9dd419c5242/5DC973D4/t51.2885-15/e35/p1080x1080/66198832_539935693412256_3165375798787632661_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com" target="_blank" title="JUST ANNOUNCED The ORIGINAL lineup of Goblin will be making"><img src="https://scontent-sea1-1.cdninstagram.com/vp/eb49bafa93536153a387aafb270a56eb/5DB4AF47/t51.2885-15/sh0.08/e35/c0.180.1440.1440a/s640x640/66198832_539935693412256_3165375798787632661_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com" alt="JUST ANNOUNCED The ORIGINAL lineup of Goblin will be making" title="JUST ANNOUNCED The ORIGINAL lineup of Goblin will be making" /></a><div class='jr-insta-datacontainer'>
+<span class='jr-insta-time'>3 days ago</span>
+<span class='jr-insta-username'>by <a rel='nofollow' href='https://www.instagram.com/gasa_gasa/' target='_blank'>gasa_gasa</a></span>
+<span class='jr-insta-caption'>JUST ANNOUNCED: The ORIGINAL lineup of Goblin will be making a NOLA appearance on 11/20! The Italian prog rockers are famous for their soundtrack work on films such as Suspiria, Roller, Zombi, and more. This tour will showcase their new album, “Fearless,” based on “Dawn of the Dead.” Tickets available @ gasagasa.com</span>
+</div>
+</li><li><a href="https://scontent-sea1-1.cdninstagram.com/vp/99abd7043c8f9fa6ec89e7c38a5f1b9d/5DE00DD5/t51.2885-15/e35/66689883_2928346117389961_3471176184231275276_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com" target="_blank" title="RIP Rutger Hauer Well be screening Blade Runner tonight 724"><img src="https://scontent-sea1-1.cdninstagram.com/vp/c130bb1eb7398b22ae06dba4fbaefff7/5DEA4CCF/t51.2885-15/e35/c173.0.453.453a/66689883_2928346117389961_3471176184231275276_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com" alt="RIP Rutger Hauer Well be screening Blade Runner tonight 724" title="RIP Rutger Hauer Well be screening Blade Runner tonight 724" /></a><div class='jr-insta-datacontainer'>
+<span class='jr-insta-time'>1 day ago</span>
+<span class='jr-insta-username'>by <a rel='nofollow' href='https://www.instagram.com/gasa_gasa/' target='_blank'>gasa_gasa</a></span>
+<span class='jr-insta-caption'>RIP Rutger Hauer. We’ll be screening Blade Runner tonight (7/24) at 8:30 in your honor We’ll be open for happy hour starting at 3. Hope to see y’all soon ❤️</span>
+</div>
+</li><li><a href="https://scontent-sea1-1.cdninstagram.com/vp/b3a311cffaf2a23140f4393c593e41bf/5DEC474D/t51.2885-15/e35/s1080x1080/66471827_147669693087249_2098508512738113728_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com" target="_blank" title="Yes kyleshutt is playing in town TONIGHT with formingthevoid "><img src="https://scontent-sea1-1.cdninstagram.com/vp/9aefddc563f15da4a3f89b3175fa233d/5DCFEC28/t51.2885-15/sh0.08/e35/c292.0.749.749a/s640x640/66471827_147669693087249_2098508512738113728_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com" alt="Yes kyleshutt is playing in town TONIGHT with formingthevoid " title="Yes kyleshutt is playing in town TONIGHT with formingthevoid " /></a><div class='jr-insta-datacontainer'>
+<span class='jr-insta-time'>1 week ago</span>
+<span class='jr-insta-username'>by <a rel='nofollow' href='https://www.instagram.com/gasa_gasa/' target='_blank'>gasa_gasa</a></span>
+<span class='jr-insta-caption'>Yes, &nbsp;<a href="https://www.instagram.com/kyleshutt/" rel="nofollow" target="_blank">@kyleshutt</a>&nbsp; is playing in town TONIGHT with &nbsp;<a href="https://www.instagram.com/forming_the_void/" rel="nofollow" target="_blank">@forming_the_void</a>&nbsp; & &nbsp;<a href="https://www.instagram.com/alohaoi/" rel="nofollow" target="_blank">@alohaoi</a>&nbsp;.theband LET’S GET LOUD. Tickets still available @ gasagasa.com</span>
+</div>
+</li><li><a href="https://scontent-sea1-1.cdninstagram.com/vp/01001040d6b10ceebd7863334faee4c0/5DD5B053/t51.2885-15/e35/67560060_335449504053395_5554102456339323997_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com" target="_blank" title="Our bill on Thursday 725 features some of the best"><img src="https://scontent-sea1-1.cdninstagram.com/vp/37665fab52bbbd9c1a52d7b3a8ce0d23/5DCFA039/t51.2885-15/sh0.08/e35/c173.0.672.672a/s640x640/67560060_335449504053395_5554102456339323997_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com" alt="Our bill on Thursday 725 features some of the best" title="Our bill on Thursday 725 features some of the best" /></a><div class='jr-insta-datacontainer'>
+<span class='jr-insta-time'>6 days ago</span>
+<span class='jr-insta-username'>by <a rel='nofollow' href='https://www.instagram.com/gasa_gasa/' target='_blank'>gasa_gasa</a></span>
+<span class='jr-insta-caption'>Our bill on Thursday 7/25 features some of the best art rock/experimental groups that NOLA has to offer | &nbsp;<a href="https://www.instagram.com/murdertits_band/" rel="nofollow" target="_blank">@murdertits_band</a>&nbsp; | &nbsp;<a href="https://www.instagram.com/_gools_/" rel="nofollow" target="_blank">@_gools_</a>&nbsp; | Meat Knuckle Tickets available @ gasagasa.com</span>
+</div>
+</li><li><a href="https://scontent-sea1-1.cdninstagram.com/vp/a6988e72bb8d3d2436bdc3860c2a5bd7/5DDEBC6A/t51.2885-15/e35/p1080x1080/66180983_479171749316501_117027441480610133_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com" target="_blank" title="80s Knight features members of punk legends Operation Ivy "><img src="https://scontent-sea1-1.cdninstagram.com/vp/57b5575fb307c11fa268eaa66df4baed/5DEC6D34/t51.2885-15/sh0.08/e35/c0.180.1440.1440a/s640x640/66180983_479171749316501_117027441480610133_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com" alt="80s Knight features members of punk legends Operation Ivy " title="80s Knight features members of punk legends Operation Ivy " /></a><div class='jr-insta-datacontainer'>
+<span class='jr-insta-time'>6 days ago</span>
+<span class='jr-insta-username'>by <a rel='nofollow' href='https://www.instagram.com/gasa_gasa/' target='_blank'>gasa_gasa</a></span>
+<span class='jr-insta-caption'>80s Knight features members of punk legends Operation Ivy & Schlong. They’ll be joined by local Neo Post-Punks in Dummy Dumpster. Don’t miss this! Tickets available @ gasagasa.com</span>
+</div>
+</li></ul>
+</div></div>
+		</aside></div><!-- #secondary -->			
+			<div id="primary" class="content-area">
+				<main id="main" class="site-main" role="main">
+					
+					<h1 class="module-title">UPCOMING EVENTS</h1>
+					
+							
+						
+<article id="post-8" class="post-8 page type-page status-publish hentry">
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="https://www.gasagasa.com/" rel="bookmark">Listing</a></h1>
+
+			
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<div class="list-view">
+	  <div class="list-view-heading"></div>
+    <div class="list-view-item tfly-event-id-1878847 tfly-org-id-6263 tfly-venue-id-9759">
+<a href="/event/1878847-murdertits-marge-gools-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/23/56/98-og.png?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Murdertits Marge + Gools + Meat Knuckle" title="Murdertits Marge + Gools + Meat Knuckle" /></a>
+      <div class="list-view-details vevent">
+<h1 class="headliners summary"><a href="/event/1878847-murdertits-marge-gools-new-orleans/">Murdertits Marge + Gools + Meat Knuckle</a></h1>        <h2 class="dates">Thu 7.25</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 9:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-07-25T22:00:00-05:00"></span>Show: 10:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1878847-murdertits-marge-gools-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1878847" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item alt tfly-event-id-1878845 tfly-org-id-6263 tfly-venue-id-9759">
+<a href="/event/1878845-80s-knight-dummy-dumpster-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/23/56/94-og.jpg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="80&#039;s Knight + Dummy Dumpster + Bug Lord" title="80&#039;s Knight + Dummy Dumpster + Bug Lord" /></a>
+      <div class="list-view-details vevent">
+<h1 class="headliners summary"><a href="/event/1878845-80s-knight-dummy-dumpster-new-orleans/">80's Knight + Dummy Dumpster + Bug Lord</a></h1>        <h2 class="dates">Fri 7.26</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 8:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-07-26T21:00:00-05:00"></span>Show: 9:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1878845-80s-knight-dummy-dumpster-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1878845" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item tfly-event-id-1847967 tfly-org-id-6263 tfly-venue-id-9759">
+<a href="/event/1847967-mangata-mystical-hot-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/17/75/48-og.png?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Mangata + The Mystical Hot Chocolate Endeavors + Vetus Morbus" title="Mangata + The Mystical Hot Chocolate Endeavors + Vetus Morbus" /></a>
+      <div class="list-view-details vevent">
+<h1 class="headliners summary"><a href="/event/1847967-mangata-mystical-hot-new-orleans/">Mangata + The Mystical Hot Chocolate Endeavors + Vetus Morbus</a></h1><h2 class="supports description"><a href=" /event/1847967-mangata-mystical-hot-new-orleans/ ">Seven Spires, The Mystical Hot Chocolate Endeavors, Vetus Morbus</a></h2>        <h2 class="dates">Sat 7.27</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 8:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-07-27T21:00:00-05:00"></span>Show: 9:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1847967-mangata-mystical-hot-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1847967" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item alt tfly-event-id-1871518 tfly-org-id-6263 tfly-venue-id-9759">
+<a href="/event/1871518-girls-night-out-show-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/22/11/93-og.png?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Girls Night Out: The Show" title="Girls Night Out: The Show" /></a>
+      <div class="list-view-details vevent">
+<h1 class="headliners summary"><a href="/event/1871518-girls-night-out-show-new-orleans/">Girls Night Out: The Show</a></h1>        <h2 class="dates">Sun 7.28</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 7:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-07-28T20:00:00-05:00"></span>Show: 8:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-21">
+			This event is 21 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1871518-girls-night-out-show-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://tickets.girlsnightouttheshow.com/findticket?EventId=159872" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item tfly-event-id-1871530 tfly-org-id-6263 tfly-venue-id-9759">
+<a href="/event/1871530-brianna-musco-kuwaisiana-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/22/12/42-og.jpg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Brianna Musco + Kuwaisiana + The Bummers" title="Brianna Musco + Kuwaisiana + The Bummers" /></a>
+      <div class="list-view-details vevent">
+<h1 class="headliners summary"><a href="/event/1871530-brianna-musco-kuwaisiana-new-orleans/">Brianna Musco + Kuwaisiana + The Bummers</a></h1>        <h2 class="dates">Mon 7.29</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 8:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-07-29T21:00:00-05:00"></span>Show: 9:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1871530-brianna-musco-kuwaisiana-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1871530" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item alt tfly-event-id-1854995 tfly-org-id-6493 tfly-venue-id-9759">
+<a href="/event/1854995-gauche-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/19/06/45-og.jpg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Gauche" title="Gauche" /></a>
+      <div class="list-view-details vevent">
+<h2 class="topline-info">The Bowery Presents:</h2> <h1 class="headliners summary"><a href="/event/1854995-gauche-new-orleans/">Gauche</a></h1>
+					  <h2 class="supports description"><a href=" /event/1854995-gauche-new-orleans/ ">Post Pink, 2TB</a></h2>        <h2 class="dates">Tue 7.30</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 8:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-07-30T21:00:00-05:00"></span>Show: 9:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1854995-gauche-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1854995" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item tfly-event-id-1859597 tfly-org-id-6493 tfly-venue-id-9759">
+<a href="/event/1859597-prince-daddy-hyena-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/19/90/42-og.jpeg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Prince Daddy &amp; The Hyena" title="Prince Daddy &amp; The Hyena" /></a>
+      <div class="list-view-details vevent">
+<h2 class="topline-info">The Bowery Presents:</h2> <h1 class="headliners summary"><a href="/event/1859597-prince-daddy-hyena-new-orleans/">Prince Daddy & The Hyena</a></h1>
+					  <h2 class="supports description"><a href=" /event/1859597-prince-daddy-hyena-new-orleans/ ">Retirement Party, The Obsessives</a></h2>        <h2 class="dates">Wed 7.31</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 8:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-07-31T20:30:00-05:00"></span>Show: 8:30 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1859597-prince-daddy-hyena-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1859597" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item alt tfly-event-id-1875717 tfly-org-id-6263 tfly-venue-id-9759">
+<a href="/event/1875717-ryan-scott-long-dead-singer-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/22/94/04-og.jpeg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Ryan Scott Long and The Dead Singer + Arula+ Heather Christie + Lonely Grrl + Christin Bradford" title="Ryan Scott Long and The Dead Singer + Arula+ Heather Christie + Lonely Grrl + Christin Bradford" /></a>
+      <div class="list-view-details vevent">
+<h1 class="headliners summary"><a href="/event/1875717-ryan-scott-long-dead-singer-new-orleans/">Ryan Scott Long and The Dead Singer + Arula+ Heather Christie + Lonely Grrl + Christin Bradford</a></h1>        <h2 class="dates">Thu 8.1</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 8:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-08-01T21:00:00-05:00"></span>Show: 9:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1875717-ryan-scott-long-dead-singer-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1875717" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item tfly-event-id-1878639 tfly-org-id-6263 tfly-venue-id-9759">
+<a href="/event/1878639-static-masks-permanent-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/23/53/37-og.jpg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Static Masks: &quot;Permanent Vacation&quot; Album Release" title="Static Masks: &quot;Permanent Vacation&quot; Album Release" /></a>
+      <div class="list-view-details vevent">
+<h2 class="topline-info">Real Rock Club Presents:</h2><h1 class="headliners summary"><a href="/event/1878639-static-masks-permanent-new-orleans/">Static Masks: "Permanent Vacation" Album Release</a></h1><h2 class="supports description"><a href=" /event/1878639-static-masks-permanent-new-orleans/ ">Dihyo, Island Days</a></h2>        <h2 class="dates">Fri 8.2</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 9:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-08-02T22:00:00-05:00"></span>Show: 10:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1878639-static-masks-permanent-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.eventbrite.com/e/static-masks-cd-release-w-dihyo-island-days-tickets-65811480911" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item alt tfly-event-id-1875701 tfly-org-id-6263 tfly-venue-id-9759">
+<a href="/event/1875701-down-good-south-jones-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/22/93/83-og.jpeg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Down &amp; Good + South Jones present A Night of the Free State" title="Down &amp; Good + South Jones present A Night of the Free State" /></a>
+      <div class="list-view-details vevent">
+<h1 class="headliners summary"><a href="/event/1875701-down-good-south-jones-new-orleans/">Down & Good + South Jones present A Night of the Free State</a></h1>        <h2 class="dates">Sat 8.3</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 9:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-08-03T22:00:00-05:00"></span>Show: 10:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1875701-down-good-south-jones-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.eventbrite.com/e/a-night-of-the-free-state-with-downgood-and-south-jones-tickets-60407408184" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item tfly-event-id-1862151 tfly-org-id-6263 tfly-venue-id-9759">
+<a href="/event/1862151-planet-booty-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/20/38/12-og.jpg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Planet Booty" title="Planet Booty" /></a>
+      <div class="list-view-details vevent">
+ <h1 class="headliners summary"><a href="/event/1862151-planet-booty-new-orleans/">Planet Booty</a></h1>
+					          <h2 class="dates">Tue 8.6</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 8:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-08-06T21:00:00-05:00"></span>Show: 9:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1862151-planet-booty-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1862151" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item alt tfly-event-id-1876433 tfly-org-id-6263 tfly-venue-id-9759">
+<a href="/event/1876433-catbamboo-satyr-shambles-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/23/07/65-og.jpg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Catbamboo, Satyr, Shambles" title="Catbamboo, Satyr, Shambles" /></a>
+      <div class="list-view-details vevent">
+<h2 class="topline-info">Real Rock Club Presents:</h2> <h1 class="headliners summary"><a href="/event/1876433-catbamboo-satyr-shambles-new-orleans/">Catbamboo</a></h1>
+					   <h1 class="headliners"><a href="/event/1876433-catbamboo-satyr-shambles-new-orleans/">Satyr</a></h1>
+					   <h1 class="headliners"><a href="/event/1876433-catbamboo-satyr-shambles-new-orleans/">Shambles</a></h1>
+					          <h2 class="dates">Thu 8.8</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 8:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-08-08T21:00:00-05:00"></span>Show: 9:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1876433-catbamboo-satyr-shambles-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.eventbrite.com/e/catbamboo-satyr-shambles-at-gasa-gasa-tickets-64675512198" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item tfly-event-id-1875734 tfly-org-id-6263 tfly-venue-id-9759">
+<a href="/event/1875734-side-hustle-quickening-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/22/94/52-og.jpeg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Side Hustle + The Quickening + Josh Benitez" title="Side Hustle + The Quickening + Josh Benitez" /></a>
+      <div class="list-view-details vevent">
+<h1 class="headliners summary"><a href="/event/1875734-side-hustle-quickening-new-orleans/">Side Hustle + The Quickening + Josh Benitez</a></h1>        <h2 class="dates">Fri 8.9</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 9:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-08-09T22:00:00-05:00"></span>Show: 10:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1875734-side-hustle-quickening-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1875734" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item alt tfly-event-id-1857356 tfly-org-id-6263 tfly-venue-id-9759">
+<a href="/event/1857356-hibou-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/21/11/60-og.jpg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Hibou" title="Hibou" /></a>
+      <div class="list-view-details vevent">
+ <h1 class="headliners summary"><a href="/event/1857356-hibou-new-orleans/">Hibou</a></h1>
+					  <h2 class="supports description"><a href=" /event/1857356-hibou-new-orleans/ ">Doctors, Boyish Charm</a></h2>        <h2 class="dates">Sat 8.10</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 9:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-08-10T22:00:00-05:00"></span>Show: 10:00 pm</span> </h2>
+  
+  <h2 class="more-info"><a class="url" href="/event/1857356-hibou-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1857356" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item tfly-event-id-1876689 tfly-org-id-6263 tfly-venue-id-9759">
+<a href="/event/1876689-fete-deswine-chandeleurs-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/23/12/33-og.jpeg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Fete Deswine + The Chandeleurs + Old Growth + Food by Deswine Intervention" title="Fete Deswine + The Chandeleurs + Old Growth + Food by Deswine Intervention" /></a>
+      <div class="list-view-details vevent">
+<h1 class="headliners summary"><a href="/event/1876689-fete-deswine-chandeleurs-new-orleans/">Fete Deswine + The Chandeleurs + Old Growth + Food by Deswine Intervention</a></h1>        <h2 class="dates">Mon 8.12</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 7:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-08-12T20:00:00-05:00"></span>Show: 8:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1876689-fete-deswine-chandeleurs-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1876689" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item alt tfly-event-id-1878132 tfly-org-id-6493 tfly-venue-id-9759">
+<a href="/event/1878132-hip-abduction-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/23/41/35-og.jpg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="The Hip Abduction" title="The Hip Abduction" /></a>
+      <div class="list-view-details vevent">
+<h2 class="topline-info">The Bowery Presents:</h2> <h1 class="headliners summary"><a href="/event/1878132-hip-abduction-new-orleans/">The Hip Abduction</a></h1>
+					          <h2 class="dates">Thu 8.15</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 8:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-08-15T21:00:00-05:00"></span>Show: 9:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1878132-hip-abduction-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.eventbrite.com/e/the-hip-abduction-tickets-65555041895" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item tfly-event-id-1879757 tfly-org-id-6263 tfly-venue-id-9759">
+<a href="/event/1879757-champagne-girl-static-masks-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/23/77/50-og.jpeg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Champagne Girl + Static Masks + Kitty Pool" title="Champagne Girl + Static Masks + Kitty Pool" /></a>
+      <div class="list-view-details vevent">
+<h1 class="headliners summary"><a href="/event/1879757-champagne-girl-static-masks-new-orleans/">Champagne Girl + Static Masks + Kitty Pool</a></h1>        <h2 class="dates">Fri 8.16</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 9:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-08-16T22:00:00-05:00"></span>Show: 10:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1879757-champagne-girl-static-masks-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1879757" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item alt tfly-event-id-1860483 tfly-org-id-6493 tfly-venue-id-9759">
+<a href="/event/1860483-mannequin-pussy-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/20/07/24-og.jpg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Mannequin Pussy" title="Mannequin Pussy" /></a>
+      <div class="list-view-details vevent">
+<h2 class="topline-info">The Bowery Presents:</h2> <h1 class="headliners summary"><a href="/event/1860483-mannequin-pussy-new-orleans/">Mannequin Pussy</a></h1>
+					  <h2 class="supports description"><a href=" /event/1860483-mannequin-pussy-new-orleans/ ">Empath, T-Rextasy</a></h2>        <h2 class="dates">Thu 8.22</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 8:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-08-22T21:00:00-05:00"></span>Show: 9:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1860483-mannequin-pussy-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1860483" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item tfly-event-id-1873834 tfly-org-id-6263 tfly-venue-id-9759">
+<a href="/event/1873834-letrainiump-riarosa-amelia-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/22/60/62-og.jpg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="LeTrainiump, Riarosa, Amelia Pierce" title="LeTrainiump, Riarosa, Amelia Pierce" /></a>
+      <div class="list-view-details vevent">
+<h2 class="topline-info">Real Rock Club Presents:</h2> <h1 class="headliners summary"><a href="/event/1873834-letrainiump-riarosa-amelia-new-orleans/">LeTrainiump</a></h1>
+					   <h1 class="headliners"><a href="/event/1873834-letrainiump-riarosa-amelia-new-orleans/">Riarosa</a></h1>
+					   <h1 class="headliners"><a href="/event/1873834-letrainiump-riarosa-amelia-new-orleans/">Amelia Pierce</a></h1>
+					          <h2 class="dates">Fri 8.23</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 9:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-08-23T22:00:00-05:00"></span>Show: 10:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1873834-letrainiump-riarosa-amelia-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.eventbrite.com/e/riarosa-letrainiump-amelia-pierce-tickets-64316434186" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item alt tfly-event-id-1879339 tfly-org-id-6263 tfly-venue-id-9759">
+<a href="/event/1879339-essentials-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/23/69/38-og.jpeg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="The Essentials" title="The Essentials" /></a>
+      <div class="list-view-details vevent">
+ <h1 class="headliners summary"><a href="/event/1879339-essentials-new-orleans/">The Essentials</a></h1>
+					          <h2 class="dates">Sat 8.24</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 8:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-08-24T21:00:00-05:00"></span>Show: 9:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1879339-essentials-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1879339" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item tfly-event-id-1868357 tfly-org-id-6493 tfly-venue-id-9759">
+<a href="/event/1868357-slaughter-beach-dog-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/21/57/94-og.jpg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Slaughter Beach, Dog" title="Slaughter Beach, Dog" /></a>
+      <div class="list-view-details vevent">
+<h2 class="topline-info">The Bowery Presents:</h2> <h1 class="headliners summary"><a href="/event/1868357-slaughter-beach-dog-new-orleans/">Slaughter Beach, Dog</a></h1>
+					          <h2 class="dates">Sun 8.25</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 8:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-08-25T21:00:00-05:00"></span>Show: 9:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1868357-slaughter-beach-dog-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1868357" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item alt tfly-event-id-1876688 tfly-org-id-6263 tfly-venue-id-9759">
+<a href="/event/1876688-daisy-great-palm-sunday-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/23/30/41-og.jpg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Daisy the Great + Palm Sunday" title="Daisy the Great + Palm Sunday" /></a>
+      <div class="list-view-details vevent">
+<h1 class="headliners summary"><a href="/event/1876688-daisy-great-palm-sunday-new-orleans/">Daisy the Great + Palm Sunday</a></h1>        <h2 class="dates">Wed 8.28</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 8:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-08-28T21:00:00-05:00"></span>Show: 9:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1876688-daisy-great-palm-sunday-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1876688" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item tfly-event-id-1866041 tfly-org-id-6263 tfly-venue-id-9759">
+<a href="/event/1866041-benjamin-francis-leftwich-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/21/14/13-og.jpg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Benjamin Francis Leftwich" title="Benjamin Francis Leftwich" /></a>
+      <div class="list-view-details vevent">
+ <h1 class="headliners summary"><a href="/event/1866041-benjamin-francis-leftwich-new-orleans/">Benjamin Francis Leftwich</a></h1>
+					          <h2 class="dates">Thu 9.12</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 8:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-09-12T21:00:00-05:00"></span>Show: 9:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1866041-benjamin-francis-leftwich-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1866041" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item alt tfly-event-id-1857215 tfly-org-id-6493 tfly-venue-id-9759">
+<a href="/event/1857215-bleached-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/19/45/14-og.jpg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Bleached" title="Bleached" /></a>
+      <div class="list-view-details vevent">
+<h2 class="topline-info">The Bowery Presents:</h2> <h1 class="headliners summary"><a href="/event/1857215-bleached-new-orleans/">Bleached</a></h1>
+					  <h2 class="supports description"><a href=" /event/1857215-bleached-new-orleans/ ">The Paranoyds</a></h2>        <h2 class="dates">Fri 9.13</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 9:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-09-13T22:00:00-05:00"></span>Show: 10:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1857215-bleached-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1857215" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item tfly-event-id-1864783 tfly-org-id-6263 tfly-venue-id-9759">
+<a href="/event/1864783-jerry-paper-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/20/90/80-og.jpg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Jerry Paper" title="Jerry Paper" /></a>
+      <div class="list-view-details vevent">
+ <h1 class="headliners summary"><a href="/event/1864783-jerry-paper-new-orleans/">Jerry Paper</a></h1>
+					          <h2 class="dates">Sat 9.14</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 8:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-09-14T21:00:00-05:00"></span>Show: 9:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1864783-jerry-paper-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1864783" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item alt tfly-event-id-1861878 tfly-org-id-6493 tfly-venue-id-9759">
+<a href="/event/1861878-marc-rebillet-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/20/33/68-og.jpg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Marc Rebillet" title="Marc Rebillet" /></a>
+      <div class="list-view-details vevent">
+<h2 class="topline-info">The Bowery Presents:</h2> <h1 class="headliners summary"><a href="/event/1861878-marc-rebillet-new-orleans/">Marc Rebillet</a></h1>
+					          <h2 class="dates">Tue 9.17</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 8:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-09-17T21:00:00-05:00"></span>Show: 9:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1861878-marc-rebillet-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+<h3 class="sold-out">Sold Out</h3>      </div>
+    </div>
+    <div class="list-view-item tfly-event-id-1859579 tfly-org-id-6493 tfly-venue-id-9759">
+<a href="/event/1859579-sinkane-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/19/90/16-og.jpg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Sinkane" title="Sinkane" /></a>
+      <div class="list-view-details vevent">
+<h2 class="topline-info">The Bowery Presents:</h2> <h1 class="headliners summary"><a href="/event/1859579-sinkane-new-orleans/">Sinkane</a></h1>
+					          <h2 class="dates">Wed 9.18</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 8:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-09-18T21:00:00-05:00"></span>Show: 9:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1859579-sinkane-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1859579" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item alt tfly-event-id-1879302 tfly-org-id-6263 tfly-venue-id-9759">
+<a href="/event/1879302-music-for-mental-health-ft-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/23/66/39-og.png?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Music for Mental Health ft. Kristin Diable, Spirit McIntyre, Dominic Minix, Assata Renay + more" title="Music for Mental Health ft. Kristin Diable, Spirit McIntyre, Dominic Minix, Assata Renay + more" /></a>
+      <div class="list-view-details vevent">
+<h1 class="headliners summary"><a href="/event/1879302-music-for-mental-health-ft-new-orleans/">Music for Mental Health ft. Kristin Diable, Spirit McIntyre, Dominic Minix, Assata Renay + more</a></h1>        <h2 class="dates">Fri 9.20</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 7:30 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-09-20T20:30:00-05:00"></span>Show: 8:30 pm</span> </h2>
+  
+  <h2 class="more-info"><a class="url" href="/event/1879302-music-for-mental-health-ft-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1879302" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item tfly-event-id-1858398 tfly-org-id-6263 tfly-venue-id-9759">
+<a href="/event/1858398-that-1-guy-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/19/66/53-og.jpg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="That 1 Guy" title="That 1 Guy" /></a>
+      <div class="list-view-details vevent">
+ <h1 class="headliners summary"><a href="/event/1858398-that-1-guy-new-orleans/">That 1 Guy</a></h1>
+					          <h2 class="dates">Sat 9.21</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 8:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-09-21T21:00:00-05:00"></span>Show: 9:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1858398-that-1-guy-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1858398" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item alt tfly-event-id-1868138 tfly-org-id-6493 tfly-venue-id-9759">
+<a href="/event/1868138-messthetics-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/21/53/96-og.jpg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="The Messthetics" title="The Messthetics" /></a>
+      <div class="list-view-details vevent">
+<h2 class="topline-info">The Bowery Presents:</h2> <h1 class="headliners summary"><a href="/event/1868138-messthetics-new-orleans/">The Messthetics</a></h1>
+					          <h2 class="dates">Tue 9.24</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 8:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-09-24T21:00:00-05:00"></span>Show: 9:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1868138-messthetics-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1868138" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item tfly-event-id-1879403 tfly-org-id-6263 tfly-venue-id-9759">
+<a href="/event/1879403-super-doppler-juno-dunes-duz-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/23/68/72-og.png?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Super Doppler, Juno Dunes, Duz Mancini &amp; The Wasted Shades" title="Super Doppler, Juno Dunes, Duz Mancini &amp; The Wasted Shades" /></a>
+      <div class="list-view-details vevent">
+ <h1 class="headliners summary"><a href="/event/1879403-super-doppler-juno-dunes-duz-new-orleans/">Super Doppler</a></h1>
+					   <h1 class="headliners"><a href="/event/1879403-super-doppler-juno-dunes-duz-new-orleans/">Juno Dunes</a></h1>
+					   <h1 class="headliners"><a href="/event/1879403-super-doppler-juno-dunes-duz-new-orleans/">Duz Mancini & The Wasted Shades</a></h1>
+					          <h2 class="dates">Thu 9.26</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 8:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-09-26T21:00:00-05:00"></span>Show: 9:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1879403-super-doppler-juno-dunes-duz-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1879403" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item alt tfly-event-id-1862188 tfly-org-id-6493 tfly-venue-id-9759">
+<a href="/event/1862188-orville-peck-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/20/39/02-og.jpg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Orville Peck" title="Orville Peck" /></a>
+      <div class="list-view-details vevent">
+<h2 class="topline-info">The Bowery Presents:</h2> <h1 class="headliners summary"><a href="/event/1862188-orville-peck-new-orleans/">Orville Peck</a></h1>
+					  <h2 class="supports description"><a href=" /event/1862188-orville-peck-new-orleans/ ">Beau Turrentine</a></h2>        <h2 class="dates">Sat 9.28</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 9:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-09-28T22:00:00-05:00"></span>Show: 10:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1862188-orville-peck-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+<h3 class="sold-out">Sold Out</h3>      </div>
+    </div>
+    <div class="list-view-item tfly-event-id-1877092 tfly-org-id-6493 tfly-venue-id-9759">
+<a href="/event/1877092-bit-brigade-performs-contra-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/23/20/28-og.jpeg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Bit Brigade performs Contra + Metroid" title="Bit Brigade performs Contra + Metroid" /></a>
+      <div class="list-view-details vevent">
+<h2 class="topline-info">The Bowery Presents:</h2> <h1 class="headliners summary"><a href="/event/1877092-bit-brigade-performs-contra-new-orleans/">Bit Brigade performs Contra + Metroid</a></h1>
+					  <h2 class="supports description"><a href=" /event/1877092-bit-brigade-performs-contra-new-orleans/ ">Double Ferrari</a></h2>        <h2 class="dates">Thu 10.3</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 8:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-10-03T21:00:00-05:00"></span>Show: 9:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1877092-bit-brigade-performs-contra-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1877092" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item alt tfly-event-id-1860471 tfly-org-id-6493 tfly-venue-id-9759">
+<a href="/event/1860471-fink-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/20/07/18-og.jpg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Fink" title="Fink" /></a>
+      <div class="list-view-details vevent">
+<h2 class="topline-info">The Bowery Presents:</h2> <h1 class="headliners summary"><a href="/event/1860471-fink-new-orleans/">Fink</a></h1>
+					  <h2 class="supports description"><a href=" /event/1860471-fink-new-orleans/ ">New Holland (solo)</a></h2>        <h2 class="dates">Sat 10.5</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 9:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-10-05T22:00:00-05:00"></span>Show: 10:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1860471-fink-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1860471" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item tfly-event-id-1871867 tfly-org-id-6493 tfly-venue-id-9759">
+<a href="/event/1871867-aldous-harding-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/22/20/82-og.jpg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Aldous Harding" title="Aldous Harding" /></a>
+      <div class="list-view-details vevent">
+<h2 class="topline-info">The Bowery Presents:</h2> <h1 class="headliners summary"><a href="/event/1871867-aldous-harding-new-orleans/">Aldous Harding</a></h1>
+					          <h2 class="dates">Sun 10.6</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 8:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-10-06T21:00:00-05:00"></span>Show: 9:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1871867-aldous-harding-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1871867" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item alt tfly-event-id-1871638 tfly-org-id-6493 tfly-venue-id-9759">
+<a href="/event/1871638-iya-terra-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/22/15/03-og.jpg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Iya Terra" title="Iya Terra" /></a>
+      <div class="list-view-details vevent">
+<h2 class="topline-info">The Bowery Presents:</h2> <h1 class="headliners summary"><a href="/event/1871638-iya-terra-new-orleans/">Iya Terra</a></h1>
+					  <h2 class="supports description"><a href=" /event/1871638-iya-terra-new-orleans/ ">The Ries Brothers, For Peace Band</a></h2>        <h2 class="dates">Sat 10.12</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 8:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-10-12T21:00:00-05:00"></span>Show: 9:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1871638-iya-terra-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1871638" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item tfly-event-id-1875850 tfly-org-id-6493 tfly-venue-id-9759">
+<a href="/event/1875850-weeks-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/23/04/78-og.jpg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="The Weeks" title="The Weeks" /></a>
+      <div class="list-view-details vevent">
+<h2 class="topline-info">The Bowery Presents:</h2> <h1 class="headliners summary"><a href="/event/1875850-weeks-new-orleans/">The Weeks</a></h1>
+					  <h2 class="supports description"><a href=" /event/1875850-weeks-new-orleans/ ">Future Thieves, H.A.R.D</a></h2>        <h2 class="dates">Tue 10.15</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 7:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-10-15T20:00:00-05:00"></span>Show: 8:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1875850-weeks-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1875850" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item alt tfly-event-id-1877049 tfly-org-id-6493 tfly-venue-id-9759">
+<a href="/event/1877049-sequoyah-murray-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/23/19/47-og.jpg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Sequoyah Murray" title="Sequoyah Murray" /></a>
+      <div class="list-view-details vevent">
+<h2 class="topline-info">The Bowery Presents:</h2> <h1 class="headliners summary"><a href="/event/1877049-sequoyah-murray-new-orleans/">Sequoyah Murray</a></h1>
+					          <h2 class="dates">Sat 10.19</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 9:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-10-19T22:00:00-05:00"></span>Show: 10:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1877049-sequoyah-murray-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1877049" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item tfly-event-id-1875849 tfly-org-id-6493 tfly-venue-id-9759">
+<a href="/event/1875849-mo-lowda-humble-ona-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/22/96/23-og.PNG?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Mo Lowda &amp; The Humble, Ona" title="Mo Lowda &amp; The Humble, Ona" /></a>
+      <div class="list-view-details vevent">
+<h2 class="topline-info">The Bowery Presents:</h2> <h1 class="headliners summary"><a href="/event/1875849-mo-lowda-humble-ona-new-orleans/">Mo Lowda & The Humble</a></h1>
+					   <h1 class="headliners"><a href="/event/1875849-mo-lowda-humble-ona-new-orleans/">Ona</a></h1>
+					          <h2 class="dates">Wed 10.30</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 7:30 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-10-30T20:30:00-05:00"></span>Show: 8:30 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1875849-mo-lowda-humble-ona-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1875849" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item alt tfly-event-id-1874215 tfly-org-id-6493 tfly-venue-id-9759">
+<a href="/event/1874215-starcrawler-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/22/68/88-og.jpg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Starcrawler" title="Starcrawler" /></a>
+      <div class="list-view-details vevent">
+<h2 class="topline-info">The Bowery Presents:</h2> <h1 class="headliners summary"><a href="/event/1874215-starcrawler-new-orleans/">Starcrawler</a></h1>
+					          <h2 class="dates">Sat 11.2</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 9:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-11-02T22:00:00-05:00"></span>Show: 10:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1874215-starcrawler-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1874215" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item tfly-event-id-1868556 tfly-org-id-6493 tfly-venue-id-9759">
+<a href="/event/1868556-cat-clyde-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/21/62/07-og.jpg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Cat Clyde" title="Cat Clyde" /></a>
+      <div class="list-view-details vevent">
+<h2 class="topline-info">The Bowery Presents:</h2> <h1 class="headliners summary"><a href="/event/1868556-cat-clyde-new-orleans/">Cat Clyde</a></h1>
+					          <h2 class="dates">Tue 11.5</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 8:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-11-05T21:00:00-06:00"></span>Show: 9:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1868556-cat-clyde-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1868556" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item alt tfly-event-id-1801796 tfly-org-id-6263 tfly-venue-id-9759">
+<a href="/event/1801796-melt-house-productions-kvb-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/10/05/78-og.png?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Melt House Productions Presents: The KVB" title="Melt House Productions Presents: The KVB" /></a>
+      <div class="list-view-details vevent">
+<h2 class="topline-info">Melt House Productions Presents:</h2><h1 class="headliners summary"><a href="/event/1801796-melt-house-productions-kvb-new-orleans/">Melt House Productions Presents: The KVB</a></h1>        <h2 class="dates">Wed 11.6</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 8:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-11-06T21:00:00-06:00"></span>Show: 9:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1801796-melt-house-productions-kvb-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1801796" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item tfly-event-id-1877195 tfly-org-id-6493 tfly-venue-id-9759">
+<a href="/event/1877195-this-will-destroy-you-early-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/23/21/87-og.png?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="This Will Destroy You -- EARLY SHOW" title="This Will Destroy You -- EARLY SHOW" /></a>
+      <div class="list-view-details vevent">
+<h2 class="topline-info">The Bowery Presents:</h2> <h1 class="headliners summary"><a href="/event/1877195-this-will-destroy-you-early-new-orleans/">This Will Destroy You -- EARLY SHOW</a></h1>
+					          <h2 class="dates">Fri 11.8</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 7:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-11-08T20:00:00-06:00"></span>Show: 8:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1877195-this-will-destroy-you-early-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.eventbrite.com/e/65125068834" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item alt tfly-event-id-1877086 tfly-org-id-6493 tfly-venue-id-9759">
+<a href="/event/1877086-dude-ranch-blink-182-tribute-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/23/20/23-og.png?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="The Dude Ranch: Blink 182 Tribute -- LATE SHOW" title="The Dude Ranch: Blink 182 Tribute -- LATE SHOW" /></a>
+      <div class="list-view-details vevent">
+<h2 class="topline-info">The Bowery Presents:</h2> <h1 class="headliners summary"><a href="/event/1877086-dude-ranch-blink-182-tribute-new-orleans/">The Dude Ranch: Blink 182 Tribute -- LATE SHOW</a></h1>
+					          <h2 class="dates">Fri 11.8</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 11:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-11-08T23:30:00-06:00"></span>Show: 11:30 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1877086-dude-ranch-blink-182-tribute-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1877086" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item tfly-event-id-1867304 tfly-org-id-6493 tfly-venue-id-9759">
+<a href="/event/1867304-mike-doughty-plays-soul-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/21/39/89-og.jpg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Mike Doughty Plays Soul Coughing’s &quot;Ruby Vroom&quot; 25 Year Anniversary Tour" title="Mike Doughty Plays Soul Coughing’s &quot;Ruby Vroom&quot; 25 Year Anniversary Tour" /></a>
+      <div class="list-view-details vevent">
+<h2 class="topline-info">The Bowery Presents:</h2> <h1 class="headliners summary"><a href="/event/1867304-mike-doughty-plays-soul-new-orleans/">Mike Doughty Plays Soul Coughing’s "Ruby Vroom" 25 Year Anniversary Tour</a></h1>
+					  <h2 class="supports description"><a href=" /event/1867304-mike-doughty-plays-soul-new-orleans/ ">The Ghost of Mr. Oberon</a></h2>        <h2 class="dates">Sat 11.9</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 8:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-11-09T21:00:00-06:00"></span>Show: 9:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1867304-mike-doughty-plays-soul-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1867304" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item alt tfly-event-id-1879327 tfly-org-id-6263 tfly-venue-id-9759">
+<a href="/event/1879327-goblin-gigan-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/23/67/01-og.png?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Goblin + GIGAN" title="Goblin + GIGAN" /></a>
+      <div class="list-view-details vevent">
+<h1 class="headliners summary"><a href="/event/1879327-goblin-gigan-new-orleans/">Goblin + GIGAN</a></h1>        <h2 class="dates">Wed 11.20</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 8:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-11-20T21:00:00-06:00"></span>Show: 9:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1879327-goblin-gigan-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1879327" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item tfly-event-id-1873281 tfly-org-id-6493 tfly-venue-id-9759">
+<a href="/event/1873281-son-little-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/22/47/91-og.jpg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Son Little" title="Son Little" /></a>
+      <div class="list-view-details vevent">
+<h2 class="topline-info">The Bowery Presents:</h2> <h1 class="headliners summary"><a href="/event/1873281-son-little-new-orleans/">Son Little</a></h1>
+					  <h2 class="supports description"><a href=" /event/1873281-son-little-new-orleans/ ">Christopher Paul Stelling</a></h2>        <h2 class="dates">Thu 12.5</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 7:30 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-12-05T20:30:00-06:00"></span>Show: 8:30 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1873281-son-little-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.ticketfly.com/purchase/event/1873281" onclick="return tfly_openWindowGA(this);" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+    <div class="list-view-item alt tfly-event-id-1879236 tfly-org-id-6493 tfly-venue-id-9759">
+<a href="/event/1879236-pile-new-orleans/"><img src="https://image-ticketfly.imgix.net/00/03/23/64/76-og.jpg?w=200&h=133&fit=crop&crop=top" width="200" height="133" alt="Pile" title="Pile" /></a>
+      <div class="list-view-details vevent">
+<h2 class="topline-info">The Bowery Presents:</h2> <h1 class="headliners summary"><a href="/event/1879236-pile-new-orleans/">Pile</a></h1>
+					  <h2 class="supports description"><a href=" /event/1879236-pile-new-orleans/ ">Treadles</a></h2>        <h2 class="dates">Fri 12.20</h2>
+              <h2 class="times">
+  <span class="doors">Doors: 8:00 pm</span> / <span class="start dtstart"><span class="value-title" title="2019-12-20T21:00:00-06:00"></span>Show: 9:00 pm</span> </h2>
+  
+  					  <h2 class="age-restriction over-18">
+			This event is 18 and over					  </h2>
+			<h2 class="more-info"><a class="url" href="/event/1879236-pile-new-orleans/">More Info</a></h2>
+          </div>
+		<div class="ticket-price">
+                   <h3 class="ticket-link primary-link"><a class="tickets" href="https://www.eventbrite.com/e/pile-treadles-tickets-65849594911" target="_blank">Tickets</a></h3>
+					      </div>
+    </div>
+
+</div>
+
+			</div><!-- .entry-content -->
+	
+	<footer class="entry-footer">
+		
+			</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+		
+										
+					<a id="toggle" class="btn show-init">View All Shows</a>
+		
+				</main><!-- #main -->
+			</div><!-- #primary -->
+					
+		</div>
+	
+	</div>
+
+
+	</div><!-- #content -->
+  
+</div><!-- #content -->
+
+<div id="footer-wrapper">
+	
+  <div id="footer">
+       
+    <div class="footer-content">
+      
+                <div id="footer-widgets">
+          <aside id="widget_sp_image-2" class="widget widget_sp_image"><img width="735" height="110" alt="Gasa Gasa - Logo" class="attachment-full" style="max-width: 100%;" src="https://www.gasagasa.com/files/2016/06/gasa-gasa-logo-white.png" /></aside>          </div>
+            
+                <div id="footer-widgets">
+          <aside id="text-14" class="widget widget_text">			<div class="textwidget">		<ul class="social">
+			<li><a href="https://www.facebook.com/gasagasaonfreret" target="_blank"><i class="fa fa-facebook-official"></i><span class="visuallyhidden">Facebook</span></a></li>
+			<li><a href="http://twitter.com/gasagasanola" target="_blank"><i class="fa fa-twitter-square"></i><span class="visuallyhidden">Twitter</span></a></li>
+			<li><a href="http://instagram.com/gasa_gasa" target="_blank"><i class="fa fa-instagram"></i><span class="visuallyhidden">Instagram</span></a></li>
+		</ul>
+</div>
+		</aside><aside id="text-13" class="widget widget_text">			<div class="textwidget"><a href="https://www.google.com/maps/place/4920+Freret+St,+New+Orleans,+LA+70115/@29.9348049,-90.1101222,17z/data=!3m1!4b1!4m5!3m4!1s0x8620a5a94862f2e3:0x30d72f3de066464e!8m2!3d29.9348049!4d-90.1079335" target="_blank"><i class="fa fa-map-o" aria-hidden="true"></i> 4920 Freret St, New Orleans, LA</a></div>
+		</aside>          </div>
+            
+        
+    </div><!-- .footer-content -->
+  
+  </div><!-- #footer -->
+
+      <div class="tfly-powered"><a href="https://www.ticketfly.com/?utm_source=gasa_gasa-1889&utm_medium=ticketflypoweredbadge" aria-label="Learn more about Ticketfly"><span class="icon-ticketfly_powered_logo"></span></a></div>  
+  </div><!-- .tfly-powered -->
+  
+ </div>
+
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "url": "https://www.gasagasa.com/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.gasagasa.com/search/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<script type='text/javascript' src='https://cdn.ticketfly.com/wp-content/themes/gasagasa-v2/js/jquery.matchHeight-min.js?ver=0.7.0'></script>
+<script type='text/javascript' src='https://cdn.ticketfly.com/wp-content/themes/gasagasa-v2/js/custom.js?ver=4.7.12'></script>
+<script type='text/javascript' src='https://cdn.ticketfly.com/wp-content/themes/gold-parent_s/js/navigation.js?ver=20120206'></script>
+<script type='text/javascript' src='https://cdn.ticketfly.com/wp-content/themes/gold-parent_s/js/skip-link-focus-fix.js?ver=20130115'></script>
+<script type='text/javascript' src='https://cdn.ticketfly.com/wp-content/plugins/wp-jquery-lightbox/jquery.touchwipe.min.js?ver=1.4.6'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var JQLBSettings = {"showTitle":"1","showCaption":"1","showNumbers":"1","fitToScreen":"1","resizeSpeed":"400","showDownload":"0","navbarOnTop":"0","marginSize":"40","slideshowSpeed":"4000","prevLinkTitle":"previous image","nextLinkTitle":"next image","closeTitle":"close image gallery","image":"Image ","of":" of ","download":"Download","pause":"(pause slideshow)","play":"(play slideshow)"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://cdn.ticketfly.com/wp-content/plugins/wp-jquery-lightbox/jquery.lightbox.min.js?ver=1.4.6'></script>
+<script type='text/javascript' src='https://cdn.ticketfly.com/wp-includes/js/wp-embed.min.js?ver=4.7.12'></script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"c165d52f09","applicationID":"31112467","transactionName":"NVRSMUBZWhVRBRBeXgwecQZGUVsIHxYFUFRPWV8IVw==","queueTime":0,"applicationTime":1262,"atts":"GRNRRwhDSRs=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

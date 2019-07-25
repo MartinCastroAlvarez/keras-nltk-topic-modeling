@@ -1,0 +1,1307 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="description" content=""/><meta name="author" content=""/><title>Bit House Saloon - Buckman, Portland, OR</title><script>document.cookie='resolution='+Math.max(screen.width,screen.height)+("devicePixelRatio" in window ? ","+devicePixelRatio : ",1")+'; path=/';</script><script src="//fast.fonts.net/jsapi/8f74c24b-35cd-4410-b6fd-fa5c42ca1c7f.js" type="text/javascript"></script><link href="https://static.spotapps.co/web/bithousesaloon--com/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/><link href="https://static.spotapps.co/web/bithousesaloon--com/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/><link href="https://static.spotapps.co/web/bithousesaloon--com/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/><link href="https://static.spotapps.co/web/bithousesaloon--com/manifest.json" rel="manifest"/><link color="#b21f29" href="https://static.spotapps.co/web/bithousesaloon--com/safari-pinned-tab.svg" rel="mask-icon"/><meta name="theme-color" content="#ffffff"/><link href="https://static.spotapps.co/web/bithousesaloon--com/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet"/><link href="https://static.spotapps.co/web/bithousesaloon--com/lib/gallery/gallery.css" rel="stylesheet"/><link href="https://static.spotapps.co/web/bithousesaloon--com/lib/fancybox/source/jquery.fancybox.css" media="screen" rel="stylesheet" type="text/css"/><link href="https://static.spotapps.co/web/bithousesaloon--com/lib/fancybox/source/helpers/jquery.fancybox-thumbs.css" rel="stylesheet" type="text/css"/><link href="https://static.spotapps.co/web/bithousesaloon--com/lib/uikit/css/uikit.docs.min.css" rel="stylesheet"/><link href="https://static.spotapps.co/web/bithousesaloon--com/lib/uikit/css/slidenav.css" rel="stylesheet"/><link href="https://static.spotapps.co/web/bithousesaloon--com/lib/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet"/><link href="https://static.spotapps.co/web/bithousesaloon--com/lib/hover_css/css/hover-min.css" rel="stylesheet"/><link href="https://static.spotapps.co/web/bithousesaloon--com/lib/owlcarousel/owl.carousel.min.css" rel="stylesheet"/><link href="https://static.spotapps.co/web/bithousesaloon--com/lib/owlcarousel/owl.theme.default.min.css" rel="stylesheet"/><link href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" rel="stylesheet"/><link href="https://static.spotapps.co/web/bithousesaloon--com/css/style.css?version2" rel="stylesheet"/><link href="https://static.spotapps.co/web/bithousesaloon--com/css/bottom_navigation_v1.css?v1561550908" rel="stylesheet"/><link href="css/custom.css?v1561555904&domain=bithousesaloon.com" rel="stylesheet"/><link href="https://static.spotapps.co/web/bithousesaloon--com/lib/icons_font/css/social_icons.css" rel="stylesheet"/><!--[if IE 7]><link rel="stylesheet" href="lib/icons_font/css/social_icons-ie7.css"><![endif]--><!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]--><style>
+
+#accessibility-footer {
+  padding: 20px 5px;
+  background-color: #353638;
+  color: #fff;
+  text-align: center;
+}
+#accessibility-footer p {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: initial;
+  color: #fff;
+}
+#accessibility-footer .accessibility-link {
+  display: inline-block;
+  color: inherit;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  #accessibility-footer .accessibility-link {
+    display: block;
+  }
+
+  /* additionl css in case that there is a CTA mobile bar (id="bottom-navbar") on the website */
+  #accessibility-footer {
+    position: relative;
+    top: -60px;
+    padding-bottom: 70px;
+  }
+}
+
+</style><script src="https://static.spotapps.co/websites/lib/lazysizes/lazysizes.min.js" async=""></script></head><body><script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-141914506-22', 'auto');
+        function getPromotionUrlParams(){
+      var params_str = sessionStorage.getItem('shUrlParams');
+      if (params_str != null){
+        return JSON.parse(params_str);
+      }else{
+        return {};
+      }
+    }
+    var shUrlParams = getPromotionUrlParams();
+    new URL(document.location).searchParams.forEach(function(value, paramName){
+     shUrlParams[paramName] = value;
+    });
+    sessionStorage.setItem('shUrlParams', JSON.stringify(shUrlParams))
+
+
+    var sh_fake_url_for_ga = new URL(document.location);
+    var use_sh_fake_url_for_ga = false
+    for (var property in shUrlParams) {
+      if (shUrlParams.hasOwnProperty(property)) {
+        use_sh_fake_url_for_ga = true;
+        sh_fake_url_for_ga.searchParams.set(property, shUrlParams[property]);
+      }
+    }
+
+    if (use_sh_fake_url_for_ga){
+      var sh_path_and_query = sh_fake_url_for_ga.pathname + '?'+sh_fake_url_for_ga.searchParams.toString();
+      console.log(sh_path_and_query);
+      ga('set', 'page', sh_path_and_query);
+    }
+
+    ga('send', 'pageview');
+
+
+</script><style>
+
+  .nav-v7 .navbar-logo .container {
+    height: 150px;
+  }
+  .nav-v7 .navbar-logo .header-logo img {
+    max-height: 150px;
+  }
+
+
+.navbar.nav-v6 .navbar-logo .container {
+  height: 170px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.navbar.nav-v6.nav-scroll .navbar-logo .container {
+  height: 150px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.navbar.nav-v6 .header-logo img {
+  max-width: 100%;
+}
+.navbar.nav-v6.nav-scroll .header-logo img {
+  max-width: 90%;
+}
+.nav-v7 .navbar-logo .header-logo img {
+  max-height: 170px;
+}
+.nav-v7.nav-scroll .navbar-logo .header-logo img {
+  max-height: 150px;
+}
+
+@media (max-width: 767px) {
+  .navbar.nav-v6 .navbar-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navbar.nav-v6.nav-scroll .navbar-header{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .navbar.nav-v6 .socialnav {
+    margin-top: 10px;
+  }
+  .navbar.nav-v6.nav-scroll .socialnav {
+    margin-top: 0px;
+  }
+  .navbar.nav-v6 .container{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .navbar.nav-v6.nav-scroll .container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .navbar.nav-v6 .header-logo {
+    height: 70px;
+  }
+  .navbar.nav-v6.nav-scroll .header-logo {
+    height: 50px;
+  }
+  .navbar.nav-v6 .header-logo img {
+    max-height: 100%;
+  }
+}
+
+
+.navbar-regular .navbar-collapse.collapse.in {
+  background-color: transparent;
+  width: 100%;
+}
+.navbar.nav-v6 .navbar-tabs {
+    background-color: rgba(0,0,0,0.7);
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0);
+}
+.navbar.nav-v6.nav-scroll .navbar-tabs {
+    background-color: rgba(0,0,0,0.7);
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
+}
+.drink-menu .navbar.nav-v6 .navbar-tabs {
+  background-color: rgba(0,0,0,0.7);
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0);
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0);
+}
+.drink-menu .navbar.nav-v6.nav-scroll .navbar-tabs {
+  background-color: rgba(0,0,0,0.7);
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
+}
+li.drop-down-link .sub-menu {
+  background-color: rgba(0,0,0,0.7);
+  color: #fff;
+  }
+.nav-scroll li.drop-down-link .sub-menu {
+  background-color: rgba(0,0,0,0.7);
+  color: #fff;
+}
+.drink-menu li.drop-down-link .sub-menu {
+  background-color: rgba(0,0,0,0.7);
+  color: #fff;
+}
+.drink-menu .nav-scroll li.drop-down-link .sub-menu {
+  background-color: rgba(0,0,0,0.7);
+  color: #fff;
+}
+li.drop-down-link .sub-menu a {
+  color: #fff;
+}
+.nav-scroll li.drop-down-link .sub-menu a {
+  color: #fff;
+}
+.drink-menu li.drop-down-link .sub-menu a {
+  color: #fff;
+}
+.drink-menu .nav-scroll li.drop-down-link .sub-menu a {
+  color: #fff;
+}
+
+.navbar.nav-v6 .navbar-logo {
+  background-color: transparent;
+}
+.navbar.nav-v6.nav-scroll .navbar-logo {
+  background-color: #e2972d;
+}
+.drink-menu .navbar.nav-v6 .navbar-logo {
+  background-color: rgba(0,0,0,0.7);
+}
+.drink-menu .navbar.nav-v6.nav-scroll .navbar-logo {
+  background-color: #e2972d;
+}
+
+.navbar-regular.nav-v6 .navbar-nav>li>a,
+.navbar-regular.nav-v6 .navbar-nav>li>a:hover,
+.navbar-regular.nav-v6 .navbar-nav>.active>a,
+.navbar-regular.nav-v6 .navbar-nav>.active>a:focus,
+.navbar-regular.nav-v6 .navbar-nav>.active>a:hover{
+  border: none;
+  border-right: 1px solid #fff;
+  background-color: transparent;
+  color: #e2972d;
+}
+.navbar-regular.nav-v6 .navbar-nav>li>a {
+  color: #fff;
+}
+.drink-menu .navbar.nav-v6 .navbar-nav>li>a {
+  color: #fff;
+  border-right: 1px solid #fff;
+}
+.drink-menu .navbar-regular.nav-v6 .navbar-nav>li>a:hover,
+.drink-menu .navbar-regular.nav-v6 .navbar-nav>.active>a,
+.drink-menu .navbar-regular.nav-v6 .navbar-nav>.active>a:focus,
+.drink-menu .navbar-regular.nav-v6 .navbar-nav>.active>a:hover{
+  color: #e2972d;
+}
+
+li.drop-down-link .sub-menu a:hover,
+.drink-menu li.drop-down-link .sub-menu a:hover {
+  color: #e2972d;
+}
+
+.navbar-regular.nav-v7 .navbar-contact .navbar-nav>li>a,
+.navbar-regular.nav-v7 .navbar-contact .navbar-nav>li>a:hover,
+.navbar-regular.nav-v7 .navbar-contact .navbar-nav>.active>a,
+.navbar-regular.nav-v7 .navbar-contact .navbar-nav>.active>a:focus,
+.navbar-regular.nav-v7 .navbar-contact .navbar-nav>.active>a:hover{
+  color: #e2972d;
+}
+.navbar-regular.nav-v7 .navbar-contact .navbar-nav>li>a {
+  color: #fff;
+}
+.drink-menu .navbar.nav-v7 .navbar-nav>li>a {
+  color: #fff;
+}
+.drink-menu .navbar-regular.nav-v7 .navbar-contact .navbar-nav>li>a {
+  color: #fff;
+}
+.drink-menu .navbar-regular.nav-v7 .navbar-contact .navbar-nav>li>a:hover,
+.drink-menu .navbar-regular.nav-v7 .navbar-contact .navbar-nav>.active>a,
+.drink-menu .navbar-regular.nav-v7 .navbar-contact .navbar-nav>.active>a:focus,
+.drink-menu .navbar-regular.nav-v7 .navbar-contact .navbar-nav>.active>a:hover{
+  color: ;
+}
+
+.navbar-regular.nav-v6 .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.drink-menu .navbar-regular.nav-v6 .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-regular.nav-v6 [aria-expanded="true"].navbar-toggle .icon-bar {
+  background-color: #e2972d;
+}
+.drink-menu .navbar-regular.nav-v6 [aria-expanded="true"].navbar-toggle .icon-bar{
+  background-color: #e2972d;
+}
+.navbar-regular.nav-v6.nav-scroll .navbar-nav>li>a,
+.navbar-regular.nav-v6.nav-scroll .navbar-nav>li>a:hover,
+.navbar-regular.nav-v6.nav-scroll .navbar-nav>.active>a,
+.navbar-regular.nav-v6.nav-scroll .navbar-nav>.active>a:focus,
+.navbar-regular.nav-v6.nav-scroll .navbar-nav>.active>a:hover{
+  border: none;
+  border-right: 1px solid #fff;
+  color: #e2972d;
+}
+.navbar-regular.nav-v6.nav-scroll .navbar-nav>li>a {
+  color: #fff;
+}
+.drink-menu .navbar.nav-v6.nav-scroll .navbar-nav>li>a {
+  color: #fff;
+  border-right: 1px solid #fff;
+}
+.drink-menu .navbar-regular.nav-v6.nav-scroll .navbar-nav>li>a:hover,
+.drink-menu .navbar-regular.nav-v6.nav-scroll .navbar-nav>.active>a,
+.drink-menu .navbar-regular.nav-v6.nav-scroll .navbar-nav>.active>a:focus,
+.drink-menu .navbar-regular.nav-v6.nav-scroll .navbar-nav>.active>a:hover{
+  color: #e2972d;
+}
+
+.nav-scroll li.drop-down-link .sub-menu a:hover,
+.drink-menu .nav-scroll li.drop-down-link .sub-menu a:hover {
+  color: #e2972d;
+}
+
+.navbar-regular.nav-v6.nav-scroll .navbar-contact .navbar-nav>li>a,
+.navbar-regular.nav-v6.nav-scroll .navbar-contact .navbar-nav>li>a:hover,
+.navbar-regular.nav-v6.nav-scroll .navbar-contact .navbar-nav>.active>a,
+.navbar-regular.nav-v6.nav-scroll .navbar-contact .navbar-nav>.active>a:focus,
+.navbar-regular.nav-v6.nav-scroll .navbar-contact .navbar-nav>.active>a:hover {
+  color: #e26735;
+}
+.navbar-regular.nav-v6.nav-scroll .navbar-contact .navbar-nav>li>a {
+  color: #fff;
+}
+.drink-menu .navbar.nav-v6.nav-scroll .navbar-contact .navbar-nav>li>a {
+  color: #fff;
+}
+.drink-menu .navbar-regular.nav-v6.nav-scroll .navbar-contact .navbar-nav>li>a:hover,
+.drink-menu .navbar-regular.nav-v6.nav-scroll .navbar-contact .navbar-nav>.active>a,
+.drink-menu .navbar-regular.nav-v6.nav-scroll .navbar-contact .navbar-nav>.active>a:focus,
+.drink-menu .navbar-regular.nav-v6.nav-scroll .navbar-contact .navbar-nav>.active>a:hover{
+  color: #e26735;
+}
+
+.navbar-regular.nav-v6.nav-scroll .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.drink-menu .navbar-regular.nav-v6.nav-scroll .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-regular.nav-v6.nav-scroll [aria-expanded="true"].navbar-toggle .icon-bar {
+  background-color: #e2972d;
+}
+.drink-menu .navbar-regular.nav-v6.nav-scroll [aria-expanded="true"].navbar-toggle .icon-bar{
+  background-color: #e2972d;
+}
+.navbar.nav-v6 .header-logo-text{
+  color: #fff;
+}
+.navbar.nav-v6.nav-scroll .header-logo-text{
+  color: #fff;
+}
+.navbar.nav-v6 .social-icon{
+  color: #fff;
+}
+.navbar.nav-v6.nav-scroll .social-icon{
+  color: #fff;
+}
+.navbar.nav-v6 .social-square .contact-icon:hover {
+  color: #fff;
+  background-color: #e2972d;
+}
+.navbar.nav-v6.nav-scroll .social-square .contact-icon:hover {
+  color: #fff;
+  background-color: #e2972d;
+}
+
+.drink-menu .navbar.nav-v6 .header-logo-text{
+  color: #fff;
+}
+.drink-menu .navbar.nav-v6.nav-scroll .header-logo-text{
+  color: #fff;
+}
+.drink-menu .navbar.nav-v6 .social-icon{
+  color: #fff;
+}
+.drink-menu  .navbar.nav-v6.nav-scroll .social-icon{
+  color: #fff;
+}
+.drink-menu .navbar.nav-v6 .social-square .contact-icon:hover {
+  color: #fff;
+}
+.drink-menu .navbar.nav-v6.nav-scroll .social-square .contact-icon:hover {
+  color: #fff;
+}
+.navbar.nav-v6 .navbar-logo .container {
+  border-bottom: 1px solid transparent;
+}
+.navbar.nav-v6.nav-scroll .navbar-logo .container {
+  border-bottom: 1px solid transparent;
+}
+.drink-menu .navbar.nav-v6 .navbar-logo .container {
+  border-bottom: 1px solid transparent;
+}
+.drink-menu .navbar.nav-v6.nav-scroll .navbar-logo .container {
+  border-bottom: 1px solid transparent;
+}
+@media (max-width: 767px) {
+  .navbar.nav-v6 {
+      background-color: rgba(0,0,0,0.7);
+      -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0);
+      -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0);
+      box-shadow: 0px 2px 5px 0px rgba(0,0,0,0);
+  }
+  .navbar.nav-v6.nav-scroll {
+      background-color: rgba(0,0,0,0.7);
+      -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
+      -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
+      box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
+  }
+  .drink-menu .navbar.nav-v6 {
+    background-color: rgba(0,0,0,0.7);
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0);
+  }
+  .drink-menu .navbar.nav-v6.nav-scroll {
+    background-color: rgba(0,0,0,0.7);
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
+  }
+  .navbar.nav-v6 .container,
+  .navbar.nav-v6.nav-scroll .container,
+  .drink-menu .navbar.nav-v6 .container,
+  .drink-menu .navbar.nav-v6.nav-scroll .container {
+    border-bottom: none;
+  }
+  .navbar.nav-v6 .navbar-header {
+    border-bottom: 2px solid transparent;
+  }
+  .navbar.nav-v6.nav-scroll .navbar-header {
+    border-bottom: 2px solid transparent;
+  }
+  .drink-menu .navbar.nav-v6 .navbar-header {
+    border-bottom: 2px solid transparent;
+  }
+  .drink-menu .navbar.nav-v6.nav-scroll .navbar-header {
+    border-bottom: 2px solid transparent;
+  }
+    .navbar-regular.nav-v6 .navbar-nav>li>a:hover,
+  .navbar-regular.nav-v6 .navbar-nav>.active>a,
+  .navbar-regular.nav-v6 .navbar-nav>.active>a:focus,
+  .navbar-regular.nav-v6 .navbar-nav>.active>a:hover{
+    background-color: #e2972d;
+    color: #fff;
+  }
+  .navbar-regular.nav-v6.nav-scroll .navbar-nav>li>a:hover,
+  .navbar-regular.nav-v6.nav-scroll .navbar-nav>.active>a,
+  .navbar-regular.nav-v6.nav-scroll .navbar-nav>.active>a:focus,
+  .navbar-regular.nav-v6.nav-scroll .navbar-nav>.active>a:hover{
+    background-color: #e2972d;
+    color: #fff;
+  }
+  .drink-menu .navbar-regular.nav-v6 .navbar-nav>li>a:hover,
+  .drink-menu .navbar-regular.nav-v6 .navbar-nav>.active>a,
+  .drink-menu .navbar-regular.nav-v6 .navbar-nav>.active>a:focus,
+  .drink-menu .navbar-regular.nav-v6 .navbar-nav>.active>a:hover{
+    color: #fff;
+  }
+  .drink-menu .navbar-regular.nav-v6.nav-scroll .navbar-nav>li>a:hover,
+  .drink-menu .navbar-regular.nav-v6.nav-scroll .navbar-nav>.active>a,
+  .drink-menu .navbar-regular.nav-v6.nav-scroll .navbar-nav>.active>a:focus,
+  .drink-menu .navbar-regular.nav-v6.nav-scroll .navbar-nav>.active>a:hover{
+    color: #fff;
+  }
+}
+</style><!-- nav --><nav class="navbar nav-v4 nav-v6 nav-v7 navbar-regular navbar-fixed-top" role="navigation" id="navbar"><div id="skip" class="visuallyhidden"><a href="#content">Skip to Main Content</a></div><div class="desktop-navigation logo-center"><div class="navbar-logo"><div class="container"><a class="header-logo logo-top" href="/"><img alt="navigation logo top" class="img-responsive logo-top" src="https://static.spotapps.co/web/bithousesaloon--com/custom/logo.png"/></a><a class="header-logo logo-scroll" href="/"><img alt="navigation logo scroll" class="img-responsive logo-scroll" src="https://static.spotapps.co/web/bithousesaloon--com/custom/logo.png"/></a><div class="navbar-contact"><ul class="nav navbar-nav navbar-right"><li class="nav-phone"><a href="tel:+15039543913"><i class="fa fa-phone" aria-hidden="true"></i>(503)-954-3913</a></li><li class="nav-address"><a href="/#map-v3-container"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        727 Southeast Grand Avenue                                                          , Portland                                  </a></li></ul></div></div></div><div class="navbar-tabs"><div class="container"><div class="navbar-content"><ul class="nav navbar-nav"><li class="active "><a class="" href="/" id="home_link" target="_self">
+                              HOME
+                              
+                          </a></li><li class=" "><a class="" href="/portland-buckman-bit-house-saloon-food-menu" id="/Portland-Buckman-Bit-House-Saloon-food-menu_link" target="_self">
+                              MENU
+                              
+                          </a></li><li class=" "><a class="" href="/portland-buckman-bit-house-saloon-drink-menu" id="/Portland-Buckman-Bit-House-Saloon-drink-menu_link" target="_self">
+                              DRINKS
+                              
+                          </a></li><li class=" "><a class="" href="/portland-buckman-bit-house-saloon-events" id="/Portland-Buckman-Bit-House-Saloon-events_link" target="_self">
+                              EVENTS
+                              
+                          </a></li><li class=" "><a class="" href="/portland-buckman-bit-house-saloon-party" id="/Portland-Buckman-Bit-House-Saloon-party_link" target="_self">
+                              PRIVATE PARTIES
+                              
+                          </a></li><li class=" "><a class="" href="/portland-buckman-bit-house-saloon-press" id="/Portland-Buckman-Bit-House-Saloon-press_link" target="_self">
+                              PRESS
+                              
+                          </a></li><li class=" "><a class="" href="/portland-buckman-bit-house-saloon-gift-cards" id="/Portland-Buckman-Bit-House-Saloon-gift-cards_link" target="_self">
+                              GIFT CARDS
+                              
+                          </a></li></ul><ul class="socialnav"><li class="social-links social-icons-holder social-square"><a class="pull-left contact-icon" href="https://www.twitter.com/bithousesaloon" target="_blank"><i class="social-icon fa fa-twitter"></i><span>Twitter page</span></a><a class="pull-left contact-icon" href="https://www.facebook.com/449897978519232" target="_blank"><i class="social-icon fa fa-facebook"></i><span>Facebook page</span></a><a class="pull-left contact-icon" href="https://www.instagram.com/bithousesaloon/" target="_blank"><i class="social-icon fa fa-instagram"></i><span>Instagram page</span></a></li></ul></div></div></div></div><div class="mobile-navigation"><div class="container"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div><a class="header-logo logo-top" href="/"><img alt="navigation logo top" class="img-responsive logo-top" src="https://static.spotapps.co/web/bithousesaloon--com/custom/logo.png"/></a><a class="header-logo logo-scroll" href="/"><img alt="navigation logo scroll" class="img-responsive logo-scroll" src="https://static.spotapps.co/web/bithousesaloon--com/custom/logo.png"/></a><ul class="socialnav"><li class="social-links social-icons-holder social-square"><a class="pull-left contact-icon" href="https://www.twitter.com/bithousesaloon" target="_blank"><i class="social-icon fa fa-twitter"></i><span>Twitter page</span></a><a class="pull-left contact-icon" href="https://www.facebook.com/449897978519232" target="_blank"><i class="social-icon fa fa-facebook"></i><span>Facebook page</span></a><a class="pull-left contact-icon" href="https://www.instagram.com/bithousesaloon/" target="_blank"><i class="social-icon fa fa-instagram"></i><span>Instagram page</span></a></li></ul><div class="collapse navbar-collapse" id="navbar-collapse-1"><ul class="nav navbar-nav navbar-right"><li class="active "><a class="" href="/" id="home_link" target="_self">
+                            HOME                        </a></li><li class=" "><a class="" href="/portland-buckman-bit-house-saloon-food-menu" id="/Portland-Buckman-Bit-House-Saloon-food-menu_link" target="_self">
+                            MENU                        </a></li><li class=" "><a class="" href="/portland-buckman-bit-house-saloon-drink-menu" id="/Portland-Buckman-Bit-House-Saloon-drink-menu_link" target="_self">
+                            DRINKS                        </a></li><li class=" "><a class="" href="/portland-buckman-bit-house-saloon-events" id="/Portland-Buckman-Bit-House-Saloon-events_link" target="_self">
+                            EVENTS                        </a></li><li class=" "><a class="" href="/portland-buckman-bit-house-saloon-party" id="/Portland-Buckman-Bit-House-Saloon-party_link" target="_self">
+                            PRIVATE PARTIES                        </a></li><li class=" "><a class="" href="/portland-buckman-bit-house-saloon-press" id="/Portland-Buckman-Bit-House-Saloon-press_link" target="_self">
+                            PRESS                        </a></li><li class=" "><a class="" href="/portland-buckman-bit-house-saloon-gift-cards" id="/Portland-Buckman-Bit-House-Saloon-gift-cards_link" target="_self">
+                            GIFT CARDS                        </a></li></ul></div></div></div></nav><header class="header" style="
+    background-image: url(//res.cloudinary.com/spothopper/image/fetch/f_auto,q_80,c_fit,h_864/http://static.spotapps.co/spots/fe/0e6a903f55412e8c29c2c7fb264901/:original);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(//res.cloudinary.com/spothopper/image/fetch/f_auto,q_80,c_fit,h_864/http://static.spotapps.co/spots/fe/0e6a903f55412e8c29c2c7fb264901/:original);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(//res.cloudinary.com/spothopper/image/fetch/f_auto,q_80,c_fit,h_864/http://static.spotapps.co/spots/fe/0e6a903f55412e8c29c2c7fb264901/:original);
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+        z-index: 100000;
+        "><div id="home_page_cover" style="height:100%;"><div class="on-cover-content fade-in one"><style>
+
+@media (max-width: 1024px) {
+      .uk-slidenav-position:hover .uk-slidenav {
+      display: none;
+    }
+  }
+
+.slideshow-v2-wrapper .top-svg-border path,
+.slideshow-v2-wrapper .top-svg-border polygon {
+  fill: #000;
+}
+.slideshow-v2-wrapper .bottom-svg-border path,
+.slideshow-v2-wrapper .bottom-svg-border polygon {
+  fill: #000;
+}
+
+</style><div class="slideshow-v2-wrapper" id="slideshow_v2" style="height:100%;"><div class="uk-slidenav-position" data-uk-slideshow="data-uk-slideshow" style="height:100%; overflow-y: hidden;"><ul class="uk-slideshow slideshow-fullscreen"><li><img alt="slideshow photo number 1" src="//res.cloudinary.com/spothopper/image/fetch/f_auto,q_80,c_fit,h_864/http://static.spotapps.co/spots/fe/0e6a903f55412e8c29c2c7fb264901/:original"/><div class="uk-overlay-panel uk-overlay-background uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center"><div class="container"><h1>World class Cocktails</h1><p>in a casual neghborhood atmosphere</p><a class="custom-temp-btn hvr-fade hvr-hollow" href="/portland-buckman-bit-house-saloon-drink-menu">Drinks</a></div></div></li><li><img alt="slideshow photo number 2" src="//res.cloudinary.com/spothopper/image/fetch/f_auto,q_80,c_fit,h_864/http://static.spotapps.co/website/ac/9c89e8e2f64e55b554a742c95c5171/:original"/><div class="uk-overlay-panel uk-overlay-background uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center"><div class="container"><h1>Book your next<br/>private event with us!</h1><a class="custom-temp-btn hvr-fade hvr-hollow" href="/portland-buckman-bit-house-saloon-party">Book a party</a></div></div></li><li><img alt="slideshow photo number 3" src="//res.cloudinary.com/spothopper/image/fetch/f_auto,q_80,c_fit,h_864/http://static.spotapps.co/spots/b2/0ac0c0401911e9bd8793816616241c/:original"/><div class="uk-overlay-panel uk-overlay-background uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center"><div class="container"><h1>Portlands&apos;s newest<br/>intimate live music venue</h1><a class="custom-temp-btn hvr-fade hvr-hollow" href="/portland-buckman-bit-house-saloon-party">Book a party</a></div></div></li></ul><a class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous" href=""><span class="off-screen">previous slide</span></a><a class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next" href=""><span class="off-screen">next slide</span></a><ul class="uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center"><li data-uk-slideshow-item="0"><a href=""><span class="off-screen">Dot slide navigation number 1</span></a></li><li data-uk-slideshow-item="1"><a href=""><span class="off-screen">Dot slide navigation number 2</span></a></li><li data-uk-slideshow-item="2"><a href=""><span class="off-screen">Dot slide navigation number 3</span></a></li></ul></div></div></div></div></header><main role="main" id="content"><article><style>
+.banner-section {
+  background-color: #030706;
+  color: #fff;
+  text-align: center;
+}
+
+</style><div id="banner" class="banner-section section-wrapper"><div class="container"><h1><a class="banner-pin hvr-pop" href="#map-v3-container"><i class="fa fa-map-marker"></i><span class="off-screen">map marker pin</span></a>727 Southeast Grand Avenue, Portland, OR 97214</h1><h1 class="custom-text">FOR RESERVATIONS PLEASE CALL <a href="tel:+15039543913">(503) 954-3913</a></h1></div></div></article><article><style>
+.about-us-v8-wrapper {
+  padding: 0;
+}
+.about-us-v8-wrapper:before {
+      background-image: url('https://static.spotapps.co/web/bithousesaloon--com/custom/about_us_back.jpg');
+    }
+.about-us-v8-wrapper .top-svg-border path,
+.about-us-v8-wrapper .top-svg-border polygon {
+  fill: #030706;
+}
+.about-us-v8-wrapper .bottom-svg-border path,
+.about-us-v8-wrapper .bottom-svg-border polygon {
+  fill: #030706;
+}
+
+.about-us-v8-wrapper .container {
+  padding: 0;
+  width: 100%;
+}
+
+.about-us-v8-content .text-content.title-image h1:after {
+  background-image: url('https://static.spotapps.co/web/bithousesaloon--com/custom/title_decoration.png');
+}
+
+@-webkit-keyframes grow {
+  from {
+    opacity: 0;
+    width: 0px;
+  }
+  to {
+    opacity: 1;
+    width: 50%;
+  }
+}
+@-moz-keyframes grow {
+  from {
+    opacity: 0;
+    width: 0px;
+  }
+  to {
+    opacity: 1;
+    width: 50%;
+  }
+}
+@keyframes grow {
+  from {
+    opacity: 0;
+    width: 0px;
+  }
+  to {
+    opacity: 1;
+    width: 50%;
+  }
+}
+
+.safari-mac .about-us-v8-item .about-us-v8-image-bar {
+  width: 50%;
+}
+
+
+@media (max-width: 767px) {
+  .about-us-v8-wrapper {
+    padding: 0;
+  }
+  .about-us-v8-wrapper .container {
+    padding: 0;
+    width: 100%;
+  }
+  .about-us-v8-item {
+    padding: 0 !important;
+  }
+}
+
+</style><div id="aboutus_v8" class="about-us-v8-wrapper section-wrapper"><div class="top-svg-border"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 1928.9 64.4" enable-background="new 0 0 1928.9 64.4" xml:space="preserve"><path d="M1928.9,0H0v4.3h0v60c322.7-45.1,644.3-65.2,964.4-49c392-5.7,768.5-6.5,964.4,49l0-60h0V0z"></path></svg></div><div class="container about-us-v8"><section><div class="about-us-v8-item about-us-v8-item-0 about-us-v8-item-left" style="padding: 0;"><!-- start About us item --><div class="about-us-v8-image " style="background-image: url('https://static.spotapps.co/web/bithousesaloon--com/custom/about_us_left.jpg'); width: 50%;
+                              "><!-- start Left About us image --><div class="about-us-v8-image-bar" style="top: auto;
+              right: auto;
+              bottom: 0;
+              left: 0;
+              background-color: rgba(0, 0, 0, 0.8);
+              color: rgba(250, 250, 250, 0.5);
+              text-align: right; ">
+              THE BAR            </div></div><!-- end Left About us image --><div class="about-us-v8-content " style="width: 50%;
+            color: #fff;
+            background: rgba(250,250,250,0);
+            text-align: center;"><div class="text-wrapper" style="padding: 60px 50px;"><div class="text-content title-image"><h1 style="color: #fff;"><span>About us</span></h1><div class="text-holder"><p style="text-align: center;">We raise a glass to Nathaniel K. West, the forward-thinking merchant responsible for the structure in which we stand today. When Mr. West arrived to Oregon, East Portland was an independent municipality, the Willamette was crossed by boat or ferry, and a bit or two would buy a jigger of whiskey.</p></div><p><a class="custom-temp-btn hvr-fade hvr-hollow" href="/portland-buckman-bit-house-saloon-about" target="_self">
+                      Read More                                              <span class="visuallyhidden"> about us</span></a></p></div></div></div><!-- end Right About us image --></div><!-- end About us item --></section><section><div class="about-us-v8-item about-us-v8-item-1 about-us-v8-item-right" style="padding: 0;"><!-- start About us item --><div class="about-us-v8-image visible-xs" style="background-image: url('https://static.spotapps.co/web/bithousesaloon--com/custom/about_us_right.jpg'); width: 50%;
+                              "><!-- start Left About us image --><div class="about-us-v8-image-bar" style="top: 0;
+              right: 0;
+              bottom: auto;
+              left: auto;
+              background-color: rgba(0, 0, 0, 0.8);
+              color: rgba(250, 250, 250, 0.5);
+              text-align: left; ">
+              BIT HOUSE SALOON            </div></div><!-- end Left About us image --><div class="about-us-v8-content " style="width: 50%;
+            color: #fff;
+            background: rgba(250,250,250,0);
+            text-align: center;"><div class="text-wrapper" style="padding: 60px 50px;"><div class="text-content "><h1 style="color: #fff;"><span>Private<br/>parties</span></h1><div class="text-holder"><h2>HOST YOUR EVENT WITH US</h2><p>The Bit House and our second floor event space are both available for private events.</p></div><p><a class="custom-temp-btn hvr-fade hvr-hollow" href="/portland-buckman-bit-house-saloon-party" target="_self">
+                      Book a party                                              <span class="visuallyhidden"> Party reservation</span></a></p></div></div></div><!-- start Right About us image --><div class="about-us-v8-image hidden-xs" style="background-image: url('https://static.spotapps.co/web/bithousesaloon--com/custom/about_us_right.jpg'); width: 50%;
+                                  "><div class="about-us-v8-image-bar" style="top: 0;
+                right: 0;
+                bottom: auto;
+                left: auto;
+                background-color: rgba(0, 0, 0, 0.8);
+                color: rgba(250, 250, 250, 0.5);
+                text-align: left; ">
+                BIT HOUSE SALOON              </div></div><!-- end Right About us image --></div><!-- end About us item --></section></div><div class="bottom-svg-border"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 1928.9 64.4" enable-background="new 0 0 1928.9 64.4" xml:space="preserve"><path d="M0,64.4h1928.9V60h0V0c-322.7,45.1-644.3,65.2-964.4,49C572.4,54.7,196,55.5,0,0l0,60h0L0,64.4z"></path></svg></div></div></article><article><style>
+  #events_v3.events-v3-wrapper {
+    color: #fff;
+    background-color: #030706;
+    background-image: url('https://static.spotapps.co/web/bithousesaloon--com/');
+  }
+  #events_v3.events-v3-wrapper .container {
+    width: 80%;
+  }
+  #events_v3.events-v3-wrapper .owl-item .item img {
+    min-height: 170px;
+    max-height: 320px;
+    width: auto;
+    margin: 0 auto;
+  }
+  @media (max-width: 560px) {
+    #events_v3.events-v3-wrapper {
+      background-image: url('https://static.spotapps.co/web/bithousesaloon--com/');
+    }
+  }
+  .events-v3-wrapper .top-svg-border path,
+  .events-v3-wrapper .top-svg-border polygon {
+    fill: #fff;
+  }
+  .events-v3-wrapper .bottom-svg-border path,
+  .events-v3-wrapper .bottom-svg-border polygon {
+    fill: #fff;
+  }
+</style><div id="events_v3" class="carousel-wrapper events-v3-wrapper section-wrapper"><h1 class="section-header">Next Show</h1><div class="container"><div class="row"><div class="col-md-12 col-sm-12 col-xs-12 carousel-events-content"><div class="owl-carousel owl-theme"><section><div class="item row"><div class="item-image col-md-6 col-sm-6 col-xs-12"><img alt="Maygantic and Sol Syndicate at the Bit House Saloon event photo" class="img-responsive" src="//static.spotapps.co/spots/ab/7f18d80bd64889a8ec155e00c057d5/w926"/></div><div class="item-text col-md-6 col-sm-6 col-xs-12"><h2>Maygantic and Sol Syndicate at the Bit House Saloon</h2><h3>Thursday July 25th</h3><p style="text-align:center">Join us for a fun, friend, and music filled evening at the Bit House Saloon Thursday July 25th with many homies, grooves, silliness, and debauchery... with soul of course.  The evening starts with a special set from The Sol Syndicate featuring Davi Schmidt on vocals, Agyei Marshall, Charlie Brown, Paul Stewart and Justin Calhoun. Its a soulful funky good time!  We end the evening with newly formed band Maygantic featuring powerhouse singer Megan Martinez, Jimmy Russell, Sean McLean, Agyei Marshall, and Kirk Kalbfleisch.  “the funky frisky feminist sweat-lodge our culture needs right now”.  Music to get your heart pumpin’ and booty bumpin’.  </p></div></div></section><section><div class="item row"><div class="item-image col-md-6 col-sm-6 col-xs-12"><img alt="CAMERAS AND CHAOS BENEFIT FOR PDX PUNK SCENE REVIEW event photo" class="img-responsive" src="//static.spotapps.co/spots/c0/4be459971e4b0da73b426e757ebdf4/w926"/></div><div class="item-text col-md-6 col-sm-6 col-xs-12"><h2>CAMERAS AND CHAOS BENEFIT FOR PDX PUNK SCENE REVIEW</h2><h3>Friday July 26th</h3><p style="text-align:center">JOIN US IN HELPING <a href="https://www.facebook.com/joshua.reynolds.940" target="_blank">Joshua Reynolds</a> , <a href="https://www.facebook.com/angela.hegbom" target="_blank">Angela Hegbom</a> AND PDX PUNK SCENE REVIEW REACH THEIR GOALS OF EXPANDING THEIR OPERATIONS.   SET TIMES TO BE DETERMINED.  BANDS:  CODE 33 BORN SICK BOMBSQUAD HERES YOUR WARNING OUTLET SIDEWALK SLAM</p></div></div></section><section><div class="item row"><div class="item-image col-md-6 col-sm-6 col-xs-12"><img alt="The Latter Day Skanks, The Wild Jumps, Dartgun and The Vignettes event photo" class="img-responsive" src="//static.spotapps.co/spots/25/78ee0d54c644bd83a96b70f8fa3308/w926"/></div><div class="item-text col-md-6 col-sm-6 col-xs-12"><h2>The Latter Day Skanks, The Wild Jumps, Dartgun and The Vignettes</h2><h3>Saturday July 27th</h3><p style="text-align:center">Three punk bands with three different styles.  Come dance, mosh, yell and drink with us at Bit House!   The Latter Day Skanks - You know them because they wear fishnets, glitter, and because they shred guitar as well as shred the thin moral fabric of religion. They endeavor to make sad boys an endangered species.  The Wild Jumps - You&apos;ve seen them on stage celebrating cutting ties and getting pissed about the state of the world and dancing all over the place.  They might sweat all over the front row, but the front row likes it.  Dartgun and the Vignettes - You love them cause they bring doo-wop punk to the stage.  They swing their hips, harmonize, and dazzle.  They give chaos a velvet cloak and tame it.    Doors at 9pm, 21+ and an 8 dollar cover. Come ready to join group therapy via punk music.</p></div></div></section><section><div class="item row"><div class="item-image col-md-6 col-sm-6 col-xs-12"><img alt="LáGoon / Kannabyss (MT) / Liquid Colors (MT) / Ash Eater event photo" class="img-responsive" src="//static.spotapps.co/spots/b0/eee59e22f74ac3b8a4083155b11e9e/w926"/></div><div class="item-text col-md-6 col-sm-6 col-xs-12"><h2>LáGoon / Kannabyss (MT) / Liquid Colors (MT) / Ash Eater</h2><h3>Sunday July 28th</h3><p style="text-align:center">Kannabyss &amp; Liquid Colors are headed on a PNW tour and are stopping by Bit House for your listening pleasure! Local support from Ash Eater and LáGoon. LáGoon will also be recording their live album which will be coming out later in the year on Interstellar Smoke Records. COME PARTY! </p></div></div></section><section><div class="item row"><div class="item-image col-md-6 col-sm-6 col-xs-12"><img alt="One Drink And Other Lies, ‎Bourbon Legends, Pearl Handled Heart event photo" class="img-responsive" src="//static.spotapps.co/spots/44/aadffd6ad44a06b41c304362cad69d/w926"/></div><div class="item-text col-md-6 col-sm-6 col-xs-12"><h2>One Drink And Other Lies, ‎Bourbon Legends, Pearl Handled Heart</h2><h3>Tuesday July 30th</h3><p style="text-align:center">It&apos;s Jessica&apos;s frickin birthday!  <a href="https://www.facebook.com/bourbonlegendspdx/" target="_blank">Bourbon Legends PDX</a><a href="https://www.facebook.com/One-Drink-And-Other-Lies-1004004293094850/" target="_blank">One Drink And Other Lies</a><a href="https://www.facebook.com/Pearl-Handled-Heart-783141181883613/" target="_blank">Pearl-Handled Heart</a> Doors at 8, show starts 830</p></div></div></section><section><div class="item row"><div class="item-image col-md-6 col-sm-6 col-xs-12"><img alt="Les Gold Live at Bit House Saloon event photo" class="img-responsive" src="//static.spotapps.co/spots/3a/8f565835ca4935b5bbf30b43fe89d8/w926"/></div><div class="item-text col-md-6 col-sm-6 col-xs-12"><h2>Les Gold Live at Bit House Saloon</h2><h3>Wednesday July 31st</h3><p style="text-align:center">Les Gold headlining the Bit House Saloon   with support from:   Bad Lengua &amp; The Signal Fire  </p></div></div></section><section><div class="item row"><div class="item-image col-md-6 col-sm-6 col-xs-12"><img alt="NoFOMO ft. Outputmessage (DC) + Residents event photo" class="img-responsive" src="//static.spotapps.co/spots/cd/f3370b87ea49fb8766c1d2f41b1821/w926"/></div><div class="item-text col-md-6 col-sm-6 col-xs-12"><h2>NoFOMO ft. Outputmessage (DC) + Residents</h2><h3>Friday August 2nd</h3><p style="text-align:center">NoFOMO welcomes <a href="https://www.facebook.com/Outputmessage/" target="_blank">Outputmessage</a> (DC) for our first ever Live PA!   </p><p style="text-align:center">Friday, August 2, 2019 9pm-2am $5 before 10pm; $10 after 10pm, 21+ </p></div></div></section><section><div class="item row"><div class="item-image col-md-6 col-sm-6 col-xs-12"><img alt="New Wave Night with David J. of Bauhaus/Love and Rockets event photo" class="img-responsive" src="//static.spotapps.co/spots/30/a36b1f4a7d4128ba16993130e71976/w926"/></div><div class="item-text col-md-6 col-sm-6 col-xs-12"><h2>New Wave Night with David J. of Bauhaus/Love and Rockets</h2><h3>Saturday August 3rd</h3><p style="text-align:center"> Tickets are on sale now and we expect this show to sell out so get them while you can. ^V^  <a href="https://decadent80s.ticketspice.com/new-wave-night-with-david-j?fbclid=IwAR320k8J2dO38YgIKCwmCOGPe8kKyLZ3gJB4Y6DcCZ91w4KZLJWe0ttn7e8" target="_blank">https://decadent80s.ticketspice.com/new-wave-night-with-david-j</a>   $15.00 presale with a nominal fee and $20 at the door if available.  ** There is no guest list for this event.**  Meet and Greet tickets will be on sale soon.  Fresh off his 40 year celebration tour we are honored and super excited to have the one and only David J. of Bauhaus / Love and Rockets as our headlining DJ for New Wave Night at The Bit House Saloon Saturday August 3rd.  This will also be our 15 year anniversary for Decadent &apos;80s! Man what a way to celebrate 15 years! ^V^  David J. Bauhaus/Love and Rockets   With DJ Angela Johnson and DJ NoN.  Main event doors: 9pm  21 and up The Bit House Saloon </p></div></div></section><section><div class="item row"><div class="item-image col-md-6 col-sm-6 col-xs-12"><img alt="Bad Move/The Van Dels/The Living Skins event photo" class="img-responsive" src="//static.spotapps.co/spots/a7/2d75cddc1e47b09a4cf49f8815146e/w926"/></div><div class="item-text col-md-6 col-sm-6 col-xs-12"><h2>Bad Move/The Van Dels/The Living Skins</h2><h3>Sunday August 4th</h3><p style="text-align:center">Sunday Show!! We&apos;re bringing our good friends, The Van Dels, all the way from Tri-Cities to help launch our first show at Bit House Saloon! We also got Living Skins onboard- a band we&apos;ve been wanting to play with for some time! Service Industry-friendly Sunday show for a change. They got some crazy-good eats &amp; drinks over there!  Early start &amp; early finish, so don&apos;t be late!  See you there!  </p><a href="http://badmovepdx.com/?fbclid=IwAR3Le9w1glf4JkwoxFVVIYDQsJ3mdHByH4bQJoYSMJZL-0LQfdg4IjVWh-w" target="_blank">badmovepdx.com</a><p style="text-align:center"></p></div></div></section><section><div class="item row"><div class="item-image col-md-6 col-sm-6 col-xs-12"><img alt="Alanna Eileen, Mae McCoy and Mark Mullen at Bit House Saloon event photo" class="img-responsive" src="//static.spotapps.co/spots/25/b3726daa95446da80f9b0de857c693/w926"/></div><div class="item-text col-md-6 col-sm-6 col-xs-12"><h2>Alanna Eileen, Mae McCoy and Mark Mullen at Bit House Saloon</h2><h3>Tuesday August 6th</h3><p style="text-align:center">New Zealand-based songwriter Alanna Eileen plays Bit House Saloon in Portland, Oregon with Mae McCoy and Mark Mullen.  Doors 8pm. Start time 8:30pm.  Alanna Eileen is an Australian-born, New Zealand-based musician and songwriter, currently working on a new album. Her latest record, ‘Artifice’, was recorded with Alan Weatherhead (Sparklehorse, Magnolia Electric Co.) in Richmond, Virginia, and released on February 10th, 2019.  She is touring the Pacific Northwest throughout July and August.  <a href="https://l.facebook.com/l.php?u=http%3A%2F%2Falanna-eileen.com%2F%3Ffbclid%3DIwAR1b-oQGZNBuN6LFIIzFZA2sPCGEq-3KGetGM53OEKzX2gmm61ji1PTEJGw&h=AT1rmatiZZhyysrqgJgHT2m52kIeRpD1ILbZy8xszACl1xbR6ub-G2wzF-U0EC18wM_4f7N9O5qDrpLjx5_liViBVP2bxurjlNKO-yeX_5-NNkEs6F2MRn26Ae77sCsnCm-UgcXiJU3xcRlTgjx1Xjk" target="_blank">http://alanna-eileen.com</a></p></div></div></section><section><div class="item row"><div class="item-image col-md-6 col-sm-6 col-xs-12"><img alt="TBD, Shipwreck Karpathos, Ellipsism- (Dayna’s Birthday) event photo" class="img-responsive" src="//static.spotapps.co/spots/ca/7195beffa244b98f8025edbeb0cfb5/w926"/></div><div class="item-text col-md-6 col-sm-6 col-xs-12"><h2>TBD, Shipwreck Karpathos, Ellipsism- (Dayna’s Birthday)</h2><h3>Wednesday August 7th</h3><p style="text-align:center">Dayna’s 40th &amp; licensure celebration weekend kicks off at Bit House Saloon with this lovely NWPRC lineup:  Ellipsism (Eli’s solo synth wizard project)  Shipwreck Karpathos (ambient set) TBD (still working out the headliner)  Music at 8:30 sharp! Doors at 8pm Come early for some birthday hangs </p></div></div></section><section><div class="item row"><div class="item-image col-md-6 col-sm-6 col-xs-12"><img alt="Aaron Baca, Folkslinger, Keely Doane event photo" class="img-responsive" src="//static.spotapps.co/spots/50/66adeddb55496e8843753306019402/w926"/></div><div class="item-text col-md-6 col-sm-6 col-xs-12"><h2>Aaron Baca, Folkslinger, Keely Doane</h2><h3>Thursday August 8th</h3>
+                                                    8pm  21 + $10-$5 slide cover  <a href="https://www.facebook.com/aaronbacamusic/" target="_blank">Aaron Baca</a><a href="https://www.facebook.com/folkslingerpdx/" target="_blank">Folkslinger</a><a href="https://www.facebook.com/profile.php?id=100010966809219" target="_blank">Keely Doane</a></div></div></section><section><div class="item row"><div class="item-image col-md-6 col-sm-6 col-xs-12"><img alt="New Jazz Night with Gordon Lee and Shvvvr CD Release event photo" class="img-responsive" src="//static.spotapps.co/spots/2b/d02805d8c74ae0ab8c2ddfbcd1db12/w926"/></div><div class="item-text col-md-6 col-sm-6 col-xs-12"><h2>New Jazz Night with Gordon Lee and Shvvvr CD Release</h2><h3>Thursday September 5th</h3><p style="text-align:center">21+/$10/Doors open at 8:00 p.m.  Join us for a night of new expressive, experimental and progressive jazz inspired music featuing new original material from <a href="https://www.facebook.com/gordonleepiano" target="_blank">Gordon Lee</a> and <a href="https://www.facebook.com/shvvvr/" target="_blank">Shvvvr</a><a href="https://www.facebook.com/shvvvr/" target="_blank">Shvvvr</a> we be celebrating with a CD release!   Free copies for the first five at the door!    Two sets of new original progressive/contemporary/modern jazz music composed by <a href="https://www.facebook.com/gordonleepiano" target="_blank">Gordon Lee</a> also featured on the new CD release of the Shvvvr project!    <a href="http://www.shvvvr.com/?fbclid=IwAR0Mevlrj-Di9xo5RvaWBedowNYOVOjI8r7sHsA63uOdDW5wCYOM8fk5xFQ" target="_blank">www.shvvvr.com</a></p></div></div></section><section><div class="item row"><div class="item-image col-md-6 col-sm-6 col-xs-12"><img alt="Really Good Music! event photo" class="img-responsive" src="//static.spotapps.co/spots/e7/3e221027ac407a9746b1b9153e0231/w926"/></div><div class="item-text col-md-6 col-sm-6 col-xs-12"><h2>Really Good Music!</h2><h3>Sunday September 8th</h3><p style="text-align:center">-SEPTEMBER 8TH- Doors @8pm 21+ $7  Barnaby Jones - https://www.facebook.com/barnabyjonesnw/ Flow Resale - https://www.facebook.com/flowresale/ Moonraker - https://www.facebook.com/MoonrakerLaunch/ Smear - https://www.facebook.com/hearsmear/ </p></div></div></section><section><div class="item row"><div class="item-image col-md-6 col-sm-6 col-xs-12"><img alt="Leroy Peppers (AKA Christian Martin) DnB Set event photo" class="img-responsive" src="//static.spotapps.co/spots/83/9d8a0256844b8d86c56467e29066bc/w926"/></div><div class="item-text col-md-6 col-sm-6 col-xs-12"><h2>Leroy Peppers (AKA Christian Martin) DnB Set</h2><h3>Wednesday September 25th</h3><p style="text-align:center">One Wub Presents Leroy Peppers (aka) Christian Martin  Tickets <a href="https://www.eventbrite.com/e/leroy-peppers-aka-christian-martin-dnb-set-tickets-63317720005?aff=efbeventtix&fbclid=IwAR0ZClHDTq7NE_FT_ept7io23RY4aL6b-QX1y1z9IkEHAGpFAXOv8SDcOME" target="">https://www.eventbrite.com/e/leroy-peppers-aka-christian-martin-dnb-set-tickets-63317720005?aff=efbeventtix&amp;fbclid=IwAR0ZClHDTq7NE_FT_ept7io23RY4aL6b-QX1y1z9IkEHAGpFAXOv8SDcOME</a></p></div></div></section><section><div class="item row"><div class="item-image col-md-6 col-sm-6 col-xs-12"><img alt="Daddy Long Legs at Bit House Saloon event photo" class="img-responsive" src="//static.spotapps.co/spots/46/637603458843b3bb47fab17ad6cf7b/w926"/></div><div class="item-text col-md-6 col-sm-6 col-xs-12"><h2>Daddy Long Legs at Bit House Saloon</h2><h3>Thursday October 3rd</h3><p style="text-align:center">Thursday October 3 @ Bit House Saloon &quot;Take Warning Presents&quot; Daddy Long Legs with guests 21+ - $12 advance / $15 day of show - 8:00 PM doors / 9:00 PM show  Tickets at <a href="https://www.eventbrite.com/e/daddy-long-legs-tickets-64645211568?aff=venue&fbclid=IwAR2zXwnjaWDdPvLPCTnEat5xKMspHF1TR8TcCwfzLhZyb5_sV_fwbK2bvFg" target="_blank">https://www.eventbrite.com/e/daddy-long-legs-tickets-64645211568?aff=venue</a></p></div></div></section></div><a class="custom-temp-btn hvr-fade hvr-hollow" href="/portland-buckman-bit-house-saloon-events">Up Coming Shows</a></div></div></div></div></article><article><style>
+.gallery-v4-wrapper .top-svg-border path,
+.gallery-v4-wrapper .top-svg-border polygon {
+  fill: #030706;
+}
+.gallery-v4-wrapper .bottom-svg-border path,
+.gallery-v4-wrapper .bottom-svg-border polygon {
+  fill: #66b95f;
+}
+</style><div id="gallery_v4" class="gallery-v4-wrapper section-wrapper"><div class="top-svg-border"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 1928.9 64.4" enable-background="new 0 0 1928.9 64.4" xml:space="preserve"><path d="M1928.9,0H0v4.3h0v60c322.7-45.1,644.3-65.2,964.4-49c392-5.7,768.5-6.5,964.4,49l0-60h0V0z"></path></svg></div><div class="container"><div class="gallery-v4-grid"><div class="gallery-v4-grid-sizer"></div><div class="gallery-v4-grid-item gallery-v4-grid-item--width2"><a class="fancybox fancybox.image" href="//static.spotapps.co/spots/80/9c993856b54790ae91d0d3822ff0b1/full"><img alt="gallery photo number 1" class="img-responsive lazyload" data-original="//static.spotapps.co/spots/80/9c993856b54790ae91d0d3822ff0b1/full" data-sizes="auto" data-src="//static.spotapps.co/spots/80/9c993856b54790ae91d0d3822ff0b1/full" data-srcset="//static.spotapps.co/spots/80/9c993856b54790ae91d0d3822ff0b1/small 200w, //static.spotapps.co/spots/80/9c993856b54790ae91d0d3822ff0b1/medium 400w, //static.spotapps.co/spots/80/9c993856b54790ae91d0d3822ff0b1/full 800w" src="https://static.spotapps.co/web/placeholder.png"/></a></div><div class="gallery-v4-grid-item"><a class="fancybox fancybox.image" href="//static.spotapps.co/spots/8b/36e264615b4dc59f98dea4ce05978d/full"><img alt="gallery photo number 2" class="img-responsive lazyload" data-original="//static.spotapps.co/spots/8b/36e264615b4dc59f98dea4ce05978d/full" data-sizes="auto" data-src="//static.spotapps.co/spots/8b/36e264615b4dc59f98dea4ce05978d/full" data-srcset="//static.spotapps.co/spots/8b/36e264615b4dc59f98dea4ce05978d/small 200w, //static.spotapps.co/spots/8b/36e264615b4dc59f98dea4ce05978d/medium 400w, //static.spotapps.co/spots/8b/36e264615b4dc59f98dea4ce05978d/full 800w" src="https://static.spotapps.co/web/placeholder.png"/></a></div><div class="gallery-v4-grid-item"><a class="fancybox fancybox.image" href="//static.spotapps.co/spots/03/231a3654c8496195770f1c2397f941/full"><img alt="gallery photo number 3" class="img-responsive lazyload" data-original="//static.spotapps.co/spots/03/231a3654c8496195770f1c2397f941/full" data-sizes="auto" data-src="//static.spotapps.co/spots/03/231a3654c8496195770f1c2397f941/full" data-srcset="//static.spotapps.co/spots/03/231a3654c8496195770f1c2397f941/small 200w, //static.spotapps.co/spots/03/231a3654c8496195770f1c2397f941/medium 400w, //static.spotapps.co/spots/03/231a3654c8496195770f1c2397f941/full 800w" src="https://static.spotapps.co/web/placeholder.png"/></a></div><div class="gallery-v4-grid-item"><a class="fancybox fancybox.image" href="//static.spotapps.co/spots/ef/c63c9aa99b42a4902389930e159fdd/full"><img alt="gallery photo number 4" class="img-responsive lazyload" data-original="//static.spotapps.co/spots/ef/c63c9aa99b42a4902389930e159fdd/full" data-sizes="auto" data-src="//static.spotapps.co/spots/ef/c63c9aa99b42a4902389930e159fdd/full" data-srcset="//static.spotapps.co/spots/ef/c63c9aa99b42a4902389930e159fdd/small 200w, //static.spotapps.co/spots/ef/c63c9aa99b42a4902389930e159fdd/medium 400w, //static.spotapps.co/spots/ef/c63c9aa99b42a4902389930e159fdd/full 800w" src="https://static.spotapps.co/web/placeholder.png"/></a></div><div class="gallery-v4-grid-item"><a class="fancybox fancybox.image" href="//static.spotapps.co/spots/25/2ac60ff01a410e954854f0ddc5b322/full"><img alt="gallery photo number 5" class="img-responsive lazyload" data-original="//static.spotapps.co/spots/25/2ac60ff01a410e954854f0ddc5b322/full" data-sizes="auto" data-src="//static.spotapps.co/spots/25/2ac60ff01a410e954854f0ddc5b322/full" data-srcset="//static.spotapps.co/spots/25/2ac60ff01a410e954854f0ddc5b322/small 200w, //static.spotapps.co/spots/25/2ac60ff01a410e954854f0ddc5b322/medium 400w, //static.spotapps.co/spots/25/2ac60ff01a410e954854f0ddc5b322/full 800w" src="https://static.spotapps.co/web/placeholder.png"/></a></div><div class="gallery-v4-grid-item"><a class="fancybox fancybox.image" href="//static.spotapps.co/spots/a9/b8cdb0402111e9a192cb584f48bbb8/full"><img alt="gallery photo number 6" class="img-responsive lazyload" data-original="//static.spotapps.co/spots/a9/b8cdb0402111e9a192cb584f48bbb8/full" data-sizes="auto" data-src="//static.spotapps.co/spots/a9/b8cdb0402111e9a192cb584f48bbb8/full" data-srcset="//static.spotapps.co/spots/a9/b8cdb0402111e9a192cb584f48bbb8/small 200w, //static.spotapps.co/spots/a9/b8cdb0402111e9a192cb584f48bbb8/medium 400w, //static.spotapps.co/spots/a9/b8cdb0402111e9a192cb584f48bbb8/full 800w" src="https://static.spotapps.co/web/placeholder.png"/></a></div><div class="gallery-v4-grid-item"><a class="fancybox fancybox.image" href="//static.spotapps.co/spots/7a/fab560402111e99ec497cd5ef70c1d/full"><img alt="gallery photo number 7" class="img-responsive lazyload" data-original="//static.spotapps.co/spots/7a/fab560402111e99ec497cd5ef70c1d/full" data-sizes="auto" data-src="//static.spotapps.co/spots/7a/fab560402111e99ec497cd5ef70c1d/full" data-srcset="//static.spotapps.co/spots/7a/fab560402111e99ec497cd5ef70c1d/small 200w, //static.spotapps.co/spots/7a/fab560402111e99ec497cd5ef70c1d/medium 400w, //static.spotapps.co/spots/7a/fab560402111e99ec497cd5ef70c1d/full 800w" src="https://static.spotapps.co/web/placeholder.png"/></a></div><div class="gallery-v4-grid-item gallery-v4-grid-item--width2"><a class="fancybox fancybox.image" href="//static.spotapps.co/spots/5c/74aec0402111e9a6dc6bffb20ce93e/full"><img alt="gallery photo number 8" class="img-responsive lazyload" data-original="//static.spotapps.co/spots/5c/74aec0402111e9a6dc6bffb20ce93e/full" data-sizes="auto" data-src="//static.spotapps.co/spots/5c/74aec0402111e9a6dc6bffb20ce93e/full" data-srcset="//static.spotapps.co/spots/5c/74aec0402111e9a6dc6bffb20ce93e/small 200w, //static.spotapps.co/spots/5c/74aec0402111e9a6dc6bffb20ce93e/medium 400w, //static.spotapps.co/spots/5c/74aec0402111e9a6dc6bffb20ce93e/full 800w" src="https://static.spotapps.co/web/placeholder.png"/></a></div><div class="gallery-v4-grid-item"><a class="fancybox fancybox.image" href="//static.spotapps.co/spots/25/d4b960402011e9b45457f11a234a88/full"><img alt="gallery photo number 9" class="img-responsive lazyload" data-original="//static.spotapps.co/spots/25/d4b960402011e9b45457f11a234a88/full" data-sizes="auto" data-src="//static.spotapps.co/spots/25/d4b960402011e9b45457f11a234a88/full" data-srcset="//static.spotapps.co/spots/25/d4b960402011e9b45457f11a234a88/small 200w, //static.spotapps.co/spots/25/d4b960402011e9b45457f11a234a88/medium 400w, //static.spotapps.co/spots/25/d4b960402011e9b45457f11a234a88/full 800w" src="https://static.spotapps.co/web/placeholder.png"/></a></div><div class="gallery-v4-grid-item"><a class="fancybox fancybox.image" href="//static.spotapps.co/spots/6b/e3b600401f11e99ec497cd5ef70c1d/full"><img alt="gallery photo number 10" class="img-responsive lazyload" data-original="//static.spotapps.co/spots/6b/e3b600401f11e99ec497cd5ef70c1d/full" data-sizes="auto" data-src="//static.spotapps.co/spots/6b/e3b600401f11e99ec497cd5ef70c1d/full" data-srcset="//static.spotapps.co/spots/6b/e3b600401f11e99ec497cd5ef70c1d/small 200w, //static.spotapps.co/spots/6b/e3b600401f11e99ec497cd5ef70c1d/medium 400w, //static.spotapps.co/spots/6b/e3b600401f11e99ec497cd5ef70c1d/full 800w" src="https://static.spotapps.co/web/placeholder.png"/></a></div><div class="gallery-v4-grid-item"><a class="fancybox fancybox.image" href="//static.spotapps.co/spots/1a/720f70401e11e98403a762e6b42caf/full"><img alt="gallery photo number 11" class="img-responsive lazyload" data-original="//static.spotapps.co/spots/1a/720f70401e11e98403a762e6b42caf/full" data-sizes="auto" data-src="//static.spotapps.co/spots/1a/720f70401e11e98403a762e6b42caf/full" data-srcset="//static.spotapps.co/spots/1a/720f70401e11e98403a762e6b42caf/small 200w, //static.spotapps.co/spots/1a/720f70401e11e98403a762e6b42caf/medium 400w, //static.spotapps.co/spots/1a/720f70401e11e98403a762e6b42caf/full 800w" src="https://static.spotapps.co/web/placeholder.png"/></a></div><div class="gallery-v4-grid-item"><a class="fancybox fancybox.image" href="//static.spotapps.co/spots/7d/e7c760401a11e9bd8793816616241c/full"><img alt="gallery photo number 12" class="img-responsive lazyload" data-original="//static.spotapps.co/spots/7d/e7c760401a11e9bd8793816616241c/full" data-sizes="auto" data-src="//static.spotapps.co/spots/7d/e7c760401a11e9bd8793816616241c/full" data-srcset="//static.spotapps.co/spots/7d/e7c760401a11e9bd8793816616241c/small 200w, //static.spotapps.co/spots/7d/e7c760401a11e9bd8793816616241c/medium 400w, //static.spotapps.co/spots/7d/e7c760401a11e9bd8793816616241c/full 800w" src="https://static.spotapps.co/web/placeholder.png"/></a></div><div class="gallery-v4-grid-item"><a class="fancybox fancybox.image" href="//static.spotapps.co/spots/5e/fc4830401a11e9addf2f4eab548153/full"><img alt="gallery photo number 13" class="img-responsive lazyload" data-original="//static.spotapps.co/spots/5e/fc4830401a11e9addf2f4eab548153/full" data-sizes="auto" data-src="//static.spotapps.co/spots/5e/fc4830401a11e9addf2f4eab548153/full" data-srcset="//static.spotapps.co/spots/5e/fc4830401a11e9addf2f4eab548153/small 200w, //static.spotapps.co/spots/5e/fc4830401a11e9addf2f4eab548153/medium 400w, //static.spotapps.co/spots/5e/fc4830401a11e9addf2f4eab548153/full 800w" src="https://static.spotapps.co/web/placeholder.png"/></a></div><div class="gallery-v4-grid-item"><a class="fancybox fancybox.image" href="//static.spotapps.co/spots/74/5442b0401911e9bec389235594f097/full"><img alt="gallery photo number 14" class="img-responsive lazyload" data-original="//static.spotapps.co/spots/74/5442b0401911e9bec389235594f097/full" data-sizes="auto" data-src="//static.spotapps.co/spots/74/5442b0401911e9bec389235594f097/full" data-srcset="//static.spotapps.co/spots/74/5442b0401911e9bec389235594f097/small 200w, //static.spotapps.co/spots/74/5442b0401911e9bec389235594f097/medium 400w, //static.spotapps.co/spots/74/5442b0401911e9bec389235594f097/full 800w" src="https://static.spotapps.co/web/placeholder.png"/></a></div></div></div></div></article><article><style>
+.custom_html_1-section .top-svg-border path,
+.custom_html_1-section .top-svg-border polygon {
+  fill: #000;
+}
+.custom_html_1-section .bottom-svg-border path,
+.custom_html_1-section .bottom-svg-border polygon {
+  fill: #000;
+}
+</style><div id="custom_html_1" class="custom_html_1-section section-wrapper"><div class="container"><h1 class="section-header">Awards</h1></div></div></article><article><style>
+.map-newsletter .text-wrapper:before {
+  background-image: url('https://static.spotapps.co/web/bithousesaloon--com/custom/newsletter_back.jpg');
+  }
+.googlemap-v3-wrapper .top-svg-border path,
+.googlemap-v3-wrapper .top-svg-border polygon {
+  fill: #030706;
+}
+.googlemap-v3-wrapper .bottom-svg-border path,
+.googlemap-v3-wrapper .bottom-svg-border polygon {
+  fill: #fff;
+}
+</style><div id="openstreetmap_v3" class="googlemap-v3-wrapper openstreetmap-v3-wrapper section-wrapper"><div class="top-svg-border"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 1928.9 64.4" enable-background="new 0 0 1928.9 64.4" xml:space="preserve"><path d="M1928.9,0H0v4.3h0v60c322.7-45.1,644.3-65.2,964.4-49c392-5.7,768.5-6.5,964.4,49l0-60h0V0z"></path></svg></div><div class="row map-holder"><section><div class="col-md-6 col-sm-12 col-xs-12 map-item map-newsletter"><div class="text-wrapper"><div class="text-content"><h1 class="section-header">Newsletter</h1><h2>stay tuned for updates</h2><script type="text/javascript" id="sph-widget-57016">
+                  (function() {
+                      function async_load(){
+                          var s = document.createElement('script');
+                          s.type = 'text/javascript';
+                          s.async = true;
+                          s.src = 'https://www.spothopperapp.com/spots/57016/widgets/newsletter.js?template=newsletter_widget1';
+                          var embedder = document.getElementById('sph-widget-57016');
+                          embedder.parentNode.insertBefore(s, embedder);
+
+                          //Inject html
+                          setTimeout(function(){
+                            $( '<span class="bar"></span>' ).insertAfter( '.sph-email-input' );
+                            $('.sph-submit-button').addClass('custom-temp-btn hvr-fade hvr-hollow hvr-icon-wobble-horizontal');
+                          }, 2000);
+
+                      }
+                      if (window.attachEvent)
+                          window.attachEvent('onload', async_load);
+                      else
+                          window.addEventListener('load', async_load, false);
+                  })();
+                  </script><script type="text/javascript">
+                      function isEmail(email) {
+                        var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+                        return regex.test(email);
+                      }
+                      function submitEmail(input_id) {
+                          var shp_email_to_subscribe = $("#sph-newsletter-input-" + input_id);
+                          if (!isEmail(shp_email_to_subscribe.val())) {
+                              alert('Please enter valid email address');
+                              return;
+                          }
+                          var sph_email_form_div = $(".sph-email-form");
+                          var sph_loading_img = $(".sph-loading-img");
+                          var sph_response_message_div = $(".sph-response-message");
+                          var sph_submit_label = $(".sph-submit-label");
+                          sph_submit_label.hide();
+                          sph_loading_img.show();
+                          var request = $.ajax({
+                            method: "POST",
+                            url: "https://www.spothopperapp.com/api/spots/57016/contacts/add",
+                            crossDomain: true,
+                            dataType: 'json',
+                            data: { email: shp_email_to_subscribe.val() },
+                            success: function (data) {
+                              sph_response_message_div.html(data);
+                              sph_email_form_div.hide();
+                              sph_response_message_div.show();
+                            },
+                            error: function (data) {
+                              sph_response_message_div.html("Something went wrong. Please try again later.");
+                              sph_email_form_div.hide();
+                              sph_response_message_div.show();
+                            }
+                          });
+                      }
+                  </script></div></div></div></section><section><div class="col-md-6 col-sm-12 col-xs-12 map-item"><div id="map-v3-container"></div></div></section></div><div class="map-footer text-center"><div class="triangle"></div></div></div></article><article><style>
+.contact-v3 .hours-title, .contact-v3 .social-title, .contact-v3 .contact-us-title {
+  color: #e2972d;
+}
+.contact a:hover, .contact a:active, .contact-us a:hover, .contact-us a:active {
+  color: #e2972d;
+}
+.contact-v3 .social-circle .contact-icon {
+  color: rgba(255, 255, 255, 0.8);
+}
+  .contact-v3 .social-square .contact-icon:hover {
+    color: #030706;
+    background-color: #e2972d;
+  }
+
+</style><div id="contact_v3" class="contact-v3 contact-v3-center section-wrapper"><div class="container"><div class="row"><div class="col-md-4 col-sm-4 col-xs-12"><section><div class="contact-location"><div class="hours-title"><h1>Location</h1></div><div class="address">727 Southeast Grand Avenue</div><div class="city-state">Portland, OR</div><div class="zip">97214</div></div></section></div><div class="col-md-4 col-sm-4 col-xs-12"><section><div class="hours"><div class="hours-title"><h1>Hours</h1></div><div class="days">
+                        Mon, Tue, Wed, Thur, Fri, Sat                    </div><div class="from-to">
+                        4:00 PM - 2:00 AM                    </div><div class="days">
+                        Sun                    </div><div class="from-to">
+                        11:00 AM - 2:00 AM                    </div></div></section></div><div class="col-md-4 col-sm-4 col-xs-12"><div class="find-us"><section><div class="social"><div class="social-title"><h1>Find us on...</h1></div><div class="social-links social-icons-holder social-square"><a class="contact-icon spothopper-icon" href="https://www.spothopperapp.com/spots/57016" target="_blank"><i class="social-icon icon-spothopper_icon"></i><span>SpotHopper page</span></a><a class="contact-icon" href="https://www.twitter.com/bithousesaloon" target="_blank"><i class="social-icon fa fa-twitter"></i><span>Twitter page</span></a><a class="contact-icon" href="https://www.facebook.com/449897978519232" target="_blank"><i class="social-icon fa fa-facebook"></i><span>Facebook page</span></a><a class="contact-icon" href="https://www.instagram.com/bithousesaloon/" target="_blank"><i class="social-icon fa fa-instagram"></i><span>Instagram page</span></a></div></div></section><section><div class="contact-us"><div class="contact-us-title"><h1>Contact us</h1></div><p><a href="tel:+15039543913" id="contact_us_v3_section_phone_link">(503)-954-3913</a></p></div></section></div></div></div></div></div></article><article><div id="footer_v2" class="footer-v2-wrapper"><div class="container"><div class="row"><div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><p>Powered by: <a class="applicationsLink" href="https://www.spothopperapp.com/" target="_blank"><img alt="SpotHopper logo" class="logoimg" src="https://static.spotapps.co/web/bithousesaloon--com/images/spothopper-logo-new.png"/></a></p></div><div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><a class="applicationsLink" href="https://www.spothopperapp.com/" target="_blank">Website design, Social Media marketing and Email marketing provided by SpotHopper.</a></div></div></div></div></article></main><style type="text/css">
+    .navbar-fixed-bottom.nav-v1 {
+        bottom: -100px;
+    }
+    .navbar-fixed-bottom.nav-v1 .nav.navbar-nav.navbar-right {
+        background-color: #000;
+    }
+    .navbar-fixed-bottom.nav-v1 .bottom-svg-border path,
+    .navbar-fixed-bottom.nav-v1 .bottom-svg-border polygon {
+      fill: #000;
+    }
+    .navbar-fixed-bottom.nav-v1 .bottom-list-item a {
+        color: #fff;
+    }
+    .navbar-fixed-bottom.nav-v1 .bottom-list-item a:hover,
+    .navbar-fixed-bottom.nav-v1 .bottom-list-item a:focus {
+        color: #e2972d;
+    }
+</style><nav class="navbar-fixed-bottom nav-v1" role="navigation" id="bottom-navbar"><div><ul class="nav navbar-nav navbar-right"><li class="bottom-list-item "><a class="bottom-link " href="tel:+15039543913" id="bottom_link_1" target="_self">
+                        Call                    </a></li><li class="bottom-list-item "><a class="bottom-link " href="https://maps.google.com?daddr=+727+Southeast+Grand+Avenue+Portland+OR+97214" id="bottom_link_2" target="_blank">
+                        Directions                    </a></li><li class="bottom-list-item "><a class="bottom-link " href="/portland-buckman-bit-house-saloon-party" id="bottom_link_3" target="_self">
+                        Reserve                    </a></li></ul></div></nav><script src="https://static.spotapps.co/web/bithousesaloon--com/lib/jquery/jquery.min.js"></script><script src="https://static.spotapps.co/web/bithousesaloon--com/lib/jquery/jquery.browser.min.js"></script><script src="https://static.spotapps.co/web/bithousesaloon--com/lib/bootstrap/js/bootstrap.min.js"></script><script src="https://static.spotapps.co/web/bithousesaloon--com/lib/owlcarousel/owl.carousel.min.js"></script><script src="https://static.spotapps.co/web/bithousesaloon--com/lib/masonry/masonry.pkgd.min.js"></script><script src="https://static.spotapps.co/web/bithousesaloon--com/lib/uikit/js/uikit.min.js" type="text/javascript"></script><script src="https://static.spotapps.co/web/bithousesaloon--com/lib/uikit/js/slideshow.min.js" type="text/javascript"></script><script src="https://static.spotapps.co/web/bithousesaloon--com/lib/imagesloaded/imagesloaded.pkgd.min.js"></script><script src="https://static.spotapps.co/web/bithousesaloon--com/lib/fancybox/source/jquery.fancybox.js" type="text/javascript"></script><script src="https://static.spotapps.co/web/bithousesaloon--com/lib/fancybox/source/jquery.fancybox.pack.js" type="text/javascript"></script><script src="https://static.spotapps.co/web/bithousesaloon--com/lib/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7" type="text/javascript"></script><script src="https://static.spotapps.co/web/bithousesaloon--com/lib/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6" type="text/javascript"></script><script src="//www.spothopperapp.com/lib/iframe-resizer/iframeResizer.js" type="text/javascript"></script><script src="//unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script><script src="//static.spotapps.co/web-lib/leaflet/leaflet-providers.js"></script><script type="text/javascript">
+
+
+		
+	$("#bottom_link_1").on("click", function(){
+		if (ga) 
+			ga('send', 'event', 'Button', 'Click', 'Phone');
+	});		
+	$("#bottom_link_2").on("click", function(){
+		if (ga) 
+			ga('send', 'event', 'Button', 'Click', 'Directions');
+	});		
+	$("#bottom_link_3").on("click", function(){
+		if (ga) 
+			  {
+    if (typeof shUrlParams !== "undefined" && shUrlParams['source'] === undefined){
+      shUrlParams['source'] = 'footer';
+      sessionStorage.setItem('shUrlParams', JSON.stringify(shUrlParams));
+    }
+    ga('send', 'event', 'Button', 'Click', 'Reserve');
+  }
+
+
+	});
+  $('.header-logo, .nav-v2-home-btn').click(function(event) {
+    if ( window.location.pathname == '/' || window.location.pathname == '/index.php') {
+      event.preventDefault();
+      var windowScrollTop = $(window).scrollTop();
+      if(windowScrollTop > 150) {
+        $('html, body').animate({scrollTop: 0}, 750);
+      }
+    }
+  });
+
+$(".banner-section a.banner-pin").click(function(e) {
+    // target element id
+    var id = $(this).attr('href');
+
+    // target element
+    var section = $(id);
+    if (section.length === 0) {
+        return;
+    }
+
+    // prevent standard hash navigation (avoid blinking in IE)
+    e.preventDefault();
+
+    // top position relative to the document
+    var pos = section.offset().top - 100 + 10;
+
+    // animated top scrolling
+    $('body, html').animate({scrollTop: pos}, 750);
+});
+
+$(document).on('scroll', function (e) {
+
+    if($(document).scrollTop() > 0) {
+      $('.navbar.nav-v7').addClass('nav-scroll');
+    }else {
+      $('.navbar.nav-v7').removeClass('nav-scroll');
+    }
+
+});
+
+$(function() {
+  setDropDownMenuWidth();
+
+  function setDropDownMenuWidth() {
+    var tabs_list = $('.navbar-tabs .navbar-nav');
+
+    $(tabs_list).find('li.drop-down-link').each(function() {
+      var sub_menu_width = $(this).outerWidth(true);
+      $(this).find('.sub-menu').css('width', sub_menu_width+'px');
+    });
+  }
+
+  $( window ).resize(function() {
+    setDropDownMenuWidth();
+  });
+
+});
+
+
+
+$( '.drop-down-link .drop-down' ).click(function(event) {
+  event.preventDefault();
+  event.stopPropagation();
+
+  var drop_down = $(this).closest('.drop-down-link');
+  var sub_menu = $(this).closest('.drop-down-link').find( '.sub-menu' );
+
+  if ( $(sub_menu).is( ':hidden' ) ) {
+    $(sub_menu).slideDown();
+    $(drop_down).addClass('active');
+  } else {
+    $(sub_menu).slideUp();
+    $(drop_down).removeClass('active');
+  }
+});
+
+$(".nav-v7 .navbar-contact .nav-address a").click(function(e) {
+
+  if ( window.location.pathname == '/' || window.location.pathname == '/index.php') {
+    // target element id
+    var id = $(this).attr('href').substr(1);
+
+    // target element
+    var section = $(id);
+    if (section.length === 0) {
+        return;
+    }
+
+    // prevent standard hash navigation (avoid blinking in IE)
+    e.preventDefault();
+
+    // top position relative to the document
+    var pos = section.offset().top - 100 + 10;
+
+    // animated top scrolling
+    $('body, html').animate({scrollTop: pos}, 750);
+
+  }
+});
+
+    $(document).ready(function() {
+    var slideshow = UIkit.slideshow('[data-uk-slideshow]', {
+      autoplay: 1,
+      height:	'100%',
+      animation:	'swipe',
+      duration:	500,
+      autoplayInterval:	4000,
+      pauseOnHover: false
+    });
+
+    });
+
+
+$(document).ready(function() {
+
+  if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Mac') != -1 && navigator.userAgent.indexOf('Chrome') == -1 && $(window).width() > 767) {
+
+    // Turn Off animations on Safari browser for Mac desktop
+    $('html').addClass('safari-mac');
+
+  }
+  else {
+
+    var animation_item_elements = $('.about-us-v8-item');
+    var window_var = $(window);
+
+    function check_if_item_in_view() {
+    var window_var_height = window_var.height();
+    var window_var_top_position = window_var.scrollTop();
+    var window_var_bottom_position = (window_var_top_position + window_var_height/2 + 100);
+
+    $.each(animation_item_elements, function() {
+      var element_var = $(this);
+      var element_var_height = element_var.outerHeight();
+      var element_var_top_position = element_var.offset().top;
+      var element_var_bottom_position = (element_var_top_position + element_var_height/2 + 100);
+
+      //check to see if this current container is within viewport
+      if ((element_var_bottom_position >= window_var_top_position) &&
+          (element_var_top_position <= window_var_bottom_position)) {
+        element_var.addClass('animate');
+      } else {
+        // element_var.removeClass('in-view');
+      }
+    });
+    }
+
+    window_var.on('scroll resize', check_if_item_in_view);
+    window_var.trigger('scroll');
+
+  }
+
+
+});
+    $(document).ready(function() {
+      var owl = $('#events_v3 .owl-carousel');
+      owl.owlCarousel({
+        margin: 0,
+        nav: false,
+        dots: true,
+        autoplay: true,
+        autoplayTimeout: 6000,
+        autoplayHoverPause: true,
+        loop: false,
+        navText: [ '&#8249', '&#8250' ],
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 1
+          },
+          1000: {
+            items: 1
+          }
+        }
+      })
+    });
+  // init Masonry
+   var gridGallery = $('#gallery_v4 .gallery-v4-grid').masonry({
+     columnWidth: '.gallery-v4-grid-sizer',
+     // do not use .grid-sizer in layout
+     itemSelector: '.gallery-v4-grid-item',
+     percentPosition: true,
+     fitWidth: true
+   });
+
+    gridGallery.imagesLoaded(function() {
+      gridGallery.masonry('layout');
+    });
+
+    // layout Masonry after each image loads
+    gridGallery.imagesLoaded().progress( function() {
+      gridGallery.masonry('layout');
+    });
+
+  $(document).ready(function() {
+
+    var fancyboxSlider = $('#gallery_v4 .fancybox');
+
+    fancyboxSlider.attr('rel', 'gallery').fancybox({
+      beforeShow : function() {
+      var alt = this.element.find('img').attr('alt');
+
+      this.inner.find('img').attr('alt', alt);
+      },
+      padding : 15,
+      margin: 20,
+      arrows    : true,
+      closeBtn: true,
+      autoPlay : false,
+      playSpeed : 3000,
+      loop : true,
+      openEffect :  'fade',
+      closeEffect :  'fade',
+      nextEffect  : 'elastic',
+      prevEffect  : 'elastic',
+      helpers : {
+        overlay : {
+          css : {
+              'background' : 'rgba(0, 0, 0, 0.5)'
+          }
+        }
+      }
+    });
+
+  });
+
+
+
+    var marker_icon = "";
+
+    iFrameResize({
+        enablePublicMethods: true,
+        enableInPageLinks: true
+    });
+
+    var google_map_url = 'https://www.google.com/maps/place/'
+        + ",727 Southeast Grand Avenue,Portland,OR,97214".split(' ').join('+');
+
+    function open_google_map() {
+        window.open(google_map_url, '_blank')
+    }
+
+    $(function () {
+        $('.nav a').on('click', function () {
+            $('.navbar-collapse').collapse('hide');
+        });
+
+        init_open_street_map();
+    });
+
+    function init_open_street_map() {
+      var map = L.map('map-v3-container', {
+          center: [ 45.5175399, -122.6608859],
+          zoom: 16,
+          zoomControl: false,
+          dragging:false
+      });
+
+      if (marker_icon.length>0){
+        var myIcon = L.icon({
+            iconUrl: marker_icon,
+            iconSize: [35,35]
+        });
+        var marker = L.marker([45.5175399, -122.6608859], {icon: myIcon}, {title: '727 Southeast Grand Avenue, Portland'}, {alt: 'map pin icon'}).addTo(map);
+      } else {
+        var marker = L.marker([45.5175399, -122.6608859], {title: '727 Southeast Grand Avenue, Portland'}, {alt: 'map pin icon'}).addTo(map);
+      }
+
+  		marker.on('click', open_google_map);
+
+      L.tileLayer.provider('CartoDB.Positron').addTo(map);
+      L.control.zoom({
+       position:'bottomright'
+      }).addTo(map);
+
+      map.scrollWheelZoom.disable();
+    }
+$("#contact_us_v3_section_phone_link").on("click", function(){
+    if (ga)
+        ga('send', 'event', 'Button', 'Click', 'Phone');
+});
+    setTimeout(function(){
+        $('.navbar-fixed-bottom.nav-v1').addClass('show-bottom-nav'); triggerShowFooterEvents();
+    }, 4000);
+
+    var navigation_alpha_starts_from = 0;
+    var navigation_background_color = "rgba(0, 0, 0,";
+    var navigation_darkens_on_scroll = "1";
+    var top_nav_new_style = !navigation_darkens_on_scroll && ($(window).width() > 767);
+    var custom_nav_style = "1";
+    if(!custom_nav_style){
+      $('.navbar-regular').css('background-color', 'rgba(255, 255, 255,' + navigation_alpha_starts_from + ')');
+      $('.navbar-inverse').css('background-color', navigation_background_color + (top_nav_new_style ? 0 : navigation_alpha_starts_from) + ')');
+    }
+
+    if (navigation_darkens_on_scroll && !custom_nav_style) {
+        $(document).on('scroll', function (e) {
+            var alpha = navigation_alpha_starts_from + $(document).scrollTop() / 1950;
+            $('.navbar-inverse').css('background-color', navigation_background_color + alpha + ')');
+            $('.navbar-regular').css('background-color', 'rgba(255, 255, 255,' + alpha + ')');
+        });
+    }
+
+    if (!navigation_darkens_on_scroll && !custom_nav_style) {
+        $(window).resize(function() {
+            if ($(window).width() > 767)
+                $('.navbar-inverse').css('background-color', navigation_background_color + 0 + ')');
+            else
+                $('.navbar-inverse').css('background-color', navigation_background_color + navigation_alpha_starts_from + ')');
+        });
+    }
+
+    $(function () {
+        $('.nav a').on('click', function () {
+            $('.navbar-collapse').collapse('hide');
+        });
+    });
+
+
+</script><script>
+    var animate_sections = ["banner","aboutus_v2","aboutus_v7"];
+
+    for (var i = 0; i < animate_sections.length; i++) {
+      $('#'+animate_sections[i]).addClass('animation-element');
+    }
+
+    var $animation_elements = $('.animation-element');
+    var $window = $(window);
+
+    function check_if_in_view() {
+    var window_height = $window.height();
+    var window_top_position = $window.scrollTop();
+    var window_bottom_position = (window_top_position + window_height/2);
+
+    $.each($animation_elements, function() {
+      var $element = $(this);
+      var element_height = $element.outerHeight();
+      var element_top_position = $element.offset().top;
+      var element_bottom_position = (element_top_position + element_height/2);
+
+      //check to see if this current container is within viewport
+      if ((element_bottom_position >= window_top_position) &&
+          (element_top_position <= window_bottom_position)) {
+        $element.addClass('animate');
+      } else {
+        // $element.removeClass('in-view');
+      }
+    });
+    }
+
+    $window.on('scroll resize', check_if_in_view);
+    $window.trigger('scroll');
+  </script><footer id="accessibility-footer"><p>We strive to make our website accessible to everybody. <a aria-label="Accessibility page" class="accessibility-link" href="/accessibility-page-01" target="_self">Learn More.</a></p></footer><script>
+  if (navigator.userAgent.match(/iPhone/i)
+     || navigator.userAgent.match(/iPad/i)
+     || navigator.userAgent.match(/iPod/i)){
+    $(document).ready(function(){
+          document.body.className += " " + "webkit-mobile-body";
+    });
+  }
+
+  var promotion_url_param_domain = getPromotionUrlParams()['domain'];
+  if ( promotion_url_param_domain && ( new URL(document.location).host == 'localhost:4000' || new URL(document.location).host == 'wcache.spotapps.co')){
+    $("a[href^='/']").each(function(){
+      if (this.href.indexOf('domain=') == -1){
+        var sh_internal_url = new URL(this.href);
+        sh_internal_url.searchParams.set("domain", promotion_url_param_domain);
+        this.href = sh_internal_url.toString();
+      }
+    })
+  }
+
+
+  function cta_link_matches_href(href, url){
+    var domain = 'bithousesaloon.com';
+    var partsOfURL = url.split(domain);
+    if (partsOfURL.length != 2){
+      return href == url;
+    }else{
+      var urlPath = partsOfURL[1];
+      if (urlPath.substring(0,1) == "/"){
+        urlPath = urlPath.substring(1,urlPath.length);
+      }
+      return href.indexOf(urlPath, href.length - urlPath.length) !== -1;
+    }
+  }
+
+  function find_cta_link(href) {
+    var all_cta_links = [{"id":257086,"spot_id":57016,"url":"https://bithousesaloon.com/portland-buckman-bit-house-saloon-gift-cards","cta_link_type":"gift_cards","created_at":"2019-07-24T18:43:31+00:00","updated_at":null},{"id":257085,"spot_id":57016,"url":"https://bithousesaloon.com/-party","cta_link_type":"private_parties","created_at":"2019-07-24T18:43:31+00:00","updated_at":null},{"id":257084,"spot_id":57016,"url":"https://bithousesaloon.com/-events","cta_link_type":"events","created_at":"2019-07-24T18:43:31+00:00","updated_at":null},{"id":257083,"spot_id":57016,"url":"https://bithousesaloon.com/-drink-menu","cta_link_type":"drink_menu","created_at":"2019-07-24T18:43:31+00:00","updated_at":null},{"id":257082,"spot_id":57016,"url":"https://bithousesaloon.com/-food-menu","cta_link_type":"food_menu","created_at":"2019-07-24T18:43:31+00:00","updated_at":null}];
+
+    for (var i=0; i< all_cta_links.length; i++){
+      var cta_link = all_cta_links[i];
+      if ( cta_link_matches_href(href, cta_link.url)){
+        return cta_link;
+      }
+    }
+  }
+
+  function element_has_events_defined(elem){
+    if ($._data(elem, "events") === undefined){
+      return false;
+    }
+    return true;
+  }
+
+  function create_ga_events_for_cta_clicks(){
+    if (typeof $ === 'function'){
+
+      var cta_link_of_the_page = find_cta_link(location.href);
+
+
+      $("a").each(function(index, elem){
+        var href = $(elem).attr('href');
+
+        if (href  === undefined ){
+           return;
+        }
+
+        if (href.substring(0,4) == 'tel:'){
+          if (!element_has_events_defined(elem)){  // not footer links
+            $(elem).on("click", function(){
+                ga('send', 'event', {
+                  eventCategory: 'Button',
+                  eventAction: 'Click',
+                  eventLabel: 'Phone',
+                  transport: 'beacon'
+                });
+             });
+
+             if (cta_link_of_the_page){
+                $(elem).on("click", function(){
+                    ga('send', 'event', {
+                      eventCategory: 'Button',
+                      eventAction: 'Click',
+                      eventLabel: cta_link_of_the_page.cta_link_type +  ' page phone',
+                      transport: 'beacon'
+                    });
+                 });
+             }
+          } else {
+             if (cta_link_of_the_page){
+               $(elem).on("click", function(){
+                   ga('send', 'event', {
+                        eventCategory: 'Button',
+                        eventAction: 'Click',
+                        eventLabel: cta_link_of_the_page.cta_link_type +  ' page phone footer',
+                        transport: 'beacon'
+                   });
+               });
+             }
+          }
+
+
+        }else{
+          var cta_link = find_cta_link(href);
+          if (cta_link != null){
+            $(elem).on("click", function(){
+              ga('send', 'event', {
+                      eventCategory: 'Website Link',
+                      eventAction: 'Click',
+                      eventLabel: cta_link.cta_link_type,
+                      transport: 'beacon'
+                });
+            });
+          }
+        }
+
+
+      });
+    }
+  }
+
+  if (typeof angular === "undefined") {
+    create_ga_events_for_cta_clicks();
+  } else {
+    angular.element(document).ready(function () {
+      create_ga_events_for_cta_clicks();
+    });
+  }
+
+
+  function triggerShowFooterEvents(){
+    if (window.screen.availWidth < 768){
+        ga('send', 'event', {
+                eventCategory: 'Mobile Footer',
+                eventAction: 'View',
+                eventLabel: '',
+                transport: 'beacon'
+          });
+    }
+  }
+
+</script></body></html>
