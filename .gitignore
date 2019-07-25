@@ -1,0 +1,7 @@
+.README.md.swp
+.env/
+.think.py.swp
+*.swp
+./data/*
+data/
+.mypy_cache
