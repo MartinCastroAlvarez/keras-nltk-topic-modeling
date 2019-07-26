@@ -29,9 +29,9 @@ ACCURACY_METRIC = "accuracy"
 BINARY = "binary"
 RELU = "relu"
 SOFTMAX = "softmax"
-MODEL_PATH = os.path.join("{}_model.json")
-WEIGHTS_PATH = os.path.join("{}_weights.h5")
-PLOT_PATH = os.path.join("{}_loss.png")
+MODEL_PATH = os.path.join("models", "{}_model.json")
+WEIGHTS_PATH = os.path.join("models", "{}_weights.h5")
+PLOT_PATH = os.path.join("models", "{}_loss.png")
 LOSS = "loss"
 VAL_LOSS = "val_loss"
 
