@@ -25,6 +25,7 @@ TOP_CLASSES = 40
 HTML_PATH = os.path.join("html")
 PREDICTIONS_PATH = os.path.join("predictions")
 URLS_PATH = os.path.join("urls.csv")
+MADRID_PATH = os.path.join("madrid.txt"
 
 # Loading labels.
 LABELS = [

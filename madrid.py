@@ -41,7 +41,7 @@ for prediction_filename in os.listdir(PREDICTIONS_PATH):
 
         # Evaluating each line.
         logger.debug("Reading prediction line. | sf_line=%s", line)
-        if line:
+        if line and line.startswith("- "):
 
             # Obtaining label and score.
             label, score = line.split(":")
