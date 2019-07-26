@@ -11,7 +11,7 @@ This app predicts the topic of any given text.
 - [How to make predictions with Keras](https://machinelearningmastery.com/how-to-make-classification-and-regression-predictions-for-deep-learning-models-in-keras/)
 
 ## Training
-![epochs-alt](8000_loss.log)
+![epochs-alt](./8000_loss.png)
 
 ## Usage
 Install the virtual environment.
