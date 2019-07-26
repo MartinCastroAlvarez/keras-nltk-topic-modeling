@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+    <head>
+      
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Copper Vine</title>
+	<!-- Powered by BentoBox http://getbento.com -->
+	<!--
+	___ ___ _  _ _____ ___  ___  _____  __
+	| _ ) __| \| |_   _/ _ \| _ )/ _ \ \/ /
+	| _ \ _|| .` | | || (_) | _ \ (_) >  <
+	|___/___|_|\_| |_| \___/|___/\___/_/\_\
+
+	-->
+		<meta name="description" content="We provide a place for our guests to gather. The best meal you can have is only as good as the people you share it with.">
+		<link rel="icon" href="https://media-cdn.getbento.com/EqgKwNhSUtMUa6PZyPaQ_logo-fav.png">
+	<link rel="canonical" href="https://www.coppervinewine.com/">
+	<meta name="Revisit-After" content="5 Days">
+	<meta name="Distribution" content="Global">
+	<meta name="Rating" content="General">
+		<meta property="og:site_name" content="Copper Vine">
+		<meta property="og:title" content="Copper Vine">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://www.coppervinewine.com/">
+			<meta property="og:description" content="We provide a place for our guests to gather. The best meal you can have is only as good as the people you share it with.">
+			<meta property="og:image" content="https://images.getbento.com/C7Hc0JRQWGKbV9pdqxM9_coppervine-logo-horizontal.png?w=1200&fit=fill&auto=compress,format&h=600&bg=EDEDF1&pad=100">
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:title" content="Copper Vine">
+			<meta name="twitter:description" content="We provide a place for our guests to gather. The best meal you can have is only as good as the people you share it with.">
+			<meta name="twitter:image" content="https://images.getbento.com/C7Hc0JRQWGKbV9pdqxM9_coppervine-logo-horizontal.png?w=1200&fit=fill&auto=compress,format&h=600&bg=EDEDF1&pad=100">
+	<script type="text/javascript" src="https://theme-assets.getbento.com/sensei/6a61c8b.sensei/assets/js/head.min.js"></script>
+	<script type="text/javascript">
+			WebFont.load({typekit: { id : "mdi5gwy" }, google: { families: ["Raleway:600,700,800", "Rubik:300,400,700,900", "Alfa+Slab+One:300,400,700,900"] }});
+		</script>
+			<noscript>
+			    <style type="text/css">
+			    	<link href="https://fonts.googleapis.com/css?family=Raleway:600,700,800|Rubik:300,400,700,900|Alfa+Slab+One:300,400,700,900" rel="stylesheet" type="text/css">
+			    </style>
+			</noscript>
+	
+	<link rel="stylesheet" href="//assets-cdn-refresh.getbento.com/stylesheet/coppervinewine/scss/main.e4a31aaf83d4c368119c9a496df56e70.scss" />
+	    <script type="text/javascript">
+	        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	        ga("create", "UA-123566558-46", "auto");
+	        ga("require", "autotrack");
+	        ga("send", "pageview");
+	    </script>
+	    <script type="text/javascript" src="https://www.google-analytics.com/analytics.js" async></script>
+	<script type="text/javascript">
+	    Modernizr.addTest("maybemobile", function(){ return (Modernizr.touchevents && Modernizr.mq("only screen and (max-width: 768px)")) ? true : false; });
+	</script>
+
+  
+  
+
+  
+  
+  <script>
+	  !function(f,b,e,v,n,t,s)
+	  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+	  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+	  n.queue=[];t=b.createElement(e);t.async=!0;
+	  t.src=v;s=b.getElementsByTagName(e)[0];
+	  s.parentNode.insertBefore(t,s)}(window, document,'script',
+	  'https://connect.facebook.net/en_US/fbevents.js');
+	  fbq('init', '2354817294733820');
+	  fbq('track', 'PageView');
+	</script>
+	<noscript>
+		<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2354817294733820&ev=PageView&noscript=1"/>
+	</noscript>
+	
+
+	
+	
+	<script type="text/javascript">
+			window.Sensei = { settings: { store: { enabled: false, cart_quantity: null }, gmaps: { apikey: "AIzaSyCxtTPdJqQMOwjsbKBO3adqPGzBR1MgC5g", styles: [ { "featureType": "all", "elementType": "labels.text.fill", "stylers": [ { "color": "#333333" }, { "lightness": 40 } ] }, { "featureType": "all", "elementType": "labels.text.stroke", "stylers": [ { "visibility": "on" }, { "color": "#ffffff" }, { "lightness": 16 } ] }, { "featureType": "all", "elementType": "labels.icon", "stylers": [ { "visibility": "off" } ] }, { "featureType": "administrative", "elementType": "geometry.fill", "stylers": [ { "color": "#fefefe" }, { "lightness": 20 } ] }, { "featureType": "administrative", "elementType": "geometry.stroke", "stylers": [ { "color": "#fefefe" }, { "lightness": 17 }, { "weight": 1.2 } ] }, { "featureType": "landscape", "elementType": "geometry", "stylers": [ { "color": "#f5f5f5" }, { "lightness": 20 } ] }, { "featureType": "poi", "elementType": "geometry", "stylers": [ { "color": "#f5f5f5" }, { "lightness": 21 } ] }, { "featureType": "poi.park", "elementType": "geometry", "stylers": [ { "color": "#dedede" }, { "lightness": 21 } ] }, { "featureType": "road.highway", "elementType": "geometry.fill", "stylers": [ { "color": "#ffffff" }, { "lightness": 17 } ] }, { "featureType": "road.highway", "elementType": "geometry.stroke", "stylers": [ { "color": "#ffffff" }, { "lightness": 29 }, { "weight": 0.2 } ] }, { "featureType": "road.arterial", "elementType": "geometry", "stylers": [ { "color": "#ffffff" }, { "lightness": 18 } ] }, { "featureType": "road.local", "elementType": "geometry", "stylers": [ { "color": "#ffffff" }, { "lightness": 16 } ] }, { "featureType": "transit", "elementType": "geometry", "stylers": [ { "color": "#f2f2f2" }, { "lightness": 19 } ] }, { "featureType": "water", "elementType": "geometry", "stylers": [ { "color": "#e9e9e9" }, { "lightness": 17 } ] } ], icon: "https://images.getbento.com/accounts/ab9e772774b9ab65856e6fedcf5989ff/media/images/90253coppervine-maopmarker.png" }, galleries: { autoplay: false, fade: true }, heros: { autoplay_galleries: true }, srcset_enabled: false }, modernizr: window.Modernizr };
+	</script>
+	<!--[if lt IE 9]>
+	    <script type="text/javascript" src="https://theme-assets.getbento.com/sensei/6a61c8b.sensei/assets/assets/js/ltie9.min.js "></script>
+	<![endif] -->
+
+      
+		<script type="application/ld+json">{"potentialAction": [{"object": {"url": "https://www.coppervinewine.com/#action-reservations", "@type": "Reservation", "name": "Table"}, "target": "https://www.coppervinewine.com", "@type": "ReserveAction", "result": {"@type": "Reservation", "name": "Table"}}, {"object": {"@type": "Product", "name": "Mailing List"}, "@type": "SubscribeAction", "target": "https://www.coppervinewine.com"}, {"object": {"@type": "Reservation", "name": "Ticketed Event"}, "@type": "ReserveAction", "target": "https://www.coppervinewine.com"}], "description": "We provide a place for our guests to gather. The best meal you can have is only as good as the people you share it with.", "url": "https://www.coppervinewine.com", "sameAs": ["https://www.instagram.com/CopperVineWinePub/", "https://www.facebook.com/CopperVineWinePub/"], "logo": "https://images.getbento.com/C7Hc0JRQWGKbV9pdqxM9_coppervine-logo-horizontal.png?w=600\u0026fit=max\u0026auto=compress,format\u0026h=600", "subOrganization": {"description": "", "parentOrganization": {"@id": "https://www.coppervinewine.com/#organization", "@type": "Organization"}, "photo": "https://images.getbento.com/accounts/ab9e772774b9ab65856e6fedcf5989ff/media/images/65456copper-plate.png?w=1800\u0026fit=max\u0026auto=compress,format\u0026h=1800", "image": "https://images.getbento.com/accounts/ab9e772774b9ab65856e6fedcf5989ff/media/images/65456copper-plate.png?w=1800\u0026fit=max\u0026auto=compress,format\u0026h=1800", "telephone": "(504) 208-9535", "address": {"name": "Copper Vine", "addressLocality": "New Orleans", "addressRegion": "LA", "streetAddress": "1001 Poydras Street", "postalCode": "70112", "@type": "PostalAddress"}, "hasMap": "https://www.coppervinewine.com/location/copper-vine/", "potentialAction": {"location": {"@id": "https://www.coppervinewine.com/location/copper-vine/#foodestablishment"}, "object": {"@type": "Reservation", "name": "Table at Copper Vine"}, "target": "https://www.coppervinewine.com/location/copper-vine/", "@type": "ReserveAction", "result": {"@type": "Reservation", "name": "Table at Copper Vine"}}, "name": "Copper Vine", "url": "https://www.coppervinewine.com/location/copper-vine/", "@id": "https://www.coppervinewine.com/location/copper-vine/#foodestablishment", "acceptsReservations": "https://www.coppervinewine.com", "location": {"name": "Copper Vine", "addressLocality": "New Orleans", "addressRegion": "LA", "streetAddress": "1001 Poydras Street", "postalCode": "70112", "@type": "PostalAddress"}, "@type": "FoodEstablishment"}, "@context": "http://schema.org", "@id": "https://www.coppervinewine.com/#organization", "@type": "Organization", "name": "Copper Vine"}</script>
+			<script type="application/ld+json">{"url": "https://www.coppervinewine.com", "@context": "http://schema.org", "@id": "https://www.coppervinewine.com/#website", "@type": "WebSite", "name": "Copper Vine"}</script>
+			<script type="application/ld+json">{"url": "https://www.coppervinewine.com", "@context": "http://schema.org", "@id": "https://www.coppervinewine.com/#webpage", "@type": "WebPage", "name": "Copper Vine"}</script>
+
+      
+    </head>
+    <body class="has-hero-intent has-mobi-footer index-template has-nav-address-bar">
+        
+	
+		
+		
+
+		
+			
+	<header class="site-header">
+		<a href="#main-content" class="skip">Skip to main content</a>
+		<div class="site-header-desktop">
+				<div class="site-header-desktop-secondary">
+					<div class="container">
+						<div class="row">
+							
+	
+		<div class="site-location">
+			<a href="http://www.google.com/maps/search/1001%20Poydras%20Street%2C%20New%20Orleans%2C%20LA%2070112"  class="site-location__address" target="_blank" rel="noopener"
+		 data-bb-track-label="Header" data-bb-track="button" data-bb-track-on="click" data-bb-track-action="Click" data-bb-track-category="Address"
+><span>1001 Poydras Street,</span> <span> New Orleans, LA 70112</span></a>
+					<a class="site-location__tel" href="tel:(504) 208-9535"
+		 data-bb-track-label="Header" data-bb-track="button" data-bb-track-on="click" data-bb-track-action="Click" data-bb-track-category="Phone Number"
+>(504) 208-9535</a>
+	    </div>
+
+			      </div>
+		      </div>
+				</div>
+			<div class="site-header-desktop-primary site-header-desktop-primary--floatable" data-header-sticky>
+				<div class="container">
+					
+		<div class="site-logo">
+	        <a class="site-logo__btn" href="/">
+	            
+                <img class="site-logo__expanded" src="https://images.getbento.com/C7Hc0JRQWGKbV9pdqxM9_coppervine-logo-horizontal.png" 
+  
+
+  
+
+  
+    
+      alt="Copper Vine Home"
+    
+  
+ />
+              
+	            
+	        </a>
+	    </div>
+
+				    
+	<nav class="site-nav">
+    <ul class="site-nav-menu" data-menu-type="desktop">
+			
+			<li>
+				<a class="site-nav-link " href="/location/copper-vine/">Visit Us</a>
+			</li>
+			<li class="site-nav-submenu">
+				<button type="button" class="site-nav-link site-nav-submenu-toggle" aria-expanded="false" aria-controls="SubMenu-2">
+					Menus
+				</button>
+				<div id="SubMenu-2" class="sub-menu">
+					<ul>
+							<li>
+								<a href="/menus/#lunch/" >Lunch</a>
+							</li>
+							<li>
+								<a href="/menus/#dinner/" >Dinner</a>
+							</li>
+							<li>
+								<a href="/menus/#brunch/" >Brunch</a>
+							</li>
+							<li>
+								<a href="/menus/#wine-everything-else/" >Wine & Everything Else</a>
+							</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<a class="site-nav-link " href="/news-and-events/">Wine & News</a>
+			</li>
+			<li>
+				<a class="site-nav-link   " href="/dinner-series/">Dinner Series</a>
+			</li>
+			<li>
+				<a class="site-nav-link " href="/private-events/">Private Events</a>
+			</li>
+<li><button data-popup-src="#popup-reservations-form" type="button" class="btn btn-brand-alt" data-popup="inline"  data-bb-track-label="Callout, Header" data-bb-track="button" data-bb-track-on="click" data-bb-track-action="Click" data-bb-track-category="Reservations Trigger Button">Reservations</button></li>
+		</ul>
+  </nav>
+
+				</div>
+			</div>
+		</div>
+	  <div class="site-header-mobi">
+	    
+		<div class="site-logo">
+	        <a class="site-logo__btn" href="/">
+		            
+                  <img src="https://images.getbento.com/C7Hc0JRQWGKbV9pdqxM9_coppervine-logo-horizontal.png" 
+  
+
+  
+
+  
+    
+      alt="Copper Vine Home"
+    
+  
+ />
+                
+		            
+	        </a>
+	    </div>
+
+			
+	
+		<div class="site-location">
+			<a href="http://www.google.com/maps/search/1001%20Poydras%20Street%2C%20New%20Orleans%2C%20LA%2070112"  class="site-location__address" target="_blank" rel="noopener"
+		 data-bb-track-label="Header" data-bb-track="button" data-bb-track-on="click" data-bb-track-action="Click" data-bb-track-category="Address"
+><span>1001 Poydras Street,</span> <span> New Orleans, LA 70112</span></a>
+					<a class="site-location__tel" href="tel:(504) 208-9535"
+		 data-bb-track-label="Header" data-bb-track="button" data-bb-track-on="click" data-bb-track-action="Click" data-bb-track-category="Phone Number"
+>(504) 208-9535</a>
+	    </div>
+
+			
+	    <button type="button" class="nav-toggle-btn" aria-controls="SiteHeaderMobilePanel" aria-expanded="false">
+	      <span class="sr-only">Toggle Navigation</span>
+	      <span class="nav-toggle-btn__line"></span>
+	      <span class="nav-toggle-btn__line"></span>
+	      <span class="nav-toggle-btn__line"></span>
+	    </button>			
+
+	    <div id="SiteHeaderMobilePanel" class="site-header-mobi-panel" role="dialog" aria-modal="true" aria-label="Navigation Menu Modal">
+	      <div class="site-header-mobi-panel__inner">
+					
+	<nav class="site-nav" aria-label="Navigation Menu">
+    <ul class="site-nav-menu" data-menu-type="mobile">
+			
+			<li>
+				<a class="site-nav-link " href="/location/copper-vine/">Visit Us</a>
+			</li>
+			<li class="site-nav-submenu">
+				<button type="button" class="site-nav-link site-nav-submenu-toggle" aria-expanded="false" aria-controls="MobileSubMenu-2">
+					Menus
+				</button>
+				<div id="MobileSubMenu-2" class="sub-menu">
+					<ul>
+							<li>
+								<a href="/menus/#lunch/" >Lunch</a>
+							</li>
+							<li>
+								<a href="/menus/#dinner/" >Dinner</a>
+							</li>
+							<li>
+								<a href="/menus/#brunch/" >Brunch</a>
+							</li>
+							<li>
+								<a href="/menus/#wine-everything-else/" >Wine & Everything Else</a>
+							</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<a class="site-nav-link " href="/news-and-events/">Wine & News</a>
+			</li>
+			<li>
+				<a class="site-nav-link   " href="/dinner-series/">Dinner Series</a>
+			</li>
+			<li>
+				<a class="site-nav-link " href="/private-events/">Private Events</a>
+			</li>
+
+		<li>
+			<a class="site-nav-link" href="/about/">Our Story</a>
+		</li>
+		<li>
+			<a class="site-nav-link" href="https://secure.jobappnetwork.com/apply/c_bhosp/l_en/FOH-Associate--Copper-Vine-job-New-Orleans-LA-US-2328013.html#s"target="_blank" rel="noopener">Careers</a>
+		</li>
+		<li>
+			<a class="site-nav-link" href="/giftcards/">Gift Cards</a>
+		</li>
+		<li>
+			<a class="site-nav-link" href="/contact/">Contact</a>
+		</li>
+<li><button data-popup-src="#popup-newsletter-form" type="button" class="" data-popup="inline" data-bb-track-label="Callout, Header" data-bb-track="button" data-bb-track-on="click" data-bb-track-action="Click" data-bb-track-category="Email Sign Up Trigger Button">Email Signup</button></li>
+		</ul>
+  </nav>
+
+	        
+        <div class="site-social site-social--bordered">
+            <ul class="social-accounts">
+				<li><a href="https://www.facebook.com/CopperVineWinePub/" target="_blank" rel="noopener" data-bb-track-label="Facebook, Header" data-bb-track="button" data-bb-track-on="click" data-bb-track-action="Click" data-bb-track-category="Social Icons"><span class="fa fa-facebook" aria-hidden="true"></span><span class="sr-only">Facebook</span></a></li>
+				<li><a href="https://www.instagram.com/CopperVineWinePub/" target="_blank" rel="noopener" data-bb-track-label="Instagram, Header" data-bb-track="button" data-bb-track-on="click" data-bb-track-action="Click" data-bb-track-category="Social Icons"><span class="fa fa-instagram" aria-hidden="true"></span><span class="sr-only">Instagram</span></a></li>
+		</ul>
+        </div>
+
+        	
+	
+		<div class="site-location">
+			<a href="http://www.google.com/maps/search/1001%20Poydras%20Street%2C%20New%20Orleans%2C%20LA%2070112"  class="site-location__address" target="_blank" rel="noopener"
+		 data-bb-track-label="Header" data-bb-track="button" data-bb-track-on="click" data-bb-track-action="Click" data-bb-track-category="Address"
+><span>1001 Poydras Street,</span> <span> New Orleans, LA 70112</span></a>
+					<a class="site-location__tel" href="tel:(504) 208-9535"
+		 data-bb-track-label="Header" data-bb-track="button" data-bb-track-on="click" data-bb-track-action="Click" data-bb-track-category="Phone Number"
+>(504) 208-9535</a>
+	    </div>
+
+	      </div>
+	      
+	<div class="site-powered-by">
+	    <a href="http://getbento.com/?utm_source=header&amp;utm_campaign=coppervinewine.com" target="_blank" rel="noopener">powered by BentoBox</a>
+	</div>
+
+	    </div>
+	  </div>
+	</header>
+
+		
+
+		<div class="site-content">
+
+			
+			<main class="site-content__main">
+          <h1 class="sr-only">Homepage</h1>
+			  <span id="main-content" class="sr-only">Main content starts here, tab to start navigating</span>
+				
+		
+			
+			<section id="hero" class="hero hero--gallery hero--scrollable hero--fullheight revealable">
+				
+	<div class="hero__content container">
+        
+        <p><img src="https://getbento.imgix.net/accounts/ab9e772774b9ab65856e6fedcf5989ff/media/images/coppervine-logo-copper-white.png?w=1000&fit=max&auto=compress,format&h=1000" class="fr-fic fr-dib" data-filelink="https://getbento.imgix.net/accounts/ab9e772774b9ab65856e6fedcf5989ff/media/images/coppervine-logo-copper-white.png?w=1000&fit=max&auto=compress,format&h=1000"></p>
+        
+	
+		
+
+	
+
+	</div>
+
+				
+	<button type="button" class="hero__scroll-btn arrow-btn arrow-btn--down">
+        <span class="sr-only">Scroll Down to Content</span>
+    </button>
+
+				
+		<div class="gallery gallery--fit gallery--dimmed">
+			
+          
+				<li>
+											
+						<div class="gallery__item gallery__item-fallback" style="background-image: url('https://images.getbento.com/accounts/ab9e772774b9ab65856e6fedcf5989ff/mediausers/custom_fields_galleries/images/GfpAkb68SLON9inxa98f_3e959243c3042f07d57883c774ac4d20b93af1baf4c22335e80acacd48186063-1.jpg?fit=max&w=1800&auto=format,compress');">
+							
+								<img class="sr-only" 
+  
+
+  
+
+  
+    
+      alt="Gallery Slide 1"
+    
+  
+>
+							
+						</div>
+              <span class="sr-only">Slide 1 of 4</span>
+        </li>
+			
+          
+				<li>
+											
+						<div class="gallery__item gallery__item-fallback" style="background-image: url('https://images.getbento.com/accounts/ab9e772774b9ab65856e6fedcf5989ff/mediausers/custom_fields_galleries/images/QenVrsN3QyG3zrdJfLAu_b7635c7b650d6f63bdd09f98a61ede0476631e6e3f97cf6ce37c06ec4fc7e3cb.jpg?fit=max&w=1800&auto=format,compress');">
+							
+								<img class="sr-only" 
+  
+
+  
+
+  
+    
+      alt="Gallery Slide 2"
+    
+  
+>
+							
+						</div>
+              <span class="sr-only">Slide 2 of 4</span>
+        </li>
+			
+          
+				<li>
+											
+						<div class="gallery__item gallery__item-fallback" style="background-image: url('https://images.getbento.com/accounts/ab9e772774b9ab65856e6fedcf5989ff/mediausers/custom_fields_galleries/images/iyY2ZCRRzmDWlopnmkAs_e26d79a2f011dc11209d01b2cfef88cc396b6351105e7fbefef68ccfc891cdfa.jpg?fit=max&w=1800&auto=format,compress');">
+							
+								<img class="sr-only" 
+  
+
+  
+
+  
+    
+      alt="Gallery Slide 3"
+    
+  
+>
+							
+						</div>
+              <span class="sr-only">Slide 3 of 4</span>
+        </li>
+			
+          
+				<li>
+											
+						<div class="gallery__item gallery__item-fallback" style="background-image: url('https://images.getbento.com/accounts/ab9e772774b9ab65856e6fedcf5989ff/mediausers/custom_fields_galleries/images/guSR4RzQeqVxtDKxkO3R_bce_mushroompasta.jpg?fit=max&w=1800&auto=format,compress');">
+							
+								<img class="sr-only" 
+  
+
+  
+
+  
+    
+      alt="Gallery Slide 4"
+    
+  
+>
+							
+						</div>
+              <span class="sr-only">Slide 4 of 4</span>
+        </li>
+			
+	    </div>
+
+				
+			</section>
+
+
+
+				
+		
+				
+		
+		<section class="c-one-col--text content container revealable">
+			<h2>A wine house that’s made for the public. </h2>
+	        
+	    </section>
+
+
+				
+    
+		
+		<section class="c-split c-split--vcenter revealable">
+					
+
+	<div class="c-split__col  c-split__col--alt">
+		<div class="c-split__col-inner">
+				<div class="c-split__content content">
+					<h2 class="h2 c-split__heading">Wine on Tap. And  Lots  of  It!</h2>
+					<p>We have created the most impressive library of tapped wines available in the neighborhood. Only a few steps between you and a perfectly chilled Zinfandel. &nbsp;</p><p>Not a wino? You can even order a classic cocktail or a&nbsp; beer.&nbsp;</p>
+					
+	
+		
+			
+		<a href="/menus" class="btn btn-brand-alt">Discover</a>
+
+
+	
+
+				</div>
+				<div class="c-split__image" 
+  
+
+  
+
+  
+    
+      role="img" aria-label="Wine on Tap. And  Lots  of  It!"
+    
+  
+ style="background-image: url('https://images.getbento.com/accounts/ab9e772774b9ab65856e6fedcf5989ff/media/images/65300marble.png?fit=max&w=1800&auto=format,compress');"></div>
+		</div>
+	</div>
+
+					
+
+	<div class="c-split__col c-split__col--empty">
+		<div class="c-split__col-inner">
+				<div class="c-split__image" 
+  
+
+  
+
+  
+    alt=""
+  
+ style="background-image: url('https://images.getbento.com/accounts/ab9e772774b9ab65856e6fedcf5989ff/media/images/13471Beet_salad-0184.jpg?fit=max&w=1800&auto=format,compress');"></div>
+		</div>
+	</div>
+
+		</section>
+
+
+				
+		<section class="c-tout-overlay c-tout-overlay--dimmed revealable" style="background-image: url('https://images.getbento.com/accounts/ab9e772774b9ab65856e6fedcf5989ff/media/images/69693Brechtel_2018.12.21-225-2.jpg?fit=max&w=1800&auto=format,compress');" >
+		        <div class="container">
+		            <h2 class="h1">Private Dining</h2>
+		            <h3>We provide a place for our guests to GATHER. The best meal you can have is only as good as the people you share it with. </h3>
+		            <p>Host your next special event with us </p>
+		            
+	
+		
+			
+		<a href="private-events" class="btn btn-brand-alt">Inquire Now</a>
+
+
+	
+
+		        </div>
+	    </section>
+
+
+				
+
+
+
+				
+			</main>
+
+			
+					
+
+	<aside class="mobi-footer mobi-footer--sticky">
+	    <ul class="mobi-footer__list">
+				<li class="mobi-footer__item">
+					<a href="tel:(504) 208-9535" class="btn btn-brand btn-block"
+		 data-bb-track-label="Footer" data-bb-track="button" data-bb-track-on="click" data-bb-track-action="Click" data-bb-track-category="Phone Number"
+>Call (504) 208-9535</a>
+				</li>
+				<li class="mobi-footer__item">
+					
+	
+		
+			
+		<button data-popup-src="#popup-reservations-form" type="button" class="btn btn-brand-alt btn-block" data-popup="inline"  data-bb-track-label="Callout, Footer" data-bb-track="button" data-bb-track-on="click" data-bb-track-action="Click" data-bb-track-category="Reservations Trigger Button">Reservations</button>
+
+
+	
+
+				</li>
+	    </ul>
+	</aside>
+
+			
+		</div>
+
+		
+			
+        <footer>
+          <div class="site-footer-desktop">
+                  <div class="site-footer-desktop-primary" data-footer-sticky>
+                      <div class="site-footer-desktop-primary__container container">
+                              <ul class="social-accounts">
+				<li><a href="https://www.facebook.com/CopperVineWinePub/" target="_blank" rel="noopener" data-bb-track-label="Facebook, Footer" data-bb-track="button" data-bb-track-on="click" data-bb-track-action="Click" data-bb-track-category="Social Icons"><span class="fa fa-facebook" aria-hidden="true"></span><span class="sr-only">Facebook</span></a></li>
+				<li><a href="https://www.instagram.com/CopperVineWinePub/" target="_blank" rel="noopener" data-bb-track-label="Instagram, Footer" data-bb-track="button" data-bb-track-on="click" data-bb-track-action="Click" data-bb-track-category="Social Icons"><span class="fa fa-instagram" aria-hidden="true"></span><span class="sr-only">Instagram</span></a></li>
+		</ul>
+                              <nav class="site-nav">
+                                  <ul class="site-nav-menu">
+                                          <li>
+			<a class="site-nav-link" href="/about/">Our Story</a>
+		</li>
+		<li>
+			<a class="site-nav-link" href="https://secure.jobappnetwork.com/apply/c_bhosp/l_en/FOH-Associate--Copper-Vine-job-New-Orleans-LA-US-2328013.html#s"target="_blank" rel="noopener">Careers</a>
+		</li>
+		<li>
+			<a class="site-nav-link" href="/giftcards/">Gift Cards</a>
+		</li>
+		<li>
+			<a class="site-nav-link" href="/contact/">Contact</a>
+		</li>
+                                          <li><button data-popup-src="#popup-newsletter-form" type="button" class="btn btn-brand-alt" data-popup="inline" data-bb-track-label="Callout, Footer" data-bb-track="button" data-bb-track-on="click" data-bb-track-action="Click" data-bb-track-category="Email Sign Up Trigger Button">Email Signup</button></li>
+                                  </ul>
+                              </nav>
+                      </div>
+                  </div>
+                  <div class="site-footer-desktop-secondary">
+                      <div class="site-powered-by">
+	    <a href="http://getbento.com/?utm_source=footer&amp;utm_campaign=coppervinewine.com" target="_blank" rel="noopener">powered by BentoBox</a>
+	</div>
+                  </div>
+          </div>
+        </footer>
+
+		
+	
+
+	
+	
+		
+        
+        
+        
+        <div id="popup-newsletter-form" class="popup popup--form mfp-hide">
+            <form class="js-form-ajax form-alt container-sm" data-form-endpoint="/forms/submit/newsletter/" enctype="multipart/form-data" method="post">
+    <input type='hidden' name='csrfmiddlewaretoken' value='hZ8nOfmv89oGi6Obc3SrPEuIKko45a3Ic5D9AHkZdKknDPguE9hZloKqggshGC3d' />
+    <div style="display: none;">
+        <label>leave this field blank
+            <input type="text" name="comment_body" value="" />
+        </label>
+    </div>
+    
+                <input type="hidden" name="form" value="newsletter">
+                
+		
+		<div data-bb-track-label="Email Sign Up" data-bb-track="form" data-bb-track-on="submit" data-bb-track-action="Submit" data-bb-track-category="Forms" aria-hidden="true"></div>
+
+                <div class="form-header">
+                    <h2 class="h1 form-heading">Email Signup</h2>
+                    
+                  </div>
+                <div class="form-ui">
+                    
+    
+    
+        
+
+        
+            
+    
+<label for="41408" >
+    <i class="error-label"></i>
+    <span class="input-label">First Name</span>
+    
+        <input id="41408" class="form-control" type="text" name="41408" placeholder="First Name" required
+         
+  
+  
+    
+  
+  
+  
+  
+  
+  
+    
+    autocomplete="given-name"
+  
+ aria-describedby="41408-error">
+    
+</label>
+
+
+        
+        
+    
+        
+
+        
+            
+    
+<label for="41409" >
+    <i class="error-label"></i>
+    <span class="input-label">Last Name</span>
+    
+        <input id="41409" class="form-control" type="text" name="41409" placeholder="Last Name" required
+         
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    autocomplete="family-name"
+  
+ aria-describedby="41409-error">
+    
+</label>
+
+
+        
+        
+    
+        
+
+        
+            
+    
+<label for="41410" >
+    <i class="error-label"></i>
+    <span class="input-label">Email</span>
+    
+        <input id="41410" class="form-control" type="email" name="41410" placeholder="Email" required 
+  
+  
+  
+  
+    
+  
+  
+  
+  
+    
+    autocomplete="email"
+  
+ aria-describedby="41410-error">
+    
+</label>
+
+
+        
+        
+    
+
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-brand-alt">Submit</button>
+                    <span class="form-error-msg">Please check errors in the form above</span>
+                </div>
+                <div class="form-success-msg">
+                    <span>Thank you for signing up for email updates!</span>
+                    <button type="button" class="btn btn-brand-alt js-popup-closebtn">Close</button>
+                </div>
+                
+
+  
+
+    
+    
+
+  
+
+  
+
+  
+            
+    </form>
+        </div>
+
+		
+		<div id="popup-reservations-form" class="popup popup--form mfp-hide">
+			<form class="reservations-form form-alt container-sm">
+				
+		
+		<div data-bb-track-label="Reservations" data-bb-track="form" data-bb-track-on="submit" data-bb-track-action="Submit" data-bb-track-category="Forms" aria-hidden="true"></div>
+
+          <div class="form-header"><h2 class="h1 form-heading">Reservations</h2>
+          </div>
+		      <div class="form-ui">
+						<label for="location" class="input--hidden">
+	          	<i class="error-label"></i>
+							<span class="input-label">Location</span>
+							<div class="form-control-group has-icon-right">
+								<select id="location" class="form-control unselected" name="location" required aria-describedby="location-error">
+									<option value="" disabled>Location</option>
+										<option value="site" selected
+												data-reservation-service="opentable"
+												data-reservation-id="1023469"
+												data-reservation-api-key>Copper Vine
+										</option>
+								</select>
+								<span class="form-control-group--icon is-positioned-right" aria-hidden="true">
+									<i class="fa fa-chevron-down"></i>
+								</span>
+							</div>
+	        	</label>
+						<label for="seats">
+							<span class="input-label">Number of People <span class="input-label-optional">- Optional</span></span>
+							<div class="form-control-group has-icon-right">
+								<select id="seats" class="form-control unselected" name="seats">
+									<option value="" selected disabled>Number of People</option>
+									<option value="1">1 Person</option>
+									<option value="2">2 People</option>
+									<option value="3">3 People</option>
+									<option value="4">4 People</option>
+									<option value="5">5 People</option>
+									<option value="6">6 People</option>
+									<option value="7">7 People</option>
+									<option value="8">8+ People</option>
+								</select>
+								<span class="form-control-group--icon is-positioned-right" aria-hidden="true">
+									<i class="fa fa-chevron-down"></i>
+								</span>
+							</div>
+						</label>
+						<label for="date">
+							<i class="error-label"></i>
+							<span class="input-label">Date</span>
+							<div data-react-component="accessible-date-picker"></div>
+						</label>
+						<label for="time">
+							<span class="input-label">Time <span class="input-label-optional">- Optional</span></span>
+							<div class="form-control-group has-icon-left has-icon-right">
+								<span class="form-control-group--icon is-positioned-left" aria-hidden="true">
+									<i class="fa fa-clock-o"></i>
+								</span>
+								<select id="time" class="form-control unselected" name="time">
+									<option value="" selected disabled>Time</option>
+									
+									
+										<option value="2300">11:00 PM</option>
+									
+										<option value="2230">10:30 PM</option>
+									
+										<option value="2200">10:00 PM</option>
+									
+										<option value="2130">9:30 PM</option>
+									
+										<option value="2100">9:00 PM</option>
+									
+										<option value="2030">8:30 PM</option>
+									
+										<option value="2000">8:00 PM</option>
+									
+										<option value="1930">7:30 PM</option>
+									
+										<option value="1900">7:00 PM</option>
+									
+										<option value="1830">6:30 PM</option>
+									
+										<option value="1800">6:00 PM</option>
+									
+										<option value="1730">5:30 PM</option>
+									
+										<option value="1700">5:00 PM</option>
+									
+										<option value="1630">4:30 PM</option>
+									
+										<option value="1600">4:00 PM</option>
+									
+										<option value="1530">3:30 PM</option>
+									
+										<option value="1500">3:00 PM</option>
+									
+										<option value="1430">2:30 PM</option>
+									
+										<option value="1400">2:00 PM</option>
+									
+										<option value="1330">1:30 PM</option>
+									
+										<option value="1300">1:00 PM</option>
+									
+										<option value="1230">12:30 PM</option>
+									
+										<option value="1200">12:00 PM</option>
+									
+										<option value="1130">11:30 AM</option>
+									
+										<option value="1100">11:00 AM</option>
+									
+										<option value="1030">10:30 AM</option>
+									
+										<option value="1000">10:00 AM</option>
+									
+										<option value="0930">9:30 AM</option>
+									
+										<option value="0900">9:00 AM</option>
+									
+										<option value="0830">8:30 AM</option>
+									
+										<option value="0800">8:00 AM</option>
+									
+										<option value="0730">7:30 AM</option>
+									
+										<option value="0700">7:00 AM</option>
+									
+								</select>
+								<span class="form-control-group--icon is-positioned-right" aria-hidden="true">
+									<i class="fa fa-chevron-down"></i>
+								</span>
+							</div>
+						</label>
+		      </div>
+		      <div class="form-actions">
+		        <button type="submit" class="btn btn-brand-alt">Find A Table</button>
+		        <span class="form-error-msg">Please check errors in the form above</span>
+		      </div>
+		      <div class="form-success-msg">
+		        <span>Thanks!</span>
+		      </div>
+				</form>
+			</div>
+
+	
+		
+		<div id="popup-alert" class="popup popup--modal mfp-hide" data-bb-track-label="Alert"data-popup-auto-open="modal">
+			<div class="popup__content">
+				<p><img src="https://images.getbento.com/accounts/ab9e772774b9ab65856e6fedcf5989ff/media/images/CV_INSTA_FeedPost.jpg?w=1000&fit=max&auto=compress,format&h=1000" data-bukketextbukketdraggable="true" data-alt_text="a close up of a bottle" class="fr-fic fr-dib" draggable="true" data-bukket-ext-bukket-draggable="true" alt="a close up of a bottle" style="width: 584px;"><br><a class="btn btn-brand" href="/store/event/august-rose-soiree/">Learn More!</a>&nbsp;</p>
+			</div>
+		</div>
+
+
+
+	
+		<script type="text/javascript" src="https://theme-assets.getbento.com/sensei/6a61c8b.sensei/assets/js/foot.libs.min.js"></script>
+        <script type="text/javascript" src="https://theme-assets.getbento.com/sensei/6a61c8b.sensei/assets/js/bentobox.min.js"></script>
+
+        
+        
+
+	
+  
+  	
+  
+
+        
+    <script type="text/javascript" src="https://assets-cdn.getbento.com/static/analytics/js/bento-analytics.min.8e22d4c747b0.js" data-bentoanalytics='{"account": "coppervinewine", "theme": "sensei", "template": "index.html", "preset": "1555", "indicativeApiKey": "62e150f7-1993-460b-90ab-1bb1bd494ad7", "devMode": false}'></script></body></html>

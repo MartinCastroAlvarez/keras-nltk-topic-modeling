@@ -1,0 +1,230 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"9c985f1cfc","applicationID":"3304521","transactionName":"cw5aF0ALXF9dEx4HAFwAUwJGC0IcTgRfEQRDTkcLXRM=","queueTime":0,"applicationTime":98,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1130.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+    
+    <title>
+      North Park Blocks where we play Mondo Croquet »       Calagator: Portland&#39;s Tech Calendar    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel='search' type='application/opensearchdescription+xml' href='/opensearch.xml'  title='Calagator' />
+
+    <!-- Stylesheets, static -->
+    <link rel="stylesheet" media="all" href="/assets/application-3988b6add2cf724a708819179af2a5915e155f3d512cec818447f15e7a618115.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.ie.css" />
+    <![endif]-->
+
+    <!-- Stylesheets, inserted  -->
+    
+
+    <!-- JavaScripts, static -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDro5ZQaNHU0vcbFlVAILQJZZaq0jUGwvc&amp;sensor=false"></script>
+<script src="/assets/leaflet_google_layer-013f2a2d4f9b8c4cb7d7997cd41858e75cf159c7a1b2a86c6e416cbdf506970a.js"></script>
+    <script src="/assets/application-29ddc48e0f7300b5b21e0560e0ab155c023e9405416c9624e6bbcb552809db5a.js"></script>
+
+    <!-- JavaScripts, inserted -->
+    
+
+    <!-- Auto-discovery, static -->
+    <link rel="alternate" type="application/atom+xml" title="Atom: All Events" href="http://calagator.org/events.atom" />
+
+    <!-- Auto-discovery, inserted -->
+      <link rel="alternate" type="application/x-wiki" title="Edit this page" href="http://calagator.org/venues/202396370/edit" />
+
+
+    <link rel="apple-touch-icon" href="/assets/site-icon-c9cb3e5aa3965fcb649048a4421042abf6ab44728d211449a1c13380659162c7.png" />
+  </head>
+  <body class="venues_show venues_controller ">
+
+    <div id="outer">
+            <div id="global_header">
+        <a id="project_title" href="/">Calagator</a>
+
+        <div id="patreon">
+          <a href="https://www.patreon.com/calagator">Support Calagator on Patreon</a>
+        </div>
+        <div id="top_menu">
+          <div id='app_menu'>
+            <ul>
+                <li class='false'><a href="/events">Events</a></li>
+                <li class='active'><a href="/venues">Venues</a></li>
+            </ul>
+          </div>
+          <div id='project_menu'>
+            <strong>Get Involved:</strong> <a class="first" href="http://calagator.wordpress.com/">Blog</a> | <a href="http://groups.google.com/group/pdx-tech-calendar/">Forum</a> | <a href="https://github.com/calagator/calagator">Code</a>
+            <br />
+            <strong>Something not right?</strong> <a href="https://github.com/calagator/calagator.org/issues">File an issue</a>
+          </div>
+                    <form action="/events/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+            <div id='search_form'>
+            <label for="search_field">Search Events</label>
+              <input type="text" name="query" id="search_field" tabindex="1" />
+            </div>
+</form>
+
+        </div>
+      </div>
+
+
+      
+      <div id="venues_subnav" class="subnav">
+    <ul class="clearfix">
+      <li><a class="venues_show_subnav" href="http://calagator.org/venues">Browse venues</a>
+      </li>
+      <li><a class="venues_show_subnav" href="http://calagator.org/venues/new">Add a venue</a>
+      </li>
+    </ul>
+</div>
+
+      
+
+
+            <div id="content">
+        
+        
+
+
+<div class="single_venue contentbar">
+  <a href="#" id="venue_sidebar_toggle" class="expander_toggle">Export or edit this venue...</a>
+  <div id="venue_sidebar" class='single_view_right sidebar'>
+    <div id='edit_link'>
+      <p>
+        You can <a href="http://calagator.org/venues/202396370/edit">edit</a>
+        or <a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="http://calagator.org/venues/202396370">delete</a>
+        this venue.
+      </p>
+    </div>
+    <hr />
+    <p>Download an <a href="http://calagator.org/venues/202396370.ics">iCalendar file</a> or
+    <a href="webcal://calagator.org/venues/202396370.ics">subscribe to a feed</a> of events at this venue.</p>
+    <hr />
+    <div class="metadata">
+      This item was added directly to Calagator <br /><strong>Monday, July 22, 2019 at 9:41am</strong>.
+    </div>
+  </div>
+
+  <div class="location vcard">
+    <h1 class="fn org">North Park Blocks where we play Mondo Croquet</h1>
+    
+
+      <div class="adr">
+          <div class="street-address">800 NW Everett St</div>
+          <span class="locality">portland</span>,
+          <span class="region">or</span>
+          <span class="postal-code">97209</span>,
+          <span class='country-name'>US</span>
+        (<a href='https://maps.google.com/maps?q=800%20NW%20Everett%20St,%20portland%20or%2097209%20US'>map</a>)
+      </div>
+
+    <div class='info'>
+
+
+
+    </div>
+  </div>
+
+    <div class="description">
+      <p>It's the park blocks</p>
+    </div>
+
+
+  <div id="google_map">
+    <div id="map"></div><script>
+//<![CDATA[
+map("L.Google","ROADMAP","map",[45.52515,-122.6792],14,"green",[{"latitude":"45.52515","longitude":"-122.6792","title":"North Park Blocks where we play Mondo Croquet","popup":"\u003ca href=\"/venues/202396370\"\u003eNorth Park Blocks where we play Mondo Croquet\u003c/a\u003e"}],false);
+//]]>
+</script>
+  </div>
+
+  <div id='events'>
+    <div id='future_events'>
+      <h2>Future events happening here</h2>
+      <ul class='event_list'>
+      <li>
+        <div class='vevent h-event'>
+  <div class='list_date'>
+    <div class='day_of_week'>Sunday</div>
+    Jul 28      2019  </div>
+  <div class='list_content'>
+    <a class='summary p-name u-url' href='http://calagator.org/events/1250474606'>2019 Mondo Croquet World Championships and Mad Hatter Picnic!</a>
+    <div class='event_icons'>
+        
+    </div>
+    <div>
+    <time class="dtstart dt-start" title="2019-07-28T12:00:00" datetime="2019-07-28T12:00:00">noon</time>&ndash;<time class="dtend dt-end" title="2019-07-28T16:00:00" datetime="2019-07-28T16:00:00">4pm</time>      <br/><a class='location p-location h-card' href='http://calagator.org/venues/202396370'>North Park Blocks where we play Mondo Croquet</a>
+    </div>
+      <div class='description e-description'>
+        <p>Mondo Croquet – it's croquet, American style with bowling balls and sledgehammers!</p>
+
+<p>Hey, we've been doing this since 1997, and your gramma says HI!</p>
+
+<p>What:
+Bring a bowling ball and a sledgehammer.  Don’t worry if you don’t have, we’ve got plenty of extras to loan out
+You’ll enjoy yourself more if you’re dressed appropriately in lawn whites, or Mad Hatter gear, or simply appropriately inappropriate.  Peruse some of our photos for ideas.
+Bring along something to share for the picnic and something cold to drink.
+…and you might want a chair.
+It’s a smashing time.  Tell your friends!  Taunt your enemies!</p>
+
+<p>For photos and more info, point your browzah to <a href="http://mondocroquet.com">http://mondocroquet.com</a></p>
+
+<p>We've been getting away with this for 22 years, can you believe it?</p>      </div>
+      <a class="url u-url" rel="nofollow" href="http://www.mondocroquet.com">Website</a>  </div>
+</div>
+
+
+      </li>
+</ul>
+
+    </div>
+
+    <div id='past_events'>
+      <h2>Past events that happened here</h2>
+      <ul class='event_list'>
+    <li class='blank_list'>
+      <i>- No events -</i>
+    </li>
+</ul>
+
+    </div>
+  </div>
+</div>
+
+      </div>
+
+
+            <div id="top_footer">
+        calagator.org
+        1.0.0.rc3
+        &nbsp;
+        &nbsp;
+        &nbsp;
+      </div>
+
+
+    </div>
+
+          <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-168427-7', 'auto');
+        ga('send', 'pageview');
+
+      </script>
+
+
+
+  </body>
+</html>
+

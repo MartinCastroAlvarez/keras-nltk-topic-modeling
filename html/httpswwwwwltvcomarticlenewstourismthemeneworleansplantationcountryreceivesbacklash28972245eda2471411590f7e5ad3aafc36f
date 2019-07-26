@@ -1,0 +1,1154 @@
+
+<!DOCTYPE html>
+<html class="root root_js_disabled">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1170" />
+    <meta name="site" content="wwltv.com" />
+    <script>document.documentElement.classList.remove('root_js_disabled');
+        var tegna = {
+            'hasBeenBlurred': false,
+            'performance': {
+                'beginRender': {
+                    'time': window.performance.now()
+                }
+            }
+        };
+        window.onblur = function () {
+            tegna.hasBeenBlurred = true;
+        };</script>
+    <noscript>
+        <style>
+            * {
+                transition: none !important;
+                animation: none !important;
+            }
+
+            .page__desktop-header {
+                position: static;
+                top: auto;
+                left: auto;
+                right: auto;
+                bottom: auto;
+            }
+
+            .desktop-header__nav-wrapper {
+                z-index: 3;
+                opacity: 0;
+                width: 70px !important;
+                height: 50px !important;
+                transform: translateX(-655px) translateY(23px);
+                transition: none;
+            }
+
+            .desktop-header__navigation_visible_false {
+                transition: none !important;
+                overflow: visible !important;
+            }
+
+            .desktop-header__nav-wrapper:hover {
+                height: auto !important;
+                transform: none;
+                opacity: 1;
+                transition: none;
+            }
+
+                .desktop-header__nav-wrapper:hover .desktop-header__navigation_visible_false {
+                    opacity: 1;
+                    transform: translateX(-670px) translateY(-98px) !important;
+                    padding-top: 100px;
+                }
+
+            .grid__cell[data-columns="12"] .ad,
+            .page__footer .ad__nojs-placeholder {
+                display: none !important;
+            }
+
+            .grid__cell[data-columns="12"] [data-module="ad"] {
+                display: none !important;
+            }
+
+            .grid__module[data-module="headline-list-with-abstract"] .ad__nojs-placeholder {
+                display: none !important;
+            }
+        </style>
+    </noscript>
+    <script>function appendStyle(url) {
+            var sheet = document.createElement("link");
+            sheet.setAttribute("href", url);
+            sheet.setAttribute("rel", "stylesheet");
+            sheet.setAttribute("type", "text/css");
+            document.head.appendChild(sheet);
+        }</script>
+    <script>tegna.performance['stylesheets/start'] = {
+            'time': window.performance.now()
+        }</script>
+    <link rel="stylesheet" href="/Views/dist/styles/modules.min.css?version=3.12.3" />
+    <script>appendStyle('/Views/lib/jquery-ui/jquery-ui.min.css');
+        appendStyle('/Views/lib/jquery-ui/jquery-ui.structure.min.css');
+        appendStyle('/Views/lib/jquery-ui/jquery-ui.theme.min.css');
+        tegna.performance['stylesheets/end'] = {
+            'time': window.performance.now()
+        }</script>
+    <!--[if IE]><link rel="shortcut icon" href="/content/favicon/WWL.png?version=3.12.3"><![endif]-->
+    <link rel="icon" href="/content/favicon/WWL.png?version=3.12.3">
+    <meta property="fb:app_id" content="320026868499582" />
+    <meta property="og:site_name" content="WWL" />
+    <meta property="og:locale" content="en_US" />
+    <meta itemprop="pageType" content="article" />
+    <meta name="description" content="Before the name was picked, a study outright asked people what comes to mind when they hear ‘New Orleans Plantation Country?’" />
+        <script>var tealiumUrl = 'https://tags.tiqcdn.com/utag/tegna/wwl-redesign-desktop/prod/utag.js';
+                var utag_data = {
+                    //Original Set
+                    template_type: "", // ux name for page layout
+                    page_type: "article",
+                    division: "Broadcast",
+                    site_type: "desktop",
+                    page_url: window.location.href,
+                    simplerreach_tags: "",
+                    pathname: "https://www.wwltv.com/article/news/tourism-theme-new-orleans-plantation-country-receives-backlash/289-72245eda-2471-4115-90f7-e5ad3aafc36f",
+                    ad_slots: [],
+                    gpt_network_code: "32805352/la-neworleans-WWL-B3347_DesktopTablet",
+                    //Occurring in Both Sets
+                    section: "news",
+                    subsection: "",
+                    topic: "",
+                    subtopic: "",
+                    content_type: "article",
+                    category: "news",
+                    market: "New Orleans" + ", " + "LA",
+                    //New Set
+                    subcategory: "",
+                    keywords: "WWL, New Orleans, LA, news, local news, breaking news, traffic, weather, sports, events",
+                    document_title: "WWLTV.com",
+                    canonical_url: "https://www.wwltv.com/article/news/river-parish-tourism-theme-new-orleans-plantation-country-receives-backlash/289-72245eda-2471-4115-90f7-e5ad3aafc36f"
+                };</script>
+    <script type="application/ld+json">
+        {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "url": "https://www.wwltv.com",
+        "logo": "https://www.wwltv.com/content/logos/mobile/wwl.png",
+        "sameAs": [
+        "https://www.facebook.com/WWLTV",
+        "https://twitter.com/WWLTV"
+        ]
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "https://www.wwltv.com",
+        "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.wwltv.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+        }
+        }
+    </script>
+    <meta itemprop="datePublished" content="5/11/2019 3:52:39 AM" />
+    <meta itemprop="dateModified" content="5/11/2019 3:52:38 AM" />
+    <meta itemprop="url" content="https://www.wwltv.com/article/news/tourism-theme-new-orleans-plantation-country-receives-backlash/289-72245eda-2471-4115-90f7-e5ad3aafc36f" />
+    <meta itemprop="magnet:custom" name="category" content="news" />
+    <meta property="og:url" content="https://www.wwltv.com/article/news/tourism-theme-new-orleans-plantation-country-receives-backlash/289-72245eda-2471-4115-90f7-e5ad3aafc36f">
+    <meta property="og:title" content="Tourism theme 'New Orleans Plantation Country' receives backlash">
+    <meta property="og:description" content="Before the name was picked, a study outright asked people what comes to mind when they hear ‘New Orleans Plantation Country?’">
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="https://media.wwltv.com/assets/WWL/images/8fbe7d6e-f0d5-4b73-a210-4170b94fdd3c/8fbe7d6e-f0d5-4b73-a210-4170b94fdd3c_1140x641.jpg">
+    <meta property="og:image:width" content="1140" />
+    <meta property="og:image:height" content="641" />
+    <meta property="og:article:published_time" content="5/11/2019 3:52:39 AM" />
+    <meta name="twitter:title" content="Tourism theme 'New Orleans Plantation Country' receives backlash">
+    <meta name="twitter:image:src" content="https://media.wwltv.com/assets/WWL/images/8fbe7d6e-f0d5-4b73-a210-4170b94fdd3c/8fbe7d6e-f0d5-4b73-a210-4170b94fdd3c_360x203.jpg">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="WWLTV">
+    <meta name="twitter:description" content="Before the name was picked, a study outright asked people what comes to mind when they hear ‘New Orleans Plantation Country?’">
+    <meta name="twitter:domain" content="www.wwltv.com">
+    <link rel="canonical" href="https://www.wwltv.com/article/news/river-parish-tourism-theme-new-orleans-plantation-country-receives-backlash/289-72245eda-2471-4115-90f7-e5ad3aafc36f" />
+    <link rel="alternate" href="https://www.wwltv.com/mobile/article/news/tourism-theme-new-orleans-plantation-country-receives-backlash/289-72245eda-2471-4115-90f7-e5ad3aafc36f" />
+    <link rel="amphtml" href="https://www.wwltv.com/amp/article/news/tourism-theme-new-orleans-plantation-country-receives-backlash/289-72245eda-2471-4115-90f7-e5ad3aafc36f" />
+    <script>
+                if (window.utag_data) {
+                    //Original Set
+                    utag_data.video_included = "true";
+                    utag_data.article_date = "5/11/2019 3:52:39 AM";
+                    
+                    utag_data.msj_tag = "";
+                    if ("text" === "text")
+                    {
+                        utag_data.item_number = 1;
+                    }
+                    //Occurring in Both Sets
+                    utag_data.asset_id = "72245eda-2471-4115-90f7-e5ad3aafc36f";
+                    utag_data.article_keywords = "news,st-bernard,local,home";
+                    utag_data.content_title = "Tourism theme 'New Orleans Plantation Country' receives backlash";
+                    utag_data.original_headline = "Tourism theme 'New Orleans Plantation Country' receives backlash";
+                    utag_data.content_categories = "news,st-bernard,local,home";
+                    if ("text" === "text") {
+                        utag_data.content_score = "";
+                    }
+                    utag_data.tracking_tags = "";
+                    //New Set
+                    utag_data.article_byline = "Caresse Jackman";
+                    utag_data.topics_included = "false"; //whether related topics are present, may be able to remove since not using Klangoo
+
+                    if ("" === "video")
+                    {
+                        utag_data.video_included = "true";  //if lead asset is video
+                        utag_data.video_autoplay = "true";  //if lead asset is autoplay
+                    }
+                }
+    </script>
+    <title>Tourism theme 'New Orleans Plantation Country' receives backlash | wwltv.com</title>
+            <style>
+        .fc-pinned-header:after {
+            background: #000000 url('/content/logos/dark/WWL.png') calc(100% - 45px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+        .fc-dialog-header:after {
+            background: #000000 url('/content/logos/dark/WWL.png') calc(100% - 20px) 10px no-repeat;
+            background-size: auto 25px;
+            content: 'Ad blocker detected';
+        }
+    </style>
+        <script>tegna.performance['index-wrapper/start'] = {
+                'time': window.performance.now()
+            }</script>
+    <script src="//js-sec.indexww.com/ht/p/184603-74052362335812.js"></script>
+    <script>tegna.performance['index-wrapper/end'] = {
+                'time': window.performance.now()
+            }</script>
+    <script>if (!window.tgnaA9ApstagLoaded) {
+                tegna.performance['a9/start'] = {
+                    'time': window.performance.now()
+                }
+                try {
+                    !function (a9, a, p, s, t, A, g) {
+                        if (a[a9]) return; function q(c, r) { a[a9]._Q.push([c, r]) } a[a9] = {
+                            init: function () { q("i", arguments) }, fetchBids: function () { q("f", arguments) }, setDisplayBids: function () { }, _Q: []
+                        }; A = p.createElement(s); A.async = !0; A.src = t; g = p.getElementsByTagName(s)[0]; g.parentNode.insertBefore(
+                            A, g)
+                    }("apstag", window, document, "script", "//c.amazon-adsystem.com/aax2/apstag.js");
+                } catch (e) {
+                    console.log('Error loading apstag.js');
+                }
+                tegna.performance['a9/end'] = {
+                    'time': window.performance.now()
+                }
+            }</script>
+        <script>
+        tegna.performance['pageBody/start'] = {
+            'time': window.performance.now()
+        }
+    </script>
+</head>
+    <body id="page"
+          class="page"
+          data-model-siteid="289"
+          data-model-gptid="la-neworleans-WWL-B3347_DesktopTablet"
+          data-model-callletters="WWL"
+          data-model-primarydomain="wwltv.com"
+          data-model-imageresizeurl="https://www.wwltv.com/img/resize/"
+          data-model-imageresizeurl-wx="https://www.wwltv.com/img/wx/resize/"
+          data-model-city="New Orleans"
+          data-model-state="LA"
+          data-model-fban="320026868499582"
+          data-model-refresh="420"
+          data-model-metadata="{
+  &quot;title&quot;: &quot;WWLTV.com&quot;,
+  &quot;keywords&quot;: &quot;WWL, New Orleans, LA, news, local news, breaking news, traffic, weather, sports, events&quot;,
+  &quot;contentType&quot;: &quot;article&quot;,
+  &quot;pageType&quot;: &quot;article&quot;,
+  &quot;continiousScrollSettings&quot;: {
+    &quot;providers&quot;: [
+      &quot;database&quot;,
+      &quot;database&quot;,
+      &quot;database&quot;,
+      &quot;database&quot;,
+      &quot;database&quot;
+    ],
+    &quot;default&quot;: &quot;database&quot;
+  },
+  &quot;platform&quot;: &quot;desktop&quot;
+}"
+          data-model-timezone="Central"
+          data-model-twitterid="WWLTV"
+          data-model-omnitureid="0"
+          data-model-googleanalytics="469"
+          data-model-tealiumgpt="561"
+          data-model-version="3.12.3"
+          data-model-closings="true"
+          data-model-gptnetworkcode="32805352"
+          data-model-comscoreid="19962895"
+          data-model-recaptchasitekey="6LdhZY8UAAAAANQxx8Y6_JJZSJtONlMiM_yiKTah"
+            data-model-cscrollsectionpriority="false"             data-model-ispreview="false">
+        <div id="fb-root"></div>
+            <div class="page__desktop-header">
+
+
+
+<div class="desktop-header desktop-header_collapsed_true desktop-header_show-universal-ad_false"
+     data-model-show-universal-ad="false"
+     data-model-universal-ad-scroll-offset="75">
+    <div class="desktop-header__wrap">
+        <div class="desktop-header__inner">
+            <div class="desktop-header__ad">
+            </div>
+            <div class="desktop-header__main">
+                <div class="desktop-header__toolbar">
+<div class="toolbar">
+    <div class="toolbar__live-indicator">
+<div class="live-indicator live-indicator_collapsed_false">
+                <div class="live-indicator__info live-indicator__info_visible_true">
+                    <div class="live-indicator__cta">
+                        <div class="live-indicator__watch-live">WATCH LIVE</div>
+                        <div class="live-indicator__watch-time">On Air 11:55AM</div>
+                    </div>
+                </div>
+
+</div>
+    </div>
+    <div class="toolbar__weather-summary">
+
+
+<div class="weather-summary">
+    <a class="weather-summary__link" data-tracking="weather-summary/weatherClicked" href="/weather">
+        <div class="weather-summary__icon weather-icons weather-icons_icon_66"></div>
+        <span class="weather-summary__current-temperature">86</span>
+        <div class="weather-summary__location">New Orleans, LA</div>
+        <div class="weather-summary__weather-conditions-container">
+            <p class="weather-summary__weather-conditions">New Orleans Weather Summary: 86 degrees</p>
+        </div>
+    </a>
+</div>
+    </div>
+</div>
+                </div>
+                <div class="desktop-header__nav-button"><div class="desktop-header__nav-label">Menu</div></div>
+                <div class="desktop-header__badges"></div>
+                <a class="desktop-header__home-link desktop-header__home-link_visible_true" href="/" data-tracking="desktop-header/homeLinkClicked">
+                    <img class="desktop-header__logo" src="/content/logos/mobile/wwl.png" />
+                </a>
+                <div class="desktop-header__article-title"></div>
+            </div>
+        </div>
+        <div class="desktop-header__progress desktop-header__progress_visible_false">
+<progress class="progress" value="0"></progress>
+        </div>
+    </div>
+    <div class="desktop-header__nav-wrapper">
+        <div class="desktop-header__navigation desktop-header__navigation_visible_false desktop-header__navigation_collapsed_true">
+
+<div class="navigation navigation_visible_false">
+    <div class="navigation__main">
+    <div class="navigation__main-inner">
+        <div class="navigation__searchbox">
+<div class="searchbox">
+    <form class="searchbox__form" action="/search">
+        <div class="searchbox__main">
+            <input class="searchbox__textbox searchbox__textbox_name_q" name="q" placeholder="Search"/>
+            <button class="searchbox__submit" type="submit"></button>
+        </div>
+        <label class="searchbox__labeled-field">
+            <input class="searchbox__checkbox searchbox__checkbox_name_phrase" type="checkbox" name="phrase" />
+            <span class="searchbox__label">Exact phrase</span>
+        </label>
+    </form>
+</div>
+        </div>
+        <div class="navigation__notification-container">
+            <div class="navigation__notification">
+                <div class="navigation__notification-title">WWL Alert Center</div>
+                <div class="navigation__notification-list">
+                        <a class="navigation__notification-label navigation__notification-label_name_live-videos navigation__notification-label_active_false" data-tracking="navigation/alertCenterClicked" href="/live-video">Live Video</a>
+                                            <a class="navigation__notification-label navigation__notification-label_name_breaking-news navigation__notification-label_active_false" data-tracking="navigation/alertCenterClicked" href="/breaking-news">Breaking<br />News</a>
+                                            <a class="navigation__notification-label navigation__notification-label_name_weather navigation__notification-label_active_false" data-tracking="navigation/alertCenterClicked" href="/severe-weather">Weather</a>
+                                                <a class="navigation__notification-label navigation__notification-label_name_closings navigation__notification-label_active_false" data-tracking="navigation/alertCenterClicked" href="/closings">Delays/<br />Closings</a>
+                </div>
+            </div>
+        </div>
+        <ul class="navigation__sponsored-list">
+            <li class="navigation__sponsored-by">Sponsored by</li>
+            <li class="navigation__sponsored-item">
+                <a class="navigation__sponsored-link" data-tracking="navigation/sponsoredLinkClicked" href="/investigations">
+                    <img class="navigation__sponsored-image" src="https://cdn.tegna-media.com/wwl/assets/352x52-EYEWITNESS-INVESTIGATORS_v2.jpg" alt="Eyewitness Investigators" />
+                    <div class="navigation__sponsored-go-indicator"></div>
+                </a>
+            </li>
+            <li class="navigation__sponsored-item">
+                <a class="navigation__sponsored-link" data-tracking="navigation/sponsoredLinkClicked" href="https://interactive.wwltv.com/downthedrain/">
+                    <img class="navigation__sponsored-image" src="https://cdn.tegna-media.com/wbir/assets/352x52-DowntheDrain.png" alt="Down the Drain" />
+                    <div class="navigation__sponsored-go-indicator"></div>
+                </a>
+            </li>
+            <li class="navigation__sponsored-item">
+                <a class="navigation__sponsored-link" data-tracking="navigation/sponsoredLinkClicked" href="/great-day-louisiana">
+                    <img class="navigation__sponsored-image" src="https://cdn.tegna-media.com/wbir/assets/wwl-great-day-louisiana-352x52.jpg" alt="Great Day Louisiana" />
+                    <div class="navigation__sponsored-go-indicator"></div>
+                </a>
+            </li>
+        </ul>
+        <noscript>
+            <div class="navigation__item navigation__item_children_false" style="border-top:1px solid #e6e6e6">
+                <a class="navigation__sublist-activator" href="/">
+                    <span class="navigation__label">Home</span>
+                </a>
+            </div>
+        </noscript>
+        <ul class="navigation__list">
+                    <li class="navigation__item navigation__item_children_true">
+                        <div class="navigation__sublist-activator">
+                            <span class="navigation__label navigation__label_section_news" href="/news" >News</span>
+                                <span class="navigation__expansion-indicator"></span>
+                        </div>
+                            <ul class="navigation__sublist navigation__sublist_special_true navigation__sublist_visible_false">
+                                            <li class="navigation__subitem navigation__subitem_special_true"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_local navigation__sublink_special_true" href="/local" >Local</a></li>
+                                            <li class="navigation__subitem navigation__subitem_special_true"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_money navigation__sublink_special_true" href="/money" >Money</a></li>
+                                            <li class="navigation__subitem navigation__subitem_special_true"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_entertainment-news navigation__sublink_special_true" href="/entertainment-news" >Entertainment</a></li>
+                                            <li class="navigation__subitem navigation__subitem_special_true"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_news-nationnow navigation__sublink_special_true" href="/nation-now" >Nation World</a></li>
+                                            <li class="navigation__subitem navigation__subitem_special_true"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_news-health navigation__sublink_special_true" href="/health" >Health</a></li>
+                                            <li class="navigation__subitem navigation__subitem_special_true"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_news-politics navigation__sublink_special_true" href="/politics" >Politics</a></li>
+                                            <li class="navigation__subitem navigation__subitem_special_true"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_news-investigations navigation__sublink_special_true" href="/investigations" >Investigative</a></li>
+                            </ul>
+                    </li>
+                    <li class="navigation__item navigation__item_children_true">
+                        <div class="navigation__sublist-activator">
+                            <span class="navigation__label navigation__label_section_weathertraffic" href="/weather/" >Weather &amp; Traffic</span>
+                                <span class="navigation__expansion-indicator"></span>
+                        </div>
+                                <ul class="navigation__sublist navigation__sublist_visible_false">
+
+                                    
+
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_weather" href="/weather" >Current Weather</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_weather-radar" href="/radar" >Radar</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_weather-maps" href="/weather-maps" >Maps</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_weather-7-day" href="/10-day" >Hourly &amp; 10-Day</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_weather-closings" href="/closings" >Closings &amp; Delays</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_weather-huricane" href="/hurricane" >Hurricane</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_weather" href="/marine" >Marine and Boating</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_weather" href="/weathercall" >WeatherCall</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_traffic" href="/traffic" >Traffic</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_traffic~gas-prices" href="/gas-prices" >Gas Prices</a><div class="navigation__go-indicator"></div></li>
+                                </ul>
+                    </li>
+                    <li class="navigation__item navigation__item_children_true">
+                        <div class="navigation__sublist-activator">
+                            <span class="navigation__label navigation__label_section_sports" href="/sports" >Sports</span>
+                                <span class="navigation__expansion-indicator"></span>
+                        </div>
+                                <ul class="navigation__sublist navigation__sublist_visible_false">
+
+                                    
+
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_sports" href="/sports" >Latest Sports</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_sports-nfl-saints" href="/saints" >Saints</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_sports-ncaa-lsu" href="/lsu" >LSU</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_sports-nba-pelicans" href="/pelicans" >Pelicans</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_sports-ncaa-tulane" href="/tulane" >Tulane</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_sports-fishing-reports" href="/fishing" >Fishing Reports</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_sports-high-school-sports-a+-athletes" href="/aplusathletes" >A+ Athletes</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_sports-high-school" href="/hss" >High School</a><div class="navigation__go-indicator"></div></li>
+                                </ul>
+                    </li>
+                    <li class="navigation__item navigation__item_children_true">
+                        <div class="navigation__sublist-activator">
+                            <span class="navigation__label navigation__label_section_shows" href="/evening" >Shows</span>
+                                <span class="navigation__expansion-indicator"></span>
+                        </div>
+                                <ul class="navigation__sublist navigation__sublist_visible_false">
+
+                                    
+
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_entertainment-teleivison-programming-morning-show" href="/mornings" >Eyewitness Morning News</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_entertainment~television~programming~great-day-louisiana" href="/great-day-louisiana" >Great Day Louisiana</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_entertainment~television~mytv" href="/mytv" >MyTV WUPL</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_about-us" href="/tv-listings" >TV Listings</a><div class="navigation__go-indicator"></div></li>
+                                </ul>
+                    </li>
+                    <li class="navigation__item navigation__item_children_true">
+                        <div class="navigation__sublist-activator">
+                            <span class="navigation__label navigation__label_section_features" href="/features" >Features</span>
+                                <span class="navigation__expansion-indicator"></span>
+                        </div>
+                                <ul class="navigation__sublist navigation__sublist_visible_false">
+
+                                    
+
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_news~special-reports~at-the-border" href="/attheborder" >At the Border</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_news~local~clancys-commentaries" href="/clancys-commentaries" >Clancy&#39;s Commentary</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_news-local-contests" href="/contests" >Contests</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_news-crime" href="/crime" >Crime</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_news~local~down-the-drain" href="/down-the-drain" >Down the Drain</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_life-home-garden" href="/gardening" >Gardening</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_news-local-jefferson" href="/jefferson" >Jefferson</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_sponsor-story-la-made-la-proud" href="https://interactive.wwltv.com/lamade/"  target=&quot;_blank&quot;>LA Made LA Proud</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_news-local-lafourche-terrebonne " href="/lafourche-terrebonne" >Lafourche/Terrebonne </a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_entertainment-events-mardi-gras" href="/mardi-gras" >Mardi Gras</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_news-local-northshore" href="/northshore" >Northshore</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_news-local-orleans" href="/orleans" >Orleans</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink" href="https://www.shopdealboss.com/"  target=&quot;_blank&quot;>Shop</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_news-local-verify" href="/verify" >Verify</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_money-business-we-choose-la" href="/wechoosela" >We Choose Lousiana</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_news-crime-taking-a-stand" href="/TakingAStand" >#TakingAStand</a><div class="navigation__go-indicator"></div></li>
+                                </ul>
+                    </li>
+                    <li class="navigation__item navigation__item_children_true">
+                        <div class="navigation__sublist-activator">
+                            <span class="navigation__label navigation__label_section_media" href="/video" >Media</span>
+                                <span class="navigation__expansion-indicator"></span>
+                        </div>
+                                <ul class="navigation__sublist navigation__sublist_visible_false">
+
+                                    
+
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_news" href="/video" >Video</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_news" href="/gallery"  target=&quot;_blank&quot;>Photos</a><div class="navigation__go-indicator"></div></li>
+                                </ul>
+                    </li>
+                    <li class="navigation__item navigation__item_children_true">
+                        <div class="navigation__sublist-activator">
+                            <span class="navigation__label navigation__label_section_connect" href="/connect" >Connect</span>
+                                <span class="navigation__expansion-indicator"></span>
+                        </div>
+                                <ul class="navigation__sublist navigation__sublist_visible_false">
+
+                                    
+
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_about-us-contact-us" href="/contact-us" >Contact Us</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_about-us" href="/about-us" >About Us</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_about-us~advertise" href="/advertise"  target=&quot;_blank&quot;>Advertise With Us</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_about-us" href="/rss" >RSS Feeds</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_about-us" href="https://www.jobs.net/jobs/tegna/en-us/all-jobs/?companyf=WWL"  target=&quot;_blank&quot;>Jobs</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_about-us" href="/meet-the-team" >Meet the Team</a><div class="navigation__go-indicator"></div></li>
+                                                <li class="navigation__subitem"><a data-tracking="navigation/linkClicked" class="navigation__sublink navigation__sublink_section_about-us" href="/email" >Newsletter</a><div class="navigation__go-indicator"></div></li>
+                                </ul>
+                    </li>
+        </ul>
+    </div>
+    </div>
+    <div class="navigation__footer">
+        <div class="navigation__live-indicator">
+        </div>
+        <div class="navigation__social">
+                    <a href="https://www.facebook.com/WWLTV" target="_blank"><div class="navigation__icon navigation__icon_facebook"></div></a>
+
+                    <a href="https://twitter.com/intent/user?screen_name=WWLTV" target="_blank"><div class="navigation__icon navigation__icon_twitter"></div></a>
+
+        </div>
+        <ul class="navigation__extra-links">
+        </ul>
+        <div class="navigation__copyright">&copy; 2019 WWL-TV. All Rights Reserved.</div>
+    </div>
+
+</div>
+        </div>
+    </div>
+</div>
+            </div>
+        
+
+        <div class="page__main page__main_stand-alone_false page__main_show-universal-ad_false">
+            <div class="page__modal-overlay"></div>
+            <div class="page__grid">
+                
+
+<div class="grid">
+            <div class="grid__section-group grid__section-group_theme_default">
+                    <div class="grid__section grid__section_top_true grid__section_sticky_none grid__section_theme_default grid__section_theme-changed_false" data-theme="default">
+                        <div class="grid__gutter">
+                        </div>
+                        <div class="grid__content grid__content_top_true grid__content_theme_default grid__content_theme-changed_false">
+                            <div class="grid__main grid__main_sticky_none">
+                                <div class="grid__cell grid__cell_columns_3" data-columns="12">
+                                    <div class="grid__module grid__module_top_true grid__module_ready_true" data-count="0" data-module="notification" data-module-id="">
+                                        
+                                        <div class="grid__module-inner grid__module-inner_ready_true">
+<div class="alert-bar alert-bar_visible_false">
+    <div class="alert-bar__list">
+    </div>
+    <div class="alert-bar__controls">
+        <div class="alert-bar__close-button"></div>
+        <div class="alert-bar__arrows alert-bar__arrows_visible_false">
+            <div class="alert-bar__arrow alert-bar__arrow_side_left"></div>
+            <div class="alert-bar__arrow alert-bar__arrow_side_right"></div>
+        </div>
+    </div>
+</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__gutter">
+                        </div>
+                    </div>
+
+
+
+                <div class="grid__section grid__section_sticky_left grid__section_theme_default grid__section_theme-changed_false grid__section_previous-theme_default grid__section_next-theme_default" data-theme="default" data-next-theme="default" data-previous-theme="default">
+                    <div class="grid__gutter">
+                        <div class="grid__gutter-content">
+                        </div>
+                    </div>
+                    <div class="grid__content grid__content_theme_default grid__content_theme-changed_false">
+                                <div class="grid__sticky-column grid__sticky-column_side_left">
+                                    <div class="grid__sticky-content" data-columns="4">
+                                            <div class="grid__module grid__module_fast_false" data-track-movement="false" data-module="ad" data-module-id="2d60ed3a-b39c-4bca-9d4c-a1dbd607e57f">
+
+      <div class="ad ad_border_true ad_position_article_atf" id="article_atf" data-model-refresh="30" data-model-refresh-limit="1" data-model-settings="{&quot;ad&quot;:{&quot;name&quot;:&quot;article_atf&quot;,&quot;div&quot;:&quot;article_atf&quot;,&quot;sizes&quot;:[300,250]},&quot;targeting&quot;:{&quot;pgid&quot;:[&quot;72245eda-2471-4115-90f7-e5ad3aafc36f&quot;],&quot;main_front&quot;:[&quot;false&quot;],&quot;pgtype&quot;:[&quot;article&quot;],&quot;video_included&quot;:[&quot;true&quot;]}}"></div>
+    <noscript>
+        <div class="ad__nojs-placeholder" style="height:90px;border:2px solid #e6e6e6"></div>
+    </noscript>
+
+                                            </div>
+                                            <div class="grid__module grid__module_fast_false" data-track-movement="false" data-module="docked-video-slot" data-module-id="d7dfc4a5-4f84-4c70-afda-726d3fc4168f">
+<div class="docked-video-slot">
+    <div class="docked-video-slot__inner"></div>
+</div>
+                                            </div>
+                                    </div>
+                                </div>
+                        <div class="grid__main grid__main_sticky_left">
+                                        <div class="grid__cell grid__cell_columns_2" data-starting-column="5" data-columns="8">
+
+                                            <div class="grid__module grid__module_ready_true" data-track-movement="true" data-count="0" data-module="articles" data-module-id="f3f37245-83dd-402c-b229-87b7f61c4033">
+                                                
+                                                <div class="grid__module-inner grid__module-inner_ready_true">
+
+<div class="article"
+        data-dock-context-for="sharing title"
+        data-model-title="Tourism theme &#39;New Orleans Plantation Country&#39; receives backlash"
+        data-model-article="72245eda-2471-4115-90f7-e5ad3aafc36f"
+        data-model-section="news"
+        data-model-subsection=""
+        data-model-topic=""
+        data-model-subtopic=""
+        data-model-gptId="561" 
+        data-model-omnitureId="0" 
+        data-model-comscoreId="1" 
+        data-model-url="www.wwltv.com/article/news/tourism-theme-new-orleans-plantation-country-receives-backlash/289-72245eda-2471-4115-90f7-e5ad3aafc36f" data-model-id="72245eda-2471-4115-90f7-e5ad3aafc36f" 
+        data-model-gpt="32805352/la-neworleans-WWL-B3347_DesktopTablet"
+        data-model-hasvideo="true"
+        data-model-iscontinuousscroll="false"
+        data-model-categories="news, st-bernard, local, home"
+        data-sharing-target="true"
+        data-sharing-title="Tourism theme &#39;New Orleans Plantation Country&#39; receives backlash"
+        data-sharing-url="www.wwltv.com/article/news/tourism-theme-new-orleans-plantation-country-receives-backlash/289-72245eda-2471-4115-90f7-e5ad3aafc36f"
+        
+        data-model-author=""
+        data-model-keywords="[
+  &quot;news&quot;,
+  &quot;st-bernard&quot;,
+  &quot;local&quot;,
+  &quot;home&quot;
+]"
+>
+    <div class="article__article-story">
+
+    <div class="article-story">
+        <div class="article-story__lead-asset">
+                            <div data-module="video" data-track-off-screen="true" data-track-movement="true">
+<div class="video"
+     data-standalone="false"
+     data-model-origin="clipping"
+     data-video-url="https://www.wwltv.com/video/news/new-orleans-plantation-country-name-gets-backlash/289-eb5a30e2-3ab1-47bc-9b20-5954c082db09"
+     data-grid-track="video"
+     data-model-captions="https://wwl-download.akamaized.net/video/eb5a30e2-3ab1-47bc-9b20-5954c082db09/eb5a30e2-3ab1-47bc-9b20-5954c082db09_vtt.vtt"
+     data-model-apiresponse="{&quot;Id&quot;:&quot;eb5a30e2-3ab1-47bc-9b20-5954c082db09&quot;,&quot;Sources&quot;:[{&quot;Format&quot;:&quot;HLS&quot;,&quot;Path&quot;:&quot;https://wwl-vh.akamaihd.net/i/video/eb5a30e2-3ab1-47bc-9b20-5954c082db09/eb5a30e2-3ab1-47bc-9b20-5954c082db09_,350,640,1000,2000,.mp4.csmil/master.m3u8&quot;,&quot;EncodingRate&quot;:1}],&quot;DateCreated&quot;:&quot;2019-05-11T03:19:33Z&quot;,&quot;SiteUrl&quot;:null,&quot;Image&quot;:&quot;https://media.wwltv.com/assets/WWL/images/8fbe7d6e-f0d5-4b73-a210-4170b94fdd3c/8fbe7d6e-f0d5-4b73-a210-4170b94fdd3c.jpg&quot;,&quot;Title&quot;:&quot;&#39;New Orleans Plantation Country&#39; name gets backlash&quot;,&quot;Description&quot;:null,&quot;Origin&quot;:null,&quot;Advertising&quot;:{&quot;BrightcoveId&quot;:null,&quot;Section&quot;:&quot;news&quot;,&quot;Subsection&quot;:&quot;&quot;,&quot;Topic&quot;:&quot;&quot;,&quot;Subtopic&quot;:&quot;&quot;,&quot;Enabled&quot;:true},&quot;VideoLength&quot;:&quot;164&quot;,&quot;Captions&quot;:&quot;https://wwl-download.akamaized.net/video/eb5a30e2-3ab1-47bc-9b20-5954c082db09/eb5a30e2-3ab1-47bc-9b20-5954c082db09_vtt.vtt&quot;}"
+     data-model-autoplay="autoplay"
+     data-model-dfpid="32805352"
+     data-model-adsize="920x508"
+     data-model-gptid="la-neworleans-WWL-B3347_DesktopTablet"
+     data-model-omnituretag="0"
+     data-model-videosplayedcount="1"
+     data-model-endslate="jwplayer-related-plugin"
+     data-model-embedsbaseurl="https://media.wwltv.com/"
+     data-model-related-playlist-id="ARo0GhrQ"
+     data-model-related-media-id="eTEKriKV"
+     data-model-mute="False">
+            <div class="video__ratio-enforcer">
+            <div class="video__ratio-enforced">
+                <div class="video__inner">
+                    <div class="video__ratio-enforcer">
+                        <div class="video__ratio-enforced" data-aspect-ratio>
+                            <div class="video__player-container">
+                                <div class="video__player"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                <script type="application/ld+json">
+            {
+            "@context": "http://schema.org",
+            "@type": "VideoObject",
+            "name": "&#39;New Orleans Plantation Country&#39; name gets backlash",
+            "description": "&quot;They paid a lot of money for a study and they didn&#39;t listen to it,&quot; one resident said.",
+            "thumbnailUrl": "https://media.wwltv.com/assets/WWL/images/8fbe7d6e-f0d5-4b73-a210-4170b94fdd3c/8fbe7d6e-f0d5-4b73-a210-4170b94fdd3c_750x422.jpg",
+            "uploadDate": "5/11/2019 3:19:33 AM",
+            "duration": "164",
+            "contentUrl": "https://www.wwltv.com/video/news/new-orleans-plantation-country-name-gets-backlash/289-eb5a30e2-3ab1-47bc-9b20-5954c082db09",
+            "embedUrl": "https://media.wwltv.com/embeds/video/eb5a30e2-3ab1-47bc-9b20-5954c082db09/iframe"
+            }
+        </script>
+
+</div>
+
+                            </div>
+        </div>
+
+
+
+
+        <h2 class="article-story__category article-story__category_section_news"><a data-tracking="article-story/categoryLinkClicked/news" class="article-story__category-link" href="/section/news">NEWS</a></h2>
+
+
+            <div class="article-story__lead-asset-caption">
+            </div>
+
+        <h1 class="article-story__headline grid__scroll-hook" data-scroll-hook-name="article-story__headline">Tourism theme &#39;New Orleans Plantation Country&#39; receives backlash</h1>
+        <div class="article-story__abstract">
+            Before the name was picked, a study outright asked people what comes to mind when they hear ‘New Orleans Plantation Country?’
+        </div>
+        
+    </div>
+    <script type="application/ld+json">
+        {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.wwltv.com/article/news/tourism-theme-new-orleans-plantation-country-receives-backlash/289-72245eda-2471-4115-90f7-e5ad3aafc36f"
+        },
+        "headline": "Tourism theme &#39;New Orleans Plantation Country&#39; receives backlash",
+
+            
+                "image" : [],
+            
+
+        "datePublished": "5/11/2019 3:52:39 AM",
+        "dateModified": "5/11/2019 3:52:38 AM",
+        "author": {
+        "@type": "Person",
+        "name": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "WWL",
+        "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.wwltv.com/content/logos/amp/wwl.png",
+        "width": 340,
+        "height": 60
+        }
+        },
+        "description": "Before the name was picked, a study outright asked people what comes to mind when they hear ‘New Orleans Plantation Country?’"
+        }
+    </script>
+
+    </div>
+    <div class="article__story-highlights">
+
+<div class="story-highlights">
+</div>
+    </div>
+    <div class="article__author" data-grid-gutter-top="right">
+
+    <div class="author">
+        <div class="author__container">
+            <div class="author__data">
+                <div class="author__item">
+                    <span class="author__tag">Author: </span>
+                    <span class="author__name">
+Caresse Jackman
+                    </span>
+                </div>
+                <div class="author__item">
+                    <span class="author__tag">Published: </span>
+                            <span class="author__date">
+                                10:52 PM CDT May 10, 2019
+                            </span>
+                </div>
+                <div class="author__item">
+                    <span class="author__tag">Updated: </span>
+                        <span class="author__date">
+                            10:52 PM CDT May 10, 2019
+                        </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <div class="article__article-body">
+
+
+    <div class="article-body">
+        <div class="text">
+
+                        <p>NEW ORLEANS — <p dir="ltr">Born and raised in St. James Parish, Antonio Joseph knows all about the history of the area.&nbsp;</p><p dir="ltr">“My family, they come from the Laura Plantation,” Joseph said.&nbsp;</p><p dir="ltr">What he did not know about was there is a new tourism push to get people to visit the river parishes.&nbsp;</p><p dir="ltr">A <strong><u><a href="https://www.youtube.com/watch?v=pgbvoSgn_x8&feature=youtu.be" rel="noopener noreferrer" target="_blank">YouTube clip</a></u>&nbsp;</strong>from the <a href="http://visitnopc.com/" rel="noopener noreferrer" target="_blank"><strong><u>River Parish Tourist Commission</u></strong></a> shows the attraction in a video. The theme: New Orleans Plantation Country.&nbsp;</p>
+      <div class="ad ad_border_true ad_position_article_mid1" id="article_mid1_0" data-model-refresh="none" data-model-refresh-limit="none" data-model-settings="{&quot;ad&quot;:{&quot;name&quot;:&quot;article_mid1&quot;,&quot;div&quot;:&quot;article_mid1_0&quot;,&quot;sizes&quot;:[[300,250],[1,1],[750,570]]},&quot;targeting&quot;:{&quot;pgid&quot;:[&quot;72245eda-2471-4115-90f7-e5ad3aafc36f&quot;],&quot;pgtype&quot;:[&quot;article&quot;],&quot;strnativekey&quot;:[&quot;2YNEkKMk1QC5WsCndTXLDYVB&quot;],&quot;video_included&quot;:[&quot;true&quot;],&quot;ttid&quot;:[&quot;eb5a30e2-3ab1-47bc-9b20-5954c082db09&quot;]}}"></div>
+    <noscript>
+        <div class="ad__nojs-placeholder" style="height:90px;border:2px solid #e6e6e6"></div>
+    </noscript>
+<p dir="ltr">“Oh no, they can’t do it like that. Why you wanna call it something like that?” Joseph said.&nbsp;</p><p dir="ltr"><a href="http://visitnopc.com/" rel="noopener noreferrer" target="_blank"><strong><u>River Parish Tourist Commission</u></strong></a>, which is a state public entity, spent an estimated $50,000 on a study about their tourism brand.&nbsp;</p><p dir="ltr">The study shows the Commission questioned several people, including travel journalists and experts. But many of those surveyed thought using the name ‘New Orleans’ was misleading and inaccurate.&nbsp;</p><p dir="ltr">The study outright asked people what comes to mind when they hear ‘New Orleans Plantation Country?’</p><p dir="ltr">One response was “Racism, slavery, brutality, people trying to cover up the fact that this happened and glorify it as some sort of good ol’ times on the plantation drinking sweet iced tea and singing happy songs when in reality it’s all actual crap and the place is horrid.”&nbsp;</p><p dir="ltr">Harriet Buckner doesn’t like the name either. She feels the commission should have a name that shows what the three river parishes have to offer.&nbsp;</p><p dir="ltr">Eyewitness News reached out to River Parish Tourist Commission Executive Director Buddy Boe. He released the following statement:&nbsp;</p><p dir="ltr"><em>“The study referenced was done to analyze the brand that has been in place since the early 2000s. During the study, interviews, focus groups, online surveys, and local roundtables were held to gather a variety of perspectives. It was decided to expand the narrative of the brand and diversify the messaging to the visitor of what our region offered. Early 2018, our commission approved the brand messaging and marketing plan that was enacted throughout the year and to the present.&nbsp;</em></p><p dir="ltr"><em>Our board is considering a resolution to begin a strategic planning and brand analysis process this summer and fall to inform our marketing and activities of the Commission moving forward.”&nbsp;</em></p>
+      <div class="ad ad_border_true ad_position_article_mid2" id="article_mid2_0" data-model-refresh="none" data-model-refresh-limit="none" data-model-settings="{&quot;ad&quot;:{&quot;name&quot;:&quot;article_mid2&quot;,&quot;div&quot;:&quot;article_mid2_0&quot;,&quot;sizes&quot;:[[300,250],[1,1]]},&quot;targeting&quot;:{&quot;pgid&quot;:[&quot;72245eda-2471-4115-90f7-e5ad3aafc36f&quot;],&quot;pgtype&quot;:[&quot;article&quot;],&quot;strnativekey&quot;:[&quot;2YNEkKMk1QC5WsCndTXLDYVB&quot;],&quot;video_included&quot;:[&quot;true&quot;],&quot;ttid&quot;:[&quot;eb5a30e2-3ab1-47bc-9b20-5954c082db09&quot;]}}"></div>
+    <noscript>
+        <div class="ad__nojs-placeholder" style="height:90px;border:2px solid #e6e6e6"></div>
+    </noscript>
+<p dir="ltr">Whatever comes next, those living in the parishes Eyewitness News spoke with want the name gone, since they say studies show that it was a bad idea from the start.&nbsp;</p><p dir="ltr">On the commission’s website, it does highlight other activities and events taking place in the parish. The name “New Orleans Plantation Country” remains the main theme.&nbsp;</p>            
+        </div>
+    </div>
+
+        <div id="taboola-below-article-thumbnails-2nd-0" data-model-page-type="article" data-model-ad="below_taboola" data-model-mode="thumbnails-h2" data-model-targetType="mix" data-model-placement="Below Article Thumbnails 2nd" data-model-url="http://www.wwltv.com/article/news/tourism-theme-new-orleans-plantation-country-receives-backlash/289-72245eda-2471-4115-90f7-e5ad3aafc36f" class="taboola"></div>
+
+    </div>
+</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                        </div>
+                    </div>
+                    <div class="grid__gutter">
+                        <div class="grid__gutter-content">
+                                        <div class="grid__gutter-module" data-module="sticky-sharing">
+<div class="sticky-sharing">
+    <a data-tracking="sharing/twitterLink" class="sticky-sharing__icon sticky-sharing__icon_type-twitter" href="https://twitter.com/intent/tweet?text=[TITLE]&url=[URL]&via=[USERNAME]" target="_blank">
+    </a>
+    <a class="sticky-sharing__icon sticky-sharing__icon_type-facebook" href="https://www.facebook.com/dialog/share?app_id=[APPID]&display=popup&href=[HREF]&redirect_uri=[REDIRECTURI]" target="_blank">
+    </a>
+
+</div>                                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid__section-group grid__section-group_theme_default">
+
+
+
+                <div class="grid__section grid__section_sticky_none grid__section_theme_default grid__section_theme-changed_false grid__section_previous-theme_default grid__section_next-theme_default" data-theme="default" data-next-theme="default" data-previous-theme="default">
+                    <div class="grid__gutter">
+                        <div class="grid__gutter-content">
+                        </div>
+                    </div>
+                    <div class="grid__content grid__content_theme_default grid__content_theme-changed_false">
+                        <div class="grid__main grid__main_sticky_none">
+                                        <div class="grid__cell grid__cell_columns_3" data-starting-column="1" data-columns="12">
+
+                                            <div class="grid__module grid__module_ready_true" data-track-movement="false" data-count="0" data-module="ad" data-module-id="2d60ed3a-b39c-4bca-9d4c-a1dbd607e57f">
+                                                
+                                                <div class="grid__module-inner grid__module-inner_ready_true">
+
+      <div class="ad ad_border_true ad_position_article_flex_btf" id="article_flex_btf" data-model-refresh="none" data-model-refresh-limit="none" data-model-settings="{&quot;ad&quot;:{&quot;name&quot;:&quot;article_flex_btf&quot;,&quot;div&quot;:&quot;article_flex_btf&quot;,&quot;sizes&quot;:[[970,250],[728,90],[1140,286],[1,1]]},&quot;targeting&quot;:{&quot;pgid&quot;:[&quot;72245eda-2471-4115-90f7-e5ad3aafc36f&quot;],&quot;main_front&quot;:[&quot;false&quot;],&quot;pgtype&quot;:[&quot;article&quot;],&quot;video_included&quot;:[&quot;true&quot;]}}"></div>
+    <noscript>
+        <div class="ad__nojs-placeholder" style="height:90px;border:2px solid #e6e6e6"></div>
+    </noscript>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                        </div>
+                    </div>
+                    <div class="grid__gutter">
+                        <div class="grid__gutter-content">
+                        </div>
+                    </div>
+                </div>
+            </div>
+</div>
+
+            </div>
+        </div>
+            <div class="page__footer">
+
+
+<div class="footer">
+    <div class="footer__inner">
+        <div class="footer__social">
+
+<div class="social">
+    <ul class="social__list social__list_align_center">
+        <li class="social__item">
+            <a class="social__link" target="_blank" href="https://www.facebook.com/WWLTV">
+                <span class="social__icon social__icon_type_facebook"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="16" viewBox="0 0 17 16">
+    <image id="Vector_Smart_Object" data-name="Vector Smart Object" width="17" height="16" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAQCAQAAABaOFzUAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfhAhENOQMc/E5OAAAAlklEQVQoz73PMQtBARTF8d+ToiyGV4oSWQ0+gEL5GL6Ewax8G5OdwWozyOYVC4MimwmTAe+xOdu9/e895wSzjZpvioLZ3Q+lY7cHY3s5PbV4ZKnjAhpJyNBFoKuknGS0Rsv0OaZikBvySXHPRjhhpY+BIq+ldyovJ0fh+5esNhauQnUZ4adRwRxVW02Tb3Hf9Eck+kFED4KVHWZAZTHbAAAAAElFTkSuQmCC" />
+</svg></span>
+            </a>
+        </li>
+
+        <li class="social__item">
+            <a class="social__link" target="_blank" href="https://twitter.com/intent/user?screen_name=WWLTV">
+                <span class="social__icon social__icon_type_twitter"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19" height="16" viewBox="0 0 19 16">
+    <image id="Vector_Smart_Object" data-name="Vector Smart Object" width="19" height="16" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAQCAQAAABezYzpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfhAhENNjO9vWItAAABFUlEQVQoz33QPUhbARAA4O89k4qDXRrMIrgFwSkuLlJSea3oVoRu4i4IHerk5Jyhi44uDg4KHS3tg9JBLLQFaSQVERGh0EBpJHFQNJYOJs0PTW66n2+4uyDmkd/aIy1vTr/Pln2Scx3Egw49ddKCHvoiU89vlVVNhDJG7JtsYYv/EElpJa9CVaR89FqqPsp1rHBuNYg5MgquvLGrYN3jNjYU/QritCkbBnSPZFRLGLLlrgcqRTVCRd/19WB7EPpjQaUHe3vP+GrJjy6oYqfByBruwvLRZZOtePdf9E3+PgnrH5sxq9iBfnruppU9EHlprA2deuKsUYReOHDhvWct5M6arONmI2HbB/OmjUsJlBXENjsv/wvGUENgDcdadwAAAABJRU5ErkJggg==" />
+</svg></span>
+            </a>
+        </li>
+
+
+    </ul>
+</div>
+        </div>
+        <div class="footer__menu">
+            <ul class="footer__list">
+                <li class="footer__item"><a class="footer__link" href="https://www.jobs.net/jobs/tegna/en-us/all-jobs/?companyf=WWL" target="_blank">Jobs</a></li>
+                <li class="footer__item"><a class="footer__link" href="/terms" target="_self">Terms of Service</a></li>
+                <li class="footer__item"><a class="footer__link" href="/privacy" target="_self">Privacy Notice</a></li>
+                <li class="footer__item"><a class="footer__link" href="/privacy" target="_self">Your California Privacy Notice</a></li>
+            </ul>
+            <ul class="footer__list">
+                <li class="footer__item"><a class="footer__link" href="/adchoices" target="_self">Ad Choices</a></li>
+                <li class="footer__item"><a class="footer__link" href="/fcc-public-inspection-file" target="_self">FCC Online Public Inspection File</a></li>
+                <li class="footer__item"><a class="footer__link" href="/closed-captioning" target="_self">Closed Caption Procedures</a></li>
+            </ul>
+        </div>
+        <div class="footer__copyright">
+            &copy; 2019 WWL-TV. All Rights Reserved.
+        </div>
+    </div>
+</div>
+
+      <div class="ad ad_border_true ad_position_exit_interstitial" id="exit_interstitial" data-model-refresh="none" data-model-refresh-limit="none" data-model-settings="{&quot;ad&quot;:{&quot;name&quot;:&quot;exit_interstitial&quot;,&quot;div&quot;:&quot;exit_interstitial&quot;,&quot;sizes&quot;:[[1,1]]},&quot;targeting&quot;:{&quot;pgid&quot;:[&quot;72245eda-2471-4115-90f7-e5ad3aafc36f&quot;],&quot;pgtype&quot;:[&quot;article&quot;],&quot;strnativekey&quot;:[&quot;4dPNDJc7gQE6iRM4WJeENXGk&quot;],&quot;video_included&quot;:[&quot;true&quot;],&quot;ttid&quot;:[&quot;eb5a30e2-3ab1-47bc-9b20-5954c082db09&quot;]}}"></div>
+    <noscript>
+        <div class="ad__nojs-placeholder" style="height:90px;border:2px solid #e6e6e6"></div>
+    </noscript>
+            </div>
+        <script>
+            tegna.performance['pageBody/end'] = {
+                'time': window.performance.now()
+            }
+            tegna.performance.loadingModules = {
+                'time': window.performance.now()
+            }
+        </script>
+        <script src="/scripts/require-2.3.3.min.js"></script>
+        <script id="tegna_loadmodulesscript" data-suppress-modules="false">
+
+            (function () {
+                var modules;
+                var suppressModules = document.getElementById('tegna_loadmodulesscript').getAttribute('data-suppress-modules') === 'true' ? true : false;
+
+                if (suppressModules) {
+                    modules = [
+                        'alert-bar',
+                        'error',
+                        'page',
+                        'grid',
+                        'desktop-header',
+                        'toolbar',
+                        'weather-summary',
+                        'navigation',
+                        'throbber',
+                        'utils',
+                        'tegna-utils',
+                        'fitted-headline',
+                        'tracking',
+                        'progress',
+                        'tealium',
+                        'live-indicator',
+                        'taboola',
+                        'ad'
+                    ]
+                } else {
+                    modules = [
+                        'error',
+                        'page',
+                        'grid',
+                        'desktop-header',
+                        'toolbar',
+                        'weather-summary',
+                        'navigation',
+                        'video',
+                        'throbber',
+                        'utils',
+                        'fitted-headline',
+                        'forecast',
+                        'article',
+                        'continuous-scroll',
+                        'sharing',
+                        'gallery',
+                        'radar-gallery',
+                        'forecast',
+                        'article-crosspromo',
+                        'featured-videos',
+                        'chapter-slider',
+                        'pollen',
+                        'olympics-live-stream',
+                        'three-day-outlook',
+                        'current-weather',
+                        'search-results',
+                        'tracking',
+                        'chapter-progress',
+                        'progress',
+                        'countdown-clock',
+                        'longform-explore',
+                        'media-gallery',
+                        'social-sharing',
+                        'weather-alerts',
+                        'weather-interactive-radar',
+                        'closings',
+                        'tealium',
+                        'alert-bar',
+                        'cookie',
+                        'sticky-sharing',
+                        'live-indicator',
+                        'sharethrough',
+                        'taboola',
+                        'elections',
+                        'just-for-you',
+                        'just-for-you-li',
+                        'olympics-tv-listings',
+                        'headline-list-with-abstract',
+                        'text-only-headline-list',
+                        'story-snapshot-with-abstract',
+                        'snapshot',
+                        'story-snapshot',
+                        'special-content-headline-list',
+                        'notfound',
+                        'linked-image',
+                        'article-recirculation',
+                        'linked-image-with-title',
+                        'newsletter-signup',
+                        'linked-image-with-title',
+                        'newsletter-signup-multiple',
+                        'live-videos',
+                        'breaking-news',
+                        'weather-alerts',
+                        'closings',
+                        'media-gallery-alt',
+                        'alert-center-menu',
+                        'trending-list',
+                        'toc',
+                        'featured-radars',
+                        'searchbox',
+                        'hot-races',
+                        'recirculation',
+                        'photo',
+                        'video-youtube',
+                        'newsletter'
+                    ];
+                }
+                /*    
+                    var modules = [
+                        'error',
+                        'desktop-header',
+                        'navigation',
+                        'page',
+                        'grid',
+                        'toolbar',
+                        'video',
+                        'throbber',
+                        'utils',
+                        'tegna-utils',
+                        'continuous-scroll',
+                        'gallery',
+                        'tracking',
+                        'tealium',
+                        'sharethrough',
+                        'datasphere',
+                        'iframe',
+                        'photo',
+                        'video-youtube',
+                        'newsletter-signup',
+                        'newsletter-signup-multiple',
+                        'ad'
+                    ]
+                
+
+                    function inArray(needle, haystack) {
+                        var count = haystack.length;
+                        for (var i = 0; i < count; i++) {
+                            if (haystack[i] === needle) { return true; }
+                        }
+                        return false;
+                    }
+
+                    var moduleElements = document.querySelectorAll('[data-module]');
+                    for (var i = 0; i < moduleElements.length; ++i) {
+                        (function () {
+                            var thisModuleName = moduleElements[i].getAttribute('data-module');
+                            if (!inArray(thisModuleName, modules)) {
+                                modules.push(thisModuleName);
+                            }
+                        })();
+                    }
+
+                    console.log('===== loading modules: ', modules);
+                */
+            require.config({
+                'baseUrl': '/',
+                'deps': modules,
+                'waitSeconds': 30,
+                'bundles': {
+                    'modules': modules
+                },
+                'paths': {
+                    'jquery': 'scripts/jquery-3.1.1.min',
+                    'jwplayer': 'content/player/jwplayer.js?version=3.12.3',
+                    'modules': 'Views/dist/scripts/modules.min.js?version=3.12.3',
+                    'facebook': 'https://connect.facebook.net/en_US/all',
+                    'twitter': 'https://platform.twitter.com/widgets',
+                    'slick': 'content/libs/slick/slick.min',
+                    'dotdotdot': 'content/libs/dotdotdot/jquery.dotdotdot.min',
+                    'jqueryui': 'Views/lib/jquery-ui/jquery-ui.min',
+                    'comscore': 'content/libs/comscore/comscore.min',
+                    'stickyfill': 'content/libs/stickyfill/stickyfill.min',
+                    'youtube': 'https://www.youtube.com/iframe_api?noext'
+                },
+                'shim': {
+                    'facebook': {
+                        'exports': 'FB'
+                    },
+                    'twitter': {
+                        'exports': 'twttr'
+                    },
+                    'youtube': {
+                        'exports': 'YT'
+                    },
+                    'jwplayer': ['jquery'],
+                    'jqueryui': {
+                        'deps': ['jquery']
+                    },
+                    'slick': ['jquery'],
+                    'dotdotdot': ['jquery']
+                }
+            });
+        })();
+        </script>
+
+            <script>
+                tegna.performance['recaptcha/start'] = {
+                    'time': window.performance.now()
+                }
+            </script>
+            <script src="https://www.google.com/recaptcha/api.js?onload=recaptchaCallback&render=explicit" async defer></script>
+            <script type="text/javascript">
+                var recaptchaCallback = function () {
+                    window.grecaptcha = grecaptcha;
+                    tegna.performance['recaptcha/end'] = {
+                        'time': window.performance.now()
+                    }
+                }
+            </script>
+            <script type="text/javascript" src="//cloudfront.loggly.com/js/loggly.tracker-latest.min.js" async></script>
+            <noscript>
+                <style>
+                    .grid__module {
+                        height: auto;
+                        opacity: 1;
+                    }
+                </style>
+            </noscript>
+        <script>
+            tegna.performance.syncronousTasksComplete = {
+                'time': window.performance.now()
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,939 @@
+<!doctype html>
+
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:website="http://ogp.me/ns/website" lang="en-US"  class="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    
+    <!-- This is Squarespace. --><!-- sarah-pederson-nxt3 -->
+<base href="">
+<meta charset="utf-8" />
+<title>Saraveza</title>
+<link rel="shortcut icon" type="image/x-icon" href="https://static1.squarespace.com/static/57f5746ff5e2311b1e52d2b4/t/5951852029687f069f0ac949/favicon.ico"/>
+<link rel="canonical" href="http://www.saraveza.com"/>
+<meta property="og:site_name" content="Saraveza"/>
+<meta property="og:title" content="Saraveza"/>
+<meta property="og:url" content="http://www.saraveza.com"/>
+<meta property="og:type" content="website"/>
+<meta property="og:description" content="welcome"/>
+<meta property="og:image" content="http://static1.squarespace.com/static/57f5746ff5e2311b1e52d2b4/t/57f58a6b1b631b26a8bf8f36/1475709547726/saraveza_orangesmall.png?format=1500w"/>
+<meta property="og:image:width" content="250"/>
+<meta property="og:image:height" content="127"/>
+<meta itemprop="name" content="Saraveza"/>
+<meta itemprop="url" content="http://www.saraveza.com"/>
+<meta itemprop="description" content="welcome"/>
+<meta itemprop="thumbnailUrl" content="http://static1.squarespace.com/static/57f5746ff5e2311b1e52d2b4/t/57f58a6b1b631b26a8bf8f36/1475709547726/saraveza_orangesmall.png?format=1500w"/>
+<link rel="image_src" href="http://static1.squarespace.com/static/57f5746ff5e2311b1e52d2b4/t/57f58a6b1b631b26a8bf8f36/1475709547726/saraveza_orangesmall.png?format=1500w" />
+<meta itemprop="image" content="http://static1.squarespace.com/static/57f5746ff5e2311b1e52d2b4/t/57f58a6b1b631b26a8bf8f36/1475709547726/saraveza_orangesmall.png?format=1500w"/>
+<meta name="twitter:title" content="Saraveza"/>
+<meta name="twitter:image" content="http://static1.squarespace.com/static/57f5746ff5e2311b1e52d2b4/t/57f58a6b1b631b26a8bf8f36/1475709547726/saraveza_orangesmall.png?format=1500w"/>
+<meta name="twitter:url" content="http://www.saraveza.com"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:description" content="welcome"/>
+<meta name="description" content="" />
+<script type="text/javascript" src="//use.typekit.net/ik/v20BGMed-fHc0tMjxs8pDySkpz7R0DsP3cNRxmtG1fjfe06ffFHN4UJLFRbh52jhWD9aZR9aF2ZcZRm8wRwUwAJUZQ9kZ24KFg7ZMPG0ShBkjA6lSemqZW4Ddhtld1yXwkoDSWmyScmDSeBRZPoRdhXCdeNRjAUGdaFXOYFyScBGOWg8ZemkShN0OAoti2w0SaBujW48Sagyjh90jhNlOYFyScBhZWTyOcFzdPUaiaS0ShBkjA6lSemqZW4Ddhtld1yXwkoDSWmyScmDSeBRZPoRdhXCiaiaO1FyScBhZWTyOcFzdPJwSY4zpe8ljPu0daZyJ68ciWsuScIlSYbKBhBCiemkdcBXZPu1dasG-AwldcvlwkuqH6qJtKGbMg62JMJ7fbKzMsMMeMb6MKG4fHXgIMMjgKMfH6qJK3IbMg6YJMJ7fbRRHyMMeMX6MKG4fOMgIMMj2KMfH6qJRMIbMg6sJMJ7fbKgmsMgeMS6MKG4fJ4mIMIjIPMfH6qJhBMbMy6IJMHbMpzznw3B.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald:400,300|PT+Serif:700,700i,400i,400"/>
+<script type="text/javascript">SQUARESPACE_ROLLUPS = {};</script>
+<script>(function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//assets.squarespace.com/universal/scripts-compressed/common-3c76df9d7257e2d453db3-min.en-US.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-common');</script>
+<script crossorigin="anonymous" src="//assets.squarespace.com/universal/scripts-compressed/common-3c76df9d7257e2d453db3-min.en-US.js" ></script><script crossorigin="anonymous" src="//assets.squarespace.com/universal/scripts-compressed/performance-bd8b9a850b5dd184c707b-min.en-US.js" defer ></script><script data-name="static-context">Static = window.Static || {}; Static.SQUARESPACE_CONTEXT = {"facebookAppId":"314192535267336","rollups":{"squarespace-announcement-bar":{"css":"//assets.squarespace.com/universal/styles-compressed/announcement-bar-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/announcement-bar-f644e99df45adb3a5b9e9-min.en-US.js"},"squarespace-audio-player":{"css":"//assets.squarespace.com/universal/styles-compressed/audio-player-a57b8f3aa31918104f57a068648fbc63-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/audio-player-50da192cf3f9e5956bd16-min.en-US.js"},"squarespace-blog-collection-list":{"css":"//assets.squarespace.com/universal/styles-compressed/blog-collection-list-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/blog-collection-list-418536904eb0328f1d6bb-min.en-US.js"},"squarespace-calendar-block-renderer":{"css":"//assets.squarespace.com/universal/styles-compressed/calendar-block-renderer-a0cc7f57176bc63d87bc9f4149fada5a-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/calendar-block-renderer-79ebd7cc54ad0ea31ea4b-min.en-US.js"},"squarespace-chartjs-helpers":{"css":"//assets.squarespace.com/universal/styles-compressed/chartjs-helpers-9935a41d63cf08ca108505d288c1712e-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/chartjs-helpers-e3a08e2c8a145d4fecff0-min.en-US.js"},"squarespace-comments":{"css":"//assets.squarespace.com/universal/styles-compressed/comments-1637eb4ee93bed59528921026e024bf4-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/comments-fff2f4b7ec1c8b4c6b9a5-min.en-US.js"},"squarespace-commerce-cart":{"js":"//assets.squarespace.com/universal/scripts-compressed/commerce-cart-97ee3f3e380999d12a6ec-min.en-US.js"},"squarespace-dialog":{"css":"//assets.squarespace.com/universal/styles-compressed/dialog-dcd502a8a4d9cfdf0ea1dc1c4761a2e9-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/dialog-3cbb93e0331eb9ab5b47d-min.en-US.js"},"squarespace-events-collection":{"css":"//assets.squarespace.com/universal/styles-compressed/events-collection-a0cc7f57176bc63d87bc9f4149fada5a-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/events-collection-11a6467cd37df241a8439-min.en-US.js"},"squarespace-form-rendering-utils":{"js":"//assets.squarespace.com/universal/scripts-compressed/form-rendering-utils-bd016f762b3954ef31d08-min.en-US.js"},"squarespace-forms":{"css":"//assets.squarespace.com/universal/styles-compressed/forms-6f75db26ac5a6772b018268d7fb910ca-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/forms-41e8e652d4e58b5ed0388-min.en-US.js"},"squarespace-gallery-collection-list":{"css":"//assets.squarespace.com/universal/styles-compressed/gallery-collection-list-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/gallery-collection-list-f68c06a4154b81a55911c-min.en-US.js"},"squarespace-image-zoom":{"css":"//assets.squarespace.com/universal/styles-compressed/image-zoom-72b0ab7796582588032aa6472e2e2f14-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/image-zoom-d6d4ba4a67fed8d1539f8-min.en-US.js"},"squarespace-pinterest":{"css":"//assets.squarespace.com/universal/styles-compressed/pinterest-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/pinterest-51d649a1c2dbceca81f92-min.en-US.js"},"squarespace-popup-overlay":{"css":"//assets.squarespace.com/universal/styles-compressed/popup-overlay-62c9ec33d6124f4e3c04b78ce135a63e-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/popup-overlay-376babce2246cd3f2f283-min.en-US.js"},"squarespace-product-quick-view":{"css":"//assets.squarespace.com/universal/styles-compressed/product-quick-view-2573bf4ff7704c95ef4221f794e6b6b5-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/product-quick-view-33072b94724c027a3b612-min.en-US.js"},"squarespace-products-collection-item-v2":{"css":"//assets.squarespace.com/universal/styles-compressed/products-collection-item-v2-72b0ab7796582588032aa6472e2e2f14-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/products-collection-item-v2-80db8ada915c74f496e4f-min.en-US.js"},"squarespace-products-collection-list-v2":{"css":"//assets.squarespace.com/universal/styles-compressed/products-collection-list-v2-72b0ab7796582588032aa6472e2e2f14-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/products-collection-list-v2-5ef2ea7a57376bfadfbcb-min.en-US.js"},"squarespace-search-page":{"css":"//assets.squarespace.com/universal/styles-compressed/search-page-ea3e98edb84abbc5e758884f69149027-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/search-page-39048f334bf2bef80bf8c-min.en-US.js"},"squarespace-search-preview":{"js":"//assets.squarespace.com/universal/scripts-compressed/search-preview-fc99122487aab0384bf24-min.en-US.js"},"squarespace-share-buttons":{"js":"//assets.squarespace.com/universal/scripts-compressed/share-buttons-b41fbcd08c21122e6088d-min.en-US.js"},"squarespace-simple-liking":{"css":"//assets.squarespace.com/universal/styles-compressed/simple-liking-9ef41bf7ba753d65ec1acf18e093b88a-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/simple-liking-5b35ae3da0f08073df56b-min.en-US.js"},"squarespace-social-buttons":{"css":"//assets.squarespace.com/universal/styles-compressed/social-buttons-bf7788a87c794b73afd9d5c49f72f4f3-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/social-buttons-5807dac4cbc89f0b716b0-min.en-US.js"},"squarespace-tourdates":{"css":"//assets.squarespace.com/universal/styles-compressed/tourdates-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/tourdates-31f5362edce13cfd5cca4-min.en-US.js"},"squarespace-website-overlays-manager":{"css":"//assets.squarespace.com/universal/styles-compressed/website-overlays-manager-68df56a8135961401cbd590171d6b04a-min.css","js":"//assets.squarespace.com/universal/scripts-compressed/website-overlays-manager-834cc5e509e0c8103facf-min.en-US.js"}},"pageType":1,"website":{"id":"57f5746ff5e2311b1e52d2b4","identifier":"sarah-pederson-nxt3","websiteType":1,"contentModifiedOn":1563239383420,"cloneable":false,"siteStatus":{},"language":"en-US","timeZone":"America/Los_Angeles","machineTimeZoneOffset":-25200000,"timeZoneOffset":-25200000,"timeZoneAbbr":"PDT","siteTitle":"Saraveza","fullSiteTitle":"Saraveza","siteDescription":"","logoImageId":"57f58a6b1b631b26a8bf8f36","shareButtonOptions":{"6":true,"2":true,"4":true,"3":true,"1":true,"5":true,"7":true,"8":true},"logoImageUrl":"//static1.squarespace.com/static/57f5746ff5e2311b1e52d2b4/t/57f58a6b1b631b26a8bf8f36/1563239383420/","authenticUrl":"http://www.saraveza.com","internalUrl":"http://sarah-pederson-nxt3.squarespace.com","baseUrl":"http://www.saraveza.com","primaryDomain":"www.saraveza.com","sslSetting":1,"isHstsEnabled":false,"socialAccounts":[{"serviceId":10,"userId":"190763281","userName":"saravezapdx","screenname":"Saraveza PDX","addedOn":1498587532722,"profileUrl":"http://instagram.com/saravezapdx","iconUrl":"https://scontent.cdninstagram.com/t51.2885-19/s150x150/12912717_253864921625615_1405974055_a.jpg","collectionId":"5952a18c72af65d42974fa3f","iconEnabled":true,"serviceName":"instagram"}],"typekitId":"","statsMigrated":false,"imageMetadataProcessingEnabled":false,"screenshotId":"75de4033","showOwnerLogin":false},"websiteSettings":{"id":"57f5746ff5e2311b1e52d2b7","websiteId":"57f5746ff5e2311b1e52d2b4","subjects":[],"country":"US","state":"OR","simpleLikingEnabled":true,"mobileInfoBarSettings":{"isContactEmailEnabled":false,"isContactPhoneNumberEnabled":false,"isLocationEnabled":false,"isBusinessHoursEnabled":false},"commentLikesAllowed":true,"commentAnonAllowed":true,"commentThreaded":true,"commentApprovalRequired":false,"commentAvatarsOn":true,"commentSortType":2,"commentFlagThreshold":0,"commentFlagsAllowed":true,"commentEnableByDefault":true,"commentDisableAfterDaysDefault":0,"disqusShortname":"","commentsEnabled":false,"storeSettings":{"returnPolicy":null,"termsOfService":null,"privacyPolicy":null,"paymentSettings":{},"expressCheckout":false,"continueShoppingLinkUrl":"/","useLightCart":false,"showNoteField":false,"shippingCountryDefaultValue":"US","billToShippingDefaultValue":false,"showShippingPhoneNumber":true,"isShippingPhoneRequired":false,"showBillingPhoneNumber":true,"isBillingPhoneRequired":false,"currenciesSupported":["CHF","HKD","MXN","EUR","DKK","USD","CAD","MYR","NOK","THB","AUD","SGD","ILS","PLN","GBP","CZK","SEK","NZD","PHP","RUB"],"defaultCurrency":"USD","selectedCurrency":"USD","measurementStandard":1,"showCustomCheckoutForm":false,"enableMailingListOptInByDefault":false,"sameAsRetailLocation":false,"merchandisingSettings":{"scarcityEnabledOnProductItems":false,"scarcityEnabledOnProductBlocks":false,"scarcityMessageType":"DEFAULT_SCARCITY_MESSAGE","scarcityThreshold":10,"multipleQuantityAllowedForServices":true,"restockNotificationsEnabled":false,"relatedProductsEnabled":false},"isLive":false,"multipleQuantityAllowedForServices":true},"useEscapeKeyToLogin":true,"ssBadgeType":1,"ssBadgePosition":4,"ssBadgeVisibility":1,"ssBadgeDevices":1,"pinterestOverlayOptions":{"mode":"disabled"},"ampEnabled":false},"cookieSettings":{"isCookieBannerEnabled":false,"isRestrictiveCookiePolicyEnabled":false,"isRestrictiveCookiePolicyAbsolute":false,"cookieBannerText":"","cookieBannerTheme":"","cookieBannerVariant":"","cookieBannerPosition":"","cookieBannerCtaVariant":"","cookieBannerCtaText":""},"websiteCloneable":false,"collection":{"title":"Welcome","id":"57f67e04b3db2b59dde23c16","fullUrl":"/","type":1},"subscribed":false,"appDomain":"squarespace.com","templateTweakable":true,"tweakJSON":{"aspect-ratio":"Auto","contentBgColor":"rgba(255,255,255,1)","first-index-image-fullscreen":"true","fixed-header":"false","footerBgColor":"#403836","gallery-arrow-style":"No Background","gallery-auto-crop":"true","gallery-autoplay":"false","gallery-design":"Slideshow","gallery-info-overlay":"Show on Hover","gallery-loop":"false","gallery-navigation":"Bullets","gallery-show-arrows":"true","galleryArrowBackground":"rgba(34,34,34,1)","galleryArrowColor":"rgba(255,255,255,1)","galleryAutoplaySpeed":"3","galleryCircleColor":"rgba(255,255,255,1)","galleryInfoBackground":"rgba(0, 0, 0, .7)","galleryThumbnailSize":"100px","gridSize":"350px","gridSpacing":"20px","headerBgColor":"rgba(60,52,47,0.9)","imageOverlayColor":"rgba(46,46,46,0.3)","index-image-height":"Fullscreen","parallax-scrolling":"true","product-gallery-auto-crop":"true","product-image-auto-crop":"true","title--description-alignment":"Center","title--description-position":"Over Image","titleBgColor":"rgba(60,52,47,0.9)","transparent-header":"true"},"templateId":"515c7bd0e4b054dae3fcf003","templateVersion":"7","pageFeatures":[1,2,4],"gmRenderKey":"QUl6YVN5Q0JUUk9xNkx1dkZfSUUxcjQ2LVQ0QWVUU1YtMGQ3bXk4","betaFeatureFlags":["SITE_USER_SERVICE-read-users-from-service","SITE_USER_SERVICE-get-or-create-users-from-service","SITE_USER_SERVICE-get-or-create-users-from-service-skip-fallback","SITE_USER_SERVICE-read-users-from-service-by-email","SITE_USER_SERVICE-update-users-last-shipping-address","SITE_USER_SERVICE-update-users-last-billing-address","SITE_USER_SERVICE-read-users-from-service-by-accountid","SITE_USER_SERVICE-update-users-name","SITE_USER_SERVICE-read-users-from-service-by-websiteId","SITE_USER_SERVICE-add-address-book-entry-from-service","SITE_USER_SERVICE-update-address-book-entry-from-service","SITE_USER_SERVICE-update-accountid-from-service","SITE_USER_SERVICE-delete-address-book-entry-from-service","SITE_USER_SERVICE-delete-note-from-service","SITE_USER_SERVICE-add-note-from-service","SITE_USER_SERVICE-read-note-by-site-user-from-service","SITE_USER_SERVICE-clear-shopping-cart-from-service","SITE_USER_SERVICE-clear-shopping-carts-from-service","SITE_USER_SERVICE-set-shopping-cart-id-from-service","SITE_USER_SERVICE-update-transaction-summaries-from-service","SITE_USER_SERVICE-update-payment-card-from-service","SITE_USER_SERVICE-delete-payment-card-from-service","SITE_USER_SERVICE-delete-tags-by-website-from-service","SITE_USER_SERVICE-get-or-create-tags-from-service","SITE_USER_SERVICE-get-active-tags-from-service","SITE_USER_SERVICE-get-active-tags-by-website-from-service","SITE_USER_SERVICE-update-tags-from-service","SITE_USER_SERVICE-rename-tag-label-from-service","ORDERS-SERVICE-check-digital-good-access-with-service","ORDERS-SERVICE-reset-digital-goods-access-with-service","ORDERS-SERVICE-submit-order-through-service","dg_downloads_from_fastly","product-retriever-v2-enabled","domain_registration_via_registrar_service","domain_locking_via_registrar_service","image_editor_experimental_features","domain_deletion_via_registrar_service","domain_info_via_registrar_service","domain_renewal_via_registrar_service","add_new_page_alt","image_picker","onboarding_wizard","member_email_verified_flag_migration","commerce_custom_sold_out_text"],"impersonatedSession":false,"tzData":{"zones":[[-480,"US","P%sT",null]],"rules":{"US":[[1967,2006,null,"Oct","lastSun","2:00","0","S"],[1987,2006,null,"Apr","Sun>=1","2:00","1:00","D"],[2007,"max",null,"Mar","Sun>=8","2:00","1:00","D"],[2007,"max",null,"Nov","Sun>=1","2:00","0","S"]]}}};</script><script type="text/javascript"> SquarespaceFonts.loadViaContext(); Squarespace.load(window);</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="http://www.saraveza.com/welcome-1?format=RSS" />
+<script type="application/ld+json">{"url":"http://www.saraveza.com","name":"Saraveza","description":"","image":"//static1.squarespace.com/static/57f5746ff5e2311b1e52d2b4/t/57f58a6b1b631b26a8bf8f36/1563239383420/","@context":"http://schema.org","@type":"WebSite"}</script><!--[if gte IE 9]> <link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/57f5746ff5e2311b1e52d2b4/43/515c7bd0e4b054dae3fcf003/57f6706f414fb53f7ae3a66d/2777-05142015/1555966138520/site.css?&filterFeatures=true&part=1"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/57f5746ff5e2311b1e52d2b4/43/515c7bd0e4b054dae3fcf003/57f6706f414fb53f7ae3a66d/2777-05142015/1555966138520/site.css?&filterFeatures=true&part=2"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/57f5746ff5e2311b1e52d2b4/43/515c7bd0e4b054dae3fcf003/57f6706f414fb53f7ae3a66d/2777-05142015/1555966138520/site.css?&filterFeatures=true&part=3"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/57f5746ff5e2311b1e52d2b4/43/515c7bd0e4b054dae3fcf003/57f6706f414fb53f7ae3a66d/2777-05142015/1555966138520/site.css?&filterFeatures=true&part=4"/><![endif]-->
+<!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/57f5746ff5e2311b1e52d2b4/43/515c7bd0e4b054dae3fcf003/57f6706f414fb53f7ae3a66d/2777-05142015/1555966138520/site.css?&filterFeatures=true&noMedia=true&part=1"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/57f5746ff5e2311b1e52d2b4/43/515c7bd0e4b054dae3fcf003/57f6706f414fb53f7ae3a66d/2777-05142015/1555966138520/site.css?&filterFeatures=true&noMedia=true&part=2"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/57f5746ff5e2311b1e52d2b4/43/515c7bd0e4b054dae3fcf003/57f6706f414fb53f7ae3a66d/2777-05142015/1555966138520/site.css?&filterFeatures=true&noMedia=true&part=3"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/57f5746ff5e2311b1e52d2b4/43/515c7bd0e4b054dae3fcf003/57f6706f414fb53f7ae3a66d/2777-05142015/1555966138520/site.css?&filterFeatures=true&noMedia=true&part=4"/><![endif]-->
+<!--[if !IE]> --><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/57f5746ff5e2311b1e52d2b4/43/515c7bd0e4b054dae3fcf003/57f6706f414fb53f7ae3a66d/2777-05142015/1555966138520/site.css?&filterFeatures=true"/><!-- <![endif]-->
+<script>Static.COOKIE_BANNER_CAPABLE = true;</script>
+<!-- End of Squarespace Headers -->
+    <script>
+      Y.Squarespace.FollowButtonUtils = {};
+      Y.Squarespace.FollowButtonUtils.renderAll = function(){};
+    </script>
+  </head>
+
+  <body id="collection-57f67e04b3db2b59dde23c16" class="event-excerpts event-list-date event-list-time event-list-address event-icalgcal-links  events-layout-columns events-width-full gallery-design-slideshow aspect-ratio-auto lightbox-style-dark gallery-navigation-bullets gallery-info-overlay-show-on-hover gallery-arrow-style-no-background gallery-show-arrows gallery-auto-crop    transparent-header parallax-scrolling hide-parallax-nav first-index-image-fullscreen index-image-height-fullscreen image-overlay  title--description-alignment-center title--description-position-over-image  extra-description-formatting description-button-style-outline description-button-corner-style-square  blog-layout-columns blog-width-full  hide-back-to-top-link show-category-navigation  product-list-titles-under product-list-alignment-center product-item-size-11-square product-image-auto-crop product-gallery-size-11-square product-gallery-auto-crop show-product-price show-product-item-nav product-social-sharing newsletter-style-light  opentable-style-dark small-button-style-solid small-button-shape-square medium-button-style-outline medium-button-shape-pill large-button-style-solid large-button-shape-square image-block-poster-text-alignment-center image-block-card-dynamic-font-sizing image-block-card-content-position-center image-block-card-text-alignment-left image-block-overlap-dynamic-font-sizing image-block-overlap-content-position-center image-block-overlap-text-alignment-left image-block-collage-dynamic-font-sizing image-block-collage-content-position-top image-block-collage-text-alignment-left image-block-stack-dynamic-font-sizing image-block-stack-text-alignment-left button-style-solid button-corner-style-square tweak-product-quick-view-button-style-floating tweak-product-quick-view-button-position-bottom tweak-product-quick-view-lightbox-excerpt-display-truncate tweak-product-quick-view-lightbox-show-arrows tweak-product-quick-view-lightbox-show-close-button tweak-product-quick-view-lightbox-controls-weight-light native-currency-code-usd collection-57f67e04b3db2b59dde23c16 collection-type-index collection-layout-default homepage view-list mobile-style-available has-banner-image ">
+
+    <div id="mobileNav" data-content-field="navigation-mobileNav">
+      
+  <nav class="main-nav">
+      <div class="nav-wrapper">
+        <ul class="cf">
+        
+
+          
+
+          
+            <li class="external-link">
+              <a href="/welcome-1"><span>Home</span></a>
+            </li>
+          
+            
+        
+
+          
+            <li class="page-collection">
+
+            
+              <a href="/site/beer"><span>Draft + Bottleshop</span></a>
+            
+            </li>
+          
+
+          
+            
+        
+
+          
+            <li class="page-collection">
+
+            
+              <a href="/site/food"><span>Food</span></a>
+            
+            </li>
+          
+
+          
+            
+        
+
+          
+            <li class="events-collection">
+
+            
+              <a href="/site/events"><span>Upcoming Events</span></a>
+            
+            </li>
+          
+
+          
+            
+        
+
+          
+            <li class="page-collection">
+
+            
+              <a href="/the-bad-habit-room"><span>event space</span></a>
+            
+            </li>
+          
+
+          
+            
+        
+
+          
+            <li class="page-collection">
+
+            
+              <a href="/site/contact"><span>contact</span></a>
+            
+            </li>
+          
+
+          
+            
+        
+
+        
+      </ul>
+    </div>
+  </nav>
+
+    </div>
+
+    <div class="site-wrapper">
+      <div class="site-inner-wrapper">
+
+        
+        <header id="header" class="sqs-announcement-bar-dropzone">
+          <div class="sqs-cart-dropzone"></div>
+          <div class="title-nav-wrapper">
+            
+            <h1 data-content-field="site-title" class="site-title">
+              <a href="/" id="top">
+                
+                 <img src="//static1.squarespace.com/static/57f5746ff5e2311b1e52d2b4/t/57f58a6b1b631b26a8bf8f36/1563239383420/?format=1500w" alt="Saraveza" />
+                
+              </a>
+            </h1>
+            <a class="icon-menu" id="mobileMenu"></a>
+            
+            <!--MAIN NAVIGATION-->
+            <div id="desktopNav" data-content-field="navigation-mainNav" data-annotation-alignment="bottom left">
+              
+  <nav class="main-nav">
+      <div class="nav-wrapper">
+        <ul class="cf">
+        
+
+          
+
+          
+            <li class="external-link">
+              <a href="/welcome-1"><span>Home</span></a>
+            </li>
+          
+            
+        
+
+          
+            <li class="page-collection">
+
+            
+              <a href="/site/beer"><span>Draft + Bottleshop</span></a>
+            
+            </li>
+          
+
+          
+            
+        
+
+          
+            <li class="page-collection">
+
+            
+              <a href="/site/food"><span>Food</span></a>
+            
+            </li>
+          
+
+          
+            
+        
+
+          
+            <li class="events-collection">
+
+            
+              <a href="/site/events"><span>Upcoming Events</span></a>
+            
+            </li>
+          
+
+          
+            
+        
+
+          
+            <li class="page-collection">
+
+            
+              <a href="/the-bad-habit-room"><span>event space</span></a>
+            
+            </li>
+          
+
+          
+            
+        
+
+          
+            <li class="page-collection">
+
+            
+              <a href="/site/contact"><span>contact</span></a>
+            
+            </li>
+          
+
+          
+            
+        
+
+        
+      </ul>
+    </div>
+  </nav>
+
+            </div>
+          </div>
+        </header>
+        
+
+
+        
+        
+          
+          
+          
+          
+        
+        
+
+
+        
+        
+          
+          <section id="content-wrapper" data-content-field="main-content">
+            <nav id="parallax-nav">
+    
+      <a href="#home" id="parallax-nav-item-home"><div class="dot"><span class="nav-title">Saraveza</span></div></a>
+    
+      <a href="#eat-together" id="parallax-nav-item-eat-together"><div class="dot"><span class="nav-title">11am-midnight</span></div></a>
+    
+      <a href="#instagram" id="parallax-nav-item-instagram"><div class="dot"><span class="nav-title">@SaravezaPDX</span></div></a>
+    
+  </nav>
+  
+
+  <div id="parallax-images">
+    
+    <div class="image-container content-fill first" data-url-id="home" data-content-field="main-image">
+      
+        
+        <img data-src="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1483813128551-DT4ZP1WLH7V5TJJ0IJ0M/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/Bar_Beer_Menu.jpg" data-image="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1483813128551-DT4ZP1WLH7V5TJJ0IJ0M/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/Bar_Beer_Menu.jpg" data-image-dimensions="2500x1667" data-image-focal-point="0.5,0.5" alt="Bar_Beer_Menu.jpg"  class="loading" data-load="false" />
+        <div class="image-overlay-wrapper"></div>
+        
+      
+    </div>
+    
+    <div class="image-container content-fill" data-url-id="eat-together" data-content-field="main-image">
+      
+        
+        <img data-src="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1483814256892-9PWCG377YUH6Y6GZHVDL/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/Shop_Front.jpg" data-image="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1483814256892-9PWCG377YUH6Y6GZHVDL/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/Shop_Front.jpg" data-image-dimensions="2500x1667" data-image-focal-point="0.5,0.5" alt="Shop_Front.jpg"  class="loading" data-load="false" />
+        <div class="image-overlay-wrapper"></div>
+        
+      
+    </div>
+    
+    <div class="image-container content-fill" data-url-id="instagram" data-content-field="main-image">
+      
+        
+      
+    </div>
+    
+  </div>
+
+  
+  <div class="parallax-item" data-url-id="home">
+    <div class="title-desc-wrapper over-image  has-main-image first" data-color-suggested="#0b1316">
+
+      
+        
+        <div class="title-desc-image content-fill" data-content-field="main-image">
+          <img data-src="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1483813128551-DT4ZP1WLH7V5TJJ0IJ0M/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/Bar_Beer_Menu.jpg" data-image="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1483813128551-DT4ZP1WLH7V5TJJ0IJ0M/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/Bar_Beer_Menu.jpg" data-image-dimensions="2500x1667" data-image-focal-point="0.5,0.5" alt="Bar_Beer_Menu.jpg"  data-load="false"/>
+          <div class="image-overlay-wrapper"></div>
+        </div>
+        
+      
+
+      <div class="title-desc-inner" data-collection-id="57f67088414fb53f7ae3a6bc" data-edit-main-image="Background">
+        <div class="page-title-wrapper"><h1 class="page-title" data-content-field="title">Saraveza</h1></div>
+        <br> <!-- this keeps the inline-blocks from collapsing -->
+        <div class="page-desc" data-content-field="description"><p>Cold Beer &amp; Fine Food</p></div>
+      </div>
+    <div class="scroll-arrow"><span>SCROLL DOWN</span></div>
+    </div>
+    <div class="content has-main-image has-content">
+    	<div class="content-inner has-content" data-content-field="main-content">
+        <div class="title-desc-wrapper">
+          <div class="title-desc-inner" data-collection-id="57f67088414fb53f7ae3a6bc">
+            <div class="page-title-wrapper"><h1 class="page-title">Saraveza</h1></div>
+            <br> <!-- this keeps the inline-blocks from collapsing -->
+            <div class="page-desc" data-content-field="description"><p>Cold Beer &amp; Fine Food</p></div>
+          </div>
+        </div>
+	      <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1502756149298" id="page-57f67088414fb53f7ae3a6bc"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="row sqs-row"><div class="col sqs-col-5 span-5"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_33_1483813051200_12447"><div class="sqs-block-content">&nbsp;</div></div></div><div class="col sqs-col-2 span-2"><div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-yui_3_17_2_33_1483813051200_10702"><div class="sqs-block-content">
+
+  
+
+    
+      <div class="image-block-outer-wrapper layout-caption-below design-layout-inline   ">
+      
+        <div class="intrinsic" style="max-width:600.0px;">
+          
+            <div style="padding-bottom:141.66665649414062%;" class="image-block-wrapper   has-aspect-ratio" data-description="" >
+              <noscript><img src="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1483814918773-Y3F52NJZ5LEQZIAGP6DO/ke17ZwdGBToddI8pDm48kMdPJzjrOR4dVuNSSirTmd5Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpyLpSwkhu67OW5UKkps9tUBlAQVAlD042xLlJKw26Zd3h36L14Y3xan9-5y8Ww3rik/image-asset.png" alt="" /></noscript><img class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1483814918773-Y3F52NJZ5LEQZIAGP6DO/ke17ZwdGBToddI8pDm48kMdPJzjrOR4dVuNSSirTmd5Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpyLpSwkhu67OW5UKkps9tUBlAQVAlD042xLlJKw26Zd3h36L14Y3xan9-5y8Ww3rik/image-asset.png" data-image="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1483814918773-Y3F52NJZ5LEQZIAGP6DO/ke17ZwdGBToddI8pDm48kMdPJzjrOR4dVuNSSirTmd5Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpyLpSwkhu67OW5UKkps9tUBlAQVAlD042xLlJKw26Zd3h36L14Y3xan9-5y8Ww3rik/image-asset.png" data-image-dimensions="600x850" data-image-focal-point="0.5,0.5" alt="" data-load="false" data-image-id="58713806c534a543f9c72a28" data-type="image" />
+            </div>
+          
+
+          
+
+        </div>
+      
+      </div>
+    
+
+  
+
+
+</div></div></div><div class="col sqs-col-5 span-5"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_33_1483813051200_11894"><div class="sqs-block-content">&nbsp;</div></div></div></div></div></div><div class="row sqs-row"><div class="col sqs-col-1 span-1"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_15_1445716440845_41631"><div class="sqs-block-content">&nbsp;</div></div></div><div class="col sqs-col-10 span-10"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-a115769e7b3ffb1c75d7"><div class="sqs-block-content"><h1 class="text-align-center">Welcome to saraveza</h1><p class="text-align-center">Opened in North Portland in 2008, Saraveza has been pouring craft beer and making American homestyle comfort food for beer lovers, neighbors, friends and Midwest transplants. Stop in and let us pour you a beer from one of our carefully curated taps or help you choose the perfect selection from our bottle shop. Catch our Friday Night Fish Fry, a Packers game,&nbsp;or a Blazers game. Or if you’re short on time, take a six-pack to go. &nbsp;&nbsp;</p></div></div></div><div class="col sqs-col-1 span-1"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_15_1445716440845_42564"><div class="sqs-block-content">&nbsp;</div></div></div></div></div>
+	     </div>
+    </div>
+  </div>
+  
+  <div class="parallax-item" data-url-id="eat-together">
+    <div class="title-desc-wrapper over-image  has-main-image" data-color-suggested="#131c1b">
+
+      
+        
+        <div class="title-desc-image content-fill" data-content-field="main-image">
+          <img data-src="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1483814256892-9PWCG377YUH6Y6GZHVDL/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/Shop_Front.jpg" data-image="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1483814256892-9PWCG377YUH6Y6GZHVDL/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/Shop_Front.jpg" data-image-dimensions="2500x1667" data-image-focal-point="0.5,0.5" alt="Shop_Front.jpg"  data-load="false"/>
+          <div class="image-overlay-wrapper"></div>
+        </div>
+        
+      
+
+      <div class="title-desc-inner" data-collection-id="57f67173440243a162893fce" data-edit-main-image="Background">
+        <div class="page-title-wrapper"><h1 class="page-title" data-content-field="title">11am-midnight</h1></div>
+        <br> <!-- this keeps the inline-blocks from collapsing -->
+        <div class="page-desc" data-content-field="description"><p>every day</p><p><a href="/site/contact">come visit us</a></p></div>
+      </div>
+    
+    </div>
+    <div class="content has-main-image has-content">
+    	<div class="content-inner has-content" data-content-field="main-content">
+        <div class="title-desc-wrapper">
+          <div class="title-desc-inner" data-collection-id="57f67173440243a162893fce">
+            <div class="page-title-wrapper"><h1 class="page-title">11am-midnight</h1></div>
+            <br> <!-- this keeps the inline-blocks from collapsing -->
+            <div class="page-desc" data-content-field="description"><p>every day</p><p><a href="/site/contact">come visit us</a></p></div>
+          </div>
+        </div>
+	      <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1561184934446" id="page-57f67173440243a162893fce"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="row sqs-row"><div class="col sqs-col-3 span-3"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_33_1483813051200_20838"><div class="sqs-block-content">&nbsp;</div></div></div><div class="col sqs-col-6 span-6"><div class="sqs-block image-block sqs-block-image" data-aspect-ratio="32.82937365010799" data-block-type="5" id="block-yui_3_17_2_11_1475768319028_17399"><div class="sqs-block-content"> 
+
+  
+    <div class="image-block-outer-wrapper layout-caption-below combination-animation-none individual-animation-none individual-text-animation-none design-layout-inline">
+    
+      <div class="intrinsic" style="max-width:600.0px;">
+        
+          <div style="padding-bottom:32.82937240600586%;" class="image-block-wrapper   has-aspect-ratio" data-description="" >
+            <noscript><img src="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1483814898105-KOMUSXK8HA50GCWBWP6F/ke17ZwdGBToddI8pDm48kGeSlNFxrcWE8rWarOAmJC5Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpxaSPcSfg_8__CQIlwsEZYdd8DtCUOUlfYHxZCUHAfUgz0RFQy6GPdfNb1KT7gdrsY/Saraveza_Icons_foodtrio.png" alt="Saraveza_Icons_foodtrio.png" /></noscript><img class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1483814898105-KOMUSXK8HA50GCWBWP6F/ke17ZwdGBToddI8pDm48kGeSlNFxrcWE8rWarOAmJC5Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpxaSPcSfg_8__CQIlwsEZYdd8DtCUOUlfYHxZCUHAfUgz0RFQy6GPdfNb1KT7gdrsY/Saraveza_Icons_foodtrio.png" data-image="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1483814898105-KOMUSXK8HA50GCWBWP6F/ke17ZwdGBToddI8pDm48kGeSlNFxrcWE8rWarOAmJC5Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpxaSPcSfg_8__CQIlwsEZYdd8DtCUOUlfYHxZCUHAfUgz0RFQy6GPdfNb1KT7gdrsY/Saraveza_Icons_foodtrio.png" data-image-dimensions="600x202" data-image-focal-point="0.5,0.5" alt="Saraveza_Icons_foodtrio.png" data-load="false" data-image-id="587137f1e58c622f16fbf047" data-type="image" />
+          </div>
+        
+
+        
+
+      </div>
+    
+    </div>
+  
+
+
+</div></div></div><div class="col sqs-col-3 span-3"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_33_1483813051200_20249"><div class="sqs-block-content">&nbsp;</div></div></div></div><div class="row sqs-row"><div class="col sqs-col-6 span-6"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-7d7eaabd3f9afef59f90"><div class="sqs-block-content"><p class="" style="white-space:pre-wrap;">We like our food like we like our beer:&nbsp;fresh, thoughtful and top- notch.&nbsp; We offer our favorite Midwest dishes as well as classic American regional plates. Enjoy pasties, fried cheese curds or our traditional Friday Night Fish Fry. We're open for both lunch and dinner, for here or to-go.</p></div></div></div><div class="col sqs-col-6 span-6"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1413211120546_31872"><div class="sqs-block-content"><p class="" style="white-space:pre-wrap;">We spend several hours a week meeting with local brewers, distributors and brewery reps so we can bring you local favorites and the most sought after beers. We’ve been voted one of “America’s Best Beer Bars” for 6 years in a row by Draft Magazine. Come see why. &nbsp;&nbsp;</p></div></div></div></div><div class="row sqs-row"><div class="col sqs-col-6 span-6"><div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_15_1445716440845_48544"><div class="sqs-block-content">
+<div class="sqs-block-button-container--right" data-alignment="right" data-button-size="large">
+	<a href="/s/Menu_62019.pdf" class="sqs-block-button-element--large sqs-block-button-element" >See Our Menu</a>
+</div></div></div></div><div class="col sqs-col-6 span-6"><div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_4_1475857978204_11880"><div class="sqs-block-content">
+<div class="sqs-block-button-container--left" data-alignment="left" data-button-size="large">
+	<a href="http://fbpage.digitalpour.com/?companyID=51c24092fb890c13d86749af&locationID=1" class="sqs-block-button-element--large sqs-block-button-element" target="_blank">See Our Draft List</a>
+</div></div></div></div></div></div></div></div>
+	     </div>
+    </div>
+  </div>
+  
+  <div class="parallax-item" data-url-id="instagram">
+    <div class="title-desc-wrapper over-image  no-main-image" >
+
+      
+        
+      
+
+      <div class="title-desc-inner" data-collection-id="58238a98e6f2e1ec2138e6c6" data-edit-main-image="Background">
+        <div class="page-title-wrapper"><h1 class="page-title" data-content-field="title">@SaravezaPDX</h1></div>
+        <br> <!-- this keeps the inline-blocks from collapsing -->
+        <div class="page-desc" data-content-field="description"><p><a target="_blank" href="https://twitter.com/Saraveza?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">twitter</a>&nbsp;&nbsp; <a target="_blank" href="https://www.facebook.com/saraveza/">facebook</a></p></div>
+      </div>
+    
+    </div>
+    <div class="content has-content">
+    	<div class="content-inner has-content" data-content-field="main-content">
+        <div class="title-desc-wrapper">
+          <div class="title-desc-inner" data-collection-id="58238a98e6f2e1ec2138e6c6">
+            <div class="page-title-wrapper"><h1 class="page-title">@SaravezaPDX</h1></div>
+            <br> <!-- this keeps the inline-blocks from collapsing -->
+            <div class="page-desc" data-content-field="description"><p><a target="_blank" href="https://twitter.com/Saraveza?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">twitter</a>&nbsp;&nbsp; <a target="_blank" href="https://www.facebook.com/saraveza/">facebook</a></p></div>
+          </div>
+        </div>
+	      <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1498587598330" id="page-58238a98e6f2e1ec2138e6c6"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block instagram-block sqs-block-instagram" data-block-json="&#123;&quot;title&quot;:true,&quot;thumbnail&quot;:true,&quot;excerpt&quot;:true,&quot;pageSize&quot;:9,&quot;filter&quot;:&#123;&#125;,&quot;hSize&quot;:null,&quot;floatDir&quot;:null,&quot;pageCollectionId&quot;:&quot;58238a98e6f2e1ec2138e6c6&quot;,&quot;containingItemId&quot;:null,&quot;connectedAccountId&quot;:&quot;5952a18c72af65d42974fa3f&quot;,&quot;enable-search&quot;:false,&quot;enable-search-disabled&quot;:null,&quot;socialCollectionId&quot;:&quot;&quot;,&quot;previewCollectionId&quot;:&quot;&quot;,&quot;status&quot;:&quot;undefined&quot;,&quot;searchId&quot;:&quot;undefined&quot;,&quot;searchTerm&quot;:&quot;&quot;,&quot;refresh&quot;:null,&quot;show-meta-only-title&quot;:false,&quot;newWindow&quot;:false,&quot;unsafeSearch&quot;:null,&quot;design&quot;:&quot;grid&quot;,&quot;aspectRatio&quot;:null,&quot;auto-crop&quot;:true,&quot;square-thumbs&quot;:true,&quot;aspect-ratio&quot;:&quot;square&quot;,&quot;show-meta&quot;:true,&quot;thumbnails-per-row&quot;:3,&quot;padding&quot;:12,&quot;lightbox&quot;:true,&quot;lightboxTheme&quot;:&quot;dark&quot;,&quot;collectionId&quot;:&quot;5952a18c72af65d42974fa3f&quot;,&quot;vSize&quot;:null&#125;" data-block-type="25" id="block-yui_3_17_2_25_1478722453104_7392"><div class="sqs-block-content">
+
+
+  
+
+  
+
+
+<div class="
+  sqs-gallery-container
+  sqs-gallery-block-grid
+  sqs-gallery-aspect-ratio-square
+  sqs-gallery-thumbnails-per-row-3
+  
+  
+
+  
+    
+    
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+  clear"
+  
+>
+  <div class="sqs-gallery">
+    
+      
+
+        
+
+        
+
+        
+          
+            <div class="slide" data-type="image">
+              <div class="margin-wrapper">
+                <a
+                  
+                    data-title=""
+                    data-description="We've got the AC blasting- beat the heat with some tasty beers! Modern Times is in the house tonight celebrating their 6th anniversary. We have 4 of their beers on tap, including this Berliner Weisse w/guava, cucumber &amp; lime that was made in collaboration with Culmination!!! #saravezapdx #craftnotcrap #aircon #coldbeer #dinnerideas"
+                    data-lightbox-theme="dark"
+                    href="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1564108197466-Q2SWDJ2KQUQJ4IBV2DRN/ke17ZwdGBToddI8pDm48kHem505q6McQd8XRhQc9zkRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpxpEURhgSBEh9ILe0HKIG3CcOCklsxWwam3CdWF6Xw7jwVv5P97BEtB5XaVnmvMtTA/image-asset.jpeg"
+                    
+
+                  class="image-slide-anchor content-fill"
+                >
+                  <noscript><img src="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1564108197466-Q2SWDJ2KQUQJ4IBV2DRN/ke17ZwdGBToddI8pDm48kHem505q6McQd8XRhQc9zkRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpxpEURhgSBEh9ILe0HKIG3CcOCklsxWwam3CdWF6Xw7jwVv5P97BEtB5XaVnmvMtTA/image-asset.jpeg" alt="We've got the AC blasting- beat the heat with some tasty beers! Modern Times is in the house tonight celebrating their 6th anniversary. We have 4 of their beers on tap, including this Berliner Weisse w/guava, cucumber &amp; lime that was made in collaboration with Culmination!!! #saravezapdx #craftnotcrap #aircon #coldbeer #dinnerideas" /></noscript><img class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1564108197466-Q2SWDJ2KQUQJ4IBV2DRN/ke17ZwdGBToddI8pDm48kHem505q6McQd8XRhQc9zkRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpxpEURhgSBEh9ILe0HKIG3CcOCklsxWwam3CdWF6Xw7jwVv5P97BEtB5XaVnmvMtTA/image-asset.jpeg" data-image="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1564108197466-Q2SWDJ2KQUQJ4IBV2DRN/ke17ZwdGBToddI8pDm48kHem505q6McQd8XRhQc9zkRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpxpEURhgSBEh9ILe0HKIG3CcOCklsxWwam3CdWF6Xw7jwVv5P97BEtB5XaVnmvMtTA/image-asset.jpeg" data-image-dimensions="640x800" data-image-focal-point="0.5,0.5" alt="We've got the AC blasting- beat the heat with some tasty beers! Modern Times is in the house tonight celebrating their 6th anniversary. We have 4 of their beers on tap, including this Berliner Weisse w/guava, cucumber &amp; lime that was made in collaboration with Culmination!!! #saravezapdx #craftnotcrap #aircon #coldbeer #dinnerideas" data-load="false" data-image-id="5d3a65a15a54b900015f399f" data-type="image" />
+                </a>
+                
+              </div>
+            </div>
+          
+
+          
+        
+
+      
+
+        
+
+        
+
+        
+          
+            <div class="slide" data-type="image">
+              <div class="margin-wrapper">
+                <a
+                  
+                    data-title=""
+                    data-description="New stuff!! Some classic from Belgium. Two Brut IPAs from @reubensbrews and @giganticbrewing . The newest Hellboy beer from Gigantic as well. @vebrewing first bottled beer! Holy heck.  And some tasty new hazy IPAs from our buds at @culminationbrewing and @fortgeorgebeer . #newbeerwednesday #saraveza #saravezapdx #craftnot"
+                    data-lightbox-theme="dark"
+                    href="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1564017635760-3HE97VFTEL6HOZ6W6UW2/ke17ZwdGBToddI8pDm48kEpVg-ILAPna1wRh-xAJ9fRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwEv36x-EUL2-BSQ5feDhwGCbXuJBFqZ-erYzVouT8yOb9TwqchglLQOCYTRn7ZGxI/image-asset.jpeg"
+                    
+
+                  class="image-slide-anchor content-fill"
+                >
+                  <noscript><img src="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1564017635760-3HE97VFTEL6HOZ6W6UW2/ke17ZwdGBToddI8pDm48kEpVg-ILAPna1wRh-xAJ9fRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwEv36x-EUL2-BSQ5feDhwGCbXuJBFqZ-erYzVouT8yOb9TwqchglLQOCYTRn7ZGxI/image-asset.jpeg" alt="New stuff!! Some classic from Belgium. Two Brut IPAs from @reubensbrews and @giganticbrewing . The newest Hellboy beer from Gigantic as well. @vebrewing first bottled beer! Holy heck.  And some tasty new hazy IPAs from our buds at @culminationbrewing and @fortgeorgebeer . #newbeerwednesday #saraveza #saravezapdx #craftnot" /></noscript><img class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1564017635760-3HE97VFTEL6HOZ6W6UW2/ke17ZwdGBToddI8pDm48kEpVg-ILAPna1wRh-xAJ9fRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwEv36x-EUL2-BSQ5feDhwGCbXuJBFqZ-erYzVouT8yOb9TwqchglLQOCYTRn7ZGxI/image-asset.jpeg" data-image="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1564017635760-3HE97VFTEL6HOZ6W6UW2/ke17ZwdGBToddI8pDm48kEpVg-ILAPna1wRh-xAJ9fRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwEv36x-EUL2-BSQ5feDhwGCbXuJBFqZ-erYzVouT8yOb9TwqchglLQOCYTRn7ZGxI/image-asset.jpeg" data-image-dimensions="640x640" data-image-focal-point="0.5,0.5" alt="New stuff!! Some classic from Belgium. Two Brut IPAs from @reubensbrews and @giganticbrewing . The newest Hellboy beer from Gigantic as well. @vebrewing first bottled beer! Holy heck.  And some tasty new hazy IPAs from our buds at @culminationbrewing and @fortgeorgebeer . #newbeerwednesday #saraveza #saravezapdx #craftnot" data-load="false" data-image-id="5d3903e185004f0001aeb759" data-type="image" />
+                </a>
+                
+              </div>
+            </div>
+          
+
+          
+        
+
+      
+
+        
+
+        
+
+        
+          
+            <div class="slide" data-type="image">
+              <div class="margin-wrapper">
+                <a
+                  
+                    data-title=""
+                    data-description="@moderntimesbeer will be here THIS Thursday to celebrate their 6th Anniversary! We’ll have 4 of their best and brightest on tap. Come down and celebrate their awesomeness!"
+                    data-lightbox-theme="dark"
+                    href="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1563936726042-YYWJZEL7MQIQB1XSQ6TV/ke17ZwdGBToddI8pDm48kEpVg-ILAPna1wRh-xAJ9fRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwEv36x-EUL2-BSQ5feDhwGCbXuJBFqZ-erYzVouT8yOb9TwqchglLQOCYTRn7ZGxI/image-asset.jpeg"
+                    
+
+                  class="image-slide-anchor content-fill"
+                >
+                  <noscript><img src="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1563936726042-YYWJZEL7MQIQB1XSQ6TV/ke17ZwdGBToddI8pDm48kEpVg-ILAPna1wRh-xAJ9fRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwEv36x-EUL2-BSQ5feDhwGCbXuJBFqZ-erYzVouT8yOb9TwqchglLQOCYTRn7ZGxI/image-asset.jpeg" alt="@moderntimesbeer will be here THIS Thursday to celebrate their 6th Anniversary! We’ll have 4 of their best and brightest on tap. Come down and celebrate their awesomeness!" /></noscript><img class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1563936726042-YYWJZEL7MQIQB1XSQ6TV/ke17ZwdGBToddI8pDm48kEpVg-ILAPna1wRh-xAJ9fRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwEv36x-EUL2-BSQ5feDhwGCbXuJBFqZ-erYzVouT8yOb9TwqchglLQOCYTRn7ZGxI/image-asset.jpeg" data-image="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1563936726042-YYWJZEL7MQIQB1XSQ6TV/ke17ZwdGBToddI8pDm48kEpVg-ILAPna1wRh-xAJ9fRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwEv36x-EUL2-BSQ5feDhwGCbXuJBFqZ-erYzVouT8yOb9TwqchglLQOCYTRn7ZGxI/image-asset.jpeg" data-image-dimensions="640x640" data-image-focal-point="0.5,0.5" alt="@moderntimesbeer will be here THIS Thursday to celebrate their 6th Anniversary! We’ll have 4 of their best and brightest on tap. Come down and celebrate their awesomeness!" data-load="false" data-image-id="5d37c7d4ebce4d0001c2903f" data-type="image" />
+                </a>
+                
+              </div>
+            </div>
+          
+
+          
+        
+
+      
+
+        
+
+        
+
+        
+          
+            <div class="slide" data-type="image">
+              <div class="margin-wrapper">
+                <a
+                  
+                    data-title=""
+                    data-description="Asparagus salad with arugula, manchego, butter croutons &amp; lemon vinaigrette !!! #saravezapdx #finefood #fromscratch #seasonal #menu #asparagus #salad #eatyourveggies"
+                    data-lightbox-theme="dark"
+                    href="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1563674734829-EZATT9EWVK9B71YDK0M3/ke17ZwdGBToddI8pDm48kKmw982fUOZVIQXHUCR1F55Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpw5XnxLBmEFHJGf_0qFdDpmIncOw4kq9OpCHNTYqzGO-E1YJr-Thht9Tdog4YtCwrE/image-asset.jpeg"
+                    
+
+                  class="image-slide-anchor content-fill"
+                >
+                  <noscript><img src="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1563674734829-EZATT9EWVK9B71YDK0M3/ke17ZwdGBToddI8pDm48kKmw982fUOZVIQXHUCR1F55Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpw5XnxLBmEFHJGf_0qFdDpmIncOw4kq9OpCHNTYqzGO-E1YJr-Thht9Tdog4YtCwrE/image-asset.jpeg" alt="Asparagus salad with arugula, manchego, butter croutons &amp; lemon vinaigrette !!! #saravezapdx #finefood #fromscratch #seasonal #menu #asparagus #salad #eatyourveggies" /></noscript><img class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1563674734829-EZATT9EWVK9B71YDK0M3/ke17ZwdGBToddI8pDm48kKmw982fUOZVIQXHUCR1F55Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpw5XnxLBmEFHJGf_0qFdDpmIncOw4kq9OpCHNTYqzGO-E1YJr-Thht9Tdog4YtCwrE/image-asset.jpeg" data-image="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1563674734829-EZATT9EWVK9B71YDK0M3/ke17ZwdGBToddI8pDm48kKmw982fUOZVIQXHUCR1F55Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpw5XnxLBmEFHJGf_0qFdDpmIncOw4kq9OpCHNTYqzGO-E1YJr-Thht9Tdog4YtCwrE/image-asset.jpeg" data-image-dimensions="640x480" data-image-focal-point="0.5,0.5" alt="Asparagus salad with arugula, manchego, butter croutons &amp; lemon vinaigrette !!! #saravezapdx #finefood #fromscratch #seasonal #menu #asparagus #salad #eatyourveggies" data-load="false" data-image-id="5d33c86da40c5300014690c1" data-type="image" />
+                </a>
+                
+              </div>
+            </div>
+          
+
+          
+        
+
+      
+
+        
+
+        
+
+        
+          
+            <div class="slide" data-type="image">
+              <div class="margin-wrapper">
+                <a
+                  
+                    data-title=""
+                    data-description="Calling out to all you bada** cooks out there! Our kitchen is looking to fill a full-time position. If you’re in the market for a change and want to learn new skills from our amazing team then stop on by and drop off a resume or check out our add on Poached. Some kitchen experience preferred, some nights and weekends required, being photogenic not required. Come work with us!!"
+                    data-lightbox-theme="dark"
+                    href="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1563647322364-KW6UVNZKFJUU4B2N3ZRB/ke17ZwdGBToddI8pDm48kEpVg-ILAPna1wRh-xAJ9fRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwEv36x-EUL2-BSQ5feDhwGCbXuJBFqZ-erYzVouT8yOb9TwqchglLQOCYTRn7ZGxI/image-asset.jpeg"
+                    
+
+                  class="image-slide-anchor content-fill"
+                >
+                  <noscript><img src="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1563647322364-KW6UVNZKFJUU4B2N3ZRB/ke17ZwdGBToddI8pDm48kEpVg-ILAPna1wRh-xAJ9fRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwEv36x-EUL2-BSQ5feDhwGCbXuJBFqZ-erYzVouT8yOb9TwqchglLQOCYTRn7ZGxI/image-asset.jpeg" alt="Calling out to all you bada** cooks out there! Our kitchen is looking to fill a full-time position. If you’re in the market for a change and want to learn new skills from our amazing team then stop on by and drop off a resume or check out our add on Poached. Some kitchen experience preferred, some nights and weekends required, being photogenic not required. Come work with us!!" /></noscript><img class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1563647322364-KW6UVNZKFJUU4B2N3ZRB/ke17ZwdGBToddI8pDm48kEpVg-ILAPna1wRh-xAJ9fRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwEv36x-EUL2-BSQ5feDhwGCbXuJBFqZ-erYzVouT8yOb9TwqchglLQOCYTRn7ZGxI/image-asset.jpeg" data-image="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1563647322364-KW6UVNZKFJUU4B2N3ZRB/ke17ZwdGBToddI8pDm48kEpVg-ILAPna1wRh-xAJ9fRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwEv36x-EUL2-BSQ5feDhwGCbXuJBFqZ-erYzVouT8yOb9TwqchglLQOCYTRn7ZGxI/image-asset.jpeg" data-image-dimensions="640x640" data-image-focal-point="0.5,0.5" alt="Calling out to all you bada** cooks out there! Our kitchen is looking to fill a full-time position. If you’re in the market for a change and want to learn new skills from our amazing team then stop on by and drop off a resume or check out our add on Poached. Some kitchen experience preferred, some nights and weekends required, being photogenic not required. Come work with us!!" data-load="false" data-image-id="5d335d594a8ae40001203e96" data-type="image" />
+                </a>
+                
+              </div>
+            </div>
+          
+
+          
+        
+
+      
+
+        
+
+        
+
+        
+          
+            <div class="slide" data-type="image">
+              <div class="margin-wrapper">
+                <a
+                  
+                    data-title=""
+                    data-description="New. Beer. Wednesdayyyyyyy! We’re very excited this week to have some new cans from @everybodysbrewing and some SUPER special cans from our friends from the east coast @smartmouthbeer . The Collusion from @doublemountain is sure to incriminate itself deliciously into your belly. Don’t forget @exnovobrew Quinque oak-aged Saison w/ Malbec grapes 🙏."
+                    data-lightbox-theme="dark"
+                    href="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1563419584944-HVFPHQAQPXBB45Y162D9/ke17ZwdGBToddI8pDm48kEpVg-ILAPna1wRh-xAJ9fRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwEv36x-EUL2-BSQ5feDhwGCbXuJBFqZ-erYzVouT8yOb9TwqchglLQOCYTRn7ZGxI/image-asset.jpeg"
+                    
+
+                  class="image-slide-anchor content-fill"
+                >
+                  <noscript><img src="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1563419584944-HVFPHQAQPXBB45Y162D9/ke17ZwdGBToddI8pDm48kEpVg-ILAPna1wRh-xAJ9fRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwEv36x-EUL2-BSQ5feDhwGCbXuJBFqZ-erYzVouT8yOb9TwqchglLQOCYTRn7ZGxI/image-asset.jpeg" alt="New. Beer. Wednesdayyyyyyy! We’re very excited this week to have some new cans from @everybodysbrewing and some SUPER special cans from our friends from the east coast @smartmouthbeer . The Collusion from @doublemountain is sure to incriminate itself deliciously into your belly. Don’t forget @exnovobrew Quinque oak-aged Saison w/ Malbec grapes 🙏." /></noscript><img class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1563419584944-HVFPHQAQPXBB45Y162D9/ke17ZwdGBToddI8pDm48kEpVg-ILAPna1wRh-xAJ9fRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwEv36x-EUL2-BSQ5feDhwGCbXuJBFqZ-erYzVouT8yOb9TwqchglLQOCYTRn7ZGxI/image-asset.jpeg" data-image="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1563419584944-HVFPHQAQPXBB45Y162D9/ke17ZwdGBToddI8pDm48kEpVg-ILAPna1wRh-xAJ9fRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwEv36x-EUL2-BSQ5feDhwGCbXuJBFqZ-erYzVouT8yOb9TwqchglLQOCYTRn7ZGxI/image-asset.jpeg" data-image-dimensions="640x640" data-image-focal-point="0.5,0.5" alt="New. Beer. Wednesdayyyyyyy! We’re very excited this week to have some new cans from @everybodysbrewing and some SUPER special cans from our friends from the east coast @smartmouthbeer . The Collusion from @doublemountain is sure to incriminate itself deliciously into your belly. Don’t forget @exnovobrew Quinque oak-aged Saison w/ Malbec grapes 🙏." data-load="false" data-image-id="5d2fe3bfb6273a0001c2cb9a" data-type="image" />
+                </a>
+                
+              </div>
+            </div>
+          
+
+          
+        
+
+      
+
+        
+
+        
+
+        
+          
+            <div class="slide" data-type="image">
+              <div class="margin-wrapper">
+                <a
+                  
+                    data-title=""
+                    data-description="New beers to the shop! Get em while they're hot- er, Cold!
+
+#saravezapdx #craftbeer #tavern #bottleshop #cannedbeer #newarrivals"
+                    data-lightbox-theme="dark"
+                    href="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1563347172546-CCNCMNC748XV0XRKGPNB/ke17ZwdGBToddI8pDm48kEpVg-ILAPna1wRh-xAJ9fRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwEv36x-EUL2-BSQ5feDhwGCbXuJBFqZ-erYzVouT8yOb9TwqchglLQOCYTRn7ZGxI/image-asset.jpeg"
+                    
+
+                  class="image-slide-anchor content-fill"
+                >
+                  <noscript><img src="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1563347172546-CCNCMNC748XV0XRKGPNB/ke17ZwdGBToddI8pDm48kEpVg-ILAPna1wRh-xAJ9fRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwEv36x-EUL2-BSQ5feDhwGCbXuJBFqZ-erYzVouT8yOb9TwqchglLQOCYTRn7ZGxI/image-asset.jpeg" alt="New beers to the shop! Get em while they're hot- er, Cold!
+
+#saravezapdx #craftbeer #tavern #bottleshop #cannedbeer #newarrivals" /></noscript><img class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1563347172546-CCNCMNC748XV0XRKGPNB/ke17ZwdGBToddI8pDm48kEpVg-ILAPna1wRh-xAJ9fRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwEv36x-EUL2-BSQ5feDhwGCbXuJBFqZ-erYzVouT8yOb9TwqchglLQOCYTRn7ZGxI/image-asset.jpeg" data-image="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1563347172546-CCNCMNC748XV0XRKGPNB/ke17ZwdGBToddI8pDm48kEpVg-ILAPna1wRh-xAJ9fRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwEv36x-EUL2-BSQ5feDhwGCbXuJBFqZ-erYzVouT8yOb9TwqchglLQOCYTRn7ZGxI/image-asset.jpeg" data-image-dimensions="640x640" data-image-focal-point="0.5,0.5" alt="New beers to the shop! Get em while they're hot- er, Cold!
+
+#saravezapdx #craftbeer #tavern #bottleshop #cannedbeer #newarrivals" data-load="false" data-image-id="5d2ec8e006bb8600017e8a47" data-type="image" />
+                </a>
+                
+              </div>
+            </div>
+          
+
+          
+        
+
+      
+
+        
+
+        
+
+        
+          
+            <div class="slide" data-type="image">
+              <div class="margin-wrapper">
+                <a
+                  
+                    data-title=""
+                    data-description="That’s right, Norfolk, Virginia’s own @smartmouthbeer will be at Saraveza THIS Wednesday. They’ve sent a very special shipment of beer out to the West Coast and we’re stoked to have a night where we feature their beer and their good friend’s beer at a brewery you may have heard of before, @doublemountain . We’ll have a full tap list of their best, brightest and most tasty beer flowing. Please come and show these Virginia folks why Oregon is also for lovers!"
+                    data-lightbox-theme="dark"
+                    href="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1563248988282-98IPUC2BNQ393YM0SA8O/ke17ZwdGBToddI8pDm48kEpVg-ILAPna1wRh-xAJ9fRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwEv36x-EUL2-BSQ5feDhwGCbXuJBFqZ-erYzVouT8yOb9TwqchglLQOCYTRn7ZGxI/image-asset.jpeg"
+                    
+
+                  class="image-slide-anchor content-fill"
+                >
+                  <noscript><img src="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1563248988282-98IPUC2BNQ393YM0SA8O/ke17ZwdGBToddI8pDm48kEpVg-ILAPna1wRh-xAJ9fRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwEv36x-EUL2-BSQ5feDhwGCbXuJBFqZ-erYzVouT8yOb9TwqchglLQOCYTRn7ZGxI/image-asset.jpeg" alt="That’s right, Norfolk, Virginia’s own @smartmouthbeer will be at Saraveza THIS Wednesday. They’ve sent a very special shipment of beer out to the West Coast and we’re stoked to have a night where we feature their beer and their good friend’s beer at a brewery you may have heard of before, @doublemountain . We’ll have a full tap list of their best, brightest and most tasty beer flowing. Please come and show these Virginia folks why Oregon is also for lovers!" /></noscript><img class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1563248988282-98IPUC2BNQ393YM0SA8O/ke17ZwdGBToddI8pDm48kEpVg-ILAPna1wRh-xAJ9fRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwEv36x-EUL2-BSQ5feDhwGCbXuJBFqZ-erYzVouT8yOb9TwqchglLQOCYTRn7ZGxI/image-asset.jpeg" data-image="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1563248988282-98IPUC2BNQ393YM0SA8O/ke17ZwdGBToddI8pDm48kEpVg-ILAPna1wRh-xAJ9fRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwEv36x-EUL2-BSQ5feDhwGCbXuJBFqZ-erYzVouT8yOb9TwqchglLQOCYTRn7ZGxI/image-asset.jpeg" data-image-dimensions="640x640" data-image-focal-point="0.5,0.5" alt="That’s right, Norfolk, Virginia’s own @smartmouthbeer will be at Saraveza THIS Wednesday. They’ve sent a very special shipment of beer out to the West Coast and we’re stoked to have a night where we feature their beer and their good friend’s beer at a brewery you may have heard of before, @doublemountain . We’ll have a full tap list of their best, brightest and most tasty beer flowing. Please come and show these Virginia folks why Oregon is also for lovers!" data-load="false" data-image-id="5d2d495b8f25c60001335961" data-type="image" />
+                </a>
+                
+              </div>
+            </div>
+          
+
+          
+        
+
+      
+
+        
+
+        
+
+        
+          
+            <div class="slide" data-type="image">
+              <div class="margin-wrapper">
+                <a
+                  
+                    data-title=""
+                    data-description="It. Is. On. Summer Strawberry Beer Fest is happening and pouring some of the best darn strawberry beers and ciders you’ve ever set your taste buds on."
+                    data-lightbox-theme="dark"
+                    href="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1563051939253-2P0L395FH9HVLGL5CEAS/ke17ZwdGBToddI8pDm48kEpVg-ILAPna1wRh-xAJ9fRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwEv36x-EUL2-BSQ5feDhwGCbXuJBFqZ-erYzVouT8yOb9TwqchglLQOCYTRn7ZGxI/image-asset.jpeg"
+                    
+
+                  class="image-slide-anchor content-fill"
+                >
+                  <noscript><img src="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1563051939253-2P0L395FH9HVLGL5CEAS/ke17ZwdGBToddI8pDm48kEpVg-ILAPna1wRh-xAJ9fRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwEv36x-EUL2-BSQ5feDhwGCbXuJBFqZ-erYzVouT8yOb9TwqchglLQOCYTRn7ZGxI/image-asset.jpeg" alt="It. Is. On. Summer Strawberry Beer Fest is happening and pouring some of the best darn strawberry beers and ciders you’ve ever set your taste buds on." /></noscript><img class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1563051939253-2P0L395FH9HVLGL5CEAS/ke17ZwdGBToddI8pDm48kEpVg-ILAPna1wRh-xAJ9fRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwEv36x-EUL2-BSQ5feDhwGCbXuJBFqZ-erYzVouT8yOb9TwqchglLQOCYTRn7ZGxI/image-asset.jpeg" data-image="https://images.squarespace-cdn.com/content/v1/57f5746ff5e2311b1e52d2b4/1563051939253-2P0L395FH9HVLGL5CEAS/ke17ZwdGBToddI8pDm48kEpVg-ILAPna1wRh-xAJ9fRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwEv36x-EUL2-BSQ5feDhwGCbXuJBFqZ-erYzVouT8yOb9TwqchglLQOCYTRn7ZGxI/image-asset.jpeg" data-image-dimensions="640x640" data-image-focal-point="0.5,0.5" alt="It. Is. On. Summer Strawberry Beer Fest is happening and pouring some of the best darn strawberry beers and ciders you’ve ever set your taste buds on." data-load="false" data-image-id="5d2a47a2e84ed90001104cda" data-type="image" />
+                </a>
+                
+              </div>
+            </div>
+          
+
+          
+        
+
+      
+    
+  </div>
+
+  
+
+</div>
+
+
+
+
+<style type="text/css" id="design-grid-css">
+#block-yui_3_17_2_25_1478722453104_7392 .sqs-gallery-block-grid .sqs-gallery-design-grid { margin-right: -12px; }
+#block-yui_3_17_2_25_1478722453104_7392 .sqs-gallery-block-grid .sqs-gallery-design-grid-slide .margin-wrapper { margin-right: 12px; margin-bottom: 12px; }
+</style>
+
+
+
+</div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-58238a98e6f2e1ec2138e6c7"><div class="sqs-block-content"><p>&nbsp;</p></div></div></div></div></div>
+	     </div>
+    </div>
+  </div>
+            <div class="back-to-top"></div>
+          </section>
+          
+        
+        
+
+        
+
+        <!--FOOTER WITH OPEN BLOCK FIELD-->
+        <footer id="footer">
+          <div class="back-to-top-link"><a href="#top"><span class="arrow"></span>Top</a></div>
+          <div class="footer-wrapper">
+            <div id="secondaryNav" data-content-field="navigation-secondaryNav">
+              
+  <nav class="secondary-nav">
+      <div class="nav-wrapper">
+        <ul class="cf">
+        
+
+          
+
+          
+            <li class="external-link">
+              <a href="/welcome-1"><span>HOME</span></a>
+            </li>
+          
+            
+        
+
+          
+
+          
+            <li class="external-link">
+              <a href="/site/beer"><span>Draft + Bottleshop</span></a>
+            </li>
+          
+            
+        
+
+          
+
+          
+            <li class="external-link">
+              <a href="/site/food"><span>Food</span></a>
+            </li>
+          
+            
+        
+
+          
+
+          
+            <li class="external-link">
+              <a href="/site/events"><span>upcoming events</span></a>
+            </li>
+          
+            
+        
+
+          
+
+          
+            <li class="external-link">
+              <a href="/the-bad-habit-room"><span>event space</span></a>
+            </li>
+          
+            
+        
+
+          
+
+          
+            <li class="external-link">
+              <a href="/site/contact"><span>contact</span></a>
+            </li>
+          
+            
+        
+      </ul>
+    </div>
+  </nav>
+
+            </div>
+            <div class="sqs-layout sqs-grid-12 columns-12" data-layout-label="Footer Content" data-type="block-field" data-updated-on="1501868082441" id="footerBlocks"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block newsletter-block sqs-block-newsletter" data-block-type="51" id="block-yui_3_17_2_5_1475858537183_17519"><div class="sqs-block-content">
+
+<div class="newsletter-form-wrapper newsletter-form-wrapper--layoutFloat newsletter-form-wrapper--alignCenter"
+  
+>
+  <form
+     class="newsletter-form"
+     data-form-id="57f7d689e4fcb5b7f8fa4be9"
+     
+     autocomplete="on"
+     method="POST"
+     onsubmit="return (function (form) {
+  Y.use('squarespace-form-submit', 'node', function usingFormSubmit(Y) {
+    (new Y.Squarespace.FormSubmit(form)).submit({
+      formId: '57f7d689e4fcb5b7f8fa4be9',
+      collectionId: '',
+      objectName: 'footerBlocks'
+    });
+  });
+  return false;
+})(this);"
+  >
+    <header class="newsletter-form-header">
+      <h2 class="newsletter-form-header-title">Sign Up For Our Newsletter</h2>
+      <div class="newsletter-form-header-description"><p>Sign up here to find out about events, information and news at Saraveza. Your address will never be distributed.</p></div>
+    </header>
+
+    <div class="newsletter-form-body">
+
+      <div class="newsletter-form-fields-wrapper form-fields">
+
+        
+
+        
+
+          
+            <div id="email-yui_3_17_2_5_1475858537183_17526" class="newsletter-form-field-wrapper form-item field email required">
+              <label class="newsletter-form-field-label title" for="email-yui_3_17_2_5_1475858537183_17526-field">Email Address</label>
+              <input id="email-yui_3_17_2_5_1475858537183_17526-field" class="newsletter-form-field-element field-element" name="email" x-autocompletetype="email" type="text" spellcheck="false" placeholder="Email Address" />
+            </div>
+          
+
+        
+
+          
+
+        
+
+      </div>
+
+      <div class="newsletter-form-button-wrapper submit-wrapper">
+        <button class="newsletter-form-button sqs-system-button sqs-editable-button-layout sqs-editable-button-style sqs-editable-button-shape" type="submit" value="Sign Up"><span class="newsletter-form-spinner sqs-spin light large"></span><span class="newsletter-form-button-label">Sign Up</span><span class="newsletter-form-button-icon"></span></button>
+      </div>
+
+    </div>
+
+    
+      <div class="newsletter-form-footnote"></div>
+    
+
+    <div class="hidden form-submission-text">Thank you!</div>
+    <div class="hidden form-submission-html" data-submission-html=""></div>
+
+  </form>
+
+</div>
+</div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-6e4ac88d1df5f601ddc3"><div class="sqs-block-content"><p class="text-align-center">SARAVEZA | 1004 N Killingsworth St, Portland, OR 97217 | 503.206.4252 | <a href="mailto:info@saraveza.com">info@saraveza.com</a> | OPEN 11AM-MIDNIGHT EVERY DAY</p></div></div></div></div></div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <script type="text/javascript" data-sqs-type="imageloader-bootstrapper">(function() {if(window.ImageLoader) { window.ImageLoader.bootstrap({}, document); }})();</script><script>Squarespace.afterBodyLoad(Y);</script><svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display:none" data-usage="social-icons-svg"><symbol id="instagram-icon" viewBox="0 0 64 64"><path d="M46.91,25.816c-0.073-1.597-0.326-2.687-0.697-3.641c-0.383-0.986-0.896-1.823-1.73-2.657c-0.834-0.834-1.67-1.347-2.657-1.73c-0.954-0.371-2.045-0.624-3.641-0.697C36.585,17.017,36.074,17,32,17s-4.585,0.017-6.184,0.09c-1.597,0.073-2.687,0.326-3.641,0.697c-0.986,0.383-1.823,0.896-2.657,1.73c-0.834,0.834-1.347,1.67-1.73,2.657c-0.371,0.954-0.624,2.045-0.697,3.641C17.017,27.415,17,27.926,17,32c0,4.074,0.017,4.585,0.09,6.184c0.073,1.597,0.326,2.687,0.697,3.641c0.383,0.986,0.896,1.823,1.73,2.657c0.834,0.834,1.67,1.347,2.657,1.73c0.954,0.371,2.045,0.624,3.641,0.697C27.415,46.983,27.926,47,32,47s4.585-0.017,6.184-0.09c1.597-0.073,2.687-0.326,3.641-0.697c0.986-0.383,1.823-0.896,2.657-1.73c0.834-0.834,1.347-1.67,1.73-2.657c0.371-0.954,0.624-2.045,0.697-3.641C46.983,36.585,47,36.074,47,32S46.983,27.415,46.91,25.816z M44.21,38.061c-0.067,1.462-0.311,2.257-0.516,2.785c-0.272,0.7-0.597,1.2-1.122,1.725c-0.525,0.525-1.025,0.85-1.725,1.122c-0.529,0.205-1.323,0.45-2.785,0.516c-1.581,0.072-2.056,0.087-6.061,0.087s-4.48-0.015-6.061-0.087c-1.462-0.067-2.257-0.311-2.785-0.516c-0.7-0.272-1.2-0.597-1.725-1.122c-0.525-0.525-0.85-1.025-1.122-1.725c-0.205-0.529-0.45-1.323-0.516-2.785c-0.072-1.582-0.087-2.056-0.087-6.061s0.015-4.48,0.087-6.061c0.067-1.462,0.311-2.257,0.516-2.785c0.272-0.7,0.597-1.2,1.122-1.725c0.525-0.525,1.025-0.85,1.725-1.122c0.529-0.205,1.323-0.45,2.785-0.516c1.582-0.072,2.056-0.087,6.061-0.087s4.48,0.015,6.061,0.087c1.462,0.067,2.257,0.311,2.785,0.516c0.7,0.272,1.2,0.597,1.725,1.122c0.525,0.525,0.85,1.025,1.122,1.725c0.205,0.529,0.45,1.323,0.516,2.785c0.072,1.582,0.087,2.056,0.087,6.061S44.282,36.48,44.21,38.061z M32,24.297c-4.254,0-7.703,3.449-7.703,7.703c0,4.254,3.449,7.703,7.703,7.703c4.254,0,7.703-3.449,7.703-7.703C39.703,27.746,36.254,24.297,32,24.297z M32,37c-2.761,0-5-2.239-5-5c0-2.761,2.239-5,5-5s5,2.239,5,5C37,34.761,34.761,37,32,37z M40.007,22.193c-0.994,0-1.8,0.806-1.8,1.8c0,0.994,0.806,1.8,1.8,1.8c0.994,0,1.8-0.806,1.8-1.8C41.807,22.999,41.001,22.193,40.007,22.193z"/></symbol><symbol id="instagram-mask" viewBox="0 0 64 64"><path d="M43.693,23.153c-0.272-0.7-0.597-1.2-1.122-1.725c-0.525-0.525-1.025-0.85-1.725-1.122c-0.529-0.205-1.323-0.45-2.785-0.517c-1.582-0.072-2.056-0.087-6.061-0.087s-4.48,0.015-6.061,0.087c-1.462,0.067-2.257,0.311-2.785,0.517c-0.7,0.272-1.2,0.597-1.725,1.122c-0.525,0.525-0.85,1.025-1.122,1.725c-0.205,0.529-0.45,1.323-0.516,2.785c-0.072,1.582-0.087,2.056-0.087,6.061s0.015,4.48,0.087,6.061c0.067,1.462,0.311,2.257,0.516,2.785c0.272,0.7,0.597,1.2,1.122,1.725s1.025,0.85,1.725,1.122c0.529,0.205,1.323,0.45,2.785,0.516c1.581,0.072,2.056,0.087,6.061,0.087s4.48-0.015,6.061-0.087c1.462-0.067,2.257-0.311,2.785-0.516c0.7-0.272,1.2-0.597,1.725-1.122s0.85-1.025,1.122-1.725c0.205-0.529,0.45-1.323,0.516-2.785c0.072-1.582,0.087-2.056,0.087-6.061s-0.015-4.48-0.087-6.061C44.143,24.476,43.899,23.682,43.693,23.153z M32,39.703c-4.254,0-7.703-3.449-7.703-7.703s3.449-7.703,7.703-7.703s7.703,3.449,7.703,7.703S36.254,39.703,32,39.703z M40.007,25.793c-0.994,0-1.8-0.806-1.8-1.8c0-0.994,0.806-1.8,1.8-1.8c0.994,0,1.8,0.806,1.8,1.8C41.807,24.987,41.001,25.793,40.007,25.793z M0,0v64h64V0H0z M46.91,38.184c-0.073,1.597-0.326,2.687-0.697,3.641c-0.383,0.986-0.896,1.823-1.73,2.657c-0.834,0.834-1.67,1.347-2.657,1.73c-0.954,0.371-2.044,0.624-3.641,0.697C36.585,46.983,36.074,47,32,47s-4.585-0.017-6.184-0.09c-1.597-0.073-2.687-0.326-3.641-0.697c-0.986-0.383-1.823-0.896-2.657-1.73c-0.834-0.834-1.347-1.67-1.73-2.657c-0.371-0.954-0.624-2.044-0.697-3.641C17.017,36.585,17,36.074,17,32c0-4.074,0.017-4.585,0.09-6.185c0.073-1.597,0.326-2.687,0.697-3.641c0.383-0.986,0.896-1.823,1.73-2.657c0.834-0.834,1.67-1.347,2.657-1.73c0.954-0.371,2.045-0.624,3.641-0.697C27.415,17.017,27.926,17,32,17s4.585,0.017,6.184,0.09c1.597,0.073,2.687,0.326,3.641,0.697c0.986,0.383,1.823,0.896,2.657,1.73c0.834,0.834,1.347,1.67,1.73,2.657c0.371,0.954,0.624,2.044,0.697,3.641C46.983,27.415,47,27.926,47,32C47,36.074,46.983,36.585,46.91,38.184z M32,27c-2.761,0-5,2.239-5,5s2.239,5,5,5s5-2.239,5-5S34.761,27,32,27z"/></symbol></svg>
+    <script src="https://static1.squarespace.com/static/ta/515c7b5ae4b0875140c3d94a/2777/scripts/site-bundle.js" type="text/javascript"></script>
+    
+  </body>
+</html>

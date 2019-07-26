@@ -1,0 +1,1269 @@
+<!doctype html>
+<!--[if IE 9]>
+<html class="ie9 no-js supports-no-cookies" lang="en"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js supports-no-cookies" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#000">
+    <link rel="canonical" href="https://sightglasscoffee.com/">
+  
+    
+        <link rel="shortcut icon" href="//cdn.shopify.com/s/files/1/0027/5382/2835/files/favicon_32x32.png?v=1541396475" type="image/png">
+    
+ 
+     
+    <title>
+        Sightglass Coffee
+        
+        
+        
+    </title>
+
+    
+        <meta name="description" content="Coffee made from house-roasted beans served along with baked goods in a bi-level, industrial space.">
+    
+
+    <meta property="og:site_name" content="Sightglass Coffee">
+<meta property="og:url" content="https://sightglasscoffee.com/">
+<meta property="og:title" content="Sightglass Coffee">
+<meta property="og:type" content="website">
+<meta property="og:description" content="Coffee made from house-roasted beans served along with baked goods in a bi-level, industrial space.">
+
+
+<meta name="twitter:site" content="@">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sightglass Coffee">
+<meta name="twitter:description" content="Coffee made from house-roasted beans served along with baked goods in a bi-level, industrial space.">
+ 
+
+    <link href="//cdn.shopify.com/s/files/1/0027/5382/2835/t/17/assets/theme.scss.css?2514" rel="stylesheet" type="text/css" media="all" />
+    <link href="//cdn.shopify.com/s/files/1/0027/5382/2835/t/17/assets/custom.css?2514" rel="stylesheet" type="text/css" media="all" /> 
+    <link href="//cdn.shopify.com/s/files/1/0027/5382/2835/t/17/assets/fixes-main.scss.css?2514" rel="stylesheet" type="text/css" media="all" />
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    <script src="//cdn.shopify.com/s/files/1/0027/5382/2835/t/17/assets/custom.js?2514" type="text/javascript"></script> 
+
+    <!-- RECHARGE SUBSCRIPTION ASSETS -->
+    
+
+    <script>
+        document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+
+        window.theme = {
+            strings: {
+                addToCart: "Add to Cart",
+                soldOut: "Sold Out",
+                unavailable: "Unavailable"
+            },
+            moneyFormat: "${{amount}}"
+        };
+    </script>
+
+    
+
+    
+
+    <!--[if (gt IE 9)|!(IE)]><!-->
+    <script src="//cdn.shopify.com/s/files/1/0027/5382/2835/t/17/assets/vendor.js?2514" defer="defer"></script><!--<![endif]-->
+    <!--[if lt IE 9]>
+    <script src="//cdn.shopify.com/s/files/1/0027/5382/2835/t/17/assets/vendor.js?2514"></script><![endif]-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+    <script src="//cdn.shopify.com/s/assets/themes_support/api.jquery-e94e010e92e659b566dbc436fdfe5242764380e00398907a14955ba301a4749f.js" type="text/javascript"></script>
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/shopify-cartjs/0.4.1/cart.min.js"></script>
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/shopify-cartjs/0.4.1/rivets-cart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js"></script>
+
+    <!--[if (gt IE 9)|!(IE)]><!-->
+    <script src="//cdn.shopify.com/s/files/1/0027/5382/2835/t/17/assets/theme.js?2514" defer="defer"></script>
+    <script src="//cdn.shopify.com/s/files/1/0027/5382/2835/t/17/assets/fixes-main.js?2514" defer="defer"></script>
+    <!--<![endif]-->
+    <!--[if lt IE 9]>
+    <script src="//cdn.shopify.com/s/files/1/0027/5382/2835/t/17/assets/theme.js?2514"></script>
+    <script src="//cdn.shopify.com/s/files/1/0027/5382/2835/t/17/assets/fixes-main.js?2514"></script>    
+    <![endif]--> 
+ 
+    <script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script><meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/2753822835/digital_wallets/dialog">
+<meta name="shopify-checkout-api-token" content="a26cfaf7973b06e2a47936c8a8303f80">
+<meta id="in-context-paypal-metadata" data-shop-id="2753822835" data-venmo-supported="true" data-environment="production" data-locale="en_US" data-paypal-v4="true" data-currency="USD">
+<style media="all">.additional-checkout-button{border:0 !important;border-radius:5px !important;display:inline-block;margin:0 0 10px;padding:0 24px !important;max-width:100%;min-width:150px !important;line-height:44px !important;text-align:center !important}.additional-checkout-button+.additional-checkout-button{margin-left:10px}.additional-checkout-button:last-child{margin-bottom:0}.additional-checkout-button span{font-size:14px !important}.additional-checkout-button img{display:inline-block !important;height:1.3em !important;margin:0 !important;vertical-align:middle !important;width:auto !important}@media (max-width: 500px){.additional-checkout-button{display:block;margin-left:0 !important;padding:0 10px !important;width:100%}}.additional-checkout-button--apple-pay{background-color:#000 !important;color:#fff !important;display:none;font-family:-apple-system, Helvetica Neue, sans-serif !important;min-width:150px !important;white-space:nowrap !important}.additional-checkout-button--apple-pay:hover,.additional-checkout-button--apple-pay:active,.additional-checkout-button--apple-pay:visited{color:#fff !important;text-decoration:none !important}.additional-checkout-button--apple-pay .additional-checkout-button__logo{background:-webkit-named-image(apple-pay-logo-white) center center no-repeat !important;background-size:auto 100% !important;display:inline-block !important;vertical-align:middle !important;width:3em !important;height:1.3em !important}@media (max-width: 500px){.additional-checkout-button--apple-pay{display:none}}.additional-checkout-button--google-pay{line-height:0 !important;padding:0 !important;border-radius:unset !important;width:80px !important}@media (max-width: 500px){.additional-checkout-button--google-pay{width:100% !important}}.gpay-iframe{height:44px !important;width:100%  !important;cursor:pointer;vertical-align:middle !important}.additional-checkout-button--paypal-express{background-color:#ffc439 !important}.additional-checkout-button--paypal,.additional-checkout-button--venmo{vertical-align:top;line-height:0 !important;padding:0 !important}.additional-checkout-button--amazon{background-color:#fad676 !important;position:relative !important}.additional-checkout-button--amazon .additional-checkout-button__logo{-webkit-transform:translateY(4px) !important;transform:translateY(4px) !important}.additional-checkout-button--amazon .alt-payment-list-amazon-button-image{max-height:none !important;opacity:0 !important;position:absolute !important;top:0 !important;left:0 !important;width:100% !important;height:100% !important}.additional-checkout-button-visually-hidden{border:0 !important;clip:rect(0, 0, 0, 0) !important;clip:rect(0 0 0 0) !important;width:1px !important;height:1px !important;margin:-2px !important;overflow:hidden !important;padding:0 !important;position:absolute !important}
+</style>
+<script id="apple-pay-shop-capabilities" type="application/json">{"shopId":2753822835,"countryCode":"US","currencyCode":"USD","merchantCapabilities":["supports3DS"],"merchantId":"gid:\/\/shopify\/Shop\/2753822835","merchantName":"Sightglass Coffee","requiredBillingContactFields":["postalAddress","email"],"requiredShippingContactFields":["postalAddress","email"],"shippingType":"shipping","supportedNetworks":["visa","masterCard","amex","discover"],"total":{"type":"pending","label":"Sightglass Coffee","amount":"1.00"}}</script>
+<script id="shopify-features" type="application/json">{"accessToken":"a26cfaf7973b06e2a47936c8a8303f80","betas":[],"domain":"sightglasscoffee.com","predictiveSearch":true,"shopId":2753822835,"smart_payment_buttons_url":"https:\/\/cdn.shopifycloud.com\/payment-sheet\/assets\/latest\/spb.en.js","dynamic_checkout_cart_url":"https:\/\/cdn.shopifycloud.com\/payment-sheet\/assets\/latest\/dynamic-checkout-cart.en.js"}</script>
+<script>var Shopify = Shopify || {};
+Shopify.shop = "sightglass-coffee-store.myshopify.com";
+Shopify.currency = {"active":"USD","rate":"1.0"};
+Shopify.theme = {"name":"Production Theme v2.0 (June 2019) - edits","id":72942682227,"theme_store_id":null,"role":"main"};
+Shopify.theme.handle = "null";
+Shopify.theme.style = {"id":null,"handle":null};</script>
+<script>(function() {
+  function asyncLoad() {
+    var urls = ["https:\/\/rechargeassets-bootstrapheroes-rechargeapps.netdna-ssl.com\/static\/js\/recharge.js?shop=sightglass-coffee-store.myshopify.com","https:\/\/shopifycdn-aaawebstore.s3.amazonaws.com\/formbuilder\/appfiles\/aaa_form_builder_script_minify.js?shop=sightglass-coffee-store.myshopify.com","https:\/\/assets1.adroll.com\/shopify\/latest\/j\/shopify_rolling_bootstrap_v2.js?adroll_adv_id=VHBHZCQ3EVE4PPIFHOZWB5\u0026adroll_pix_id=VRL3DT7TJVCPPKYDFR6EBE\u0026shop=sightglass-coffee-store.myshopify.com"];
+    for (var i = 0; i < urls.length; i++) {
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = urls[i];
+      var x = document.getElementsByTagName('script')[0];
+      x.parentNode.insertBefore(s, x);
+    }
+  };
+  if(window.attachEvent) {
+    window.attachEvent('onload', asyncLoad);
+  } else {
+    window.addEventListener('load', asyncLoad, false);
+  }
+})();</script>
+<script id="__st">var __st={"a":2753822835,"offset":-25200,"reqid":"81675fb7-c728-4abc-94a8-2c9be9ded88a","pageurl":"sightglasscoffee.com\/","u":"3a3737b1c819","p":"home"};</script>
+<script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
+<script>window.Shopify = window.Shopify || {};
+window.Shopify.Checkout = window.Shopify.Checkout || {};
+window.Shopify.Checkout.apiHost = "sightglass-coffee-store.myshopify.com";</script>
+<script>window['GoogleAnalyticsObject'] = 'ga';
+window['ga'] = window['ga'] || function() {
+  (window['ga'].q = window['ga'].q || []).push(arguments);
+};
+window['ga'].l = 1 * new Date();</script>
+<script>var _gaUTrackerOptions = {'allowLinker': true};ga('create', 'UA-142697859-1', 'auto', _gaUTrackerOptions);ga('send', 'pageview');
+      (function(){
+        ga('require', 'linker');
+        function addListener(element, type, callback) {
+          if (element.addEventListener) {
+            element.addEventListener(type, callback);
+          }
+          else if (element.attachEvent) {
+            element.attachEvent('on' + type, callback);
+          }
+        }
+        function decorate(event) {
+          event = event || window.event;
+          var target = event.target || event.srcElement;
+          if (target && (target.action || target.href)) {
+            ga(function (tracker) {
+              var linkerParam = tracker.get('linkerParam');
+              document.cookie = '_shopify_ga=' + linkerParam + '; ' + 'path=/';
+            });
+          }
+        }
+        addListener(window, 'load', function(){
+          for (var i=0; i<document.forms.length; i++) {
+            if(document.forms[i].action && document.forms[i].action.indexOf('/cart') >= 0) {
+              addListener(document.forms[i], 'submit', decorate);
+            }
+          }
+          for (var i=0; i<document.links.length; i++) {
+            if(document.links[i].href && document.links[i].href.indexOf('/checkout') >= 0) {
+              addListener(document.links[i], 'click', decorate);
+            }
+          }
+        })
+      }());
+    </script>
+<script>window.ShopifyAnalytics = window.ShopifyAnalytics || {};
+window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
+window.ShopifyAnalytics.meta.currency = 'USD';
+var meta = {"page":{"pageType":"home"}};
+for (var attr in meta) {
+  window.ShopifyAnalytics.meta[attr] = meta[attr];
+}</script>
+<script>window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
+  
+};
+</script>
+<script class="analytics">(function () {
+  var customDocumentWrite = function(content) {
+    var jquery = null;
+
+    if (window.jQuery) {
+      jquery = window.jQuery;
+    } else if (window.Checkout && window.Checkout.$) {
+      jquery = window.Checkout.$;
+    }
+
+    if (jquery) {
+      jquery('body').append(content);
+    }
+  };
+
+  var isDuplicatedThankYouPageView = function() {
+    return document.cookie.indexOf('loggedConversion=' + window.location.pathname) !== -1;
+  }
+
+  var setCookieIfThankYouPage = function() {
+    if (window.location.pathname.indexOf('/checkouts') !== -1 &&
+        window.location.pathname.indexOf('/thank_you') !== -1) {
+
+      var twoMonthsFromNow = new Date(Date.now());
+      twoMonthsFromNow.setMonth(twoMonthsFromNow.getMonth() + 2);
+
+      document.cookie = 'loggedConversion=' + window.location.pathname + '; expires=' + twoMonthsFromNow;
+    }
+  }
+
+  var trekkie = window.ShopifyAnalytics.lib = window.trekkie = window.trekkie || [];
+  if (trekkie.integrations) {
+    return;
+  }
+  trekkie.methods = [
+    'identify',
+    'page',
+    'ready',
+    'track',
+    'trackForm',
+    'trackLink'
+  ];
+  trekkie.factory = function(method) {
+    return function() {
+      var args = Array.prototype.slice.call(arguments);
+      args.unshift(method);
+      trekkie.push(args);
+      return trekkie;
+    };
+  };
+  for (var i = 0; i < trekkie.methods.length; i++) {
+    var key = trekkie.methods[i];
+    trekkie[key] = trekkie.factory(key);
+  }
+  trekkie.load = function(config) {
+    trekkie.config = config;
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.onerror = function(e) {
+      (new Image()).src = '//v.shopify.com/internal_errors/track?error=trekkie_load';
+    };
+    script.async = true;
+    script.src = 'https://cdn.shopify.com/s/javascripts/tricorder/trekkie.storefront.min.js?v=2017.09.05.1';
+    var first = document.getElementsByTagName('script')[0];
+    first.parentNode.insertBefore(script, first);
+  };
+  trekkie.load(
+    {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":2753822835,"isMerchantRequest":null,"themeId":72942682227,"themeCityHash":10655036045131744315,"contentLanguage":"en"}},"Performance":{"navigationTimingApiMeasurementsEnabled":true,"navigationTimingApiMeasurementsSampleRate":0.01},"StorefrontPerformance":{"navigationTimingApiMeasurementsEnabled":true,"navigationTimingApiMeasurementsSampleRate":0.01},"Session Attribution":{}}
+  );
+
+  var loaded = false;
+  trekkie.ready(function() {
+    if (loaded) return;
+    loaded = true;
+
+    window.ShopifyAnalytics.lib = window.trekkie;
+    
+
+    var originalDocumentWrite = document.write;
+    document.write = customDocumentWrite;
+    try { window.ShopifyAnalytics.merchantGoogleAnalytics.call(this); } catch(error) {};
+    document.write = originalDocumentWrite;
+
+    if (!isDuplicatedThankYouPageView()) {
+      setCookieIfThankYouPage();
+      
+        window.ShopifyAnalytics.lib.page(
+          null,
+          {"pageType":"home"}
+        );
+      
+      
+    }
+  });
+
+  
+      var eventsListenerScript = document.createElement('script');
+      eventsListenerScript.async = true;
+      eventsListenerScript.src = "//cdn.shopify.com/s/assets/shop_events_listener-acf771159f9849ef6e5265782c99efe8b99406214c96a4373224ecafe285d7bb.js";
+      document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
+    
+})();</script>
+<script integrity="sha256-ZGMHgi9G7WU+Z7WiP2suSn84yzoN83sGf9nMWJhVHAw=" defer="defer" src="//cdn.shopify.com/s/assets/storefront/express_buttons-646307822f46ed653e67b5a23f6b2e4a7f38cb3a0df37b067fd9cc5898551c0c.js" crossorigin="anonymous"></script>
+<script integrity="sha256-qzPTa4Ven/Yc2yyXr9BKZWCTXSrPTCnbGdWsxA7YCw0=" defer="defer" src="//cdn.shopify.com/s/assets/storefront/features-ab33d36b855e9ff61cdb2c97afd04a6560935d2acf4c29db19d5acc40ed80b0d.js" crossorigin="anonymous"></script>
+<script async="async" src="https://www.google-analytics.com/analytics.js"></script>
+<script defer="defer" src="//cdn.shopify.com/s/assets/themes_support/ga_urchin_forms-99e991855b3d8ddc69e625c68ab0579dd9927b611c2ec4943d396c72e3af0849.js"></script>
+
+
+<style id="shopify-dynamic-checkout-cart">@media screen and (min-width: 750px) {
+  #dynamic-checkout-cart {
+    min-height: 50px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #dynamic-checkout-cart {
+    min-height: 240px;
+  }
+}
+</style>
+<script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
+<script src="//staticxx.s3.amazonaws.com/aio_stats_lib_v1.min.js?v=1.0"></script></head>
+<body id="sightglass-coffee" class="template-index template- 
+
+
+">
+<div id="shopify-section-side-cart" class="shopify-section"><section class="keep-shoping"  data-section-id="side-cart">
+    <a class="keep-shoping-back" href="#">< KEEP SHOPPING</a>
+    <span class="shopline"></span>
+    <div class="keep-shoping-holder">
+        <div class="cart-form">
+            
+                <div class="empty-card">
+                    <p>Your cart is empty</p>
+                    <a class="continue-shoping" href="#">Continue Shopping</a>
+                </div>
+            
+        </div>
+    </div>
+</section>
+
+
+<!-- Subscriptions Powered by ReCharge Payments: Begin Liquid Code -->
+<!--
+	Subscription Cart Footer
+	http://rechargepayments.com: v2
+	Updated: 2017/06/12
+-->
+
+
+
+
+<!-- Subscriptions Powered by ReCharge Payments: End Liquid Code -->
+
+<div class="overlay-holder"></div>
+</div>
+
+<div class="page-wrapper 
+ container-fluid home-page 
+
+
+
+
+
+
+
+
+ 
+">
+
+    <div id="shopify-section-header" class="shopify-section"><style>
+  .bg_img {
+  
+     background-image: url("//cdn.shopify.com/s/files/1/0027/5382/2835/files/Sun_buddy_final.png?v=1562625381");
+    
+  
+  }
+
+  .home-page-full header .home-page-full_resolution .home-page-full_resolution_center_block {
+    max-width: 1000px;
+  }
+</style>
+
+<div class="row"></div>
+
+<div class="overlay-holder"></div>
+
+<section data-section-id="header" data-section-type="header-section" class="home-page-full bg_img">
+    <header role="banner">
+
+        <div class="nav-fix-top ">
+            <nav class="menu-slide-up">
+                <ul class="nav-menu">
+                    
+                        <li><a href="/collections/all">Shop</a></li>
+                    
+                        <li><a href="/pages/subscribe">Subscribe</a></li>
+                    
+                        <li><a href="/blogs/blog">Learn</a></li>
+                    
+                        <li><a href="/blogs/shops">Visit</a></li>
+                    
+                </ul>
+                <ul class="nav-search">
+                    <li><img src=//cdn.shopify.com/s/files/1/0027/5382/2835/t/17/assets/search-29c7d30f1136dfda5d77902209bb65ca.svg?2514 alt="search">
+                        <a href="" class="button-search">search</a>
+                    </li>
+                    
+                        <li><a href="/account/login" class="button-modal-sign-in">Sign in</a></li>
+                    
+                </ul>
+                <div class="nav-search-form sticky-form">
+                    <form class="nav-search-container" action="/search" method="get" role="search">
+                        <label for="Search" class="label-hidden">
+                            <img src=//cdn.shopify.com/s/files/1/0027/5382/2835/t/17/assets/search-29c7d30f1136dfda5d77902209bb65ca.svg?2514 alt="sticky-search">
+                        </label>
+                        <input type="hidden" name="type" value="product">
+                        <input type="text" name="q" id="search" value="" placeholder="Search Products"
+                               class="nav-search-input" autocomplete="off">
+
+                        <a class="icon-fallback-text cancel-link">cancel</a>
+
+                    </form>
+                </div>
+            </nav>
+
+            <nav class="menu-controls">
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+                
+                <div class="nav_logo">
+                    <a href="/" class="nav-logo__link">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                             x="0px" y="0px" viewBox="0 0 96 96" enable-background="new 0 0 96 96" xml:space="preserve"><g>
+                                <path fill="#522E1F" class="targetSVG"
+                                      d="M48 0C21.5 0 0 21.5 0 48c0 26.5 21.5 48 48 48c26.5 0 48-21.5 48-48C96 21.5 74.5 0 48 0z M58.9 13c0-0.4 0.3-0.7 0.7-0.7 c0.4 0 0.7 0.3 0.7 0.7v9.9h7V13c0-0.4 0.3-0.7 0.7-0.7c0.4 0 0.7 0.3 0.7 0.7v28.8c0 0.4-0.3 0.7-0.7 0.7c-0.4 0-0.7-0.3-0.7-0.7 V24.2h-7v17.5c0 0.4-0.3 0.7-0.7 0.7c-0.4 0-0.7-0.3-0.7-0.7V13z M42 12.4c0-3.5 2.6-6.3 5.7-6.3c3.2 0 5.7 2.8 5.7 6.3 c0 0.4-0.3 0.7-0.7 0.7c-0.4 0-0.7-0.3-0.7-0.7c0-2.7-2-5-4.4-5c-2.4 0-4.4 2.2-4.4 5v23.8c0 2.7 2 5 4.4 5c2.4 0 4.4-2.2 4.4-5 v-12h-4.5c-0.4 0-0.7-0.3-0.7-0.7c0-0.4 0.3-0.7 0.7-0.7h5.2c0.4 0 0.7 0.3 0.7 0.7v12.7c0 3.5-2.6 6.3-5.7 6.3 c-3.2 0-5.7-2.8-5.7-6.3V12.4z M27.6 13.6c-0.4 0-0.7-0.3-0.7-0.7c0-0.4 0.3-0.7 0.7-0.7H36c0.4 0 0.7 0.3 0.7 0.7 c0 0.4-0.3 0.7-0.7 0.7h-3.5v27.4H36c0.4 0 0.7 0.3 0.7 0.7c0 0.4-0.3 0.7-0.7 0.7h-8.3c-0.4 0-0.7-0.3-0.7-0.7 c0-0.4 0.3-0.7 0.7-0.7h3.5V13.6H27.6z M12.2 36.7c0.4 0 0.7 0.2 0.7 0.6c0.2 1.9 2 3.9 4.4 3.9c2.4 0 4.2-1.7 4.2-3.8 c0-2.4-1.9-3.2-3.8-3.9c-0.2-0.1-0.4-0.2-0.6-0.3c-0.2-0.1-0.4-0.2-0.7-0.3c-1.9-0.7-4.7-1.8-4.7-5.1c0-2.9 2.5-5.2 5.6-5.2 c2.9 0 5.4 2.3 5.7 5.1c0 0.4-0.2 0.7-0.6 0.7c-0.4 0-0.7-0.2-0.7-0.6c-0.2-2.2-2.1-3.9-4.4-3.9c-2.4 0-4.3 1.7-4.3 3.9 c0 2.2 1.7 3.1 3.9 3.9c0.2 0.1 0.5 0.2 0.7 0.3c0.2 0.1 0.4 0.2 0.6 0.2c2.1 0.8 4.7 1.8 4.7 5.2c0 2.9-2.4 5.2-5.5 5.2 c-2.9 0-5.4-2.2-5.8-5.1C11.5 37 11.8 36.7 12.2 36.7z M17.3 72.2c2.4 0 4.4-2.2 4.4-5v-1.3h-4.5c-0.4 0-0.7-0.3-0.7-0.7 c0-0.4 0.3-0.7 0.7-0.7h5.2c0.4 0 0.7 0.3 0.7 0.7v2c0 3.5-2.6 6.3-5.7 6.3c-3.2 0-5.7-2.8-5.7-6.3v-7.3c0-3.5 2.6-6.3 5.7-6.3 c3.2 0 5.7 2.8 5.7 6.3c0 0.4-0.3 0.7-0.7 0.7c-0.4 0-0.7-0.3-0.7-0.7c0-2.7-2-5-4.4-5c-2.4 0-4.4 2.2-4.4 5v7.3 C12.9 70 14.9 72.2 17.3 72.2z M35.9 84h-6.4c-0.4 0-0.7-0.3-0.7-0.7V54.3c0-0.4 0.3-0.7 0.7-0.7c0.4 0 0.7 0.3 0.7 0.7v28.4h5.7 c0.4 0 0.7 0.3 0.7 0.7C36.6 83.7 36.3 84 35.9 84z M53.4 90c-0.4 0.1-0.7-0.2-0.8-0.6l-2.6-15.9h-4.8l-2.6 15.9 c-0.1 0.3-0.3 0.6-0.7 0.6c0 0-0.1 0-0.1 0c-0.4-0.1-0.6-0.4-0.6-0.8l2.5-15.7h-1.9c-0.4 0-0.7-0.3-0.7-0.7c0-0.4 0.3-0.7 0.7-0.7 h2.1l2.9-18c0.1-0.3 0.3-0.6 0.7-0.6c0.3 0 0.6 0.2 0.7 0.6l2.9 18.3c0.1 0.1 0.1 0.2 0.1 0.4c0 0.1 0 0.1 0 0.2L54 89.2 C54.1 89.6 53.8 89.9 53.4 90z M63.4 67.3c0.3 0.3 0.6 0.7 0.9 1c0.4 0.5 0.9 1 1.2 1.5c2.6 3.1 4 4.6 4 8.2c0 3.5-2.5 6.1-5.7 6.1 c-3.3 0-5.7-2.6-5.7-6.2c0-0.4 0.3-0.7 0.7-0.7c0.4 0 0.7 0.3 0.7 0.7c0 2.8 1.8 4.8 4.4 4.8c2.5 0 4.4-2.1 4.4-4.8 c0-3-1-4.2-3.6-7.3c-0.4-0.4-0.8-0.9-1.2-1.5c-0.3-0.3-0.6-0.7-0.9-1c-2.4-2.8-4.3-5.1-4.3-8.4c0-3.6 2.4-6.2 5.7-6.2 c2.9 0 5.8 2.2 5.8 6.3c0 0.4-0.3 0.7-0.7 0.7c-0.4 0-0.7-0.3-0.7-0.7c0-3.3-2.2-5-4.4-5c-2.6 0-4.3 2-4.3 4.8 C59.4 62.6 61 64.5 63.4 67.3z M78.3 62.7c0.2 0.1 0.5 0.2 0.7 0.3c0.2 0.1 0.4 0.2 0.6 0.2c2.1 0.8 4.7 1.8 4.7 5.2 c0 2.9-2.4 5.2-5.5 5.2c-2.9 0-5.4-2.2-5.8-5.1c0-0.4 0.2-0.7 0.6-0.7c0.4 0 0.7 0.2 0.7 0.6c0.2 1.9 2 3.9 4.4 3.9 c2.4 0 4.2-1.7 4.2-3.8c0-2.4-1.9-3.2-3.8-3.9c-0.2-0.1-0.4-0.2-0.6-0.2c-0.2-0.1-0.4-0.2-0.7-0.3c-1.9-0.7-4.7-1.8-4.7-5.1 c0-2.9 2.5-5.2 5.6-5.2c2.9 0 5.4 2.3 5.7 5.1c0 0.4-0.2 0.7-0.6 0.7c-0.4 0-0.7-0.2-0.7-0.6c-0.2-2.2-2.1-3.9-4.4-3.9 c-2.4 0-4.3 1.7-4.3 3.9C74.4 61 76.1 61.8 78.3 62.7z M85.4 46.3c0 0.3-0.2 0.6-0.5 0.6l-26.7 3.5c-0.2 0-0.4-0.1-0.5-0.2 c-0.1-0.2-0.1-0.4 0-0.6l1.7-2.7l-23.5 3.5c-0.2 0-0.4-0.1-0.5-0.2c-0.1-0.2-0.1-0.4 0-0.6l1.7-2.5l-25.9 3.3c0 0 0 0-0.1 0 c-0.3 0-0.5-0.2-0.5-0.5c0-0.3 0.2-0.6 0.5-0.6l27-3.5c0.2 0 0.4 0.1 0.5 0.2c0.1 0.2 0.1 0.4 0 0.6L37 49.1l23.4-3.5 c0.2 0 0.4 0.1 0.5 0.2c0.1 0.2 0.1 0.4 0 0.6l-1.7 2.7l25.6-3.3C85.1 45.8 85.3 46 85.4 46.3z M83.5 23.6c0 0.4-0.3 0.7-0.7 0.7 h-3.5v17.5c0 0.4-0.3 0.7-0.7 0.7c-0.4 0-0.7-0.3-0.7-0.7V24.2h-3.5c-0.4 0-0.7-0.3-0.7-0.7c0-0.4 0.3-0.7 0.7-0.7h8.3 C83.2 22.9 83.5 23.2 83.5 23.6z"></path>
+                                <path fill="#522E1F" class="targetSVG" d="M45.5 72.1L49.9 72.1 47.7 58.4z"></path>
+                            </g></svg>
+                    </a>
+                </div>
+
+                <div class="menu-link">
+                    <a href="#" class="svgLink">
+                        <!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+                        <svg width="42px" height="28px" viewBox="0 0 42 28" version="1.1"
+                             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                             xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+                             class="hamburger-menu--regular open">
+                            <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                               sketch:type="MSPage">
+                                <g id="hamburger" sketch:type="MSArtboardGroup" fill="#522E1F">
+                                    <g id="Shape" sketch:type="MSLayerGroup">
+                                        <path class="targetSVG"
+                                              d="M39,0 L2,0 C1.17157288,0 0.5,0.671572875 0.5,1.5 C0.5,2.32842712 1.17157288,3 2,3 L39,3 C39.8284271,3 40.5,2.32842712 40.5,1.5 C40.5,0.671572875 39.8284271,0 39,0 L39,0 Z M39,12 L2,12 C1.17157288,12 0.5,12.6715729 0.5,13.5 C0.5,14.3284271 1.17157288,15 2,15 L39,15 C39.8284271,15 40.5,14.3284271 40.5,13.5 C40.5,12.6715729 39.8284271,12 39,12 L39,12 Z M39,24 L2,24 C1.17157288,24 0.5,24.6715729 0.5,25.5 C0.5,26.3284271 1.17157288,27 2,27 L39,27 C39.8284271,27 40.5,26.3284271 40.5,25.5 C40.5,24.6715729 39.8284271,24 39,24 L39,24 Z"
+                                              sketch:type="MSShapeGroup"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                        <svg class="close regular-close" width="41px" height="27px" version="1.1"
+                             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                             y="0px" viewBox="0 0 42 32" enable-background="new 0 0 42 32" xml:space="preserve"> <path
+                                    fill="#522E1F" class="targetSVG "
+                                    d="M35.1,28l-12-12l12-12c0.3-0.3,0.4-0.7,0.4-1.1s-0.1-0.8-0.4-1.1c-0.6-0.6-1.5-0.6-2.1,0l-12,12L9,1.9 c-0.6-0.6-1.5-0.6-2.1,0S6.3,3.4,6.9,4l12,12l-12,12c-0.6,0.6-0.6,1.5,0,2.1s1.5,0.6,2.1,0l12-12l12,12c0.3,0.3,0.7,0.4,1.1,0.4 s0.8-0.1,1.1-0.4C35.7,29.6,35.7,28.6,35.1,28z"></path></svg>
+                        <h4 class="nav_label ">Menu</h4>
+                    </a>
+                </div>
+                <div class="menu-bag ">
+                    <div data-count="" class="cart-counter items"></div>
+
+                    <svg class="empty-bag" width="32px" height="31px" viewBox="0 0 31 30" version="1.1"
+                         xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink"
+                         xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                           sketch:type="MSPage">
+                            <g id="bag_empty" sketch:type="MSArtboardGroup" fill="#FFFFFF">
+                                <g id="Shape-+-Shape" sketch:type="MSLayerGroup"
+                                   transform="translate(-1.000000, 0.000000)">
+                                    <path class="targetSVG "
+                                          d="M7.36022949,27 L25.6324165,27.0442936 L28.7655029,11 L4.26977539,11 L7.36022949,27 Z M1.03396645,9.97171441 C0.824825308,8.88276661 1.55264378,8 2.66164844,8 L30.3384884,8 C31.4465735,8 32.1766107,8.87600219 31.9661704,9.97171441 L28.4982613,28.0282856 C28.2891202,29.1172334 27.2228201,30 26.1181187,30 L6.88201814,30 C5.77664281,30 4.71231582,29.1239978 4.50187551,28.0282856 L1.03396645,9.97171441 L1.03396645,9.97171441 Z"
+                                          id="Shape" sketch:type="MSShapeGroup"></path>
+                                    <path class="targetSVG "
+                                          d="M17.5606602,0.439339828 C16.9748737,-0.146446609 16.0251263,-0.146446609 15.4393398,0.439339828 L7.93933983,7.93933983 C7.35355339,8.52512627 7.35355339,9.47487373 7.93933983,10.0606602 C8.52512627,10.6464466 9.47487373,10.6464466 10.0606602,10.0606602 L16.5080654,3.62938576 L22.9393398,10.0606602 C23.5251263,10.6464466 24.4748737,10.6464466 25.0606602,10.0606602 C25.6464466,9.47487373 25.6464466,8.52512627 25.0606602,7.93933983 L17.5606602,0.439339828 Z"
+                                          id="Shape" sketch:type="MSShapeGroup"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+
+                    <svg class="full-bag" width="32px" height="31px" viewBox="0 0 31 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                            <g id="bag_full" sketch:type="MSArtboardGroup" fill="#FFFFFF">
+                                <g id="Rectangle-216-+-Shape" sketch:type="MSLayerGroup">
+                                    <path class="targetSVG " d="M0.0339664515,9.97171441 C-0.175174692,8.88276661 0.552643779,8 1.66164844,8 L29.3384884,8 C30.4465735,8 31.1766107,8.87600219 30.9661704,9.97171441 L27.4982613,28.0282856 C27.2891202,29.1172334 26.2228201,30 25.1181187,30 L5.88201814,30 C4.77664281,30 3.71231582,29.1239978 3.50187551,28.0282856 L0.0339664515,9.97171441 Z" id="Rectangle-216" sketch:type="MSShapeGroup"></path>
+                                    <path class="targetSVG " d="M16.5606602,0.439339828 C15.9748737,-0.146446609 15.0251263,-0.146446609 14.4393398,0.439339828 L6.93933983,7.93933983 C6.35355339,8.52512627 6.35355339,9.47487373 6.93933983,10.0606602 C7.52512627,10.6464466 8.47487373,10.6464466 9.06066017,10.0606602 L15.5080654,3.62938576 L21.9393398,10.0606602 C22.5251263,10.6464466 23.4748737,10.6464466 24.0606602,10.0606602 C24.6464466,9.47487373 24.6464466,8.52512627 24.0606602,7.93933983 L16.5606602,0.439339828 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <h4 class="nav_label ">Bag</h4>
+                </div>
+            </nav>
+            <nav class="menu-fix-top ">
+                <nav class="menu-slide-up-menu-top">
+                    <ul class="nav-menu">
+                        
+                            <li><a href="/collections/all">Shop</a></li>
+                        
+                            <li><a href="/pages/subscribe">Subscribe</a></li>
+                        
+                            <li><a href="/blogs/blog">Learn</a></li>
+                        
+                            <li><a href="/blogs/shops">Visit</a></li>
+                        
+                    </ul>
+                    <p></p>
+                    <ul class="nav-search">
+                        <li><img src=//cdn.shopify.com/s/files/1/0027/5382/2835/t/17/assets/search-29c7d30f1136dfda5d77902209bb65ca.svg?2514 alt="search">
+                            <a href="" class="button-search">search</a>
+                        </li>
+                        <li><a href="">sign in</a></li>
+                    </ul>
+                    <div class="nav-search-form sticky-form">
+                        <form class="nav-search-container" action="/search" method="get" role="search">
+                            <input type="hidden" name="type" value="product" />
+                            <label for="Search" class="label-hidden">
+                                <img src=//cdn.shopify.com/s/files/1/0027/5382/2835/t/17/assets/search-29c7d30f1136dfda5d77902209bb65ca.svg?2514>
+                            </label>
+                            <input type="text" name="q" id="Search" value="" placeholder="Search Products"
+                                   class="nav-search-input">
+
+                            <a class="icon-fallback-text cancel-link">cancel</a>
+
+                        </form>
+                    </div>
+
+                </nav>
+
+                <div class="menu-fix-top__container">
+                    <div class="nav_logo_fix">
+                        <a href="/">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                 width="102px" height="10px" viewBox="0 0 102 10" enable-background="new 0 0 102 10"
+                                 xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" class="bolt-logo">
+                                <title>Sightglass Coffee</title>
+                                <desc>Created with Sketch.</desc>
+                                <g>
+
+                                    <polyline fill="none" stroke="#522E1F" stroke-width="3" stroke-linecap="round"
+                                              stroke-linejoin="round" stroke-miterlimit="10" points="
+		100.475,2.837 65.47,8.263 68.913,1.998 35.003,8.215 37.913,2.514 1.55,8.501 	"></polyline>
+                                </g>
+</svg>
+                        </a>
+                    </div>
+                  	
+                    <div class="menu-link">
+                        <a href="#" class="svgLink-slick">
+                            <!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+                            <svg width="42px" height="28px" viewBox="0 0 42 28" version="1.1"
+                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                 xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+                                 class="hamburger-menu open slick-hamburger">
+                                <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                                   sketch:type="MSPage">
+                                    <g id="hamburger-slick" sketch:type="MSArtboardGroup" fill="#522E1F">
+                                        <g id="Shape" sketch:type="MSLayerGroup">
+                                            <path class="targetSVG"
+                                                  d="M39,0 L2,0 C1.17157288,0 0.5,0.671572875 0.5,1.5 C0.5,2.32842712 1.17157288,3 2,3 L39,3 C39.8284271,3 40.5,2.32842712 40.5,1.5 C40.5,0.671572875 39.8284271,0 39,0 L39,0 Z M39,12 L2,12 C1.17157288,12 0.5,12.6715729 0.5,13.5 C0.5,14.3284271 1.17157288,15 2,15 L39,15 C39.8284271,15 40.5,14.3284271 40.5,13.5 C40.5,12.6715729 39.8284271,12 39,12 L39,12 Z M39,24 L2,24 C1.17157288,24 0.5,24.6715729 0.5,25.5 C0.5,26.3284271 1.17157288,27 2,27 L39,27 C39.8284271,27 40.5,26.3284271 40.5,25.5 C40.5,24.6715729 39.8284271,24 39,24 L39,24 Z"
+                                                  sketch:type="MSShapeGroup"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                            <svg class="close slick-close" width="41px" height="27px" version="1.1"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 42 32"
+                                 enable-background="new 0 0 42 32" xml:space="preserve">
+                                <path fill="#522E1F" class="targetSVG"
+                                      d="M35.1,28l-12-12l12-12c0.3-0.3,0.4-0.7,0.4-1.1s-0.1-0.8-0.4-1.1c-0.6-0.6-1.5-0.6-2.1,0l-12,12L9,1.9 c-0.6-0.6-1.5-0.6-2.1,0S6.3,3.4,6.9,4l12,12l-12,12c-0.6,0.6-0.6,1.5,0,2.1s1.5,0.6,2.1,0l12-12l12,12c0.3,0.3,0.7,0.4,1.1,0.4 s0.8-0.1,1.1-0.4C35.7,29.6,35.7,28.6,35.1,28z"></path></svg>
+                        </a>
+                    </div>
+                    <div class="menu-bag ">
+                        <div class="items bag-count"></div>
+                      <svg class="empty-bag" width="32px" height="31px" viewBox="0 0 31 30" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                          sketch:type="MSPage">
+                          <g id="bag_empty" sketch:type="MSArtboardGroup" fill="#FFFFFF">
+                            <g id="Shape-+-Shape" sketch:type="MSLayerGroup"
+                              transform="translate(-1.000000, 0.000000)">
+                              <path class="targetSVG "
+                                d="M7.36022949,27 L25.6324165,27.0442936 L28.7655029,11 L4.26977539,11 L7.36022949,27 Z M1.03396645,9.97171441 C0.824825308,8.88276661 1.55264378,8 2.66164844,8 L30.3384884,8 C31.4465735,8 32.1766107,8.87600219 31.9661704,9.97171441 L28.4982613,28.0282856 C28.2891202,29.1172334 27.2228201,30 26.1181187,30 L6.88201814,30 C5.77664281,30 4.71231582,29.1239978 4.50187551,28.0282856 L1.03396645,9.97171441 L1.03396645,9.97171441 Z"
+                                id="Shape" sketch:type="MSShapeGroup"></path>
+                              <path class="targetSVG "
+                                d="M17.5606602,0.439339828 C16.9748737,-0.146446609 16.0251263,-0.146446609 15.4393398,0.439339828 L7.93933983,7.93933983 C7.35355339,8.52512627 7.35355339,9.47487373 7.93933983,10.0606602 C8.52512627,10.6464466 9.47487373,10.6464466 10.0606602,10.0606602 L16.5080654,3.62938576 L22.9393398,10.0606602 C23.5251263,10.6464466 24.4748737,10.6464466 25.0606602,10.0606602 C25.6464466,9.47487373 25.6464466,8.52512627 25.0606602,7.93933983 L17.5606602,0.439339828 Z"
+                                id="Shape" sketch:type="MSShapeGroup"></path>
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                        <svg class="full-bag" width="32px" height="31px" viewBox="0 0 31 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                                <g id="bag_full" sketch:type="MSArtboardGroup" fill="#522e1f">
+                                    <g id="Rectangle-216-+-Shape" sketch:type="MSLayerGroup">
+                                        <path class="targetSVG " d="M0.0339664515,9.97171441 C-0.175174692,8.88276661 0.552643779,8 1.66164844,8 L29.3384884,8 C30.4465735,8 31.1766107,8.87600219 30.9661704,9.97171441 L27.4982613,28.0282856 C27.2891202,29.1172334 26.2228201,30 25.1181187,30 L5.88201814,30 C4.77664281,30 3.71231582,29.1239978 3.50187551,28.0282856 L0.0339664515,9.97171441 Z" id="Rectangle-216" sketch:type="MSShapeGroup"></path>
+                                        <path class="targetSVG " d="M16.5606602,0.439339828 C15.9748737,-0.146446609 15.0251263,-0.146446609 14.4393398,0.439339828 L6.93933983,7.93933983 C6.35355339,8.52512627 6.35355339,9.47487373 6.93933983,10.0606602 C7.52512627,10.6464466 8.47487373,10.6464466 9.06066017,10.0606602 L15.5080654,3.62938576 L21.9393398,10.0606602 C22.5251263,10.6464466 23.4748737,10.6464466 24.0606602,10.0606602 C24.6464466,9.47487373 24.6464466,8.52512627 24.0606602,7.93933983 L16.5606602,0.439339828 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    
+                    
+
+                    
+                  
+                  	
+                  
+                  	
+                  
+                    
+
+                    
+                    
+
+                    
+                </div>
+
+            </nav>
+            
+        </div>
+        
+          
+        <div class="home-page-full_resolution">
+            <div class="container">
+                <div class="home-page-full_resolution_center_block">
+                  
+                    <h6></h6>
+                    <h1>Ship Ahoy!</h1>
+                    <p>Free site-wide shipping through July 31. Just for you and just for summer.</p>
+                    <a href="/collections/all"
+                       class="button-white">Shop Free Shipping</a>
+                </div>
+            </div>
+        </div>
+        
+        
+    </header>
+</section>
+
+
+
+</div>
+
+    
+        <div id="shopify-section-brew" class="shopify-section">
+<section data-section-id="brew" class="container-fluid home-page_brew_guids">
+    <div class="container-fluid home-page_brew_guids--box">
+        <div class="row">
+            <div class=" home-page_brew_guids--box__element align-items-center col-12">
+
+                
+                    
+                        <img src="//cdn.shopify.com/s/files/1/0027/5382/2835/files/chemex_1x-a6ffac9ba37a9abc8590b6b928650c51.png?v=1529530332"/>
+                    
+                        <img src="//cdn.shopify.com/s/files/1/0027/5382/2835/files/aeropress_1x-20be3d80c08242fdf3b8e7588d840599.png?v=1529530323"/>
+                    
+                        <img src="//cdn.shopify.com/s/files/1/0027/5382/2835/files/v60_1x-6497cf87c7d036302da8cb7a5ad97aec.png?v=1529530326"/>
+                    
+                        <img src="//cdn.shopify.com/s/files/1/0027/5382/2835/files/french_press_1x-85d4338c263b59097db65c7d50c92d03.png?v=1529530320"/>
+                    
+                        <img src="//cdn.shopify.com/s/files/1/0027/5382/2835/files/clever_1x-2ee5fc661a81acc3974f98453031c326.png?v=1529530315"/>
+                    
+                
+            </div>
+            <div class="home-page_brew_guids--box__element_text col-12">
+                <h1>Brew Guides</h1>
+               <p> With a few tools and the right ingredients, a well-brewed cup of coffee is simple to make at home. We’ve chosen some of our favorite brewing methods to get you started. Have fun, experiment, and smile often! </p>
+                <a href="/blogs/brewing-guides"
+                   class="button-grey">Get Brewing!</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+</div>
+        <div id="shopify-section-subscribe" class="shopify-section"><style>
+    
+    .home-page_subscribe { background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)), url("//cdn.shopify.com/s/files/1/0027/5382/2835/files/sub_hero_homepage.png?v=1561656656");}
+    
+</style>
+<section data-section-id="subscribe" class="container-fluid home-page_subscribe">
+    <h1>SUBSCRIBE</h1>
+    <span class="white-line"></span>
+    <div class="container">
+
+        <ul class="type-beans">
+            <p>Delicious coffee delivered to your door.</p>
+            <li><a href="/pages/subscribe" class="button-white">Subscribe</a></li>
+            
+            <li><a href="/pages/gift" class="button-option">Send a Gift</a></li> 
+        </ul>
+    </div>
+</section>
+
+
+</div>
+        <div id="shopify-section-latest-products" class="shopify-section">
+<section data-section-id="latest-products" class="container-fluid home-page_items_shop">
+    
+    <h1>Items in our Shop</h1>
+    
+    <div class="container-shop">
+
+        <div class="row-boxes">
+            
+            <div class="home-page_items_shop__box">
+                <div class="home-page_items_shop__box-inner">
+                    <div class="notes-taste-left">
+                        <ul>
+                            
+                                
+                                    <li class="collection-elem">
+                                        <img src=" //cdn.shopify.com/s/files/1/0027/5382/2835/collections/chocolatey_deep_lg_medium.png?v=1541243635" alt="Chocolatey & Deep" />
+                                    </li>
+                                
+                            
+                                
+                            
+                                
+                            
+                                
+                                    <li class="collection-elem">
+                                        <img src=" //cdn.shopify.com/s/files/1/0027/5382/2835/collections/fruited_and_bright_lg_medium.png?v=1530865848" alt="Fruited & Bright" />
+                                    </li>
+                                
+                            
+                                
+                            
+                        </ul>
+                    </div>
+                    
+                    <a href="/products/blueboon" class="product-img">
+                        
+                            <img src="//cdn.shopify.com/s/files/1/0027/5382/2835/products/web_blueboon_2dce26ff-a9b4-4142-8cb8-885786820444_720x.png?v=1562193567" alt="Blueboon" />
+                        
+                    </a>
+                    <div class="tag-title">
+                        <p><span class="tag">Blends</span></p> 
+                        <h5>
+                            <a href="/products/blueboon" class="product-name">Blueboon</a>
+                        </h5>
+                        <p class="price">
+                            
+                                $18.00
+                            
+                        </p>
+
+                      
+                        <a data-id="16451763208307" href="#" class="button-add_to_bag">Add to Bag</a>
+                      
+
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="home-page_items_shop__box">
+                <div class="home-page_items_shop__box-inner">
+                    <div class="notes-taste-left">
+                        <ul>
+                            
+                                
+                                    <li class="collection-elem">
+                                        <img src=" //cdn.shopify.com/s/files/1/0027/5382/2835/collections/chocolatey_deep_lg_medium.png?v=1541243635" alt="Chocolatey & Deep" />
+                                    </li>
+                                
+                            
+                                
+                            
+                                
+                            
+                                
+                                    <li class="collection-elem">
+                                        <img src=" //cdn.shopify.com/s/files/1/0027/5382/2835/collections/fruited_and_bright_lg_medium.png?v=1530865848" alt="Fruited & Bright" />
+                                    </li>
+                                
+                            
+                        </ul>
+                    </div>
+                    
+                    <a href="/products/sfmoma" class="product-img">
+                        
+                            <img src="//cdn.shopify.com/s/files/1/0027/5382/2835/products/web_sfmoma_38742abe-c251-4a38-a4cc-831e5928ba1c_720x.png?v=1562091337" alt="SFMOMA" />
+                        
+                    </a>
+                    <div class="tag-title">
+                        <p><span class="tag">Espresso</span></p> 
+                        <h5>
+                            <a href="/products/sfmoma" class="product-name">SFMOMA</a>
+                        </h5>
+                        <p class="price">
+                            
+                                $20.00
+                            
+                        </p>
+
+                      
+                        <a data-id="16451432579187" href="#" class="button-add_to_bag">Add to Bag</a>
+                      
+
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="home-page_items_shop__box">
+                <div class="home-page_items_shop__box-inner">
+                    <div class="notes-taste-left">
+                        <ul>
+                            
+                                
+                            
+                                
+                            
+                        </ul>
+                    </div>
+                    
+                    <a href="/products/fellow-stagg-pourover-kettle" class="product-img">
+                        
+                            <img src="//cdn.shopify.com/s/files/1/0027/5382/2835/products/SG_stagg_kettle_3_720x.png?v=1562777413" alt="Fellow Stagg Pour-Over Kettle" />
+                        
+                    </a>
+                    <div class="tag-title">
+                        <p><span class="tag">Kettles</span></p> 
+                        <h5>
+                            <a href="/products/fellow-stagg-pourover-kettle" class="product-name">Fellow Stagg Pour-Over Kettle</a>
+                        </h5>
+                        <p class="price">
+                            
+                                $79.00
+                            
+                        </p>
+
+                      
+                        <a data-id="29387505762419" href="#" class="button-add_to_bag">Add to Bag</a>
+                      
+
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="home-page_items_shop__box">
+                <div class="home-page_items_shop__box-inner">
+                    <div class="notes-taste-left">
+                        <ul>
+                            
+                                
+                            
+                                
+                            
+                        </ul>
+                    </div>
+                    
+                    <a href="/products/sightglass-pattern-tote" class="product-img">
+                        
+                            <img src="//cdn.shopify.com/s/files/1/0027/5382/2835/products/SG-Tote-Natural-1440x1440_720x.png?v=1562709142" alt="Sightglass Pattern Tote" />
+                        
+                    </a>
+                    <div class="tag-title">
+                        <p><span class="tag">Goods</span></p> 
+                        <h5>
+                            <a href="/products/sightglass-pattern-tote" class="product-name">Sightglass Pattern Tote</a>
+                        </h5>
+                        <p class="price">
+                            
+                                $25.00
+                            
+                        </p>
+
+                      
+                        <a data-id="18441513828467" href="#" class="button-add_to_bag">Add to Bag</a>
+                      
+
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="home-page_items_shop__box">
+                <div class="home-page_items_shop__box-inner">
+                    <div class="notes-taste-left">
+                        <ul>
+                            
+                                
+                            
+                                
+                            
+                        </ul>
+                    </div>
+                    
+                    <a href="/products/kinto-travel-tumbler" class="product-img">
+                        
+                            <img src="//cdn.shopify.com/s/files/1/0027/5382/2835/products/Sightglass_Kinto_closed-SG_720x.png?v=1562368447" alt="Kinto Travel Tumbler" />
+                        
+                    </a>
+                    <div class="tag-title">
+                        <p><span class="tag">Goods</span></p> 
+                        <h5>
+                            <a href="/products/kinto-travel-tumbler" class="product-name">Kinto Travel Tumbler</a>
+                        </h5>
+                        <p class="price">
+                            
+                                $34.00
+                            
+                        </p>
+
+                      
+                        <a data-id="29362368413811" href="#" class="button-add_to_bag">Add to Bag</a>
+                      
+
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+        <a href="/collections/all" class="button-shop">Visit the Shop</a>
+    </div>
+</section>
+
+
+</div>
+    
+
+    <div id="shopify-section-newsletter-modal" class="shopify-section"><div id="launch-modal" class="launch-modal">
+  <div class="close-launch-modal">
+    <img src="//cdn.shopify.com/s/files/1/0027/5382/2835/t/17/assets/close-modal-icon.svg?2514">
+    <label>Close</label>
+  </div>
+
+  <!-- Modal content -->
+  <div class="launch-modal-content newsletter">
+    <img class="newsletter-logo second-modal" src="https://cdn.shopify.com/s/files/1/0027/5382/2835/files/sightglass_email_blast-e54f4463d7bb950ae6efd54c047cb43d.svg?16193022122572427418">
+    
+      <h1 class="first-modal">NEW COFFEE NEWS</h1>
+    
+
+    <h1 class="second-modal">Email Newsletter</h1>
+
+    
+      <p class="first-modal">Sneak peeks, exclusive coffees, free stuff, and more. Sign up for the Sightglass newsletter (we won't spam you).</p>
+    
+
+    <p class="second-modal">From us, to you...</p>
+
+    <form id="newsletter-modal-form" action="https://sightglasscoffee.us5.list-manage.com/subscribe/post-json?u=d6fb897b1a37fbcb982fb17de&amp;id=63bc80a8f3&c=?" class="sign-in-input" method="post">
+      <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email Address" required>
+
+      <div style="position: absolute; left: -5000px;" aria-hidden="true">
+        <input type="text" name="b_d6fb897b1a37fbcb982fb17de_63bc80a8f3" tabindex="-1" value="">
+      </div>
+
+      <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button-input btn btn-default">Sign Up</button>
+    </form>
+  </div>
+</div>
+
+<script>
+    const showModalSetting = true;
+</script>
+
+</div>
+    
+<!-- Subscriptions Powered by ReCharge Payments: Begin Liquid Code -->
+<!--
+	Subscription Theme Footer
+	http://rechargepayments.com: v2
+	Updated: 2017/09/12
+-->
+
+	<script>
+		// Subscriptions Powered by ReCharge Payments: JavaScript
+		(function() {
+			// Basic function to load script files, will be used to include jQuery
+			var loadScript = function(url, callback) {
+				var script = document.createElement("script");
+				script.type = "text/javascript";
+				// If the browser is Internet Explorer
+				if (script.readyState){ 
+					script.onreadystatechange = function() {
+						if (script.readyState == "loaded" || script.readyState == "complete") {
+							script.onreadystatechange = null;
+							callback();
+						}
+					};
+				// For any other browser
+				} else {
+					script.onload = function() {
+						callback();
+					};
+				}
+				script.src = url;
+				document.getElementsByTagName("head")[0].appendChild(script);
+			};
+			// This is our JavaScript that we'll run after jQuery is included
+			var reChargeThemeFooterJS = function($) {
+				function reChargeSaveCartNoteAndRedirectToCart() {
+					var has_cart_note_or_attribute = false;
+					try {
+						var data = {};
+						if ($('[name="note"]').val() != undefined) {
+							var note = $('[name="note"]').val();
+							data['note'] = note;
+							has_cart_note_or_attribute = true;
+						}
+						if (has_cart_note_or_attribute) {
+							$.ajax({
+								type: 'POST',
+								data: data,
+								url: '/cart/update.js',
+								dataType: 'json',
+								success: function() {
+									window.location.href = '/cart';
+								}
+							});
+						} else {
+							window.location.href = '/cart';
+						}
+					} catch (e) {
+						window.location.href = '/cart';
+					}
+				}
+				var checkout_button_selectors = '[href="/checkout"], form[action="/cart"] button[type="submit"], form[action="/cart"] input[type="submit"], form[action="/checkout"] input[type="submit"], form[action="/checkout"] button[type="submit"]';
+				$(document).on('click', checkout_button_selectors, function(e) {
+					if (!e.target.hasAttribute('data-disable-recharge')) {
+						e.preventDefault();
+						reChargeSaveCartNoteAndRedirectToCart();
+						window.location.href = '/cart';
+					} else {
+						console.info('ReCharge disabled');
+					}
+				});
+			}
+			// Check if jQuery is added, if not, then we'll loadScript, otherwise, run reChargeJS
+			if ((typeof(jQuery) == 'undefined') || (parseInt(jQuery.fn.jquery) == 1 && parseFloat(jQuery.fn.jquery.replace(/^1\./,"")) < 7.2)) {
+				// We'll get our jQuery from Google APIs
+				loadScript('//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js', function() {
+					jQuery172 = jQuery.noConflict(true);
+					reChargeThemeFooterJS(jQuery172);
+				});
+			} else {
+				reChargeThemeFooterJS(jQuery);
+			}
+		})();
+	</script>
+
+<!-- Subscriptions Powered by ReCharge Payments: End Liquid Code -->
+<br><br>
+
+  
+  
+    <div id="shopify-section-footer" class="shopify-section"><section data-section-id="footer" class="footer">
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class=" col-12 col-sm-12 col-md-7 col-lg-4 col-xl-5">
+                    <div class="left-links">
+                        <a href="/">
+                            <img src="//cdn.shopify.com/s/files/1/0027/5382/2835/t/17/assets/footer_left.svg?2514">
+                        </a>
+                        
+                            <div class="contact-info">
+                                <p><strong>SIGHTGLASS COFFEE</strong><br>270 Seventh Street<br>San Francisco, CA 94103<br>415-861-1313</p>
+                                <p><a class="underline" href="mailto:hello@sightglasscoffee.com" target="_top">Email</a></p>
+                            </div>
+                        
+
+                    </div>
+                </div>
+                <div class=" col-12 col-sm-12 col-md-2 col-lg-3 col-xl-3">
+                    <ul class="footer-link-menu">
+                        
+                            <li><a href="/pages/our-company">Our Company</a></li>
+                        
+                            <li><a href="/pages/careers">Careers</a></li>
+                        
+                            <li><a href="/pages/wholesale">Wholesale</a></li>
+                        
+                            <li><a href="/pages/faq">FAQ</a></li>
+                        
+                    </ul>
+                </div>
+                <div class=" col-12 col-sm-12 col-md-3 col-lg-4 col-xl-4">
+                    <div class="right-socials">
+                        <ul>
+                            
+                                <li><a href="https://www.facebook.com/sightglasscoffee/">Facebook</a></li>
+                            
+                                <li><a href="https://twitter.com/Sightglass">Twitter</a></li>
+                            
+                                <li><a href="https://www.instagram.com/sightglass/">Instagram</a></li>
+                            
+                        </ul>
+                        <div class="footer-logo">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 footer__copyright">
+                        <p class="copyright">Copyright © 2019 Sightglass Coffee</p>
+                        <p class="small-links">
+                            
+                                <a href="/pages/terms-of-use">Terms of Use</a>
+                            
+                                <a href="/pages/privacy-policy">Privacy Policy</a>
+                            
+                        </p>
+                </div>
+            </div>
+            <div class="footer__mobile">
+                <img src="//cdn.shopify.com/s/files/1/0027/5382/2835/t/17/assets/footer_left.svg?2514">
+                <div class="contact-info">
+                    <p><strong>SIGHTGLASS COFFEE</strong><br>270 Seventh Street<br>San Francisco, CA 94103<br>415-861-1313</p>
+                    <p><a class="underline" href="mailto:hello@sightglasscoffee.com" target="_top">Email</a></p>
+                </div>
+
+
+                <ul class="footer-link-menu">
+                    
+                    <li><a href="/pages/our-company">Our Company</a></li>
+                    
+                    <li><a href="/pages/careers">Careers</a></li>
+                    
+                    <li><a href="/pages/wholesale">Wholesale</a></li>
+                    
+                    <li><a href="/pages/faq">FAQ</a></li>
+                    
+                </ul>
+                <ul class="socials-link">
+                    
+                    <li><a href="https://www.facebook.com/sightglasscoffee/">Facebook</a></li>
+                    
+                    <li><a href="https://twitter.com/Sightglass">Twitter</a></li>
+                    
+                    <li><a href="https://www.instagram.com/sightglass/">Instagram</a></li>
+                    
+                </ul>
+                <div class="footer-logo">
+
+                </div>
+                <p class="small-links">
+                    
+                    <a href="/pages/terms-of-use">Terms of Use</a>
+                    
+                    <a href="/pages/privacy-policy">Privacy Policy</a>
+                    
+                </p>
+                <p>Copyright © 2019 Sightglass Coffee</p>
+            </div>
+        </div>
+    </footer>
+</section>
+
+
+
+<script type="text/javascript">
+    (function() {
+        CartJS.init({"token":"13e35e0dadb5fdc5a991c6e5197374b9","note":null,"attributes":{},"original_total_price":0,"total_price":0,"total_discount":0,"total_weight":0.0,"item_count":0,"items":[],"requires_shipping":false,"currency":"USD","items_subtotal_price":0,"cart_level_discount_applications":[]});
+    });
+
+    var coffeeState = ".coffee-quantity";
+    var isFinished;
+    var locked = false;
+    var one, two, three;
+
+
+    // https://jsfiddle.net/foozle/0sdt33dz/1/
+    function animateHead(number, scale) {
+        var line = Snap('#arrow-head-' + number);
+        var lineLength = line.getTotalLength();
+        var s = Snap('#arrow-' + number);
+        var lineDraw = s.path($('#arrow-head-' + number).attr('d'));
+        var matrix = new Snap.Matrix();
+        matrix.scale(scale, scale);
+        lineDraw.transform(matrix);
+        lineDraw.attr({
+            'fill': 'none',
+            'stroke': "#522E1F",
+            'stroke-width': '4',
+            'stroke-linecap': 'round',
+            'stroke-linejoin': 'round',
+            'stroke-dasharray': lineLength + ' ' + lineLength,
+            'stroke-dashoffset': lineLength,
+        });
+        lineDraw.animate({
+            strokeDashoffset: 0
+        }, 1000, mina.easein, function () {
+            /* console.log('done');*/
+        })
+    }
+
+    function animateArrow(number, scale) {
+        var line = Snap('#arrow-body-' + number);
+        var lineLength = line.getTotalLength();
+        var s = Snap('#arrow-' + number);
+        var lineDraw = s.path($('#arrow-body-' + number).attr('d'));
+        var matrix = new Snap.Matrix();
+        matrix.scale(scale, scale);
+        lineDraw.transform(matrix);
+        lineDraw.attr({
+            'fill': 'none',
+            'stroke': "#522E1F",
+            'stroke-width': '4',
+            'stroke-linecap': 'round',
+            'stroke-linejoin': 'round',
+            'stroke-dasharray': lineLength + ' ' + lineLength,
+            'stroke-dashoffset': lineLength,
+        });
+        lineDraw.animate({
+            strokeDashoffset: 0
+        }, 1000, mina.easein, function () {
+            /* console.log('done');*/
+            animateHead(number, scale)
+        })
+    }
+
+
+    $(function () {
+        var scale;
+
+        if($('.subscribe-page').length > 0){ $(window).scroll(function () {
+            if ($(window).width() < 500) {
+                scale = 0.3
+            } else {
+                scale = 1
+            }
+            if (!one && $(window).scrollTop() + 500 > $('#pick-it').position().top) {
+                animateArrow("one", scale);
+                one = true;
+            }
+            if (!two && $(window).scrollTop() + 500 > $('#ship-it').position().top) {
+                animateArrow("two", scale);
+                two = true;
+            }
+            if (!three && $(window).scrollTop() + 500 > $('#brew-it').position().top) {
+                animateArrow("three", scale);
+                three = true;
+            }
+
+        });}
+
+    });
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3-wIiKQ_oltH6Lz1xe3-nKPtwpvG4ZIg&amp;callback=wrapperMap" async="" defer=""></script>
+
+<script src="https://player.vimeo.com/api/player.js"></script></div>
+ 
+ 
+   
+  </div>
+   
+<script>
+$(document).ready(function(){ 
+ $(".textimage-wrap").hide();
+   $(".button-play").click(function(){
+      $(".textimage-wrap").show();
+      $("#sidebar__inner").addClass('back_show');
+//    $('.sidebar__inner').css('padding-bottom','0%');
+   });
+});  
+</script>
+<input type="hidden" name="page_handle" class="get_current_page_handle" value=""><input type="hidden" id="656565115116111114101" data-customer-id="" data-customer-email="" data-customer-name=" "/><input type="hidden" name="aaaformbuilder_customer_logged_id" value="" id="aaaformbuilder_customer_logged_id"></body>
+</html>

@@ -4,6 +4,7 @@ Script to create a prediction model.
 
 import os
 import sys
+import pickle
 import logging
 
 import numpy as np
@@ -19,7 +20,6 @@ from keras.layers import Dense, Dropout, Activation, Embedding, Bidirectional, L
 LOG_LEVEL = logging.DEBUG
 TEST_SPLIT = 0.2
 VALIDATION_SPLIT = 0.1
-DATASET_PATH = "reuters_word_index.json"
 MAX_WORDS = 10000
 BATCH_SIZE = 300
 EPOCHS = 5
@@ -32,6 +32,7 @@ SOFTMAX = "softmax"
 MODEL_PATH = os.path.join("models", "{}_model.json")
 WEIGHTS_PATH = os.path.join("models", "{}_weights.h5")
 PLOT_PATH = os.path.join("models", "{}_loss.png")
+TOKENIZER_PATH = os.path.join("models", "{}_tokenizer.pkl")
 LOSS = "loss"
 VAL_LOSS = "val_loss"
 
@@ -54,8 +55,16 @@ logger.debug("Loading dataset. | sf_split=%s", TEST_SPLIT)
 train_set, test_set = reuters.load_data(num_words=None, test_split=TEST_SPLIT)
 x_train, y_train = train_set
 x_test, y_test = test_set
-word_index = reuters.get_word_index(path=DATASET_PATH)
 logger.debug("Dataset Loaded. | sf_train=%s | sf_test=%s", len(x_train), len(x_test))
+
+# Loading the words index.
+word_index = reuters.get_word_index()
+logger.debug("Word index loaded. | sf_index=%s", len(word_index))
+# Indexing all labels in the dataset.
+word_by_id_index = {}
+for key, value in word_index.items():
+    word_by_id_index[value] = key
+logger.debug("Indexed words by ID. | sf_index=%s", len(word_by_id_index))
 
 # Avoiding this issue:
 # https://stackoverflow.com/questions/55890813
@@ -66,12 +75,6 @@ np.load = np_load_old
 total_labels = max(y_train) + 1
 logger.debug("Labels detected. | sf_train=%s | sf_test=%s | sf_labels=%s",
              len(y_train), len(y_test), total_labels)
-
-# Indexing all labels in the dataset.
-word_by_id_index = {}
-for key, value in word_index.items():
-    word_by_id_index[value] = key
-logger.debug("Indexed words by ID. | sf_index=%s", len(word_by_id_index))
 
 # Tokenizing dataset using a One-Hot Encoder.
 tokenizer = Tokenizer(num_words=MAX_WORDS)
@@ -124,6 +127,12 @@ with open(model_path, "w") as json_file:
     json_file.write(model_json)
 model.save_weights(weights_path)
 logger.debug("Model saved. | sf_model=%s | sf_weights=%s", model_path, weights_path)
+
+# Persisting the Tokenizer.
+tokenizer_path = TOKENIZER_PATH.format(int(10000 * score[1]))
+with open(tokenizer_path, 'wb') as file_buffer:
+    pickle.dump(tokenizer, file_buffer, protocol=pickle.HIGHEST_PROTOCOL)
+logger.debug("Tokenizer persisted. | sf_path=%s", tokenizer_path)
 
 # Plotting results.
 plot_path = PLOT_PATH.format(int(10000 * score[1]))

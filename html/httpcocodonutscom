@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+		<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>Coco Donuts &#8211; Explore life’s little pleasures&#8230;One bite at a time&#8230;One sip at a time.</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Coco Donuts &raquo; Feed" href="http://cocodonuts.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Coco Donuts &raquo; Comments Feed" href="http://cocodonuts.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Coco Donuts &raquo; Home Comments Feed" href="http://cocodonuts.com/home/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/cocodonuts.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.0.3"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wp-block-library-css'  href='http://cocodonuts.com/wp-includes/css/dist/block-library/style.min.css?ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-components-css'  href='http://cocodonuts.com/wp-includes/css/dist/components/style.min.css?ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-editor-font-css'  href='https://fonts.googleapis.com/css?family=Noto+Serif%3A400%2C400i%2C700%2C700i&#038;ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-nux-css'  href='http://cocodonuts.com/wp-includes/css/dist/nux/style.min.css?ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-editor-css'  href='http://cocodonuts.com/wp-includes/css/dist/editor/style.min.css?ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-theme-css'  href='http://cocodonuts.com/wp-includes/css/dist/block-library/theme.min.css?ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-edit-blocks-css'  href='http://cocodonuts.com/wp-includes/css/dist/block-library/editor.min.css?ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-widgets-contact-block-css'  href='http://cocodonuts.com/wp-content/plugins/contact-widgets/includes/blocks/contact/css/contact-block.min.css?ver=1.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://cocodonuts.com/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min.css?ver=5.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-widgets-social-block-css'  href='http://cocodonuts.com/wp-content/plugins/contact-widgets/includes/blocks/social/css/social-block.min.css?ver=1.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='custom-style-css'  href='http://cocodonuts.com/wp-content/plugins/animated-icon-banner-for-visual-composer/./vc_doo_banner.css?ver=20120208' type='text/css' media='all' />
+<link rel='stylesheet' id='uaf_client_css-css'  href='http://cocodonuts.com/wp-content/uploads/useanyfont/uaf.css?ver=1544826327' type='text/css' media='all' />
+<link rel='stylesheet' id='twentysixteen-fonts-css'  href='https://fonts.googleapis.com/css?family=Merriweather%3A400%2C700%2C900%2C400italic%2C700italic%2C900italic%7CMontserrat%3A400%2C700%7CInconsolata%3A400&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='http://cocodonuts.com/wp-content/themes/CocoDonutsv2/genericons/genericons.css?ver=3.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='twentysixteen-style-css'  href='http://cocodonuts.com/wp-content/themes/CocoDonutsv2/style.css?ver=5.0.3' type='text/css' media='all' />
+<style id='twentysixteen-style-inline-css' type='text/css'>
+
+		/* Custom Link Color */
+		.menu-toggle:hover,
+		.menu-toggle:focus,
+		a,
+		.main-navigation a:hover,
+		.main-navigation a:focus,
+		.dropdown-toggle:hover,
+		.dropdown-toggle:focus,
+		.social-navigation a:hover:before,
+		.social-navigation a:focus:before,
+		.post-navigation a:hover .post-title,
+		.post-navigation a:focus .post-title,
+		.tagcloud a:hover,
+		.tagcloud a:focus,
+		.site-branding .site-title a:hover,
+		.site-branding .site-title a:focus,
+		.entry-title a:hover,
+		.entry-title a:focus,
+		.entry-footer a:hover,
+		.entry-footer a:focus,
+		.comment-metadata a:hover,
+		.comment-metadata a:focus,
+		.pingback .comment-edit-link:hover,
+		.pingback .comment-edit-link:focus,
+		.comment-reply-link,
+		.comment-reply-link:hover,
+		.comment-reply-link:focus,
+		.required,
+		.site-info a:hover,
+		.site-info a:focus {
+			color: #f4a3c7;
+		}
+
+		mark,
+		ins,
+		button:hover,
+		button:focus,
+		input[type="button"]:hover,
+		input[type="button"]:focus,
+		input[type="reset"]:hover,
+		input[type="reset"]:focus,
+		input[type="submit"]:hover,
+		input[type="submit"]:focus,
+		.pagination .prev:hover,
+		.pagination .prev:focus,
+		.pagination .next:hover,
+		.pagination .next:focus,
+		.widget_calendar tbody a,
+		.page-links a:hover,
+		.page-links a:focus {
+			background-color: #f4a3c7;
+		}
+
+		input[type="date"]:focus,
+		input[type="time"]:focus,
+		input[type="datetime-local"]:focus,
+		input[type="week"]:focus,
+		input[type="month"]:focus,
+		input[type="text"]:focus,
+		input[type="email"]:focus,
+		input[type="url"]:focus,
+		input[type="password"]:focus,
+		input[type="search"]:focus,
+		input[type="tel"]:focus,
+		input[type="number"]:focus,
+		textarea:focus,
+		.tagcloud a:hover,
+		.tagcloud a:focus,
+		.menu-toggle:hover,
+		.menu-toggle:focus {
+			border-color: #f4a3c7;
+		}
+
+		@media screen and (min-width: 56.875em) {
+			.main-navigation li:hover > a,
+			.main-navigation li.focus > a {
+				color: #f4a3c7;
+			}
+		}
+	
+
+		/* Custom Main Text Color */
+		body,
+		blockquote cite,
+		blockquote small,
+		.main-navigation a,
+		.menu-toggle,
+		.dropdown-toggle,
+		.social-navigation a,
+		.post-navigation a,
+		.pagination a:hover,
+		.pagination a:focus,
+		.widget-title a,
+		.site-branding .site-title a,
+		.entry-title a,
+		.page-links > .page-links-title,
+		.comment-author,
+		.comment-reply-title small a:hover,
+		.comment-reply-title small a:focus {
+			color: #3b2415
+		}
+
+		blockquote,
+		.menu-toggle.toggled-on,
+		.menu-toggle.toggled-on:hover,
+		.menu-toggle.toggled-on:focus,
+		.post-navigation,
+		.post-navigation div + div,
+		.pagination,
+		.widget,
+		.page-header,
+		.page-links a,
+		.comments-title,
+		.comment-reply-title {
+			border-color: #3b2415;
+		}
+
+		button,
+		button[disabled]:hover,
+		button[disabled]:focus,
+		input[type="button"],
+		input[type="button"][disabled]:hover,
+		input[type="button"][disabled]:focus,
+		input[type="reset"],
+		input[type="reset"][disabled]:hover,
+		input[type="reset"][disabled]:focus,
+		input[type="submit"],
+		input[type="submit"][disabled]:hover,
+		input[type="submit"][disabled]:focus,
+		.menu-toggle.toggled-on,
+		.menu-toggle.toggled-on:hover,
+		.menu-toggle.toggled-on:focus,
+		.pagination:before,
+		.pagination:after,
+		.pagination .prev,
+		.pagination .next,
+		.page-links a {
+			background-color: #3b2415;
+		}
+
+		/* Border Color */
+		fieldset,
+		pre,
+		abbr,
+		acronym,
+		table,
+		th,
+		td,
+		input[type="date"],
+		input[type="time"],
+		input[type="datetime-local"],
+		input[type="week"],
+		input[type="month"],
+		input[type="text"],
+		input[type="email"],
+		input[type="url"],
+		input[type="password"],
+		input[type="search"],
+		input[type="tel"],
+		input[type="number"],
+		textarea,
+		.main-navigation li,
+		.main-navigation .primary-menu,
+		.menu-toggle,
+		.dropdown-toggle:after,
+		.social-navigation a,
+		.image-navigation,
+		.comment-navigation,
+		.tagcloud a,
+		.entry-content,
+		.entry-summary,
+		.page-links a,
+		.page-links > span,
+		.comment-list article,
+		.comment-list .pingback,
+		.comment-list .trackback,
+		.comment-reply-link,
+		.no-comments,
+		.widecolumn .mu_register .mu_alert {
+			border-color: #3b2415; /* Fallback for IE7 and IE8 */
+			border-color: rgba( 59, 36, 21, 0.2);
+		}
+
+		hr,
+		code {
+			background-color: #3b2415; /* Fallback for IE7 and IE8 */
+			background-color: rgba( 59, 36, 21, 0.2);
+		}
+
+		@media screen and (min-width: 56.875em) {
+			.main-navigation ul ul,
+			.main-navigation ul ul li {
+				border-color: rgba( 59, 36, 21, 0.2);
+			}
+
+			.main-navigation ul ul:before {
+				border-top-color: rgba( 59, 36, 21, 0.2);
+				border-bottom-color: rgba( 59, 36, 21, 0.2);
+			}
+		}
+	
+
+		/* Custom Secondary Text Color */
+
+		/**
+		 * IE8 and earlier will drop any block with CSS3 selectors.
+		 * Do not combine these styles with the next block.
+		 */
+		body:not(.search-results) .entry-summary {
+			color: #3b2415;
+		}
+
+		blockquote,
+		.post-password-form label,
+		a:hover,
+		a:focus,
+		a:active,
+		.post-navigation .meta-nav,
+		.image-navigation,
+		.comment-navigation,
+		.widget_recent_entries .post-date,
+		.widget_rss .rss-date,
+		.widget_rss cite,
+		.site-description,
+		.author-bio,
+		.entry-footer,
+		.entry-footer a,
+		.sticky-post,
+		.taxonomy-description,
+		.entry-caption,
+		.comment-metadata,
+		.pingback .edit-link,
+		.comment-metadata a,
+		.pingback .comment-edit-link,
+		.comment-form label,
+		.comment-notes,
+		.comment-awaiting-moderation,
+		.logged-in-as,
+		.form-allowed-tags,
+		.site-info,
+		.site-info a,
+		.wp-caption .wp-caption-text,
+		.gallery-caption,
+		.widecolumn label,
+		.widecolumn .mu_register label {
+			color: #3b2415;
+		}
+
+		.widget_calendar tbody a:hover,
+		.widget_calendar tbody a:focus {
+			background-color: #3b2415;
+		}
+	
+</style>
+<!--[if lt IE 10]>
+<link rel='stylesheet' id='twentysixteen-ie-css'  href='http://cocodonuts.com/wp-content/themes/CocoDonutsv2/css/ie.css?ver=20160816' type='text/css' media='all' />
+<![endif]-->
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentysixteen-ie8-css'  href='http://cocodonuts.com/wp-content/themes/CocoDonutsv2/css/ie8.css?ver=20160816' type='text/css' media='all' />
+<![endif]-->
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='twentysixteen-ie7-css'  href='http://cocodonuts.com/wp-content/themes/CocoDonutsv2/css/ie7.css?ver=20160816' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='js_composer_front-css'  href='http://cocodonuts.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.0.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://cocodonuts.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://cocodonuts.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpgmza_google_api_status = {"message":"Enqueued","code":"ENQUEUED"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://cocodonuts.com/wp-content/plugins/wp-google-maps/wpgmza_data.js?ver=5.0.3'></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='http://cocodonuts.com/wp-content/themes/CocoDonutsv2/js/html5.js?ver=3.7.3'></script>
+<![endif]-->
+<link rel='https://api.w.org/' href='http://cocodonuts.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cocodonuts.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://cocodonuts.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.0.3" />
+<link rel="canonical" href="http://cocodonuts.com/" />
+<link rel='shortlink' href='http://cocodonuts.com/' />
+<link rel="alternate" type="application/json+oembed" href="http://cocodonuts.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fcocodonuts.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://cocodonuts.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fcocodonuts.com%2F&#038;format=xml" />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://cocodonuts.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1513024861223{background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1537996321794{margin: 0px !important;border-width: 0px !important;padding: 0px !important;}.vc_custom_1537995908229{margin: 0px !important;border-width: 0px !important;padding: 0px !important;}.vc_custom_1537995968820{margin: 0px !important;border-width: 0px !important;padding: 0px !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+
+<body class="home page-template-default page page-id-32 custom-background wpb-js-composer js-comp-ver-5.0.1 vc_responsive">
+<div id="page" class="site">
+	<div class="site-inner">
+		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+		<header id="masthead" class="site-header" role="banner">
+			<div class="site-header-main">
+				<div class="site-branding">
+					
+											<p class="site-title"><a href="http://cocodonuts.com/" rel="home"><img src="http://cocodonuts.com/wp-content/themes/CocoDonutsv2/images/logo.png" alt="logo" /></a></p>
+											
+									</div><!-- .site-branding -->
+
+									<button id="menu-toggle" class="menu-toggle">Menu</button>
+
+					<div id="site-header-menu" class="site-header-menu">
+													<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Primary Menu">
+								<div class="menu-main-navigation-container"><ul id="menu-main-navigation" class="primary-menu"><li id="menu-item-1117" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1117"><a href="http://cocodonuts.com/wholesale/">Wholesale</a></li>
+<li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="http://cocodonuts.com/our-story-2/">Our Story</a></li>
+<li id="menu-item-181" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-181"><a href="http://cocodonuts.com/neighborhood-location/">Locations</a></li>
+<li id="menu-item-314" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-314"><a href="http://cocodonuts.com/pre-order-2/">Pre-Order</a></li>
+<li id="menu-item-41" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-41"><a href="#">Donuts &#038; Coffee</a>
+<ul class="sub-menu">
+	<li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a href="http://cocodonuts.com/donuts-and-coffee/donuts/">Donuts</a></li>
+	<li id="menu-item-108" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-108"><a href="/coco-donuts/our-coffee/">Coffee</a></li>
+</ul>
+</li>
+<li id="menu-item-1051" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1051"><a href="http://cocodonuts.com/weddings-special-events/">Weddings</a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-25"><a href="http://cocodonuts.com/contact/">Contact</a>
+<ul class="sub-menu">
+	<li id="menu-item-619" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-619"><a href="/contact/#donation-request">Donation Request</a></li>
+</ul>
+</li>
+<li id="menu-item-602" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-602"><a title="Careers" href="http://cocodonuts.com/careers/">Careers</a></li>
+</ul></div>							</nav><!-- .main-navigation -->
+						
+													<nav id="social-navigation" class="social-navigation" role="navigation" aria-label="Social Links Menu">
+								<div class="menu-social-links-menu-container"><ul id="menu-social-links-menu" class="social-links-menu"><li id="menu-item-423" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-423"><a href="https://www.yelp.com/biz/coco-donuts-portland-3"><span class="screen-reader-text">Yelp</span></a></li>
+<li id="menu-item-424" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-424"><a href="https://www.facebook.com/cocodonutspdx/"><span class="screen-reader-text">Facebook</span></a></li>
+<li id="menu-item-425" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-425"><a href="https://www.instagram.com/cocodonuts/"><span class="screen-reader-text">Instagram</span></a></li>
+<li id="menu-item-426" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-426"><a href="https://twitter.com/cocodonuts"><span class="screen-reader-text">Twitter</span></a></li>
+</ul></div>							</nav><!-- .social-navigation -->
+											</div><!-- .site-header-menu -->
+							</div><!-- .site-header-main -->
+
+					</header><!-- .site-header -->
+
+		<div id="content" class="site-content">
+
+<div id="primary" class="content-area">
+	<main id="main" class="site-main" role="main">
+		
+<article id="post-32" class="post-32 page type-page status-publish hentry">
+	
+	<div class="entry-content">
+		<div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1513024861223 vc_row-has-fill vc_row-no-padding"><div class="wpb_animate_when_almost_visible wpb_fadeIn fadeIn wpb_column vc_column_container vc_col-sm-12 vc_col-has-fill"><div class="vc_column-inner vc_custom_1537996321794"><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-has-fill"><div class="vc_column-inner vc_custom_1537995908229"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			
+		</div>
+	</div>
+
+	<div class="wpb_single_image wpb_content_element vc_align_center  wpb_animate_when_almost_visible wpb_fadeIn fadeIn vc_custom_1537995968820">
+		
+		<figure class="wpb_wrapper vc_figure">
+			<div class="vc_single_image-wrapper vc_box_shadow  vc_box_border_grey"><img width="1004" height="1004" src="http://cocodonuts.com/wp-content/uploads/2015/07/Coco-Donuts-Coffee.png" class="vc_single_image-img attachment-full" alt="Coco Donuts Coffee" srcset="http://cocodonuts.com/wp-content/uploads/2015/07/Coco-Donuts-Coffee.png 1004w, http://cocodonuts.com/wp-content/uploads/2015/07/Coco-Donuts-Coffee-324x324.png 324w, http://cocodonuts.com/wp-content/uploads/2015/07/Coco-Donuts-Coffee-100x100.png 100w, http://cocodonuts.com/wp-content/uploads/2015/07/Coco-Donuts-Coffee-416x416.png 416w, http://cocodonuts.com/wp-content/uploads/2015/07/Coco-Donuts-Coffee-150x150.png 150w, http://cocodonuts.com/wp-content/uploads/2015/07/Coco-Donuts-Coffee-300x300.png 300w, http://cocodonuts.com/wp-content/uploads/2015/07/Coco-Donuts-Coffee-768x768.png 768w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></div>
+		</figure>
+	</div>
+
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			
+		</div>
+	</div>
+</div></div></div></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div>
+	</div><!-- .entry-content -->
+
+</article><!-- #post-## -->
+
+	</main><!-- .site-main -->
+
+	
+</div><!-- .content-area -->
+
+
+		</div><!-- .site-content -->
+	</div><!-- .site-inner -->
+
+		<footer id="colophon" class="site-footer" role="contentinfo">
+			<div class="footer-left">
+				<ul>
+					<li class="footer-locations PSU"><a href="http://cocodonuts.com/neighborhood-location/PSU/">PSU</a></li>
+					<li class="footer-locations downtown"><a href="http://cocodonuts.com/neighborhood-location/downtown/">Downtown</a></li>
+					<li class="footer-locations uptown"><a href="http://cocodonuts.com/neighborhood-location/uptown/">Uptown</a></li>
+					<li class="footer-locations broadway"><a href="http://cocodonuts.com/neighborhood-location/broadway/">Broadway</a></li>
+					<li class="footer-locations williams"><a href="http://cocodonuts.com/neighborhood-location/williams/">Williams</a></li>
+					<li class="footer-locations sellwood"><a href="http://cocodonuts.com/neighborhood-location/sellwood/">Brooklyn</a></li>
+				</ul>
+			</div>
+			<div class="footer-right">
+				<div class="social-media-icons">
+					<ul>
+						<li><a href="http://www.yelp.com/biz/coco-donuts-portland-3" target="_blank"><i class="fa fa-yelp"></a></i></a></li>
+						<li><a href="https://www.facebook.com/CocoDonutsPDX" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://instagram.com/cocodonuts" target="_blank"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://twitter.com/cocodonuts" target="_blank"><i class="fa fa-twitter"></i></a></li>
+					</ul>
+				</div>
+					<p><a href="http://cocodonuts.com"><img src="http://cocodonuts.com/wp-content/themes/CocoDonutsv2/images/coco_footer_logo.png" alt="Coco Donuts" /></a></p>
+					<p>&copy;2019 Coco Donuts all rights reserved</p>
+					<p>Crafted by <a href="http://www.twelve55creative.com" target="_blank"><img src="http://cocodonuts.com/wp-content/themes/CocoDonutsv2/images/1255_logo.png" alt="Twelve55 Creative" /></a></p>
+			</div>
+		</footer><!-- .site-footer -->
+
+</div><!-- .site -->
+
+<link rel='stylesheet' id='animate-css-css'  href='http://cocodonuts.com/wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min.css?ver=5.0.1' type='text/css' media='' />
+<script type='text/javascript' src='http://cocodonuts.com/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://cocodonuts.com/wp-includes/js/backbone.min.js?ver=1.2.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpApiSettings = {"root":"http:\/\/cocodonuts.com\/wp-json\/","nonce":"099913d00f","versionString":"wp\/v2\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://cocodonuts.com/wp-includes/js/api-request.min.js?ver=5.0.3'></script>
+<script type='text/javascript' src='http://cocodonuts.com/wp-includes/js/wp-api.min.js?ver=5.0.3'></script>
+<script type='text/javascript' src='http://cocodonuts.com/wp-content/themes/CocoDonutsv2/js/skip-link-focus-fix.js?ver=20160816'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var screenReaderText = {"expand":"expand child menu","collapse":"collapse child menu"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://cocodonuts.com/wp-content/themes/CocoDonutsv2/js/functions.js?ver=20160816'></script>
+<script type='text/javascript' src='http://cocodonuts.com/wp-includes/js/wp-embed.min.js?ver=5.0.3'></script>
+<script type='text/javascript' src='http://cocodonuts.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.0.1'></script>
+<script type='text/javascript' src='http://cocodonuts.com/wp-content/plugins/js_composer/assets/lib/waypoints/waypoints.min.js?ver=5.0.1'></script>
+</body>
+</html>

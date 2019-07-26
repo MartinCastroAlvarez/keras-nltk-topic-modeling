@@ -1,0 +1,1581 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+
+<html>
+<head>
+<title>Table Tennis / Ping Pong Equipment and Supplies</title>
+<META NAME="KEYWORDS" CONTENT="Ping Pong, Table Tennis, Stiga, Juic, Nittaku, Tibhar, Butterfly, Xiom, Killerspin, Donic, Yasaka, Dr Neubauer, Hallmark">
+<META NAME="DESCRIPTION" CONTENT="Table Tennis / Ping Pong Equipment and Supplies. Paddle Palace has the Best brands, Best service, Best prices!">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="msvalidate.01" content="0A0EDE749020BCCAC9ECE4CF6BA43308" />
+<link rel="stylesheet" href="HomePageSlider/jssor_slider.css" type="text/css">
+<link rel="canonical" href="https://www.paddlepalace.com/">
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" href="text/topnav.css" type="text/css">
+<link rel="stylesheet" href="text/storestyle.css" type="text/css">
+<link rel="stylesheet" href="text/footernav.css" type="text/css">
+<link rel="stylesheet" href="text/design.css" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="js/jquery.jqzoom-core.js" type="text/javascript"></script>
+<link rel="stylesheet" href="css/jquery.jqzoom.css" type="text/css">
+<style>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+</style>
+
+<script type="text/javascript">
+
+    function resizeColumns(){
+        var allCols = $('.row').find('#colimg.col-lg-3.col-sm-4.col-md-4.col-xs-6');
+        var largestColHeight = 0;
+        var currentH = 0;
+
+        $(allCols).each(function(){
+            if($(this).height() > largestColHeight){
+                largestColHeight = $(this).height();
+            }
+        });
+
+        $(allCols).each(function(){
+			currentH = $(this).height();
+			$(this).css('height',largestColHeight);
+        })
+    }
+
+    $(window).on("load",function() {
+		resizeColumns();
+    });
+
+    $(window).resize(function(){
+        resizeColumns();
+    })
+
+</script>
+</head>
+<Body 
+bgcolor ="#dddddd"
+style="margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; background: url(images/PP-website-BKGD.jpg) top center no-repeat;"
+>
+
+
+<script type="application/javascript">
+
+    $(document).ready(function(){
+
+        $('#myAccDesktop').click(function(){
+            window.location = 'https://www.paddlepalace.com/statuslogin.asp';
+        })
+
+        $('#myAccMobile').click(function(){
+            window.location = 'https://www.paddlepalace.com/statuslogin.asp';
+        })
+    })
+
+</script>
+
+    <div class="container">
+        <div class="row topRow">
+            <div class="col-lg-8 col-xs-6">
+                <span class="iconStyle topBarTextSize"><i class="glyphicon glyphicon-phone phoneStyle"></i> &nbsp; <div class="TopNav1Text topBarTextSize" style="color:#fff;">800.547.5891</div>&nbsp;&nbsp;&nbsp;<a href="http://facebook.com/paddlepalace"><i class="fa fa-facebook-official iconStyle"></i></a>&nbsp;&nbsp;&nbsp;<a href="http://twitter.com/PaddlePalace"><i class="fa fa-twitter-square iconStyle"></i></a>&nbsp;&nbsp;&nbsp;<a href="mailto:tt@paddlepalace.com"><i class="fa fa-envelope iconStyle"></i></a></span>
+            </div>
+            <div class="col-lg-4 col-xs-6 TopNav1Text" style="text-align:right;">
+                <div class="btn-group hidden-xs topRight">
+                    
+                        <!--<a href="https://www.paddlepalace.com/login.asp" title="Login" class="topNavLinks">LOGIN</a>-->
+                    
+                        <!--<a href="https://www.paddlepalace.com/login.asp" title="Login" class="topNavLinks">LOGIN</a>-->
+                    
+                        <span class="TopNav1Text addToCartPointer" id="myAccDesktop">MY ACCOUNT</span>
+                </div>
+
+                <div class="btn-group visible-xs topRight">
+                    <span style="padding-top: 5px;" class="TopNav1Text addToCartPointer" id="myAccMobile">MY ACCOUNT</span>
+                    <span style="color:white;padding-left:3px;padding-right:3px;">|</span>
+                    <a title="Shopping Cart" href="basket.asp" style="padding-top: 5px;" class="topNavLinks"><i class="glyphicon glyphicon-shopping-cart fa-lg searchIconStyle"></i>&nbsp;</a>
+                </div>
+            </div>
+        </div>
+        <div class="row logoStyle topnav1bgcolor">
+            <div class="col-lg-6 col-sm-6">
+                
+                <a href="https://www.paddlepalace.com/" title="Paddle Palace">
+                <img alt="Paddle Palace" class="logoStyle2" src="images/new-pplogo.jpg" border="0" >
+                </a>
+                
+            </div>
+            <div class="col-lg-4 col-md-3 colStyling colStyling2 visible-lg visible-md hidden-xs">
+               <div id="searchcart" class="topnav3bgcolor">
+                    <form method="POST" id="searchprodform" action="searchprods.asp">
+                            <div class="input-group">
+                               <input name="ProductSearchBy" value="2" type="hidden">
+                               <input class="plaintext form-control searchStyling" type="text" size="18" maxlength="256" name="txtsearch" value="Search entire store here..." onfocus="if (this.value=='Search entire store here...') this.value='';" onblur="if (this.value=='') this.value='Search entire store here...';">
+                               <span class="input-group-btn">
+                                   <button class="btn searchButtonStyling">
+                                      <i class="glyphicon glyphicon-search btn-go searchIconStyle"></i>
+                                  </button>
+                               </span>
+                            </div>
+                   </form>
+               </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6 colStyling colStyling3 visible-sm visible-lg visible-md hidden-xs">
+                <div class="cartAlignment" style="float: right;">
+                    <div class="cartStyling">
+                        <i class="glyphicon glyphicon-shopping-cart searchIconStyle"></i>&nbsp;&nbsp;&nbsp;
+                        <div class="TopNav3Text cartIconTextStyle" id="cart" title="Shopping Cart" style="cursor: pointer;font-family:'Open Sans', sans-serif">MY CART</div>
+                        &nbsp;&nbsp;&nbsp;
+                    </div>
+                    <div class="TopNav3Text cartCountStyle">0</div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="background-color: white;">
+            <nav class="navbar navbar-default topNavGrad ">
+              <div class="container-fluid hidden-xs hidden-sm">
+                <div class="collapse navbar-collapse" style="margin-left: -30px;">
+                    
+                  <ul class="nav navbar-nav topnavmenu">
+                     <li>
+                         <form method="POST" style="padding-top:10px;padding-bottom:15px;" class="col-sm-12 col-xs-12 visible-xs visible-sm"  id="searchprodform" action="searchprods.asp">
+                             <div class="input-group">
+                                 <input name="ProductSearchBy" value="2" type="hidden">
+                                 <input class="plaintext form-control searchStyling" type="text" size="18" maxlength="256" name="txtsearch" value="Search entire store here..." onfocus="if (this.value=='Search entire store here...') this.value='';" onblur="if (this.value=='') this.value='Search entire store here...';">
+                                     <span class="input-group-btn">
+                                         <button class="btn searchButtonStyling">
+                                             <i class="glyphicon glyphicon-search btn-go searchIconStyle"></i>
+                                         </button>
+                                     </span>
+                             </div>
+                         </form>
+                     </li>
+
+                    <li class="non-dropdown">
+                        <a href="https://www.paddlepalace.com/" title="Home" class="topnav2"><img src="images/home_icon.png" style="margin-top: -3px;" /></a>
+                    </li>
+
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle topnav1" data-toggle="dropdown"  aria-expanded="false">SHOP</a>
+                      <ul class="dropdown-menu multi-level topNavGradDropDowns">
+                            
+                            <li class="dropdown-submenu " style="padding-bottom:2px;">
+                            <a href="#" title="" class="topnav2 menuHover" role="button">CLEARANCE<i class="glyphicon glyphicon-chevron-right" style="font-size:small;float:right;"></i></a>
+                            
+                                <ul class="dropdown-menu topNavGradDropDowns" style="margin-left:1px;border-radius:0;">
+                                    
+                                     <li style="padding-bottom:2px;">
+                                        <a href="https://www.paddlepalace.com/Clearance-Bags-and-Cases/products/48/" class="topnav3">Clearance: Bags and Cases</a>
+                                     </li>
+                                     
+                                     <li style="padding-bottom:2px;">
+                                        <a href="https://www.paddlepalace.com/Clearance-Balls/products/237/" class="topnav3">Clearance: Balls</a>
+                                     </li>
+                                     
+                                     <li style="padding-bottom:2px;">
+                                        <a href="https://www.paddlepalace.com/Clearance-Blades-Shakehand/products/49/" class="topnav3">Clearance: Blades Shakehand</a>
+                                     </li>
+                                     
+                                     <li style="padding-bottom:2px;">
+                                        <a href="https://www.paddlepalace.com/Clearance-Blades-Penhold/products/244/" class="topnav3">Clearance: Blades Penhold</a>
+                                     </li>
+                                     
+                                     <li style="padding-bottom:2px;">
+                                        <a href="https://www.paddlepalace.com/Clearance-Clothing-and-Shoes/products/47/" class="topnav3">Clearance: Clothing and Shoes</a>
+                                     </li>
+                                     
+                                     <li style="padding-bottom:2px;">
+                                        <a href="https://www.paddlepalace.com/Clearance-Custom-Paddles/products/45/" class="topnav3">Clearance: Custom Paddles</a>
+                                     </li>
+                                     
+                                     <li style="padding-bottom:2px;">
+                                        <a href="https://www.paddlepalace.com/Clearance-Rec-Paddles/products/245/" class="topnav3">Clearance: Rec Paddles</a>
+                                     </li>
+                                     
+                                     <li style="padding-bottom:2px;">
+                                        <a href="https://www.paddlepalace.com/Clearance-Rubber/products/46/" class="topnav3">Clearance: Rubber</a>
+                                     </li>
+                                     
+                                     <li style="padding-bottom:2px;">
+                                        <a href="https://www.paddlepalace.com/More-Clearance/products/73/" class="topnav3">More Clearance</a>
+                                     </li>
+                                     
+                                </ul>
+                        </li>
+                           
+                            <li class="dropdown-submenu " style="padding-bottom:2px;">
+                            <a href="#" title="" class="topnav2 menuHover" role="button">COMBO SPECIALS<i class="glyphicon glyphicon-chevron-right" style="font-size:small;float:right;"></i></a>
+                            
+                                <ul class="dropdown-menu topNavGradDropDowns" style="margin-left:1px;border-radius:0;">
+                                    
+                                     <li style="padding-bottom:2px;">
+                                        <a href="https://www.paddlepalace.com/Shakehand-Combo-Specials/products/33/" class="topnav3">Shakehand Combo Specials</a>
+                                     </li>
+                                     
+                                     <li style="padding-bottom:2px;">
+                                        <a href="https://www.paddlepalace.com/Penhold-Combo-Specials/products/36/" class="topnav3">Penhold Combo Specials</a>
+                                     </li>
+                                     
+                                </ul>
+                        </li>
+                           
+                            <li style="padding-bottom:2px;">
+                            <a href="https://www.paddlepalace.com/PRO-SPECIAL-PADDLES/products/74/" title="" class="topnav2">PRO SPECIAL PADDLES</a>
+                            
+                            <li style="padding-bottom:2px;">
+                            <a href="https://www.paddlepalace.com/Balls/products/236/" title="" class="topnav2">Balls</a>
+                            
+                            <li style="padding-bottom:2px;">
+                            <a href="https://www.paddlepalace.com/Blades-Shakehand/products/7/" title="" class="topnav2">Blades: Shakehand</a>
+                            
+                            <li style="padding-bottom:2px;">
+                            <a href="https://www.paddlepalace.com/Blades-Penhold/products/8/" title="" class="topnav2">Blades: Penhold</a>
+                            
+                            <li style="padding-bottom:2px;">
+                            <a href="https://www.paddlepalace.com/Cases-Bags/products/241/" title="" class="topnav2">Cases & Bags</a>
+                            
+                            <li style="padding-bottom:2px;">
+                            <a href="https://www.paddlepalace.com/Clothing/products/16/" title="" class="topnav2">Clothing</a>
+                            
+                            <li style="padding-bottom:2px;">
+                            <a href="https://www.paddlepalace.com/More-Accessories/products/40/" title="" class="topnav2">More Accessories</a>
+                            
+                            <li style="padding-bottom:2px;">
+                            <a href="https://www.paddlepalace.com/Nets/products/24/" title="" class="topnav2">Nets</a>
+                            
+                            <li style="padding-bottom:2px;">
+                            <a href="https://www.paddlepalace.com/Paddle-Care/products/242/" title="" class="topnav2">Paddle Care</a>
+                            
+                            <li style="padding-bottom:2px;">
+                            <a href="https://www.paddlepalace.com/Recreational-Paddles/products/13/" title="" class="topnav2">Recreational Paddles</a>
+                            
+                            <li style="padding-bottom:2px;">
+                            <a href="https://www.paddlepalace.com/Robots/products/25/" title="" class="topnav2">Robots</a>
+                            
+                            <li style="padding-bottom:2px;">
+                            <a href="https://www.paddlepalace.com/Rubber/products/1/" title="" class="topnav2">Rubber</a>
+                            
+                            <li style="padding-bottom:2px;">
+                            <a href="https://www.paddlepalace.com/Shoes/products/3/" title="" class="topnav2">Shoes</a>
+                            
+                            <li style="padding-bottom:2px;">
+                            <a href="https://www.paddlepalace.com/Tables/products/9/" title="" class="topnav2">Tables</a>
+                            
+                            <li style="padding-bottom:2px;">
+                            <a href="https://www.paddlepalace.com/Table-Court-Accessories/products/213/" title="" class="topnav2">Table & Court Accessories</a>
+                            
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="Shop-By-Brand/departments/75/" class="dropdown-toggle topnav1" data-toggle="dropdown"  aria-expanded="false">BRANDS</a>
+                      <ul class="dropdown-menu multi-level topNavGradDropDowns">
+						
+                        
+                            <li style="padding-bottom:2px;"><a href="https://www.paddlepalace.com/Andro/departments/225/" title="" class="topnav2">Andro</a></li>
+                        
+                        
+                            <li style="padding-bottom:2px;"><a href="https://www.paddlepalace.com/Butterfly/departments/129/" title="" class="topnav2">Butterfly</a></li>
+                        
+                        
+                            <li style="padding-bottom:2px;"><a href="https://www.paddlepalace.com/DHS/departments/214/" title="" class="topnav2">DHS</a></li>
+                        
+                        
+                            <li style="padding-bottom:2px;"><a href="https://www.paddlepalace.com/Donic/departments/103/" title="" class="topnav2">Donic</a></li>
+                        
+                        
+                            <li style="padding-bottom:2px;"><a href="https://www.paddlepalace.com/Dr-Neubauer/departments/123/" title="" class="topnav2">Dr Neubauer</a></li>
+                        
+                        
+                            <li style="padding-bottom:2px;"><a href="https://www.paddlepalace.com/Hunter/departments/137/" title="" class="topnav2">Hunter</a></li>
+                        
+                        
+                            <li style="padding-bottom:2px;"><a href="https://www.paddlepalace.com/Juic/departments/108/" title="" class="topnav2">Juic</a></li>
+                        
+                        
+                            <li style="padding-bottom:2px;"><a href="https://www.paddlepalace.com/Nittaku/departments/76/" title="" class="topnav2">Nittaku</a></li>
+                        
+                        
+                            <li style="padding-bottom:2px;"><a href="https://www.paddlepalace.com/Paddle-Palace/products/141/" title="" class="topnav2">Paddle Palace</a></li>
+                        
+                        
+                            <li style="padding-bottom:2px;"><a href="https://www.paddlepalace.com/Stiga/departments/94/" title="" class="topnav2">Stiga</a></li>
+                        
+                        
+                            <li style="padding-bottom:2px;"><a href="https://www.paddlepalace.com/Tibhar/departments/118/" title="" class="topnav2">Tibhar</a></li>
+                        
+                        
+                            <li style="padding-bottom:2px;"><a href="https://www.paddlepalace.com/Xiom/departments/206/" title="" class="topnav2">Xiom</a></li>
+                        
+                        
+                            <li style="padding-bottom:2px;"><a href="https://www.paddlepalace.com/Yasaka/departments/113/" title="" class="topnav2">Yasaka</a></li>
+                        
+                      </ul>
+                    </li>
+                    <li class="dropdown main-dropdown">
+                      <a href="#" class="dropdown-toggle topnav1" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">NEW PRODUCTS</a>
+                      <ul class="dropdown-menu multi-level topNavGradDropDowns">
+                      
+                        <li style="padding-bottom:2px;">
+                            <a href="https://www.paddlepalace.com/NEW-Rubber/products/66/" title="" class="topnav2" role="button">NEW: Rubber</a>
+                        </li>
+                      
+                        <li style="padding-bottom:2px;">
+                            <a href="https://www.paddlepalace.com/NEW-Blades-Shakehand-Grip/products/65/" title="" class="topnav2" role="button">NEW: Blades (Shakehand Grip)</a>
+                        </li>
+                      
+                        <li style="padding-bottom:2px;">
+                            <a href="https://www.paddlepalace.com/NEW-Blades-Penhold-Grip/products/69/" title="" class="topnav2" role="button">NEW: Blades (Penhold Grip)</a>
+                        </li>
+                      
+                        <li style="padding-bottom:2px;">
+                            <a href="https://www.paddlepalace.com/NEW-Cases-and-Bags/products/64/" title="" class="topnav2" role="button">NEW: Cases and Bags</a>
+                        </li>
+                      
+                        <li style="padding-bottom:2px;">
+                            <a href="https://www.paddlepalace.com/NEW-Shoes-Clothing/products/67/" title="" class="topnav2" role="button">NEW: Shoes & Clothing</a>
+                        </li>
+                      
+                        <li style="padding-bottom:2px;">
+                            <a href="https://www.paddlepalace.com/NEW-Other-Items-Accessories/products/68/" title="" class="topnav2" role="button">NEW: Other Items & Accessories</a>
+                        </li>
+                      
+                      </ul>
+                    </li>
+                    <li class="dropdown main-dropdown">
+                      <a href="#" class="dropdown-toggle topnav1" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SPECIALS</a>
+                      <ul class="dropdown-menu multi-level topNavGradDropDowns">
+                        
+                            <li style="padding-bottom:2px;">
+                                <a href="https://www.paddlepalace.com/Specials-Balls/products/238/" title="" class="topnav2" role="button">Specials: Balls</a>
+                            </li>
+                          
+                            <li style="padding-bottom:2px;">
+                                <a href="https://www.paddlepalace.com/Specials-Cases-and-Bags/products/43/" title="" class="topnav2" role="button">Specials: Cases and Bags</a>
+                            </li>
+                          
+                            <li style="padding-bottom:2px;">
+                                <a href="https://www.paddlepalace.com/Specials-Shoes-Clothing/products/55/" title="" class="topnav2" role="button">Specials: Shoes & Clothing</a>
+                            </li>
+                          
+                            <li style="padding-bottom:2px;">
+                                <a href="https://www.paddlepalace.com/Specials-Custom-Paddles/products/62/" title="" class="topnav2" role="button">Specials: Custom Paddles</a>
+                            </li>
+                          
+                            <li style="padding-bottom:2px;">
+                                <a href="https://www.paddlepalace.com/Specials-Rubber/products/51/" title="" class="topnav2" role="button">Specials: Rubber</a>
+                            </li>
+                          
+                            <li style="padding-bottom:2px;">
+                                <a href="https://www.paddlepalace.com/Specials-Shakehand-Blades/products/42/" title="" class="topnav2" role="button">Specials: Shakehand Blades</a>
+                            </li>
+                          
+                            <li style="padding-bottom:2px;">
+                                <a href="https://www.paddlepalace.com/Specials-Penhold-Blades/products/53/" title="" class="topnav2" role="button">Specials: Penhold Blades</a>
+                            </li>
+                          
+                            <li style="padding-bottom:2px;">
+                                <a href="https://www.paddlepalace.com/Specials-Rec-Paddles/products/52/" title="" class="topnav2" role="button">Specials: Rec Paddles</a>
+                            </li>
+                          
+                            <li style="padding-bottom:2px;">
+                                <a href="https://www.paddlepalace.com/Specials-Other-Items-Accessories/products/56/" title="" class="topnav2" role="button">Specials: Other Items & Accessories</a>
+                            </li>
+                          
+                      </ul>
+                    </li>
+                    <li class="dropdown main-dropdown">
+                      <a href="#" class="dropdown-toggle topnav1" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">INFO</a>
+                      <ul class="dropdown-menu multi-level topNavGradDropDowns">
+                        <li class="noSubMenu" style="padding-bottom:2px;"><a href="https://www.paddlepalace.com/privacy.asp" title="Policies" class="topnav2">Policies</a></li>
+                        <li class="noSubMenu" style="padding-bottom:2px;"><a href="https://www.paddlepalace.com/Shipping.asp" title="Shipping Information" class="topnav2">Shipping Information</a></li>
+                        <li class="noSubMenu" style="padding-bottom:2px;"><a href="https://www.paddlepalace.com/faq.asp" title="FAQ" class="topnav2">Faq</a></li>
+                        <li class="noSubMenu" style="padding-bottom:2px;"><a href="https://www.paddlepalace.com/EquipInfo.asp" title="Equipment Info" class="topnav2">Equipment Info</a></li>
+                        <li class="noSubMenu" style="padding-bottom:2px;"><a href="https://www.paddlepalace.com/testimonials.asp" title="Testimonials" class="topnav2">Testimonials</a></li>
+                      </ul>
+                    </li>
+                    <li class="non-dropdown dropdown"><a href="http://blog.paddlepalace.com" class="topnav1">NEWS BLOG</a></li>
+                    <li class="non-dropdown dropdown"><a href="https://www.paddlepalace.com/Aboutus.asp" class="topnav1">ABOUT US</a></li>
+
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right topNavBarRight visible-lg visible-md">
+                    <li><img class="img-responsive ipadImg" alt="Paddle Palace" src="images/shipping_button.png" style="height: 52px;" border="0" ></li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+    <!--MObile Navigation -->
+    <div id="side_nav1" class="nav-menu-height-adjust visible-xs visible-sm"></div>
+    <div id="side_nav2" class="new-side-nav-menu black visible-xs visible-sm" style="overflow: auto;height: 100%;">
+        <div>
+            <ul>
+                <form id="side_nav3" method="POST" style="padding-top:10px;padding-bottom:15px;" class="col-sm-12 col-xs-12"  id="searchprodform" action="searchprods.asp">
+                     <div class="input-group">
+                         <input name="ProductSearchBy" value="2" type="hidden">
+                         <input class="plaintext form-control searchStyling" type="text" size="18" maxlength="256" name="txtsearch" value="Search entire store here..." onfocus="if (this.value=='Search entire store here...') this.value='';" onblur="if (this.value=='') this.value='Search entire store here...';">
+                             <span class="input-group-btn">
+                                 <button class="btn searchButtonStyling">
+                                     <i class="glyphicon glyphicon-search btn-go searchIconStyle"></i>
+                                 </button>
+                             </span>
+                     </div>
+                 </form>
+            </ul>
+        </div>
+        <div id="side_nav4">
+                          <ul class="nav-menu-m topnavmenu padded" style="height:179vh;">
+
+                            <li>
+                                <a href="https://www.paddlepalace.com/" title="Home" class="topnav2"><img src="images/home_icon.png" /></a>
+                            </li>
+
+                            <li class="dropdown-m">
+                              <a href="#" class="topnav2 level-1">SHOP<i class="glyphicon glyphicon-chevron-right" style="font-size:small;float:right;"></i></a>
+                              <ul class="dropdown-menu-m">
+                                    
+                                    <li class="dropdown-submenu-m">
+                                    <a href="https://www.paddlepalace.com/CLEARANCE/departments/44/" title="" class="topnav2 level-2">CLEARANCE<i class="glyphicon glyphicon-chevron-right" style="font-size:small;float:right;"></i></a>
+                                    
+                                        <ul class="dropdown-menu-m">
+                                            
+                                             <li class="dropdown-submenu-item-m">
+                                                <a href="https://www.paddlepalace.com/Clearance-Bags-and-Cases/products/48/" class="topnav1 level-3">Clearance: Bags and Cases</a>
+                                             </li>
+                                             
+                                             <li class="dropdown-submenu-item-m">
+                                                <a href="https://www.paddlepalace.com/Clearance-Balls/products/237/" class="topnav1 level-3">Clearance: Balls</a>
+                                             </li>
+                                             
+                                             <li class="dropdown-submenu-item-m">
+                                                <a href="https://www.paddlepalace.com/Clearance-Blades-Shakehand/products/49/" class="topnav1 level-3">Clearance: Blades Shakehand</a>
+                                             </li>
+                                             
+                                             <li class="dropdown-submenu-item-m">
+                                                <a href="https://www.paddlepalace.com/Clearance-Blades-Penhold/products/244/" class="topnav1 level-3">Clearance: Blades Penhold</a>
+                                             </li>
+                                             
+                                             <li class="dropdown-submenu-item-m">
+                                                <a href="https://www.paddlepalace.com/Clearance-Clothing-and-Shoes/products/47/" class="topnav1 level-3">Clearance: Clothing and Shoes</a>
+                                             </li>
+                                             
+                                             <li class="dropdown-submenu-item-m">
+                                                <a href="https://www.paddlepalace.com/Clearance-Custom-Paddles/products/45/" class="topnav1 level-3">Clearance: Custom Paddles</a>
+                                             </li>
+                                             
+                                             <li class="dropdown-submenu-item-m">
+                                                <a href="https://www.paddlepalace.com/Clearance-Rec-Paddles/products/245/" class="topnav1 level-3">Clearance: Rec Paddles</a>
+                                             </li>
+                                             
+                                             <li class="dropdown-submenu-item-m">
+                                                <a href="https://www.paddlepalace.com/Clearance-Rubber/products/46/" class="topnav1 level-3">Clearance: Rubber</a>
+                                             </li>
+                                             
+                                             <li class="dropdown-submenu-item-m">
+                                                <a href="https://www.paddlepalace.com/More-Clearance/products/73/" class="topnav1 level-3">More Clearance</a>
+                                             </li>
+                                             
+                                        </ul>
+                                </li>
+                                   
+                                    <li class="dropdown-submenu-m">
+                                    <a href="https://www.paddlepalace.com/COMBO-SPECIALS/departments/32/" title="" class="topnav2 level-2">COMBO SPECIALS<i class="glyphicon glyphicon-chevron-right" style="font-size:small;float:right;"></i></a>
+                                    
+                                        <ul class="dropdown-menu-m">
+                                            
+                                             <li class="dropdown-submenu-item-m">
+                                                <a href="https://www.paddlepalace.com/Shakehand-Combo-Specials/products/33/" class="topnav1 level-3">Shakehand Combo Specials</a>
+                                             </li>
+                                             
+                                             <li class="dropdown-submenu-item-m">
+                                                <a href="https://www.paddlepalace.com/Penhold-Combo-Specials/products/36/" class="topnav1 level-3">Penhold Combo Specials</a>
+                                             </li>
+                                             
+                                        </ul>
+                                </li>
+                                   
+                                    <li>
+                                    <a href="https://www.paddlepalace.com/PRO-SPECIAL-PADDLES/products/74/" title="" class="topnav2">PRO SPECIAL PADDLES</a>
+                                    
+                                    <li>
+                                    <a href="https://www.paddlepalace.com/Balls/products/236/" title="" class="topnav2">Balls</a>
+                                    
+                                    <li>
+                                    <a href="https://www.paddlepalace.com/Blades-Shakehand/products/7/" title="" class="topnav2">Blades: Shakehand</a>
+                                    
+                                    <li>
+                                    <a href="https://www.paddlepalace.com/Blades-Penhold/products/8/" title="" class="topnav2">Blades: Penhold</a>
+                                    
+                                    <li>
+                                    <a href="https://www.paddlepalace.com/Cases-Bags/products/241/" title="" class="topnav2">Cases & Bags</a>
+                                    
+                                    <li>
+                                    <a href="https://www.paddlepalace.com/Clothing/products/16/" title="" class="topnav2">Clothing</a>
+                                    
+                                    <li>
+                                    <a href="https://www.paddlepalace.com/More-Accessories/products/40/" title="" class="topnav2">More Accessories</a>
+                                    
+                                    <li>
+                                    <a href="https://www.paddlepalace.com/Nets/products/24/" title="" class="topnav2">Nets</a>
+                                    
+                                    <li>
+                                    <a href="https://www.paddlepalace.com/Paddle-Care/products/242/" title="" class="topnav2">Paddle Care</a>
+                                    
+                                    <li>
+                                    <a href="https://www.paddlepalace.com/Recreational-Paddles/products/13/" title="" class="topnav2">Recreational Paddles</a>
+                                    
+                                    <li>
+                                    <a href="https://www.paddlepalace.com/Robots/products/25/" title="" class="topnav2">Robots</a>
+                                    
+                                    <li>
+                                    <a href="https://www.paddlepalace.com/Rubber/products/1/" title="" class="topnav2">Rubber</a>
+                                    
+                                    <li>
+                                    <a href="https://www.paddlepalace.com/Shoes/products/3/" title="" class="topnav2">Shoes</a>
+                                    
+                                    <li>
+                                    <a href="https://www.paddlepalace.com/Tables/products/9/" title="" class="topnav2">Tables</a>
+                                    
+                                    <li>
+                                    <a href="https://www.paddlepalace.com/Table-Court-Accessories/products/213/" title="" class="topnav2">Table & Court Accessories</a>
+                                    
+                              </ul>
+                            </li>
+							
+							<li class="dropdown-m">
+                              <a href="Shop-By-Brand/departments/75/" class="topnav2 level-1">BRANDS<i class="glyphicon glyphicon-chevron-right" style="font-size:small;float:right;"></i></a>
+                              <ul class="dropdown-menu-m">
+								
+                                
+                                    <li><a href="https://www.paddlepalace.com/Andro/departments/225/" title="" class="topnav2">Andro</a></li>
+                                
+                                
+                                    <li><a href="https://www.paddlepalace.com/Butterfly/departments/129/" title="" class="topnav2">Butterfly</a></li>
+                                
+                                
+                                    <li><a href="https://www.paddlepalace.com/DHS/departments/214/" title="" class="topnav2">DHS</a></li>
+                                
+                                
+                                    <li><a href="https://www.paddlepalace.com/Donic/departments/103/" title="" class="topnav2">Donic</a></li>
+                                
+                                
+                                    <li><a href="https://www.paddlepalace.com/Dr-Neubauer/departments/123/" title="" class="topnav2">Dr Neubauer</a></li>
+                                
+                                
+                                    <li><a href="https://www.paddlepalace.com/Hunter/departments/137/" title="" class="topnav2">Hunter</a></li>
+                                
+                                
+                                    <li><a href="https://www.paddlepalace.com/Juic/departments/108/" title="" class="topnav2">Juic</a></li>
+                                
+                                
+                                    <li><a href="https://www.paddlepalace.com/Nittaku/departments/76/" title="" class="topnav2">Nittaku</a></li>
+                                
+                                
+                                    <li><a href="https://www.paddlepalace.com/Paddle-Palace/products/141/" title="" class="topnav2">Paddle Palace</a></li>
+                                
+                                
+                                    <li><a href="https://www.paddlepalace.com/Stiga/departments/94/" title="" class="topnav2">Stiga</a></li>
+                                
+                                
+                                    <li><a href="https://www.paddlepalace.com/Tibhar/departments/118/" title="" class="topnav2">Tibhar</a></li>
+                                
+                                
+                                    <li><a href="https://www.paddlepalace.com/Xiom/departments/206/" title="" class="topnav2">Xiom</a></li>
+                                
+                                
+                                    <li><a href="https://www.paddlepalace.com/Yasaka/departments/113/" title="" class="topnav2">Yasaka</a></li>
+                                
+                              </ul>
+                            </li>
+                            <li class="dropdown-m">
+                              <a href="#" class="topnav2 level-1">NEW PRODUCTS<i class="glyphicon glyphicon-chevron-right" style="font-size:small;float:right;"></i></a>
+                              <ul class="dropdown-menu-m">
+
+                                
+                                    <li>
+                                        <a href="https://www.paddlepalace.com/NEW-Rubber/products/66/" title="" class="topnav2" role="button">NEW: Rubber</a>
+                                    </li>
+
+                                  
+                                    <li>
+                                        <a href="https://www.paddlepalace.com/NEW-Blades-Shakehand-Grip/products/65/" title="" class="topnav2" role="button">NEW: Blades (Shakehand Grip)</a>
+                                    </li>
+
+                                  
+                                    <li>
+                                        <a href="https://www.paddlepalace.com/NEW-Blades-Penhold-Grip/products/69/" title="" class="topnav2" role="button">NEW: Blades (Penhold Grip)</a>
+                                    </li>
+
+                                  
+                                    <li>
+                                        <a href="https://www.paddlepalace.com/NEW-Cases-and-Bags/products/64/" title="" class="topnav2" role="button">NEW: Cases and Bags</a>
+                                    </li>
+
+                                  
+                                    <li>
+                                        <a href="https://www.paddlepalace.com/NEW-Shoes-Clothing/products/67/" title="" class="topnav2" role="button">NEW: Shoes & Clothing</a>
+                                    </li>
+
+                                  
+                                    <li>
+                                        <a href="https://www.paddlepalace.com/NEW-Other-Items-Accessories/products/68/" title="" class="topnav2" role="button">NEW: Other Items & Accessories</a>
+                                    </li>
+
+                                  
+
+                              </ul>
+                            </li>
+                            <li class="dropdown-m">
+                              <a href="#" class="topnav2 level-1">SPECIALS<i class="glyphicon glyphicon-chevron-right" style="font-size:small;float:right;"></i></a>
+                              <ul class="dropdown-menu-m">
+                                
+                                    <li>
+                                        <a href="https://www.paddlepalace.com/Specials-Balls/products/238/" title="" class="topnav2" role="button">Specials: Balls</a>
+                                    </li>
+
+                                  
+                                    <li>
+                                        <a href="https://www.paddlepalace.com/Specials-Cases-and-Bags/products/43/" title="" class="topnav2" role="button">Specials: Cases and Bags</a>
+                                    </li>
+
+                                  
+                                    <li>
+                                        <a href="https://www.paddlepalace.com/Specials-Shoes-Clothing/products/55/" title="" class="topnav2" role="button">Specials: Shoes & Clothing</a>
+                                    </li>
+
+                                  
+                                    <li>
+                                        <a href="https://www.paddlepalace.com/Specials-Custom-Paddles/products/62/" title="" class="topnav2" role="button">Specials: Custom Paddles</a>
+                                    </li>
+
+                                  
+                                    <li>
+                                        <a href="https://www.paddlepalace.com/Specials-Rubber/products/51/" title="" class="topnav2" role="button">Specials: Rubber</a>
+                                    </li>
+
+                                  
+                                    <li>
+                                        <a href="https://www.paddlepalace.com/Specials-Shakehand-Blades/products/42/" title="" class="topnav2" role="button">Specials: Shakehand Blades</a>
+                                    </li>
+
+                                  
+                                    <li>
+                                        <a href="https://www.paddlepalace.com/Specials-Penhold-Blades/products/53/" title="" class="topnav2" role="button">Specials: Penhold Blades</a>
+                                    </li>
+
+                                  
+                                    <li>
+                                        <a href="https://www.paddlepalace.com/Specials-Rec-Paddles/products/52/" title="" class="topnav2" role="button">Specials: Rec Paddles</a>
+                                    </li>
+
+                                  
+                                    <li>
+                                        <a href="https://www.paddlepalace.com/Specials-Other-Items-Accessories/products/56/" title="" class="topnav2" role="button">Specials: Other Items & Accessories</a>
+                                    </li>
+
+                                  
+                              </ul>
+                            </li>
+                            <li class="dropdown-m">
+                              <a href="#" class="topnav2 level-1">INFO<i class="glyphicon glyphicon-chevron-right" style="font-size:small;float:right;"></i></a>
+                              <ul class="dropdown-menu-m">
+                                <li><a href="https://www.paddlepalace.com/privacy.asp" title="Policies" class="topnav1">Policies</a></li>
+
+                                <li><a href="https://www.paddlepalace.com/Shipping.asp" title="Shipping Information" class="topnav1">Shipping Information</a></li>
+
+                                <li><a href="https://www.paddlepalace.com/faq.asp" title="FAQ" class="topnav1">Faq</a></li>
+
+                                <li><a href="https://www.paddlepalace.com/EquipInfo.asp" title="Equipment Info" class="topnav1">Equipment Info</a></li>
+
+                                <li><a href="https://www.paddlepalace.com/testimonials.asp" title="Testimonials" class="topnav1">Testimonials</a></li>
+                              </ul>
+                            </li>
+                            <li><a href="http://blog.paddlepalace.com" class="topnav2">NEWS BLOG</a></li>
+                            <li><a href="https://www.paddlepalace.com/Aboutus.asp" class="topnav2">ABOUT US</a></li>
+
+                          </ul>
+                       </div>
+              </div>
+              <div class="new-side-nav-bar new-side-nav-button visible-xs visible-sm">
+                <span class="d-inline"><button type="button" id="new-side-nav-hamburger"></button><span class="menuButton">MENU</span></span>
+                <img id="side_navShipping" class="img-responsive pull-right hidden-lg hidden-md" style="width:210px; height:48px;" alt="Paddle Palace" src="images/shipping_button.png" border="0" >
+              </div>
+            </nav>
+        </div>
+    </div>
+
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+    
+    //JS for the mobile slideout
+	$(function() {
+        $('#new-side-nav-hamburger').on('click', function() {
+            if ($("body").hasClass('side-margin-in')) {
+                $("body").addClass('side-margin-out');
+                $("body").removeClass('side-margin-in');
+            } else {
+                $("body").addClass('side-margin-in');
+                $("body").removeClass('side-margin-out');
+            }
+        });
+    });
+
+    $('.dropdown-m .level-1').click(function(e){
+        e.preventDefault();
+
+        if($(this).parent().children('ul').hasClass('open'))
+        {                        
+            $(this).parent().children('ul').removeClass('open')
+        }
+        else
+        {
+            $(this).parent().children('ul').addClass('open')
+        }
+    });
+
+    $('.dropdown-submenu-m .level-2').click(function(e){
+        e.preventDefault();
+
+        if($(this).parent().children('ul').hasClass('open'))
+        {                        
+            $(this).parent().children('ul').removeClass('open')
+        }
+        else
+        {
+            $(this).parent().children('ul').addClass('open')
+        }
+    });
+
+  $('.dropdown-submenu').hover(function(e){
+    var that = this;
+    if($(that).parent().parent().hasClass('open')){
+        $(that).parent().parent().addClass('open'); 
+        $(that).parent().parent().parent().parent().addClass('open'); 
+        $(that).removeClass('open'); //$(that).children('ul.dropdown-menu').hide()                
+    }
+    else{
+        $(that).parent().parent().addClass('open'); 
+        $(that).parent().parent().parent().parent().addClass('open'); 
+        //$(that).children('ul.dropdown-menu').show()        
+    }
+  });
+
+  $('.dropdown-submenu').click(function(e){
+    var that = this;
+    //e.preventDefault();
+    if($(that).parent().parent().hasClass('open')){
+        setTimeout(function(){
+            $(that).parent().parent().addClass('open'); 
+            $(that).parent().parent().parent().parent().addClass('open'); 
+            $(that).removeClass('open'); //$(that).children('ul.dropdown-menu').hide()                
+        }, 1);        
+    }
+    else{
+        setTimeout(function(){
+            $(that).parent().parent().addClass('open'); 
+            $(that).parent().parent().parent().parent().addClass('open'); 
+            //$(that).children('ul.dropdown-menu').show()        
+        }, 1);
+    }
+  });
+
+  $('.noSubMenu').hover(function(e){
+    var that = this;
+    if($(that).parent().parent().hasClass('open')){
+        $(that).parent().parent().removeClass('open');;
+    }
+    else{
+        $(that).parent().parent().addClass('open');
+    }
+  });        
+
+    $('.noSubMenu').on('click', function(){
+        $(this).parent().hide();
+    });
+
+    $('#cart').click(function(){
+        window.location = 'basket.asp';
+    })
+
+});
+</script>
+    
+
+<div class="container container-white">
+
+
+
+	<div class="row">
+	    <div class="col-lg-12 no-padding">
+	        
+    <!-- it works the same with all jquery version from 1.x to 2.x -->
+    <script type="text/javascript" src="/HomePageSlider/jquery-1.9.1.min.js"></script>
+
+    <section class="section-white">
+      <div id="rotating-banner" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators" style="text-align: center !important">
+                  
+                    <li data-target="#rotating-banner" data-slide-to="0" class=" active "></li>
+                  
+                    <li data-target="#rotating-banner" data-slide-to="1" class=""></li>
+                  
+                    <li data-target="#rotating-banner" data-slide-to="2" class=""></li>
+                  
+                    <li data-target="#rotating-banner" data-slide-to="3" class=""></li>
+                  
+                    <li data-target="#rotating-banner" data-slide-to="4" class=""></li>
+                  
+                    <li data-target="#rotating-banner" data-slide-to="5" class=""></li>
+                  
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    
+                        <div class="item  active  ">
+                          <a href="https://www.paddlepalace.com/Butterfly-Rubber/products/133/" style="position:relative;"><img height="300px" class="img-responsive" u="image" src="/images/Slider-Butterfly-Rubber.jpg" alt="" /></a>
+                        </div>
+                          
+                        <div class="item  ">
+                          <a href="https://www.paddlepalace.com/Butterfly-Blades-Shakehand/products/132/" style="position:relative;"><img height="300px" class="img-responsive" u="image" src="/images/Slider-Butterfly-Blades.jpg" alt="" /></a>
+                        </div>
+                          
+                        <div class="item  ">
+                          <a href="https://www.paddlepalace.com/Stiga-Clipper-75-Limited-Edition/productinfo/SSCLL7/" style="position:relative;"><img height="300px" class="img-responsive" u="image" src="/images/Slider-Stiga-Clip75.jpg" alt="" /></a>
+                        </div>
+                          
+                        <div class="item  ">
+                          <a href="https://www.paddlepalace.com/Paddle-Palace-Victory-T-Shirt/productinfo/LPTVT/" style="position:relative;"><img height="300px" class="img-responsive" u="image" src="/images/Slider-home-victory-t(1).jpg" alt="" /></a>
+                        </div>
+                          
+                        <div class="item  ">
+                          <a href="https://www.paddlepalace.com/Donic/departments/103/" style="position:relative;"><img height="300px" class="img-responsive" u="image" src="/images/Slider-home-Donic-New.jpg" alt="" /></a>
+                        </div>
+                          
+                        <div class="item  ">
+                          <a href="https://www.paddlepalace.com/Tibhar-Blades-Shakehand/products/121/" style="position:relative;"><img height="300px" class="img-responsive" u="image" src="/images/Slider-Tibhar-fortino.jpg" alt="" /></a>
+                        </div>
+                          
+                </div>
+
+                
+                <!-- Controls -->
+                <a class="left carousel-control rotating-banner-control" href="#rotating-banner" data-slide="prev">
+                  <div class="carousel-indicators-div">
+                      <span class="glyphicon glyphicon-menu-left"></span>
+                  </div>
+                </a>
+                <a class="right carousel-control rotating-banner-control" href="#rotating-banner" data-slide="next">
+                  <div class="carousel-indicators-div" style="float: right">
+                      <span class="glyphicon glyphicon-menu-right"></span>
+                  </div>
+                </a>
+                
+              </div>
+    </section>
+	
+        </div>
+    </div>
+
+    <br>
+
+	<div class="row">
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+        <a href="/COMBO-SPECIALS/departments/32/"><img class="img-responsive pb10" src="/images/combo_specials.jpg"></a>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+        <a href="/PRO-SPECIAL-PADDLES/products/74/"><img class="img-responsive pb10" src="/images/pro_specials.jpg"></a>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+        <a href="/PADDLE-PALACE-PICKS/products/240/"><img class="img-responsive pb10" src="/images/picks.jpg"></a>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+        <a href="https://www.paddlepalace.com/Tibhar-Spectra-Polo-Shirt/productinfo/LTPST/"><img class="img-responsive pb10" src="/images/daily_specials.jpg"></a>
+    </div>
+</div>
+
+<br>
+
+<div class="row centerText">
+    <div class="col-lg-12">
+        <h1>Welcome to Paddle Palace</h1>
+    </div>
+</div>
+
+<div class="row centerText">
+    <div class="col-lg-12">
+        <p style="color:#a6a6a6;font-weight: bold;font-family: 'Open Sans', sans-serif;padding:0 60px;">Located in Portland, Oregon USA, we are the North American Distributor for the major brands of table tennis. Offering premium customer service, we are players and lovers of table tennis, dedicated to elevating the game!</p>
+    </div>
+</div>
+
+<br>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="productFeatureBorder hidden-xs hidden-sm"></div>
+                <div class="featuredProductHeading hidden-xs hidden-sm">Featured Products</div>
+                <div class="featuredProductHeading-mobile visible-xs visible-sm">Featured Products</div>
+            </div>
+        </div>
+        <br>
+
+        
+
+	    <div class="row">
+
+	    
+
+
+	        <div id="colimg" class="col-lg-3 col-sm-4 col-md-4 col-xs-6 centerText">
+                <div>
+                    <a href="https://www.paddlepalace.com/Butterfly-Dignics-05/productinfo/RBD05/">
+                        <img SRC="images/RBD05-butterfly-dignics-05-1-th.jpg" alt="Butterfly Dignics 05" title="Butterfly Dignics 05" class="prodlistimg img-responsive"  border="0">
+                    </a>
+                </div>
+                <div><a title="Butterfly Dignics 05" class="producttitlelink" href="https://www.paddlepalace.com/Butterfly-Dignics-05/productinfo/RBD05/">Butterfly Dignics 05</a></div>
+                <!--<div><a title="Butterfly Dignics 05" class="productNumber" href="https://www.paddlepalace.com/Butterfly-Dignics-05/productinfo/RBD05/">RBD05</a></div>-->
+                <div class="plaintext"><P style="BORDER-TOP-COLOR: ; BORDER-LEFT-COLOR: ; BORDER-BOTTOM-COLOR: ; BORDER-RIGHT-COLOR: "><STRONG><FONT style="BORDER-TOP-COLOR: ; BORDER-LEFT-COLOR: ; BORDER-BOTTOM-COLOR: ; BORDER-RIGHT-COLOR: " color=#ff0000 face=Arial>ALL Butterfly Rubbers &amp; Blades on Special!</FONT></STRONG></P></div>
+                
+                    <!-- <div class="CompPrice">Compare At: $104.99</div>-->
+	            
+
+	        <form enctype="application/x-www-form-urlencoded" method="post" action="itemadd.asp">
+	        
+	                    <div>
+	                        <a HREF="https://www.paddlepalace.com/Butterfly-Dignics-05/productinfo/RBD05/">
+	                            <span class="ProductPrice">$97.12</span>
+	                        </a>
+	                    </div>
+	                
+	        <div><img src="images/1note.gif" /></div>
+	        </form>
+
+	        &nbsp;
+	        </div>
+        
+
+
+	        <div id="colimg" class="col-lg-3 col-sm-4 col-md-4 col-xs-6 centerText">
+                <div>
+                    <a href="https://www.paddlepalace.com/Butterfly-Tenergy-05/productinfo/RBT05/">
+                        <img SRC="images/RBT05-butterfly-tenergy-05-th.jpg" alt="Butterfly Tenergy 05" title="Butterfly Tenergy 05" class="prodlistimg img-responsive"  border="0">
+                    </a>
+                </div>
+                <div><a title="Butterfly Tenergy 05" class="producttitlelink" href="https://www.paddlepalace.com/Butterfly-Tenergy-05/productinfo/RBT05/">Butterfly Tenergy 05</a></div>
+                <!--<div><a title="Butterfly Tenergy 05" class="productNumber" href="https://www.paddlepalace.com/Butterfly-Tenergy-05/productinfo/RBT05/">RBT05</a></div>-->
+                <div class="plaintext"><P style="BORDER-TOP-COLOR: ; BORDER-LEFT-COLOR: ; BORDER-BOTTOM-COLOR: ; BORDER-RIGHT-COLOR: "><STRONG><FONT style="BORDER-TOP-COLOR: ; BORDER-LEFT-COLOR: ; BORDER-BOTTOM-COLOR: ; BORDER-RIGHT-COLOR: " color=#ff0000 face=Arial>ALL Butterfly Rubbers &amp; Blades on Special!</FONT></STRONG></P></div>
+                
+                    <!-- <div class="CompPrice">Compare At: $79.99</div>-->
+	            
+
+	        <form enctype="application/x-www-form-urlencoded" method="post" action="itemadd.asp">
+	        
+	                    <div>
+	                        <a HREF="https://www.paddlepalace.com/Butterfly-Tenergy-05/productinfo/RBT05/">
+	                            <span class="ProductPrice">$73.99</span>
+	                        </a>
+	                    </div>
+	                
+	        <div><img src="images/4-5note.gif" /></div>
+	        </form>
+
+	        &nbsp;
+	        </div>
+        
+
+
+	        <div id="colimg" class="col-lg-3 col-sm-4 col-md-4 col-xs-6 centerText">
+                <div>
+                    <a href="https://www.paddlepalace.com/Butterfly-Tenergy-05-FX/productinfo/RBT05F/">
+                        <img SRC="images/RBT05F-butterfly-tenergy-05f-th.jpg" alt="Butterfly Tenergy 05 FX" title="Butterfly Tenergy 05 FX" class="prodlistimg img-responsive"  border="0">
+                    </a>
+                </div>
+                <div><a title="Butterfly Tenergy 05 FX" class="producttitlelink" href="https://www.paddlepalace.com/Butterfly-Tenergy-05-FX/productinfo/RBT05F/">Butterfly Tenergy 05 FX</a></div>
+                <!--<div><a title="Butterfly Tenergy 05 FX" class="productNumber" href="https://www.paddlepalace.com/Butterfly-Tenergy-05-FX/productinfo/RBT05F/">RBT05F</a></div>-->
+                <div class="plaintext"><P style="BORDER-TOP-COLOR: ; BORDER-LEFT-COLOR: ; BORDER-BOTTOM-COLOR: ; BORDER-RIGHT-COLOR: "><STRONG><FONT style="BORDER-TOP-COLOR: ; BORDER-LEFT-COLOR: ; BORDER-BOTTOM-COLOR: ; BORDER-RIGHT-COLOR: " color=#ff0000 face=Arial>ALL Butterfly Rubbers &amp; Blades on Special!</FONT></STRONG></P></div>
+                
+                    <!-- <div class="CompPrice">Compare At: $79.99</div>-->
+	            
+
+	        <form enctype="application/x-www-form-urlencoded" method="post" action="itemadd.asp">
+	        
+	                    <div>
+	                        <a HREF="https://www.paddlepalace.com/Butterfly-Tenergy-05-FX/productinfo/RBT05F/">
+	                            <span class="ProductPrice">$73.99</span>
+	                        </a>
+	                    </div>
+	                
+	        <div><img src="images/5note.gif" /></div>
+	        </form>
+
+	        &nbsp;
+	        </div>
+        
+
+
+	        <div id="colimg" class="col-lg-3 col-sm-4 col-md-4 col-xs-6 centerText">
+                <div>
+                    <a href="https://www.paddlepalace.com/Butterfly-Tenergy-80/productinfo/RBT80/">
+                        <img SRC="images/RBT80-butterfly-tenergy-80-th.jpg" alt="Butterfly Tenergy 80" title="Butterfly Tenergy 80" class="prodlistimg img-responsive"  border="0">
+                    </a>
+                </div>
+                <div><a title="Butterfly Tenergy 80" class="producttitlelink" href="https://www.paddlepalace.com/Butterfly-Tenergy-80/productinfo/RBT80/">Butterfly Tenergy 80</a></div>
+                <!--<div><a title="Butterfly Tenergy 80" class="productNumber" href="https://www.paddlepalace.com/Butterfly-Tenergy-80/productinfo/RBT80/">RBT80</a></div>-->
+                <div class="plaintext"><P style="BORDER-TOP-COLOR: ; BORDER-LEFT-COLOR: ; BORDER-BOTTOM-COLOR: ; BORDER-RIGHT-COLOR: "><STRONG><FONT style="BORDER-TOP-COLOR: ; BORDER-LEFT-COLOR: ; BORDER-BOTTOM-COLOR: ; BORDER-RIGHT-COLOR: " color=#ff0000 face=Arial>ALL Butterfly Rubbers &amp; Blades on Special!</FONT></STRONG></P></div>
+                
+                    <!-- <div class="CompPrice">Compare At: $79.99</div>-->
+	            
+
+	        <form enctype="application/x-www-form-urlencoded" method="post" action="itemadd.asp">
+	        
+	                    <div>
+	                        <a HREF="https://www.paddlepalace.com/Butterfly-Tenergy-80/productinfo/RBT80/">
+	                            <span class="ProductPrice">$73.99</span>
+	                        </a>
+	                    </div>
+	                
+	        <div><img src="images/3-5note.gif" /></div>
+	        </form>
+
+	        &nbsp;
+	        </div>
+        
+
+
+	        <div id="colimg" class="col-lg-3 col-sm-4 col-md-4 col-xs-6 centerText">
+                <div>
+                    <a href="https://www.paddlepalace.com/Butterfly-Viscaria/productinfo/SBVIS/">
+                        <img SRC="images/SBVIS-butterfly-viscaria-th.jpg" alt="Butterfly Viscaria" title="Butterfly Viscaria" class="prodlistimg img-responsive"  border="0">
+                    </a>
+                </div>
+                <div><a title="Butterfly Viscaria" class="producttitlelink" href="https://www.paddlepalace.com/Butterfly-Viscaria/productinfo/SBVIS/">Butterfly Viscaria</a></div>
+                <!--<div><a title="Butterfly Viscaria" class="productNumber" href="https://www.paddlepalace.com/Butterfly-Viscaria/productinfo/SBVIS/">SBVIS</a></div>-->
+                <div class="plaintext"><P style="BORDER-TOP-COLOR: ; BORDER-LEFT-COLOR: ; BORDER-BOTTOM-COLOR: ; BORDER-RIGHT-COLOR: "><STRONG><FONT style="BORDER-TOP-COLOR: ; BORDER-LEFT-COLOR: ; BORDER-BOTTOM-COLOR: ; BORDER-RIGHT-COLOR: " color=#ff0000 face=Arial>ALL Butterfly Rubbers &amp; Blades on Special!</FONT></STRONG></P></div>
+                
+                    <!-- <div class="CompPrice">Compare At: $159.99</div>-->
+	            
+
+	        <form enctype="application/x-www-form-urlencoded" method="post" action="itemadd.asp">
+	        
+	                    <div>
+	                        <a HREF="https://www.paddlepalace.com/Butterfly-Viscaria/productinfo/SBVIS/">
+	                            <span class="ProductPrice">$147.99</span>
+	                        </a>
+	                    </div>
+	                
+	        <div><img src="images/5note.gif" /></div>
+	        </form>
+
+	        &nbsp;
+	        </div>
+        
+
+
+	        <div id="colimg" class="col-lg-3 col-sm-4 col-md-4 col-xs-6 centerText">
+                <div>
+                    <a href="https://www.paddlepalace.com/Xiom-Omega-VII-Pro/productinfo/RXO7P/">
+                        <img SRC="images/RXO7P-xiom-omega-7-pro-th.jpg" alt="Xiom Omega VII Pro" title="Xiom Omega VII Pro" class="prodlistimg img-responsive"  border="0">
+                    </a>
+                </div>
+                <div><a title="Xiom Omega VII Pro" class="producttitlelink" href="https://www.paddlepalace.com/Xiom-Omega-VII-Pro/productinfo/RXO7P/">Xiom Omega VII Pro</a></div>
+                <!--<div><a title="Xiom Omega VII Pro" class="productNumber" href="https://www.paddlepalace.com/Xiom-Omega-VII-Pro/productinfo/RXO7P/">RXO7P</a></div>-->
+                <div class="plaintext"><P><STRONG><FONT color=#ff0000 face=Arial>FLASH SPECIAL ENDS SOON!</FONT></STRONG></P></div>
+                
+                    <!-- <div class="CompPrice">Compare At: $54.95</div>-->
+	            
+
+	        <form enctype="application/x-www-form-urlencoded" method="post" action="itemadd.asp">
+	        
+	                    <div>
+	                        <a HREF="https://www.paddlepalace.com/Xiom-Omega-VII-Pro/productinfo/RXO7P/">
+	                            <span class="ProductPrice">$43.95</span>
+	                        </a>
+	                    </div>
+	                
+	        <div><img src="images/clear.gif" /></div>
+	        </form>
+
+	        &nbsp;
+	        </div>
+        
+
+
+	        <div id="colimg" class="col-lg-3 col-sm-4 col-md-4 col-xs-6 centerText">
+                <div>
+                    <a href="https://www.paddlepalace.com/Tibhar-Aurus-Select/productinfo/RTAST/">
+                        <img SRC="images/RTAST-tibhar-aurus-select-th.jpg" alt="Tibhar Aurus Select" title="Tibhar Aurus Select" class="prodlistimg img-responsive"  border="0">
+                    </a>
+                </div>
+                <div><a title="Tibhar Aurus Select" class="producttitlelink" href="https://www.paddlepalace.com/Tibhar-Aurus-Select/productinfo/RTAST/">Tibhar Aurus Select</a></div>
+                <!--<div><a title="Tibhar Aurus Select" class="productNumber" href="https://www.paddlepalace.com/Tibhar-Aurus-Select/productinfo/RTAST/">RTAST</a></div>-->
+                <div class="plaintext"><P><STRONG><FONT color=#ff0000 face=Arial>FLASH SPECIAL ENDS SOON!</FONT></STRONG></P></div>
+                
+                    <!-- <div class="CompPrice">Compare At: $44.95</div>-->
+	            
+
+	        <form enctype="application/x-www-form-urlencoded" method="post" action="itemadd.asp">
+	        
+	                    <div>
+	                        <a HREF="https://www.paddlepalace.com/Tibhar-Aurus-Select/productinfo/RTAST/">
+	                            <span class="ProductPrice">$35.95</span>
+	                        </a>
+	                    </div>
+	                
+	        <div><img src="images/clear.gif" /></div>
+	        </form>
+
+	        &nbsp;
+	        </div>
+        
+
+
+	        <div id="colimg" class="col-lg-3 col-sm-4 col-md-4 col-xs-6 centerText">
+                <div>
+                    <a href="https://www.paddlepalace.com/Stiga-Emerald-VPS-V/productinfo/SSEMR5/">
+                        <img SRC="images/SSEMR5-stiga-emerald-vps5-1-th.jpg" alt="Stiga Emerald VPS V" title="Stiga Emerald VPS V" class="prodlistimg img-responsive"  border="0">
+                    </a>
+                </div>
+                <div><a title="Stiga Emerald VPS V" class="producttitlelink" href="https://www.paddlepalace.com/Stiga-Emerald-VPS-V/productinfo/SSEMR5/">Stiga Emerald VPS V</a></div>
+                <!--<div><a title="Stiga Emerald VPS V" class="productNumber" href="https://www.paddlepalace.com/Stiga-Emerald-VPS-V/productinfo/SSEMR5/">SSEMR5</a></div>-->
+                <div class="plaintext"><P><STRONG><FONT color=#ff0000 face=Arial>FLASH SPECIAL ENDS SOON!</FONT></STRONG></P></div>
+                
+                    <!-- <div class="CompPrice">Compare At: $169.95</div>-->
+	            
+
+	        <form enctype="application/x-www-form-urlencoded" method="post" action="itemadd.asp">
+	        
+	                    <div>
+	                        <a HREF="https://www.paddlepalace.com/Stiga-Emerald-VPS-V/productinfo/SSEMR5/">
+	                            <span class="ProductPrice">$134.95</span>
+	                        </a>
+	                    </div>
+	                
+	        <div><img src="images/clear.gif" /></div>
+	        </form>
+
+	        &nbsp;
+	        </div>
+        
+    </div>
+
+        
+
+        <!--</div>-->
+        <!-- end sl_code here -->
+        <!--</td>-->
+		<!--<td width="191" class="sidenavbg" valign="top">-->
+
+        
+		<!--</td>-->
+	<!--</tr>-->
+<!--</table>-->
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="productFeatureBorder hidden-xs"></div>
+        <div class="featuredProductHeading hidden-xs">Our Brands</div>
+        <div class="featuredProductHeading-mobile visible-xs">Our Brands</div>
+    </div>
+</div>
+<br>
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="brand-carousel ma" >
+		
+            <!-- <div>
+                <a href="/Andro.asp" style="position:relative;"><img class="img-responsive" style="border: 1px solid #a6a6a6;height: 110px !important;" class="" u="image" src="/images/PP-website-new-Brands-ANDRO.jpg" alt="" /></a>
+            </div>
+            <div>
+                <a href="/butterfly.asp" style="position:relative;"><img class="img-responsive" style="border: 1px solid #a6a6a6;height: 110px !important;" class="" u="image" src="/images/PP-website-new-Brands-Butterfly.jpg" alt="" /></a>
+            </div>
+            <div>
+                <a href="/DHS.asp" style="position:relative;"><img class="img-responsive" style="border: 1px solid #a6a6a6;height: 110px !important;" class="" u="image" src="/images/PP-website-new-Brands-DHS.jpg" alt="" /></a>
+            </div>
+            <div>
+                <a href="/Donic.asp" style="position:relative;"><img class="img-responsive" style="border: 1px solid #a6a6a6;height: 110px !important;" class="" u="image" src="/images/PP-website-new-Brands-DONIC.jpg" alt="" /></a>
+            </div>
+            <div>
+                <a href="/Neubauer.asp" style="position:relative;"><img class="img-responsive" style="border: 1px solid #a6a6a6;height: 110px !important;" class="" u="image" src="/images/PP-website-new-Brands-DrN.jpg" alt="" /></a>
+            </div>
+            <div>
+                <a href="#" style="position:relative;"><img class="img-responsive" style="border: 1px solid #a6a6a6;height: 110px !important;" class="" u="image" src="/images/PP-website-new-Brands-Hunter.jpg" alt="" /></a>
+            </div>
+            <div>
+                <a href="/juic.asp" style="position:relative;"><img class="img-responsive" style="border: 1px solid #a6a6a6;height: 110px !important;" class="" u="image" src="/images/PP-website-new-Brands-JUIC.jpg" alt="" /></a>
+            </div>
+            <div>
+                <a href="/Nittaku.asp" style="position:relative;"><img class="img-responsive" style="border: 1px solid #a6a6a6;height: 110px !important;" class="" u="image" src="/images/PP-website-new-Brands-NITTAKU.jpg" alt="" /></a>
+            </div>
+            <div>
+                <a href="#" style="position:relative;"><img class="img-responsive" style="border: 1px solid #a6a6a6;height: 110px !important;" class="" u="image" src="/images/PP-website-new-Brands-PP.jpg" alt="" /></a>
+            </div>
+            <div>
+                <a href="/Stiga.asp" style="position:relative;"><img class="img-responsive" style="border: 1px solid #a6a6a6;height: 110px !important;" class="" u="image" src="/images/PP-website-new-Brands-STIGA.jpg" alt="" /></a>
+            </div>
+            <div>
+                <a href="/Tibhar.asp" style="position:relative;"><img class="img-responsive" style="border: 1px solid #a6a6a6;height: 110px !important;" class="" u="image" src="/images/PP-website-new-Brands-TIBHAR.jpg" alt="" /></a>
+            </div>
+            <div>
+                <a href="/xiom.asp" style="position:relative;"><img class="img-responsive" style="border: 1px solid #a6a6a6;height: 110px !important;" class="" u="image" src="/images/PP-website-new-Brands-XIOM.jpg" alt="" /></a>
+            </div>
+            <div>
+                <a href="/Yasaka.asp" style="position:relative;"><img class="img-responsive" style="border: 1px solid #a6a6a6;height: 110px !important;" class="" u="image" src="/images/PP-website-new-Brands-YASAKA.jpg" alt="" /></a>
+            </div>-->
+			
+            <div>
+                <a href="https://www.paddlepalace.com/Andro/departments/225/" style="position:relative;" title="brands-logo-ANDRO.jpg"><img class="img-responsive" style="border: 1px solid #a6a6a6;" class="" u="image" src="images/brands-logo-ANDRO.jpg" alt="" /></a>
+            </div>
+			
+            <div>
+                <a href="https://www.paddlepalace.com/Butterfly/departments/129/" style="position:relative;" title="brands-logo-Butterfly.jpg"><img class="img-responsive" style="border: 1px solid #a6a6a6;" class="" u="image" src="images/brands-logo-Butterfly.jpg" alt="" /></a>
+            </div>
+			
+            <div>
+                <a href="https://www.paddlepalace.com/DHS/departments/214/" style="position:relative;" title="brands-logo-DHS.jpg"><img class="img-responsive" style="border: 1px solid #a6a6a6;" class="" u="image" src="images/brands-logo-DHS.jpg" alt="" /></a>
+            </div>
+			
+            <div>
+                <a href="https://www.paddlepalace.com/Donic/departments/103/" style="position:relative;" title="brands-logo-DONIC.jpg"><img class="img-responsive" style="border: 1px solid #a6a6a6;" class="" u="image" src="images/brands-logo-DONIC.jpg" alt="" /></a>
+            </div>
+			
+            <div>
+                <a href="https://www.paddlepalace.com/Dr-Neubauer/departments/123/" style="position:relative;" title="brands-logo-DrN.jpg"><img class="img-responsive" style="border: 1px solid #a6a6a6;" class="" u="image" src="images/brands-logo-DrN.jpg" alt="" /></a>
+            </div>
+			
+            <div>
+                <a href="https://www.paddlepalace.com/Hunter/departments/137/" style="position:relative;" title="brands-logo-Hunter.jpg"><img class="img-responsive" style="border: 1px solid #a6a6a6;" class="" u="image" src="images/brands-logo-Hunter.jpg" alt="" /></a>
+            </div>
+			
+            <div>
+                <a href="https://www.paddlepalace.com/Juic/departments/108/" style="position:relative;" title="brands-logo-JUIC.jpg"><img class="img-responsive" style="border: 1px solid #a6a6a6;" class="" u="image" src="images/brands-logo-JUIC.jpg" alt="" /></a>
+            </div>
+			
+            <div>
+                <a href="https://www.paddlepalace.com/Nittaku/departments/76/" style="position:relative;" title="brands-logo-NITTAKU.jpg"><img class="img-responsive" style="border: 1px solid #a6a6a6;" class="" u="image" src="images/brands-logo-NITTAKU.jpg" alt="" /></a>
+            </div>
+			
+            <div>
+                <a href="https://www.paddlepalace.com/Paddle-Palace/products/141/" style="position:relative;" title="brands-logo-PP.jpg"><img class="img-responsive" style="border: 1px solid #a6a6a6;" class="" u="image" src="images/brands-logo-PP.jpg" alt="" /></a>
+            </div>
+			
+            <div>
+                <a href="https://www.paddlepalace.com/Stiga/departments/94/" style="position:relative;" title="brands-logo-STIGA.jpg"><img class="img-responsive" style="border: 1px solid #a6a6a6;" class="" u="image" src="images/brands-logo-STIGA.jpg" alt="" /></a>
+            </div>
+			
+            <div>
+                <a href="https://www.paddlepalace.com/Tibhar/departments/118/" style="position:relative;" title="brands-logo-TIBHAR.jpg"><img class="img-responsive" style="border: 1px solid #a6a6a6;" class="" u="image" src="images/brands-logo-TIBHAR.jpg" alt="" /></a>
+            </div>
+			
+            <div>
+                <a href="https://www.paddlepalace.com/Xiom/departments/206/" style="position:relative;" title="brands-logo-XIOM.jpg"><img class="img-responsive" style="border: 1px solid #a6a6a6;" class="" u="image" src="images/brands-logo-XIOM.jpg" alt="" /></a>
+            </div>
+			
+            <div>
+                <a href="https://www.paddlepalace.com/Yasaka/departments/113/" style="position:relative;" title="brands-logo-YASAKA.jpg"><img class="img-responsive" style="border: 1px solid #a6a6a6;" class="" u="image" src="images/brands-logo-YASAKA.jpg" alt="" /></a>
+            </div>
+			
+        </div>
+        <!-- Controls -->
+        <div class="controls hidden-xs hidden-sm hidden-md">
+            <a id="prev" class="left carousel-control arrow-width" href="#carousel-brands" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" style="color: black;"></span>
+            </a>
+            <a id="next" class="right carousel-control arrow-width" href="#carousel-brands" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" style="color: black;"></span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<br>
+
+
+</div> <!-- Closes container  -->
+<div class="footerbgcolor">
+<div class="container container-white pt30">
+    <form action="emailsignup.asp" target="_blank" method="post">
+        <div class="row subscribeBack">
+            <div class="col-lg-5 col-xs-12 subscribeText">
+                Subscribe Today for Updates & Exclusive Offers
+            </div>
+            <div class="col-lg-5 col-xs-8 col-sm-10 subscribeSpacing1">
+                <input type="text" name="email" size="30" maxlength="50" id="ex1" class="form-control smalltextblk" onfocusout="if(this.value=='')this.value='enter email address';" onfocus="if(this.value=='enter email address')this.value='';" value="enter email address">
+            </div>
+            <div class="col-lg-1 col-sm-2 hidden-xs subscribeSpacing2">
+                <button type="submit" name="submit" class="btn btn-md subscribeBtn">SUBMIT</button>
+            </div>
+            <div class="col-xs-4 visible-xs subscribeSpacing2 centerText">
+                <button type="submit" name="submit" class="btn btn-md subscribeBtn">SUBMIT</button>
+            </div>
+        </div>
+    </form>
+<div class="row footerBack pb20">
+    <div class="col-lg-3 col-sm-6">
+            <div class="row">
+                <div class="col-lg-12">
+                        <img src="images/testImage.PNG" border="0">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <i class="glyphicon glyphicon-phone footerIconColor"></i><span class="footertext">&emsp;800.547.5891</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <span class="footerPlainText2 footertext">503.777.2266</span>
+                </div>
+            </div>
+            <div class="row footerRowPadding">
+                <div class="col-lg-12">
+                    <span class="footerPhoneHoursStyle"><b>Phone Support Hours:</span></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <span class="footerPlainText2 footertext">Mon - Fri / 8:30am-5:00pm PT<br>
+                    </span><br>
+                </div>
+            </div>
+            <div class="row footerRowPadding">
+                <div class="col-lg-12">
+                    <i class="fa fa-envelope footerIconColor"></i><span class="footertext">&emsp;tt@paddlepalace.com</span>
+                </div>
+            </div>
+            <div class="row footerRowPadding">
+                <div class="col-lg-12">
+                    <i class="glyphicon glyphicon-home footerIconColor"></i><span class="footertext">&emsp;12230 SW Main Street</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <span class="footerPlainText2 footertext">Portland, OR 97223 USA</span>
+                </div>
+            </div>
+            <hr class="footerHRStyling">
+            <div class="row">
+                <div class="col-lg-12">
+                    <a href="http://www.paddlepalace.com/images/cat308_online.pdf" target="_blank" class="descriptionWindow footerHeaderStyle footerDownloadCatalogue">DOWNLOAD CATALOG</a>
+                </div>
+            </div>
+            <br>
+            <div class="row"> <a href="http://www.paddlepalace.com/images/cat308_online.pdf" target="_blank"><img class="footerImgPadding" src="https://www.paddlepalace.com/images/cat308_online.jpg" border="0"></a>
+            </div>
+    </div>
+    <hr class="footerHRStyling visible-xs">
+    <div class="col-lg-3 col-sm-6">
+        <div class="row footerRowPadding2">
+            <div class="col-lg-12">
+                <span class="footerHeaderStyle">FOLLOW US</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class=col-lg-12>
+                <span class="footerIconColor2"><a href="http://facebook.com/paddlepalace"><i class="fa fa-facebook-official fa-3x footerIconColor2"></i></a>&nbsp;&nbsp;<a href="http://twitter.com/PaddlePalace"></i><i class="fa fa-twitter-square fa-3x footerIconColor2"></i></a></span>
+            </div>
+        </div>
+        <hr class="footerHRStyling">
+        <div class="row">
+            <div class="col-lg-12">
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpaddlepalace%2F&tabs=timeline&width=250&height=400&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="250" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+        <div class="row footerRowPadding2">
+            <div class=col-lg-12>
+                <span class="footerHeaderStyle">ABOUT US</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class=col-lg-12>
+                <span class="footerParagraph">Located in Portland, Oregon USA, we are the North American Distributor for the major brands of table tennis. Offering premium customer service, we are players and lovers of table tennis, dedicated to elevating the game!</span>
+            </div>
+        </div>
+        <hr class="footerHRStyling">
+        <div class="row">
+            <div class=col-lg-12>
+                <span class="footerHeaderStyle">INFORMATION</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class=col-lg-12>
+                
+                <span class="footerInfoList1"><a href="privacy.asp" class="footerlink" title="Policies">Policies</a></span>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class=col-lg-12>
+                    <span class="footerInfoList1"><a href="Shipping.asp" class="footerlink">Shipping Information</a></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class=col-lg-12>
+                
+                <span class="footerInfoList1"><a href="faq.asp" class="footerlink" title="Faq">Faq</a></span>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                    <span class="footerInfoList1"><a href="EquipInfo.asp" class="footerlink">Equipment Info</a></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                
+                <span class="footerInfoList1"><a href="testimonials.asp" class="footerlink" title="Testimonials">Testimonials</a></span>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <span class="footerInfoList1"><a class="footerlink" href="https://www.paddlepalace.com/sitemap.asp" title="Site Map">Site Map</a></span>
+            </div>
+        </div>
+        <div class="row footerRowPadding2 footerInfoList1">
+            <div class="col-lg-12">
+                <script type="text/javascript" src="https://sealserver.trustwave.com/seal.js?style=invert&code=545a708e8ff84921af438ed91a88c426"></script>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-sm-6 hidden-xs hidden-sm hidden-md">
+        <div class="row footerRowPadding2">
+            <div class="col-lg-12">
+                    <span class="footerHeaderStyle">TABLE TENNIS SHOP</span>
+            </div>
+        </div>
+        <div class="row">
+                <div class="col-lg-12 footerInfoList2">
+                        
+                    <a  href="https://www.paddlepalace.com/CLEARANCE/departments/44/" title="CLEARANCE" class="footerlink menuHover footerLinkColor"><!-- <br>-->CLEARANCE</a><br></li>
+                        
+                        <!-- <div class="CLEARANCE dropmenu notSure12">
+                          <div class="menucontent">
+                             
+                            </div>
+                        </div>-->
+                        
+                        
+                       
+                    <a  href="https://www.paddlepalace.com/COMBO-SPECIALS/departments/32/" title="COMBO SPECIALS" class="footerlink menuHover footerLinkColor"><!-- <br>-->COMBO SPECIALS</a><br></li>
+                        
+                        <!-- <div class="COMBO SPECIALS dropmenu notSure12">
+                          <div class="menucontent">
+                             
+                            </div>
+                        </div>-->
+                        
+                        
+                       
+                    <a  href="https://www.paddlepalace.com/PRO-SPECIAL-PADDLES/products/74/" title="PRO SPECIAL PADDLES" class="footerlink menuHover footerLinkColor"><!-- <br>-->PRO SPECIAL PADDLES</a><br></li>
+                        
+                    <a  href="https://www.paddlepalace.com/Balls/products/236/" title="Balls" class="footerlink menuHover footerLinkColor"><!-- <br>-->Balls</a><br></li>
+                        
+                    <a  href="https://www.paddlepalace.com/Blades-Shakehand/products/7/" title="Blades: Shakehand" class="footerlink menuHover footerLinkColor"><!-- <br>-->Blades: Shakehand</a><br></li>
+                        
+                    <a  href="https://www.paddlepalace.com/Blades-Penhold/products/8/" title="Blades: Penhold" class="footerlink menuHover footerLinkColor"><!-- <br>-->Blades: Penhold</a><br></li>
+                        
+                    <a  href="https://www.paddlepalace.com/Cases-Bags/products/241/" title="Cases & Bags" class="footerlink menuHover footerLinkColor"><!-- <br>-->Cases & Bags</a><br></li>
+                        
+                    <a  href="https://www.paddlepalace.com/Clothing/products/16/" title="Clothing" class="footerlink menuHover footerLinkColor"><!-- <br>-->Clothing</a><br></li>
+                        
+                    <a  href="https://www.paddlepalace.com/More-Accessories/products/40/" title="More Accessories" class="footerlink menuHover footerLinkColor"><!-- <br>-->More Accessories</a><br></li>
+                        
+                    <a  href="https://www.paddlepalace.com/Nets/products/24/" title="Nets" class="footerlink menuHover footerLinkColor"><!-- <br>-->Nets</a><br></li>
+                        
+                    <a  href="https://www.paddlepalace.com/Paddle-Care/products/242/" title="Paddle Care" class="footerlink menuHover footerLinkColor"><!-- <br>-->Paddle Care</a><br></li>
+                        
+                    <a  href="https://www.paddlepalace.com/Recreational-Paddles/products/13/" title="Recreational Paddles" class="footerlink menuHover footerLinkColor"><!-- <br>-->Recreational Paddles</a><br></li>
+                        
+                    <a  href="https://www.paddlepalace.com/Robots/products/25/" title="Robots" class="footerlink menuHover footerLinkColor"><!-- <br>-->Robots</a><br></li>
+                        
+                    <a  href="https://www.paddlepalace.com/Rubber/products/1/" title="Rubber" class="footerlink menuHover footerLinkColor"><!-- <br>-->Rubber</a><br></li>
+                        
+                    <a  href="https://www.paddlepalace.com/Shoes/products/3/" title="Shoes" class="footerlink menuHover footerLinkColor"><!-- <br>-->Shoes</a><br></li>
+                        
+                    <a  href="https://www.paddlepalace.com/Tables/products/9/" title="Tables" class="footerlink menuHover footerLinkColor"><!-- <br>-->Tables</a><br></li>
+                        
+                    <a  href="https://www.paddlepalace.com/Table-Court-Accessories/products/213/" title="Table & Court Accessories" class="footerlink menuHover footerLinkColor"><!-- <br>-->Table & Court Accessories</a><br></li>
+                        
+                </div>
+        </div>
+    </div>
+</div>
+
+
+<img src="https://link.ixs1.net/s/at?site=8325&page=" width="1" height="1" border="0">
+
+</div> 
+	<script type="text/javascript">			
+	    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");		
+	    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));	
+	</script>
+	<script type="text/javascript">	
+	    var pageTracker = _gat._getTracker("UA-15652189-1");	
+	    pageTracker._initData();	
+	    pageTracker._trackPageview();	
+	</script>
+
+</div>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+<script>
+    $('#next').click(function(){
+        $('.brand-carousel').slick('slickNext');
+    });
+
+    $('#prev').click(function(){
+        $('.brand-carousel').slick('slickPrev');
+    });
+
+    $('.brand-carousel').slick({
+      dots: false,
+      infinite: true,
+      speed: 1000,
+      slidesToShow: 6,
+      slidesToScroll: 1,
+      autoplay: true,
+      swipe: true,
+      autoplaySpeed: 1000,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 2,
+			slidesToScroll: 2
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+</script>
+
+</body>
+</html>

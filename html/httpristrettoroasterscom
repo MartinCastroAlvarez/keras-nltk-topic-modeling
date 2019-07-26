@@ -1,0 +1,1431 @@
+<!doctype html>
+<!--[if IE 9]> <html class="ie9 no-js" lang="en"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#ff9900">
+  <link rel="canonical" href="https://rrpdx.com/">
+
+  
+    <link rel="shortcut icon" href="//cdn.shopify.com/s/files/1/1637/5537/files/favicon_32x32.png?v=1485893552" type="image/png">
+  
+
+  
+  <title>
+    Locally roasted since 2005
+    
+    
+    
+      | Ristretto Roasters Coffee
+    
+  </title>
+
+  
+    <meta name="description" content="Producers of small batch coffee specializing in medium roast. Taste what many consider to be some of the best coffee in Portland. Locally roasted since 2005.">
+  
+
+  <!-- /snippets/social-meta-tags.liquid -->
+<meta property="og:site_name" content="Ristretto Roasters Coffee">
+<meta property="og:url" content="https://rrpdx.com/">
+<meta property="og:title" content="Locally roasted since 2005">
+<meta property="og:type" content="website">
+<meta property="og:description" content="Producers of small batch coffee specializing in medium roast. Taste what many consider to be some of the best coffee in Portland. Locally roasted since 2005.">
+
+
+<meta name="twitter:site" content="@rrpdx">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Locally roasted since 2005">
+<meta name="twitter:description" content="Producers of small batch coffee specializing in medium roast. Taste what many consider to be some of the best coffee in Portland. Locally roasted since 2005.">
+
+
+  <link href="//cdn.shopify.com/s/files/1/1637/5537/t/1/assets/theme.scss.css?219" rel="stylesheet" type="text/css" media="all" />
+  
+
+
+  <link href="//cdn.shopify.com/s/files/1/1637/5537/t/1/assets/fontname.css?219" rel="stylesheet" type="text/css" media="all" />
+    <script src="//cdn.shopify.com/s/files/1/1637/5537/t/1/assets/jquery.sticky.js?219" type="text/javascript"></script>
+<script>
+  $(document).ready(function(){
+    $("#header").sticky({topSpacing:0});
+  });
+</script>
+  
+
+  <script>
+    var theme = {
+      strings: {
+        addToCart: "Add to cart",
+        soldOut: "Sold out",
+        unavailable: "Make a selection",
+        showMore: "Show More",
+        showLess: "Show Less"
+      },
+      moneyFormat: "${{ amount }}"
+    }
+
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+  </script>
+
+  <!--[if (lte IE 9) ]><script src="//cdn.shopify.com/s/files/1/1637/5537/t/1/assets/match-media.min.js?219" type="text/javascript"></script><![endif]-->
+
+  
+
+  <!--[if (gt IE 9)|!(IE)]><!--><script src="//cdn.shopify.com/s/files/1/1637/5537/t/1/assets/vendor.js?219" defer="defer"></script><!--<![endif]-->
+  <!--[if lte IE 9]><script src="//cdn.shopify.com/s/files/1/1637/5537/t/1/assets/vendor.js?219"></script><![endif]-->
+
+  <!--[if (gt IE 9)|!(IE)]><!--><script src="//cdn.shopify.com/s/files/1/1637/5537/t/1/assets/theme.js?219" defer="defer"></script><!--<![endif]-->
+  <!--[if lte IE 9]><script src="//cdn.shopify.com/s/files/1/1637/5537/t/1/assets/theme.js?219"></script><![endif]-->
+
+  <script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script><meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/16375537/digital_wallets/dialog">
+<meta name="shopify-checkout-api-token" content="c4beeb65b64d6afe064f8e876e9cfe85">
+<meta id="amazon-payments-metadata" data-amazon-payments="true" data-amazon-payments-seller-id="A3UMD4B4XKFP9G" data-amazon-payments-callback-url="https://rrpdx.com/16375537/amazon_payments/callback" data-amazon-payments-sandbox-mode="false" data-amazon-payments-client-id="amzn1.application-oa2-client.f741adcd985749e3a650054d40c2df64" data-amazon-payments-region="US" data-amazon-payments-language="en-US" data-amazon-payments-widget-library-url="https://static-na.payments-amazon.com/OffAmazonPayments/us/js/Widgets.js">
+<style media="all">.additional-checkout-button{border:0 !important;border-radius:5px !important;display:inline-block;margin:0 0 10px;padding:0 24px !important;max-width:100%;min-width:150px !important;line-height:44px !important;text-align:center !important}.additional-checkout-button+.additional-checkout-button{margin-left:10px}.additional-checkout-button:last-child{margin-bottom:0}.additional-checkout-button span{font-size:14px !important}.additional-checkout-button img{display:inline-block !important;height:1.3em !important;margin:0 !important;vertical-align:middle !important;width:auto !important}@media (max-width: 500px){.additional-checkout-button{display:block;margin-left:0 !important;padding:0 10px !important;width:100%}}.additional-checkout-button--apple-pay{background-color:#000 !important;color:#fff !important;display:none;font-family:-apple-system, Helvetica Neue, sans-serif !important;min-width:150px !important;white-space:nowrap !important}.additional-checkout-button--apple-pay:hover,.additional-checkout-button--apple-pay:active,.additional-checkout-button--apple-pay:visited{color:#fff !important;text-decoration:none !important}.additional-checkout-button--apple-pay .additional-checkout-button__logo{background:-webkit-named-image(apple-pay-logo-white) center center no-repeat !important;background-size:auto 100% !important;display:inline-block !important;vertical-align:middle !important;width:3em !important;height:1.3em !important}@media (max-width: 500px){.additional-checkout-button--apple-pay{display:none}}.additional-checkout-button--google-pay{line-height:0 !important;padding:0 !important;border-radius:unset !important;width:80px !important}@media (max-width: 500px){.additional-checkout-button--google-pay{width:100% !important}}.gpay-iframe{height:44px !important;width:100%  !important;cursor:pointer;vertical-align:middle !important}.additional-checkout-button--paypal-express{background-color:#ffc439 !important}.additional-checkout-button--paypal,.additional-checkout-button--venmo{vertical-align:top;line-height:0 !important;padding:0 !important}.additional-checkout-button--amazon{background-color:#fad676 !important;position:relative !important}.additional-checkout-button--amazon .additional-checkout-button__logo{-webkit-transform:translateY(4px) !important;transform:translateY(4px) !important}.additional-checkout-button--amazon .alt-payment-list-amazon-button-image{max-height:none !important;opacity:0 !important;position:absolute !important;top:0 !important;left:0 !important;width:100% !important;height:100% !important}.additional-checkout-button-visually-hidden{border:0 !important;clip:rect(0, 0, 0, 0) !important;clip:rect(0 0 0 0) !important;width:1px !important;height:1px !important;margin:-2px !important;overflow:hidden !important;padding:0 !important;position:absolute !important}
+</style>
+<script id="apple-pay-shop-capabilities" type="application/json">{"shopId":16375537,"countryCode":"US","currencyCode":"USD","merchantCapabilities":["supports3DS"],"merchantId":"gid:\/\/shopify\/Shop\/16375537","merchantName":"Ristretto Roasters Coffee","requiredBillingContactFields":["postalAddress","email"],"requiredShippingContactFields":["postalAddress","email"],"shippingType":"shipping","supportedNetworks":["visa","masterCard","amex","discover"],"total":{"type":"pending","label":"Ristretto Roasters Coffee","amount":"1.00"}}</script>
+<script id="shopify-features" type="application/json">{"accessToken":"c4beeb65b64d6afe064f8e876e9cfe85","betas":[],"domain":"rrpdx.com","predictiveSearch":true,"shopId":16375537,"smart_payment_buttons_url":"https:\/\/cdn.shopifycloud.com\/payment-sheet\/assets\/latest\/spb.en.js","dynamic_checkout_cart_url":"https:\/\/cdn.shopifycloud.com\/payment-sheet\/assets\/latest\/dynamic-checkout-cart.en.js"}</script>
+<script>var Shopify = Shopify || {};
+Shopify.shop = "ristretto-roasters.myshopify.com";
+Shopify.currency = {"active":"USD","rate":"1.0"};
+Shopify.theme = {"name":"debut","id":129276097,"theme_store_id":796,"role":"main"};
+Shopify.theme.handle = "null";
+Shopify.theme.style = {"id":null,"handle":null};</script>
+<script>window.ShopifyPay = window.ShopifyPay || {};
+window.ShopifyPay.apiHost = "pay.shopify.com";</script>
+<script>(function() {
+  function asyncLoad() {
+    var urls = ["\/\/productreviews.shopifycdn.com\/assets\/v4\/spr.js?shop=ristretto-roasters.myshopify.com","https:\/\/instafeed.nfcube.com\/cdn\/78c26ebd98e56b133f73cececdd98251.js?shop=ristretto-roasters.myshopify.com","https:\/\/call.chatra.io\/shopify?chatraId=S33d6xLkZ8SpWTfuv\u0026shop=ristretto-roasters.myshopify.com","https:\/\/chimpstatic.com\/mcjs-connected\/js\/users\/e058e8f395f464085171d1f31\/16f68a9ab83ce20d130bd101c.js?shop=ristretto-roasters.myshopify.com"];
+    for (var i = 0; i < urls.length; i++) {
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = urls[i];
+      var x = document.getElementsByTagName('script')[0];
+      x.parentNode.insertBefore(s, x);
+    }
+  };
+  if(window.attachEvent) {
+    window.attachEvent('onload', asyncLoad);
+  } else {
+    window.addEventListener('load', asyncLoad, false);
+  }
+})();</script>
+<script id="__st">var __st={"a":16375537,"offset":-25200,"reqid":"f7bd051e-9bad-45f6-9b1d-590bd77bd9ab","pageurl":"rrpdx.com\/","u":"694a6b015d0c","p":"home"};</script>
+<script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
+<script>window.Shopify = window.Shopify || {};
+window.Shopify.Checkout = window.Shopify.Checkout || {};
+window.Shopify.Checkout.apiHost = "ristretto-roasters.myshopify.com";</script>
+<script>window.ShopifyAnalytics = window.ShopifyAnalytics || {};
+window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
+window.ShopifyAnalytics.meta.currency = 'USD';
+var meta = {"page":{"pageType":"home"}};
+for (var attr in meta) {
+  window.ShopifyAnalytics.meta[attr] = meta[attr];
+}</script>
+<script>window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
+  
+};
+</script>
+<script class="analytics">(window.gaDevIds=window.gaDevIds||[]).push('BwiEti');
+
+
+(function () {
+  var customDocumentWrite = function(content) {
+    var jquery = null;
+
+    if (window.jQuery) {
+      jquery = window.jQuery;
+    } else if (window.Checkout && window.Checkout.$) {
+      jquery = window.Checkout.$;
+    }
+
+    if (jquery) {
+      jquery('body').append(content);
+    }
+  };
+
+  var isDuplicatedThankYouPageView = function() {
+    return document.cookie.indexOf('loggedConversion=' + window.location.pathname) !== -1;
+  }
+
+  var setCookieIfThankYouPage = function() {
+    if (window.location.pathname.indexOf('/checkouts') !== -1 &&
+        window.location.pathname.indexOf('/thank_you') !== -1) {
+
+      var twoMonthsFromNow = new Date(Date.now());
+      twoMonthsFromNow.setMonth(twoMonthsFromNow.getMonth() + 2);
+
+      document.cookie = 'loggedConversion=' + window.location.pathname + '; expires=' + twoMonthsFromNow;
+    }
+  }
+
+  var trekkie = window.ShopifyAnalytics.lib = window.trekkie = window.trekkie || [];
+  if (trekkie.integrations) {
+    return;
+  }
+  trekkie.methods = [
+    'identify',
+    'page',
+    'ready',
+    'track',
+    'trackForm',
+    'trackLink'
+  ];
+  trekkie.factory = function(method) {
+    return function() {
+      var args = Array.prototype.slice.call(arguments);
+      args.unshift(method);
+      trekkie.push(args);
+      return trekkie;
+    };
+  };
+  for (var i = 0; i < trekkie.methods.length; i++) {
+    var key = trekkie.methods[i];
+    trekkie[key] = trekkie.factory(key);
+  }
+  trekkie.load = function(config) {
+    trekkie.config = config;
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.onerror = function(e) {
+      (new Image()).src = '//v.shopify.com/internal_errors/track?error=trekkie_load';
+    };
+    script.async = true;
+    script.src = 'https://cdn.shopify.com/s/javascripts/tricorder/trekkie.storefront.min.js?v=2017.09.05.1';
+    var first = document.getElementsByTagName('script')[0];
+    first.parentNode.insertBefore(script, first);
+  };
+  trekkie.load(
+    {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":16375537,"isMerchantRequest":null,"themeId":129276097,"themeCityHash":2261514004843224509,"contentLanguage":"en"}},"Performance":{"navigationTimingApiMeasurementsEnabled":true,"navigationTimingApiMeasurementsSampleRate":0.01},"StorefrontPerformance":{"navigationTimingApiMeasurementsEnabled":true,"navigationTimingApiMeasurementsSampleRate":0.01},"Google Analytics":{"trackingId":"UA-87595911-2","domain":"auto","siteSpeedSampleRate":"10","enhancedEcommerce":true,"doubleClick":true,"includeSearch":true},"Facebook Pixel":{"pixelIds":["241300016315730"],"agent":"plshopify1.2"},"Session Attribution":{}}
+  );
+
+  var loaded = false;
+  trekkie.ready(function() {
+    if (loaded) return;
+    loaded = true;
+
+    window.ShopifyAnalytics.lib = window.trekkie;
+    
+      ga('require', 'linker');
+      function addListener(element, type, callback) {
+        if (element.addEventListener) {
+          element.addEventListener(type, callback);
+        }
+        else if (element.attachEvent) {
+          element.attachEvent('on' + type, callback);
+        }
+      }
+      function decorate(event) {
+        event = event || window.event;
+        var target = event.target || event.srcElement;
+        if (target && (target.getAttribute('action') || target.getAttribute('href'))) {
+          ga(function (tracker) {
+            var linkerParam = tracker.get('linkerParam');
+            document.cookie = '_shopify_ga=' + linkerParam + '; ' + 'path=/';
+          });
+        }
+      }
+      addListener(window, 'load', function(){
+        for (var i=0; i < document.forms.length; i++) {
+          var action = document.forms[i].getAttribute('action');
+          if(action && action.indexOf('/cart') >= 0) {
+            addListener(document.forms[i], 'submit', decorate);
+          }
+        }
+        for (var i=0; i < document.links.length; i++) {
+          var href = document.links[i].getAttribute('href');
+          if(href && href.indexOf('/checkout') >= 0) {
+            addListener(document.links[i], 'click', decorate);
+          }
+        }
+      });
+    
+
+    var originalDocumentWrite = document.write;
+    document.write = customDocumentWrite;
+    try { window.ShopifyAnalytics.merchantGoogleAnalytics.call(this); } catch(error) {};
+    document.write = originalDocumentWrite;
+
+    if (!isDuplicatedThankYouPageView()) {
+      setCookieIfThankYouPage();
+      
+        window.ShopifyAnalytics.lib.page(
+          null,
+          {"pageType":"home"}
+        );
+      
+      
+    }
+  });
+
+  
+      var eventsListenerScript = document.createElement('script');
+      eventsListenerScript.async = true;
+      eventsListenerScript.src = "//cdn.shopify.com/s/assets/shop_events_listener-acf771159f9849ef6e5265782c99efe8b99406214c96a4373224ecafe285d7bb.js";
+      document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
+    
+})();</script>
+<script crossorigin="anonymous" defer="defer" src="//cdn.shopify.com/s/assets/shopify_pay/storefront-8ddbd55cc19e1ebbff92d676e1481c8e6b42e0c2714d3fdf6b810b1f193347b8.js?v=20190107"></script>
+<script integrity="sha256-ZGMHgi9G7WU+Z7WiP2suSn84yzoN83sGf9nMWJhVHAw=" defer="defer" src="//cdn.shopify.com/s/assets/storefront/express_buttons-646307822f46ed653e67b5a23f6b2e4a7f38cb3a0df37b067fd9cc5898551c0c.js" crossorigin="anonymous"></script>
+<script integrity="sha256-qzPTa4Ven/Yc2yyXr9BKZWCTXSrPTCnbGdWsxA7YCw0=" defer="defer" src="//cdn.shopify.com/s/assets/storefront/features-ab33d36b855e9ff61cdb2c97afd04a6560935d2acf4c29db19d5acc40ed80b0d.js" crossorigin="anonymous"></script>
+<script defer="defer" src="//cdn.shopify.com/s/assets/themes_support/ga_urchin_forms-99e991855b3d8ddc69e625c68ab0579dd9927b611c2ec4943d396c72e3af0849.js"></script>
+
+
+<style id="shopify-dynamic-checkout-cart">@media screen and (min-width: 750px) {
+  #dynamic-checkout-cart {
+    min-height: 50px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #dynamic-checkout-cart {
+    min-height: 120px;
+  }
+}
+</style>
+<script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
+ <meta name="google-site-verification" content="FOu2hjoy2-tS2VVECs5F-X1a_17Rtgi4TcR57fTes9M" />
+<script type="application/ld+json">
+{ "@context" : "http://schema.org", "@type" : "Organization", "name" : "Ristretto Roasters", "url" : "https://www.rrpdx.com", "sameAs" : [ "https://www.facebook.com/ristrettoroasters", "https://twitter.com/ristrettoroast", "https://instagram.com/rrpdx" ] }
+</script>  
+  
+</head>
+
+<body class="template-index">
+
+  <a class="in-page-link visually-hidden skip-link" href="#MainContent">Skip to content</a>
+
+  <div id="SearchDrawer" class="search-bar drawer drawer--top">
+    <div class="search-bar__table">
+      <div class="search-bar__table-cell search-bar__form-wrapper">
+        <form class="search search-bar__form" action="/search" method="get" role="search">
+          <button class="search-bar__submit search__submit btn--link" type="submit">
+            <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-search" viewBox="0 0 37 40"><path d="M35.6 36l-9.8-9.8c4.1-5.4 3.6-13.2-1.3-18.1-5.4-5.4-14.2-5.4-19.7 0-5.4 5.4-5.4 14.2 0 19.7 2.6 2.6 6.1 4.1 9.8 4.1 3 0 5.9-1 8.3-2.8l9.8 9.8c.4.4.9.6 1.4.6s1-.2 1.4-.6c.9-.9.9-2.1.1-2.9zm-20.9-8.2c-2.6 0-5.1-1-7-2.9-3.9-3.9-3.9-10.1 0-14C9.6 9 12.2 8 14.7 8s5.1 1 7 2.9c3.9 3.9 3.9 10.1 0 14-1.9 1.9-4.4 2.9-7 2.9z"/></svg>
+            <span class="icon__fallback-text">Submit</span>
+          </button>
+          <input class="search__input search-bar__input" type="search" name="q" value="" placeholder="Search" aria-label="Search">
+        </form>
+      </div>
+      <div class="search-bar__table-cell text-right">
+        <button type="button" class="btn--link search-bar__close js-drawer-close">
+          <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 37 40"><path d="M21.3 23l11-11c.8-.8.8-2 0-2.8-.8-.8-2-.8-2.8 0l-11 11-11-11c-.8-.8-2-.8-2.8 0-.8.8-.8 2 0 2.8l11 11-11 11c-.8.8-.8 2 0 2.8.4.4.9.6 1.4.6s1-.2 1.4-.6l11-11 11 11c.4.4.9.6 1.4.6s1-.2 1.4-.6c.8-.8.8-2 0-2.8l-11-11z"/></svg>
+          <span class="icon__fallback-text">Close search</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div id="shopify-section-header" class="shopify-section">
+  <style>
+    .notification-bar {
+      background-color: #ff9900;
+    }
+
+    .notification-bar__message {
+      color: #ffffff;
+    }
+  </style>
+
+
+<div data-section-id="header" data-section-type="header-section" >
+  <nav class="mobile-nav-wrapper medium-up--hide" role="navigation">
+    <ul id="MobileNav" class="mobile-nav">
+      
+<li class="mobile-nav__item border-bottom">
+          
+            <a href="/pages/locally-roasted" class="mobile-nav__link">
+              About
+            </a>
+          
+        </li>
+      
+<li class="mobile-nav__item border-bottom">
+          
+            <button type="button" class="btn--link js-toggle-submenu mobile-nav__link" data-target="shop" data-level="1">
+              Shop
+              <div class="mobile-nav__icon">
+                <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-chevron-right" viewBox="0 0 284.49 498.98"><defs><style>.cls-1{fill:#231f20}</style></defs><path class="cls-1" d="M223.18 628.49a35 35 0 0 1-24.75-59.75L388.17 379 198.43 189.26a35 35 0 0 1 49.5-49.5l214.49 214.49a35 35 0 0 1 0 49.5L247.93 618.24a34.89 34.89 0 0 1-24.75 10.25z" transform="translate(-188.18 -129.51)"/></svg>
+                <span class="icon__fallback-text">expand</span>
+              </div>
+            </button>
+            <ul class="mobile-nav__dropdown" data-parent="shop" data-level="2">
+              <li class="mobile-nav__item border-bottom">
+                <div class="mobile-nav__table">
+                  <div class="mobile-nav__table-cell mobile-nav__return">
+                    <button class="btn--link js-toggle-submenu mobile-nav__return-btn" type="button">
+                      <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-chevron-left" viewBox="0 0 284.49 498.98"><defs><style>.cls-1{fill:#231f20}</style></defs><path class="cls-1" d="M437.67 129.51a35 35 0 0 1 24.75 59.75L272.67 379l189.75 189.74a35 35 0 1 1-49.5 49.5L198.43 403.75a35 35 0 0 1 0-49.5l214.49-214.49a34.89 34.89 0 0 1 24.75-10.25z" transform="translate(-188.18 -129.51)"/></svg>
+                      <span class="icon__fallback-text">collapse</span>
+                    </button>
+                  </div>
+                  <a href="/collections/coffee" class="mobile-nav__sublist-link mobile-nav__sublist-header">
+                    Shop
+                  </a>
+                </div>
+              </li>
+
+              
+                <li class="mobile-nav__item border-bottom">
+                  <a href="/collections/coffee" class="mobile-nav__sublist-link">
+                    Coffee
+                  </a>
+                </li>
+              
+                <li class="mobile-nav__item border-bottom">
+                  <a href="/collections/tea" class="mobile-nav__sublist-link">
+                    Tea
+                  </a>
+                </li>
+              
+                <li class="mobile-nav__item border-bottom">
+                  <a href="/collections/subscriptions" class="mobile-nav__sublist-link">
+                    Subscriptions
+                  </a>
+                </li>
+              
+                <li class="mobile-nav__item border-bottom">
+                  <a href="/collections/merchandize" class="mobile-nav__sublist-link">
+                    Merchandise
+                  </a>
+                </li>
+              
+                <li class="mobile-nav__item border-bottom">
+                  <a href="/collections/equipment" class="mobile-nav__sublist-link">
+                    Equipment
+                  </a>
+                </li>
+              
+                <li class="mobile-nav__item">
+                  <a href="/collections/gift-cards" class="mobile-nav__sublist-link">
+                    Gift Cards
+                  </a>
+                </li>
+              
+
+            </ul>
+          
+        </li>
+      
+<li class="mobile-nav__item border-bottom">
+          
+            <a href="/blogs/locations" class="mobile-nav__link">
+              Locations
+            </a>
+          
+        </li>
+      
+<li class="mobile-nav__item border-bottom">
+          
+            <a href="/pages/wholesale" class="mobile-nav__link">
+              Wholesale
+            </a>
+          
+        </li>
+      
+<li class="mobile-nav__item border-bottom">
+          
+            <a href="/pages/catering" class="mobile-nav__link">
+              Catering
+            </a>
+          
+        </li>
+      
+<li class="mobile-nav__item border-bottom">
+          
+            <a href="/pages/contact" class="mobile-nav__link">
+              Contact
+            </a>
+          
+        </li>
+      
+<li class="mobile-nav__item">
+          
+            <a href="/blogs/news" class="mobile-nav__link">
+              News
+            </a>
+          
+        </li>
+      
+    </ul>
+  </nav>
+
+  
+    <div class="notification-bar">
+      
+        
+          <span class="notification-bar__message">Free domestic shipping on orders over $65</span>
+        
+      
+    </div>
+  
+
+  <header class="site-header border-bottom logo--left" role="banner">
+    <div class="grid grid--no-gutters grid--table">
+      
+
+      
+
+      <div class="grid__item small--one-half medium-up--two-tenths logo-align--left">
+        
+        
+          <h1 class="h2 site-header__logo" itemscope itemtype="http://schema.org/Organization">
+        
+          
+            <a href="/" itemprop="url" class="site-header__logo-image">
+              
+              <img src="//cdn.shopify.com/s/files/1/1637/5537/files/Seal-Wordmark-white_250x.png?v=1484719705"
+                   srcset="//cdn.shopify.com/s/files/1/1637/5537/files/Seal-Wordmark-white_250x.png?v=1484719705 1x, //cdn.shopify.com/s/files/1/1637/5537/files/Seal-Wordmark-white_250x@2x.png?v=1484719705 2x"
+                   alt="Ristretto Roasters Coffee"
+                   itemprop="logo">
+            </a>
+          
+        
+          </h1>
+        
+      </div>
+
+      
+        <nav class="grid__item medium-up--six-tenths small--hide" id="AccessibleNav" role="navigation">
+          <ul class="site-nav list--inline " id="SiteNav">
+  
+
+      <li >
+        <a href="/pages/locally-roasted" class="site-nav__link site-nav__link--main">About</a>
+      </li>
+    
+  
+
+      <li class="site-nav--has-dropdown">
+        <a href="/collections/coffee" class="site-nav__link site-nav__link--main" aria-has-popup="true" aria-expanded="false" aria-controls="SiteNavLabel-shop">
+          Shop
+          <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon--wide icon-chevron-down" viewBox="0 0 498.98 284.49"><defs><style>.cls-1{fill:#231f20}</style></defs><path class="cls-1" d="M80.93 271.76A35 35 0 0 1 140.68 247l189.74 189.75L520.16 247a35 35 0 1 1 49.5 49.5L355.17 511a35 35 0 0 1-49.5 0L91.18 296.5a34.89 34.89 0 0 1-10.25-24.74z" transform="translate(-80.93 -236.76)"/></svg>
+          <span class="visually-hidden">expand</span>
+        </a>
+
+        <div class="site-nav__dropdown" id="SiteNavLabel-shop">
+          <ul>
+            
+              <li >
+                <a href="/collections/coffee" class="site-nav__link site-nav__child-link">Coffee</a>
+              </li>
+            
+              <li >
+                <a href="/collections/tea" class="site-nav__link site-nav__child-link">Tea</a>
+              </li>
+            
+              <li >
+                <a href="/collections/subscriptions" class="site-nav__link site-nav__child-link">Subscriptions</a>
+              </li>
+            
+              <li >
+                <a href="/collections/merchandize" class="site-nav__link site-nav__child-link">Merchandise</a>
+              </li>
+            
+              <li >
+                <a href="/collections/equipment" class="site-nav__link site-nav__child-link">Equipment</a>
+              </li>
+            
+              <li >
+                <a href="/collections/gift-cards" class="site-nav__link site-nav__child-link site-nav__link--last">Gift Cards</a>
+              </li>
+            
+          </ul>
+        </div>
+      </li>
+    
+  
+
+      <li >
+        <a href="/blogs/locations" class="site-nav__link site-nav__link--main">Locations</a>
+      </li>
+    
+  
+
+      <li >
+        <a href="/pages/wholesale" class="site-nav__link site-nav__link--main">Wholesale</a>
+      </li>
+    
+  
+
+      <li >
+        <a href="/pages/catering" class="site-nav__link site-nav__link--main">Catering</a>
+      </li>
+    
+  
+
+      <li >
+        <a href="/pages/contact" class="site-nav__link site-nav__link--main">Contact</a>
+      </li>
+    
+  
+
+      <li >
+        <a href="/blogs/news" class="site-nav__link site-nav__link--main">News</a>
+      </li>
+    
+  
+</ul>
+
+        </nav>
+      
+
+      <div class="grid__item small--one-half medium-up--two-tenths text-right site-header__icons site-header__icons--plus">
+        
+          
+          
+            
+              <a href="/account/login" class="site-header__account">
+                <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-login" viewBox="0 0 28.33 37.68"><path d="M14.17 14.9a7.45 7.45 0 1 0-7.5-7.45 7.46 7.46 0 0 0 7.5 7.45zm0-10.91a3.45 3.45 0 1 1-3.5 3.46A3.46 3.46 0 0 1 14.17 4zM14.17 16.47A14.18 14.18 0 0 0 0 30.68c0 1.41.66 4 5.11 5.66a27.17 27.17 0 0 0 9.06 1.34c6.54 0 14.17-1.84 14.17-7a14.18 14.18 0 0 0-14.17-14.21zm0 17.21c-6.3 0-10.17-1.77-10.17-3a10.17 10.17 0 1 1 20.33 0c.01 1.23-3.86 3-10.16 3z"/></svg>
+                <span class="icon__fallback-text">Log in</span>
+              </a>
+            
+          
+
+          <a href="/cart" class="site-header__cart">
+            <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-cart" viewBox="0 0 37 40"><path d="M36.5 34.8L33.3 8h-5.9C26.7 3.9 23 .8 18.5.8S10.3 3.9 9.6 8H3.7L.5 34.8c-.2 1.5.4 2.4.9 3 .5.5 1.4 1.2 3.1 1.2h28c1.3 0 2.4-.4 3.1-1.3.7-.7 1-1.8.9-2.9zm-18-30c2.2 0 4.1 1.4 4.7 3.2h-9.5c.7-1.9 2.6-3.2 4.8-3.2zM4.5 35l2.8-23h2.2v3c0 1.1.9 2 2 2s2-.9 2-2v-3h10v3c0 1.1.9 2 2 2s2-.9 2-2v-3h2.2l2.8 23h-28z"/></svg>
+            <span class="visually-hidden">Cart</span>
+            <span class="icon__fallback-text">Cart</span>
+				
+              <div id="CartCount" class="site-header__cart-count">
+                <span>0</span>
+                <span class="icon__fallback-text medium-up--hide">items</span>
+              </div>
+            
+          </a>
+
+          
+            <button type="button" class="btn--link site-header__menu js-mobile-nav-toggle mobile-nav--open">
+              <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-hamburger" viewBox="0 0 37 40"><path d="M33.5 25h-30c-1.1 0-2-.9-2-2s.9-2 2-2h30c1.1 0 2 .9 2 2s-.9 2-2 2zm0-11.5h-30c-1.1 0-2-.9-2-2s.9-2 2-2h30c1.1 0 2 .9 2 2s-.9 2-2 2zm0 23h-30c-1.1 0-2-.9-2-2s.9-2 2-2h30c1.1 0 2 .9 2 2s-.9 2-2 2z"/></svg>
+              <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 37 40"><path d="M21.3 23l11-11c.8-.8.8-2 0-2.8-.8-.8-2-.8-2.8 0l-11 11-11-11c-.8-.8-2-.8-2.8 0-.8.8-.8 2 0 2.8l11 11-11 11c-.8.8-.8 2 0 2.8.4.4.9.6 1.4.6s1-.2 1.4-.6l11-11 11 11c.4.4.9.6 1.4.6s1-.2 1.4-.6c.8-.8.8-2 0-2.8l-11-11z"/></svg>
+              <span class="icon__fallback-text">expand/collapse</span>
+            </button>
+          
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  
+  <style>
+    
+      .site-header__logo-image {
+        max-width: 250px;
+      }
+    
+
+    
+      .site-header__logo-image {
+        margin: 0;
+      }
+    
+  </style>
+</div>
+
+
+</div>
+
+  <div class="page-container" id="PageContainer">
+
+    <main class="main-content" id="MainContent" role="main">
+      
+      
+      <!-- BEGIN content_for_index --><div id="shopify-section-1486361374254" class="shopify-section index-section index-section--flush">
+  <style>
+    .hero--1486361374254 {
+      background-position: center;
+    }
+
+    @media screen and (max-width: 150px) {
+      .hero--1486361374254 {
+        background-image: url('//cdn.shopify.com/s/files/1/1637/5537/files/28830820_1_150x150.jpg?v=1552021304');
+      }
+    }
+
+    @media screen and (min-width: 151px) and (max-width: 300px) {
+      .hero--1486361374254 {
+        background-image: url('//cdn.shopify.com/s/files/1/1637/5537/files/28830820_1_300x300.jpg?v=1552021304');
+      }
+    }
+
+    @media screen and (min-width: 301px) and (max-width: 600px) {
+      .hero--1486361374254 {
+        background-image: url('//cdn.shopify.com/s/files/1/1637/5537/files/28830820_1_600x600.jpg?v=1552021304');
+      }
+    }
+
+    @media screen and (min-width: 601px) and (max-width: 800px) {
+      .hero--1486361374254 {
+        background-image: url('//cdn.shopify.com/s/files/1/1637/5537/files/28830820_1_800x800.jpg?v=1552021304');
+      }
+    }
+
+    @media screen and (min-width: 801px) and (max-width: 1000px) {
+      .hero--1486361374254 {
+        background-image: url('//cdn.shopify.com/s/files/1/1637/5537/files/28830820_1_1000x1000.jpg?v=1552021304');
+      }
+    }
+
+    @media screen and (min-width: 1001px) {
+      .hero--1486361374254 {
+        background-image: url('//cdn.shopify.com/s/files/1/1637/5537/files/28830820_1_2000x2000.jpg?v=1552021304');
+      }
+    }
+  </style>
+
+
+<div class="hero hero--1486361374254 hero--large hero__overlay">
+  
+  <div class="hero__inner">
+    <div class="page-width text-center">
+      
+        <h2 class="h1 mega-title mega-title--large">Midnight Cowboy</h2>
+      
+      
+        <div class="rte-setting mega-subtitle mega-subtitle--large"><p>A deliciously dark blend</p></div>
+      
+      
+        <a href="/products/midnight-cowboy-blend" class="btn hero__btn">
+          place your order
+        </a>
+      
+    </div>
+  </div>
+</div>
+
+
+</div><div id="shopify-section-featured-collections" class="shopify-section index-section"><div class="page-width">
+  
+    <div class="section-header text-center">
+      <h2>Customer Favorites!</h2>
+    </div>
+  
+
+<div class="grid grid--uniform grid--view-items">
+    
+      <div class="grid__item medium-up--one-half">
+        
+  
+
+<div class="grid-view-item">
+  <a class="grid-view-item__link" href="/collections/customer-favorites/products/nightfall-blend">
+    
+    <img class="grid-view-item__image" src="//cdn.shopify.com/s/files/1/1637/5537/products/Nightfall-Blend-12oz_dbb759c3-084c-4098-8edf-df490eb70fe7_540x600.jpg?v=1553701069" alt="Nightfall Blend">
+          
+     
+          
+    <div class="grid-view-item__vendor">Ristretto Roasters</div>
+            
+
+    <div class="h4 grid-view-item__title">Nightfall Blend</div>
+            <meta itemprop="name" content="Nightfall Blend">
+   
+
+    <div class="grid-view-item__meta">
+      <!--<span class="shopify-product-reviews-badge" data-id="1760874659929"></span>-->
+      <!-- snippet/product-price.liquid -->
+
+
+
+
+
+
+  
+    <span class="visually-hidden">Regular price</span>
+    <span class="product__price">$14.00
+</span>
+  
+
+
+
+
+      
+    </div>
+    
+    
+     <form method="post" action="/cart/add" data-productid="1760874659929"  style="text-align:center;"> 
+    <input type="hidden" name="id" data-productid="1760874659929" value="16663012343897" />
+    <input type="submit" value="Add to Cart" class="btn--small" />
+  </form> 
+    
+  </a>
+  
+</div>
+ 
+
+      </div>
+    
+      <div class="grid__item medium-up--one-half">
+        
+  
+
+<div class="grid-view-item">
+  <a class="grid-view-item__link" href="/collections/customer-favorites/products/beaumont-blend">
+    
+    <img class="grid-view-item__image" src="//cdn.shopify.com/s/files/1/1637/5537/products/Beaumont_Blend_12oz_540x600.jpg?v=1510701182" alt="Beaumont Blend">
+          
+     
+          
+    <div class="grid-view-item__vendor">Ristretto Roasters</div>
+            
+
+    <div class="h4 grid-view-item__title">Beaumont Blend</div>
+            <meta itemprop="name" content="Beaumont Blend">
+   
+
+    <div class="grid-view-item__meta">
+      <!--<span class="shopify-product-reviews-badge" data-id="8501055809"></span>-->
+      <!-- snippet/product-price.liquid -->
+
+
+
+
+
+
+  
+    <span class="visually-hidden">Regular price</span>
+    <span class="product__price">$14.00
+</span>
+  
+
+
+
+
+      
+    </div>
+    
+    
+     <form method="post" action="/cart/add" data-productid="8501055809"  style="text-align:center;"> 
+    <input type="hidden" name="id" data-productid="8501055809" value="28701469185" />
+    <input type="submit" value="Add to Cart" class="btn--small" />
+  </form> 
+    
+  </a>
+  
+</div>
+ 
+
+      </div>
+    
+  </div>
+
+  
+
+</div>
+
+
+</div><div id="shopify-section-1486052324601" class="shopify-section index-section index-section--flush">
+  <style>
+    .hero--1486052324601 {
+      background-position: center;
+    }
+
+    @media screen and (max-width: 150px) {
+      .hero--1486052324601 {
+        background-image: url('//cdn.shopify.com/s/files/1/1637/5537/files/Screen_Shot_2017-02-02_at_9.15.17_AM_150x150.png?v=1486055738');
+      }
+    }
+
+    @media screen and (min-width: 151px) and (max-width: 300px) {
+      .hero--1486052324601 {
+        background-image: url('//cdn.shopify.com/s/files/1/1637/5537/files/Screen_Shot_2017-02-02_at_9.15.17_AM_300x300.png?v=1486055738');
+      }
+    }
+
+    @media screen and (min-width: 301px) and (max-width: 600px) {
+      .hero--1486052324601 {
+        background-image: url('//cdn.shopify.com/s/files/1/1637/5537/files/Screen_Shot_2017-02-02_at_9.15.17_AM_600x600.png?v=1486055738');
+      }
+    }
+
+    @media screen and (min-width: 601px) and (max-width: 800px) {
+      .hero--1486052324601 {
+        background-image: url('//cdn.shopify.com/s/files/1/1637/5537/files/Screen_Shot_2017-02-02_at_9.15.17_AM_800x800.png?v=1486055738');
+      }
+    }
+
+    @media screen and (min-width: 801px) and (max-width: 1000px) {
+      .hero--1486052324601 {
+        background-image: url('//cdn.shopify.com/s/files/1/1637/5537/files/Screen_Shot_2017-02-02_at_9.15.17_AM_1000x1000.png?v=1486055738');
+      }
+    }
+
+    @media screen and (min-width: 1001px) {
+      .hero--1486052324601 {
+        background-image: url('//cdn.shopify.com/s/files/1/1637/5537/files/Screen_Shot_2017-02-02_at_9.15.17_AM_2000x2000.png?v=1486055738');
+      }
+    }
+  </style>
+
+
+<div class="hero hero--1486052324601 hero--medium hero__overlay">
+  
+  <div class="hero__inner">
+    <div class="page-width text-center">
+      
+      
+      
+        <a href="/blogs/locations" class="btn hero__btn">
+          SEE OUR LOCATIONS
+        </a>
+      
+    </div>
+  </div>
+</div>
+
+
+</div><div id="shopify-section-1486052392750" class="shopify-section index-section"><div class="page-width">
+  
+    <div class="section-header text-center">
+      <h2>More from Ristretto Roasters</h2>
+    </div>
+  
+
+  <div class="grid grid--uniform grid--flush-bottom">
+    
+      
+      <div class="grid__item medium-up--one-half text-center" >
+        
+          
+            <p>
+              <img src="//cdn.shopify.com/s/files/1/1637/5537/files/Williams-Cafe-27_grande.jpg?v=1493404978" alt="Ristretto Roasters Williams Cafe" />
+            </p>
+          
+        
+        
+          <h3 class="h4">Latest News & Happenings</h3>
+        
+        
+        
+          <a href="/blogs/news" class="btn btn--secondary btn--small">
+            visit our blog
+          </a>
+        
+      </div>
+    
+      
+      <div class="grid__item medium-up--one-half text-center" >
+        
+          
+            <p>
+              <img src="//cdn.shopify.com/s/files/1/1637/5537/files/Roastery-33_2437fc24-c00b-4d08-9903-7ed601651127_grande.jpg?v=1491586085" alt="Ristretto Roasters Facilitiy" />
+            </p>
+          
+        
+        
+          <h3 class="h4">Locally Roasted Coffee</h3>
+        
+        
+        
+          <a href="/pages/locally-roasted" class="btn btn--secondary btn--small">
+            Learn about us
+          </a>
+        
+      </div>
+    
+  </div>
+
+  
+</div>
+
+
+</div><!-- END content_for_index -->
+
+      
+
+      
+      
+    </main>
+
+    <div id="shopify-section-footer" class="shopify-section">
+
+<footer class="site-footer" role="contentinfo">
+  <div class="page-width">
+    <div class="grid grid--no-gutters">
+      <div class="grid__item medium-up--one-quarter">
+          <ul class="site-footer__linklist">
+            
+              <li class="site-footer__linklist-item">
+                <a href="/pages/locally-roasted">About</a>
+              </li>
+            
+              <li class="site-footer__linklist-item">
+                <a href="/collections/coffee">Shop</a>
+              </li>
+            
+              <li class="site-footer__linklist-item">
+                <a href="/blogs/locations">Locations</a>
+              </li>
+            
+              <li class="site-footer__linklist-item">
+                <a href="/pages/wholesale">Wholesale</a>
+              </li>
+            
+              <li class="site-footer__linklist-item">
+                <a href="/pages/catering">Catering</a>
+              </li>
+            
+              <li class="site-footer__linklist-item">
+                <a href="/pages/contact">Contact</a>
+              </li>
+            
+              <li class="site-footer__linklist-item">
+                <a href="/blogs/news">News</a>
+              </li>
+            
+          </ul>
+        
+      </div>
+
+      <div class="grid__item medium-up--one-quarter">
+          <ul class="site-footer__linklist">
+            
+              <li class="site-footer__linklist-item">
+                <a href="/account">Account</a>
+              </li>
+            
+              <li class="site-footer__linklist-item">
+                <a href="/pages/privacy">Privacy</a>
+              </li>
+            
+              <li class="site-footer__linklist-item">
+                <a href="/blogs/jobs">Jobs</a>
+              </li>
+            
+          </ul>
+        
+      </div>
+
+      
+        <div class="grid__item medium-up--one-half">
+          <div class="site-footer__newsletter">
+            <form method="post" action="/contact#contact_form" id="contact_form" accept-charset="UTF-8" class="contact-form"><input type="hidden" name="form_type" value="customer" /><input type="hidden" name="utf8" value="✓" />
+              
+              
+                <label for="Email" class="h4">Join our mailing list</label>
+                <div class="input-group">
+                  <input type="hidden" name="contact[tags]" value="newsletter">
+                  <input type="email"
+                    name="contact[email]"
+                    id="Email"
+                    class="input-group__field newsletter__input"
+                    value=""
+                    placeholder="Email address"
+                    autocorrect="off"
+                    autocapitalize="off">
+                  <span class="input-group__btn">
+                    <button type="submit" class="btn newsletter__submit" name="commit" id="Subscribe">
+                      <span class="newsletter__submit-text--large">Subscribe</span>
+                    </button>
+                  </span>
+                </div>
+              
+            </form>
+          </div>
+        </div>
+      
+    </div>
+
+    <div class="grid grid--no-gutters">
+      
+        <div class="grid__item medium-up--one-half">
+          <ul class="list--inline site-footer__social-icons social-icons">
+            
+            
+              <li>
+                <a class="social-icons__link" href="https://twitter.com/rrpdx" title="Ristretto Roasters Coffee on Twitter">
+                  <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-twitter" viewBox="0 0 20 20"><path fill="#444" d="M19.551 4.208q-.815 1.202-1.956 2.038 0 .082.02.255t.02.255q0 1.589-.469 3.179t-1.426 3.036-2.272 2.567-3.158 1.793-3.963.672q-3.301 0-6.031-1.773.571.041.937.041 2.751 0 4.911-1.671-1.284-.02-2.292-.784T2.456 11.85q.346.082.754.082.55 0 1.039-.163-1.365-.285-2.262-1.365T1.09 7.918v-.041q.774.408 1.773.448-.795-.53-1.263-1.396t-.469-1.864q0-1.019.509-1.997 1.487 1.854 3.596 2.924T9.81 7.184q-.143-.509-.143-.897 0-1.63 1.161-2.781t2.832-1.151q.815 0 1.569.326t1.284.917q1.345-.265 2.506-.958-.428 1.386-1.732 2.18 1.243-.163 2.262-.611z"/></svg>
+                  <span class="icon__fallback-text">Twitter</span>
+                </a>
+              </li>
+            
+            
+            
+              <li>
+                <a class="social-icons__link" href="http://instagram.com/rrpdx" title="Ristretto Roasters Coffee on Instagram">
+                  <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-instagram" viewBox="0 0 512 512"><path d="M256 49.5c67.3 0 75.2.3 101.8 1.5 24.6 1.1 37.9 5.2 46.8 8.7 11.8 4.6 20.2 10 29 18.8s14.3 17.2 18.8 29c3.4 8.9 7.6 22.2 8.7 46.8 1.2 26.6 1.5 34.5 1.5 101.8s-.3 75.2-1.5 101.8c-1.1 24.6-5.2 37.9-8.7 46.8-4.6 11.8-10 20.2-18.8 29s-17.2 14.3-29 18.8c-8.9 3.4-22.2 7.6-46.8 8.7-26.6 1.2-34.5 1.5-101.8 1.5s-75.2-.3-101.8-1.5c-24.6-1.1-37.9-5.2-46.8-8.7-11.8-4.6-20.2-10-29-18.8s-14.3-17.2-18.8-29c-3.4-8.9-7.6-22.2-8.7-46.8-1.2-26.6-1.5-34.5-1.5-101.8s.3-75.2 1.5-101.8c1.1-24.6 5.2-37.9 8.7-46.8 4.6-11.8 10-20.2 18.8-29s17.2-14.3 29-18.8c8.9-3.4 22.2-7.6 46.8-8.7 26.6-1.3 34.5-1.5 101.8-1.5m0-45.4c-68.4 0-77 .3-103.9 1.5C125.3 6.8 107 11.1 91 17.3c-16.6 6.4-30.6 15.1-44.6 29.1-14 14-22.6 28.1-29.1 44.6-6.2 16-10.5 34.3-11.7 61.2C4.4 179 4.1 187.6 4.1 256s.3 77 1.5 103.9c1.2 26.8 5.5 45.1 11.7 61.2 6.4 16.6 15.1 30.6 29.1 44.6 14 14 28.1 22.6 44.6 29.1 16 6.2 34.3 10.5 61.2 11.7 26.9 1.2 35.4 1.5 103.9 1.5s77-.3 103.9-1.5c26.8-1.2 45.1-5.5 61.2-11.7 16.6-6.4 30.6-15.1 44.6-29.1 14-14 22.6-28.1 29.1-44.6 6.2-16 10.5-34.3 11.7-61.2 1.2-26.9 1.5-35.4 1.5-103.9s-.3-77-1.5-103.9c-1.2-26.8-5.5-45.1-11.7-61.2-6.4-16.6-15.1-30.6-29.1-44.6-14-14-28.1-22.6-44.6-29.1-16-6.2-34.3-10.5-61.2-11.7-27-1.1-35.6-1.4-104-1.4z"/><path d="M256 126.6c-71.4 0-129.4 57.9-129.4 129.4s58 129.4 129.4 129.4 129.4-58 129.4-129.4-58-129.4-129.4-129.4zm0 213.4c-46.4 0-84-37.6-84-84s37.6-84 84-84 84 37.6 84 84-37.6 84-84 84z"/><circle cx="390.5" cy="121.5" r="30.2"/></svg>
+                  <span class="icon__fallback-text">Instagram</span>
+                </a>
+              </li>
+            
+            
+            
+            
+            
+            
+            
+            
+          </ul>
+        </div>
+      
+
+      <div class="grid__item medium-up--one-half">
+        <div class="site-footer__copyright site-footer__copyright--right medium-up--text-right">
+          
+          
+            <div class="site-footer__payment-icons">
+              
+<ul class="payment-icons list--inline">
+                  
+                    
+                      <li class="payment-icon"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon--wide icon-amazon_payments" viewBox="0 0 32 20"><path fill="#444" d="M6.211 12.131c-.164 0-.308.019-.466.069v2.014a.953.953 0 0 0 .453.107c.611 0 .976-.422.976-1.121 0-.674-.359-1.07-.963-1.07zM18.537 12.131c-.378 0-.655.327-.686.799h1.316c-.025-.409-.227-.799-.63-.799zM8.578 13.415a.426.426 0 0 0-.233.403c0 .308.189.504.485.504.334 0 .585-.22.749-.39v-.642l-.466.013c-.239.013-.403.044-.535.113zM8.351 6.516c-.409 0-.85.088-.85.573 0 .246.126.415.346.415.157 0 .302-.101.397-.258.113-.195.107-.384.107-.604v-.126zM21.03 5.445c-.422 0-.447.573-.447.932s-.006 1.121.441 1.121c.441 0 .466-.617.466-.995 0-.246-.013-.541-.088-.774-.063-.201-.195-.283-.371-.283zM14.974 7.095c0 .246.126.415.346.415.157 0 .302-.101.397-.258.113-.195.107-.384.107-.604v-.126c-.409-.006-.85.082-.85.573z"/><path fill="#444" d="M27.098 1.813H4.813c-1.058 0-1.92.963-1.92 2.147v12.074c0 1.19.862 2.147 1.92 2.147h22.285c1.058 0 1.92-.963 1.92-2.147V3.96c0-1.183-.856-2.147-1.92-2.147zm-9.883 5.622c0-.069 0-.183.069-.29l1.127-1.612h-.982a.106.106 0 0 1-.107-.107v-.415c0-.063.05-.107.107-.107h1.876c.057 0 .107.044.107.107v.359c0 .057-.05.139-.139.264l-.969 1.385c.359-.006.743.044 1.07.227.076.044.094.101.101.164v.447c0 .063-.069.132-.139.094a2.162 2.162 0 0 0-1.983.006c-.063.032-.132-.038-.132-.094v-.428zm.056 1.032c.611-.428 1.618-.308 1.731-.164.12.145-.032 1.152-.604 1.63-.088.076-.17.032-.132-.063.132-.321.422-1.045.283-1.221s-.906-.082-1.253-.044c-.107.019-.12-.076-.025-.139zm-1.517-2.896c-.069-.107-.201-.151-.321-.151-.22 0-.409.113-.46.346-.013.05-.05.101-.101.107l-.554-.057c-.044-.013-.101-.05-.088-.12.126-.674.73-.875 1.278-.875.277 0 .642.076.856.283.277.258.252.604.252.982v.888c0 .264.113.384.214.529.038.05.044.113 0 .151-.12.101-.321.277-.441.378-.038.032-.094.038-.132.013-.189-.157-.22-.233-.327-.378-.315.321-.535.415-.938.415-.478 0-.856-.296-.856-.888 0-.466.252-.781.611-.932.308-.139.743-.164 1.07-.195v-.076c.006-.145.019-.302-.063-.422zm-5.942-.554a.11.11 0 0 1 .107-.107h.529c.057 0 .101.044.107.101v.384h.013c.139-.371.397-.541.749-.541.359 0 .579.17.737.541a.808.808 0 0 1 .787-.541c.239 0 .504.101.661.321.183.246.145.604.145.919v1.844c0 .057-.05.107-.113.107h-.567a.109.109 0 0 1-.101-.107V6.383c0-.126.013-.428-.013-.548-.044-.195-.17-.252-.334-.252-.139 0-.283.094-.34.239s-.05.397-.05.56v1.549a.11.11 0 0 1-.107.107h-.573a.109.109 0 0 1-.101-.107V6.382c0-.327.05-.806-.352-.806-.409 0-.397.466-.397.806v1.549a.11.11 0 0 1-.107.107h-.573c-.057-.006-.101-.044-.101-.094V5.017zm4.444 4.653a9.59 9.59 0 0 0 3.689-.755c.183-.076.334.12.157.252-1.07.787-2.625 1.209-3.96 1.209a7.15 7.15 0 0 1-4.835-1.844c-.101-.088-.013-.214.107-.145a9.76 9.76 0 0 0 4.841 1.284zM8.282 5.571c-.069-.107-.201-.151-.321-.151-.22 0-.409.113-.46.346-.006.05-.044.101-.101.107l-.554-.057c-.044-.013-.101-.05-.088-.12.126-.674.73-.875 1.278-.875.277 0 .642.076.856.283.277.258.252.604.252.982v.888c0 .264.113.384.214.529.038.05.044.113 0 .151-.12.101-.321.277-.441.378-.038.032-.094.038-.132.013-.189-.157-.22-.233-.327-.378-.315.321-.535.415-.938.415-.478 0-.856-.296-.856-.888 0-.466.252-.781.611-.932.308-.139.743-.164 1.07-.195v-.076c.006-.145.013-.302-.063-.422zm-2.084 9.16c-.151 0-.308-.032-.453-.082v1.335a.063.063 0 0 1-.063.063h-.308a.063.063 0 0 1-.063-.063v-4.029c0-.025.019-.05.038-.057a2.46 2.46 0 0 1 .862-.164c.881 0 1.41.554 1.41 1.486.006.888-.579 1.511-1.423 1.511zm3.519-.057c-.032 0-.057-.019-.063-.05l-.044-.22c-.246.22-.516.327-.799.327-.541 0-.919-.371-.919-.9 0-.365.176-.648.504-.799.195-.088.409-.113.699-.126l.491-.013v-.145c0-.39-.195-.604-.554-.604-.334 0-.541.107-.737.227-.013.013-.032.013-.05.006s-.032-.013-.038-.032l-.132-.239a.068.068 0 0 1 .019-.088c.365-.239.718-.29.951-.29.623 0 .982.352.982.969v.869c0 .56.019.875.057 1.02.006.019 0 .038-.013.057-.013.013-.032.025-.05.025h-.302zm3.041-2.795l-1.014 3.015c-.346 1.014-.787 1.152-1.209 1.152-.183 0-.308-.025-.453-.082-.032-.013-.044-.044-.038-.076l.069-.271a.103.103 0 0 1 .032-.044c.019-.006.038-.006.05 0 .107.044.22.063.34.063.384 0 .655-.315.85-.995l-1.196-2.757c-.006-.019-.006-.044.006-.063s.032-.032.05-.032h.353c.025 0 .05.013.057.038l.932 2.191.711-2.184c.006-.025.032-.044.063-.044h.334c.019 0 .038.013.05.025.013.025.019.044.013.063zm4.205 2.726a.063.063 0 0 1-.063.063h-.308a.063.063 0 0 1-.063-.063v-1.75c0-.504-.132-.711-.447-.711-.321 0-.623.227-.856.434.006.057.006.113.006.17v1.863a.063.063 0 0 1-.063.063h-.308a.063.063 0 0 1-.063-.063v-1.75c0-.504-.132-.711-.447-.711s-.598.208-.856.434v2.033a.063.063 0 0 1-.063.063h-.308a.063.063 0 0 1-.063-.063v-2.745c0-.038.032-.063.063-.063h.258c.032 0 .057.025.063.057l.032.258c.321-.258.617-.378.919-.378.327 0 .585.164.724.447.346-.296.686-.447 1.007-.447.403 0 .837.264.837 1.014v1.844zm2.675-1.347a.063.063 0 0 1-.063.063H17.85c.025.472.271 1.001.906 1.001.264 0 .491-.094.636-.176.013-.006.032-.013.05-.006s.032.019.038.032l.107.227c.013.032.006.063-.025.082a1.675 1.675 0 0 1-.869.252c-.793 0-1.303-.604-1.303-1.542 0-.856.472-1.454 1.146-1.454.68 0 1.102.554 1.102 1.454v.069zm2.67 1.347a.063.063 0 0 1-.063.063h-.308a.063.063 0 0 1-.063-.063v-1.75c0-.642-.264-.711-.466-.711-.315 0-.598.208-.856.434v2.033a.063.063 0 0 1-.063.063h-.308a.063.063 0 0 1-.063-.063v-2.745c0-.038.032-.063.063-.063h.258c.032 0 .057.025.063.057l.032.258c.321-.258.617-.378.919-.378.415 0 .856.264.856 1.014v1.851zm-1.285-6.503c-.831 0-1.284-.73-1.284-1.63 0-.913.46-1.618 1.284-1.618.844 0 1.303.724 1.303 1.649 0 .888-.504 1.599-1.303 1.599zm3.349 6.371c-.157.12-.409.258-.68.258-.39 0-.604-.233-.604-.661v-1.876h-.384a.063.063 0 0 1-.063-.063v-.264c0-.038.032-.063.063-.063h.384v-.554c0-.025.019-.05.044-.063l.308-.107c.019-.006.044-.006.057.006a.058.058 0 0 1 .025.05v.661h.749c.019 0 .044.013.05.025a.059.059 0 0 1 .006.057l-.107.264a.064.064 0 0 1-.063.038h-.642v1.851c0 .252.126.277.227.277.164 0 .327-.094.447-.183.013-.013.038-.013.05-.006.019.006.032.019.044.038l.107.227a.083.083 0 0 1-.019.088zm-.063-6.528V6.359c0-.321.038-.787-.359-.787-.139 0-.264.094-.327.233-.082.176-.088.359-.088.554v1.574c0 .057-.05.107-.113.107h-.567a.109.109 0 0 1-.101-.107V5.006a.108.108 0 0 1 .107-.094h.529c.05 0 .088.038.101.082v.447h.013c.157-.403.384-.592.774-.592.258 0 .504.094.667.346.151.233.151.63.151.913v1.844a.108.108 0 0 1-.107.094h-.573c-.057-.013-.101-.05-.107-.101zm1.108 6.786c-.371 0-.648-.145-.781-.233-.025-.019-.038-.05-.025-.076l.107-.252c.006-.019.019-.032.038-.038s.038-.006.05.006c.126.076.315.183.63.183.17 0 .567-.044.567-.434 0-.264-.239-.371-.523-.497l-.05-.025c-.315-.145-.711-.321-.711-.85 0-.39.29-.787.938-.787.277 0 .51.069.655.132.025.013.038.032.038.057v.283c0 .019-.013.044-.032.05a.07.07 0 0 1-.063.006 1.333 1.333 0 0 0-.592-.132c-.346 0-.523.12-.523.359 0 .246.208.359.523.504l.038.019c.195.088.39.183.535.334a.74.74 0 0 1 .195.535c.019.523-.384.856-1.014.856z"/></svg>
+                      </li>
+                    
+                  
+                    
+                      <li class="payment-icon"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-american_express" viewBox="0 0 20 20"><path fill="#444" d="M8.373 7.623v-.46H6.606V9.37h1.767v-.453h-1.24v-.44H8.34v-.453H7.133v-.4zm2.487.134c0-.247-.1-.393-.267-.487-.173-.1-.367-.107-.64-.107H8.74v2.213h.527v-.807h.567c.193 0 .307.02.387.093.093.107.087.3.087.433v.28h.533v-.433c0-.2-.013-.293-.087-.407a.629.629 0 0 0-.26-.187.638.638 0 0 0 .367-.593zm-.693.313c-.073.047-.16.047-.26.047h-.64v-.493h.653c.093 0 .187.007.253.04s.113.1.113.193c-.007.1-.047.173-.12.213zm-8.874.813h1.1l.2.493h1.073V7.643l.767 1.733H4.9l.767-1.733v1.733h.54V7.163h-.873l-.633 1.5-.693-1.5h-.86v2.093l-.9-2.093h-.787L.574 9.23v.14h.513l.207-.487zm.547-1.346l.36.88h-.72l.36-.88zm11.22.1h.5v-.473h-.513c-.367 0-.633.08-.8.26-.227.24-.287.533-.287.867 0 .4.093.653.28.847.147.2.413.273.767.247h.62l.2-.493h1.1l.207.493h1.073v-1.66l1 1.66h.747V7.172h-.54v1.54l-.927-1.54h-.807v2.093l-.893-2.093H14l-.747 1.74h-.24c-.14 0-.287-.027-.367-.113-.1-.113-.147-.28-.147-.52 0-.233.06-.407.153-.5.107-.113.213-.14.407-.14zm1.32-.1l.367.88h-.727l.36-.88zm-3.213-.374h.54v2.213h-.54V7.163zm1.96 4.4a.522.522 0 0 0-.273-.493c-.173-.093-.367-.107-.633-.107h-1.22v2.213h.533v-.807h.567c.193 0 .313.02.387.1.1.1.087.3.087.433v.273h.533v-.44c0-.193-.013-.293-.087-.407a.585.585 0 0 0-.26-.187.61.61 0 0 0 .367-.58zm-.694.314a.534.534 0 0 1-.26.047h-.64v-.493h.653c.093 0 .187 0 .253.04.067.033.107.107.107.2s-.047.167-.113.207zM9.86 10.97H8.173l-.673.727-.653-.727h-2.12v2.213H6.82l.673-.733.653.733h1.027v-.74h.66c.46 0 .92-.127.92-.74-.007-.62-.473-.733-.893-.733zm-3.313 1.747H5.254v-.44h1.16v-.453h-1.16v-.4h1.327l.58.647-.613.647zm2.1.26l-.813-.9.813-.873v1.773zm1.206-.987h-.68v-.56h.687c.193 0 .32.08.32.273 0 .187-.127.287-.327.287zm5.327-.567v-.453h-1.76v2.207h1.76v-.46h-1.233v-.44h1.207v-.453h-1.207v-.4zm4.127.647a.171.171 0 0 0-.047-.053c-.12-.12-.313-.173-.6-.18l-.287-.007a.623.623 0 0 1-.207-.027.169.169 0 0 1-.113-.167c0-.073.02-.12.08-.16.053-.033.12-.04.213-.04h.96v-.473h-1.053c-.553 0-.76.34-.76.66 0 .7.62.667 1.113.687.093 0 .147.013.187.047s.067.08.067.147c0 .06-.027.107-.06.147-.04.04-.113.053-.213.053h-1.013v.473h1.02c.34 0 .587-.093.72-.28a.724.724 0 0 0 .113-.413c-.007-.193-.047-.313-.12-.413zm-.774 1.54h-1.367v-.2c-.16.127-.447.2-.72.2h-4.313v-.713c0-.087-.007-.093-.093-.093h-.067v.807h-1.42v-.833c-.24.1-.507.113-.733.107h-.167v.733h-1.72l-.427-.48-.447.48H4.246v-3.087h2.847l.407.473.433-.473H9.84c.22 0 .58.02.747.18v-.18h1.707c.16 0 .507.033.713.18v-.18h2.58v.18c.127-.12.4-.18.633-.18h1.447v.18c.153-.107.367-.18.66-.18h.98V.258H.574v7.78l.573-1.313h1.38l.18.367v-.367H4.32l.353.793.347-.793h5.127c.233 0 .44.047.593.18v-.18h1.407v.18c.24-.133.54-.18.88-.18h2.033l.187.367v-.367h1.507l.207.367v-.367h1.467v3.08h-1.48l-.28-.467v.467h-1.853l-.2-.493h-.453l-.207.493h-.96c-.38 0-.66-.087-.847-.187v.187h-2.28v-.7c0-.1-.02-.107-.08-.107h-.087v.807H5.288v-.38l-.16.38h-.92l-.16-.38v.373H2.275l-.2-.493h-.453l-.207.493h-.84v9.313h18.727v-5.653c-.207.113-.487.153-.767.153zm-2.013-.907h-1.027v.473h1.027c.533 0 .827-.22.827-.7 0-.227-.053-.36-.16-.467-.12-.12-.313-.173-.607-.18l-.287-.007a.623.623 0 0 1-.207-.027.169.169 0 0 1-.113-.167c0-.073.02-.12.08-.16.053-.033.113-.04.213-.04h.967v-.473h-1.06c-.553 0-.753.34-.753.66 0 .7.62.667 1.113.687.093 0 .147.013.187.047.033.033.067.08.067.147 0 .06-.027.107-.06.147-.033.047-.107.06-.207.06z"/></svg>
+                      </li>
+                    
+                  
+                    
+                      <li class="payment-icon"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon--wide icon-apple_pay" viewBox="0 0 72 45"><defs><path d="M5.711 0c-.21 0-.415.004-.623.01a9.313 9.313 0 0 0-1.354.116c-.453.08-.875.21-1.287.415-.404.2-.775.464-1.096.777A4.249 4.249 0 0 0 .13 3.645a8.13 8.13 0 0 0-.12 1.32c-.007.202-.01.405-.01.607v33.854c0 .202.004.404.01.607.012.44.04.886.12 1.322.08.44.214.853.425 1.255a4.27 4.27 0 0 0 1.891 1.848c.412.205.834.335 1.287.414.447.078.902.106 1.354.117.208.004.414.007.623.007.244.004.49.004.738.004h59.104c.245 0 .492 0 .738-.002.207 0 .414-.004.622-.007.452-.013.907-.04 1.355-.118a4.69 4.69 0 0 0 1.287-.414 4.293 4.293 0 0 0 1.893-1.847c.21-.403.343-.815.423-1.257.08-.437.108-.882.12-1.323.005-.202.006-.405.01-.606V5.574c-.003-.202-.005-.405-.01-.607a8.873 8.873 0 0 0-.12-1.32 4.421 4.421 0 0 0-.424-1.257A4.273 4.273 0 0 0 69.554.542a4.736 4.736 0 0 0-1.287-.414 9.479 9.479 0 0 0-1.354-.115c-.208-.005-.415-.007-.622-.01h-.738V0H5.711zm.004 44.059c-.202 0-.403-.004-.6-.007a8.678 8.678 0 0 1-1.21-.103 3.575 3.575 0 0 1-1.024-.327c-.315-.156-.6-.36-.853-.605a3.306 3.306 0 0 1-.62-.833 3.493 3.493 0 0 1-.333-1 7.744 7.744 0 0 1-.104-1.178 28.63 28.63 0 0 1-.01-.586V5.581c0-.197.004-.392.01-.59.01-.356.03-.776.104-1.18.07-.374.175-.69.335-1a3.351 3.351 0 0 1 1.47-1.434c.314-.155.64-.26 1.022-.326A8.106 8.106 0 0 1 5.113.946c.2-.004.4-.006.6-.007l.735-.003h59.103l.002.001.73.003c.202 0 .402.003.604.008.366.01.797.03 1.21.104.383.067.707.17 1.023.327a3.38 3.38 0 0 1 1.47 1.438c.16.306.265.623.334 1 .074.4.095.82.104 1.18.006.193.008.39.01.587v33.837c-.002.196-.004.39-.01.585-.01.36-.03.782-.104 1.184a3.45 3.45 0 0 1-.334.995 3.315 3.315 0 0 1-1.473 1.437c-.314.156-.638.26-1.02.327-.42.073-.867.093-1.207.102-.2.004-.403.007-.607.007-.243.003-.488.003-.73.003H6.441c-.24 0-.483 0-.726-.002z" id="a"/><path d="M8.812 1.718c-.618.713-1.154 1.853-1.007 2.945 1.07.084 2.157-.543 2.822-1.348h-.002c.665-.807 1.113-1.925.99-3.04-.958.038-2.12.64-2.803 1.443zm13.589.247c-.583.067-1.123.143-1.608.227l-.156.027v16.964h1.548v-7.147c.523.09 1.12.137 1.78.137.875 0 1.696-.112 2.44-.333a5.46 5.46 0 0 0 1.956-1.02c.55-.458.988-1.03 1.307-1.7.316-.672.48-1.462.48-2.35 0-.738-.117-1.4-.345-1.968a4.517 4.517 0 0 0-.96-1.488l-.002.001c-.483-.468-1.11-.83-1.855-1.08-.74-.246-1.63-.37-2.643-.37-.698 0-1.354.033-1.942.1zm.563 8.784a5.083 5.083 0 0 1-.778-.13V3.406c.204-.038.457-.073.754-.105.377-.04.83-.06 1.352-.06.645 0 1.24.076 1.77.23.523.15.98.374 1.36.665.37.288.664.662.867 1.113.203.457.306 1.002.306 1.62 0 1.284-.398 2.267-1.18 2.926l.002-.002c-.796.667-1.92 1.006-3.35 1.006-.39 0-.762-.018-1.103-.05zM8.313 5.753c-.753 0-1.91-.85-3.144-.825-1.617.023-3.108.94-3.94 2.387-1.678 2.922-.426 7.238 1.21 9.6.8 1.158 1.752 2.457 3.008 2.41 1.208-.046 1.66-.78 3.12-.78.719-.001 1.183.189 1.621.379.452.194.876.39 1.521.377 1.298-.028 2.123-1.18 2.92-2.344.913-1.34 1.292-2.64 1.312-2.706-.027-.015-2.528-.97-2.556-3.855v-.001c-.02-2.413 1.968-3.574 2.06-3.63-1.124-1.635-2.863-1.86-3.484-1.886-.1-.01-.199-.014-.298-.014-1.373 0-2.649.888-3.35.888zm24.992 1.048a5.796 5.796 0 0 0-1.707.813l-.127.086.525 1.224.19-.126c.4-.27.85-.484 1.34-.637.49-.15.99-.23 1.486-.23.646 0 1.162.12 1.53.35.373.233.655.523.837.86.19.348.312.72.367 1.104.058.4.086.76.086 1.066v.137c-2.295-.01-4.088.372-5.278 1.138-1.25.805-1.884 1.952-1.884 3.405 0 .418.075.84.223 1.257.152.422.378.8.676 1.122.3.326.687.592 1.15.792.46.2 1.004.3 1.61.3.48 0 .93-.06 1.34-.18a4.55 4.55 0 0 0 1.936-1.148 5.12 5.12 0 0 0 .295-.324h.06l.142 1.375h1.492l-.04-.22a9.314 9.314 0 0 1-.147-1.368l-.004-.004c-.017-.48-.025-.962-.025-1.442v-4.715c0-.56-.056-1.13-.165-1.696a4.316 4.316 0 0 0-.643-1.577 3.593 3.593 0 0 0-1.308-1.16c-.55-.296-1.267-.446-2.13-.446a6.81 6.81 0 0 0-1.827.244zm.313 11.145c-.26-.09-.49-.228-.687-.41a2.028 2.028 0 0 1-.48-.698c-.123-.28-.185-.63-.185-1.035 0-.664.18-1.203.53-1.596.36-.408.827-.723 1.38-.935a7.035 7.035 0 0 1 1.864-.425 16.61 16.61 0 0 1 1.787-.077l.002 2.406c0 .167-.04.394-.115.666a3.363 3.363 0 0 1-.415.828c-.18.264-.407.507-.675.72-.267.21-.586.38-.948.506s-.78.19-1.24.19c-.282 0-.555-.048-.818-.14zm13.407-3.258c-.18.475-.35.953-.502 1.418l-.217.663h-.054c-.068-.22-.14-.447-.22-.687-.15-.46-.312-.913-.477-1.345l-3.09-7.906h-1.654l4.42 11.367c.117.275.134.4.134.45 0 .015-.007.11-.135.455a8.3 8.3 0 0 1-.94 1.743c-.353.482-.677.874-.966 1.163a5.252 5.252 0 0 1-1.036.82c-.36.212-.688.385-.98.514l-.165.075.538 1.31.172-.066c.14-.052.403-.172.802-.367.404-.2.85-.514 1.327-.94a6.81 6.81 0 0 0 1.117-1.256c.326-.467.653-1.018.972-1.63a25.07 25.07 0 0 0 .943-2.062c.31-.763.64-1.616.985-2.535l3.57-9.04-1.654-.002-2.89 7.858z" id="c"/></defs><g fill="none" fill-rule="evenodd"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><path fill="#121211" mask="url(#b)" d="M-5 50h82V-5H-5z"/><g transform="translate(10 10)"><mask id="d" fill="#fff"><use xlink:href="#c"/></mask><path fill="#121211" mask="url(#d)" d="M-4.567 29.728h61.136V-4.725H-4.567z"/></g></g></svg>
+                      </li>
+                    
+                  
+                    
+                      <li class="payment-icon"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-diners_club" viewBox="0 0 17 20"><path fill="#444" d="M10.156 3.875q1.895 0 3.525.859t2.646 2.471 1.016 3.584q0 1.836-1.006 3.418t-2.666 2.49-3.516.908H6.913q-1.855 0-3.457-.908t-2.529-2.49-.928-3.418q0-1.992.938-3.584t2.51-2.461 3.467-.869h3.242zM6.934 17.02q1.719 0 3.164-.84t2.285-2.285.84-3.164q0-1.699-.84-3.145t-2.285-2.285-3.164-.84q-1.699 0-3.145.84T1.504 7.586t-.84 3.145q0 1.719.84 3.164t2.285 2.285 3.145.84zm-1.426-2.579q-1.133-.43-1.836-1.445t-.723-2.266q.02-1.25.732-2.275t1.826-1.436v7.422zM8.379 7.02q1.113.41 1.826 1.436t.713 2.275-.713 2.266-1.826 1.445V7.02z"/></svg>
+                      </li>
+                    
+                  
+                    
+                      <li class="payment-icon"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon--wide icon-discover" viewBox="0 0 52 20"><path fill="#444" d="M22.598 14.617q-1.094.488-2.031.488-1.855 0-3.125-1.26t-1.27-3.115q0-1.797 1.299-3.076t3.135-1.279q1.035 0 1.992.508v1.914q-.957-.938-2.031-.938-1.152 0-1.943.84t-.791 2.031q0 1.27.791 2.07t2.021.801q1.055 0 1.953-.898v1.914zm-8.086-6.152q-.586-.664-1.328-.664-.527 0-.869.264t-.342.654q0 .332.264.557t.986.479q1.406.508 1.914 1.064t.508 1.553q0 1.211-.811 1.973t-2.08.762q-1.816 0-2.891-1.582l1.055-1.016q.586 1.113 1.777 1.113.547 0 .908-.332t.361-.84q0-.527-.488-.859-.273-.176-1.133-.469-1.133-.43-1.592-.938t-.459-1.387q0-1.016.752-1.699t1.846-.684q1.387 0 2.461.957zm13.164-2.051q1.875 0 3.154 1.26t1.279 3.076-1.289 3.086-3.145 1.27q-1.914 0-3.193-1.25t-1.279-3.145q0-1.797 1.309-3.047t3.164-1.25zm-25.293.137q1.973 0 3.232 1.172t1.26 3.008q0 .918-.391 1.768t-1.113 1.455q-1.211.977-2.988.977H0V6.552h2.383zm5.234 0h1.641v8.379H7.617V6.551zm30.43 0h1.777l-3.633 8.574h-.859l-3.535-8.574h1.758l2.227 5.625zm2.5 0h4.629v1.426h-2.988v1.855h2.871v1.406h-2.871v2.266h2.988v1.426h-4.629V6.551zm8.125 0q1.406 0 2.168.645t.762 1.836q0 .957-.479 1.563t-1.396.801l2.617 3.535h-1.992l-2.266-3.398h-.195v3.398H46.25V6.552h2.422zm-.313 3.847q1.582 0 1.582-1.289 0-1.23-1.582-1.23h-.469v2.52h.469zM2.09 13.504q1.484 0 2.207-.664.43-.391.674-.947t.244-1.162q0-1.27-.918-2.07-.742-.684-2.207-.684h-.449v5.527h.449z"/></svg>
+                      </li>
+                    
+                  
+                    
+                      <li class="payment-icon"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon--wide icon-jcb" viewBox="0 0 32 20"><path fill="#444" d="M20.215 8.836q-1.484-.781-3.066-.898-1.66-.137-2.598.615t-.938 2.197.938 2.197 2.598.615q1.543-.117 3.066-.898v1.738q-1.641.41-3.223.488-1.563.059-2.783-.137t-1.982-.576-1.26-.938-.693-1.172-.195-1.318q0-.898.332-1.631t1.084-1.357 2.158-.928 3.34-.225q.703.039 1.504.156t1.27.234l.449.098v1.738zM5.723 6.844h3.516v4.727q0 3.34-5.059 3.34-1.035 0-2.08-.127T.528 14.54l-.527-.137v-1.738q1.895.898 3.516.898 1.035 0 1.621-.547t.586-1.445V6.844zm23.457 3.808q1.035.098 1.689.615t.654 1.357q0 .605-.342 1.074t-.928.713-1.328.244h-7.578V6.842h7.422q.996.039 1.631.547t.635 1.367q0 .703-.488 1.221t-1.367.654v.02zm-4.59-.625h2.148q.195 0 .234-.02.352-.059.586-.322t.234-.654q0-.371-.234-.635t-.586-.322q-.078-.039-.234-.039H24.59v1.992zm2.363 3.36q.215 0 .254-.02.371-.059.605-.342t.234-.693q0-.273-.107-.498t-.293-.361-.439-.195l-.254-.02H24.59v2.129h2.363z"/></svg>
+                      </li>
+                    
+                  
+                    
+                      <li class="payment-icon"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon--wide icon-master" viewBox="0 0 23 15"><path d="M17.375 8.166c-.537 0-.644.237-.644.437 0 .1.061.276.284.276.437 0 .53-.575.514-.699-.015 0-.03-.015-.154-.015zm-6.301-.975c-.399 0-.476.453-.476.499h.813c-.008-.039.07-.499-.337-.499zm-5.526.975c-.537 0-.645.237-.645.437 0 .1.061.276.285.276.437 0 .53-.575.514-.699-.016 0-.03-.015-.154-.015zm15.45-.899c-.323 0-.576.376-.576.937 0 .346.122.568.384.568.399 0 .583-.515.583-.899.008-.422-.13-.606-.392-.606zM16.292.951a6.7 6.7 0 0 0-4.368 1.62 7.007 7.007 0 0 1 1.88 3.024h-.322a6.772 6.772 0 0 0-1.789-2.817 6.723 6.723 0 0 0-1.788 2.817h-.323A7.004 7.004 0 0 1 11.58 2.47 6.817 6.817 0 0 0 7.097.798 6.859 6.859 0 0 0 .236 7.659a6.86 6.86 0 0 0 11.343 5.196 7.07 7.07 0 0 1-1.872-2.764h.33a6.727 6.727 0 0 0 1.657 2.449 6.731 6.731 0 0 0 1.659-2.449h.33a6.937 6.937 0 0 1-1.759 2.656 6.7 6.7 0 0 0 4.368 1.62c3.699 0 6.708-3.009 6.708-6.709C23 3.958 19.992.95 16.292.95v.001zM3.13 9.44l.414-2.618-.936 2.618h-.499l-.061-2.618-.445 2.618H.897l.584-3.477h1.066l.031 2.133.721-2.133H4.45L3.875 9.44H3.13zm2.495 0l.022-.277c-.015 0-.23.338-.752.338-.268 0-.705-.146-.705-.783 0-.813.66-1.081 1.297-1.081.1 0 .314.015.314.015s.023-.046.023-.184c0-.223-.2-.254-.468-.254-.475 0-.798.13-.798.13l.107-.63s.384-.16.883-.16c.26 0 1.005.03 1.005.882l-.284 2.01h-.644V9.44zm2.709-.89c0 .967-.937.928-1.105.928-.614 0-.799-.085-.822-.092l.1-.636c0-.008.307.107.645.107.199 0 .453-.015.453-.253 0-.354-.913-.269-.913-1.106 0-.737.544-.951 1.09-.951.414 0 .674.053.674.053l-.091.645s-.4-.03-.499-.03c-.26 0-.399.052-.399.237 0 .376.868.191.868 1.098h-.001zM9.4 7.306l-.207 1.266c-.016.1.015.238.268.238.061 0 .138-.023.185-.023l-.092.622c-.077.023-.284.092-.545.092-.338 0-.583-.192-.583-.622 0-.292.414-2.67.43-2.686h.73l-.078.43h.36l-.091.683H9.4zm1.772 1.55c.369 0 .775-.176.775-.176l-.13.705s-.238.123-.768.123c-.583 0-1.258-.246-1.258-1.274 0-.89.544-1.681 1.274-1.681.798 0 1.044.583 1.044 1.067 0 .191-.092.668-.092.668h-1.49c0-.016-.137.567.645.567v.001zm2.426-1.42c-.506-.176-.544.799-.76 2.01h-.752l.453-2.824h.683l-.06.407s.245-.445.567-.445a.92.92 0 0 1 .138.007c-.092.2-.185.376-.269.844v.001zm2.096 1.965s-.392.1-.637.1c-.868 0-1.313-.6-1.313-1.512 0-1.374.822-2.103 1.666-2.103.376 0 .821.176.821.176l-.122.775s-.299-.207-.668-.207c-.498 0-.944.476-.944 1.335 0 .423.208.821.722.821.246 0 .606-.176.606-.176l-.13.79-.001.001zm1.756.039l.023-.277c-.016 0-.23.338-.752.338-.268 0-.706-.146-.706-.783 0-.813.66-1.081 1.297-1.081.1 0 .315.015.315.015s.023-.046.023-.184c0-.223-.2-.254-.468-.254-.476 0-.799.13-.799.13l.108-.63s.384-.16.882-.16c.26 0 1.006.03 1.006.882l-.284 2.01c-.008-.007-.645-.007-.645-.007zm1.512.008h-.752l.453-2.825h.683l-.06.407s.245-.446.567-.446c.091 0 .138.008.138.008-.1.2-.185.376-.269.844-.506-.176-.544.807-.76 2.01v.002zm2.234-.008l.03-.26s-.245.306-.683.306c-.606 0-.906-.583-.906-1.182 0-.929.561-1.735 1.228-1.735.43 0 .706.376.706.376l.16-.975h.73l-.56 3.469h-.706zm1.367-.015a.195.195 0 0 1-.108.03.178.178 0 0 1-.107-.03.226.226 0 0 1-.085-.085.187.187 0 0 1-.03-.108c0-.038.007-.077.03-.107a.226.226 0 0 1 .085-.085.187.187 0 0 1 .107-.03c.039 0 .077.007.108.03.038.016.061.046.085.085.023.038.03.069.03.107a.178.178 0 0 1-.03.108.218.218 0 0 1-.085.085zm-.024-.353a.197.197 0 0 0-.183 0 .156.156 0 0 0-.07.069.197.197 0 0 0 0 .183c.016.03.039.054.07.07a.197.197 0 0 0 .183 0 .151.151 0 0 0 .07-.07.197.197 0 0 0 0-.183.156.156 0 0 0-.07-.07zm-.03.284l-.023-.039a.18.18 0 0 0-.039-.053c-.008-.007-.015-.008-.03-.008h-.023v.1h-.038v-.238h.084c.031 0 .047 0 .062.008.014.008.022.016.03.023.008.007.008.022.008.038s-.008.03-.016.046c-.016.016-.03.023-.046.023.008 0 .016.008.023.016.006.008.022.023.038.046l.03.047h-.06v-.01zm-.015-.17c0-.008 0-.016-.008-.016l-.016-.015c-.008 0-.023-.008-.038-.008h-.047v.069h.047c.022 0 .038 0 .046-.008.016-.008.016-.016.016-.023v.001z" fill="#444" fill-rule="evenodd"/></svg>
+                      </li>
+                    
+                  
+                    
+                  
+                    
+                      <li class="payment-icon"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-visa" viewBox="0 0 27 20"><path fill="#444" d="M19.16 8.465q-.781-.352-1.621-.332-.605 0-.928.225t-.322.508.283.508.947.557q1.855.84 1.836 2.285 0 1.328-1.035 2.119t-2.773.791q-1.445-.02-2.441-.449l.293-1.914.273.156q1.113.449 2.07.449.527 0 .918-.225t.41-.635q0-.273-.254-.498t-.918-.557q-.371-.195-.654-.371t-.596-.459-.488-.664-.176-.811q.02-1.23 1.064-2.002t2.666-.771q1.035 0 1.953.332l-.273 1.855zm-9.14-1.934l-3.457 8.477H4.258L2.461 8.25q.938.371 1.709 1.133t1.104 1.66Q4.063 7.703.001 6.688l.02-.156h3.535q.82 0 .996.684l.762 3.906.254 1.172 2.129-5.762h2.324zm3.085 0l-1.367 8.477H9.55l1.367-8.477h2.188zm13.946 8.477H25q-.156-.996-.234-1.27l-2.813-.02-.449 1.289H19.18l3.262-7.793q.293-.684 1.152-.684h1.68zM23.77 8.797l-.137.361q-.078.205-.127.342t-.029.117q-.703 1.875-.879 2.383h1.777l-.469-2.461z"/></svg>
+                      </li>
+                    
+                  
+                </ul>
+              
+            </div>
+          
+        </div>
+      </div>
+    </div>
+    
+      <div class="site-footer__copyright--bottom">
+                   <small class="site-footer__copyright-content">&copy; 2019 Ristretto Roasters Coffee LLC. All rights reserved</small>
+
+      </div>
+    
+  </div>
+</footer>
+
+
+</div>
+
+  </div>
+            
+
+<!-- Subscriptions Powered by ReCharge Payments: Begin Liquid Code -->
+<!--
+	Subscription Theme Footer
+	http://rechargepayments.com: v2
+	Updated: 2017/01/17
+-->
+
+	<script>
+		// Subscriptions Powered by ReCharge Payments: JavaScript
+		(function() {
+			// Basic function to load script files, will be used to include jQuery
+			var loadScript = function(url, callback) {
+				var script = document.createElement("script");
+				script.type = "text/javascript";
+				// If the browser is Internet Explorer
+				if (script.readyState){ 
+					script.onreadystatechange = function() {
+						if (script.readyState == "loaded" || script.readyState == "complete") {
+							script.onreadystatechange = null;
+							callback();
+						}
+					};
+				// For any other browser
+				} else {
+					script.onload = function() {
+						callback();
+					};
+				}
+				script.src = url;
+				document.getElementsByTagName("head")[0].appendChild(script);
+			};
+			// This is our JavaScript that we'll run after jQuery is included
+			var reChargeThemeFooterJS = function($) {
+				function reChargeSaveCartNoteAndRedirectToCart() {
+					var has_cart_note_or_attribute = false;
+					try {
+						var data = {};
+						if ($('[name="note"]').val() != undefined) {
+							var note = $('[name="note"]').val();
+							data['note'] = note;
+							has_cart_note_or_attribute = true;
+						}
+						if (has_cart_note_or_attribute) {
+							$.ajax({
+								type: 'POST',
+								data: data,
+								url: '/cart/update.js',
+								dataType: 'json',
+								success: function() {
+									window.location.href = '/cart';
+								}
+							});
+						} else {
+							window.location.href = '/cart';
+						}
+					} catch (e) {
+						window.location.href = '/cart';
+					}
+				}
+				var checkout_button_selectors = '[href="/checkout"], form[action="/cart"] button[type="submit"], form[action="/cart"] input[type="submit"], form[action="/checkout"] input[type="submit"], form[action="/checkout"] button[type="submit"]';
+				$(document).on('click', checkout_button_selectors, function(e) {
+					e.preventDefault();
+					reChargeSaveCartNoteAndRedirectToCart();
+					window.location.href = '/cart';
+				});
+			}
+			// Check if jQuery is added, if not, then we'll loadScript, otherwise, run reChargeJS
+			if ((typeof(jQuery) == 'undefined') || (parseInt(jQuery.fn.jquery) == 1 && parseFloat(jQuery.fn.jquery.replace(/^1\./,"")) < 7.2)) {
+				// We'll get our jQuery from Google APIs
+				loadScript('//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js', function() {
+					jQuery172 = jQuery.noConflict(true);
+					reChargeThemeFooterJS(jQuery172);
+				});
+			} else {
+				reChargeThemeFooterJS(jQuery);
+			}
+		})();
+	</script>
+
+<!-- Subscriptions Powered by ReCharge Payments: End Liquid Code -->
+
+<!-- Google Code for Remarketing Tag -->
+<!--------------------------------------------------
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 860094535;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+
+  <script src="https://donorbox.org/install-popup-button.js" type="text/javascript" defer></script>
+  
+  
+  
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/860094535/?guid=ON&amp;script=0"/>
+</div>
+</noscript>
+  
+<script>
+  window.onload = function() {
+
+
+/**
+ * Module to ajaxify all add to cart forms on the page.
+ *
+ * Copyright (c) 2015 Caroline Schnapp (11heavens.com)
+ * Dual licensed under the MIT and GPL licenses:
+ * http://www.opensource.org/licenses/mit-license.php
+ * http://www.gnu.org/licenses/gpl.html
+ *
+ */
+Shopify.AjaxifyCart = (function($) {
+  
+  // Some configuration options.
+  // I have separated what you will never need to change from what
+  // you might change.
+  
+  var _config = {
+    
+    // What you might want to change
+    addToCartBtnLabel:             'Add to cart',
+    addedToCartBtnLabel:           'Added to cart!',
+    addingToCartBtnLabel:          'Adding...',
+    soldOutBtnLabel:               'Sold Out',
+    howLongTillBtnReturnsToNormal: 3000, // in milliseconds.
+	cartCountSelector:             '#CartCount',
+    cartTotalSelector:             '#cart-price',
+    // 'aboveForm' for top of add to cart form, 
+    // 'belowForm' for below the add to cart form, and 
+    // 'nextButton' for next to add to cart button.
+    feedbackPosition:              'nextButton',
+    
+    // What you will never need to change
+    addToCartBtnSelector:          '[type="submit"]',
+    addToCartFormSelector:         'form[action="/cart/add"]',
+    shopifyAjaxAddURL:             '/cart/add.js',
+    shopifyAjaxCartURL:            '/cart.js'
+  };
+  
+  // We need some feedback when adding an item to the cart.
+  // Here it is.  
+  var _showFeedback = function(success, html, $addToCartForm) {
+    $('.ajaxified-cart-feedback').remove();
+    var feedback = '<p class="ajaxified-cart-feedback ' + success + '">' + html + '</p>';
+    switch (_config.feedbackPosition) {
+      case 'aboveForm':
+        $addToCartForm.before(feedback);
+        break;
+      case 'belowForm':
+        $addToCartForm.after(feedback);
+        break;
+      case 'nextButton':
+      default:
+        $addToCartForm.find(_config.addToCartBtnSelector).after(feedback);
+        break;   
+    }
+    // If you use animate.css
+    // $('.ajaxified-cart-feedback').addClass('animated bounceInDown');
+    $('.ajaxified-cart-feedback').slideDown();
+  };
+  var _setText = function($button, label) {
+    if ($button.children().length) {
+      $button.children().each(function() {
+        if ($.trim($(this).text()) !== '') {
+          $(this).text(label);
+        }
+      });
+    }
+    else {
+      $button.val(label).text(label);
+    }
+  };
+  var _init = function() {   
+    $(document).ready(function() { 
+      $(_config.addToCartFormSelector).submit(function(e) {
+        e.preventDefault();
+        var $addToCartForm = $(this);
+        var $addToCartBtn = $addToCartForm.find(_config.addToCartBtnSelector);
+        _setText($addToCartBtn, _config.addingToCartBtnLabel);
+        $addToCartBtn.addClass('disabled').prop('disabled', true);
+        // Add to cart.
+        $.ajax({
+          url: _config.shopifyAjaxAddURL,
+          dataType: 'json',
+          type: 'post',
+          data: $addToCartForm.serialize(),
+          success: function(itemData) {
+            // Re-enable add to cart button.
+            $addToCartBtn.addClass('inverted');
+            _setText($addToCartBtn, _config.addedToCartBtnLabel);
+            _showFeedback('success','',$addToCartForm);
+            window.setTimeout(function(){
+              $addToCartBtn.prop('disabled', false).removeClass('disabled').removeClass('inverted');
+              _setText($addToCartBtn,_config.addToCartBtnLabel);
+            }, _config.howLongTillBtnReturnsToNormal);
+            // Update cart count and show cart link.
+            $.getJSON(_config.shopifyAjaxCartURL, function(cart) {
+              if (_config.cartCountSelector && $(_config.cartCountSelector).size()) {
+                var value = $(_config.cartCountSelector).html() || '0';
+                $(_config.cartCountSelector).html(value.replace(/[0-9]+/,cart.item_count)).removeClass('hidden-count');
+              }
+              if (_config.cartTotalSelector && $(_config.cartTotalSelector).size()) {
+                if (typeof Currency !== 'undefined' && typeof Currency.moneyFormats !== 'undefined') {
+                  var newCurrency = '';
+                  if ($('[name="currencies"]').size()) {
+                    newCurrency = $('[name="currencies"]').val();
+                  }
+                  else if ($('#currencies span.selected').size()) {
+                    newCurrency = $('#currencies span.selected').attr('data-currency');
+                  }
+                  if (newCurrency) {
+                    $(_config.cartTotalSelector).html('<span class=money>' + Shopify.formatMoney(Currency.convert(cart.total_price, "USD", newCurrency), Currency.money_format[newCurrency]) + '</span>');
+                  } 
+                  else {
+                    $(_config.cartTotalSelector).html(Shopify.formatMoney(cart.total_price, "${{ amount }}"));
+                  }
+                }
+                else {
+                  $(_config.cartTotalSelector).html(Shopify.formatMoney(cart.total_price, "${{ amount }}"));
+                }
+              };
+            });        
+          }, 
+          error: function(XMLHttpRequest) {
+            var response = eval('(' + XMLHttpRequest.responseText + ')');
+            response = response.description;
+            if (response.slice(0,4) === 'All ') {
+              _showFeedback('error', response.replace('All 1 ', 'All '), $addToCartForm);
+              $addToCartBtn.prop('disabled', false);
+              _setText($addToCartBtn, _config.soldOutBtnLabel);
+              $addToCartBtn.prop('disabled',true);
+            }
+            else {
+              _showFeedback('error', '<i class="fa fa-warning"></i> ' + response, $addToCartForm);
+              $addToCartBtn.prop('disabled', false).removeClass('disabled');
+              _setText($addToCartBtn, _config.addToCartBtnLabel);
+            }
+          }
+        });   
+        return false;    
+      });
+    });
+  };
+  return {
+    init: function(params) {
+        // Configuration
+        params = params || {};
+        // Merging with defaults.
+        $.extend(_config, params);
+        // Action
+        $(function() {
+          _init();
+        });
+    },    
+    getConfig: function() {
+      return _config;
+    }
+  }  
+})(jQuery);
+
+Shopify.AjaxifyCart.init();
+} 
+</script>
+
+
+
+
+
+<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
+
+<style>
+.ajaxified-cart-feedback {
+  display: block;
+  line-height: 36px;
+  font-size: 90%;
+  vertical-align: middle;
+}
+.ajaxified-cart-feedback.success { 
+  color: #3D9970;
+}
+.ajaxified-cart-feedback.error { 
+  color: #FF4136; 
+} 
+.ajaxified-cart-feedback a {
+  border-bottom: 1px solid;
+}
+</style>
+
+  
+</body>
+</html>

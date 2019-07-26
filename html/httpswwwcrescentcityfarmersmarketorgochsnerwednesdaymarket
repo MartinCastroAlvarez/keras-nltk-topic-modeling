@@ -1,0 +1,477 @@
+
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr"><head>
+<!-- basics -->
+
+<base href="https://www.crescentcityfarmersmarket.org/" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Ochsner, Wednesday Market | Market Umbrella | Crescent City Farmers Market</title>
+
+<!-- favicons -->
+<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+<link rel="manifest" href="assets/img/favicons/site.webmanifest">
+<link rel="mask-icon" href="assets/img/favicons/safari-pinned-tab.svg" color="#336699">
+<link rel="shortcut icon" href="assets/img/favicons/favicon.ico">
+<meta name="msapplication-TileColor" content="#ff9900">
+<meta name="msapplication-config" content="assets/img/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+<!-- resources -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:500,700" rel="stylesheet">
+<link href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous" rel="stylesheet" >
+<link href="assets/css/app.css" rel="stylesheet" >
+</head><body>
+<!-- start off-canvas wrapper -->
+<div class="off-canvas-wrapper">
+
+<!-- start off-canvas -->
+<!-- start off-canvas-top -->
+<div class="off-canvas position-top" id="offCanvasTop" data-off-canvas>
+<div class="grid-x grid-padding-x grid-padding-y">
+  		
+<div class="cell auto">
+<div class="grid-container">
+<div class="grid-x grid-padding-x grid-padding-y grid-container">
+<div class="cell auto">
+<form id="m8000cmoduleform_1" method="get" action="https://www.crescentcityfarmersmarket.org/search" class="cms_form">
+<div class="hidden">
+<input type="hidden" name="mact" value="Search,m8000c,dosearch,0" />
+<input type="hidden" name="m8000creturnid" value="40" />
+</div>
+
+<div class="input-group">
+<input type="text" class="input-group-field" id="m8000csearchinput" name="m8000csearchinput" placeholder="Search Site"/>
+<div class="input-group-button">
+<input class="button" name="submit" value="Search Site" type="submit" />
+</div>
+</div>
+<input type="hidden" id="m8000corigreturnid" name="m8000corigreturnid" value="57" />
+</form>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><!-- end off-canvas-top -->
+<!-- start off-canvas-right -->
+<div class="multilevel-offcanvas off-canvas position-right" id="offCanvasRight" data-off-canvas>
+<!-- Menu -->
+
+
+
+<ul class="vertical menu" data-accordion-menu data-submenu-toggle="true"><li class="first_child "><a class="" href="https://www.crescentcityfarmersmarket.org/"><span>Home</span></a></li><li class=" is-active"><a class=" " href="https://www.crescentcityfarmersmarket.org/our-markets"><span>Our Markets</span></a>
+
+
+<ul class="menu vertical nested"><li class="first_child"><a href="https://www.crescentcityfarmersmarket.org/our-markets/uptown-tuesday-market"><span>Uptown, Tuesday Market</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-markets/bywater-wednesday-market"><span>Bywater, Wednesday Market</span></a></li><li class="is-active"><a class="" href="https://www.crescentcityfarmersmarket.org/our-markets/ochsner-wednesday-market"><span>Ochsner, Wednesday Market</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-markets/mid-city-thursday-market"><span>Mid-City, Thursday Market</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-markets/bucktown-friday-market"><span>Bucktown, Friday Market</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-markets/downtown-saturday-market"><span>Downtown, Saturday Market</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-markets/rivertown-saturday-market"><span>Rivertown, Saturday Market</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-markets/whats-fresh"><span>What’s Fresh?</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-markets/why-buy-local"><span>Why Buy Local?</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-markets/more-than-a-market"><span>More than a Market</span></a></li><li class="last_child"><a href="https://www.crescentcityfarmersmarket.org/our-markets/ccfm-app"><span>CCFM App</span></a></li></ul></li><li class=""><a class="" href="https://www.crescentcityfarmersmarket.org/about-us"><span>About Us</span></a>
+
+
+<ul class="menu vertical nested"><li class="first_child "><a class="" href="https://www.crescentcityfarmersmarket.org/about-us/our-impact"><span>Our Impact</span></a>
+
+
+<ul class="menu vertical nested"><li class="first_child"><a href="http://www.crescentcityfarmersmarket.org/ar" target="_blank"><span>Annual Report</span></a></li><li class=""><a href="http://www.marketumbrella.org/marketshare/" target="_blank"><span>Green Papers</span></a></li><li class="last_child"><a href="uploads/downloads/SEED_Economic_Impact_Report_2017.pdf" target="_blank"><span>SEED Report</span></a></li></ul></li><li class=""><a class="" href="https://www.crescentcityfarmersmarket.org/about-us/governance"><span>Governance</span></a>
+
+
+<ul class="menu vertical nested"><li class="first_child"><a href="governance#bod"><span>Board of Directors</span></a></li><li class=""><a href="governance#cat"><span>Community Advisory Team</span></a></li><li class=""><a href="governance#brain"><span>Brain Trust</span></a></li><li class="last_child"><a href="governance#found"><span>CCFM Founders</span></a></li></ul></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/about-us/staff"><span>Staff</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/about-us/shoppers"><span>Restaurant Shoppers</span></a></li><li class=""><a href="donate#supporters"><span>Supporters</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/about-us/contact-us"><span>Contact Us</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/about-us/privacy-policy"><span>Privacy Policy</span></a></li><li class="last_child"><a href="https://www.crescentcityfarmersmarket.org/about-us/staff-employment-opportunities"><span>Staff Employment Opportunities</span></a></li></ul></li><li class=""><a class="" href="https://www.crescentcityfarmersmarket.org/our-work"><span>Our Work</span></a>
+
+
+<ul class="menu vertical nested"><li class="first_child"><a href="https://www.crescentcityfarmersmarket.org/our-work/consulting"><span>Consulting</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-markets"><span>Crescent City Farmers Markets</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/donate/crescent-fund"><span>Crescent Fund</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-work/farm-to-school"><span>Farm to School</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-work/fmrx"><span>Farmers Market Rx</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-work/market-match"><span>Market Match</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-work/market-mommas"><span>Market Mommas Club</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-work/market-share"><span>Market Share</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-work/marketeers"><span>Marketeers Club</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-work/meet-me-at-the-market"><span>Meet Me at the Market</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-work/wiccvv"><span>Market+ WIC CVV</span></a></li><li class="last_child"><a href="https://www.crescentcityfarmersmarket.org/our-work/farmers-market-bingo"><span>Farmers Market Bingo</span></a></li></ul></li><li class=""><a class="" href="https://www.crescentcityfarmersmarket.org/events"><span>Events</span></a>
+
+
+<ul class="menu vertical nested"><li class="first_child"><a href="https://www.crescentcityfarmersmarket.org/events/calendar"><span>Market Calendar</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/events/green-plate-special"><span>Green Plate Special</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/events/music-at-the-market"><span>Music at the Market</span></a></li><li class=""><a class="" href="https://www.crescentcityfarmersmarket.org/events/news"><span>Newsletter Archive</span></a></li><li class=""><a class="" href="https://www.crescentcityfarmersmarket.org/events/recipes"><span>Recipe Archive</span></a></li><li class="last_child"><a href="https://www.crescentcityfarmersmarket.org/events/recipe-of-the-week"><span>Recipe of the Week</span></a></li></ul></li><li class=""><a class="" href="https://www.crescentcityfarmersmarket.org/vendors"><span>Vendors</span></a>
+
+
+<ul class="menu vertical nested"><li class="first_child"><a href="https://www.crescentcityfarmersmarket.org/vendors"><span>Vendor List</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/vendors/vendor-of-the-week"><span>Vendor of the Week</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/vendors/market-basics"><span>Market Basics</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/vendors/token-special-programs-policies"><span>Token &amp; Special Programs Policies</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/vendors/rules-and-regulations"><span>Rules and Regulations</span></a></li><li class="last_child"><a href="https://www.crescentcityfarmersmarket.org/vendors/become-a-vendor"><span>Become a Vendor</span></a></li></ul></li><li class="last_child "><a class="" href="https://www.crescentcityfarmersmarket.org/donate"><span>Support Us</span></a>
+
+
+<ul class="menu vertical nested"><li class="first_child"><a href="https://www.crescentcityfarmersmarket.org/donate/friend"><span>Friend of the Crescent City Farmers Market</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/donate/crescent-fund"><span>Crescent Fund</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/donate/contribute"><span>Looking for Other Ways to Contribute?</span></a></li><li class="last_child"><a href="https://www.crescentcityfarmersmarket.org/donate/volunteer"><span>Be a Volunteer</span></a></li></ul></li></ul>
+</div><!-- end off-canvas-right -->
+<!-- start off-canvas-bottom -->
+<div class="off-canvas position-bottom" id="offCanvasBottom" data-off-canvas>
+<div class="grid-x grid-padding-x grid-padding-y">
+
+<div class="cell auto">
+<div class="card card-paypal">
+<div class="card-section">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="9PEMEMSAP7G26" />
+<input type="image" src="https://www.marketumbrella.org/_core/give-crescent-fund.svg" border="0" name="submit" title="Give to the Crescent Fund" alt="Give to the Crescent Fund button" />
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+</div>
+</div><!-- end card -->
+</div><!-- end cell -->
+
+<div class="cell auto">
+<div class="card card-paypal">
+<div class="card-section">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BZQN7WZFEAVZ6" />
+<input type="image" src="https://www.marketumbrella.org/_core/give-crescent-city-farmers-market.svg" border="0" name="submit" title="Give to the Crescent City Farmers Market" alt="Give to the Crescent City Farmers Market button" />
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+</div>
+</div><!-- end card -->
+</div><!-- end cell -->
+
+<div class="cell auto">
+<div class="card card-paypal">
+<div class="card-section">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="JLSD6NKCN3MZY" />
+<input type="image" src="https://www.marketumbrella.org/_core/give-market-umbrella.svg" border="0" name="submit" title="Give to Market Umbrella" alt="Give to Market Umbrella button" />
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+</div>
+</div><!-- end card -->
+</div><!-- end cell -->
+
+<div class="cell auto">
+<div class="card card-paypal">
+<div class="card-section">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BWMYYSKXPUSF4" />
+<input type="image" src="https://www.marketumbrella.org/_core/friend-of-the-market-25.svg" border="0" name="submit" title="Become a Friend of the Market" alt="Become a Friend of the Market button" />
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+</div>
+</div><!-- end card -->
+</div><!-- end cell -->
+</div><!-- end grid-x -->
+</div><!-- end off-canvas-bottom -->
+<!-- start off-canvas-left -->
+<div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas>
+<div class="grid-x grid-padding-x grid-padding-y>
+
+<div class="cell">
+<div class="card card-mb">
+<div class="card-divider">
+</div>
+<div class="card-section">
+<h4>Subscribe to our Newsletter</h4>
+<p>Ever wonder what&rsquo;s ripe at the Crescent City Farmers Market this week? Who will be there? Who is cookin&rsquo;? Sign up here for our popular electronic newsletter <em>Market Morsels</em> to learn recipes, market updates, and food preparation tips from our own vendors, chefs, and shoppers. It&rsquo;s published each Monday so you can prepare to shop for the week!</p>
+<div style="color:#cc5500; background-color:#FFFFFF;">
+       <span id="success_message" style="display:none;">
+           <p style="color:#cc5500; text-align:center;"><em>Thanks for signing up!</em></p>
+       </span>
+</div>
+       <form data-id="embedded_signup:form" class="ctct-custom-form Form" name="embedded_signup" method="POST" action="https://visitor2.constantcontact.com/api/signup" style="margin-bottom:0;">
+           <!-- The following code must be included to ensure your sign-up form works properly. -->
+           <input data-id="ca:input" type="hidden" name="ca" value="9abd6599-39c4-4c61-b536-25e4965ecebe">
+           <input data-id="list:input" type="hidden" name="list" value="1100792594">
+           <input data-id="source:input" type="hidden" name="source" value="EFD">
+           <input data-id="required:input" type="hidden" name="required" value="list,email,first_name">
+           <input data-id="url:input" type="hidden" name="url" value="">
+           <p data-id="Email Address:p" style="margin-bottom:0;"><label data-id="Email Address:label" data-name="email" class="ctct-form-required">Email Address</label> <input data-id="Email Address:input" type="text" name="email" value="" maxlength="80" class="full-width"></p>
+           <p data-id="First Name:p" style="margin-bottom:0;"><label data-id="First Name:label" data-name="first_name" class="ctct-form-required">First Name</label> <input data-id="First Name:input" type="text" name="first_name" value="" maxlength="50" class="full-width"></p>
+<p style="margin-bottom:0;"><button type="submit" class="button full-width" style="margin-bottom:0;" data-enabled="enabled">Sign Up</button></p>
+       </form>
+<script type='text/javascript'>
+   var localizedErrMap = {};
+   localizedErrMap['required'] = 		'This field is required.';
+   localizedErrMap['ca'] = 			'An unexpected error occurred while attempting to send email.';
+   localizedErrMap['email'] = 			'Please enter your email address in name@email.com format.';
+   localizedErrMap['birthday'] = 		'Please enter birthday in MM/DD format.';
+   localizedErrMap['anniversary'] = 	'Please enter anniversary in MM/DD/YYYY format.';
+   localizedErrMap['custom_date'] = 	'Please enter this date in MM/DD/YYYY format.';
+   localizedErrMap['list'] = 			'Please select at least one email list.';
+   localizedErrMap['generic'] = 		'This field is invalid.';
+   localizedErrMap['shared'] = 		'Sorry, we could not complete your sign-up. Please contact us to resolve this.';
+   localizedErrMap['state_mismatch'] = 'Mismatched State/Province and Country.';
+	localizedErrMap['state_province'] = 'Select a state/province';
+   localizedErrMap['selectcountry'] = 	'Select a country';
+   var postURL = 'https://visitor2.constantcontact.com/api/signup';
+</script>
+<script type='text/javascript' src='https://static.ctctcdn.com/h/contacts-embedded-signup-assets/1.0.2/js/signup-form.js'></script>
+</div>
+</div>
+
+</div><!-- end cell -->
+</div><!-- end grid-x -->
+</div><!-- end off-canvas-bottom -->
+<!-- end off-canvas -->
+
+<!-- start canvas -->
+<div id="pageCanvas" data-off-canvas-content>
+<!-- start header -->
+<div id="header" data-sticky-container>
+<div class="grid-x grid-padding-x small-up-1 medium-up-2 tools" data-sticky data-options="marginTop:0;">
+<div class="cell tools-logos">
+<a href=""><img src="assets/img/logos/market-umbrella-logo.svg" class="logo icon" alt="Market Umbrella" /><span class="hide">Market Umbrella</span></a>
+<a href=""><img src="assets/img/logos/crescent-city-farmers-market-logo.svg" class="logo icon" alt="Crescent City Farmers Market" /><span class="hide">Crescent City Farmers Market</span></a>
+</div>
+<div class="cell tools-tools">
+<a href="https://signup.com/client/invitation2/secure/2788369/false#/invitation" target="_blank"><img src="assets/img/icons/help.svg" class="icon" alt="Help" /><span class="hide">Help</span></a>
+<a data-open="offCanvasBottom"><img src="assets/img/icons/give.svg" class="icon" alt="Give" /><span class="hide">Give</span></a>
+<a data-open="offCanvasTop"><img src="assets/img/icons/find.svg" class="icon" alt="Search" /><span class="hide">Find</span></a>
+<a data-open="offCanvasRight"><img src="assets/img/icons/menu.svg" class="icon" alt="Menu" /><span class="hide">Menu</span></a>
+</div>
+<!-- main nav -->
+
+
+
+<nav class="top-bar show-for-large"><section class="top-bar-section"><ul class="dropdown menu align-center" data-dropdown-menu><li class="first_child "><a class="" href="https://www.crescentcityfarmersmarket.org/"><span>Home</span></a></li><li class=" is-active"><a class=" " href="https://www.crescentcityfarmersmarket.org/our-markets"><span>Our Markets</span></a>
+
+
+<ul class="vertical menu align-center"><li class="first_child"><a href="https://www.crescentcityfarmersmarket.org/our-markets/uptown-tuesday-market"><span>Uptown, Tuesday Market</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-markets/bywater-wednesday-market"><span>Bywater, Wednesday Market</span></a></li><li class="is-active"><a class="" href="https://www.crescentcityfarmersmarket.org/our-markets/ochsner-wednesday-market"><span>Ochsner, Wednesday Market</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-markets/mid-city-thursday-market"><span>Mid-City, Thursday Market</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-markets/bucktown-friday-market"><span>Bucktown, Friday Market</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-markets/downtown-saturday-market"><span>Downtown, Saturday Market</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-markets/rivertown-saturday-market"><span>Rivertown, Saturday Market</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-markets/whats-fresh"><span>What’s Fresh?</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-markets/why-buy-local"><span>Why Buy Local?</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-markets/more-than-a-market"><span>More than a Market</span></a></li><li class="last_child"><a href="https://www.crescentcityfarmersmarket.org/our-markets/ccfm-app"><span>CCFM App</span></a></li></ul></li><li class=""><a class="" href="https://www.crescentcityfarmersmarket.org/about-us"><span>About Us</span></a>
+
+
+<ul class="vertical menu align-center"><li class="first_child "><a class="" href="https://www.crescentcityfarmersmarket.org/about-us/our-impact"><span>Our Impact</span></a>
+
+
+<ul class="vertical menu align-center"><li class="first_child"><a href="http://www.crescentcityfarmersmarket.org/ar" target="_blank"><span>Annual Report</span></a></li><li class=""><a href="http://www.marketumbrella.org/marketshare/" target="_blank"><span>Green Papers</span></a></li><li class="last_child"><a href="uploads/downloads/SEED_Economic_Impact_Report_2017.pdf" target="_blank"><span>SEED Report</span></a></li></ul></li><li class=""><a class="" href="https://www.crescentcityfarmersmarket.org/about-us/governance"><span>Governance</span></a>
+
+
+<ul class="vertical menu align-center"><li class="first_child"><a href="governance#bod"><span>Board of Directors</span></a></li><li class=""><a href="governance#cat"><span>Community Advisory Team</span></a></li><li class=""><a href="governance#brain"><span>Brain Trust</span></a></li><li class="last_child"><a href="governance#found"><span>CCFM Founders</span></a></li></ul></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/about-us/staff"><span>Staff</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/about-us/shoppers"><span>Restaurant Shoppers</span></a></li><li class=""><a href="donate#supporters"><span>Supporters</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/about-us/contact-us"><span>Contact Us</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/about-us/privacy-policy"><span>Privacy Policy</span></a></li><li class="last_child"><a href="https://www.crescentcityfarmersmarket.org/about-us/staff-employment-opportunities"><span>Staff Employment Opportunities</span></a></li></ul></li><li class=""><a class="" href="https://www.crescentcityfarmersmarket.org/our-work"><span>Our Work</span></a>
+
+
+<ul class="vertical menu align-center"><li class="first_child"><a href="https://www.crescentcityfarmersmarket.org/our-work/consulting"><span>Consulting</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-markets"><span>Crescent City Farmers Markets</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/donate/crescent-fund"><span>Crescent Fund</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-work/farm-to-school"><span>Farm to School</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-work/fmrx"><span>Farmers Market Rx</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-work/market-match"><span>Market Match</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-work/market-mommas"><span>Market Mommas Club</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-work/market-share"><span>Market Share</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-work/marketeers"><span>Marketeers Club</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-work/meet-me-at-the-market"><span>Meet Me at the Market</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/our-work/wiccvv"><span>Market+ WIC CVV</span></a></li><li class="last_child"><a href="https://www.crescentcityfarmersmarket.org/our-work/farmers-market-bingo"><span>Farmers Market Bingo</span></a></li></ul></li><li class=""><a class="" href="https://www.crescentcityfarmersmarket.org/events"><span>Events</span></a>
+
+
+<ul class="vertical menu align-center"><li class="first_child"><a href="https://www.crescentcityfarmersmarket.org/events/calendar"><span>Market Calendar</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/events/green-plate-special"><span>Green Plate Special</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/events/music-at-the-market"><span>Music at the Market</span></a></li><li class=""><a class="" href="https://www.crescentcityfarmersmarket.org/events/news"><span>Newsletter Archive</span></a></li><li class=""><a class="" href="https://www.crescentcityfarmersmarket.org/events/recipes"><span>Recipe Archive</span></a></li><li class="last_child"><a href="https://www.crescentcityfarmersmarket.org/events/recipe-of-the-week"><span>Recipe of the Week</span></a></li></ul></li><li class=""><a class="" href="https://www.crescentcityfarmersmarket.org/vendors"><span>Vendors</span></a>
+
+
+<ul class="vertical menu align-center"><li class="first_child"><a href="https://www.crescentcityfarmersmarket.org/vendors"><span>Vendor List</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/vendors/vendor-of-the-week"><span>Vendor of the Week</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/vendors/market-basics"><span>Market Basics</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/vendors/token-special-programs-policies"><span>Token &amp; Special Programs Policies</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/vendors/rules-and-regulations"><span>Rules and Regulations</span></a></li><li class="last_child"><a href="https://www.crescentcityfarmersmarket.org/vendors/become-a-vendor"><span>Become a Vendor</span></a></li></ul></li><li class="last_child "><a class="" href="https://www.crescentcityfarmersmarket.org/donate"><span>Support Us</span></a>
+
+
+<ul class="vertical menu align-center"><li class="first_child"><a href="https://www.crescentcityfarmersmarket.org/donate/friend"><span>Friend of the Crescent City Farmers Market</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/donate/crescent-fund"><span>Crescent Fund</span></a></li><li class=""><a href="https://www.crescentcityfarmersmarket.org/donate/contribute"><span>Looking for Other Ways to Contribute?</span></a></li><li class="last_child"><a href="https://www.crescentcityfarmersmarket.org/donate/volunteer"><span>Be a Volunteer</span></a></li></ul></li></ul></section></nav>
+</div>
+</div>
+
+<!-- end header -->
+
+<!-- gallery -->
+<!-- start gallery -->
+<div class="orbit" role="region" aria-label="Market Umbrella | Crescent City Farmers Market | Gallery" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+<ul class="orbit-container">
+<button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+<button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+<li class="orbit-slide">
+<img src="uploads/images/Gallery/gallery-01/2015-1.jpg" alt="Check out what’s fresh at the CCFM" />
+<figcaption class="orbit-caption"> Check out what’s fresh at the CCFM </figcaption>
+</li>
+<li class="orbit-slide">
+<img src="uploads/images/Gallery/gallery-01/2015-2.jpg" alt="Kid Chef Eliana visits the CCFM" />
+<figcaption class="orbit-caption"> Kid Chef Eliana visits the CCFM </figcaption>
+</li>
+<li class="orbit-slide">
+<img src="uploads/images/Gallery/gallery-01/2015-3.jpg" alt="Sunny day at the CCFM" />
+<figcaption class="orbit-caption"> Sunny day at the CCFM </figcaption>
+</li>
+<li class="orbit-slide">
+<img src="uploads/images/Gallery/gallery-01/2015-4.jpg" alt="Smiles are free at the CCFM" />
+<figcaption class="orbit-caption"> Smiles are free at the CCFM </figcaption>
+</li>
+<li class="orbit-slide">
+<img src="uploads/images/Gallery/gallery-01/2015-5.jpg" alt="Find some buds at the CCFM" />
+<figcaption class="orbit-caption"> Find some buds at the CCFM </figcaption>
+</li>
+
+</ul>
+</div>
+<!-- end gallery -->
+
+<div class="main">
+<!-- Market Umbrella | Crescent City Farmers Market -->
+<h2 class="line-title text-g">Ochsner, Wednesday Market</h2>
+<div class="grid-x grid-padding-x grid-padding-y grid-container">
+<div class="cell story">
+<h3><img src="assets/img/logos/ochsner-wednesday-market.svg" class="right" alt="Crescent City Farmers Market at Ochsner" />Next Market: July 31, 2019<br />3 pm to 7 pm</h3>
+<h4>Ochsner Rehabilitation Hospital</br />
+2614 Jefferson Hwy. at Maine St.</h4>
+<p>New to the Crescent City Farmers Market family is our first partnership with a hospital, and this market is all about health. Chock full of local produce, seafood, meats, dairy, honey, plant starts, prepared foods, and value-added foods, this market will feature cooking demonstrations by Eat Fit on the first Wednesday of every month, attendance by the LSU Ag Center Nutritionist, and health screenings at Ochsner’s O Bar and more. Join us Wednesdays from 3-7pm at 2614 Jefferson Highway in front of the Ochsner Rehabilitation Center. This market runs weekly on Wednesdays with a summer break for the months of August and September. Good nutrition is the best medicine!</p></div>
+</div>
+<h4 class="sub-title text-g">Map</h4>	
+<div class="grid-x grid-padding-x grid-padding-y grid-container">
+<div class="cell">
+<div class="card card-mo">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.6140222142913!2d-90.15623214832435!3d29.96177898182356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620bab21d72093f%3A0x70b947e557420fef!2sOchsner+Rehabilitation+Hospital!5e0!3m2!1sen!2sus!4v1554386919416!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>		
+</div>
+</div>
+<h4 class="sub-title text-g">Our Markets</h4>
+<div class="grid-x grid-padding-x grid-padding-y small-up-2 large-up-4">
+<div class="cell">
+<div class="card card-o">
+<div class="card-divider">
+<h5><span class="text-uc">Uptown</span><br>Tuesdays</h5>
+</div>
+<div class="card-section">
+<h4>July 30, 2019</h4>
+<h5>9 am to 1 pm</h5>
+<p>Uptown Square<br /> 200 Broadway St. at the River</p>
+<a class="button" href="uptown-tuesday-market">Learn more&hellip;</a>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="card card-bywater">
+<div class="card-divider">
+<h5><span class="text-uc">Bywater</span><br>Wednesdays</h5>
+</div>
+<div class="card-section">
+<h4>July 31, 2019</h4>
+<h5>3 pm to 7 pm</h5>
+<p>Rusty Rainbow <br />Chartres St. at Piety St.</p>
+<a class="button" href="bywater-wednesday-market">Learn more&hellip;</a>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="card card-ochsner">
+<div class="card-divider">
+<h5><span class="text-uc">Ochsner</span><br>Wednesdays</h5>
+</div>
+<div class="card-section">
+<h4>July 31, 2019</h4>
+<h5>3 pm to 7 pm</h5>
+<p>Ochsner Rehabilitation Hospital<br />2614 Jefferson Hwy. at Maine St.</p>
+<a class="button" href="ochsner-wednesday-market">Learn more&hellip;</a>
+</div>
+</div>
+</div>
+
+<div class="cell">
+<div class="card card-mg">
+<div class="card-divider">
+<h5><span class="text-uc">Mid-City</span><br>Thursdays</h5>
+</div>
+<div class="card-section">
+<h4>August 1, 2019</h4>
+<h5>3 pm to 7 pm</h5>
+<p>American Can Company <br />3700 Orleans Ave. at the Bayou</p>
+<a class="button" href="mid-city-thursday-market">Learn more&hellip;</a>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="card card-bucktown">
+<div class="card-divider">
+<h5><span class="text-uc">Bucktown</span><br>Fridays</h5>
+</div>
+<div class="card-section">
+<h4>July 26, 2019</h4>
+<h5>3 pm to 7 pm</h5>
+<p>Bucktown Harbor <br />325 Metairie Hammond Hwy.  at the Lake</p>
+<a class="button" href="bucktown-friday-market">Learn more&hellip;</a>
+</div>
+</div>
+</div> 	
+<div class="cell">
+<div class="card card-b">
+<div class="card-divider">
+<h5><span class="text-uc">Downtown</span><br>Saturdays</h5>
+</div>
+<div class="card-section">
+<h4>July 27, 2019</h4>
+<h5>8 am to 12 pm</h5>
+<p>Central Business District<br />750 Carondelet St. at Julia St.</p>
+<a class="button" href="downtown-saturday-market">Learn more&hellip;</a>
+</div>
+</div>
+</div>
+    	
+<div class="cell">
+<div class="card card-rivertown">
+<div class="card-divider">
+<h5><span class="text-uc">Rivertown</span><br>Saturdays</h5>
+</div>
+<div class="card-section">
+<h4>July 27, 2019</h4>
+<h5>9 am to 1 pm</h5>
+<p>LaSalle's Landing <br />Williams Blvd. at the River</p>
+<a class="button" href="rivertown-saturday-market">Learn more&hellip;</a>
+</div>
+</div>
+</div>
+
+<div class="cell">
+<div class="card card-g">
+<div class="card-divider">
+<h5><span class="text-uc">CCFM App</span><br>Download now!</h5>
+</div>
+<div class="card-section">
+<p><a href="http://onelink.to/6jt5y2"><img src="assets/img/squares/ccfm-app-220x220.jpg" alt="CCFM App"></a>Discover new vendors and pre-order your favorite goods before you even get to the market!</p>
+<a class="button" href="http://onelink.to/6jt5y2">Get the app!</a>
+</div>
+</div>
+</div>
+
+</div><h4 class="sub-title text-g">About Us</h4>
+<div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-2">
+	
+<div class="cell">
+<div class="card card-mb">
+<div class="card-divider">
+</div>
+<div class="card-section">
+<p><img src="assets/img/logos/market-umbrella-logo.svg" alt="Market Umbrella"><strong>Market Umbrella</strong> is an independent nonprofit 501(c)(3), based in New Orleans, whose mission is to cultivate the field of public markets for public good. Market Umbrella has operated the Crescent City Farmers Markets (CCFM) since 1995.</p>
+</div>
+</div>
+</div>
+	
+<div class="cell">
+<div class="card card-mg">
+<div class="card-divider">
+</div>
+<div class="card-section">
+<p><img src="assets/img/logos/crescent-city-farmers-market-logo.svg" alt="Crescent City Farmers Market">The <strong>Crescent City Farmers Market</strong> operates weekly year-round in four New Orleans neighborhoods. The CCFM hosts nearly 80 local small farmers, fishers and food producers, and more than 100,000 shoppers annually.</p>
+</div>
+</div>
+</div>
+	
+</div>
+</div>
+<!-- start footer -->
+<div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-3 footer">
+  		
+<div class="cell">
+<h5>Market Umbrella</h5>
+<p><a href="https://goo.gl/maps/DJBfQG2dxaQ2" target="_blank"><i class="fas fa-map-marker-alt"></i> 200 Broadway Street, Suite 107<br>
+New Orleans, Louisiana 70118, USA</a></p>
+<p><a href="tel:5048614485"><i class="fas fa-phone-square"></i> 504.861.4485</a> <span class="text-mo">|</span> <a href="tel:5048614488">504.861.4488</a></p>
+<p><a href="tel:5044951459"><i class="fas fa-mobile-alt"></i> 504.495.1459</a></p>
+<p><a href="mailto:markets@marketumbrella.org"><i class="fas fa-user-secret"></i> Email Us</a></p>
+</div>
+  		
+<div class="cell">
+<h5>Be Social</h5>
+<p><a href="calendar"><i class="fa fa-calendar"></i> Market Calendar</a></p>
+<p><a href="http://www.facebook.com/pages/Crescent-City-Farmers-Market/12780011170" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></p>
+<p><a href="http://instagram.com/crescentcityfarmersmkt" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></p>
+<p><a href="https://twitter.com/ccfmtweets" target="_blank"><i class="fab fa-twitter-square"></i> Twitter</a></p>
+<p><a href="privacy-policy" target="_blank"><i class="fas fa-key"></i> Market Umbrella Privacy Policy</a></p>
+
+</div>
+  		
+<div class="cell">
+<h5>Contribute</h5>
+<p><a data-open="offCanvasBottom">Donate</a></p>
+<p><a href="recipes">Share a Recipe</a></p>
+<p><a data-open="offCanvasLeft">Get Our E-Newsletter</a></p>
+<p><a href="volunteer">Volunteer</a></p>
+</div>
+  		  	
+</div>
+<!-- end footer -->
+</div><!-- end canvas -->
+</div><!-- end off-canvas wrapper -->
+<script src="assets/js/app.js"></script>
+<script src="https://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">// <![CDATA[
+_uacct = "UA-2061420-1";
+urchinTracker();
+// ]]></script>
+</body>
+</html>

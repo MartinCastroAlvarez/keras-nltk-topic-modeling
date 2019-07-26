@@ -1,0 +1,811 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>A Historic Luxury Hotel in New Orleans - Le Pavillon Hotel</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="ROBOTS" content="NOARCHIVE">
+<meta name="description" content="Discover a historic hotel in downtown New Orleans, with unparalleled service, luxurious accommodations and a central location near French Quarter attractions.">
+<meta property="og:image" content="https://www.lepavillon.com/images/le-pavillon-new-orleans.jpg">
+<meta property="og:title" content="Le Pavillon">
+<meta property="og:description" content="With genuine antiques and art that reflect our French roots, our centrally located New Orleans hotel offers guests an unparalleled lodging experience.">
+<script id="socialmjdata" type="application/ld+json">
+{
+ "@context": "http://schema.org",
+ "@type": "Hotel",
+ "name": "Le Pavillon Hotel",
+ "url": "https://www.lepavillon.com/",
+ "sameAs" : [
+"https://www.facebook.com/lepavillonneworleans/",
+"https://twitter.com/lepavillon",
+"https://foursquare.com/v/le-pavillon-hotel/4ad4c04af964a5208ef220e3",
+"https://www.tripadvisor.com/Hotel_Review-g60864-d89091-Reviews-Le_Pavillon_Hotel-New_Orleans_Louisiana.html",
+"https://www.yelp.com/biz/le-pavillon-hotel-new-orleans-5"
+  ],
+ 
+ "logo": "https://www.lepavillon.com/images/le-avillon-louisiana-logo.png",
+ "image": "https://www.lepavillon.com/images/le-avillon-louisiana-logo.png",
+ "address": {
+ "@type": "PostalAddress",
+ "streetAddress": "833 Poydras Street",
+ "addressLocality": "New Orleans",
+ "addressRegion": "LA",
+ "postalCode": "70112"
+ },
+ "geo": {
+ "@type": "GeoCoordinates",
+ "latitude": "29.950496",
+ "longitude": "-90.072769"
+ },
+ "telephone": "+1-504-581-3111",
+ "contactPoint": {
+ "@type": "ContactPoint",
+ "telephone": "+1-504-581-3111",
+ "email": "reservations@lepavillon.com",
+ "contactType": "Reservations and Booking"
+ }
+}
+</script>
+<link href="https://www.lepavillon.com/css/print.aspx" rel="stylesheet" type="text/css" media="print">
+<link rel="shortcut icon" href="https://www.lepavillon.com/favicon.ico">
+<!--[if IE]>
+<script src="https://www.lepavillon.com/js/html5.aspx"></script>
+<![endif]-->
+<script>var headSection3 = document.getElementsByTagName("head")[0];var elementCSS3 = document.createElement("link");elementCSS3.type = "text/css";elementCSS3.rel = "stylesheet";elementCSS3.href = "https://www.lepavillon.com/css/fonts.aspx";elementCSS3.media = "non-existant-media";headSection3.appendChild(elementCSS3);setTimeout(function () {elementCSS3.media = "all";});</script>
+<link href="https://www.lepavillon.com/dynamic/css/home-video.aspx" type="text/css" rel="stylesheet">
+<style>
+#header {
+  background: url("/images_noindex/header-text-bg.png") no-repeat scroll 389px bottom !important;
+  padding-left: 80px !important;
+}
+  	#middle2 {
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top: 114px;
+	position: relative;
+	width: 100%;
+}
+   #subnav {
+	right: 185px;
+}
+  .headbookbtn {
+	position: absolute;
+	right: 43px;
+	top: 21px;
+	width: 120px;
+}
+.headbookbtn a.button:link, .headbookbtn a.button:visited {
+
+}
+   .headbookbtn a.button:hover {
+
+}  
+ 
+</style>
+
+<script>
+  (function(h,o,t,j,a,r){
+    h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+    h._hjSettings={hjid:265009,hjsv:5};
+    a=o.getElementsByTagName('head')[0];
+    r=o.createElement('script');r.async=1;
+    r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+    a.appendChild(r);
+  })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+<script async="" src="https://integration.flip.to/TQC6M93"></script>
+<link rel='canonical' href='https://www.lepavillon.com'><meta name="generator" content="Milestone CMS 6.0"><script id="mjdata" type="application/ld+json">[{
+ "@context": "http://schema.org",
+ "@type": [
+  "WebPage"
+ ],
+ "dateCreated": "2019-07-11",
+ "dateModified": "2019-07-16",
+ "datePublished": "2019-07-21",
+ "name": "A Historic Luxury Hotel in New Orleans - Le Pavillon Hotel",
+ "description": "Discover a historic hotel in downtown New Orleans, with unparalleled service, luxurious accommodations and a central location near French Quarter attractions.",
+ "url": "https://www.lepavillon.com/",
+ "primaryImageOfPage": [
+  {
+   "@type": "ImageObject",
+   "contentUrl": "https://www.lepavillon.com/resourcefiles//grand-lobby_1.jpg",
+   "name": "Le Pavillon New Orleans",
+   "caption": "Le Pavillon New Orleans"
+  }
+ ],
+ "breadcrumb": [],
+ "text": ""
+},{
+ "@context": "http://schema.org",
+ "@type": "Hotel",
+ "name": "Le Pavillon Hotel",
+ "url": "https://www.lepavillon.com/",
+ "logo": "https://www.lepavillon.com/images/le-avillon-louisiana-logo.png",
+ "image": "https://www.lepavillon.com/images/le-avillon-louisiana-logo.png",
+ "contactPoint": {
+  "@type": "ContactPoint",
+  "telephone": "+1-504-581-3111",
+  "faxNumber": "504-620-4130",
+  "email": "reservations@lepavillon.com",
+  "contactType": "Reservations and Booking"
+ },
+ "telephone": "+1-504-581-3111",
+ "address": {
+  "@type": "PostalAddress",
+  "streetAddress": "833 Poydras Street",
+  "addressLocality": "New Orleans",
+  "addressRegion": "LA",
+  "postalCode": "70112"
+ },
+ "geo": {
+  "@type": "GeoCoordinates",
+  "latitude": "29.950496",
+  "longitude": "-90.072769"
+ }
+},{
+ "@context": "http://schema.org",
+ "@type": "WebSite",
+ "name": "Le Pavillon Hotel",
+ "alternateName": "Le Pavillon Hotel",
+ "url": "https://www.lepavillon.com/"
+}]</script><script>if (top.location.host != self.location.host) {
+  top.location = self.location;
+}
+</script></head>
+<body>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WKJ2BN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WKJ2BN');</script>
+
+
+
+<a class="ADAaccessible" href="javascript:void(0);">[Skip to Content]</a><a style="display: none;" href="https://www.lepavillon.com/privacy-policy">Privacy Policy</a>
+<div id="new-pop-up">
+<div class="popup-custom">
+<div class="inner-pop-up carouselitems">
+<h2>»»» Book Direct Special «««</h2>
+<div class="popup-text"><p>SAVE 30% OFF!</p>
+<p>&nbsp;</p>
+<p>Stay Dates: Now&nbsp;- September 30, 2019</p>
+</div>
+<div class="popup-booknow"><a href="https://gc.synxis.com/rez.aspx?Hotel=67833&Chain=5415&promo=TT20" class="button" target="_blank" rel="nofollow">BOOK NOW</a></div>
+<a class="close" href="javascript:void(0);" role="button"><span class="icon-close" aria-hidden="true"></span><span class="sr-only">Close</span></a> </div>
+</div>
+</div>
+<div id="overlay"></div>
+<a class="skip-to-content" href="#box">Skip To main Content</a>
+<div id="wrapper">
+
+<div id="main">
+<header> <div id="logo">
+<a href="https://www.lepavillon.com/" aria-label="Le Pavillon Hotel - logo">
+<img aria-hidden="true" alt="Le Pavillon Hotel - 833 Poydras Street, New Orleans, LA 70112" src="https://www.lepavillon.com/images/le-avillon-louisiana-logo.png" height="104" width="132"></a>
+</div>
+
+<div id="subnav">
+<ul class="subnav" role="navigation" aria-label="Sub">
+<li class="sub-why"> <a href="https://www.lepavillon.com/why-book-direct" title="Why Book Direct" class="nav">Why Book Direct</a> </li>
+
+
+<li class="sub-factsheet"><a href="https://www.lepavillon.com/fact-sheet" title="Fact Sheet" class="nav"> Fact Sheet</a></li>
+<li class="sub-eventcalnder"><a href="https://www.lepavillon.com/events" title="Event Calendar" class="nav">Event Calendar</a></li>
+<li class="sub-reviews"><a href="https://www.lepavillon.com/guest-reviews" title="Guest Reviews" class="nav">Guest Reviews</a></li>
+<li class="sub-email"><a href="https://www.lepavillon.com/email-sign-up" title="Email Sign Up" class="nav">Email Sign Up</a></li>
+<li class="sub-faqs"><a href="https://www.lepavillon.com/faq" title="FAQs" class="nav">FAQs</a></li>
+<li class="sub-contact"><a href="https://www.lepavillon.com/contact" title="Contact" class="nav">Contact</a></li>
+<li class="sub-careers"><a href="https://www.lepavillon.com/careers" title="Careers" class="nav">Careers</a></li>
+</ul>
+</div>
+<div class="headbookbtn"><a href="https://www.lepavillon.com/tracking/click-reservation.aspx" class="button" target="_blank">Book Now</a></div>
+<div id="nav">
+<nav id="topnav">
+<ul class="topnav" role="navigation" aria-label="Main">
+<li class="home-mobile"><a href="https://www.lepavillon.com/" class="nav">Home</a></li>
+<li class="home submenulist"><a href="https://www.lepavillon.com/about" class="nav"><span class="icon-home" aria-hidden="true"></span>About</a> <span class="arrpw-bdr"></span> <span class="nav-arrow icon-downArrow2"></span>
+<ul class="about dropnav" style="display:none;">
+<li> <a href="https://www.lepavillon.com/location" class="nav"> Location </a> </li>
+
+<li> <a href="https://www.lepavillon.com/services" class="nav"> Services </a> </li>
+<li> <a href="https://www.lepavillon.com/international-traveler" class="nav"> International Traveler </a> </li>
+</ul>
+</li>
+<li class="rooms"> <a href="https://www.lepavillon.com/suites" class="nav"><span class="icon-rooms" aria-hidden="true"></span>Accommodations</a> </li>
+<li class="meetings submenulist"> <a href="https://www.lepavillon.com/meetings-weddings" class="nav"><span class="icon-briefcase" aria-hidden="true"></span>Meetings & Weddings</a><span class="arrpw-bdr"></span><span class="nav-arrow icon-downArrow2"></span>
+<ul class="meeting dropnav" style="display:none;">
+<li><a class="nav" href="https://www.lepavillon.com/meetings-weddings/meetings">Meetings</a> </li>
+<li> <a href="https://www.lepavillon.com/meetings-weddings/floor-plans" class="nav">Floor Plans </a> </li>
+<li> <a href="https://www.lepavillon.com/meetings-weddings/catering-menus" class="nav">Catering Menus</a> </li>
+<li> <a href="https://www.lepavillon.com/meetings-weddings/weddings" class="nav">Weddings</a></li>
+</ul>
+</li>
+<li class="dining"> <a href="https://www.lepavillon.com/dining" class="nav"><span class="icon-food" aria-hidden="true"></span>Dining</a> </li>
+<li class="thingstodo submenulist"> <a href="https://www.lepavillon.com/things-to-do" class="things nav"> <span class="icon-passport" aria-hidden="true"></span>Things To Do</a> <span class="arrpw-bdr"></span><span class="nav-arrow icon-downArrow2"></span>
+<ul class="ttd dropnav" style="display:none;">
+<li> <a href="https://www.lepavillon.com/things-to-do/national-wwii-museum" class="nav"> National WWII Museum </a> </li>
+
+<li> <a href="https://www.lepavillon.com/things-to-do/new-orleans-city-park" class="nav"> New Orleans City Park </a> </li>
+<li> <a href="https://www.lepavillon.com/things-to-do/jackson-square" class="nav">Jackson Square & St. Louis Cathedral </a> </li>
+<li> <a href="https://www.lepavillon.com/things-to-do/frenchmen-street" class="nav"> Frenchmen Street </a> </li>
+<li> <a href="https://www.lepavillon.com/things-to-do/arenas-and-stadiums" class="nav">Arenas & Stadiums</a> </li>
+<li> <a href="https://www.lepavillon.com/things-to-do/audubon-aquarium-of-the-americas" class="nav">Audubon Aquarium of the Americas </a> </li>
+<li> <a href="https://www.lepavillon.com/things-to-do/bourbon-street" class="nav">Bourbon Street & French Quarter</a> </li>
+<li> <a href="https://www.lepavillon.com/things-to-do/new-orleans-shopping-centers" class="nav">New Orleans Shopping Centers</a> </li>
+<li> <a href="https://www.lepavillon.com/things-to-do/new-orleans-museum-of-art" class="nav">New Orleans Museum of Art</a> </li>
+<li> <a href="https://www.lepavillon.com/things-to-do/garden-district" class="nav">Garden District</a> </li>
+<li> <a href="https://www.lepavillon.com/things-to-do/mardi-gras" class="nav">Mardi Gras</a> </li>
+<li> <a href="https://www.lepavillon.com/things-to-do/audubon-park" class="nav">Audubon Park</a> </li>
+<li> <a href="https://www.lepavillon.com/things-to-do/audubon-zoo" class="nav">Audubon Zoo</a> </li>
+<li> <a href="https://www.lepavillon.com/things-to-do/new-orleans-jazz-heritage-festival" class="nav">New Orleans Jazz & Heritage Festival</a> </li>
+<li> <a href="https://www.lepavillon.com/things-to-do/universities-nearby" class="nav">Universities Nearby</a> </li>
+<li> <a href="https://www.lepavillon.com/things-to-do/annual-events" class="nav">Annual Events</a> </li>
+<li> <a href="https://www.lepavillon.com/things-to-do/crescent-city-classic-new-orleans" class="nav">Crescent City Classic in New Orleans</a> </li>
+<li><a class="nav" href="https://www.lepavillon.com/things-to-do/the-escape-game-new-orleans">The Escape Game New Orleans</a></li>
+</ul>
+</li>
+<li class="photo-gallery"> <a href="https://www.lepavillon.com/photo-gallery" class="nav"><span class="icon-camera" aria-hidden="true"></span>Photo Gallery</a> </li>
+<li class="pkg"> <a href="https://www.lepavillon.com/special-pkg" class="nav"><span class="icon-gift" aria-hidden="true"></span>Packages</a> </li>
+</ul>
+<div class="clear"></div>
+</nav>
+</div>
+</header>
+</div>
+
+
+<div id="middle2">
+<div id="mainimage2" class="flexslider home-mainimage-outersec"><div class="main-slider" tabindex="0"><div class="item vimeo carouselitems">
+<iframe class="embed-player slide-media" data-iframe="https://player.vimeo.com/video/343024141?api=1&player_id=player1&muted=1" allowfullscreen="" allow="autoplay"></iframe>
+<a class="playclick caption"><span class="icon-play2"></span><span class="icon-pause"></span></a>
+</div> <div class="item image" aria-hidden="false">
+<span class="loading">Loading...</span>
+<figure>
+<div class="slide-image slide-media" style="background-image:url('https://www.lepavillon.com/resourcefiles/homeimages/grand-lobby_1.jpg');">
+<img data-lazy="https://www.lepavillon.com/resourcefiles/homeimages/grand-lobby_1.jpg" src="https://www.lepavillon.com/resourcefiles/homeimages/grand-lobby_1.jpg" class="image-entity" alt="Le Pavillon New Orleans">
+</div>
+<div class="caption-data desktop-caption carouselitems"><div class="slider-caption"><div class="small-title"></div><div class="big-slider-title"></div></div></div>
+</figure>
+</div> <div class="item image" aria-hidden="false">
+<span class="loading">Loading...</span>
+<figure>
+<div class="slide-image slide-media" style="background-image:url('https://www.lepavillon.com/resourcefiles/homeimages/restaurant-dining_1.jpg');">
+<img data-lazy="https://www.lepavillon.com/resourcefiles/homeimages/restaurant-dining_1.jpg" src="https://www.lepavillon.com/resourcefiles/homeimages/restaurant-dining_1.jpg" class="image-entity" alt="Le Pavillon New Orleans">
+</div>
+<div class="caption-data desktop-caption carouselitems"><div class="slider-caption"><div class="small-title"></div><div class="big-slider-title"></div></div></div>
+</figure>
+</div> <div class="item image" aria-hidden="false">
+<span class="loading">Loading...</span>
+<figure>
+<div class="slide-image slide-media" style="background-image:url('https://www.lepavillon.com/resourcefiles/homeimages/guestroom-new-2016.jpg');">
+<img data-lazy="https://www.lepavillon.com/resourcefiles/homeimages/guestroom-new-2016.jpg" src="https://www.lepavillon.com/resourcefiles/homeimages/guestroom-new-2016.jpg" class="image-entity" alt="Le Pavillon New Orleans">
+</div>
+<div class="caption-data desktop-caption carouselitems"><div class="slider-caption"><div class="small-title"></div><div class="big-slider-title"></div></div></div>
+</figure>
+</div> <div class="item image" aria-hidden="false">
+<span class="loading">Loading...</span>
+<figure>
+<div class="slide-image slide-media" style="background-image:url('https://www.lepavillon.com/resourcefiles/homeimages/rooftop-pool_1.jpg');">
+<img data-lazy="https://www.lepavillon.com/resourcefiles/homeimages/rooftop-pool_1.jpg" src="https://www.lepavillon.com/resourcefiles/homeimages/rooftop-pool_1.jpg" class="image-entity" alt="Le Pavillon New Orleans">
+</div>
+<div class="caption-data desktop-caption carouselitems"><div class="slider-caption"><div class="small-title"></div><div class="big-slider-title"></div></div></div>
+</figure>
+</div> <div class="item image" aria-hidden="false">
+<span class="loading">Loading...</span>
+<figure>
+<div class="slide-image slide-media" style="background-image:url('https://www.lepavillon.com/resourcefiles/homeimages/le-pavillon-exterior_1.jpg');">
+<img data-lazy="https://www.lepavillon.com/resourcefiles/homeimages/le-pavillon-exterior_1.jpg" src="https://www.lepavillon.com/resourcefiles/homeimages/le-pavillon-exterior_1.jpg" class="image-entity" alt="Le Pavillon New Orleans">
+</div>
+<div class="caption-data desktop-caption carouselitems"><div class="slider-caption"><div class="small-title"></div><div class="big-slider-title"></div></div></div>
+</figure>
+</div></div></div>
+
+<div id="promotion">
+<div class="promotion-inner">
+<div class="banner-socialmedia"><div class="social-media-wrap">
+<div class="title-f st-f">Stay Connected</div>
+<div class="social-media">
+<ul role="navigation" aria-label="Social Links">
+<li> <a class="fb" target="_blank" href="https://www.facebook.com/pages/Le-Pavillon-Hotel/91915672954" rel="nofollow"><span class="icon-facebook4 icon-s" aria-hidden="true"></span><span class="text-soc">Facebook</span> </a> </li>
+<li> <a class="insta" target="_blank" href="https://www.instagram.com/lepavillonnola/" rel="nofollow"><span class="icon-instagram22 icon-s" aria-hidden="true"></span><span class="text-soc">Instagram</span></a> </li>
+<li> <a class="tw" target="_blank" href="https://twitter.com/lepavillon" rel="nofollow"><span class="icon-twitter4 icon-s" aria-hidden="true"></span><span class="text-soc">Twitter</span></a> </li>
+
+<li> <a class="yp" target="_blank" href="https://www.yelp.com/biz/le-pavillon-hotel-new-orleans" rel="nofollow"><span class="icon-yelp icon-s" aria-hidden="true"></span><span class="text-soc">Yelp</span> </a> </li>
+<li> <a class="trip" target="_blank" href="https://www.tripadvisor.com/Hotel_Review-g60864-d89091-Reviews-Le_Pavillon_Hotel-New_Orleans_Louisiana.html" rel="nofollow"><span class="icon-tripAdvisor icon-s" aria-hidden="true"></span><span class="text-soc">Tripadvisor</span> </a> </li>
+</ul>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<div class="promotion-wrap carouselitems">
+<div class="pro-left"><span>Park, Dine & Stay Package</span></div>
+<div class="pro-right">
+<div class="pro-text"><p>&nbsp;&nbsp;</p>
+<p>Stay Dates: August - September 2019</p>
+<p>&nbsp; &nbsp; &nbsp;&nbsp;</p>
+</div>
+<div class="pro-btn"><a href="https://gc.synxis.com/rez.aspx?Hotel=67833&Chain=5415&promo=BRKPRK" class="button" target="_blank" rel="nofollow">Book Special</a></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+</div>
+
+
+<div id="contentinfo">
+<div id="container">
+<div id="content">
+<div id="header"><span>Welcome to</span>Le Pavillon New Orleans</div>
+
+<div class="socialmediabuttons_wrap">
+<ul class='socialmediabuttons'>
+<li><div class="fb-like" data-width="120" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></li>
+<li><div id="gplus"><div class="g-plusone" data-size="medium"></div></div></li>
+</ul>
+</div>
+<div id="box"><article class="box2 text-center">
+<h1>A New Orleans Hotel That Radiates History</h1>
+Le Pavillon&nbsp;hotel&nbsp;is in the heart of New Orleans conveniently located in the&nbsp;Central Business District, a short stroll to the French Quarter, Riverfront attractions, Convention Center, Superdome and major shopping.&nbsp;From our standard hotel rooms to the Presidential Suite, guests enjoy wonderful amenities and services in a beautiful setting. Listed on the National Register of Historic Places, our hotel is furnished with exquisite antiques and works of art. Dine in our signature restaurant, Bijoux at Le Pavillon, or in the comfort of your guest accommodations. Spend a day relaxing by the rooftop swimming pool or take part in the many annual festivals that happen in New Orleans, such as Mardi Gras​, Jazz Fest and Christmas New Orleans Style. Our concierge will be happy to assist you with your New Orleans sightseeing plans. If you&#39;re planning a New Orleans event, our elegant, flexible meeting venues are perfect for wedding receptions, business conferences and everything in between.<br>
+&nbsp;</article>
+</div>
+</div>
+<div class="clear"> </div>
+</div>
+<div class="homesection-1"><div id="special-packages"> <div class="spsliderbg" id="sp-holder"><ul id="pkg-slider"> <li class="carouselitems">
+<div class="packages-img">
+<img width="350" height="308" alt="French Quarter Web Special Package at Le Pavillon, Louisiana" src="https://www.lepavillon.com/resourcefiles/spnav/stay-more-save-more.jpg">
+</div>
+<div class="packages-text"><div class="packages-text-inner"><a href="https://www.lepavillon.com/special-pkg"><span>Stay More</span>Save More</a> </div></div>
+</li> <li class="carouselitems">
+<div class="packages-img">
+<img width="350" height="308" alt="Big Easy Package, New Orleans Hotel" src="https://www.lepavillon.com/resourcefiles/spnav/b-and-b.jpg">
+</div>
+<div class="packages-text"><div class="packages-text-inner"><a href="https://gc.synxis.com/rez.aspx?Hotel=67833&Chain=5415&promo=BANB" target="_blank" rel="nofollow"><span>Bed & Breakfast</span>Package</a> </div></div>
+</li> <li class="carouselitems">
+<div class="packages-img">
+<img width="350" height="308" alt="Le Pavillon New Orleans Vacation Package" src="https://www.lepavillon.com/resourcefiles/spnav/grand-stairway-.jpg">
+</div>
+<div class="packages-text"><div class="packages-text-inner"><a href="https://www.lepavillon.com/special-pkg"><span>Advanced Purchase</span> Rates</a> </div></div>
+</li> <li class="carouselitems">
+<div class="packages-img">
+<img width="350" height="308" alt="Le Pavillon Things To Do In New Orleans" src="https://www.lepavillon.com/resourcefiles/spnav/nola-romance.jpg">
+</div>
+<div class="packages-text"><div class="packages-text-inner"><a href="https://www.lepavillon.com/special-pkg"><span>NOLA</span> Romance</a> </div></div>
+</li> </ul> </div></div> </div>
+<div class="qouates-wrap">
+<div class="home-qouates">
+<div class="carouselitems">
+<div class="quotes-desc"><span class="colon-qouates"></span>Enjoy luxurious accommodations and modern amenities at our historic New Orleans hotel<span class="colon-qouates1"></span></div>
+</div>
+</div>
+</div>
+<div class="homesection-2">
+<div class="home-section-inner">
+
+<div id="top-reasons"><div class="reasons-titletext holder-title-common">top reasons to stay</div> <div class="reasonssliderbg" id="spholder"> <ul class="reason-slider"> <li class="carouselitems">
+<div class="reasons-text"><div class="reasons-text-inner"><a href="https://www.lepavillon.com/about">Nearby the French Quarter Our Historic Hotel Is Exemplar of New Orleans Heritage.</a> </div> </div>
+
+</li>
+<li class="carouselitems">
+<div class="reasons-text"><div class="reasons-text-inner"><a href="https://www.lepavillon.com/suites">Choose From a Variety of Suites and Room Types In The Style Of Local New Orleans Or Specific Time Era.</a> </div> </div>
+
+</li>
+<li class="carouselitems">
+<div class="reasons-text"><div class="reasons-text-inner"><a href="https://www.lepavillon.com/things-to-do">With Bourbon Street and Jackson Square Nearby There Is Never a Shortage of Things To Do in New Orleans.</a> </div> </div>
+
+</li>
+<li class="carouselitems">
+<div class="reasons-text"><div class="reasons-text-inner"><a href="https://www.lepavillon.com/dining">Bijoux at Le Pavillon Boasts Award Winning Dining Featuring French, Louisiana Infused, Cuisine.</a> </div> </div>
+
+</li>
+<li class="carouselitems">
+<div class="reasons-text"><div class="reasons-text-inner"><a href="https://www.lepavillon.com/meetings-weddings">A variety of functional and elegant meeting spaces from large ballrooms to an intimate terrace space.</a> </div> </div>
+
+</li>
+</ul> </div></div>
+<div id="room-special" onclick="location.href='https://www.lepavillon.com/why-book-direct'">
+<div class="room-titletext holder-title-common"><a href="https://www.lepavillon.com/why-book-direct">Why Book Direct</a></div>
+<div class="carouselitems">
+<div class="roombg">
+<div class="room-decription"><ul class="padbottom">
+<li>Lowest Rates Guaranteed</li><li>Safe &amp; Secure Online Reservations<br></li>
+<li>Guaranteed Reservations </li>
+</ul></div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+</div>
+
+<div id="note">
+<footer class="footer-warp"> <div class="googleaddress">
+<div class="google-vcard">
+<div class="vcard-align"> </div>
+<div class="title-f">Contact</div>
+<span class="hotelname org"> <span>Le Pavillon Hotel</span> </span> <span style="display: none;">Located at</span>
+<div>
+<a href="https://www.lepavillon.com/location"><div class="adr"> <span class="street-address">833 Poydras Street</span>, <span class="locality">New Orleans</span>, <span class="f-address"> <span class="region">LA</span> <span>70112</span> </span> </div></a>
+<span class="pipe mobilefooterpipeblock1">&nbsp; | &nbsp;</span>
+<div class="geo-f">
+</div>
+<span class="ph-f">Phone: <span class="tel fontbold spbold"><a href="tel:504-581-3111" data-phonenumber="property-phone" target="_blank" rel="nofollow">504-581-3111</a></span><br>
+<span class="pipe mobilefooterpipeblock1">&nbsp; | &nbsp;</span> </span>
+<span class="ph-f">Reservations: <span class="tel fontbold spbold">844-656-8636</span><br>
+<span class="pipe mobilefooterpipeblock1 mobilefooterpipeblock2 ">&nbsp; | &nbsp;</span> </span>
+<span class="fa-f">Fax: <span class="fontbold spbold">504-620-4130</span></span> </div>
+Email: <a href="/cdn-cgi/l/email-protection#106275637562667164797f7e63507c75607166797c7c7f7e3e737f7d" rel="nofollow"><span class="__cf_email__" data-cfemail="b1c3d4c2d4c3c7d0c5d8dedfc2f1ddd4c1d0c7d8dddddedf9fd2dedc">[email&#160;protected]</span></a><br>
+<span class="pipe mobilefooterpipeblock1">&nbsp; | &nbsp;</span><a href="https://www.lepavillon.com/" class="url">https://www.lepavillon.com/</a><br>
+<span class="hid2-f"></span>
+<div class="review-f"></div>
+<div class="hid-f">
+<div class="clear"></div>
+</div>
+</div>
+
+<div class="clear"></div>
+</div>
+<div class="footerLink"> <div class="social-media-wrap">
+<div class="title-f st-f">Stay Connected</div>
+<div class="social-media">
+<ul role="navigation" aria-label="Social Links">
+<li> <a class="fb" target="_blank" href="https://www.facebook.com/pages/Le-Pavillon-Hotel/91915672954" rel="nofollow"><span class="icon-facebook4 icon-s" aria-hidden="true"></span><span class="text-soc">Facebook</span> </a> </li>
+<li> <a class="insta" target="_blank" href="https://www.instagram.com/lepavillonnola/" rel="nofollow"><span class="icon-instagram22 icon-s" aria-hidden="true"></span><span class="text-soc">Instagram</span></a> </li>
+<li> <a class="tw" target="_blank" href="https://twitter.com/lepavillon" rel="nofollow"><span class="icon-twitter4 icon-s" aria-hidden="true"></span><span class="text-soc">Twitter</span></a> </li>
+
+<li> <a class="yp" target="_blank" href="https://www.yelp.com/biz/le-pavillon-hotel-new-orleans" rel="nofollow"><span class="icon-yelp icon-s" aria-hidden="true"></span><span class="text-soc">Yelp</span> </a> </li>
+<li> <a class="trip" target="_blank" href="https://www.tripadvisor.com/Hotel_Review-g60864-d89091-Reviews-Le_Pavillon_Hotel-New_Orleans_Louisiana.html" rel="nofollow"><span class="icon-tripAdvisor icon-s" aria-hidden="true"></span><span class="text-soc">Tripadvisor</span> </a> </li>
+</ul>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<div class="ftr-rightcontent ftr-rightcontent3">
+<div class="title-f sub-f">Subscribe</div>
+<div class="ftr-txt">Enter your email below to receive our awesome hotel deals right in your inbox! </div>
+<a href="https://www.lepavillon.com/email-sign-up" class="button signup-btn" id="quick-signup2">Sign Up For offers</a>
+</div>
+
+<div class="popular-links"> <div class="title-f pl-f">Popular Links</div> <ul class="footer-ul" role="navigation" aria-label="Popular links"><li class="f-link1 carouselitems">
+<a href="https://www.lepavillon.com/location" class="nav">Location</a>
+</li><li class="f-link2 carouselitems">
+<a href="https://www.lepavillon.com/suites" class="nav">Accommodations</a>
+</li><li class="f-link3 carouselitems">
+<a href="https://www.lepavillon.com/dining" class="nav">Dining</a>
+</li><li class="f-link4 carouselitems">
+<a href="https://www.lepavillon.com/meetings-weddings" class="nav">Meetings and Weddings</a>
+</li><li class="f-link5 carouselitems">
+<a href="https://www.lepavillon.com/things-to-do" class="nav">Things To Do</a>
+</li><li class="f-link6 carouselitems">
+<a href="https://www.lepavillon.com/special-pkg" class="nav">Specials & Packages</a>
+</li></ul> </div>
+<div class="information"><div class="title-f inf-f">Information</div> <ul class="footer-ul" role="navigation" aria-label="Information links"><li id="info2" class="carouselitems">
+<a href="https://www.lepavillon.com/contact" class="nav">Contact</a>
+</li><li id="info3" class="carouselitems">
+<a href="https://www.lepavillon.com/photo-gallery" class="nav">Photo Gallery</a>
+</li><li id="info4" class="carouselitems">
+<a href="https://www.lepavillon.com/guest-reviews" class="nav">Guest Reviews</a>
+</li><li id="info5" class="carouselitems">
+<a href="https://www.lepavillon.com/privacy-policy" class="nav">Privacy Policy</a>
+</li><li id="info6" class="carouselitems">
+<a href="https://www.lepavillon.com/careers" class="nav">Careers</a>
+</li><li id="info8" class="carouselitems">
+<a href="https://www.lepavillon.com/site-map" class="nav">Site Map</a>
+</li><li id="info10" class="carouselitems">
+<a href="https://www.lepavillon.com/ada-website-conformance" class="nav">ADA Website Conformance</a>
+</li><li id="info11" class="carouselitems">
+<a href="https://www.lepavillon.com/press-room" class="nav">Press Room</a>
+</li></ul> </div>
+<div class="clear"></div>
+<div id="tripexpert-scripts" aria-hidden="true">
+
+
+<div class="traveler"><img src="https://www.lepavillon.com/images_noindex/traveler-award.png" title="" alt="Traveler Award 2018" height="131" width="131"></div>
+<div class="tripexpert-best">
+<a href="https://www.tripexpert.com/new-orleans/hotels/le-pavillon-hotel" target="_blank" rel="nofollow"><img width="115" height="115" alt="Best of New Orleans" title="" src="https://www.lepavillon.com/images_noindex/best.png"></a>
+</div>
+<div class="tripexpert-choice">
+<a href="https://www.tripexpert.com/new-orleans/hotels/le-pavillon-hotel" target="_blank" rel="nofollow"><img width="115" height="114" alt="Experts Choice" title="" src="https://www.lepavillon.com/images_noindex/expert.png"></a>
+</div>
+
+
+<div class="historichotels"> <a href="http://www.historichotels.org/" target="_blank" rel="nofollow"><img class="" src="https://www.lepavillon.com/images_noindex/historichotels.png" title="" alt="Historic Hotels of America" width="148" height="50"></a> </div>
+<div class="four-diomand"><img src="https://www.lepavillon.com/images_noindex/aaa-four-diamond.png" title="" alt="AAA Four Diamond Award" width="155" height="125"></div>
+<div class="hhwbw"><a href="https://www.historichotelsworldwide.com/" target="_blank"><img src="https://www.lepavillon.com/images_noindex/historichotelsworldwide-logo.png" alt="Historic Hotels Worldwide" width="300" height="83"></a></div>
+<div class="clear"></div>
+</div>
+</footer>
+</div>
+
+<div id="owner"></div>
+<a id="backtotop" href="javascript:;" role="button"><span class="icon-arrow-up2" aria-hidden="true"></span><span class="sr-only">Scroll to top</span></a>
+</div>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+document.write(unescape("%3Cscript src='https://www.lepavillon.com/dynamic/js/home-video.aspx' type='text/javascript'%3E%3C/script%3E"));</script>
+<script>
+var meetingRFPCaptcha, dformQuickRFPCaptcha, eventRFPCaptcha;
+   var onloadCallback = function() {    
+
+if(document.getElementById("contactform-captcha")) {
+	var contactformCaptcha= grecaptcha.render('contactform-captcha', {
+     'sitekey' : '6Ld4UEwUAAAAAIzSwNOB87Cwj1e1A9VPFmd4i2hF',
+    });
+}
+if(document.getElementById("mainRFPForm-captcha")) {
+	var mainRFPFormCaptcha= grecaptcha.render('mainRFPForm-captcha', {
+     'sitekey' : '6Ld4UEwUAAAAAIzSwNOB87Cwj1e1A9VPFmd4i2hF',
+    });
+}
+
+if(document.getElementById("rfpForm-captcha")) {
+	var rfpFormCaptcha= grecaptcha.render('rfpForm-captcha', {
+     'sitekey' : '6Ld4UEwUAAAAAIzSwNOB87Cwj1e1A9VPFmd4i2hF',
+    });
+}
+if(document.getElementById("beachBbqForm-captcha")) {
+	var beachBbqFormCaptcha= grecaptcha.render('beachBbqForm-captcha', {
+     'sitekey' : '6Ld4UEwUAAAAAIzSwNOB87Cwj1e1A9VPFmd4i2hF',
+    });
+}
+
+if(document.getElementById("commentsPostForm-captcha")) {
+	var commentsPostFormCaptcha= grecaptcha.render('commentsPostForm-captcha', {
+     'sitekey' : '6Ld4UEwUAAAAAIzSwNOB87Cwj1e1A9VPFmd4i2hF',
+    });
+}
+
+if(document.getElementById("weddingForm-captcha")) {
+	var weddingRFPCaptcha= grecaptcha.render('weddingForm-captcha', {
+     'sitekey' : '6Ld4UEwUAAAAAIzSwNOB87Cwj1e1A9VPFmd4i2hF',
+    });
+}
+if(document.getElementById("meetingRFP-captcha")) {
+	var meetingRFPCaptcha= grecaptcha.render('meetingRFP-captcha', {
+     'sitekey' : '6Ld4UEwUAAAAAIzSwNOB87Cwj1e1A9VPFmd4i2hF',
+    });
+}
+if(document.getElementById("email_offer_form2-captcha")) {
+	var eventRFPCaptcha= grecaptcha.render('email_offer_form2-captcha', {
+     'sitekey' : '6Ld4UEwUAAAAAIzSwNOB87Cwj1e1A9VPFmd4i2hF',
+    });
+}
+
+if(document.getElementById("emailOfferForm-captcha")) {
+	var eventRFPCaptcha= grecaptcha.render('emailOfferForm-captcha', {
+     'sitekey' : '6Ld4UEwUAAAAAIzSwNOB87Cwj1e1A9VPFmd4i2hF',
+    });
+}
+   };
+  </script>
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async="" defer=""></script>
+<!--[if lt IE 7]>
+<script type="text/javascript" src="https://www.lepavillon.com/js/DD_belatedPNG.aspx"></script>
+<script>
+DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+<a href="https://www.lepavillon.com/tracking/click-floating-book-now.aspx" id="floatingbooknow" class="button">Book Now</a>
+
+<script>
+ (function () {
+  
+  var params = {};
+
+  /* Please do not modify the below code. */
+  var cid = [];
+  var paramsArr = [];
+  var cidParams = [];
+  var pl = document.createElement('script');
+  var defaultParams = {"vid":"hot"};
+  for(key in defaultParams) { params[key] = defaultParams[key]; };
+  for(key in cidParams) { cid.push(params[cidParams[key]]); };
+  params.cid = cid.join('|');
+  for(key in params) { paramsArr.push(key + '=' + encodeURIComponent(params[key])) };
+  pl.type = 'text/javascript';
+  pl.async = true;
+  pl.src = 'https://beacon.sojern.com/pixel/p/33028?f_v=v6_js&p_v=1&' + paramsArr.join('&');
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(pl);
+ })();
+</script>
+
+<input type='hidden' id='hdnparentpageid' value='0'><input type='hidden' id='hdnpageid' value='118643'><input type='hidden' id='hdntemplatename' value='Home-Video.aspx'><input type='hidden' id='hdnpagealias' value='milestone'><input type='hidden' id='hdnclientaccess' value='0'><input type='hidden' id='hdndevicetype' value='desktop'><input type='hidden' id='hdntabletdetection' value='2'><input type='hidden' id='hdnmobiledetection' value='2'><input type='hidden' id='hdnismobile' value='0'><input type='hidden' id='hdnpagemoderationid' value='0'><input type='hidden' id='hdnclientmoderation' value=''><input type='hidden' id='hdndifferenttabletcontent' value='0'><input type='hidden' id='hdndifferentmobilecontent' value='0'><input type='hidden' id='hdnusertypeid' value=''><input type='hidden' id='hdnmilestoneSiteID' value='2293'><input type='hidden' id='hdnlanguagepages' value='{"languagepages":[{"en": "https://www.lepavillon.com/milestone"}]}'><input type='hidden' id='hdnmemberemail' value=''><input type='hidden' id='hdnmembername' value=''><input type='hidden' id='hdnexternalpage' value='0'><input type='hidden' id='hdnpagestatus' value='1'><script id="msLoadDefer">
+var allImgTags = null;
+var eleImg = null;
+allImgTags = document.getElementsByTagName("img");
+function imgInViewport(el) {
+ var top = el.offsetTop;
+ var left = el.offsetLeft;
+ var width = el.offsetWidth;
+ var height = el.offsetHeight;
+
+ while(el.offsetParent) {
+  el = el.offsetParent;
+  top += el.offsetTop;
+  left += el.offsetLeft;
+ }
+
+ return (
+  top < (window.pageYOffset + window.innerHeight) &&
+  left < (window.pageXOffset + window.innerWidth) &&
+  (top + height) > window.pageYOffset &&
+  (left + width) > window.pageXOffset
+ );
+}
+setTimeout(function(){
+	
+	for(i=0;i<allImgTags.length;i++)
+	{
+		 if (allImgTags[i].getAttribute('data-mimg'))
+			{
+			allImgTags[i].setAttribute('src',allImgTags[i].getAttribute('data-mimg'));
+			allImgTags[i].removeAttribute("data-mimg");
+			}
+		 
+		
+	}
+	
+	},3000);
+window.onscroll = function() {
+	
+	for(i=0;i<allImgTags.length;i++)
+	{
+		 if (allImgTags[i].getAttribute('data-mimg')&& imgInViewport(allImgTags[i]) )
+			{
+			allImgTags[i].setAttribute('src',allImgTags[i].getAttribute('data-mimg'));
+			allImgTags[i].removeAttribute("data-mimg");
+			}
+		 
+		
+	}
+	
+}
+</script>
+<script id="msCookiePolicy">
+var CookieBanner = null;
+/* window.onload = function() { 
+  "use strict"; */ 
+  CookieBanner = {
+
+		moveToTop_msCookieBanner : function ()
+		{
+				if (document.getElementById("msCookieBanner"))			
+				if (window.getComputedStyle(document.getElementById("msCookieBanner"),null).getPropertyValue('position') == 'fixed')
+				{
+				var elems = document.body.getElementsByTagName("*");
+				var len = elems.length;
+				
+				for (var i=0;i<len;i++) {
+					
+					var condition1 = false;
+					var condition2 = false;
+					
+					 try { 
+					
+					if (window.getComputedStyle(elems[i],null).getPropertyValue('position') == 'fixed')
+					{
+						condition1 = true;
+					} else condition1 = false;
+					if(elems[i].className.indexOf('fixreservationbottom')>-1) 
+					{
+						
+						condition2 = true;
+						
+					} else condition2 = false;
+					if ((condition1 == true || condition2 == true) && elems[i].id!="msCookieBanner") {
+						
+						elems[i].className += " pushItDown";
+					} 
+				
+					 }
+					catch(err) {
+							 /* document.getElementById("demo").innerHTML = err.message; */
+						} 
+				}	
+				}
+		},
+    hideCookieBanner: function() {
+
+			var newClasss = "";
+      var cname = "msCookieBanner";
+      var cvalue = "accepted";
+      var exdays = 365;
+      var d = new Date();
+      d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+      var expires = "expires=" + d.toUTCString();
+      document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+
+      var elem = document.getElementById('msCookieBanner');
+      elem.parentNode.removeChild(elem);
+			
+			var elems = document.body.getElementsByTagName("*");
+				var len = elems.length;
+			
+				for (var i=0;i<len;i++) {
+				
+					if(typeof(elems[i].className)=='string')
+					{
+					if (elems[i].className.indexOf('pushItDown')>-1) {
+						newClasss = elems[i].className.replace('pushItDown', '');
+						elems[i].className = newClasss;
+					}
+					}
+				
+				}	
+				
+    },
+
+    check_and_appendCookieBanner: function() {
+
+      var userCookiePreference = "noanswer";
+
+      var cname = "msCookieBanner";
+      var name = cname + "=";
+      var ca = document.cookie.split(';');
+      for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+          c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+          userCookiePreference = c.substring(name.length, c.length);
+          i = ca.length + 1;
+        }
+      }
+
+      if (userCookiePreference != "accepted") {
+
+        var iDiv;
+				var theParent = document.getElementsByTagName('body')[0];
+				if(document.getElementById('msCookieBanner'))
+				{
+				iDiv = document.getElementById('msCookieBanner');	
+				}
+				else
+				{
+				iDiv = document.createElement('div');
+        iDiv.id = 'msCookieBanner';	
+				theParent.insertBefore(iDiv, theParent.firstChild);
+				}
+				
+        iDiv.className = 'msCookieBanner';
+        iDiv.innerHTML = '<div class="left"> Our site uses cookies. By continuing to use our site you are agreeing to our <a href="/privacy-policy?#paracookiepolicy">cookie policy</a>.</div><div class="right"><button onclick="window.CookieBanner.hideCookieBanner();">Accept & Close</button></div><div style="clear:both"></div>';
+        
+				var styles = '#msCookieBanner {font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:48px; box-sizing:border-box; height:48px; width:100%; position:fixed;top:0px; z-index:1001}';
+        styles += ' #msCookieBanner {background-color:#000000;color:#FFFFFF; border-top:2px solid #FFFFFF; border-bottom:2px solid #FFFFFF;}';
+        styles += ' #msCookieBanner .left {width:75%;display:inline-block; text-align:center;}';
+        styles += ' #msCookieBanner .right {width:25%;display:inline-block;}';
+        styles += ' #msCookieBanner .right button {border:none;padding:5px;background-color:#FFFFFF;color:#000000;border: solid 1px #fff;cursor: pointer;}';
+        styles += ' #msCookieBanner .right button:focus, #msCookieBanner .right button:hover {background: #000;color: #fff;}';
+        styles += ' #msCookieBanner a, #msCookieBanner a:link, #msCookieBanner a:visited {color:#fff; border-bottom:dashed 1px #fff; }';
+        styles += ' #msCookieBanner a:hover, #msCookieBanner a:focus {color:#fff; border-bottom:solid 1px #fff; }';
+        styles += ' .pushItDown {margin-top: 48px !important; }';				
+
+        var css = document.createElement('style');
+        css.type = 'text/css';
+
+        if (css.styleSheet) css.styleSheet.cssText = styles;
+        else css.appendChild(document.createTextNode(styles));
+
+        document.getElementsByTagName("head")[0].appendChild(css);
+
+      }
+    }
+
+  };
+
+	setTimeout(function(){
+  CookieBanner.check_and_appendCookieBanner();
+	CookieBanner.moveToTop_msCookieBanner();
+	},3000);
+/*  return CookieBanner;
+
+}; */
+</script>
+<input type='hidden' id='hdnmilestoneSiteURL' value='https://www.lepavillon.com/'><input id="hddevicetype" value="desktop" type="hidden"><input type="hidden" value="cache version"></body>
+</html>

@@ -1,0 +1,876 @@
+<!doctype html>
+<!--[if IE 9]> <html class="ie9 no-js" lang="en"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+  <!-- Basic page needs ================================================== -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <meta name="theme-color" content="#f26241">
+
+  
+
+  <link rel="canonical" href="https://mojocoffeehouse.com/">
+  <!-- Title and description ================================================== -->
+  <title>
+  Mojo front page &ndash; Mojo Coffee House
+  </title>
+
+  
+
+  <!-- Social Meta Tags ===================================== -->
+  <!-- /snippets/social-meta-tags.liquid -->
+
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mojo front page">
+  <meta property="og:url" content="https://mojocoffeehouse.com">
+  
+    
+      
+      
+      
+        <meta property="og:image" content="http://cdn.shopify.com/s/files/1/1265/9293/t/4/assets/hero_slide_1_1024x1024.jpg?0">
+        <meta property="og:image:secure_url" content="https://cdn.shopify.com/s/files/1/1265/9293/t/4/assets/hero_slide_1_1024x1024.jpg?0">
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+  
+  
+    <meta property="og:description" content="">
+  
+
+<meta property="og:site_name" content="Mojo Coffee House">
+
+
+
+
+
+  <meta name="twitter:card" content="summary_large_image">
+
+
+  <meta name="twitter:site" content="@mojo_coffee">
+
+
+  <meta name="twitter:title" content="Mojo front page">
+  
+    <meta name="twitter:description" content="">
+  
+  
+  
+    
+     
+     
+       
+         <meta name="twitter:image" content="https://cdn.shopify.com/s/files/1/1265/9293/t/4/assets/hero_slide_1_1024x1024.jpg?0">
+         
+  
+
+
+
+  <!-- CSS ================================================== -->
+  <link href="//cdn.shopify.com/s/files/1/1265/9293/t/4/assets/theme.scss.css?0" rel="stylesheet" type="text/css" media="all" />
+
+  <!-- Google Fonts | from theme settings ================================================== -->
+  
+  
+
+  <!-- Header hook for plugins ================================================== -->
+  <script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script><meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/12659293/digital_wallets/dialog">
+<meta name="shopify-checkout-api-token" content="82718149b872b963c47b1e188fdf5274">
+<meta id="in-context-paypal-metadata" data-shop-id="12659293" data-venmo-supported="true" data-environment="production" data-locale="en_US" data-paypal-v4="true" data-currency="USD">
+<meta id="amazon-payments-metadata" data-amazon-payments="true" data-amazon-payments-seller-id="A2IVO1F5KUFWKW" data-amazon-payments-callback-url="https://mojocoffeehouse.com/12659293/amazon_payments/callback" data-amazon-payments-sandbox-mode="false" data-amazon-payments-client-id="amzn1.application-oa2-client.6ff9deb92963414d956b20c60bb57bbf" data-amazon-payments-region="US" data-amazon-payments-language="en-US" data-amazon-payments-widget-library-url="https://static-na.payments-amazon.com/OffAmazonPayments/us/js/Widgets.js">
+<style media="all">.additional-checkout-button{border:0 !important;border-radius:5px !important;display:inline-block;margin:0 0 10px;padding:0 24px !important;max-width:100%;min-width:150px !important;line-height:44px !important;text-align:center !important}.additional-checkout-button+.additional-checkout-button{margin-left:10px}.additional-checkout-button:last-child{margin-bottom:0}.additional-checkout-button span{font-size:14px !important}.additional-checkout-button img{display:inline-block !important;height:1.3em !important;margin:0 !important;vertical-align:middle !important;width:auto !important}@media (max-width: 500px){.additional-checkout-button{display:block;margin-left:0 !important;padding:0 10px !important;width:100%}}.additional-checkout-button--apple-pay{background-color:#000 !important;color:#fff !important;display:none;font-family:-apple-system, Helvetica Neue, sans-serif !important;min-width:150px !important;white-space:nowrap !important}.additional-checkout-button--apple-pay:hover,.additional-checkout-button--apple-pay:active,.additional-checkout-button--apple-pay:visited{color:#fff !important;text-decoration:none !important}.additional-checkout-button--apple-pay .additional-checkout-button__logo{background:-webkit-named-image(apple-pay-logo-white) center center no-repeat !important;background-size:auto 100% !important;display:inline-block !important;vertical-align:middle !important;width:3em !important;height:1.3em !important}@media (max-width: 500px){.additional-checkout-button--apple-pay{display:none}}.additional-checkout-button--google-pay{line-height:0 !important;padding:0 !important;border-radius:unset !important;width:80px !important}@media (max-width: 500px){.additional-checkout-button--google-pay{width:100% !important}}.gpay-iframe{height:44px !important;width:100%  !important;cursor:pointer;vertical-align:middle !important}.additional-checkout-button--paypal-express{background-color:#ffc439 !important}.additional-checkout-button--paypal,.additional-checkout-button--venmo{vertical-align:top;line-height:0 !important;padding:0 !important}.additional-checkout-button--amazon{background-color:#fad676 !important;position:relative !important}.additional-checkout-button--amazon .additional-checkout-button__logo{-webkit-transform:translateY(4px) !important;transform:translateY(4px) !important}.additional-checkout-button--amazon .alt-payment-list-amazon-button-image{max-height:none !important;opacity:0 !important;position:absolute !important;top:0 !important;left:0 !important;width:100% !important;height:100% !important}.additional-checkout-button-visually-hidden{border:0 !important;clip:rect(0, 0, 0, 0) !important;clip:rect(0 0 0 0) !important;width:1px !important;height:1px !important;margin:-2px !important;overflow:hidden !important;padding:0 !important;position:absolute !important}
+</style>
+<script id="apple-pay-shop-capabilities" type="application/json">{"shopId":12659293,"countryCode":"US","currencyCode":"USD","merchantCapabilities":["supports3DS"],"merchantId":"gid:\/\/shopify\/Shop\/12659293","merchantName":"Mojo Coffee House","requiredBillingContactFields":["postalAddress","email"],"requiredShippingContactFields":["postalAddress","email"],"shippingType":"shipping","supportedNetworks":["visa","masterCard","amex","discover"],"total":{"type":"pending","label":"Mojo Coffee House","amount":"1.00"}}</script>
+<script id="shopify-features" type="application/json">{"accessToken":"82718149b872b963c47b1e188fdf5274","betas":[],"domain":"mojocoffeehouse.com","predictiveSearch":true,"shopId":12659293,"smart_payment_buttons_url":"https:\/\/cdn.shopifycloud.com\/payment-sheet\/assets\/latest\/spb.en.js","dynamic_checkout_cart_url":"https:\/\/cdn.shopifycloud.com\/payment-sheet\/assets\/latest\/dynamic-checkout-cart.en.js"}</script>
+<script>var Shopify = Shopify || {};
+Shopify.shop = "mojo-coffee-house.myshopify.com";
+Shopify.currency = {"active":"USD","rate":"1.0"};
+Shopify.theme = {"name":"Boundless","id":102942531,"theme_store_id":766,"role":"main"};
+Shopify.theme.handle = "null";
+Shopify.theme.style = {"id":null,"handle":null};</script>
+<script>window.ShopifyPay = window.ShopifyPay || {};
+window.ShopifyPay.apiHost = "pay.shopify.com";</script>
+<script id="__st">var __st={"a":12659293,"offset":-18000,"reqid":"0f1dedb1-cb54-4710-9ff9-23d9ae782ec9","pageurl":"mojocoffeehouse.com\/","u":"7785223a2133","p":"home"};</script>
+<script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
+<script>window.Shopify = window.Shopify || {};
+window.Shopify.Checkout = window.Shopify.Checkout || {};
+window.Shopify.Checkout.apiHost = "mojo-coffee-house.myshopify.com";</script>
+<script>window.ShopifyAnalytics = window.ShopifyAnalytics || {};
+window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
+window.ShopifyAnalytics.meta.currency = 'USD';
+var meta = {"page":{"pageType":"home"}};
+for (var attr in meta) {
+  window.ShopifyAnalytics.meta[attr] = meta[attr];
+}</script>
+<script>window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
+  
+};
+</script>
+<script class="analytics">(function () {
+  var customDocumentWrite = function(content) {
+    var jquery = null;
+
+    if (window.jQuery) {
+      jquery = window.jQuery;
+    } else if (window.Checkout && window.Checkout.$) {
+      jquery = window.Checkout.$;
+    }
+
+    if (jquery) {
+      jquery('body').append(content);
+    }
+  };
+
+  var isDuplicatedThankYouPageView = function() {
+    return document.cookie.indexOf('loggedConversion=' + window.location.pathname) !== -1;
+  }
+
+  var setCookieIfThankYouPage = function() {
+    if (window.location.pathname.indexOf('/checkouts') !== -1 &&
+        window.location.pathname.indexOf('/thank_you') !== -1) {
+
+      var twoMonthsFromNow = new Date(Date.now());
+      twoMonthsFromNow.setMonth(twoMonthsFromNow.getMonth() + 2);
+
+      document.cookie = 'loggedConversion=' + window.location.pathname + '; expires=' + twoMonthsFromNow;
+    }
+  }
+
+  var trekkie = window.ShopifyAnalytics.lib = window.trekkie = window.trekkie || [];
+  if (trekkie.integrations) {
+    return;
+  }
+  trekkie.methods = [
+    'identify',
+    'page',
+    'ready',
+    'track',
+    'trackForm',
+    'trackLink'
+  ];
+  trekkie.factory = function(method) {
+    return function() {
+      var args = Array.prototype.slice.call(arguments);
+      args.unshift(method);
+      trekkie.push(args);
+      return trekkie;
+    };
+  };
+  for (var i = 0; i < trekkie.methods.length; i++) {
+    var key = trekkie.methods[i];
+    trekkie[key] = trekkie.factory(key);
+  }
+  trekkie.load = function(config) {
+    trekkie.config = config;
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.onerror = function(e) {
+      (new Image()).src = '//v.shopify.com/internal_errors/track?error=trekkie_load';
+    };
+    script.async = true;
+    script.src = 'https://cdn.shopify.com/s/javascripts/tricorder/trekkie.storefront.min.js?v=2017.09.05.1';
+    var first = document.getElementsByTagName('script')[0];
+    first.parentNode.insertBefore(script, first);
+  };
+  trekkie.load(
+    {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":12659293,"isMerchantRequest":null,"themeId":102942531,"themeCityHash":12476870750930130420,"contentLanguage":"en"}},"Performance":{"navigationTimingApiMeasurementsEnabled":true,"navigationTimingApiMeasurementsSampleRate":0.01},"StorefrontPerformance":{"navigationTimingApiMeasurementsEnabled":true,"navigationTimingApiMeasurementsSampleRate":0.01},"Session Attribution":{}}
+  );
+
+  var loaded = false;
+  trekkie.ready(function() {
+    if (loaded) return;
+    loaded = true;
+
+    window.ShopifyAnalytics.lib = window.trekkie;
+    
+
+    var originalDocumentWrite = document.write;
+    document.write = customDocumentWrite;
+    try { window.ShopifyAnalytics.merchantGoogleAnalytics.call(this); } catch(error) {};
+    document.write = originalDocumentWrite;
+
+    if (!isDuplicatedThankYouPageView()) {
+      setCookieIfThankYouPage();
+      
+        window.ShopifyAnalytics.lib.page(
+          null,
+          {"pageType":"home"}
+        );
+      
+      
+    }
+  });
+
+  
+      var eventsListenerScript = document.createElement('script');
+      eventsListenerScript.async = true;
+      eventsListenerScript.src = "//cdn.shopify.com/s/assets/shop_events_listener-acf771159f9849ef6e5265782c99efe8b99406214c96a4373224ecafe285d7bb.js";
+      document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
+    
+})();</script>
+<script crossorigin="anonymous" defer="defer" src="//cdn.shopify.com/s/assets/shopify_pay/storefront-8ddbd55cc19e1ebbff92d676e1481c8e6b42e0c2714d3fdf6b810b1f193347b8.js?v=20190107"></script>
+<script integrity="sha256-ZGMHgi9G7WU+Z7WiP2suSn84yzoN83sGf9nMWJhVHAw=" defer="defer" src="//cdn.shopify.com/s/assets/storefront/express_buttons-646307822f46ed653e67b5a23f6b2e4a7f38cb3a0df37b067fd9cc5898551c0c.js" crossorigin="anonymous"></script>
+<script integrity="sha256-qzPTa4Ven/Yc2yyXr9BKZWCTXSrPTCnbGdWsxA7YCw0=" defer="defer" src="//cdn.shopify.com/s/assets/storefront/features-ab33d36b855e9ff61cdb2c97afd04a6560935d2acf4c29db19d5acc40ed80b0d.js" crossorigin="anonymous"></script>
+
+
+<style id="shopify-dynamic-checkout-cart">@media screen and (min-width: 750px) {
+  #dynamic-checkout-cart {
+    min-height: 50px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #dynamic-checkout-cart {
+    min-height: 240px;
+  }
+}
+</style>
+<script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
+
+  <!-- Fixes for Older Versions of IE ==================================================-->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+  <script src="//cdn.shopify.com/s/files/1/1265/9293/t/4/assets/modernizr.min.js?0" type="text/javascript"></script>
+
+  
+  
+
+</head>
+
+<body id="mojo-front-page" class="template-index" >
+  <div id="SearchDrawer" class="search-bar drawer drawer--top">
+    <div class="search-bar__table">
+      <form action="/search" method="get" class="search-bar__table-cell search-bar__form" role="search">
+        <div class="search-bar__table">
+          <div class="search-bar__table-cell search-bar__icon-cell">
+            <button type="submit" class="search-bar__icon-button search-bar__submit">
+              <span class="icon icon-search" aria-hidden="true"></span>
+              <span class="icon__fallback-text">Search</span>
+            </button>
+          </div>
+          <div class="search-bar__table-cell">
+            <input type="search" id="SearchInput" name="q" value="" placeholder="Search our store" aria-label="Search our store" class="search-bar__input">
+          </div>
+        </div>
+      </form>
+      <div class="search-bar__table-cell text-right">
+        <button type="button" class="search-bar__icon-button search-bar__close js-drawer-close">
+          <span class="icon icon-x" aria-hidden="true"></span>
+          <span class="icon__fallback-text">close (esc)</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div id="NavDrawer" class="drawer drawer--left">
+    <div class="drawer__header">
+      <div class="drawer__close">
+        <button type="button" class="drawer__close-button js-drawer-close">
+          <span class="icon icon-x" aria-hidden="true"></span>
+          <span class="icon__fallback-text">Close menu</span>
+        </button>
+      </div>
+    </div>
+    <div class="drawer__inner">
+      <ul class="drawer-nav">
+        
+          
+          
+            <li class="drawer-nav__item">
+              <a href="/" class="drawer-nav__link h2">Home</a>
+            </li>
+          
+        
+          
+          
+            <li class="drawer-nav__item">
+              <a href="/collections/all" class="drawer-nav__link h2">Shop Gear</a>
+            </li>
+          
+        
+          
+          
+            <li class="drawer-nav__item">
+              <a href="http://mojocoffeeroasters.com/collections/coffee" class="drawer-nav__link h2">Shop Coffee</a>
+            </li>
+          
+        
+          
+          
+            <li class="drawer-nav__item">
+              <a href="/pages/locations" class="drawer-nav__link h2">Locations</a>
+            </li>
+          
+        
+          
+          
+            <li class="drawer-nav__item">
+              <a href="http://mojocoffeeroasters.com/pages/mojo-wholesale" class="drawer-nav__link h2">Wholesale</a>
+            </li>
+          
+        
+          
+          
+            <li class="drawer-nav__item">
+              <a href="/pages/about-us" class="drawer-nav__link h2">About us</a>
+            </li>
+          
+        
+
+        <li class="drawer-nav__spacer"></li>
+
+        
+        
+          <li class="drawer-nav__item drawer-nav__item--secondary"><a href="/search">Search</a></li>
+        
+          <li class="drawer-nav__item drawer-nav__item--secondary"><a href="/pages/about-us">About us</a></li>
+        
+          <li class="drawer-nav__item drawer-nav__item--secondary"><a href="https://go.waitrapp.com/Aorq/TIl76GxGHE?%24deeplink_path=restaurants&restaurant_id=4833">Waitr - Order Online</a></li>
+        
+          <li class="drawer-nav__item drawer-nav__item--secondary"><a href="https://app.joinhomebase.com/cmp/mojo-coffee-house">We are Hiring!</a></li>
+        
+      </ul>
+
+      <ul class="list--inline social-icons social-icons--drawer">
+        
+          <li>
+            <a href="https://twitter.com/mojo_coffee" title="Mojo Coffee House on Twitter">
+              <span class="icon icon-twitter" aria-hidden="true"></span>
+              <span class="visually-hidden">Twitter</span>
+            </a>
+          </li>
+        
+        
+          <li>
+            <a href="https://www.facebook.com/Mojo.on.Magazine/" title="Mojo Coffee House on Facebook">
+              <span class="icon icon-facebook" aria-hidden="true"></span>
+              <span class="visually-hidden">Facebook</span>
+            </a>
+          </li>
+        
+        
+        
+          <li>
+            <a href="https://plus.google.com/104771110488883684311/about" rel="publisher" title="Mojo Coffee House on Google Plus">
+              <span class="icon icon-google" aria-hidden="true"></span>
+              <span class="visually-hidden">Google Plus</span>
+            </a>
+          </li>
+        
+        
+          <li>
+            <a href="https://instagram.com/mojocoffeehouse" title="Mojo Coffee House on Instagram">
+              <span class="icon icon-instagram" aria-hidden="true"></span>
+              <span class="visually-hidden">Instagram</span>
+            </a>
+          </li>
+        
+        
+        
+        
+        
+      </ul>
+    </div>
+  </div>
+  <div id="CartDrawer" class="drawer drawer--right drawer--has-fixed-footer">
+      <div class="drawer__header">
+        <div class="drawer__close">
+          <button type="button" class="drawer__close-button js-drawer-close">
+            <span class="icon icon-x" aria-hidden="true"></span>
+            <span class="icon__fallback-text">Close cart</span>
+          </button>
+        </div>
+      </div>
+      <div class="drawer__inner">
+        <div id="CartContainer">
+        </div>
+      </div>
+  </div>
+
+  <div id="PageContainer">
+    <div class="site-header-wrapper">
+      <div class="site-header-container">
+        <header class="site-header" role="banner">
+          <div class="grid grid--no-gutters grid--table site-header__inner">
+            <div class="grid__item one-third medium-up--one-sixth">
+              <button type="button" class="site-header__link text-link site-header__toggle-nav js-drawer-open-left">
+                <span class="icon icon-hamburger" aria-hidden="true"></span>
+                <span class="icon__fallback-text">Menu</span>
+              </button>
+            </div>
+            <div class="grid__item one-third medium-up--two-thirds">
+
+              
+              
+                <h1 class="site-header__logo" itemscope itemtype="http://schema.org/Organization">
+              
+
+                
+                  <a href="/" class="site-header__link site-header__logo-link" itemprop="url">Mojo Coffee House</a>
+                
+
+              
+                </h1>
+              
+
+            </div>
+
+            <div class="grid__item one-third medium-up--one-sixth text-right">
+              <a href="/search" class="site-header__link site-header__search js-drawer-open-top">
+                <span class="icon icon-search" aria-hidden="true"></span>
+                <span class="icon__fallback-text">Search</span>
+              </a>
+              <a href="/cart" class="site-header__link site-header__cart cart-link js-drawer-open-right">
+                <span class="icon icon-cart" aria-hidden="true"></span>
+                <span class="icon__fallback-text">Cart</span>
+              </a>
+            </div>
+          </div>
+        </header>
+
+        <div class="action-area">
+          
+
+          
+        </div>
+      </div>
+    </div>
+
+    <main class="main-content" role="main">
+      <!-- /templates/index.liquid -->
+
+<div class="hero-wrapper">
+  <div class="hero__site-header">
+    <div class="grid grid--no-gutter grid--table site-header__inner">
+      <div class="grid__item one-half">
+        <button type="button" class="site-header__link text-link site-header__toggle-nav js-drawer-open-left">
+          <span class="icon icon-hamburger" aria-hidden="true"></span>
+          <span class="icon__fallback-text">Menu</span>
+        </button>
+      </div>
+      <div class="grid__item one-half text-right">
+        <a href="/search" class="site-header__link site-header__search js-drawer-open-top">
+          <span class="icon icon-search" aria-hidden="true"></span>
+          <span class="icon__fallback-text">Search</span>
+        </a>
+        <a href="/cart" class="site-header__link site-header__cart cart-link js-drawer-open-right">
+          <span class="icon icon-cart" aria-hidden="true"></span>
+          <span class="icon__fallback-text">Cart</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  
+    <div class="hero__logo-wrapper">
+        <h1 class="hero__logo" itemscope itemtype="http://schema.org/Organization">
+          <span class="hero__logo-centered">
+            
+                <img class="hero__logo-image" src="//cdn.shopify.com/s/files/1/1265/9293/t/4/assets/hero-logo.png?0" alt="Mojo Coffee House" itemprop="logo">
+              
+          </span>
+        </h1>
+    </div>
+  
+  <div class="hero" id="Hero">
+    
+      
+      
+      
+        <div class="hero__slide">
+          <style>
+            @media screen and (max-width: 1024px) and (max-height: 683px) {
+              .hero__image--1 {
+                background-image: url('//cdn.shopify.com/s/files/1/1265/9293/t/4/assets/hero_slide_1_1024x1024.jpg?0');
+              }
+            }
+            @media screen and (min-width: 1025px), screen and (min-height: 684px) {
+              .hero__image--1 {
+                background-image: url('//cdn.shopify.com/s/files/1/1265/9293/t/4/assets/hero_slide_1_2048x2048.jpg?0');
+              }
+            }
+          </style>
+          <div class="hero__image hero__image--1" data-image="1"></div>
+        </div>
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+  </div>
+  <div class="hero__header">
+    <div class="action-area">
+      <!-- snippets/action-bar.liquid -->
+
+
+
+
+
+
+<div class="action-bar-wrapper  action-bar--hero">
+  <nav class="action-bar action-bar--has-menu" role="presentation">
+    <ul class="action-bar__menu--main action-bar__menu list--inline  action-bar--show" id="SiteNav" role="navigation">
+      
+      
+        
+        
+          <li class="action-bar__menu-item action-bar--active">
+            <a href="/" class="action-bar__link">Home</a>
+          </li>
+        
+      
+        
+        
+          <li class="action-bar__menu-item ">
+            <a href="/collections/all" class="action-bar__link">Shop Gear</a>
+          </li>
+        
+      
+        
+        
+          <li class="action-bar__menu-item ">
+            <a href="http://mojocoffeeroasters.com/collections/coffee" class="action-bar__link">Shop Coffee</a>
+          </li>
+        
+      
+        
+        
+          <li class="action-bar__menu-item ">
+            <a href="/pages/locations" class="action-bar__link">Locations</a>
+          </li>
+        
+      
+        
+        
+          <li class="action-bar__menu-item ">
+            <a href="http://mojocoffeeroasters.com/pages/mojo-wholesale" class="action-bar__link">Wholesale</a>
+          </li>
+        
+      
+        
+        
+          <li class="action-bar__menu-item ">
+            <a href="/pages/about-us" class="action-bar__link">About us</a>
+          </li>
+        
+      
+    </ul>
+
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+  </nav>
+</div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      
+      
+        <ul class="list--inline site-footer__linklist">
+          
+            <li class="h4"><a href="/search">Search</a></li>
+          
+            <li class="h4"><a href="/pages/about-us">About us</a></li>
+          
+            <li class="h4"><a href="https://go.waitrapp.com/Aorq/TIl76GxGHE?%24deeplink_path=restaurants&restaurant_id=4833">Waitr - Order Online</a></li>
+          
+            <li class="h4"><a href="https://app.joinhomebase.com/cmp/mojo-coffee-house">We are Hiring!</a></li>
+          
+        </ul>
+      
+
+      <div class="grid text-center large-up--grid--table">
+        <div class="grid__item large-up--one-quarter text-center">
+          <ul class="list--inline social-icons social-icons--footer">
+            
+              <li>
+                <a href="https://twitter.com/mojo_coffee" title="Mojo Coffee House on Twitter">
+                  <span class="icon icon-twitter" aria-hidden="true"></span>
+                  <span class="visually-hidden">Twitter</span>
+                </a>
+              </li>
+            
+            
+              <li>
+                <a href="https://www.facebook.com/Mojo.on.Magazine/" title="Mojo Coffee House on Facebook">
+                  <span class="icon icon-facebook" aria-hidden="true"></span>
+                  <span class="visually-hidden">Facebook</span>
+                </a>
+              </li>
+            
+            
+            
+              <li>
+                <a href="https://plus.google.com/104771110488883684311/about" rel="publisher" title="Mojo Coffee House on Google Plus">
+                  <span class="icon icon-google" aria-hidden="true"></span>
+                  <span class="visually-hidden">Google Plus</span>
+                </a>
+              </li>
+            
+            
+              <li>
+                <a href="https://instagram.com/mojocoffeehouse" title="Mojo Coffee House on Instagram">
+                  <span class="icon icon-instagram" aria-hidden="true"></span>
+                  <span class="visually-hidden">Instagram</span>
+                </a>
+              </li>
+            
+            
+            
+            
+            
+          </ul>
+        </div>
+        <div class="grid__item large-up--one-half">
+          <span class="site-footer__copyright">&copy; 2019, <a href="/">Mojo Coffee House</a>. <a target="_blank" rel="nofollow" href="https://www.shopify.com?utm_campaign=poweredby&amp;utm_medium=shopify&amp;utm_source=onlinestore">Powered by Shopify</a></span>
+        </div>
+        <div class="grid__item large-up--one-quarter text-center">
+          
+            <ul class="list--inline payment-icons payment-icons--footer">
+              
+                <li>
+                  <span class="icon icon-amazon_payments" aria-hidden="true"></span>
+                  <span class="icon__fallback-text">amazon payments</span>
+                </li>
+              
+                <li>
+                  <span class="icon icon-american_express" aria-hidden="true"></span>
+                  <span class="icon__fallback-text">american express</span>
+                </li>
+              
+                <li>
+                  <span class="icon icon-apple_pay" aria-hidden="true"></span>
+                  <span class="icon__fallback-text">apple pay</span>
+                </li>
+              
+                <li>
+                  <span class="icon icon-diners_club" aria-hidden="true"></span>
+                  <span class="icon__fallback-text">diners club</span>
+                </li>
+              
+                <li>
+                  <span class="icon icon-discover" aria-hidden="true"></span>
+                  <span class="icon__fallback-text">discover</span>
+                </li>
+              
+                <li>
+                  <span class="icon icon-jcb" aria-hidden="true"></span>
+                  <span class="icon__fallback-text">jcb</span>
+                </li>
+              
+                <li>
+                  <span class="icon icon-master" aria-hidden="true"></span>
+                  <span class="icon__fallback-text">master</span>
+                </li>
+              
+                <li>
+                  <span class="icon icon-paypal" aria-hidden="true"></span>
+                  <span class="icon__fallback-text">paypal</span>
+                </li>
+              
+                <li>
+                  <span class="icon icon-shopify_pay" aria-hidden="true"></span>
+                  <span class="icon__fallback-text">shopify pay</span>
+                </li>
+              
+                <li>
+                  <span class="icon icon-venmo" aria-hidden="true"></span>
+                  <span class="icon__fallback-text">venmo</span>
+                </li>
+              
+                <li>
+                  <span class="icon icon-visa" aria-hidden="true"></span>
+                  <span class="icon__fallback-text">visa</span>
+                </li>
+              
+            </ul>
+          
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="//cdn.shopify.com/s/assets/themes_support/api.jquery-e94e010e92e659b566dbc436fdfe5242764380e00398907a14955ba301a4749f.js" type="text/javascript"></script>
+  <script src="//cdn.shopify.com/s/files/1/1265/9293/t/4/assets/theme.js?0" type="text/javascript"></script>
+
+  
+
+  
+  
+    <script id="CartTemplate" type="text/template">
+      
+        <form action="/cart" method="post" novalidate class="cart ajaxcart">
+          <div class="ajaxcart__inner ajaxcart__inner--has-fixed-footer">
+            {{#items}}
+            <div class="ajaxcart__row">
+              <div class="ajaxcart__product" data-line="{{line}}">
+                <div class="grid grid--half-gutters">
+                  <div class="grid__item one-quarter">
+                    <a href="{{url}}" class="ajaxcart__product-image"><img src="{{img}}" alt="{{name}}"></a>
+                  </div>
+                  <div class="grid__item three-quarters">
+                    <div class="ajaxcart__product-name-wrapper">
+                      <a href="{{url}}" class="ajaxcart__product-name h4">{{name}}</a>
+                      {{#if variation}}
+                        <span class="ajaxcart__product-meta">{{variation}}</span>
+                      {{/if}}
+                      {{#properties}}
+                        {{#each this}}
+                          {{#if this}}
+                            <span class="ajaxcart__product-meta">{{@key}}: {{this}}</span>
+                          {{/if}}
+                        {{/each}}
+                      {{/properties}}
+                    </div>
+
+                    <div class="grid grid--table">
+                      <div class="grid__item one-half">
+                        <div class="ajaxcart__qty">
+                          <button type="button" class="ajaxcart__qty-adjust ajaxcart__qty--minus" data-id="{{id}}" data-qty="{{itemMinus}}" data-line="{{line}}">
+                            <span class="icon icon-minus" aria-hidden="true"></span>
+                            <span class="icon__fallback-text">&minus;</span>
+                          </button>
+                          <input type="text" name="updates[]" class="ajaxcart__qty-num" value="{{itemQty}}" min="0" data-id="{{id}}" data-line="{{line}}" aria-label="quantity" pattern="[0-9]*">
+                          <button type="button" class="ajaxcart__qty-adjust ajaxcart__qty--plus" data-id="{{id}}" data-line="{{line}}" data-qty="{{itemAdd}}">
+                            <span class="icon icon-plus" aria-hidden="true"></span>
+                            <span class="icon__fallback-text">+</span>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="grid__item one-half text-right">
+                      {{#if discountsApplied}}
+                        <small class="ajaxcart-item__price-strikethrough"><s>{{{linePrice}}}</s></small>
+                        <br><span>{{{originalPrice}}}</span>
+                      {{else}}
+                         <span>{{{linePrice}}}</span>
+                      {{/if}}
+                      </div>
+                    </div>
+                    {{#if discountsApplied}}
+                      <div class="grid grid--table">
+                        <div class="grid__item text-right">
+                          {{#each discounts}}
+                            <small class="ajaxcart-item__discount">{{ this.title }}</small><br>
+                          {{/each}}
+                        </div>
+                      </div>
+                    {{/if}} 
+                  </div>
+                </div>
+              </div>
+            </div>
+            {{/items}}
+
+            
+          </div>
+          <div class="ajaxcart__footer ajaxcart__footer--fixed">
+            <div class="ajaxcart__subtotal">
+              <div class="grid grid--table">
+                <div class="grid__item two-thirds">
+                  <span class="ajaxcart__subtotal-title h3">Subtotal</span>
+                </div>
+                <div class="grid__item one-third text-right">
+                  <span>{{{totalPrice}}}</span>
+                </div>
+              </div>
+              {{#if totalCartDiscountApplied}}
+                <p class="ajaxcart__savings text-center"><em>{{{totalCartDiscount}}}</em></p>
+              {{/if}}
+            </div>
+            <p class="text-center ajaxcart__note txt--minor">Shipping and taxes calculated at checkout</p>
+            <button type="submit" class="btn btn--full cart__checkout" name="checkout">
+              Check out
+            </button>
+          </div>
+        </form>
+      
+    </script>
+    <script id="JsQty" type="text/template">
+      
+        <div class="js-qty">
+          <button type="button" class="js-qty__adjust js-qty__adjust--minus" data-id="{{id}}" data-qty="{{itemMinus}}">
+            <span class="icon icon-minus" aria-hidden="true"></span>
+            <span class="icon__fallback-text">&minus;</span>
+          </button>
+          <input type="text" class="js-qty__num" value="{{itemQty}}" min="1" data-id="{{id}}" aria-label="quantity" pattern="[0-9]*" name="{{inputName}}" id="{{inputId}}">
+          <button type="button" class="js-qty__adjust js-qty__adjust--plus" data-id="{{id}}" data-qty="{{itemAdd}}">
+            <span class="icon icon-plus" aria-hidden="true"></span>
+            <span class="icon__fallback-text">+</span>
+          </button>
+        </div>
+      
+    </script>
+
+    <script>
+      jQuery(function($) {
+        ajaxCart.init({
+          formSelector: '.product__form',
+          cartContainer: '#CartContainer',
+          addToCartSelector: '.add-to-cart',
+          moneyFormat: "${{amount}}"
+        });
+      });
+    </script>
+  
+
+</body>
+</html>
