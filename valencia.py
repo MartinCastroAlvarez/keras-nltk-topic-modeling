@@ -16,7 +16,7 @@ from keras.datasets import reuters
 from keras.models import model_from_json
 
 # Initializing constants.
-LOG_LEVEL = logging.DEBUG
+LOG_LEVEL = logging.INFO
 MODEL_PATH = os.path.join("models", "{}_model.json")
 WEIGHTS_PATH = os.path.join("models", "{}_weights.h5")
 TOKENIZER_PATH = os.path.join("models", "{}_tokenizer.pkl")
@@ -25,7 +25,7 @@ TOP_CLASSES = 40
 HTML_PATH = os.path.join("html")
 PREDICTIONS_PATH = os.path.join("predictions")
 URLS_PATH = os.path.join("urls.csv")
-MADRID_PATH = os.path.join("madrid.txt"
+MADRID_PATH = os.path.join("madrid.txt")
 
 # Loading labels.
 LABELS = [
@@ -104,8 +104,9 @@ madrid = {}
 if os.path.isfile(MADRID_PATH):
     with open(MADRID_PATH, "r") as file_buffer:
         for line in file_buffer.read().split("\n"):
-            label, score = line.split(" ")
-            raise Exception(label, score)
+            if line:
+                label, score = line.split()
+                madrid[label] = float(score)
 logger.debug("Madrid report loaded. | sf_madrid=%s", madrid)
 
 # Reading URL or all.
@@ -125,7 +126,7 @@ else:
 
 # Parsing each URL individually.
 for url in urls:
-    logger.debug("Parsing URL. | sf_url=%s", url)
+    logger.info("Parsing URL. | sf_url=%s", url)
 
     # Checking if URL is loca 
     cache_path = os.path.join(HTML_PATH, normalize(url))
@@ -195,5 +196,15 @@ for url in urls:
             logger.debug("Top class. | sf_class=%s | sf_score=%s", name, score)
             print("- {}: {}".format(name, score), file=file_buffer)
 
+        # Calculating probability of being accepted.
+        if madrid:
+            score = 0
+            for label in madrid.keys() & score_by_class.keys():
+                madrid_score = madrid[label]
+                valencia_score = score_by_class[label]
+                score += madrid_score * valencia_score / 2
+            logger.info("Score calculated. | sf_score=%s", score)
+            print("[Score: {}]".format(score), file=file_buffer)
+
     # End of URLs
-    logger.debug("Text classified. | sf_results=%s", predictions_path)
+    logger.info("Text classified. | sf_results=%s", predictions_path)

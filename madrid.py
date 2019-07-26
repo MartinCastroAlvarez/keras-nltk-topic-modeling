@@ -3,22 +3,28 @@ Script to generate reports.
 """
 
 import os
+import sys
 
 from functools import reduce
 import collections
 import logging
 
 # Initializing constants.
-LOG_LEVEL = logging.DEBUG
+LOG_LEVEL = logging.INFO
 PREDICTIONS_PATH = os.path.join("predictions")
 OUTPUT_PATH = os.path.join("madrid.txt")
 
 # Initializing logger.
 logger = logging.getLogger(__name__)
-logger.setLevel(LOG_LEVEL)
+handler = logging.StreamHandler(sys.stdout)
+handler.setLevel(logging.DEBUG)
+formatter = logging.Formatter('%(asctime)s %(name)s %(levelname)s - %(message)s')
+handler.setFormatter(formatter)
+logger.addHandler(handler)
 
 # Initializing reports.
 scores_by_label = collections.defaultdict(list)
+avg_scores = []
 
 # Collect data from all individual reports.
 for prediction_filename in os.listdir(PREDICTIONS_PATH):
@@ -35,6 +41,14 @@ for prediction_filename in os.listdir(PREDICTIONS_PATH):
     # Obtaining URL.
     url = predictions[0].replace("[", "").replace("]", "")
     logger.debug("URL detected. | sf_url=%s", url)
+
+    # Obtaining score.
+    score = 0
+    if predictions[-2].startswith("["):
+        score = float(predictions[-2].replace("[Score: ", "").replace("]", ""))
+    if score:
+        avg_scores.append(score)
+    logger.debug("Score detected. | sf_score=%s", score)
 
     # Reading predictions.
     for line in predictions[1:]:
@@ -69,4 +83,8 @@ with open(OUTPUT_PATH, "w") as file_buffer:
     for label in sorted_labels:
         score = labels_score[label]
         print("{:30} {}".format(label, score), file=file_buffer)
-logger.debug("Report generated. | sf_path=%s", OUTPUT_PATH)
+logger.info("Report generated. | sf_path=%s", OUTPUT_PATH)
+
+# Get average scores.
+avg = sum(avg_scores) / len(avg_scores)
+logger.info("Average score detected. | sf_avg=%s", avg)
