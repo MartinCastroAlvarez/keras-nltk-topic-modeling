@@ -7,6 +7,7 @@ import sys
 import logging
 
 import numpy as np
+import matplotlib.pyplot as plt
 
 import keras.utils
 from keras.datasets import reuters
@@ -20,16 +21,19 @@ TEST_SPLIT = 0.2
 VALIDATION_SPLIT = 0.1
 DATASET_PATH = "reuters_word_index.json"
 MAX_WORDS = 10000
-BATCH_SIZE = 10  # 32
-EPOCHS = 1  # 1
+BATCH_SIZE = 300
+EPOCHS = 5
 LOSS_FUNCTION = "categorical_crossentropy"
 OPTIMIZER_FUNCTION = "adam"
 ACCURACY_METRIC = "accuracy"
 BINARY = "binary"
 RELU = "relu"
 SOFTMAX = "softmax"
-MODEL_PATH = os.path.join("model-{}.json")
-WEIGHTS_PATH = os.path.join("model-{}.h5")
+MODEL_PATH = os.path.join("{}_model.json")
+WEIGHTS_PATH = os.path.join("{}_weights.h5")
+PLOT_PATH = os.path.join("{}_loss.png")
+LOSS = "loss"
+VAL_LOSS = "val_loss"
 
 # Initializing logger.
 logger = logging.getLogger(__name__)
@@ -48,8 +52,8 @@ np.load = lambda *a,**k: np_load_old(*a, allow_pickle=True, **k)
 # Loading dataset
 logger.debug("Loading dataset. | sf_split=%s", TEST_SPLIT)
 train_set, test_set = reuters.load_data(num_words=None, test_split=TEST_SPLIT)
-(x_train, y_train) = train_set
-(x_test, y_test) = test_set
+x_train, y_train = train_set
+x_test, y_test = test_set
 word_index = reuters.get_word_index(path=DATASET_PATH)
 logger.debug("Dataset Loaded. | sf_train=%s | sf_test=%s", len(x_train), len(x_test))
 
@@ -120,3 +124,18 @@ with open(model_path, "w") as json_file:
     json_file.write(model_json)
 model.save_weights(weights_path)
 logger.debug("Model saved. | sf_model=%s | sf_weights=%s", model_path, weights_path)
+
+# Plotting results.
+plot_path = PLOT_PATH.format(int(10000 * score[1]))
+loss = history.history[LOSS]
+val_loss = history.history[VAL_LOSS]
+epochs = range(1, len(loss) + 1)
+plt.clf()
+plt.plot(epochs, loss, 'bo', label='Training loss')
+plt.plot(epochs, val_loss, 'b', label='Validation loss')
+plt.title('Training and validation loss')
+plt.xlabel('Epochs')
+plt.ylabel('Loss')
+plt.legend()
+plt.savefig(plot_path)
+logger.debug("Epochs plotted. | sf_path=%s", plot_path)

@@ -51,3 +51,8 @@ with open(model_path, 'r') as file_buffer:
 model = model_from_json(loaded_model_json)
 model.load_weights(weights_path)
 logger.debug("Prediction model loaded. | sf_model=%s", model)
+
+# Make predictions.
+x_new = [[0, 1, 1, 1, 1, 1, 0]]
+results = model.predict_classes(x_new)
+raise Exception(results)
