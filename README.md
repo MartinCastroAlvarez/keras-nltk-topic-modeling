@@ -21,5 +21,5 @@ python3 barcelona.py
 ```
 Execute the AI script to make a prediction:
 ```bash
-python3 valencia.py "https://www.google.com/"
+python3 valencia.py 795 "https://www.google.com/"
 ```

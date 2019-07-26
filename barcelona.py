@@ -14,9 +14,6 @@ from keras.preprocessing.text import Tokenizer
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Activation, Embedding, Bidirectional, LSTM
 
-# Initializing logger.
-logger = logging.getLogger(__name__)
-
 # Initializing constants.
 LOG_LEVEL = logging.DEBUG
 TEST_SPLIT = 0.2
@@ -34,8 +31,8 @@ SOFTMAX = "softmax"
 MODEL_PATH = os.path.join("model-{}.json")
 WEIGHTS_PATH = os.path.join("model-{}.h5")
 
-# Printing logs to console.
-# Reference: https://stackoverflow.com/questions/14058453
+# Initializing logger.
+logger = logging.getLogger(__name__)
 handler = logging.StreamHandler(sys.stdout)
 handler.setLevel(logging.DEBUG)
 formatter = logging.Formatter('%(asctime)s %(name)s %(levelname)s - %(message)s')
