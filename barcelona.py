@@ -1,6 +1,8 @@
 """
 Script to create a prediction model.
 """
+
+import os
 import sys
 import logging
 
@@ -16,17 +18,21 @@ from keras.layers import Dense, Dropout, Activation, Embedding, Bidirectional, L
 logger = logging.getLogger(__name__)
 
 # Initializing constants.
+LOG_LEVEL = logging.DEBUG
 TEST_SPLIT = 0.2
 VALIDATION_SPLIT = 0.1
 DATASET_PATH = "reuters_word_index.json"
 MAX_WORDS = 10000
-BINARY = "binary"
-LOG_LEVEL = logging.DEBUG
 BATCH_SIZE = 10  # 32
 EPOCHS = 1  # 1
 LOSS_FUNCTION = "categorical_crossentropy"
 OPTIMIZER_FUNCTION = "adam"
 ACCURACY_METRIC = "accuracy"
+BINARY = "binary"
+RELU = "relu"
+SOFTMAX = "softmax"
+MODEL_PATH = os.path.join("model.json")
+WEIGHTS_PATH = os.path.join("model.h5")
 
 # Printing logs to console.
 # Reference: https://stackoverflow.com/questions/14058453
@@ -88,16 +94,24 @@ model = Sequential()
 # model.add(Activation('relu'))
 # model.add(Embedding(total_labels, 32))
 model.add(Dense(512, input_shape=(MAX_WORDS,)))
-model.add(Activation('relu'))
+model.add(Activation(RELU))
 model.add(Dropout(0.5))
 model.add(Dense(total_labels))
-model.add(Activation('softmax'))
+model.add(Activation(SOFTMAX))
 
 # Compiling Neural Network.
 # Setting loss function and back-propagation optimizer.
 model.compile(loss=LOSS_FUNCTION,
               metrics=[ACCURACY_METRIC],
               optimizer=OPTIMIZER_FUNCTION)
+
+# Serializing model to JSON.
+# Serializing weights to HDF5.
+model_json = model.to_json()
+with open(MODEL_PATH, "w") as json_file:
+    json_file.write(model_json)
+model.save_weights(WEIGHTS_PATH)
+logger.debug("Model saved. | sf_path=%s", MODEL_PATH)
 
 # Training the model.
 # Using mini batches.
