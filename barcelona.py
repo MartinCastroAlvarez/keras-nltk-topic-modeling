@@ -31,8 +31,8 @@ ACCURACY_METRIC = "accuracy"
 BINARY = "binary"
 RELU = "relu"
 SOFTMAX = "softmax"
-MODEL_PATH = os.path.join("model.json")
-WEIGHTS_PATH = os.path.join("model.h5")
+MODEL_PATH = os.path.join("model-{}.json")
+WEIGHTS_PATH = os.path.join("model-{}.h5")
 
 # Printing logs to console.
 # Reference: https://stackoverflow.com/questions/14058453
@@ -105,14 +105,6 @@ model.compile(loss=LOSS_FUNCTION,
               metrics=[ACCURACY_METRIC],
               optimizer=OPTIMIZER_FUNCTION)
 
-# Serializing model to JSON.
-# Serializing weights to HDF5.
-model_json = model.to_json()
-with open(MODEL_PATH, "w") as json_file:
-    json_file.write(model_json)
-model.save_weights(WEIGHTS_PATH)
-logger.debug("Model saved. | sf_path=%s", MODEL_PATH)
-
 # Training the model.
 # Using mini batches.
 history = model.fit(x_train, y_train, verbose=1, batch_size=BATCH_SIZE,
@@ -121,3 +113,13 @@ history = model.fit(x_train, y_train, verbose=1, batch_size=BATCH_SIZE,
 # Evaluating the performance of the model.
 score = model.evaluate(x_test, y_test, verbose=1, batch_size=BATCH_SIZE)
 logger.debug("Performance evaluated. | sf_loss=%s | sf_accuracy=%s", score[0], score[1])
+
+# Serializing model to JSON.
+# Serializing weights to HDF5.
+model_json = model.to_json()
+model_path = MODEL_PATH.format(int(10000 * score[1]))
+weights_path = WEIGHTS_PATH.format(int(10000 * score[1]))
+with open(model_path, "w") as json_file:
+    json_file.write(model_json)
+model.save_weights(weights_path)
+logger.debug("Model saved. | sf_model=%s | sf_weights=%s", model_path, weights_path)
