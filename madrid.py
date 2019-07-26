@@ -11,6 +11,7 @@ import logging
 # Initializing constants.
 LOG_LEVEL = logging.DEBUG
 PREDICTIONS_PATH = os.path.join("predictions")
+OUTPUT_PATH = os.path.join("madrid.txt")
 
 # Initializing logger.
 logger = logging.getLogger(__name__)
@@ -64,6 +65,8 @@ sorted_labels = sorted(scores_by_label, key=lambda x: labels_score[x], reverse=T
 logger.debug("Labels sorted. | sf_labels=%s", sorted_labels)
 
 # Collecting all results.
-for label in sorted_labels:
-    score = labels_score[label]
-    print("{:30} {}".format(label, score))
+with open(OUTPUT_PATH, "w") as file_buffer:
+    for label in sorted_labels:
+        score = labels_score[label]
+        print("{:30} {}".format(label, score), file=file_buffer)
+logger.debug("Report generated. | sf_path=%s", OUTPUT_PATH)
