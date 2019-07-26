@@ -26,6 +26,14 @@ Execute the AI script to generate a prediction model:
 python3 barcelona.py
 ```
 The results will be available in the [models](./models) directory.  
+It will generate something like this, depending on the accuracy of the model:
+```bash
+total 20144
+-rw-rw-r--. 1 martin martin    23530 Jul 26 11:32 8036_loss.png
+-rw-rw-r--. 1 martin martin     1464 Jul 26 11:32 8036_model.json
+-rw-rw-r--. 1 martin martin      340 Jul 26 11:32 8036_tokenizer.pkl
+-rw-rw-r--. 1 martin martin 20591008 Jul 26 11:32 8036_weights.h5
+```
 Then, txecute the AI script to make a prediction:
 ```bash
 python3 valencia.py 8036 "https://www.google.com/"

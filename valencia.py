@@ -3,6 +3,7 @@ Script to make real-time predictions.
 """
 
 import os
+import re
 import sys
 import logging
 
@@ -26,6 +27,7 @@ HTML_PATH = os.path.join("html")
 PREDICTIONS_PATH = os.path.join("predictions")
 URLS_PATH = os.path.join("urls.csv")
 MADRID_PATH = os.path.join("madrid.txt")
+TEXT_TRUNCATE = (0.1, 0.7)
 
 # Loading labels.
 LABELS = [
@@ -111,18 +113,19 @@ logger.debug("Madrid report loaded. | sf_madrid=%s", madrid)
 
 # Reading URL or all.
 if len(sys.argv) > 2:
+    batch = False
     urls = sys.argv[2:]
 else:
+    # Reading URLs from file.
+    batch = True
+    logger.debug("Reading URLs from File. | sf_path=%s", URLS_PATH)
     with open(URLS_PATH, "r") as file_buffer:
         urls = (
             line.split(",")[0]
             for line in file_buffer.read().split("\n")
+            if line.startswith("http")
         )
-        urls = [
-            url
-            for url in urls
-            if url.startswith("http")
-        ]
+    logger.debug("URLs obtained from file. | sf_path=%s", URLS_PATH)
 
 # Parsing each URL individually.
 for url in urls:
@@ -155,9 +158,22 @@ for url in urls:
             file_buffer.write(text)
         logger.debug("Cache saved. | sf_url=%s", cache_path)
 
+    # Remove head and footer.
+    text = re.sub(r".*<body>", "", text)
+    text = re.sub(r"</body>.*", "", text)
+    logger.debug("Body extracted. | sf_text=%s", len(text))
+
     # Converting HTML to text.
     text = html_processor.handle(text).lower()
     logger.debug("Extracted raw text. | sf_text=%s", len(text))
+
+    # Truncating text.
+    text_array = text.split()
+    text_ini = int(len(text_array) * TEXT_TRUNCATE[0])
+    text_end = int(len(text_array) * TEXT_TRUNCATE[1])
+    text_array = text_array[text_ini:text_end]
+    new_text = " ".join(x for x in text_array)
+    logger.debug("Text truncated. | sf_text=%s | sf_new=%s", len(text), len(new_text))
 
     # Tokenizing text.
     x_new = [[
@@ -187,7 +203,10 @@ for url in urls:
     # Saving results to the predictions path.
     predictions_path = os.path.join(PREDICTIONS_PATH, normalize(url))
     logger.debug("Savings results. | sf_path=%s", predictions_path)
-    with open(predictions_path, "w") as file_buffer:
+    file_buffer = sys.stdout
+    if batch:
+        file_buffer = open(predictions_path, "w")
+    try:
 
         # Getting top classes. Printing report.
         print("[{}]".format(url), file=file_buffer)
@@ -205,6 +224,10 @@ for url in urls:
                 score += madrid_score * valencia_score / 2
             logger.info("Score calculated. | sf_score=%s", score)
             print("[Score: {}]".format(score), file=file_buffer)
+    
+    finally:
+        if batch:
+            file_buffer.close()
 
     # End of URLs
     logger.info("Text classified. | sf_results=%s", predictions_path)
