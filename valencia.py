@@ -99,6 +99,15 @@ logger.debug("Indexed words by ID. | sf_index=%s", len(id_by_word_index))
 # Initializing HTML processor.
 html_processor = html2text.HTML2Text()
 
+# Initializing madrid report.
+madrid = {}
+if os.path.isfile(MADRID_PATH):
+    with open(MADRID_PATH, "r") as file_buffer:
+        for line in file_buffer.read().split("\n"):
+            label, score = line.split(" ")
+            raise Exception(label, score)
+logger.debug("Madrid report loaded. | sf_madrid=%s", madrid)
+
 # Reading URL or all.
 if len(sys.argv) > 2:
     urls = sys.argv[2:]
