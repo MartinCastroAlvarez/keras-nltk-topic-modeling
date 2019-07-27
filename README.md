@@ -11,16 +11,35 @@ This app predicts the topic of any given text.
 - [How to make predictions with Keras](https://machinelearningmastery.com/how-to-make-classification-and-regression-predictions-for-deep-learning-models-in-keras/)
 - [Persisting the Tokenizer](https://intellipaat.com/community/491/keras-text-preprocessing-saving-tokenizer-object-to-file-for-scoring)
 - [Predicting a new text](https://github.com/fchollet/deep-learning-with-python-notebooks/blob/master/3.6-classifying-newswires.ipynb)
+- [Tagging Text with SpaCy](https://spacy.io/)
+- [Named Entity Recognition with SpaCy](https://medium.com/@manivannan_data/spacy-named-entity-recognizer-4a1eeee1d749)
+- [Tagging People in a Text using NLTK](https://stackoverflow.com/questions/31836058/nltk-named-entity-recognition-to-a-python-list)
 
-## Training
+## Performance
 ![epochs-alt](./models/8036_loss.png)
 
-## Usage
+## Instructions
+
+### Setup
 Install the virtual environment.
 ```bash
 virtualenv -p python3 .env
 source .env/bin/activate
 ```
+Download the SpaCy assets:
+```bash
+python3 -m spacy download en_core_web_sm
+```
+Download the NLTK assets in Python3:
+```bash
+python3
+>>> import nltk
+>>> nltk.download('averaged_perceptron_tagger')
+>>> nltk.download('maxent_ne_chunker')
+>>> nltk.download('words')
+```
+
+### Training
 Execute the AI script to generate a prediction model:
 ```bash
 python3 barcelona.py
@@ -34,7 +53,9 @@ total 20144
 -rw-rw-r--. 1 martin martin      340 Jul 26 11:32 8036_tokenizer.pkl
 -rw-rw-r--. 1 martin martin 20591008 Jul 26 11:32 8036_weights.h5
 ```
-Then, txecute the AI script to make a prediction:
+
+### Predicting
+Execute the AI script to make a prediction:
 ```bash
 python3 valencia.py 8036 "https://www.google.com/"
 ```
@@ -53,6 +74,8 @@ You should get something like this:
 - oilseed: 0.016360409557819366
 - iron-steel: 0.013791962526738644
 ```
+
+### Reporting
 You may then generate a report using this script:
 ```bash
 python3 madrid.py

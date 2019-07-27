@@ -5,6 +5,9 @@ Script to make real-time predictions.
 import os
 import re
 import sys
+
+import nltk
+import spacy
 import logging
 
 import requests
@@ -37,6 +40,9 @@ LABELS = [
     'strategic-metal','livestock','retail','ipi','iron-steel','rubber','heat','jobs',
     'lei','bop','zinc','orange','pet-chem','dlr','gas','silver','wpi','hog','lead',
 ]
+
+# Initializing SpaCy.
+nlp = spacy.load("en_core_web_sm")
 
 # Initializing logger.
 logger = logging.getLogger(__name__)
@@ -116,6 +122,7 @@ if len(sys.argv) > 2:
     batch = False
     urls = sys.argv[2:]
 else:
+
     # Reading URLs from file.
     batch = True
     logger.debug("Reading URLs from File. | sf_path=%s", URLS_PATH)
@@ -163,9 +170,32 @@ for url in urls:
     text = re.sub(r"</body>.*", "", text)
     logger.debug("Body extracted. | sf_text=%s", len(text))
 
+    # POS tagging with NLTK.
+    for sent in nltk.sent_tokenize(text):
+       for chunk in nltk.ne_chunk(nltk.pos_tag(nltk.word_tokenize(sent))):
+          if hasattr(chunk, 'label'):
+             print(chunk.label(), ' '.join(c[0] for c in chunk))
+    from nltk.tag.stanford import StanfordNERTagger
+    jar = './stanford-ner-tagger/stanford-ner.jar'
+    model = './stanford-ner-tagger/ner-model-english.ser.gz'
+    jar = ''
+    model = ''
+    ner_tagger = StanfordNERTagger(model, jar, encoding='utf8')
+    words = nltk.word_tokenize(text)
+    print(ner_tagger.tag(words))
+    # raise Exception(1)
+
     # Converting HTML to text.
     text = html_processor.handle(text).lower()
     logger.debug("Extracted raw text. | sf_text=%s", len(text))
+
+    # Analyzing text with SpaCy.
+    doc = nlp(text)
+    logger.debug("SpaCy | sf_nouns=%s", [chunk.text for chunk in doc.noun_chunks])
+    logger.debug("SpaCy | sf_verbs=%s", [token.lemma_ for token in doc if token.pos_ == "VERB"])
+    logger.debug("SpaCy | sf_people=%s", [token.lemma_ for token in doc if token.pos_ == "PEOPLE"])
+    for ent in doc.ents:
+        logger.debug("SpaCy NER | sf_text=%s | sf_label=%s", ent.text, ent.label_)
 
     # Truncating text.
     text_array = text.split()
