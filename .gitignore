@@ -1,5 +1,7 @@
 .README.md.swp
 .env/
+./stanford-ner/
+stanford-ner/
 .think.py.swp
 *.swp
 ./data/*

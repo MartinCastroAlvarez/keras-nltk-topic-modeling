@@ -14,6 +14,7 @@ This app predicts the topic of any given text.
 - [Tagging Text with SpaCy](https://spacy.io/)
 - [Named Entity Recognition with SpaCy](https://medium.com/@manivannan_data/spacy-named-entity-recognizer-4a1eeee1d749)
 - [Tagging People in a Text using NLTK](https://stackoverflow.com/questions/31836058/nltk-named-entity-recognition-to-a-python-list)
+- [Stanford NER](https://stanfordnlp.github.io/CoreNLP/index.html#download)
 
 ## Performance
 ![epochs-alt](./models/8036_loss.png)
@@ -38,6 +39,7 @@ python3
 >>> nltk.download('maxent_ne_chunker')
 >>> nltk.download('words')
 ```
+Download the Stanford NER library from [here](https://stanfordnlp.github.io/CoreNLP/index.html#download).
 
 ### Training
 Execute the AI script to generate a prediction model:
@@ -83,50 +85,53 @@ python3 madrid.py
 The report will be available [here](./madrid.txt).
 You should get something like this:
 ```bash
-earn                           38.361453718389384
-acq                            34.587682721205056
-crude                          18.83673484873725
-trade                          15.535725293913856
-money-fx                       13.984338306530844
-grain                          11.18527954226738
-interest                       9.084325119925381
-money-supply                   9.010869763735172
-gold                           8.119331130597857
-sugar                          7.211435533587974
-ship                           6.974526333682661
-iron-steel                     5.547392673016134
-veg-oil                        4.8764860030807995
-coffee                         4.831025702154307
-oilseed                        4.789484838039357
-alum                           4.269960268394243
-gnp                            3.981431390200214
-cocoa                          3.7983843745259946
-livestock                      3.5788306686857254
-nat-gas                        3.576755495977153
-copper                         3.3934220579899375
-pet-chem                       3.3497709334728114
-dlr                            3.1494750245119576
-retail                         3.1449138861736685
-bop                            2.8899656720278983
-wheat                          2.8252493076878693
-gas                            2.795564294402169
-rubber                         2.596619936530459
-cotton                         2.590650792382064
-zinc                           2.5218286994399364
-reserves                       2.5131659550810355
-cpi                            2.5010066045738206
-strategic-metal                2.448736981924583
-ipi                            2.4057771136188393
-carcass                        2.39828788321924
-meal-feed                      2.158113595559101
-housing                        1.932318249250967
-wpi                            1.863251338560076
-orange                         1.8573605497122507
-silver                         1.80249216449441
-jobs                           1.5989608104282524
-tin                            1.5801639761332567
-lead                           1.3870372144665453
-heat                           0.9079439609377005
-lei                            0.6925697499100352
-hog                            0.07541329646483064
+[http://www.ritualroasters.com/]
+- trade: 0.47086700797080994
+- acq: 0.2597869336605072
+- earn: 0.04419371858239174
+- crude: 0.03594855219125748
+- grain: 0.019196435809135437
+- gold: 0.016572486609220505
+- oilseed: 0.016033483669161797
+- sugar: 0.012674011290073395
+- iron-steel: 0.012585194781422615
+- livestock: 0.009270072914659977
+- nat-gas: 0.009241299703717232
+- veg-oil: 0.009032214991748333
+- ship: 0.005692950449883938
+- coffee: 0.005276921205222607
+- copper: 0.004891602788120508
+- interest: 0.004873819649219513
+- bop: 0.004332657437771559
+- rubber: 0.003639825852587819
+- gas: 0.003595465561375022
+- cotton: 0.003554644761607051
+- pet-chem: 0.0034948273096233606
+- cocoa: 0.0032427709084004164
+- carcass: 0.0031560687348246574
+- retail: 0.0029264551121741533
+- silver: 0.002836642088368535
+- alum: 0.002637687139213085
+- gnp: 0.0024283200036734343
+- wheat: 0.0022102834191173315
+- ipi: 0.0022035357542335987
+- zinc: 0.002202308736741543
+- meal-feed: 0.002188275568187237
+- strategic-metal: 0.0020325281657278538
+- money-supply: 0.001999250380322337
+- reserves: 0.001982838148251176
+- dlr: 0.0018926480552181602
+- cpi: 0.0018284650286659598
+- wpi: 0.0016993408789858222
+- orange: 0.0016445540823042393
+- money-fx: 0.0014349583070725203
+- tin: 0.0011600113939493895
+I0727 12:20:29.508213 140398731085440 valencia.py:277] Score calculated. | sf_score=9.812694048844396
+[Score] 9.812694048844396
+[Stanford People] ['Sarah', 'KAVAN', 'AARON', 'VAN', 'DER', 'GROEN', 'ANDREW', 'GIBSON']
+[SpaCy Nouns] ['san francisco', '/ menu', '/ store](http://ritual.myshopify.com/) / news / locations / brew', '[/ wholesale](https://ritual-wholesale-store.myshopify.com/', '[facebook](images', 'icon.png)](https://www.facebook.com/ritualroasters', '[instagram](images', '[twitter](images/menu-twitter-icon.png)](http://twitter.com/ritualcoffee', '[flikr](images', '/about-us.png', 'a cup', 'coffee', 'nothing', 'a caffeine delivery\nvehicle', 'it', 'it', 'it', 'you', 'the morning', 'you', 'a long afternoon', 'the last decade', 'things', 'a lot', 'a few people', 'the country', 'a cup', 'coffee', 'you', 'the beans', 'farmers', 'you', 'you', 'the beans', 'yourself', 'such a\nway', 'nothing', 'the coffee', 'you', 'the coffee', 'down-to-the-second precision', 'ritual', 'a pioneer', 'this delicious shift', 'coffee consciousness', 'we', 'our doors', 'valencia street', 'what', 'san francisco', 'our goal', 'our goal', 'the very best cup', 'coffee', 'period', 'we', 'the years', 'the care', 'attention', 'we', 'our process', 'every coffee', 'it', 'our coffee bars', 'your cup', 'we', 'coffee', 'we', 'it', 'pretty much everybody', 'who', 'a moment', 'a really, really\ngood cup', 'coffee', 'their lives', '### upcoming events', '*july', '\\- cupping', 'valencia', '1 pm', '*july', '* \\- public coffee tasting', 'ritual hayes valley', '12:30 pm', '[store](images', '[shop now](http://ritual.myshopify.com/', 'our team', 'june 18th', 'free coffee', 'work', 'us', 'ritual', 'we', 'these stellar positions', '**people operations manager', 'https://www.linkedin.com/jobs/view/1309243916/', 'we', 'an experienced leader', 'who', 'people', 'coffee', '"people operations', 'ritual', 'the leader', 'systems', 'the people', 'who', 'ritual the amazing company', 'it', 'we', 'we', 'a people operations\nmanager', 'the growth', 'the culture', 'we', 'the past 14 years', 'hiring', 'retention', 'communication', 'the\npeople operations manager', 'a full-time, salaried position', 'san\nfrancisco', 'the people operations manager', 'the owner', 'your resume', 'a cover letter', 'bullet points', 'you', 'a great people operations manager', '[s@noyes-works.com](mailto:s@noyes-works.com', 'priority application deadline', 'august 9th', '*baristas', 'hayes valley', 'napa', '* :\n<https://www.localwise.com', 'job/38260-barista/18701-ritual-coffee-roasters', 'san-', 'francisco', '>\n\nritual baristas', 'the experiences', "people's eyes", 'good coffee', 'they', 'people', 'our coffee', 'our producers', 'outstanding service', 'beverage preparation', 'our baristas', 'dozens', 'fresh coffees', 'the year', 'they', 'their\nskills', 'baristas', 'ritual', 'fun', 'opportunity', 'growth', 'all jobs', 'we', 'candidates', 'the outside', 'ritual', 'a competitive wage', 'a complete benefits package', 'medical insurance', 'dental insurance', 'commuter benefits', 'sick pay', '401k\nplan', 'a resume', 'person', 'email', '](/news', 'our-team', 'previous post', '[locations](images/locations.png)\n\n### mission', '[ 1026 valencia street', 'san francisco', 'monday - friday', '6am - 8pm', '7am - 8pm', '7am - 8pm', '4th', 'july', '7am- 6pm', '### haight', '1300 haight street', 'san francisco', '(https://goo.gl/maps/m3mv39axgvm)\n\nmonday - friday', '6:30am - 7pm', '7am - 7pm', '4th', 'july', 'flora grubb gardens', '1634 jerrold ave', 'san francisco', 'monday - thursday', '- 4pm', ': 10am - 5pm', 'july', '[ 2299 market st unit', 'a  \nsan francisco', '- 5pm', 'saturday - sunday', '8am - 5pm', 'july', ': 8am', 'public market', '610 first street  \nnapa', 'california', '(http://goo.gl/maps/dxfkm', 'every day', ': 7am - 8pm', '4th', 'july', '7am - 7pm\n\n### hayes valley', 'proxy  \n432b octavia', 'san francisco', '(http://goo.gl/maps/mqvqk)\n\n(almost) every day', ': 7am - 7pm', 'july 3rd', '3pm', 'brew', '[](images', 'images', 'images', '[](images', '(images', '[](images', 'images', 'images', '[](images', '(images', '[contact', '/contact-us.png', '**general information', '*  \n[info@ritualroasters.com](mailto:info@ritualroasters.com', 'ritual roastery', '1050 howard', '**wholesale inquiries', 'april', '[wholesale@ritualroasters.com](mailto:wholesale@ritualroasters.com', '**green coffee buyer', '**  \naaron van der groen', '**catering and event inquiries', 'catering', 'requests', 'our catering site', 'andrew gibson', '[events@ritualroasters.com](mailto:events@ritualroasters.com', '**mailorder inquiries', '*  \n[mailorder@ritualroasters.com](mailto:mailorder@ritualroasters.com', '[facebook](images', 'icon.png)](https://www.facebook.com/ritualroasters', '[instagram](images/instagram-icon.png)](http://instagram.com/ritualcoffee', '[twitter](images', 'twitter-icon.png)](http://twitter.com/ritualcoffee', '[flikr](images', 'flikr-', 'news', 'events', 'offers](images', '[](images', 'ritual](images', '[privacy policy](privacy', 'policy.php', '[terms', 'conditions](terms', 'and-', '[site', 'ccxxiids](http://www.ccxxiids.com/']
+[SpaCy Verbs] ['make', 'be', 'do', 'matter', 'taste', 'have', 'slap', 'prop', 'have', 'change', 'scatter', 'discover', 'can', 'be', 'source', 'know', 'roast', 'be', 'remove', 'brew', 'have', 'be', 'open', 'start', 'call', 'be', 'craft', 'have', 'learn', 'lavish', 'be', 'include', 'taste', 'go', 'do', 'do', 'make', 'do', 'work', 'have', 'have', 'change', 'join', 'post', 'come', 'be', 'grow', 'have', 'be', 'look', 'love', 'oversee', 'will', 'develop', 'implement', 'find', 'hire', 'develop', 'celebrate', 'make', 'ritual', 'be', 'grow', 'need', 'continue', 'foster', 'have', 'create', 'be', 'base', 'apply', 'send', 'be', 'explain', 'be', 'sarah', 'be', 'project', 'valencia', 'ca', 'create', 'open', 'can', 'be', 'connect', 'exact', 'get', 'work', 'be', 'be', 'expect', 'train', 'improve', 'be', 'work', 'know', 'have', 'be', 'be', 'post', 'seek', 'offer', 'include', 'apply', 'submit', 'read', 'join', 'ca', 'saturday', 'sunday', 'ca', 'bayview', 'ca', 'sunday', 'close', 'ca', 'friday', 'oxbow', 'ca', 'close', 'a.m.', 'guide', 'click', 'ca', 'visit', 'reach', 'sign']
+[SpaCy People] []
+[NLTK People] ['Ritual Coffee Roasters', 'Ritual Coffee', 'Ritual', 'Valencia Street', 'People Operations Manager', 'Sarah', 'Baristas', 'Valencia', 'Ritual', 'San Francisco', 'San Francisco', 'Gardens', 'Jerrold Ave', 'San Francisco', 'Market St Unit', 'San Francisco', 'Oxbow Public Market', 'Street', 'San Francisco', 'CLICK']
+[NLTK Organizations] ['DOCTYPE', 'ABOUT', 'CUPPING', 'RITUAL', 'PUBLIC', 'RITUAL', 'SHOP', 'JOIN', 'POSTED', 'Ritual', 'People Operations Manager', 'People Operations', 'Hayes Valley', 'Ritual', 'LOCATIONS', 'CASTRO', 'Almost', 'Proxy', 'Almost', 'BREW', 'GO', 'CONTACT', 'GENERAL', 'INFO', 'INFO', 'HOWARD', 'WHOLESALE', 'APRIL', 'WHOLESALE', 'WHOLESALE', 'GREEN', 'AARON', 'AARON', 'AARON', 'CATERING', 'RITUAL', 'ANDREW', 'GIBSON', 'EVENTS', 'MAILORDER', 'MAILORDER', 'MAILORDER', 'NEWSLETTER', 'RITUAL', 'PRIVACY', 'TERMS', 'CONDITIONS', 'SITE', 'CCXXIIDS']
 ```

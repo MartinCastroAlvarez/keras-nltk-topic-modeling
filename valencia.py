@@ -6,8 +6,6 @@ import os
 import re
 import sys
 
-import nltk
-import spacy
 import logging
 
 import requests
@@ -18,6 +16,10 @@ from slugify import slugify
 
 from keras.datasets import reuters
 from keras.models import model_from_json
+
+import nltk
+import spacy
+from nltk.tag.stanford import StanfordNERTagger
 
 # Initializing constants.
 LOG_LEVEL = logging.INFO
@@ -31,6 +33,8 @@ PREDICTIONS_PATH = os.path.join("predictions")
 URLS_PATH = os.path.join("urls.csv")
 MADRID_PATH = os.path.join("madrid.txt")
 TEXT_TRUNCATE = (0.1, 0.7)
+STF_JAR = './stanford-ner/stanford-ner.jar'
+STF_GZ = './stanford-ner/classifiers/english.all.3class.distsim.crf.ser.gz'
 
 # Loading labels.
 LABELS = [
@@ -171,19 +175,36 @@ for url in urls:
     logger.debug("Body extracted. | sf_text=%s", len(text))
 
     # POS tagging with NLTK.
-    for sent in nltk.sent_tokenize(text):
-       for chunk in nltk.ne_chunk(nltk.pos_tag(nltk.word_tokenize(sent))):
-          if hasattr(chunk, 'label'):
-             print(chunk.label(), ' '.join(c[0] for c in chunk))
-    from nltk.tag.stanford import StanfordNERTagger
-    jar = './stanford-ner-tagger/stanford-ner.jar'
-    model = './stanford-ner-tagger/ner-model-english.ser.gz'
-    jar = ''
-    model = ''
-    ner_tagger = StanfordNERTagger(model, jar, encoding='utf8')
+    nltk_entities = [
+        (chunk.label(), ' '.join(c[0] for c in chunk))
+        for sent in nltk.sent_tokenize(text)
+        for chunk in nltk.ne_chunk(nltk.pos_tag(nltk.word_tokenize(sent)))
+        if hasattr(chunk, 'label')
+    ]
+    nltk_people = [
+        entity[1]
+        for entity in nltk_entities
+        if entity[0] == 'PERSON'
+    ]
+    nltk_organizations = [
+        entity[1]
+        for entity in nltk_entities
+        if entity[0] == 'ORGANIZATION'
+    ]
+    nltk_locations = [
+        entity[1]
+        for entity in nltk_entities
+        if entity[0] == 'GPE'
+    ]
+    logger.debug("NLTK NER. | sf_people=%s", nltk_people)
+    logger.debug("NLTK NER. | sf_location=%s", nltk_locations)
+    logger.debug("NLTK NER. | sf_organization=%s", nltk_organizations)
+
+    # POS tagging with Stanford NER tagger.
+    ner_tagger = StanfordNERTagger(STF_GZ, STF_JAR, encoding='utf8')
     words = nltk.word_tokenize(text)
-    print(ner_tagger.tag(words))
-    # raise Exception(1)
+    stf_people = [tag[0] for tag in ner_tagger.tag(words) if tag[1] == "PERSON"]
+    logger.debug("Stanford NER. | sf_people=%s", stf_people)
 
     # Converting HTML to text.
     text = html_processor.handle(text).lower()
@@ -191,11 +212,12 @@ for url in urls:
 
     # Analyzing text with SpaCy.
     doc = nlp(text)
-    logger.debug("SpaCy | sf_nouns=%s", [chunk.text for chunk in doc.noun_chunks])
-    logger.debug("SpaCy | sf_verbs=%s", [token.lemma_ for token in doc if token.pos_ == "VERB"])
-    logger.debug("SpaCy | sf_people=%s", [token.lemma_ for token in doc if token.pos_ == "PEOPLE"])
-    for ent in doc.ents:
-        logger.debug("SpaCy NER | sf_text=%s | sf_label=%s", ent.text, ent.label_)
+    spacy_nouns = [chunk.text for chunk in doc.noun_chunks]
+    spacy_verbs = [token.lemma_ for token in doc if token.pos_ == "VERB"]
+    spacy_people = [token.lemma_ for token in doc if token.pos_ == "PEOPLE"]
+    logger.debug("SpaCy | sf_nouns=%s", spacy_nouns)
+    logger.debug("SpaCy | sf_verbs=%s", spacy_verbs)
+    logger.debug("SpaCy | sf_people=%s", spacy_people)
 
     # Truncating text.
     text_array = text.split()
@@ -253,7 +275,16 @@ for url in urls:
                 valencia_score = score_by_class[label]
                 score += madrid_score * valencia_score / 2
             logger.info("Score calculated. | sf_score=%s", score)
-            print("[Score: {}]".format(score), file=file_buffer)
+            print("[Score] {}".format(score), file=file_buffer)
+
+        # Printing NLP results:
+        print("[Stanford People] {}".format(stf_people), file=file_buffer)
+        print("[SpaCy Nouns] {}".format(spacy_nouns), file=file_buffer)
+        print("[SpaCy Verbs] {}".format(spacy_verbs), file=file_buffer)
+        print("[SpaCy People] {}".format(spacy_people), file=file_buffer)
+        print("[NLTK People] {}".format(nltk_people), file=file_buffer)
+        print("[NLTK Organizations] {}".format(nltk_organizations), file=file_buffer)
+        print("[NLTK Locations] {}".format(nltk_locations), file=file_buffer)
     
     finally:
         if batch:
